@@ -67,29 +67,27 @@ pip install beautifulsoup4
 
 ### Running the Pipeline
 
-- **Test run on 5 stories**:
+- **Extract all 206 stories from Mandarin Bean**:
   ```bash
-  python3 mandarinbean_extractor.py --limit 5
+  source /home/kami/Desktop/codebase/main/bin/activate
+  python3 mandarinbean_extractor.py --no-translate
   ```
 
-- **Extract all 206 stories**:
+- **Translate stories using GPT-6 (`gpt-6-sol`)**:
   ```bash
-  python3 mandarinbean_extractor.py
+  source /home/kami/Desktop/codebase/main/bin/activate
+  python3 gpt6_story_translator.py
   ```
+  *Note*: By default, `gpt6_story_translator.py` skips the stories already translated and only processes the remaining untranslated stories. To force re-translation of all stories, pass `--force`.
 
 - **Extract all stories and download narration MP3 files**:
   ```bash
   python3 mandarinbean_extractor.py --download-audio
   ```
 
-- **Extract without automated translation (raw text & native vocabulary only)**:
+- **Test run on 5 stories**:
   ```bash
-  python3 mandarinbean_extractor.py --no-translate
-  ```
-
-- **Specify custom output folder**:
-  ```bash
-  python3 mandarinbean_extractor.py --output-dir ./mandarinbean_data
+  python3 mandarinbean_extractor.py --limit 5
   ```
 
 ---

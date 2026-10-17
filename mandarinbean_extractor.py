@@ -17,10 +17,13 @@ import csv
 import time
 import argparse
 import html
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import urllib.request
 import urllib.parse
 from bs4 import BeautifulSoup
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 BASE_URL = "https://mandarinbean.com"
 WP_API_URL = f"{BASE_URL}/wp-json/wp/v2"
@@ -35,20 +38,35 @@ class MandarinBeanPipeline:
         self.workers = workers
         self.categories_map = {}
         self.tags_map = {}
+        self._translate_lock = threading.Semaphore(6)  # High throughput concurrent translation
 
-    def _http_get(self, url, as_json=True, retries=3, delay=1.0):
-        req = urllib.request.Request(url, headers=HEADERS)
+        # Resilient requests session with retries and connection pooling
+        self.session = requests.Session()
+        retries = Retry(
+            total=5,
+            backoff_factor=1,
+            status_forcelist=[429, 500, 502, 503, 504],
+            raise_on_status=False
+        )
+        adapter = HTTPAdapter(max_retries=retries, pool_connections=10, pool_maxsize=20)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
+        self.session.headers.update(HEADERS)
+
+    def _http_get(self, url, as_json=True, retries=5, delay=1.0):
         for attempt in range(retries):
             try:
-                with urllib.request.urlopen(req, timeout=20) as resp:
-                    content = resp.read().decode("utf-8", errors="ignore")
+                resp = self.session.get(url, timeout=30)
+                if resp.status_code == 200:
                     if as_json:
-                        return json.loads(content), dict(resp.headers)
-                    return content, dict(resp.headers)
+                        return resp.json(), dict(resp.headers)
+                    return resp.text, dict(resp.headers)
+                time.sleep(delay * (attempt + 1))
             except Exception as e:
                 if attempt == retries - 1:
                     raise e
                 time.sleep(delay * (attempt + 1))
+        raise RuntimeError(f"Failed to fetch {url}")
 
     def load_taxonomies(self):
         """Fetch categories and tags to map taxonomy IDs to human-readable names."""
@@ -62,7 +80,8 @@ class MandarinBeanPipeline:
         try:
             tags, headers = self._http_get(f"{WP_API_URL}/tags?per_page=100&page=1")
             self.tags_map = {t["id"]: t["name"] for t in tags}
-            total_pages = int(headers.get("X-WP-TotalPages", 1))
+            headers_lower = {k.lower(): v for k, v in headers.items()}
+            total_pages = int(headers_lower.get("x-wp-totalpages", "1"))
             for page in range(2, total_pages + 1):
                 more_tags, _ = self._http_get(f"{WP_API_URL}/tags?per_page=100&page={page}")
                 self.tags_map.update({t["id"]: t["name"] for t in more_tags})
@@ -85,14 +104,16 @@ class MandarinBeanPipeline:
                 if not page_posts:
                     break
                 posts.extend(page_posts)
-                total_posts = int(headers.get("X-WP-Total", len(posts)))
-                print(f"    Page {page}: Retrieved {len(page_posts)} posts (Progress: {len(posts)}/{total_posts})")
+
+                headers_lower = {k.lower(): v for k, v in headers.items()}
+                total_posts = int(headers_lower.get("x-wp-total", str(len(posts))))
+                total_pages = int(headers_lower.get("x-wp-totalpages", "1"))
+                print(f"    Page {page}/{total_pages}: Retrieved {len(page_posts)} posts (Progress: {len(posts)}/{total_posts})")
 
                 if limit and len(posts) >= limit:
                     posts = posts[:limit]
                     break
 
-                total_pages = int(headers.get("X-WP-TotalPages", 1))
                 if page >= total_pages:
                     break
                 page += 1
@@ -205,25 +226,28 @@ class MandarinBeanPipeline:
             "vocabulary": vocabulary
         }
 
-    def translate_to_english(self, text, retries=3):
+    def translate_to_english(self, text, retries=4):
         """Translates Chinese text into English using Google Translate web service."""
         if not text or not self.translate_enabled:
             return ""
 
         url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q={urllib.parse.quote(text)}"
-        req = urllib.request.Request(url, headers=HEADERS)
 
         for attempt in range(retries):
             try:
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                    translated_segments = [seg[0] for seg in data[0] if seg and seg[0]]
-                    return "".join(translated_segments).strip()
+                with self._translate_lock:
+                    resp = self.session.get(url, timeout=15)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        translated_segments = [seg[0] for seg in data[0] if seg and seg[0]]
+                        time.sleep(0.05)
+                        return "".join(translated_segments).strip()
+                time.sleep(1.0 * (attempt + 1))
             except Exception as e:
                 if attempt == retries - 1:
                     print(f"[-] Translation failed for text segment: {e}")
                     return ""
-                time.sleep(1.0 * (attempt + 1))
+                time.sleep(1.5 * (attempt + 1))
         return ""
 
     def process_story(self, post):
@@ -255,15 +279,22 @@ class MandarinBeanPipeline:
         raw_html = post.get("content", {}).get("rendered", "")
         parsed = self.parse_story_content(raw_html)
 
-        # Generate English translation for each paragraph
+        # Generate English translation for the story in a single batched request
         english_paragraphs = []
+        english_full = ""
         if self.translate_enabled and parsed["simplified_paragraphs"]:
-            for para in parsed["simplified_paragraphs"]:
-                trans = self.translate_to_english(para)
-                english_paragraphs.append(trans if trans else "")
-                time.sleep(0.15)  # Respectful throttle for translate endpoint
-
-        english_full = "\n\n".join(english_paragraphs)
+            joined_text = "\n\n".join(parsed["simplified_paragraphs"])
+            english_full = self.translate_to_english(joined_text)
+            if english_full:
+                parts = [p.strip() for p in english_full.split("\n\n") if p.strip()]
+                if len(parts) == len(parsed["simplified_paragraphs"]):
+                    english_paragraphs = parts
+                else:
+                    lines = [p.strip() for p in english_full.split("\n") if p.strip()]
+                    if len(lines) == len(parsed["simplified_paragraphs"]):
+                        english_paragraphs = lines
+                    else:
+                        english_paragraphs = parts if parts else [english_full]
 
         return {
             "id": post_id,
@@ -298,17 +329,22 @@ class MandarinBeanPipeline:
         if os.path.exists(local_path) and os.path.getsize(local_path) > 0:
             return local_path
 
-        req = urllib.request.Request(audio_url, headers=HEADERS)
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp, open(local_path, "wb") as f:
-                f.write(resp.read())
-            return local_path
+            resp = self.session.get(audio_url, timeout=30)
+            if resp.status_code == 200:
+                with open(local_path, "wb") as f:
+                    f.write(resp.content)
+                return local_path
         except Exception as e:
             print(f"[-] Warning: Failed to download audio from {audio_url}: {e}")
-            return None
+        return None
 
     def export_data(self, stories):
         """Exports extracted stories into JSON, CSV, and Markdown readers."""
+        if not stories:
+            print("[-] Warning: No stories to export.")
+            return
+
         os.makedirs(self.output_dir, exist_ok=True)
         md_dir = os.path.join(self.output_dir, "readers")
         os.makedirs(md_dir, exist_ok=True)
@@ -392,16 +428,22 @@ class MandarinBeanPipeline:
             except Exception:
                 pass
 
-        print(f"[*] Processing and translating {len(posts)} stories...")
-        stories = []
-        for i, post in enumerate(posts, 1):
+        total_posts = len(posts)
+        print(f"[*] Processing and translating {total_posts} stories with {self.workers} worker threads...")
+
+        def _worker(post):
             pid = post["id"]
             title = html.unescape(post.get("title", {}).get("rendered", ""))
             if pid in cached_stories:
-                print(f"[{i}/{len(posts)}] Story ID {pid} found in cache: {title}")
                 story_data = cached_stories[pid]
+                if self.translate_enabled and not story_data.get("english_full") and story_data.get("simplified_full"):
+                    print(f"[*] Retrying missing translation for story {pid}: {title[:35]}")
+                    trans = self.translate_to_english(story_data["simplified_full"])
+                    if trans:
+                        story_data["english_full"] = trans
+                        story_data["english_paragraphs"] = [p.strip() for p in trans.split("\n\n") if p.strip()]
+                        cached_stories[pid] = story_data
             else:
-                print(f"[{i}/{len(posts)}] Extracting and translating story ID {pid}: {title}")
                 story_data = self.process_story(post)
                 cached_stories[pid] = story_data
 
@@ -410,16 +452,34 @@ class MandarinBeanPipeline:
                 local_audio = self.download_audio_file(story_data["audio_url"], audio_file)
                 story_data["local_audio"] = local_audio
 
-            stories.append(story_data)
+            return post["id"], story_data
 
-            # Update cache periodically
-            if i % 10 == 0 or i == len(posts):
-                os.makedirs(self.output_dir, exist_ok=True)
-                with open(cache_file, "w", encoding="utf-8") as f:
-                    json.dump(list(cached_stories.values()), f, ensure_ascii=False, indent=2)
+        stories_by_id = {}
+        completed_count = 0
+
+        with ThreadPoolExecutor(max_workers=self.workers) as executor:
+            future_to_post = {executor.submit(_worker, post): post for post in posts}
+            for future in as_completed(future_to_post):
+                post = future_to_post[future]
+                completed_count += 1
+                try:
+                    pid, story_data = future.result()
+                    stories_by_id[pid] = story_data
+                    title = story_data.get("title", "")
+                    print(f"[{completed_count}/{total_posts}] Completed story ID {pid}: {title[:40]}")
+                except Exception as e:
+                    print(f"[-] Error processing post {post.get('id')}: {e}")
+
+                if completed_count % 15 == 0 or completed_count == total_posts:
+                    os.makedirs(self.output_dir, exist_ok=True)
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(list(cached_stories.values()), f, ensure_ascii=False, indent=2)
+
+        # Preserve original post ordering
+        stories = [stories_by_id[p["id"]] for p in posts if p["id"] in stories_by_id]
 
         self.export_data(stories)
-        print("[+] Pipeline finished successfully!")
+        print(f"[+] Successfully extracted and exported all {len(stories)} stories!")
         return stories
 
 
@@ -429,10 +489,12 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", type=str, default="data/mandarinbean_stories", help="Output directory")
     parser.add_argument("--no-translate", action="store_true", help="Disable automatic English translation")
     parser.add_argument("--download-audio", action="store_true", help="Download MP3 audio narration files locally")
+    parser.add_argument("--workers", type=int, default=8, help="Number of concurrent worker threads (default: 8)")
     args = parser.parse_args()
 
     pipeline = MandarinBeanPipeline(
         output_dir=args.output_dir,
-        translate=not args.no_translate
+        translate=not args.no_translate,
+        workers=args.workers
     )
     pipeline.run(limit=args.limit, download_audio=args.download_audio)

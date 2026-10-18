@@ -235,10 +235,12 @@
         item.onclick = () => selectStory(s.id);
 
         const badgeClass = s.level === 'Beginner' ? 'badge-beginner' : (s.level === 'Intermediate' ? 'badge-intermediate' : 'badge-advanced');
-        const displayTitle = (currentLang === 'japanese' && s.japanese_title) ? `${s.japanese_title} (${s.title})` : s.title;
+        const displayTitle = (currentLang === 'japanese' && s.japanese_title) ? s.japanese_title : s.title;
+        const subTitleHtml = (currentLang === 'japanese' && s.title) ? `<div style="font-size:11px; color:#94a3b8; font-weight:normal; margin-top:2px;">${s.title}</div>` : '';
 
         item.innerHTML = `
           <div class="story-item-title">${displayTitle}</div>
+          ${subTitleHtml}
           <div class="story-item-meta">
             <span class="badge ${badgeClass}">${s.level}</span>
             <span>${(s.hsk_tags && s.hsk_tags.length) ? s.hsk_tags.join(', ') : ''}</span>
@@ -260,9 +262,10 @@
       const titleEl = document.getElementById('story-title');
       const metaEl = document.getElementById('story-meta');
       titleEl.textContent = (currentLang === 'japanese' && currentStory.japanese_title) 
-        ? `${currentStory.japanese_title} (${currentStory.title})` 
+        ? currentStory.japanese_title 
         : currentStory.title;
-      metaEl.innerHTML = `Level: <strong>${currentStory.level}</strong> &bull; HSK/JLPT: ${currentStory.hsk_tags ? currentStory.hsk_tags.join(', ') : 'N/A'}`;
+      const subtitle = (currentLang === 'japanese' && currentStory.title) ? `<div style="font-size:14px; color:#64748b; font-weight:normal; margin-bottom:4px;">English: <em>${currentStory.title}</em></div>` : '';
+      metaEl.innerHTML = `${subtitle}Level: <strong>${currentStory.level}</strong> &bull; HSK/JLPT: ${currentStory.hsk_tags ? currentStory.hsk_tags.join(', ') : 'N/A'}`;
 
       // Audio
       const audioContainer = document.getElementById('audio-container');
@@ -333,27 +336,18 @@
 
     function renderJapaneseStory(container) {
       const jaParas = currentStory.japanese_paragraphs || [];
-      const rdParas = currentStory.reading_paragraphs || [];
+      const rubyParas = currentStory.ruby_paragraphs || [];
       const enParas = currentStory.english_paragraphs || [];
-      const vocabList = currentStory.vocabulary || [];
-      const vocabMap = {};
-      vocabList.forEach(v => { vocabMap[v.word] = v; });
 
       jaParas.forEach((ja, idx) => {
         const pEl = document.createElement('div');
         pEl.className = 'story-paragraph';
 
-        const rd = rdParas[idx] || '';
-        // Wrap recognized vocabulary with tooltips
-        let htmlStr = ja;
-        vocabList.forEach(v => {
-          if (v.word && htmlStr.includes(v.word)) {
-            const rubyTag = `<ruby class="mb-tooltip" data-py="${v.reading}" data-defn="${escapeHtml(v.definition)}" data-hsk="${v.jlpt ? 'JLPT ' + v.jlpt : ''}"><span class="si">${v.word}</span><rt>${v.reading}</rt></ruby>`;
-            htmlStr = htmlStr.split(v.word).join(rubyTag);
-          }
-        });
-
-        pEl.innerHTML = htmlStr;
+        if (rubyParas[idx]) {
+          pEl.innerHTML = rubyParas[idx];
+        } else {
+          pEl.textContent = ja;
+        }
 
         if (enParas[idx]) {
           const transBox = document.createElement('div');

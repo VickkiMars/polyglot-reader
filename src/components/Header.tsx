@@ -2,7 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Download, Check, X, Share2, Laptop, Smartphone } from "lucide-react";
+import { Download, Check, Sparkles } from "lucide-react";
+import InstallOfflineModal from "./InstallOfflineModal";
+import { offlineDownloadManager, DownloadProgress, PackStatus } from "@/lib/offlineDownloadManager";
 
 interface HeaderProps {
   currentLanguage: "mandarin" | "japanese";
@@ -18,6 +20,8 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstalled, setIsInstalled] = useState(false);
   const [showInstallModal, setShowInstallModal] = useState(false);
+  const [packStatus, setPackStatus] = useState<PackStatus | null>(null);
+  const [activeProgress, setActiveProgress] = useState<DownloadProgress | null>(null);
 
   useEffect(() => {
     // Register service worker for offline support & installability
@@ -56,23 +60,37 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
     };
   }, []);
 
-  const handleInstallClick = async () => {
-    if (deferredPrompt) {
-      try {
-        await deferredPrompt.prompt();
-        const choice = await deferredPrompt.userChoice;
-        if (choice.outcome === "accepted") {
-          setIsInstalled(true);
+  // Check language pack status on mount and when language changes
+  useEffect(() => {
+    let mounted = true;
+    offlineDownloadManager
+      .checkStatus(currentLanguage)
+      .then((status) => {
+        if (mounted) setPackStatus(status);
+      })
+      .catch(() => {});
+
+    const unsubscribe = offlineDownloadManager.subscribe((p) => {
+      if (mounted) {
+        setActiveProgress(p);
+        if (p.stage === "completed" || p.stage === "error") {
+          offlineDownloadManager.checkStatus(currentLanguage).then(setPackStatus).catch(() => {});
         }
-        setDeferredPrompt(null);
-      } catch (err) {
-        console.debug("Install prompt error:", err);
-        setShowInstallModal(true);
       }
-    } else {
-      setShowInstallModal(true);
-    }
+    });
+
+    return () => {
+      mounted = false;
+      unsubscribe();
+    };
+  }, [currentLanguage]);
+
+  const handleInstallClick = () => {
+    setShowInstallModal(true);
   };
+
+  const isDownloading = activeProgress && activeProgress.stage === "downloading";
+  const isOfflineReady = packStatus?.isTextComplete && packStatus?.isAudioComplete;
 
   return (
     <>
@@ -127,19 +145,35 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
               </button>
             </div>
 
-            {/* Install Button */}
+            {/* Install & Offline Pack Button */}
             <button
               type="button"
               onClick={handleInstallClick}
               className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-tight transition-all duration-200 cursor-pointer min-h-[36px] shadow-xs active:scale-95 border ${
-                isInstalled
+                isDownloading
+                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
+                  : isOfflineReady
+                  ? "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300"
+                  : isInstalled
                   ? "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300"
                   : "bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-surface)] hover:text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-outline-variant)]/60"
               }`}
-              aria-label={isInstalled ? "PolyglotReader is installed" : "Install PolyglotReader App"}
-              title={isInstalled ? "App Installed" : "Install App for Offline Reading"}
+              aria-label="Install App and Offline Audio"
+              title="Install App & Download Offline Audio"
             >
-              {isInstalled ? (
+              {isDownloading ? (
+                <>
+                  <span className="w-2.5 h-2.5 rounded-full bg-[var(--md-sys-color-primary)] animate-ping shrink-0" />
+                  <span>
+                    Downloading {activeProgress ? `${activeProgress.percentage.toFixed(0)}%` : ""}
+                  </span>
+                </>
+              ) : isOfflineReady ? (
+                <>
+                  <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                  <span className="hidden xs:inline font-medium">Offline Ready</span>
+                </>
+              ) : isInstalled ? (
                 <>
                   <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
                   <span className="hidden xs:inline font-medium">Installed</span>
@@ -155,108 +189,16 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
         </div>
       </header>
 
-      {/* Install Instructions Modal */}
-      {showInstallModal && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs animate-in fade-in duration-200"
-          role="dialog"
-          aria-modal="true"
-          onClick={() => setShowInstallModal(false)}
-        >
-          <div
-            className="w-full max-w-md bg-[var(--md-sys-color-surface-container-lowest)] rounded-3xl p-6 shadow-2xl border border-[var(--md-sys-color-outline-variant)]/60 text-[var(--md-sys-color-on-surface)] relative animate-in zoom-in-95 duration-150"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close button */}
-            <button
-              onClick={() => setShowInstallModal(false)}
-              className="absolute top-5 right-5 p-2 rounded-full text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-high)] transition-colors cursor-pointer"
-              aria-label="Close modal"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            {/* Header info */}
-            <div className="flex items-center gap-3.5 mb-4">
-              <div className="w-12 h-12 rounded-2xl bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] flex items-center justify-center font-cjk font-bold text-xl shadow-xs shrink-0">
-                語
-              </div>
-              <div>
-                <h3 className="font-montserrat font-bold text-lg text-[var(--md-sys-color-on-surface)] leading-snug">
-                  Install PolyglotReader
-                </h3>
-                <p className="text-xs text-[var(--md-sys-color-on-surface-variant)]">
-                  Fast, offline-ready East Asian graded reader
-                </p>
-              </div>
-            </div>
-
-            {/* Instructions list */}
-            <div className="space-y-3.5 my-5 text-xs text-[var(--md-sys-color-on-surface)]">
-              {deferredPrompt && (
-                <div className="p-3 rounded-2xl bg-[var(--md-sys-color-primary-container)]/50 border border-[var(--md-sys-color-primary)]/20 flex items-center justify-between gap-3">
-                  <span className="font-medium text-[var(--md-sys-color-on-primary-container)]">
-                    Ready to install on this device
-                  </span>
-                  <button
-                    onClick={handleInstallClick}
-                    className="px-3.5 py-1.5 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs cursor-pointer shadow-xs hover:opacity-95"
-                  >
-                    Install Now
-                  </button>
-                </div>
-              )}
-
-              <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 flex items-start gap-3">
-                <Laptop className="w-4 h-4 text-[var(--md-sys-color-primary)] mt-0.5 shrink-0" />
-                <div className="flex-1">
-                  <p className="font-semibold text-[var(--md-sys-color-on-surface)] mb-1">
-                    Chrome, Edge & Brave (Desktop)
-                  </p>
-                  <p className="text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
-                    Click the <strong className="text-[var(--md-sys-color-on-surface)] font-medium">Install</strong> icon in the address bar (or menu ⋮ → <strong className="text-[var(--md-sys-color-on-surface)] font-medium">Install PolyglotReader</strong>).
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 flex items-start gap-3">
-                <Smartphone className="w-4 h-4 text-[var(--md-sys-color-tertiary)] mt-0.5 shrink-0" />
-                <div className="flex-1">
-                  <p className="font-semibold text-[var(--md-sys-color-on-surface)] mb-1">
-                    iOS Safari (iPhone / iPad)
-                  </p>
-                  <p className="text-[var(--md-sys-color-on-surface-variant)] leading-relaxed flex items-center flex-wrap gap-1">
-                    Tap the Share icon <Share2 className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] inline mx-0.5" /> in the bottom bar, then tap <strong className="text-[var(--md-sys-color-on-surface)] font-medium">&quot;Add to Home Screen&quot;</strong>.
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 flex items-start gap-3">
-                <Smartphone className="w-4 h-4 text-[var(--md-sys-color-primary)] mt-0.5 shrink-0" />
-                <div className="flex-1">
-                  <p className="font-semibold text-[var(--md-sys-color-on-surface)] mb-1">
-                    Android (Chrome)
-                  </p>
-                  <p className="text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
-                    Tap the browser menu ⋮ and select <strong className="text-[var(--md-sys-color-on-surface)] font-medium">&quot;Install app&quot;</strong> or &quot;Add to Home Screen&quot;.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Footer action */}
-            <div className="flex justify-end pt-2">
-              <button
-                type="button"
-                onClick={() => setShowInstallModal(false)}
-                className="px-5 py-2 rounded-full bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] font-semibold text-xs transition-colors cursor-pointer"
-              >
-                Done
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Comprehensive Install & Offline Audio Management Modal */}
+      <InstallOfflineModal
+        isOpen={showInstallModal}
+        onClose={() => setShowInstallModal(false)}
+        currentLanguage={currentLanguage}
+        onLanguageChange={onLanguageChange}
+        deferredPrompt={deferredPrompt}
+        isAppInstalled={isInstalled}
+        onAppInstalled={() => setIsInstalled(true)}
+      />
     </>
   );
 }

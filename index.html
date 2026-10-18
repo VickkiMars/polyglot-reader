@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MandarinBean Reader (Polyglot Clone)</title>
+  <style>
+    /* ponytail: single-file vanilla CSS mirroring MandarinBean's clean typography and controls */
+    :root {
+      --primary: #0094C6;
+      --primary-hover: #007ba6;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --rt-color: #af9c0a;
+      --badge-beginner: #10b981;
+      --badge-intermediate: #f59e0b;
+      --badge-advanced: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); display: flex; height: 100vh; overflow: hidden; }
+
+    /* Sidebar */
+    #sidebar { width: 340px; background: var(--card-bg); border-right: 1px solid var(--border); display: flex; flex-direction: column; flex-shrink: 0; }
+    .sidebar-header { padding: 16px; border-bottom: 1px solid var(--border); }
+    .brand { font-size: 18px; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .lang-switcher { display: flex; gap: 6px; margin-bottom: 10px; }
+    .lang-btn { flex: 1; padding: 7px; border: 1px solid var(--border); background: var(--bg); border-radius: 6px; font-weight: 600; font-size: 13px; cursor: pointer; transition: 0.2s; }
+    .lang-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .search-box { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; margin-bottom: 8px; outline: none; }
+    .filter-pills { display: flex; gap: 4px; overflow-x: auto; padding-bottom: 4px; }
+    .filter-btn { padding: 4px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; border: 1px solid var(--border); background: #fff; cursor: pointer; white-space: nowrap; }
+    .filter-btn.active { background: var(--text); color: #fff; border-color: var(--text); }
+    .story-list { flex: 1; overflow-y: auto; padding: 8px; }
+    .story-item { padding: 10px 12px; border-radius: 6px; cursor: pointer; transition: 0.15s; margin-bottom: 4px; }
+    .story-item:hover { background: #f1f5f9; }
+    .story-item.active { background: #e0f2fe; border-left: 3px solid var(--primary); }
+    .story-item-title { font-size: 14px; font-weight: 600; line-height: 1.3; }
+    .story-item-meta { display: flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 11px; color: var(--muted); }
+    .badge { padding: 2px 6px; border-radius: 4px; font-weight: 700; font-size: 10px; color: #fff; }
+    .badge-beginner { background: var(--badge-beginner); }
+    .badge-intermediate { background: var(--badge-intermediate); }
+    .badge-advanced { background: var(--badge-advanced); }
+
+    /* Main Reader */
+    #main { flex: 1; display: flex; flex-direction: column; overflow-y: auto; }
+    .reader-header { padding: 24px 36px 16px; background: var(--card-bg); border-bottom: 1px solid var(--border); }
+    .title-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 12px; }
+    .story-title { font-size: 26px; font-weight: 700; color: #0f172a; }
+    .controls-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; }
+    .btn-ctrl { padding: 6px 12px; background: var(--primary); color: #fff; border: none; border-radius: 4px; font-weight: 600; font-size: 13px; cursor: pointer; transition: 0.15s; }
+    .btn-ctrl:hover { background: var(--primary-hover); }
+    .btn-ctrl.off { background: #94a3b8; }
+
+    /* Audio Player mirroring MandarinBean mbap-player */
+    .audio-container { margin-top: 16px; padding: 12px 16px; background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    audio { flex: 1; min-width: 250px; height: 36px; }
+    .speed-group { display: flex; gap: 4px; }
+    .speed-btn { padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; background: #fff; font-size: 11px; font-weight: 600; cursor: pointer; }
+    .speed-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    /* Content Area */
+    .content-area { padding: 32px 36px 64px; max-width: 900px; margin: 0 auto; width: 100%; }
+    .story-paragraph { margin-bottom: 24px; line-height: 2.4; font-size: 20px; }
+    
+    /* Ruby & Character Styling */
+    ruby { ruby-align: center; margin: 0 2px; cursor: pointer; border-radius: 3px; position: relative; }
+    ruby:hover { background: #fef08a; border-bottom: 2px dashed #ca8a04; }
+    rt { font-size: 14px; color: var(--rt-color); font-weight: 500; font-family: sans-serif; user-select: none; }
+    span.tr { display: none; }
+    .traditional span.si { display: none; }
+    .traditional span.tr { display: inline; }
+    .pinyin-off rt { display: none !important; }
+    .space-off ruby { margin: 0 !important; }
+
+    /* Translation block */
+    .translation-box { margin-top: 8px; padding: 10px 14px; background: #f1f5f9; border-left: 3px solid var(--primary); border-radius: 0 6px 6px 0; font-size: 15px; line-height: 1.6; color: #334155; }
+    .translation-hidden .translation-box { display: none; }
+
+    /* Tooltip */
+    #tooltip { position: fixed; display: none; z-index: 1000; background: #1e293b; color: #fff; padding: 8px 12px; border-radius: 6px; font-size: 13px; box-shadow: 0 4px 14px rgba(0,0,0,0.25); max-width: 280px; pointer-events: none; }
+    #tooltip .tt-pinyin { color: #facc15; font-weight: 700; margin-bottom: 3px; }
+    #tooltip .tt-defn { font-size: 12px; line-height: 1.4; color: #e2e8f0; }
+    #tooltip .tt-hsk { display: inline-block; margin-top: 4px; padding: 2px 5px; background: #334155; border-radius: 3px; font-size: 10px; font-weight: 700; color: #38bdf8; }
+
+    /* Vocab Table */
+    .vocab-section { margin-top: 48px; border-top: 2px solid var(--border); padding-top: 24px; }
+    .vocab-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+    .vocab-table th, .vocab-table td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+    .vocab-table th { background: #f8fafc; color: var(--muted); font-size: 12px; text-transform: uppercase; }
+  </style>
+  <script src="stories_mandarin.js"></script>
+  <script src="stories_japanese.js"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="sidebar-header">
+      <div class="brand">
+        <span>🌱 MandarinBean Polyglot</span>
+      </div>
+      <div class="lang-switcher">
+        <button class="lang-btn active" id="btn-mandarin" onclick="switchLanguage('mandarin')">🇨🇳 Mandarin</button>
+        <button class="lang-btn" id="btn-japanese" onclick="switchLanguage('japanese')">🇯🇵 Japanese</button>
+      </div>
+      <input type="text" class="search-box" id="search-input" placeholder="Search stories..." oninput="filterStories()">
+      <div class="filter-pills" id="level-filters">
+        <button class="filter-btn active" onclick="setLevelFilter('all')">All</button>
+        <button class="filter-btn" onclick="setLevelFilter('Beginner')">Beginner</button>
+        <button class="filter-btn" onclick="setLevelFilter('Intermediate')">Intermediate</button>
+        <button class="filter-btn" onclick="setLevelFilter('Advanced')">Advanced</button>
+      </div>
+    </div>
+    <div class="story-list" id="story-list"></div>
+  </div>
+
+  <!-- Main View -->
+  <div id="main">
+    <div class="reader-header">
+      <div class="title-row">
+        <div>
+          <h1 class="story-title" id="story-title">Select a Story</h1>
+          <div style="margin-top: 6px; font-size: 13px; color: var(--muted);" id="story-meta"></div>
+        </div>
+      </div>
+      
+      <!-- Switchers mirroring MandarinBean -->
+      <div class="controls-bar">
+        <button class="btn-ctrl" id="btn-convert" onclick="toggleScript()">Simplified</button>
+        <button class="btn-ctrl" id="btn-pinyin" onclick="togglePinyin()">Pinyin On</button>
+        <button class="btn-ctrl" id="btn-space" onclick="toggleSpace()">Space On</button>
+        <button class="btn-ctrl" id="btn-trans" onclick="toggleTranslation()">Translation On</button>
+      </div>
+
+      <!-- Audio Narration Player -->
+      <div class="audio-container" id="audio-container" style="display:none;">
+        <audio id="audio-player" controls preload="none"></audio>
+        <div class="speed-group">
+          <button class="speed-btn" onclick="setSpeed(0.75)">0.75×</button>
+          <button class="speed-btn active" onclick="setSpeed(1.0)">1.0×</button>
+          <button class="speed-btn" onclick="setSpeed(1.25)">1.25×</button>
+          <button class="speed-btn" onclick="setSpeed(1.5)">1.5×</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reader Body -->
+    <div class="content-area" id="reader-body">
+      <div id="story-content"></div>
+      <div class="vocab-section" id="vocab-section" style="display:none;">
+        <h3 style="font-size: 18px; margin-bottom: 8px;">Vocabulary & Grammar Notes</h3>
+        <table class="vocab-table">
+          <thead id="vocab-head"></thead>
+          <tbody id="vocab-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Floating Tooltip -->
+  <div id="tooltip">
+    <div class="tt-pinyin" id="tt-pinyin"></div>
+    <div class="tt-defn" id="tt-defn"></div>
+    <div class="tt-hsk" id="tt-hsk"></div>
+  </div>
+
+  <script>
+    // ponytail: clean state store with zero external libraries
+    let currentLang = 'mandarin';
+    let currentStories = [];
+    let currentStory = null;
+    let selectedLevel = 'all';
+    let isTraditional = false;
+    let isPinyinOn = true;
+    let isSpaceOn = true;
+    let isTranslationOn = true;
+
+    function init() {
+      switchLanguage('mandarin');
+      setupTooltipListeners();
+    }
+
+    function switchLanguage(lang) {
+      currentLang = lang;
+      document.getElementById('btn-mandarin').classList.toggle('active', lang === 'mandarin');
+      document.getElementById('btn-japanese').classList.toggle('active', lang === 'japanese');
+
+      const btnConvert = document.getElementById('btn-convert');
+      const btnPinyin = document.getElementById('btn-pinyin');
+      if (lang === 'japanese') {
+        btnConvert.style.display = 'none';
+        btnPinyin.textContent = isPinyinOn ? 'Reading On' : 'Reading Off';
+      } else {
+        btnConvert.style.display = 'inline-block';
+        btnConvert.textContent = isTraditional ? 'Traditional' : 'Simplified';
+        btnPinyin.textContent = isPinyinOn ? 'Pinyin On' : 'Pinyin Off';
+      }
+
+      currentStories = (lang === 'mandarin') 
+        ? (window.MANDARIN_STORIES || []) 
+        : (window.JAPANESE_STORIES || []);
+
+      filterStories();
+      if (currentStories.length > 0) {
+        selectStory(currentStories[0].id);
+      }
+    }
+
+    function setLevelFilter(level) {
+      selectedLevel = level;
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.toggle('active', b.textContent.toLowerCase() === level.toLowerCase());
+      });
+      filterStories();
+    }
+
+    function filterStories() {
+      const q = document.getElementById('search-input').value.toLowerCase();
+      const listEl = document.getElementById('story-list');
+      listEl.innerHTML = '';
+
+      const filtered = currentStories.filter(s => {
+        const matchesLevel = (selectedLevel === 'all') || (s.level === selectedLevel);
+        const titleMatch = (s.title && s.title.toLowerCase().includes(q)) || 
+                           (s.japanese_title && s.japanese_title.toLowerCase().includes(q));
+        return matchesLevel && titleMatch;
+      });
+
+      filtered.forEach(s => {
+        const item = document.createElement('div');
+        item.className = 'story-item' + (currentStory && currentStory.id === s.id ? ' active' : '');
+        item.onclick = () => selectStory(s.id);
+
+        const badgeClass = s.level === 'Beginner' ? 'badge-beginner' : (s.level === 'Intermediate' ? 'badge-intermediate' : 'badge-advanced');
+        const displayTitle = (currentLang === 'japanese' && s.japanese_title) ? `${s.japanese_title} (${s.title})` : s.title;
+
+        item.innerHTML = `
+          <div class="story-item-title">${displayTitle}</div>
+          <div class="story-item-meta">
+            <span class="badge ${badgeClass}">${s.level}</span>
+            <span>${(s.hsk_tags && s.hsk_tags.length) ? s.hsk_tags.join(', ') : ''}</span>
+          </div>
+        `;
+        listEl.appendChild(item);
+      });
+    }
+
+    function selectStory(id) {
+      currentStory = currentStories.find(s => s.id === id);
+      if (!currentStory) return;
+
+      document.querySelectorAll('.story-item').forEach(el => {
+        el.classList.toggle('active', el.textContent.includes(currentStory.title));
+      });
+
+      // Header info
+      const titleEl = document.getElementById('story-title');
+      const metaEl = document.getElementById('story-meta');
+      titleEl.textContent = (currentLang === 'japanese' && currentStory.japanese_title) 
+        ? `${currentStory.japanese_title} (${currentStory.title})` 
+        : currentStory.title;
+      metaEl.innerHTML = `Level: <strong>${currentStory.level}</strong> &bull; HSK/JLPT: ${currentStory.hsk_tags ? currentStory.hsk_tags.join(', ') : 'N/A'}`;
+
+      // Audio
+      const audioContainer = document.getElementById('audio-container');
+      const audioPlayer = document.getElementById('audio-player');
+      if (currentStory.audio_url) {
+        audioContainer.style.display = 'flex';
+        audioPlayer.src = currentStory.audio_url;
+      } else {
+        audioContainer.style.display = 'none';
+        audioPlayer.src = '';
+      }
+
+      // Render Content
+      renderContent();
+      renderVocab();
+    }
+
+    function renderContent() {
+      const contentEl = document.getElementById('story-content');
+      contentEl.innerHTML = '';
+      contentEl.className = (isTraditional ? 'traditional ' : '') + 
+                            (!isPinyinOn ? 'pinyin-off ' : '') + 
+                            (!isSpaceOn ? 'space-off ' : '') + 
+                            (!isTranslationOn ? 'translation-hidden ' : '');
+
+      if (currentLang === 'mandarin') {
+        renderMandarinStory(contentEl);
+      } else {
+        renderJapaneseStory(contentEl);
+      }
+    }
+
+    function renderMandarinStory(container) {
+      const simParas = currentStory.simplified_paragraphs || [];
+      const trParas = currentStory.traditional_paragraphs || [];
+      const pyParas = currentStory.pinyin_paragraphs || [];
+      const enParas = currentStory.english_paragraphs || [];
+      const vocabMap = {};
+      (currentStory.vocabulary || []).forEach(v => { vocabMap[v.word_simplified] = v; });
+
+      simParas.forEach((sim, idx) => {
+        const pEl = document.createElement('div');
+        pEl.className = 'story-paragraph';
+
+        // Split into words from vocab dictionary or fallback to characters
+        const words = tokeniseChinese(sim, vocabMap);
+        words.forEach(w => {
+          if (w.isWord) {
+            const tr = w.vocab.word_traditional || w.word;
+            const py = w.vocab.pinyin || '';
+            const defn = w.vocab.definition || '';
+            const hsk = w.vocab.old_hsk || w.vocab.new_hsk || '';
+            pEl.innerHTML += `<ruby class="mb-tooltip" data-py="${py}" data-defn="${escapeHtml(defn)}" data-hsk="${hsk ? 'HSK ' + hsk : ''}"><span class="si">${w.word}</span><span class="tr">${tr}</span><rt>${py}</rt></ruby>`;
+          } else {
+            pEl.appendChild(document.createTextNode(w.text));
+          }
+        });
+
+        if (enParas[idx]) {
+          const transBox = document.createElement('div');
+          transBox.className = 'translation-box';
+          transBox.textContent = enParas[idx];
+          pEl.appendChild(transBox);
+        }
+        container.appendChild(pEl);
+      });
+    }
+
+    function renderJapaneseStory(container) {
+      const jaParas = currentStory.japanese_paragraphs || [];
+      const rdParas = currentStory.reading_paragraphs || [];
+      const enParas = currentStory.english_paragraphs || [];
+      const vocabList = currentStory.vocabulary || [];
+      const vocabMap = {};
+      vocabList.forEach(v => { vocabMap[v.word] = v; });
+
+      jaParas.forEach((ja, idx) => {
+        const pEl = document.createElement('div');
+        pEl.className = 'story-paragraph';
+
+        const rd = rdParas[idx] || '';
+        // Wrap recognized vocabulary with tooltips
+        let htmlStr = ja;
+        vocabList.forEach(v => {
+          if (v.word && htmlStr.includes(v.word)) {
+            const rubyTag = `<ruby class="mb-tooltip" data-py="${v.reading}" data-defn="${escapeHtml(v.definition)}" data-hsk="${v.jlpt ? 'JLPT ' + v.jlpt : ''}"><span class="si">${v.word}</span><rt>${v.reading}</rt></ruby>`;
+            htmlStr = htmlStr.split(v.word).join(rubyTag);
+          }
+        });
+
+        pEl.innerHTML = htmlStr;
+
+        if (enParas[idx]) {
+          const transBox = document.createElement('div');
+          transBox.className = 'translation-box';
+          transBox.textContent = enParas[idx];
+          pEl.appendChild(transBox);
+        }
+        container.appendChild(pEl);
+      });
+    }
+
+    function tokeniseChinese(text, vocabMap) {
+      const tokens = [];
+      let i = 0;
+      const vocabWords = Object.keys(vocabMap).sort((a,b) => b.length - a.length);
+
+      while (i < text.length) {
+        let matched = false;
+        for (const w of vocabWords) {
+          if (text.startsWith(w, i)) {
+            tokens.push({ isWord: true, word: w, vocab: vocabMap[w] });
+            i += w.length;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          tokens.push({ isWord: false, text: text[i] });
+          i++;
+        }
+      }
+      return tokens;
+    }
+
+    function renderVocab() {
+      const vocabSection = document.getElementById('vocab-section');
+      const thead = document.getElementById('vocab-head');
+      const tbody = document.getElementById('vocab-body');
+      tbody.innerHTML = '';
+
+      const vocab = currentStory.vocabulary || [];
+      if (!vocab.length) {
+        vocabSection.style.display = 'none';
+        return;
+      }
+      vocabSection.style.display = 'block';
+
+      if (currentLang === 'mandarin') {
+        thead.innerHTML = `<tr><th>Simplified</th><th>Traditional</th><th>Pinyin</th><th>Definition</th><th>Level</th></tr>`;
+        vocab.forEach(v => {
+          tbody.innerHTML += `<tr>
+            <td><strong>${v.word_simplified}</strong></td>
+            <td>${v.word_traditional || '-'}</td>
+            <td style="color:var(--rt-color); font-weight:600;">${v.pinyin || '-'}</td>
+            <td>${v.definition || '-'}</td>
+            <td><span class="badge" style="background:#0284c7;">HSK ${v.old_hsk || v.new_hsk || '-'}</span></td>
+          </tr>`;
+        });
+      } else {
+        thead.innerHTML = `<tr><th>Japanese</th><th>Reading</th><th>Definition</th><th>Level</th></tr>`;
+        vocab.forEach(v => {
+          tbody.innerHTML += `<tr>
+            <td><strong>${v.word}</strong></td>
+            <td style="color:var(--rt-color); font-weight:600;">${v.reading || '-'}</td>
+            <td>${v.definition || '-'}</td>
+            <td><span class="badge" style="background:#7c3aed;">${v.jlpt || '-'}</span></td>
+          </tr>`;
+        });
+      }
+    }
+
+    /* Switcher controls mirroring MandarinBean */
+    function toggleScript() {
+      isTraditional = !isTraditional;
+      document.getElementById('btn-convert').textContent = isTraditional ? 'Traditional' : 'Simplified';
+      document.getElementById('story-content').classList.toggle('traditional', isTraditional);
+    }
+    function togglePinyin() {
+      isPinyinOn = !isPinyinOn;
+      const label = currentLang === 'japanese' ? 'Reading' : 'Pinyin';
+      document.getElementById('btn-pinyin').textContent = `${label} ${isPinyinOn ? 'On' : 'Off'}`;
+      document.getElementById('btn-pinyin').classList.toggle('off', !isPinyinOn);
+      document.getElementById('story-content').classList.toggle('pinyin-off', !isPinyinOn);
+    }
+    function toggleSpace() {
+      isSpaceOn = !isSpaceOn;
+      document.getElementById('btn-space').textContent = `Space ${isSpaceOn ? 'On' : 'Off'}`;
+      document.getElementById('btn-space').classList.toggle('off', !isSpaceOn);
+      document.getElementById('story-content').classList.toggle('space-off', !isSpaceOn);
+    }
+    function toggleTranslation() {
+      isTranslationOn = !isTranslationOn;
+      document.getElementById('btn-trans').textContent = `Translation ${isTranslationOn ? 'On' : 'Off'}`;
+      document.getElementById('btn-trans').classList.toggle('off', !isTranslationOn);
+      document.getElementById('story-content').classList.toggle('translation-hidden', !isTranslationOn);
+    }
+
+    function setSpeed(rate) {
+      const audio = document.getElementById('audio-player');
+      audio.playbackRate = rate;
+      document.querySelectorAll('.speed-btn').forEach(b => {
+        b.classList.toggle('active', parseFloat(b.textContent) === rate);
+      });
+    }
+
+    function setupTooltipListeners() {
+      const tt = document.getElementById('tooltip');
+      const pyEl = document.getElementById('tt-pinyin');
+      const defnEl = document.getElementById('tt-defn');
+      const hskEl = document.getElementById('tt-hsk');
+
+      document.addEventListener('mouseover', e => {
+        const ruby = e.target.closest('ruby.mb-tooltip');
+        if (ruby) {
+          const py = ruby.getAttribute('data-py') || '';
+          const defn = ruby.getAttribute('data-defn') || '';
+          const hsk = ruby.getAttribute('data-hsk') || '';
+
+          if (!py && !defn) return;
+          pyEl.textContent = py;
+          defnEl.textContent = defn;
+          hskEl.textContent = hsk;
+          hskEl.style.display = hsk ? 'inline-block' : 'none';
+
+          const rect = ruby.getBoundingClientRect();
+          tt.style.left = `${rect.left + window.scrollX}px`;
+          tt.style.top = `${rect.bottom + window.scrollY + 6}px`;
+          tt.style.display = 'block';
+        }
+      });
+
+      document.addEventListener('mouseout', e => {
+        if (e.target.closest('ruby.mb-tooltip')) {
+          tt.style.display = 'none';
+        }
+      });
+    }
+
+    function escapeHtml(str) {
+      return (str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#039;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>

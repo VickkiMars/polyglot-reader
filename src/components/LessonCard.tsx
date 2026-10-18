@@ -2,59 +2,120 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { Headphones } from "lucide-react";
-import { Lesson } from "@/types";
+import { Headphones, BookOpen, ExternalLink, Sparkles } from "lucide-react";
+import { StoryCatalogItem } from "@/types";
 
 interface LessonCardProps {
-  lesson: Lesson;
+  story: StoryCatalogItem;
+  language: "mandarin" | "japanese";
+  onSelect: (story: StoryCatalogItem) => void;
 }
 
-export default function LessonCard({ lesson }: LessonCardProps) {
-  // Use local downloaded image if exists, else original
-  const imageSrc = lesson.localImage
-    ? `/${lesson.localImage.replace(/^public\//, "")}`
-    : lesson.originalImage;
+export default function LessonCard({ story, language, onSelect }: LessonCardProps) {
+  const isMandarin = language === "mandarin";
+  const displayTitle = isMandarin ? story.title : story.japanese.title || story.title;
+  const secondaryTitle = isMandarin ? story.mandarin.character_preview : story.title;
+  const previewReading = isMandarin
+    ? story.mandarin.pinyin_preview
+    : story.japanese.reading_preview;
+  const vocabCount = isMandarin ? story.mandarin.vocab_count : story.japanese.vocab_count;
+  const levelBadge = isMandarin ? story.hsk : `JLPT ${story.jlpt}`;
+
+  // Use local or remote image if available
+  const hasImage = Boolean(story.image);
+  const imageSrc = story.image.startsWith("public/")
+    ? `/${story.image.replace(/^public\//, "")}`
+    : story.image;
 
   return (
-    <article className="group bg-white rounded-lg border border-[#f0f0f0] overflow-hidden shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-      {/* Thumbnail */}
-      <div className="relative aspect-video w-full overflow-hidden bg-gray-100">
-        <Image
-          src={imageSrc}
-          alt={lesson.title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div className="absolute top-2.5 right-2.5 bg-black/60 backdrop-blur-xs text-white p-1.5 rounded-full">
-          <Headphones className="w-3.5 h-3.5" />
+    <article
+      onClick={() => onSelect(story)}
+      className="group bg-[var(--md-sys-color-surface-container-lowest)] rounded-2xl border border-[var(--md-sys-color-outline-variant)]/60 overflow-hidden transition-all duration-200 hover:border-[var(--md-sys-color-primary)]/60 hover:shadow-md hover:bg-[var(--md-sys-color-surface-container-low)] flex flex-col h-full cursor-pointer"
+    >
+      {/* Thumbnail or Stylized Typographic CJK Banner */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--md-sys-color-surface-container)] flex items-center justify-center">
+        {hasImage ? (
+          <Image
+            src={imageSrc}
+            alt={story.title}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover"
+          />
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-br from-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-surface-container-lowest)] text-center relative overflow-hidden select-none">
+            {/* Subtle background seal watermarking */}
+            <span className="absolute -right-4 -bottom-4 text-7xl font-cjk font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none">
+              {isMandarin ? "汉语" : "日本語"}
+            </span>
+            <span className="text-xl sm:text-2xl font-cjk font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1">
+              {isMandarin ? story.mandarin.character_preview.slice(0, 8) : story.japanese.title}
+            </span>
+            <span className="text-xs text-[var(--md-sys-color-on-surface-variant)] mt-1.5 font-roboto italic line-clamp-1">
+              {story.title}
+            </span>
+          </div>
+        )}
+
+        {/* Audio Narration Pill Badge */}
+        <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-xs text-white px-2.5 py-1 rounded-full text-xs font-medium flex items-center gap-1.5 shadow-xs">
+          <Headphones className="w-3.5 h-3.5 text-[var(--md-sys-color-tertiary-container)]" />
+          <span className="text-[11px]">Audio</span>
+        </div>
+
+        {/* Level Tag (Top Left) */}
+        <div className="absolute top-3 left-3">
+          <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shadow-xs">
+            {levelBadge}
+          </span>
         </div>
       </div>
 
       {/* Card Content */}
-      <div className="p-4 flex flex-col flex-grow justify-between">
+      <div className="p-5 flex flex-col flex-grow justify-between gap-4">
         <div>
-          <h3 className="font-montserrat font-medium text-[16px] leading-snug text-[#707d82] group-hover:text-[#cc3366] transition-colors mb-2">
-            <Link href={lesson.link} className="hover:underline">
-              {lesson.title}
-            </Link>
+          {/* Main Title */}
+          <h3 className="font-montserrat font-semibold text-lg text-[var(--md-sys-color-on-surface)] group-hover:text-[var(--md-sys-color-primary)] transition-colors leading-snug line-clamp-1">
+            {displayTitle}
           </h3>
+
+          {/* CJK Character Preview */}
+          <p className="mt-1 text-sm font-cjk text-[var(--md-sys-color-primary)] line-clamp-1 font-medium">
+            {secondaryTitle}
+          </p>
+
+          {/* Phonetic / Reading Preview */}
+          {previewReading && (
+            <p className="mt-1 text-xs text-[var(--md-sys-color-on-surface-variant)] line-clamp-1 italic font-roboto">
+              {previewReading}
+            </p>
+          )}
         </div>
 
-        {/* Meta badges */}
-        <div className="pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-[#7a7a7a] font-roboto">
-          <div className="flex flex-wrap gap-1.5 items-center">
-            {lesson.meta.map((tag, idx) => (
-              <span
-                key={idx}
-                className="inline-block px-2 py-0.5 bg-gray-100 rounded text-[11px] font-medium text-gray-600"
-              >
-                {tag}
-              </span>
-            ))}
+        {/* Card Footer: Metadata and Action Button */}
+        <div className="pt-3 border-t border-[var(--md-sys-color-outline-variant)]/40 flex items-center justify-between text-xs text-[var(--md-sys-color-on-surface-variant)]">
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center gap-1 text-[var(--md-sys-color-on-surface-variant)] font-medium">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+              <span>{vocabCount} words</span>
+            </span>
+            <span>•</span>
+            <span className="text-[var(--md-sys-color-on-surface-variant)]">
+              {story.level}
+            </span>
           </div>
-          <span className="text-[11px] text-[#cc3366] font-medium">Free</span>
+
+          {/* Read & Listen Button */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelect(story);
+            }}
+            className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-primary)] hover:bg-[var(--md-sys-color-primary)] hover:text-[var(--md-sys-color-on-primary)] transition-all cursor-pointer min-h-[32px]"
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>Read</span>
+          </button>
         </div>
       </div>
     </article>

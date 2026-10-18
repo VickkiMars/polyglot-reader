@@ -4,127 +4,187 @@ import React, { useState, useMemo } from "react";
 import LessonCard from "./LessonCard";
 import FilterBar from "./FilterBar";
 import Pagination from "./Pagination";
-import { Lesson, FilterState } from "@/types";
+import StoryReaderModal from "./StoryReaderModal";
+import { StoryCatalogItem, FilterState } from "@/types";
 
 interface LessonGridProps {
-  initialLessons: Lesson[];
+  initialStories: StoryCatalogItem[];
+  language: "mandarin" | "japanese";
 }
 
 const ITEMS_PER_PAGE = 9;
 
-export default function LessonGrid({ initialLessons }: LessonGridProps) {
+export default function LessonGrid({ initialStories, language }: LessonGridProps) {
   const [filters, setFilters] = useState<FilterState>({
     search: "",
     level: "all",
+    language: language,
     selectedHsk: [],
-    progress: "all",
+    selectedJlpt: [],
+    audioOnly: false,
   });
 
-  const [appliedFilters, setAppliedFilters] = useState<FilterState>(filters);
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedStory, setSelectedStory] = useState<StoryCatalogItem | null>(null);
 
-  // Filter lessons based on applied filters
-  const filteredLessons = useMemo(() => {
-    return initialLessons.filter((lesson) => {
-      // Search query
-      if (
-        appliedFilters.search &&
-        !lesson.title.toLowerCase().includes(appliedFilters.search.toLowerCase())
-      ) {
-        return false;
+  // Sync language prop into filters
+  React.useEffect(() => {
+    setFilters((prev) => ({
+      ...prev,
+      language,
+      // Reset selected levels when switching language
+      selectedHsk: [],
+      selectedJlpt: [],
+    }));
+    setCurrentPage(1);
+  }, [language]);
+
+  // Compute counts for level tabs
+  const levelCounts = useMemo(() => {
+    return {
+      all: initialStories.length,
+      beginner: initialStories.filter((s) => s.level.toLowerCase() === "beginner").length,
+      intermediate: initialStories.filter((s) => s.level.toLowerCase() === "intermediate").length,
+      advanced: initialStories.filter((s) => s.level.toLowerCase() === "advanced").length,
+    };
+  }, [initialStories]);
+
+  // Filter stories based on active filters
+  const filteredStories = useMemo(() => {
+    return initialStories.filter((story) => {
+      // 1. Search Query
+      if (filters.search) {
+        const query = filters.search.toLowerCase();
+        const matchesTitle = story.title.toLowerCase().includes(query);
+        const matchesJpTitle = story.japanese.title?.toLowerCase().includes(query);
+        const matchesCjk = story.mandarin.character_preview.toLowerCase().includes(query);
+        const matchesJpCjk = story.japanese.character_preview.toLowerCase().includes(query);
+        const matchesTags = story.tags.some((t) => t.toLowerCase().includes(query));
+
+        if (!matchesTitle && !matchesJpTitle && !matchesCjk && !matchesJpCjk && !matchesTags) {
+          return false;
+        }
       }
 
-      // HSK Level filter
-      if (appliedFilters.selectedHsk.length > 0) {
-        const matchesHsk = lesson.meta.some((tag) =>
-          appliedFilters.selectedHsk.some((hsk) =>
-            tag.toLowerCase().includes(hsk.toLowerCase())
-          )
+      // 2. Level Category (Beginner, Intermediate, Advanced)
+      if (filters.level !== "all") {
+        if (story.level.toLowerCase() !== filters.level.toLowerCase()) {
+          return false;
+        }
+      }
+
+      // 3. HSK Level Filter (for Mandarin)
+      if (language === "mandarin" && filters.selectedHsk.length > 0) {
+        const matchesHsk = filters.selectedHsk.some((hsk) =>
+          story.hsk_tags.some((t) => t.toLowerCase().includes(hsk.toLowerCase()))
         );
         if (!matchesHsk) return false;
       }
 
+      // 4. JLPT Level Filter (for Japanese)
+      if (language === "japanese" && filters.selectedJlpt.length > 0) {
+        const matchesJlpt = filters.selectedJlpt.some(
+          (jlpt) => story.jlpt.toLowerCase() === jlpt.toLowerCase()
+        );
+        if (!matchesJlpt) return false;
+      }
+
+      // 5. Audio Only Filter
+      if (filters.audioOnly) {
+        const hasAudio =
+          language === "mandarin" ? Boolean(story.audio.mandarin) : Boolean(story.audio.japanese);
+        if (!hasAudio) return false;
+      }
+
       return true;
     });
-  }, [initialLessons, appliedFilters]);
+  }, [initialStories, filters, language]);
 
   // Pagination calculation
-  const totalPages = Math.ceil(filteredLessons.length / ITEMS_PER_PAGE) || 1;
-  const paginatedLessons = filteredLessons.slice(
-    (currentPage - 1) * ITEMS_PER_PAGE,
-    currentPage * ITEMS_PER_PAGE
-  );
+  const totalPages = Math.ceil(filteredStories.length / ITEMS_PER_PAGE) || 1;
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedStories = filteredStories.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  const handleApply = () => {
-    setAppliedFilters(filters);
+  const handleClearFilters = () => {
+    setFilters({
+      search: "",
+      level: "all",
+      language,
+      selectedHsk: [],
+      selectedJlpt: [],
+      audioOnly: false,
+    });
     setCurrentPage(1);
   };
 
-  const handleClear = () => {
-    const cleared = { search: "", level: "all", selectedHsk: [], progress: "all" };
-    setFilters(cleared);
-    setAppliedFilters(cleared);
-    setCurrentPage(1);
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 350, behavior: "smooth" });
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto px-4 py-8">
-      {/* Hero / Category Title */}
-      <div className="mb-8">
-        <div className="flex items-center gap-2 text-xs text-[#707d82] mb-2 font-roboto">
-          <span>Home</span>
-          <span>/</span>
-          <span>All Lessons</span>
-          <span>/</span>
-          <span className="text-[#cc3366] font-medium">Beginner</span>
-        </div>
-        <h1 className="text-3xl lg:text-4xl font-montserrat font-bold text-[#2a302f]">
-          Chinese Reading and Listening Practice
-        </h1>
-        <p className="mt-2 text-sm text-[#707d82] font-roboto">
-          Showing beginner graded stories, articles, and dialogs with audio and vocabulary.
-        </p>
-      </div>
-
+    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-8">
       {/* Filter Bar */}
       <FilterBar
         filters={filters}
-        onFilterChange={setFilters}
-        onApply={handleApply}
-        onClear={handleClear}
+        onFilterChange={(newFilters) => {
+          setFilters(newFilters);
+          setCurrentPage(1);
+        }}
+        onClear={handleClearFilters}
+        counts={levelCounts}
       />
 
       {/* Results Header */}
-      <div className="flex justify-between items-center mb-6">
-        <span className="text-sm font-medium text-[#707d82]">
-          Showing {paginatedLessons.length} of {filteredLessons.length} lessons
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-6">
+        <span className="text-sm font-medium text-[var(--md-sys-color-on-surface-variant)]">
+          Showing {paginatedStories.length} of {filteredStories.length} graded stories
+          {filters.level !== "all" && ` • ${filters.level}`}
+          {language === "mandarin" ? " (Mandarin)" : " (Japanese)"}
         </span>
       </div>
 
       {/* 3-Column Card Grid */}
-      {paginatedLessons.length > 0 ? (
+      {paginatedStories.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {paginatedLessons.map((lesson) => (
-            <LessonCard key={lesson.id} lesson={lesson} />
+          {paginatedStories.map((story) => (
+            <LessonCard
+              key={story.id}
+              story={story}
+              language={language}
+              onSelect={setSelectedStory}
+            />
           ))}
         </div>
       ) : (
-        <div className="text-center py-16 bg-white border border-[#ebecee] rounded-lg">
-          <p className="text-gray-500 text-base">No lessons match your active filters.</p>
+        <div className="text-center py-20 px-4 bg-[var(--md-sys-color-surface-container)] border border-[var(--md-sys-color-outline-variant)] rounded-2xl">
+          <p className="text-lg font-medium text-[var(--md-sys-color-on-surface)]">
+            No graded stories match your active criteria
+          </p>
+          <p className="mt-1 text-sm text-[var(--md-sys-color-on-surface-variant)] max-w-md mx-auto">
+            Try adjusting your search terms, selecting a different proficiency level, or resetting filters.
+          </p>
           <button
-            onClick={handleClear}
-            className="mt-4 px-4 py-2 text-sm text-[#cc3366] font-semibold border border-[#cc3366] rounded-md hover:bg-[#cc3366] hover:text-white transition-all"
+            onClick={handleClearFilters}
+            className="mt-5 px-5 py-2.5 text-xs font-semibold text-[var(--md-sys-color-on-primary)] bg-[var(--md-sys-color-primary)] rounded-full hover:opacity-90 transition-all cursor-pointer shadow-xs"
           >
             Reset Filters
           </button>
         </div>
       )}
 
-      {/* Pagination */}
+      {/* Pagination Controls */}
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
-        onPageChange={setCurrentPage}
+        onPageChange={handlePageChange}
+      />
+
+      {/* Interactive Story Reader Modal */}
+      <StoryReaderModal
+        story={selectedStory}
+        language={language}
+        onClose={() => setSelectedStory(null)}
       />
     </div>
   );

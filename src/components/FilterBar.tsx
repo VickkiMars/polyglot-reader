@@ -1,131 +1,185 @@
 "use client";
 
 import React from "react";
-import { Search } from "lucide-react";
+import { Search, X, Headphones, SlidersHorizontal, RotateCcw } from "lucide-react";
 import { FilterState } from "@/types";
 
 interface FilterBarProps {
   filters: FilterState;
   onFilterChange: (filters: FilterState) => void;
-  onApply: () => void;
   onClear: () => void;
+  counts: {
+    all: number;
+    beginner: number;
+    intermediate: number;
+    advanced: number;
+  };
 }
 
 const HSK_LEVELS = ["HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6"];
+const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 
 export default function FilterBar({
   filters,
   onFilterChange,
-  onApply,
   onClear,
+  counts,
 }: FilterBarProps) {
+  const isMandarin = filters.language === "mandarin";
+  const levels = isMandarin ? HSK_LEVELS : JLPT_LEVELS;
+  const selectedLevels = isMandarin ? filters.selectedHsk : filters.selectedJlpt;
+
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onFilterChange({ ...filters, search: e.target.value });
   };
 
-  const handleLevelChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    onFilterChange({ ...filters, level: e.target.value });
+  const clearSearch = () => {
+    onFilterChange({ ...filters, search: "" });
   };
 
-  const handleHskToggle = (hsk: string) => {
-    const exists = filters.selectedHsk.includes(hsk);
-    const updated = exists
-      ? filters.selectedHsk.filter((item) => item !== hsk)
-      : [...filters.selectedHsk, hsk];
-    onFilterChange({ ...filters, selectedHsk: updated });
+  const handleLevelSelect = (level: string) => {
+    onFilterChange({ ...filters, level });
   };
 
-  const handleProgressChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    onFilterChange({ ...filters, progress: e.target.value });
+  const toggleLevelChip = (lvl: string) => {
+    if (isMandarin) {
+      const exists = filters.selectedHsk.includes(lvl);
+      const updated = exists
+        ? filters.selectedHsk.filter((item) => item !== lvl)
+        : [...filters.selectedHsk, lvl];
+      onFilterChange({ ...filters, selectedHsk: updated });
+    } else {
+      const exists = filters.selectedJlpt.includes(lvl);
+      const updated = exists
+        ? filters.selectedJlpt.filter((item) => item !== lvl)
+        : [...filters.selectedJlpt, lvl];
+      onFilterChange({ ...filters, selectedJlpt: updated });
+    }
   };
+
+  const toggleAudioOnly = () => {
+    onFilterChange({ ...filters, audioOnly: !filters.audioOnly });
+  };
+
+  const hasActiveFilters =
+    Boolean(filters.search) ||
+    filters.level !== "all" ||
+    selectedLevels.length > 0 ||
+    filters.audioOnly;
 
   return (
-    <div className="bg-white border border-[#ebecee] rounded-lg p-5 mb-8 shadow-xs">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center">
-        {/* Search Input */}
-        <div className="relative">
+    <div className="bg-[var(--md-sys-color-surface-container)] rounded-2xl p-5 mb-8 border border-[var(--md-sys-color-outline-variant)]/60 shadow-xs transition-colors duration-200">
+      {/* Top Row: Search and Level Filter Segmented Control */}
+      <div className="flex flex-col lg:flex-row gap-4 items-stretch lg:items-center justify-between">
+        {/* Search Field */}
+        <div className="relative flex-1 max-w-xl">
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--md-sys-color-on-surface-variant)] pointer-events-none" />
           <input
             type="text"
             value={filters.search}
             onChange={handleSearchChange}
-            placeholder="Search lessons..."
-            className="w-full pl-10 pr-4 py-2 border border-[#ebecee] rounded-md text-sm text-[#333] focus:outline-none focus:border-[#cc3366] transition-colors"
+            placeholder={
+              isMandarin
+                ? "Search lessons by title, character, or topic..."
+                : "Search stories by Japanese title, reading, or English..."
+            }
+            className="w-full pl-10 pr-10 py-2.5 bg-[var(--md-sys-color-surface-container-lowest)] border border-[var(--md-sys-color-outline-variant)] rounded-full text-sm text-[var(--md-sys-color-on-surface)] placeholder:text-[var(--md-sys-color-on-surface-variant)]/70 focus:outline-none focus:border-[var(--md-sys-color-primary)] focus:ring-1 focus:ring-[var(--md-sys-color-primary)] transition-all min-h-[44px]"
           />
-          <Search className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
+          {filters.search && (
+            <button
+              onClick={clearSearch}
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] cursor-pointer rounded-full"
+              aria-label="Clear search"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
         </div>
 
-        {/* Level Select */}
-        <div>
-          <select
-            value={filters.level}
-            onChange={handleLevelChange}
-            className="w-full px-3 py-2 border border-[#ebecee] rounded-md text-sm text-[#333] bg-white focus:outline-none focus:border-[#cc3366] transition-colors cursor-pointer"
-          >
-            <option value="all">Level: All</option>
-            <option value="Beginner">Beginner</option>
-            <option value="Intermediate">Intermediate</option>
-            <option value="Advanced">Advanced</option>
-          </select>
-        </div>
-
-        {/* My Progress Select */}
-        <div>
-          <select
-            value={filters.progress}
-            onChange={handleProgressChange}
-            className="w-full px-3 py-2 border border-[#ebecee] rounded-md text-sm text-[#333] bg-white focus:outline-none focus:border-[#cc3366] transition-colors cursor-pointer"
-          >
-            <option value="all">My Progress: All</option>
-            <option value="read">Read</option>
-            <option value="unread">Unread</option>
-          </select>
-        </div>
-
-        {/* Action Buttons */}
-        <div className="flex items-center gap-2">
-          <button
-            onClick={onApply}
-            className="flex-1 py-2 px-4 border border-[#cc3366] text-[#cc3366] hover:bg-[#cc3366] hover:text-white rounded-md text-sm font-semibold transition-all cursor-pointer"
-          >
-            Apply filters
-          </button>
-          <button
-            onClick={onClear}
-            className="px-3 py-2 text-sm text-[#707d82] hover:text-[#cc3366] transition-colors cursor-pointer"
-          >
-            Clear
-          </button>
-        </div>
-      </div>
-
-      {/* HSK Checkboxes Row */}
-      <div className="mt-4 pt-4 border-t border-[#f0f0f0] flex flex-wrap items-center gap-4 text-sm text-[#333]">
-        <span className="font-medium text-[#707d82] text-xs uppercase tracking-wider">
-          HSK Filter:
-        </span>
-        <div className="flex flex-wrap gap-3">
-          {HSK_LEVELS.map((hsk) => {
-            const checked = filters.selectedHsk.includes(hsk);
+        {/* Level Tabs */}
+        <div className="flex flex-wrap items-center bg-[var(--md-sys-color-surface-container-lowest)] p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/60 self-start lg:self-auto">
+          {[
+            { id: "all", label: "All Levels", count: counts.all },
+            { id: "Beginner", label: "Beginner", count: counts.beginner },
+            { id: "Intermediate", label: "Intermediate", count: counts.intermediate },
+            { id: "Advanced", label: "Advanced", count: counts.advanced },
+          ].map((tab) => {
+            const active = filters.level === tab.id;
             return (
-              <label
-                key={hsk}
-                className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-sm text-xs cursor-pointer border transition-colors ${
-                  checked
-                    ? "bg-[#fdf2f5] border-[#cc3366] text-[#cc3366] font-semibold"
-                    : "border-[#ebecee] text-[#707d82] hover:border-[#cc3366]"
+              <button
+                key={tab.id}
+                onClick={() => handleLevelSelect(tab.id)}
+                className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 cursor-pointer min-h-[36px] ${
+                  active
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)]"
                 }`}
               >
-                <input
-                  type="checkbox"
-                  checked={checked}
-                  onChange={() => handleHskToggle(hsk)}
-                  className="hidden"
-                />
-                {hsk}
-              </label>
+                <span>{tab.label}</span>
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                    active
+                      ? "bg-black/20 text-white"
+                      : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)]"
+                  }`}
+                >
+                  {tab.count}
+                </span>
+              </button>
             );
           })}
         </div>
+      </div>
+
+      {/* Bottom Row: Dynamic Proficiency Level Chips & Audio Filter */}
+      <div className="mt-4 pt-4 border-t border-[var(--md-sys-color-outline-variant)]/40 flex flex-wrap items-center justify-between gap-3 text-sm">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] uppercase tracking-wider mr-1">
+            {isMandarin ? "HSK Filter:" : "JLPT Filter:"}
+          </span>
+          {levels.map((lvl) => {
+            const checked = selectedLevels.includes(lvl);
+            return (
+              <button
+                key={lvl}
+                onClick={() => toggleLevelChip(lvl)}
+                className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold cursor-pointer border transition-all duration-150 min-h-[32px] ${
+                  checked
+                    ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)] shadow-xs"
+                    : "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:border-[var(--md-sys-color-primary)]"
+                }`}
+                aria-pressed={checked}
+              >
+                {lvl}
+              </button>
+            );
+          })}
+
+          {/* Audio Only Chip */}
+          <button
+            onClick={toggleAudioOnly}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer border transition-all duration-150 min-h-[32px] ml-1 ${
+              filters.audioOnly
+                ? "bg-[var(--md-sys-color-tertiary-container)] text-[var(--md-sys-color-on-tertiary-container)] border-[var(--md-sys-color-tertiary)] font-semibold shadow-xs"
+                : "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:border-[var(--md-sys-color-tertiary)]"
+            }`}
+            aria-pressed={filters.audioOnly}
+          >
+            <Headphones className="w-3.5 h-3.5" />
+            <span>Audio Narrated Only</span>
+          </button>
+        </div>
+
+        {/* Clear Filters Button */}
+        {hasActiveFilters && (
+          <button
+            onClick={onClear}
+            className="inline-flex items-center gap-1 px-3 py-1.5 text-xs font-semibold text-[var(--md-sys-color-primary)] hover:bg-[var(--md-sys-color-primary-container)]/50 rounded-full transition-colors cursor-pointer min-h-[32px]"
+          >
+            <RotateCcw className="w-3 h-3" />
+            Reset all filters
+          </button>
+        )}
       </div>
     </div>
   );

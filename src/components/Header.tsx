@@ -1,193 +1,228 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X, Sun, Moon, BookOpen, Volume2, Sparkles } from "lucide-react";
 
-export default function Header() {
+interface HeaderProps {
+  currentLanguage: "mandarin" | "japanese";
+  onLanguageChange: (lang: "mandarin" | "japanese") => void;
+}
+
+export default function Header({ currentLanguage, onLanguageChange }: HeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [isDark, setIsDark] = useState(false);
 
-  const toggleDropdown = (name: string) => {
-    setActiveDropdown(activeDropdown === name ? null : name);
+  useEffect(() => {
+    // Check saved theme or system preference
+    const saved = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    if (saved === "dark" || (!saved && prefersDark)) {
+      setIsDark(true);
+      document.documentElement.classList.add("dark");
+    } else {
+      setIsDark(false);
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const nextDark = !isDark;
+    setIsDark(nextDark);
+    if (nextDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-[#f0f0f0] shadow-xs">
-      <div className="max-w-[1200px] mx-auto px-4 h-[80px] flex items-center justify-between">
-        {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <Image
-            src="/images/logo.png"
-            alt="Mandarin Bean"
-            width={180}
-            height={48}
-            className="h-10 w-auto object-contain"
-            priority
-          />
-        </Link>
-
-        {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-1 font-montserrat text-[15px] font-medium text-[#2a302f]">
-          <Link
-            href="/"
-            className="px-3.5 py-6 hover:text-[#cc3366] transition-colors"
-          >
-            Home
+    <header className="sticky top-0 z-40 bg-[var(--md-sys-color-surface-container-lowest)] border-b border-[var(--md-sys-color-outline-variant)]/60 transition-colors duration-200">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-4">
+        {/* Brand Logo & Polyglot Badge */}
+        <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-2.5 group">
+            <Image
+              src="/images/logo.png"
+              alt="Mandarin Bean"
+              width={160}
+              height={42}
+              className="h-9 w-auto object-contain dark:brightness-110"
+              priority
+            />
+            <span className="hidden sm:inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]">
+              Polyglot Edition
+            </span>
           </Link>
+        </div>
 
-          {/* All Lessons Dropdown */}
-          <div className="relative group">
+        {/* Center: MD3 Language Segmented Switcher */}
+        <div className="flex items-center bg-[var(--md-sys-color-surface-container-high)] p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/40 shadow-xs">
+          <button
+            onClick={() => onLanguageChange("mandarin")}
+            className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[36px] ${
+              currentLanguage === "mandarin"
+                ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+            }`}
+            aria-pressed={currentLanguage === "mandarin"}
+          >
+            <span>🇨🇳</span>
+            <span>Mandarin (HSK)</span>
+          </button>
+          <button
+            onClick={() => onLanguageChange("japanese")}
+            className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[36px] ${
+              currentLanguage === "japanese"
+                ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+            }`}
+            aria-pressed={currentLanguage === "japanese"}
+          >
+            <span>🇯🇵</span>
+            <span>Japanese (JLPT)</span>
+          </button>
+        </div>
+
+        {/* Right Desktop Nav & Controls */}
+        <div className="hidden lg:flex items-center gap-3">
+          <nav className="flex items-center space-x-1 text-sm font-medium text-[var(--md-sys-color-on-surface-variant)]">
             <Link
-              href="/all-lessons/?jsf=epro-loop-builder&tax=category:3"
-              className="flex items-center gap-1 px-3.5 py-6 text-[#cc3366] hover:text-[#cc3366] transition-colors"
+              href="/"
+              className="px-3 py-2 rounded-full hover:bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface)] transition-colors"
             >
               All Lessons
-              <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
             </Link>
-            <div className="absolute left-0 top-[76px] hidden group-hover:block w-48 bg-white border border-[#f0f0f0] rounded-sm shadow-lg py-2 z-50">
-              <Link
-                href="/all-lessons/?jsf=epro-loop-builder&tax=category:3"
-                className="block px-4 py-2 text-sm text-[#cc3366] font-semibold bg-[#fdf2f5]"
-              >
-                Beginner
-              </Link>
-              <Link
-                href="/all-lessons/?jsf=epro-loop-builder&tax=category:4"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                Intermediate
-              </Link>
-              <Link
-                href="/all-lessons/?jsf=epro-loop-builder&tax=category:5"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                Advanced
-              </Link>
-            </div>
-          </div>
-
-          {/* Grammar Dropdown */}
-          <div className="relative group">
-            <button className="flex items-center gap-1 px-3.5 py-6 hover:text-[#cc3366] transition-colors cursor-pointer">
+            <Link
+              href="#grammar"
+              className="px-3 py-2 rounded-full hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
+            >
               Grammar
-              <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
-            </button>
-            <div className="absolute left-0 top-[76px] hidden group-hover:block w-64 bg-white border border-[#f0f0f0] rounded-sm shadow-lg py-2 z-50">
-              <Link
-                href="/grammar-points/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                All Grammar Points with Exercises
-              </Link>
-              <Link
-                href="/chinese-grammar-test/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                Grammar Level Tests
-              </Link>
-            </div>
-          </div>
-
-          {/* Test Prep Dropdown */}
-          <div className="relative group">
-            <button className="flex items-center gap-1 px-3.5 py-6 hover:text-[#cc3366] transition-colors cursor-pointer">
+            </Link>
+            <Link
+              href="#tests"
+              className="px-3 py-2 rounded-full hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
+            >
               Test Prep
-              <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
-            </button>
-            <div className="absolute left-0 top-[76px] hidden group-hover:block w-48 bg-white border border-[#f0f0f0] rounded-sm shadow-lg py-2 z-50">
-              <Link
-                href="/hsk-chinese-test-online/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                HSK Sample Tests
-              </Link>
-              <Link
-                href="/online-yct-sample-tests/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                YCT Sample Tests
-              </Link>
-            </div>
-          </div>
+            </Link>
+            <Link
+              href="#pricing"
+              className="px-3 py-2 rounded-full hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
+            >
+              Pricing
+            </Link>
+          </nav>
 
-          {/* More Dropdown */}
-          <div className="relative group">
-            <button className="flex items-center gap-1 px-3.5 py-6 hover:text-[#cc3366] transition-colors cursor-pointer">
-              More
-              <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
-            </button>
-            <div className="absolute left-0 top-[76px] hidden group-hover:block w-52 bg-white border border-[#f0f0f0] rounded-sm shadow-lg py-2 z-50">
-              <Link
-                href="/pinyin/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                Pinyin Practice
-              </Link>
-              <Link
-                href="/category/confusing-words/"
-                className="block px-4 py-2 text-sm text-[#707d82] hover:text-[#cc3366] hover:bg-gray-50"
-              >
-                Confusing Chinese Words
-              </Link>
-            </div>
-          </div>
-
-          <Link
-            href="/premium-service/"
-            className="px-3.5 py-6 hover:text-[#cc3366] transition-colors"
+          {/* Theme Toggle Button */}
+          <button
+            onClick={toggleTheme}
+            className="p-2.5 rounded-full text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)] hover:text-[var(--md-sys-color-on-surface)] transition-colors cursor-pointer min-w-[44px] min-h-[44px] flex items-center justify-center"
+            aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
           >
-            Pricing
-          </Link>
+            {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
 
+          {/* Login Pill Button */}
           <Link
             href="/login/"
-            className="ml-2 px-4 py-2 rounded-sm border border-[#cc3366] text-[#cc3366] hover:bg-[#cc3366] hover:text-white transition-all text-sm font-semibold"
+            className="px-4 py-2 rounded-full border border-[var(--md-sys-color-outline)] text-[var(--md-sys-color-primary)] hover:bg-[var(--md-sys-color-primary-container)] hover:text-[var(--md-sys-color-on-primary-container)] transition-all text-xs font-semibold min-h-[40px] flex items-center"
           >
-            Login
+            Sign In
           </Link>
-        </nav>
+        </div>
 
-        {/* Mobile Hamburger Button */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="lg:hidden p-2 text-[#2a302f] hover:text-[#cc3366] focus:outline-none"
-          aria-label="Toggle Navigation"
-        >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        {/* Mobile Actions */}
+        <div className="flex items-center gap-1 lg:hidden">
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)] min-w-[44px] min-h-[44px] flex items-center justify-center"
+            aria-label="Toggle theme"
+          >
+            {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="p-2 rounded-full text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] min-w-[44px] min-h-[44px] flex items-center justify-center"
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Drawer */}
       {mobileOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-3 font-montserrat text-sm shadow-lg">
-          <Link href="/" className="block py-2 text-[#2a302f]">
-            Home
-          </Link>
-          <div>
-            <button
-              onClick={() => toggleDropdown("lessons")}
-              className="flex justify-between items-center w-full py-2 text-[#cc3366] font-semibold"
-            >
-              All Lessons <ChevronDown className="w-4 h-4" />
-            </button>
-            {activeDropdown === "lessons" && (
-              <div className="pl-4 py-2 space-y-2 border-l-2 border-[#cc3366]">
-                <Link href="#" className="block text-[#cc3366]">Beginner</Link>
-                <Link href="#" className="block text-gray-600">Intermediate</Link>
-                <Link href="#" className="block text-gray-600">Advanced</Link>
-              </div>
-            )}
+        <div className="lg:hidden bg-[var(--md-sys-color-surface-container-lowest)] border-t border-[var(--md-sys-color-outline-variant)] px-4 py-4 space-y-3 text-sm shadow-lg">
+          <div className="flex flex-col gap-1 pb-3 border-b border-[var(--md-sys-color-outline-variant)]/60">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[var(--md-sys-color-on-surface-variant)]">
+              Language Track
+            </span>
+            <div className="grid grid-cols-2 gap-2 mt-1">
+              <button
+                onClick={() => {
+                  onLanguageChange("mandarin");
+                  setMobileOpen(false);
+                }}
+                className={`py-2 px-3 rounded-lg text-xs font-semibold text-center border transition-all ${
+                  currentLanguage === "mandarin"
+                    ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)]"
+                    : "border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                🇨🇳 Mandarin (HSK)
+              </button>
+              <button
+                onClick={() => {
+                  onLanguageChange("japanese");
+                  setMobileOpen(false);
+                }}
+                className={`py-2 px-3 rounded-lg text-xs font-semibold text-center border transition-all ${
+                  currentLanguage === "japanese"
+                    ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)]"
+                    : "border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                🇯🇵 Japanese (JLPT)
+              </button>
+            </div>
           </div>
-          <Link href="/premium-service/" className="block py-2 text-[#2a302f]">
+          <Link
+            href="/"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2 text-[var(--md-sys-color-on-surface)] font-medium"
+          >
+            All Lessons
+          </Link>
+          <Link
+            href="#grammar"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2 text-[var(--md-sys-color-on-surface-variant)]"
+          >
+            Grammar Points
+          </Link>
+          <Link
+            href="#tests"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2 text-[var(--md-sys-color-on-surface-variant)]"
+          >
+            Test Prep
+          </Link>
+          <Link
+            href="#pricing"
+            onClick={() => setMobileOpen(false)}
+            className="block py-2 text-[var(--md-sys-color-on-surface-variant)]"
+          >
             Pricing
           </Link>
           <Link
             href="/login/"
-            className="block text-center py-2 border border-[#cc3366] text-[#cc3366] rounded-sm font-semibold"
+            onClick={() => setMobileOpen(false)}
+            className="block text-center py-2.5 rounded-full border border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)] font-semibold text-xs"
           >
-            Login
+            Sign In
           </Link>
         </div>
       )}

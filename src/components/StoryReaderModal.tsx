@@ -10,7 +10,6 @@ import {
   VolumeX,
   Languages,
   BookOpen,
-  Sparkles,
   ExternalLink,
   ChevronDown,
   Check,

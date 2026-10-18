@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Headphones, BookOpen, ExternalLink, Sparkles } from "lucide-react";
+import { Headphones, BookOpen } from "lucide-react";
 import { StoryCatalogItem } from "@/types";
 
 interface LessonCardProps {
@@ -79,9 +79,8 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
         {/* Card Footer: Metadata and Action Button */}
         <div className="pt-3 border-t border-[var(--md-sys-color-outline-variant)]/40 flex items-center justify-between text-xs text-[var(--md-sys-color-on-surface-variant)]">
           <div className="flex items-center gap-2">
-            <span className="inline-flex items-center gap-1 text-[var(--md-sys-color-on-surface-variant)] font-medium">
-              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-              <span>{vocabCount} words</span>
+            <span className="text-[var(--md-sys-color-on-surface-variant)] font-medium">
+              {vocabCount} words
             </span>
             <span>•</span>
             <span className="text-[var(--md-sys-color-on-surface-variant)]">

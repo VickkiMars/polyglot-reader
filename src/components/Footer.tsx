@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BookOpen, Headphones, Languages, Sparkles } from "lucide-react";
+import { BookOpen, Headphones, Languages } from "lucide-react";
 
 const FOOTER_LINKS = [
   { text: "About", href: "/about/" },

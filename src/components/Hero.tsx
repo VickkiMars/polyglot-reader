@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { BookOpen, Headphones, Languages, Sparkles } from "lucide-react";
+import { BookOpen, Headphones, Languages, GraduationCap } from "lucide-react";
 
 interface HeroProps {
   currentLanguage: "mandarin" | "japanese";
@@ -47,7 +47,7 @@ export default function Hero({ currentLanguage, totalStories }: HeroProps) {
             </div>
 
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
-              <Sparkles className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+              <GraduationCap className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
               <span>17,359 Lexical Tokens</span>
             </div>
           </div>

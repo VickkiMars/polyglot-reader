@@ -1,10 +1,26 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  themeColor: "#b32656",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Polyglot Reader — Graded Chinese & Japanese Reading and Listening",
   description:
     "Immerse yourself in graded East Asian reading and natural neural audio narration. Featuring 206 stories across Mandarin (HSK 1–6) and Japanese (JLPT N5–N1) with interactive ruby annotations and lexical lookups.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "PolyglotReader",
+  },
+  icons: {
+    icon: "/icons/icon-192.png",
+    apple: "/icons/icon-192.png",
+  },
 };
 
 export default function RootLayout({

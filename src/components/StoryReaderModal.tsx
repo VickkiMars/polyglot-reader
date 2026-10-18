@@ -39,8 +39,9 @@ export default function StoryReaderModal({
   const [isMuted, setIsMuted] = useState(false);
 
   // Reader settings
-  const [showReading, setShowReading] = useState(true); // Pinyin / Furigana
+  const [showReading, setShowReading] = useState(true); // Pinyin / Reading
   const [isTraditional, setIsTraditional] = useState(false);
+  const [isSpaceOn, setIsSpaceOn] = useState(true);
   const [showTranslation, setShowTranslation] = useState(true);
   const [activeTab, setActiveTab] = useState<"story" | "vocabulary">("story");
   const [fontSize, setFontSize] = useState<"normal" | "large" | "xlarge">("large");
@@ -156,20 +157,42 @@ export default function StoryReaderModal({
   ) => {
     const target = e.target as HTMLElement;
     const ruby = target.closest("ruby");
-    const clickedWord = ruby ? ruby.textContent?.trim() || "" : target.textContent?.trim() || "";
+    if (!ruby) {
+      setTooltip((prev) => ({ ...prev, visible: false }));
+      return;
+    }
 
-    if (!clickedWord) return;
+    const py = ruby.getAttribute("data-py") || "";
+    const defn = ruby.getAttribute("data-defn") || "";
+    const hsk = ruby.getAttribute("data-hsk") || "";
+    const wordText =
+      ruby.querySelector(".si")?.textContent ||
+      ruby.textContent?.replace(ruby.querySelector("rt")?.textContent || "", "").trim() ||
+      "";
 
-    // Search in vocab list
+    if (py || defn) {
+      const rect = ruby.getBoundingClientRect();
+      setTooltip({
+        x: rect.left + rect.width / 2,
+        y: rect.top - 8,
+        pinyin: py,
+        reading: wordText,
+        translation: defn,
+        level: hsk,
+        visible: true,
+      });
+      return;
+    }
+
+    // Search in vocab list fallback
     const found = vocabList.find(
       (v) =>
-        clickedWord.includes(v.word) ||
-        v.word.includes(clickedWord) ||
-        (v.pinyin && clickedWord.includes(v.pinyin))
+        (wordText && (v.word.includes(wordText) || wordText.includes(v.word))) ||
+        (v.pinyin && wordText.includes(v.pinyin))
     );
 
     if (found) {
-      const rect = (ruby || target).getBoundingClientRect();
+      const rect = ruby.getBoundingClientRect();
       setTooltip({
         x: rect.left + rect.width / 2,
         y: rect.top - 8,
@@ -332,8 +355,22 @@ export default function StoryReaderModal({
 
             {/* Reading Toggles */}
             {activeTab === "story" && (
-              <div className="flex items-center gap-2">
-                {/* Readings toggle (Pinyin/Furigana) */}
+              <div className="flex flex-wrap items-center gap-2">
+                {/* Mandarin: Simplified / Traditional toggle */}
+                {isMandarin && (
+                  <button
+                    onClick={() => setIsTraditional(!isTraditional)}
+                    className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
+                      isTraditional
+                        ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)]"
+                        : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                    }`}
+                  >
+                    {isTraditional ? "Traditional" : "Simplified"}
+                  </button>
+                )}
+
+                {/* Readings toggle (Pinyin/Reading) */}
                 <button
                   onClick={() => setShowReading(!showReading)}
                   className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
@@ -347,19 +384,21 @@ export default function StoryReaderModal({
                       ? "Pinyin On"
                       : "Pinyin Off"
                     : showReading
-                    ? "Furigana On"
-                    : "Furigana Off"}
+                    ? "Reading On"
+                    : "Reading Off"}
                 </button>
 
-                {/* Mandarin: Simplified / Traditional toggle */}
-                {isMandarin && (
-                  <button
-                    onClick={() => setIsTraditional(!isTraditional)}
-                    className="px-3 py-1 rounded-full border border-[var(--md-sys-color-outline-variant)] bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] transition-all cursor-pointer font-medium"
-                  >
-                    {isTraditional ? "Traditional" : "Simplified"}
-                  </button>
-                )}
+                {/* Space On / Space Off */}
+                <button
+                  onClick={() => setIsSpaceOn(!isSpaceOn)}
+                  className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
+                    isSpaceOn
+                      ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)]"
+                      : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)]"
+                  }`}
+                >
+                  {isSpaceOn ? "Space On" : "Space Off"}
+                </button>
 
                 {/* Translation Toggle */}
                 <button
@@ -423,51 +462,35 @@ export default function StoryReaderModal({
             </div>
           ) : activeTab === "story" ? (
             <div
-              className={`font-cjk ${fontSizeClass} text-[var(--md-sys-color-on-surface)] space-y-8 ${
-                !showReading ? "hide-readings" : ""
-              }`}
-              onMouseUp={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
+              className={`font-cjk ${fontSizeClass} text-[var(--md-sys-color-on-surface)] space-y-8 select-text ${
+                !showReading ? "hide-readings pinyin-off" : ""
+              } ${!isSpaceOn ? "space-off" : ""} ${isTraditional ? "traditional" : ""}`}
+              onClick={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
+              onMouseOver={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
+              onMouseOut={(e) => {
+                if ((e.target as HTMLElement).closest("ruby")) {
+                  closeTooltip();
+                }
+              }}
             >
-              {isMandarin ? (
-                // Mandarin Paragraphs
-                ((isTraditional
-                  ? detail?.traditional_paragraphs
-                  : detail?.simplified_paragraphs) || []
-                ).map((para, idx) => (
-                  <div key={idx} className="space-y-3">
-                    <p className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide">
-                      {para}
-                    </p>
-                    {showReading && detail?.pinyin_paragraphs?.[idx] && (
-                      <p className="text-xs sm:text-sm text-[var(--md-sys-color-primary)]/80 italic font-roboto tracking-wider leading-relaxed">
-                        {detail.pinyin_paragraphs[idx]}
-                      </p>
-                    )}
-                    {showTranslation && detail?.english_paragraphs?.[idx] && (
-                      <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
-                        {detail.english_paragraphs[idx]}
-                      </div>
-                    )}
-                  </div>
-                ))
-              ) : (
-                // Japanese Paragraphs with Ruby furigana HTML
-                (detail?.ruby_paragraphs || detail?.japanese_paragraphs || []).map(
-                  (para, idx) => (
-                    <div key={idx} className="space-y-3">
-                      <div
-                        className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide"
-                        dangerouslySetInnerHTML={{ __html: para }}
-                      />
-                      {showTranslation && detail?.english_paragraphs?.[idx] && (
-                        <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
-                          {detail.english_paragraphs[idx]}
-                        </div>
-                      )}
+              {((detail?.ruby_paragraphs && detail.ruby_paragraphs.length > 0)
+                ? detail.ruby_paragraphs
+                : isMandarin
+                ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
+                : detail?.japanese_paragraphs || []
+              ).map((para, idx) => (
+                <div key={idx} className="space-y-3">
+                  <div
+                    className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer"
+                    dangerouslySetInnerHTML={{ __html: para }}
+                  />
+                  {showTranslation && detail?.english_paragraphs?.[idx] && (
+                    <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                      {detail.english_paragraphs[idx]}
                     </div>
-                  )
-                )
-              )}
+                  )}
+                </div>
+              ))}
             </div>
           ) : (
             // Vocabulary Table View
@@ -475,10 +498,11 @@ export default function StoryReaderModal({
               <table className="w-full min-w-[500px] text-left text-sm border-collapse">
                 <thead>
                   <tr className="border-b border-[var(--md-sys-color-outline-variant)] text-xs uppercase tracking-wider text-[var(--md-sys-color-on-surface-variant)] bg-[var(--md-sys-color-surface-container-low)]">
-                    <th className="py-3 px-4 font-semibold">Word / Character</th>
-                    <th className="py-3 px-4 font-semibold">Pronunciation</th>
+                    <th className="py-3 px-4 font-semibold">{isMandarin ? "Simplified" : "Word"}</th>
+                    {isMandarin && <th className="py-3 px-4 font-semibold">Traditional</th>}
+                    <th className="py-3 px-4 font-semibold">{isMandarin ? "Pinyin" : "Reading"}</th>
                     <th className="py-3 px-4 font-semibold">English Meaning</th>
-                    <th className="py-3 px-4 font-semibold">Proficiency</th>
+                    <th className="py-3 px-4 font-semibold">Level</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-[var(--md-sys-color-outline-variant)]/40 font-roboto">
@@ -488,9 +512,14 @@ export default function StoryReaderModal({
                       className="hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
                     >
                       <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
-                        {item.word}
+                        {item.word || (item as any).word_simplified || "—"}
                       </td>
-                      <td className="py-3 px-4 font-mono text-xs text-[var(--md-sys-color-primary)]">
+                      {isMandarin && (
+                        <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
+                          {(item as any).word_traditional || item.word || "—"}
+                        </td>
+                      )}
+                      <td className="py-3 px-4 font-mono text-xs text-[var(--md-sys-color-primary)] font-semibold">
                         {item.pinyin || item.reading || "—"}
                       </td>
                       <td className="py-3 px-4 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)]">
@@ -512,20 +541,27 @@ export default function StoryReaderModal({
         {/* Floating Vocabulary Tooltip */}
         {tooltip.visible && (
           <div
-            className="fixed z-50 -translate-x-1/2 -translate-y-full px-3.5 py-2.5 bg-[var(--md-sys-color-surface-container-highest)] border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)] rounded-xl shadow-xl max-w-xs text-xs pointer-events-none"
+            className="fixed z-50 -translate-x-1/2 -translate-y-full px-3.5 py-2.5 bg-[var(--md-sys-color-surface-container-highest)] border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)] rounded-xl shadow-xl max-w-xs text-xs pointer-events-none transition-opacity"
             style={{ left: `${tooltip.x}px`, top: `${tooltip.y}px` }}
           >
-            <div className="font-mono font-bold text-[var(--md-sys-color-primary)] text-sm">
-              {tooltip.pinyin}
+            <div className="flex items-center justify-between gap-2">
+              <span className="font-mono font-bold text-[var(--md-sys-color-primary)] text-sm">
+                {tooltip.pinyin}
+              </span>
+              {tooltip.level && (
+                <span className="inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px]">
+                  {tooltip.level}
+                </span>
+              )}
             </div>
+            {tooltip.reading && tooltip.reading !== tooltip.pinyin && (
+              <div className="font-cjk font-medium text-xs text-[var(--md-sys-color-on-surface)] mt-0.5">
+                {tooltip.reading}
+              </div>
+            )}
             <div className="mt-1 text-[var(--md-sys-color-on-surface-variant)] leading-snug">
               {tooltip.translation}
             </div>
-            {tooltip.level && (
-              <div className="mt-1.5 inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px]">
-                {tooltip.level}
-              </div>
-            )}
           </div>
         )}
       </div>

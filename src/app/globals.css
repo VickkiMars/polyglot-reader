@@ -173,16 +173,37 @@ ruby:hover {
 }
 
 rt {
-  font-size: 0.6em;
+  font-size: 0.65em;
   font-weight: 600;
   color: var(--md-sys-color-primary);
   user-select: none;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
+  line-height: 1;
 }
 
-.hide-readings rt {
+/* Hide readings / pinyin off */
+.hide-readings rt,
+.pinyin-off rt {
   display: none !important;
+}
+
+/* Simplified / Traditional script toggle */
+span.tr {
+  display: none;
+}
+.traditional span.si {
+  display: none !important;
+}
+.traditional span.tr {
+  display: inline !important;
+}
+
+/* Spacing toggle */
+.space-off ruby {
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* Audio Player Range Slider */

@@ -128,6 +128,7 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
       pinyin_paragraphs: s.pinyin_paragraphs || [],
       english_paragraphs: s.english_paragraphs || [],
       english_full: s.english_full || "",
+      ruby_paragraphs: s.ruby_paragraphs || [],
       vocabulary: s.vocabulary || [],
     };
 

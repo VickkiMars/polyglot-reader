@@ -70,7 +70,16 @@ export default function StoryReaderModal({
 
     setLoading(true);
     fetch(`/api/stories/${story.id}?lang=${language}`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          // Fallback to static JSON file on CDN
+          return fetch(`/stories/${language}/${story.id}.json`).then((r) => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          });
+        }
+        return res.json();
+      })
       .then((data: StoryDetail) => {
         setDetail(data);
         setLoading(false);

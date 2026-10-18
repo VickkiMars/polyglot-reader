@@ -5,3 +5,6 @@
 __pycache__/
 node_modules/
 .next/
+.vercel
+public/audio/*
+!public/audio/.gitkeep

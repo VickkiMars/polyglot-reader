@@ -1,0 +1,10 @@
+/data/
+!src/data/
+!src/data/**
+docs/
+*.py
+__pycache__/
+scripts/
+.env
+.env.local
+.git

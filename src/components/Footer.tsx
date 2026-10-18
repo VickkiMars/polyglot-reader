@@ -13,10 +13,10 @@ const FOOTER_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] border-t border-[var(--md-sys-color-outline-variant)]/60 pt-14 pb-12 px-4 sm:px-6 mt-20 transition-colors duration-200">
-      <div className="max-w-[1280px] mx-auto flex flex-col gap-10">
+    <footer className="bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] border-t border-[var(--md-sys-color-outline-variant)]/60 pt-10 pb-8 sm:pt-14 sm:pb-12 px-4 sm:px-6 mt-12 sm:mt-20 transition-colors duration-200">
+      <div className="max-w-[1280px] mx-auto flex flex-col gap-8 sm:gap-10">
         {/* Top Info Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8">
           {/* Brand Column */}
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center gap-2">
@@ -27,10 +27,10 @@ export default function Footer() {
                 v2.0
               </span>
             </div>
-            <p className="text-sm text-[var(--md-sys-color-on-surface-variant)] leading-relaxed max-w-sm">
+            <p className="text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] leading-relaxed max-w-sm">
               The premier graded reading and listening platform for East Asian language learners. 206 parallel stories across Mandarin Chinese (HSK 1–6) and Japanese (JLPT N5–N1).
             </p>
-            <div className="flex items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-2">
+            <div className="hidden sm:flex items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-2">
               <div className="flex items-center gap-1.5">
                 <kbd className="px-2 py-1 bg-[var(--md-sys-color-surface-container)] border border-[var(--md-sys-color-outline-variant)] rounded text-[11px] font-mono">
                   Space

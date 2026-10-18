@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Download, Check, Sparkles } from "lucide-react";
+import { Download, Check } from "lucide-react";
 import InstallOfflineModal from "./InstallOfflineModal";
 import { offlineDownloadManager, DownloadProgress, PackStatus } from "@/lib/offlineDownloadManager";
 
@@ -95,18 +95,18 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
   return (
     <>
       <header className="sticky top-0 z-40 bg-[var(--md-sys-color-surface-container-lowest)] border-b border-[var(--md-sys-color-outline-variant)]/60 transition-colors duration-200">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-3 sm:gap-4">
+        <div className="max-w-[1280px] mx-auto px-3 sm:px-6 h-16 sm:h-[72px] flex items-center justify-between gap-1.5 sm:gap-4">
           {/* Brand Identity */}
-          <div className="flex items-center gap-3">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-xl bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] flex items-center justify-center font-cjk font-bold text-base shadow-xs group-hover:opacity-95 transition-opacity">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+            <Link href="/" className="flex items-center gap-2 sm:gap-2.5 group">
+              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] flex items-center justify-center font-cjk font-bold text-sm sm:text-base shadow-xs group-hover:opacity-95 transition-opacity shrink-0">
                 語
               </div>
               <div className="flex flex-col">
-                <span className="font-montserrat font-bold text-base sm:text-lg text-[var(--md-sys-color-on-surface)] tracking-tight leading-none">
+                <span className="font-montserrat font-bold text-sm sm:text-lg text-[var(--md-sys-color-on-surface)] tracking-tight leading-none whitespace-nowrap">
                   Polyglot<span className="text-[var(--md-sys-color-primary)]">Reader</span>
                 </span>
-                <span className="text-[10px] font-medium text-[var(--md-sys-color-on-surface-variant)] leading-tight hidden sm:inline">
+                <span className="text-[10px] font-medium text-[var(--md-sys-color-on-surface-variant)] leading-tight hidden md:inline">
                   Graded East Asian Stories
                 </span>
               </div>
@@ -114,12 +114,12 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
           </div>
 
           {/* Right Header Actions */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             {/* MD3 Language Segmented Switcher */}
-            <div className="flex items-center bg-[var(--md-sys-color-surface-container-high)] p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/40 shadow-xs">
+            <div className="flex items-center bg-[var(--md-sys-color-surface-container-high)] p-0.5 sm:p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/40 shadow-xs">
               <button
                 onClick={() => onLanguageChange("mandarin")}
-                className={`flex items-center gap-1.5 px-3 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[36px] ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[34px] sm:min-h-[36px] ${
                   currentLanguage === "mandarin"
                     ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
@@ -127,12 +127,12 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
                 aria-pressed={currentLanguage === "mandarin"}
               >
                 <span>🇨🇳</span>
-                <span className="hidden xs:inline sm:inline">Mandarin (HSK)</span>
-                <span className="xs:hidden sm:hidden">HSK</span>
+                <span className="hidden md:inline">Mandarin (HSK)</span>
+                <span className="md:hidden">HSK</span>
               </button>
               <button
                 onClick={() => onLanguageChange("japanese")}
-                className={`flex items-center gap-1.5 px-3 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[36px] ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[34px] sm:min-h-[36px] ${
                   currentLanguage === "japanese"
                     ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
@@ -140,8 +140,8 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
                 aria-pressed={currentLanguage === "japanese"}
               >
                 <span>🇯🇵</span>
-                <span className="hidden xs:inline sm:inline">Japanese (JLPT)</span>
-                <span className="xs:hidden sm:hidden">JLPT</span>
+                <span className="hidden md:inline">Japanese (JLPT)</span>
+                <span className="md:hidden">JLPT</span>
               </button>
             </div>
 
@@ -149,7 +149,7 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
             <button
               type="button"
               onClick={handleInstallClick}
-              className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-tight transition-all duration-200 cursor-pointer min-h-[36px] shadow-xs active:scale-95 border ${
+              className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-xs font-semibold tracking-tight transition-all duration-200 cursor-pointer min-h-[34px] sm:min-h-[36px] shadow-xs active:scale-95 border ${
                 isDownloading
                   ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
                   : isOfflineReady
@@ -164,24 +164,26 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
               {isDownloading ? (
                 <>
                   <span className="w-2.5 h-2.5 rounded-full bg-[var(--md-sys-color-primary)] animate-ping shrink-0" />
-                  <span>
-                    Downloading {activeProgress ? `${activeProgress.percentage.toFixed(0)}%` : ""}
+                  <span className="text-[11px]">
+                    {activeProgress ? `${activeProgress.percentage.toFixed(0)}%` : "Downloading"}
                   </span>
                 </>
               ) : isOfflineReady ? (
                 <>
                   <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
-                  <span className="hidden xs:inline font-medium">Offline Ready</span>
+                  <span className="hidden sm:inline font-medium">Offline Ready</span>
+                  <span className="sm:hidden text-[11px]">Ready</span>
                 </>
               ) : isInstalled ? (
                 <>
                   <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
-                  <span className="hidden xs:inline font-medium">Installed</span>
+                  <span className="hidden sm:inline font-medium">Installed</span>
                 </>
               ) : (
                 <>
                   <Download className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
-                  <span>Install<span className="hidden sm:inline"> App</span></span>
+                  <span className="hidden sm:inline">Install App</span>
+                  <span className="sm:hidden hidden xs:inline">Install</span>
                 </>
               )}
             </button>

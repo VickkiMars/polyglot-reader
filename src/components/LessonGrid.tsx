@@ -123,7 +123,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
   };
 
   return (
-    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-8">
+    <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Filter Bar */}
       <FilterBar
         filters={filters}
@@ -136,17 +136,17 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
       />
 
       {/* Results Header */}
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-6">
-        <span className="text-sm font-medium text-[var(--md-sys-color-on-surface-variant)]">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-4 sm:mb-6">
+        <span className="text-xs sm:text-sm font-medium text-[var(--md-sys-color-on-surface-variant)]">
           Showing {paginatedStories.length} of {filteredStories.length} graded stories
           {filters.level !== "all" && ` • ${filters.level}`}
           {language === "mandarin" ? " (Mandarin)" : " (Japanese)"}
         </span>
       </div>
 
-      {/* 3-Column Card Grid */}
+      {/* Responsive Card Grid: 1 col on mobile, 2 on sm/md, 3 on lg+ */}
       {paginatedStories.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {paginatedStories.map((story) => (
             <LessonCard
               key={story.id}

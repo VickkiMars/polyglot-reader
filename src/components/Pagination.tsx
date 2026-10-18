@@ -37,60 +37,90 @@ export default function Pagination({
 
   return (
     <nav
-      className="flex justify-center items-center gap-1.5 mt-12 mb-8 select-none"
+      className="flex justify-center items-center mt-8 sm:mt-12 mb-6 sm:mb-8 select-none"
       aria-label="Pagination Navigation"
     >
-      {/* Prev Button */}
-      <button
-        onClick={() => onPageChange(currentPage - 1)}
-        disabled={currentPage === 1}
-        className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
-        aria-label="Previous Page"
-      >
-        <ChevronLeft className="w-4 h-4" />
-        <span className="hidden sm:inline">Prev</span>
-      </button>
+      {/* Mobile Compact View (< sm) */}
+      <div className="flex sm:hidden items-center justify-between w-full max-w-xs px-2">
+        <button
+          onClick={() => onPageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          className="flex items-center gap-1.5 px-4 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
+          aria-label="Previous Page"
+        >
+          <ChevronLeft className="w-4 h-4" />
+          <span>Prev</span>
+        </button>
 
-      {/* Number Buttons */}
-      {pages.map((p, idx) => {
-        if (p === "...") {
+        <span className="text-xs font-semibold text-[var(--md-sys-color-on-surface)] font-mono">
+          {currentPage} / {totalPages}
+        </span>
+
+        <button
+          onClick={() => onPageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className="flex items-center gap-1.5 px-4 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
+          aria-label="Next Page"
+        >
+          <span>Next</span>
+          <ChevronRight className="w-4 h-4" />
+        </button>
+      </div>
+
+      {/* Desktop/Tablet Sequence (sm+) */}
+      <div className="hidden sm:flex items-center gap-1.5">
+        {/* Prev Button */}
+        <button
+          onClick={() => onPageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
+          aria-label="Previous Page"
+        >
+          <ChevronLeft className="w-4 h-4" />
+          <span>Prev</span>
+        </button>
+
+        {/* Number Buttons */}
+        {pages.map((p, idx) => {
+          if (p === "...") {
+            return (
+              <span
+                key={`ellipsis-${idx}`}
+                className="w-9 h-9 flex items-center justify-center text-xs text-[var(--md-sys-color-on-surface-variant)]"
+              >
+                …
+              </span>
+            );
+          }
+
+          const isCurrent = p === currentPage;
           return (
-            <span
-              key={`ellipsis-${idx}`}
-              className="w-9 h-9 flex items-center justify-center text-xs text-[var(--md-sys-color-on-surface-variant)]"
+            <button
+              key={`page-${p}`}
+              onClick={() => onPageChange(p as number)}
+              aria-current={isCurrent ? "page" : undefined}
+              className={`w-9 h-9 flex items-center justify-center rounded-full text-xs font-semibold transition-all cursor-pointer min-w-[36px] min-h-[36px] ${
+                isCurrent
+                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                  : "border border-[var(--md-sys-color-outline-variant)]/60 text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)] hover:text-[var(--md-sys-color-on-surface)]"
+              }`}
             >
-              …
-            </span>
+              {p}
+            </button>
           );
-        }
+        })}
 
-        const isCurrent = p === currentPage;
-        return (
-          <button
-            key={`page-${p}`}
-            onClick={() => onPageChange(p as number)}
-            aria-current={isCurrent ? "page" : undefined}
-            className={`w-9 h-9 flex items-center justify-center rounded-full text-xs font-semibold transition-all cursor-pointer min-w-[36px] min-h-[36px] ${
-              isCurrent
-                ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
-                : "border border-[var(--md-sys-color-outline-variant)]/60 text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)] hover:text-[var(--md-sys-color-on-surface)]"
-            }`}
-          >
-            {p}
-          </button>
-        );
-      })}
-
-      {/* Next Button */}
-      <button
-        onClick={() => onPageChange(currentPage + 1)}
-        disabled={currentPage === totalPages}
-        className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
-        aria-label="Next Page"
-      >
-        <span className="hidden sm:inline">Next</span>
-        <ChevronRight className="w-4 h-4" />
-      </button>
+        {/* Next Button */}
+        <button
+          onClick={() => onPageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
+          aria-label="Next Page"
+        >
+          <span>Next</span>
+          <ChevronRight className="w-4 h-4" />
+        </button>
+      </div>
     </nav>
   );
 }

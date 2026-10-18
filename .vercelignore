@@ -8,3 +8,5 @@ scripts/
 .env
 .env.local
 .git
+public/audio/*
+!public/audio/.gitkeep

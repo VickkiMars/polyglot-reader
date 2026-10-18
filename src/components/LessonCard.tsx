@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { Headphones, BookOpen, ExternalLink, Sparkles } from "lucide-react";
 import { StoryCatalogItem } from "@/types";
 
@@ -21,44 +20,26 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
   const vocabCount = isMandarin ? story.mandarin.vocab_count : story.japanese.vocab_count;
   const levelBadge = isMandarin ? story.hsk : `JLPT ${story.jlpt}`;
 
-  // Use local or remote image if available
-  const hasImage = Boolean(story.image);
-  const imageSrc = story.image.startsWith("public/")
-    ? `/${story.image.replace(/^public\//, "")}`
-    : story.image;
-
   return (
     <article
       onClick={() => onSelect(story)}
       className="group bg-[var(--md-sys-color-surface-container-lowest)] rounded-2xl border border-[var(--md-sys-color-outline-variant)]/60 overflow-hidden transition-all duration-200 hover:border-[var(--md-sys-color-primary)]/60 hover:shadow-md hover:bg-[var(--md-sys-color-surface-container-low)] flex flex-col h-full cursor-pointer"
     >
-      {/* Thumbnail or Stylized Typographic CJK Banner */}
+      {/* Stylized Typographic CJK Banner */}
       <div
-        className="relative aspect-video w-full overflow-hidden bg-[var(--md-sys-color-surface-container)] flex items-center justify-center shrink-0"
+        className="relative aspect-video w-full overflow-hidden bg-gradient-to-br from-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-surface-container-lowest)] flex flex-col items-center justify-center p-6 text-center select-none shrink-0"
         style={{ aspectRatio: "16 / 9", minHeight: "180px" }}
       >
-        {hasImage ? (
-          <Image
-            src={imageSrc}
-            alt={story.title}
-            fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover"
-          />
-        ) : (
-          <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-br from-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-surface-container-lowest)] text-center relative overflow-hidden select-none">
-            {/* Subtle background seal watermarking */}
-            <span className="absolute -right-4 -bottom-4 text-7xl font-cjk font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none">
-              {isMandarin ? "汉语" : "日本語"}
-            </span>
-            <span className="text-xl sm:text-2xl font-cjk font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1">
-              {isMandarin ? story.mandarin.character_preview.slice(0, 8) : story.japanese.title}
-            </span>
-            <span className="text-xs text-[var(--md-sys-color-on-surface-variant)] mt-1.5 font-roboto italic line-clamp-1">
-              {story.title}
-            </span>
-          </div>
-        )}
+        {/* Subtle background seal watermarking */}
+        <span className="absolute -right-4 -bottom-4 text-7xl font-cjk font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none">
+          {isMandarin ? "汉语" : "日本語"}
+        </span>
+        <span className="text-xl sm:text-2xl font-cjk font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1">
+          {isMandarin ? story.mandarin.character_preview.slice(0, 8) : story.japanese.title}
+        </span>
+        <span className="text-xs text-[var(--md-sys-color-on-surface-variant)] mt-1.5 font-roboto italic line-clamp-1">
+          {story.title}
+        </span>
 
         {/* Audio Narration Pill Badge */}
         <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-xs text-white px-2.5 py-1 rounded-full text-xs font-medium flex items-center gap-1.5 shadow-xs">

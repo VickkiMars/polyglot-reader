@@ -8,7 +8,7 @@ let japaneseStoriesCache: any[] | null = null;
 
 function getMandarinStories() {
   if (!mandarinStoriesCache) {
-    const filePath = path.join(process.cwd(), "data", "mandarinbean_stories", "stories.json");
+    const filePath = path.join(process.cwd(), "data", "mandarin_stories", "stories.json");
     if (fs.existsSync(filePath)) {
       mandarinStoriesCache = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     } else {

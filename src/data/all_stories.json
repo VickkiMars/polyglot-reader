@@ -3,7 +3,7 @@
     "id": 23410,
     "title": "A Happy Day",
     "slug": "a-happy-day",
-    "url": "https://mandarinbean.com/a-happy-day/",
+    "url": "/story/a-happy-day",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -17,7 +17,7 @@
       "Story",
       "HSK2"
     ],
-    "image": "https://mandarinbean.com/wp-content/uploads/elementor/thumbs/2150-rtjcsytyups2iewl2jjei4iamlbicdvxliqicmhf0y.jpg",
+    "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/23410_a-happy-day.mp3",
       "japanese": "/audio/japanese/23410_a-happy-day.mp3"
@@ -40,7 +40,7 @@
     "id": 21141,
     "title": "My Bicycle",
     "slug": "my-bicycle",
-    "url": "https://mandarinbean.com/my-bicycle/",
+    "url": "/story/my-bicycle",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -77,7 +77,7 @@
     "id": 21210,
     "title": "How to Get to People’s Park?",
     "slug": "how-to-get-to-peoples-park",
-    "url": "https://mandarinbean.com/how-to-get-to-peoples-park/",
+    "url": "/story/how-to-get-to-peoples-park",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -114,7 +114,7 @@
     "id": 21640,
     "title": "China first “frozen person”",
     "slug": "china-first-frozen-person",
-    "url": "https://mandarinbean.com/china-first-frozen-person/",
+    "url": "/story/china-first-frozen-person",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -151,7 +151,7 @@
     "id": 20906,
     "title": "Which One Should I Buy?",
     "slug": "which-one-should-i-buy",
-    "url": "https://mandarinbean.com/which-one-should-i-buy/",
+    "url": "/story/which-one-should-i-buy",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -188,7 +188,7 @@
     "id": 21751,
     "title": "Punch the Little Monkey",
     "slug": "punch-the-little-monkey",
-    "url": "https://mandarinbean.com/punch-the-little-monkey/",
+    "url": "/story/punch-the-little-monkey",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -225,7 +225,7 @@
     "id": 20910,
     "title": "Diary — My Day",
     "slug": "diary-my-day",
-    "url": "https://mandarinbean.com/diary-my-day/",
+    "url": "/story/diary-my-day",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -262,7 +262,7 @@
     "id": 21451,
     "title": "An email —— Thank You for Helping Me Move",
     "slug": "an-email-thank-you-for-helping-me-move",
-    "url": "https://mandarinbean.com/an-email-thank-you-for-helping-me-move/",
+    "url": "/story/an-email-thank-you-for-helping-me-move",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -299,7 +299,7 @@
     "id": 20651,
     "title": "My bedroom",
     "slug": "my-bedroom",
-    "url": "https://mandarinbean.com/my-bedroom/",
+    "url": "/story/my-bedroom",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -336,7 +336,7 @@
     "id": 20770,
     "title": "Mom is missing",
     "slug": "mom-is-missing",
-    "url": "https://mandarinbean.com/mom-is-missing/",
+    "url": "/story/mom-is-missing",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -373,7 +373,7 @@
     "id": 21029,
     "title": "A Letter — Language Class",
     "slug": "a-letter-language-class",
-    "url": "https://mandarinbean.com/a-letter-language-class/",
+    "url": "/story/a-letter-language-class",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -410,7 +410,7 @@
     "id": 20514,
     "title": "My day",
     "slug": "my-day",
-    "url": "https://mandarinbean.com/my-day/",
+    "url": "/story/my-day",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -447,7 +447,7 @@
     "id": 20647,
     "title": "My friend",
     "slug": "my-friend",
-    "url": "https://mandarinbean.com/my-friend/",
+    "url": "/story/my-friend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -484,7 +484,7 @@
     "id": 20760,
     "title": "My Daughter",
     "slug": "my-daughter",
-    "url": "https://mandarinbean.com/my-daughter/",
+    "url": "/story/my-daughter",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -521,7 +521,7 @@
     "id": 20380,
     "title": "My big family",
     "slug": "my-big-family",
-    "url": "https://mandarinbean.com/my-big-family/",
+    "url": "/story/my-big-family",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -558,7 +558,7 @@
     "id": 20370,
     "title": "Age",
     "slug": "age-story",
-    "url": "https://mandarinbean.com/age-story/",
+    "url": "/story/age-story",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -595,7 +595,7 @@
     "id": 20352,
     "title": "Mother’s Day",
     "slug": "mothers-day-2",
-    "url": "https://mandarinbean.com/mothers-day-2/",
+    "url": "/story/mothers-day-2",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -632,7 +632,7 @@
     "id": 19960,
     "title": "It’s hot today",
     "slug": "its-hot-today",
-    "url": "https://mandarinbean.com/its-hot-today/",
+    "url": "/story/its-hot-today",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -669,7 +669,7 @@
     "id": 20509,
     "title": "Music",
     "slug": "music",
-    "url": "https://mandarinbean.com/music/",
+    "url": "/story/music",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -706,7 +706,7 @@
     "id": 20133,
     "title": "Have meeting",
     "slug": "have-meeting",
-    "url": "https://mandarinbean.com/have-meeting/",
+    "url": "/story/have-meeting",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -743,7 +743,7 @@
     "id": 20389,
     "title": "Traditional Festival March 3",
     "slug": "traditional-festival-march-3",
-    "url": "https://mandarinbean.com/traditional-festival-march-3/",
+    "url": "/story/traditional-festival-march-3",
     "level": "Advanced",
     "hsk": "HSK6",
     "hsk_tags": [
@@ -780,7 +780,7 @@
     "id": 20142,
     "title": "My hometown",
     "slug": "my-hometown",
-    "url": "https://mandarinbean.com/my-hometown/",
+    "url": "/story/my-hometown",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -817,7 +817,7 @@
     "id": 19180,
     "title": "Do you know?",
     "slug": "do-you-know",
-    "url": "https://mandarinbean.com/do-you-know/",
+    "url": "/story/do-you-know",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -854,7 +854,7 @@
     "id": 19954,
     "title": "Who I am",
     "slug": "who-i-am",
-    "url": "https://mandarinbean.com/who-i-am/",
+    "url": "/story/who-i-am",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -891,7 +891,7 @@
     "id": 19332,
     "title": "Lily learns Chinese",
     "slug": "lily-learns-chinese",
-    "url": "https://mandarinbean.com/lily-learns-chinese/",
+    "url": "/story/lily-learns-chinese",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -928,7 +928,7 @@
     "id": 19529,
     "title": "Today is my birthday",
     "slug": "today-is-my-birthday",
-    "url": "https://mandarinbean.com/today-is-my-birthday/",
+    "url": "/story/today-is-my-birthday",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -965,7 +965,7 @@
     "id": 19650,
     "title": "What to eat today?",
     "slug": "what-to-eat-today",
-    "url": "https://mandarinbean.com/what-to-eat-today/",
+    "url": "/story/what-to-eat-today",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1002,7 +1002,7 @@
     "id": 17296,
     "title": "Hometown",
     "slug": "hometown",
-    "url": "https://mandarinbean.com/hometown/",
+    "url": "/story/hometown",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1039,7 +1039,7 @@
     "id": 18951,
     "title": "This is my boyfriend",
     "slug": "this-is-my-boyfriend",
-    "url": "https://mandarinbean.com/this-is-my-boyfriend/",
+    "url": "/story/this-is-my-boyfriend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1076,7 +1076,7 @@
     "id": 17892,
     "title": "Citizen of the World",
     "slug": "citizen-of-the-world",
-    "url": "https://mandarinbean.com/citizen-of-the-world/",
+    "url": "/story/citizen-of-the-world",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1113,7 +1113,7 @@
     "id": 17100,
     "title": "I have been in China for three years",
     "slug": "i-have-been-in-china-for-three-years",
-    "url": "https://mandarinbean.com/i-have-been-in-china-for-three-years/",
+    "url": "/story/i-have-been-in-china-for-three-years",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1150,7 +1150,7 @@
     "id": 16943,
     "title": "Do you know them?",
     "slug": "do-you-know-them",
-    "url": "https://mandarinbean.com/do-you-know-them/",
+    "url": "/story/do-you-know-them",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1187,7 +1187,7 @@
     "id": 16948,
     "title": "Dad cried",
     "slug": "dad-cried",
-    "url": "https://mandarinbean.com/dad-cried/",
+    "url": "/story/dad-cried",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1224,7 +1224,7 @@
     "id": 15576,
     "title": "Favorite food",
     "slug": "favorite-food",
-    "url": "https://mandarinbean.com/favorite-food/",
+    "url": "/story/favorite-food",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -1261,7 +1261,7 @@
     "id": 15381,
     "title": "Changing Lifestyle",
     "slug": "changing-lifestyle",
-    "url": "https://mandarinbean.com/changing-lifestyle/",
+    "url": "/story/changing-lifestyle",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1298,7 +1298,7 @@
     "id": 15589,
     "title": "The Tortoise and the Hare",
     "slug": "the-tortoise-and-the-hare",
-    "url": "https://mandarinbean.com/the-tortoise-and-the-hare/",
+    "url": "/story/the-tortoise-and-the-hare",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1335,7 +1335,7 @@
     "id": 15953,
     "title": "Renting Himself Out",
     "slug": "renting-himself-out",
-    "url": "https://mandarinbean.com/renting-himself-out/",
+    "url": "/story/renting-himself-out",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1372,7 +1372,7 @@
     "id": 18973,
     "title": "Miracle Principal Zhang Guimei",
     "slug": "miracle-principal-zhang-guimei",
-    "url": "https://mandarinbean.com/miracle-principal-zhang-guimei/",
+    "url": "/story/miracle-principal-zhang-guimei",
     "level": "Advanced",
     "hsk": "HSK6",
     "hsk_tags": [
@@ -1409,7 +1409,7 @@
     "id": 14754,
     "title": "Girlfriend and boyfriend",
     "slug": "girlfriend-and-boyfriend",
-    "url": "https://mandarinbean.com/girlfriend-and-boyfriend/",
+    "url": "/story/girlfriend-and-boyfriend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1446,7 +1446,7 @@
     "id": 15170,
     "title": "Get married",
     "slug": "get-married",
-    "url": "https://mandarinbean.com/get-married/",
+    "url": "/story/get-married",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1483,7 +1483,7 @@
     "id": 15026,
     "title": "Middle-aged aunt’s self-driving life",
     "slug": "middle-aged-aunts-self-driving-life",
-    "url": "https://mandarinbean.com/middle-aged-aunts-self-driving-life/",
+    "url": "/story/middle-aged-aunts-self-driving-life",
     "level": "Advanced",
     "hsk": "HSK6",
     "hsk_tags": [
@@ -1520,7 +1520,7 @@
     "id": 15331,
     "title": "See you there",
     "slug": "see-you-there",
-    "url": "https://mandarinbean.com/see-you-there/",
+    "url": "/story/see-you-there",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1557,7 +1557,7 @@
     "id": 14538,
     "title": "My new home",
     "slug": "my-new-home",
-    "url": "https://mandarinbean.com/my-new-home/",
+    "url": "/story/my-new-home",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1594,7 +1594,7 @@
     "id": 14553,
     "title": "Poet Yu Xiuhua",
     "slug": "poet-yu-xiuhua",
-    "url": "https://mandarinbean.com/poet-yu-xiuhua/",
+    "url": "/story/poet-yu-xiuhua",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1631,7 +1631,7 @@
     "id": 14747,
     "title": "What are you studying?",
     "slug": "what-are-you-studying",
-    "url": "https://mandarinbean.com/what-are-you-studying/",
+    "url": "/story/what-are-you-studying",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1668,7 +1668,7 @@
     "id": 14266,
     "title": "My roommate",
     "slug": "my-roommate",
-    "url": "https://mandarinbean.com/my-roommate/",
+    "url": "/story/my-roommate",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1705,7 +1705,7 @@
     "id": 14530,
     "title": "My family",
     "slug": "my-family-2",
-    "url": "https://mandarinbean.com/my-family-2/",
+    "url": "/story/my-family-2",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1742,7 +1742,7 @@
     "id": 14412,
     "title": "Where are you going?",
     "slug": "where-are-you-going",
-    "url": "https://mandarinbean.com/where-are-you-going/",
+    "url": "/story/where-are-you-going",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -1779,7 +1779,7 @@
     "id": 13702,
     "title": "Kè Zhōu Qiú Jiàn",
     "slug": "ke-zhou-qiu-jian",
-    "url": "https://mandarinbean.com/ke-zhou-qiu-jian/",
+    "url": "/story/ke-zhou-qiu-jian",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1816,7 +1816,7 @@
     "id": 14391,
     "title": "What to do tomorrow?",
     "slug": "what-to-do-tomorrow",
-    "url": "https://mandarinbean.com/what-to-do-tomorrow/",
+    "url": "/story/what-to-do-tomorrow",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1853,7 +1853,7 @@
     "id": 14204,
     "title": "How is it going recently?",
     "slug": "how-is-it-going-recently",
-    "url": "https://mandarinbean.com/how-is-it-going-recently/",
+    "url": "/story/how-is-it-going-recently",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1890,7 +1890,7 @@
     "id": 14250,
     "title": "Shopping",
     "slug": "shopping-story",
-    "url": "https://mandarinbean.com/shopping-story/",
+    "url": "/story/shopping-story",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -1927,7 +1927,7 @@
     "id": 13535,
     "title": "Yǎn’ěr dào líng",
     "slug": "yaner-dao-ling",
-    "url": "https://mandarinbean.com/yaner-dao-ling/",
+    "url": "/story/yaner-dao-ling",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -1964,7 +1964,7 @@
     "id": 13530,
     "title": "An E-mail",
     "slug": "an-e-mail",
-    "url": "https://mandarinbean.com/an-e-mail/",
+    "url": "/story/an-e-mail",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2001,7 +2001,7 @@
     "id": 13540,
     "title": "Sun Ling’s struggle",
     "slug": "sun-lings-struggle",
-    "url": "https://mandarinbean.com/sun-lings-struggle/",
+    "url": "/story/sun-lings-struggle",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -2038,7 +2038,7 @@
     "id": 13440,
     "title": "Deaf lawyer",
     "slug": "deaf-lawyer",
-    "url": "https://mandarinbean.com/deaf-lawyer/",
+    "url": "/story/deaf-lawyer",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -2075,7 +2075,7 @@
     "id": 13434,
     "title": "Yè Gōng hào lóng",
     "slug": "ye-gong-hao-long",
-    "url": "https://mandarinbean.com/ye-gong-hao-long/",
+    "url": "/story/ye-gong-hao-long",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2112,7 +2112,7 @@
     "id": 13422,
     "title": "A day of my mother",
     "slug": "a-day-of-my-mother",
-    "url": "https://mandarinbean.com/a-day-of-my-mother/",
+    "url": "/story/a-day-of-my-mother",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2149,7 +2149,7 @@
     "id": 12779,
     "title": "Free nursing home",
     "slug": "free-nursing-home",
-    "url": "https://mandarinbean.com/free-nursing-home/",
+    "url": "/story/free-nursing-home",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2186,7 +2186,7 @@
     "id": 12765,
     "title": "Order takeaway",
     "slug": "order-takeaway",
-    "url": "https://mandarinbean.com/order-takeaway/",
+    "url": "/story/order-takeaway",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2223,7 +2223,7 @@
     "id": 13547,
     "title": "Tuī Qiāo",
     "slug": "tui-qiao",
-    "url": "https://mandarinbean.com/tui-qiao/",
+    "url": "/story/tui-qiao",
     "level": "Advanced",
     "hsk": "HSK6",
     "hsk_tags": [
@@ -2260,7 +2260,7 @@
     "id": 12220,
     "title": "Favorite country",
     "slug": "favorite-country",
-    "url": "https://mandarinbean.com/favorite-country/",
+    "url": "/story/favorite-country",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2297,7 +2297,7 @@
     "id": 12234,
     "title": "Special Winter Olympic Torchbearer",
     "slug": "special-winter-olympic-torchbearer",
-    "url": "https://mandarinbean.com/special-winter-olympic-torchbearer/",
+    "url": "/story/special-winter-olympic-torchbearer",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -2334,7 +2334,7 @@
     "id": 12215,
     "title": "Me and Li",
     "slug": "me-and-li",
-    "url": "https://mandarinbean.com/me-and-li/",
+    "url": "/story/me-and-li",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2371,7 +2371,7 @@
     "id": 13427,
     "title": "Where is the subway station？",
     "slug": "where-is-the-subway-station%ef%bc%9f",
-    "url": "https://mandarinbean.com/where-is-the-subway-station%ef%bc%9f/",
+    "url": "/story/where-is-the-subway-station%ef%bc%9f",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2408,7 +2408,7 @@
     "id": 14271,
     "title": "Buy milk tea",
     "slug": "buy-milk-tea",
-    "url": "https://mandarinbean.com/buy-milk-tea/",
+    "url": "/story/buy-milk-tea",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2445,7 +2445,7 @@
     "id": 11765,
     "title": "Ask for sick leave",
     "slug": "ask-for-sick-leave",
-    "url": "https://mandarinbean.com/ask-for-sick-leave/",
+    "url": "/story/ask-for-sick-leave",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2482,7 +2482,7 @@
     "id": 11751,
     "title": "The family of teachers",
     "slug": "the-family-of-teachers",
-    "url": "https://mandarinbean.com/the-family-of-teachers/",
+    "url": "/story/the-family-of-teachers",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2519,7 +2519,7 @@
     "id": 9900,
     "title": "Wait for the rabbit under the tree",
     "slug": "wait-for-the-rabbit-under-the-tree",
-    "url": "https://mandarinbean.com/wait-for-the-rabbit-under-the-tree/",
+    "url": "/story/wait-for-the-rabbit-under-the-tree",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2556,7 +2556,7 @@
     "id": 9889,
     "title": "Unpredictable life",
     "slug": "unpredictable-life",
-    "url": "https://mandarinbean.com/unpredictable-life/",
+    "url": "/story/unpredictable-life",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -2593,7 +2593,7 @@
     "id": 4726,
     "title": "One of my afternoons",
     "slug": "one-of-my-afternoons",
-    "url": "https://mandarinbean.com/one-of-my-afternoons/",
+    "url": "/story/one-of-my-afternoons",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2630,7 +2630,7 @@
     "id": 11134,
     "title": "Live and learn",
     "slug": "live-and-learn",
-    "url": "https://mandarinbean.com/live-and-learn/",
+    "url": "/story/live-and-learn",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2667,7 +2667,7 @@
     "id": 11905,
     "title": "Genius girl Gu Ailing",
     "slug": "genius-girl-gu-ailing",
-    "url": "https://mandarinbean.com/genius-girl-gu-ailing/",
+    "url": "/story/genius-girl-gu-ailing",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -2704,7 +2704,7 @@
     "id": 6368,
     "title": "My marriage",
     "slug": "my-marriage",
-    "url": "https://mandarinbean.com/my-marriage/",
+    "url": "/story/my-marriage",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2741,7 +2741,7 @@
     "id": 10036,
     "title": "The right direction",
     "slug": "the-right-direction",
-    "url": "https://mandarinbean.com/the-right-direction/",
+    "url": "/story/the-right-direction",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -2778,7 +2778,7 @@
     "id": 4622,
     "title": "Too many hobbies",
     "slug": "too-many-hobbies",
-    "url": "https://mandarinbean.com/too-many-hobbies/",
+    "url": "/story/too-many-hobbies",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2815,7 +2815,7 @@
     "id": 5430,
     "title": "Colour",
     "slug": "colour",
-    "url": "https://mandarinbean.com/colour/",
+    "url": "/story/colour",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2852,7 +2852,7 @@
     "id": 5456,
     "title": "Twenty years later",
     "slug": "twenty-years-later",
-    "url": "https://mandarinbean.com/twenty-years-later/",
+    "url": "/story/twenty-years-later",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -2889,7 +2889,7 @@
     "id": 4551,
     "title": "My good friend",
     "slug": "my-good-friend",
-    "url": "https://mandarinbean.com/my-good-friend/",
+    "url": "/story/my-good-friend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2926,7 +2926,7 @@
     "id": 4980,
     "title": "Prepare for travel",
     "slug": "prepare-for-travel",
-    "url": "https://mandarinbean.com/prepare-for-travel/",
+    "url": "/story/prepare-for-travel",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -2963,7 +2963,7 @@
     "id": 1127,
     "title": "Dad and mom are not at home",
     "slug": "dad-and-mom-are-not-at-home",
-    "url": "https://mandarinbean.com/dad-and-mom-are-not-at-home/",
+    "url": "/story/dad-and-mom-are-not-at-home",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -3000,7 +3000,7 @@
     "id": 5028,
     "title": "Reading",
     "slug": "reading-story",
-    "url": "https://mandarinbean.com/reading-story/",
+    "url": "/story/reading-story",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3037,7 +3037,7 @@
     "id": 6494,
     "title": "Fill the bottle",
     "slug": "fill-the-bottle",
-    "url": "https://mandarinbean.com/fill-the-bottle/",
+    "url": "/story/fill-the-bottle",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3074,7 +3074,7 @@
     "id": 4889,
     "title": "Dancing",
     "slug": "dancing",
-    "url": "https://mandarinbean.com/dancing/",
+    "url": "/story/dancing",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -3111,7 +3111,7 @@
     "id": 4702,
     "title": "Change of life",
     "slug": "change-of-life",
-    "url": "https://mandarinbean.com/change-of-life/",
+    "url": "/story/change-of-life",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3148,7 +3148,7 @@
     "id": 4452,
     "title": "My Chinese teacher",
     "slug": "my-chinese-teacher",
-    "url": "https://mandarinbean.com/my-chinese-teacher/",
+    "url": "/story/my-chinese-teacher",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -3185,7 +3185,7 @@
     "id": 4558,
     "title": "Me",
     "slug": "me-story",
-    "url": "https://mandarinbean.com/me-story/",
+    "url": "/story/me-story",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3222,7 +3222,7 @@
     "id": 4253,
     "title": "Three Doctoral Brothers",
     "slug": "three-doctoral-brothers",
-    "url": "https://mandarinbean.com/three-doctoral-brothers/",
+    "url": "/story/three-doctoral-brothers",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3259,7 +3259,7 @@
     "id": 4474,
     "title": "Shoulder",
     "slug": "shoulder",
-    "url": "https://mandarinbean.com/shoulder/",
+    "url": "/story/shoulder",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3296,7 +3296,7 @@
     "id": 4296,
     "title": "Philosophy of Life in Porcelain",
     "slug": "philosophy-of-life-in-porcelain",
-    "url": "https://mandarinbean.com/philosophy-of-life-in-porcelain/",
+    "url": "/story/philosophy-of-life-in-porcelain",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3333,7 +3333,7 @@
     "id": 4354,
     "title": "Please Apologize for Your Compliment",
     "slug": "please-apologize-for-your-compliment",
-    "url": "https://mandarinbean.com/please-apologize-for-your-compliment/",
+    "url": "/story/please-apologize-for-your-compliment",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3370,7 +3370,7 @@
     "id": 4312,
     "title": "A Beautiful Word",
     "slug": "a-beautiful-word",
-    "url": "https://mandarinbean.com/a-beautiful-word/",
+    "url": "/story/a-beautiful-word",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3407,7 +3407,7 @@
     "id": 4210,
     "title": "Please Take the First Step",
     "slug": "please-take-the-first-step",
-    "url": "https://mandarinbean.com/please-take-the-first-step/",
+    "url": "/story/please-take-the-first-step",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3444,7 +3444,7 @@
     "id": 4153,
     "title": "Ten Minutes of Life",
     "slug": "ten-minutes-of-life",
-    "url": "https://mandarinbean.com/ten-minutes-of-life/",
+    "url": "/story/ten-minutes-of-life",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3481,7 +3481,7 @@
     "id": 4137,
     "title": "Grinding Axe",
     "slug": "grinding-axe",
-    "url": "https://mandarinbean.com/grinding-axe/",
+    "url": "/story/grinding-axe",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3518,7 +3518,7 @@
     "id": 4237,
     "title": "Attitude Determines the Future",
     "slug": "attitude-determines-the-future",
-    "url": "https://mandarinbean.com/attitude-determines-the-future/",
+    "url": "/story/attitude-determines-the-future",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3555,7 +3555,7 @@
     "id": 4180,
     "title": "Inertial Thinking",
     "slug": "inertial-thinking",
-    "url": "https://mandarinbean.com/inertial-thinking/",
+    "url": "/story/inertial-thinking",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3592,7 +3592,7 @@
     "id": 4108,
     "title": "Borrow One Dollar",
     "slug": "borrow-one-dollar",
-    "url": "https://mandarinbean.com/borrow-one-dollar/",
+    "url": "/story/borrow-one-dollar",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3629,7 +3629,7 @@
     "id": 4061,
     "title": "The Weather I Like",
     "slug": "the-weather-i-like",
-    "url": "https://mandarinbean.com/the-weather-i-like/",
+    "url": "/story/the-weather-i-like",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3666,7 +3666,7 @@
     "id": 4043,
     "title": "Different Answers",
     "slug": "different-answers",
-    "url": "https://mandarinbean.com/different-answers/",
+    "url": "/story/different-answers",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3703,7 +3703,7 @@
     "id": 4013,
     "title": "Six Steamed Bread",
     "slug": "six-steamed-bread",
-    "url": "https://mandarinbean.com/six-steamed-bread/",
+    "url": "/story/six-steamed-bread",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3740,7 +3740,7 @@
     "id": 3996,
     "title": "Victory of the Antelope",
     "slug": "victory-of-the-antelope",
-    "url": "https://mandarinbean.com/victory-of-the-antelope/",
+    "url": "/story/victory-of-the-antelope",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3777,7 +3777,7 @@
     "id": 3849,
     "title": "The Value of Black Sheep",
     "slug": "the-value-of-black-sheep",
-    "url": "https://mandarinbean.com/the-value-of-black-sheep/",
+    "url": "/story/the-value-of-black-sheep",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3814,7 +3814,7 @@
     "id": 3760,
     "title": "Happiness",
     "slug": "happiness-2",
-    "url": "https://mandarinbean.com/happiness-2/",
+    "url": "/story/happiness-2",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3851,7 +3851,7 @@
     "id": 3824,
     "title": "Doctor and Fisherman",
     "slug": "doctor-and-fisherman",
-    "url": "https://mandarinbean.com/doctor-and-fisherman/",
+    "url": "/story/doctor-and-fisherman",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3888,7 +3888,7 @@
     "id": 3649,
     "title": "Catching Thief With Wisdom",
     "slug": "catching-thief-with-wisdom",
-    "url": "https://mandarinbean.com/catching-thief-with-wisdom/",
+    "url": "/story/catching-thief-with-wisdom",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3925,7 +3925,7 @@
     "id": 3780,
     "title": "Encouragement",
     "slug": "encouragement",
-    "url": "https://mandarinbean.com/encouragement/",
+    "url": "/story/encouragement",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -3962,7 +3962,7 @@
     "id": 3805,
     "title": "15 Minutes Late",
     "slug": "15-minutes-late",
-    "url": "https://mandarinbean.com/15-minutes-late/",
+    "url": "/story/15-minutes-late",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -3999,7 +3999,7 @@
     "id": 3625,
     "title": "The Simplest Common Sense",
     "slug": "the-simplest-common-sense",
-    "url": "https://mandarinbean.com/the-simplest-common-sense/",
+    "url": "/story/the-simplest-common-sense",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -4036,7 +4036,7 @@
     "id": 3343,
     "title": "The Result of Coveting Little Advantages",
     "slug": "the-result-of-coveting-little-advantages",
-    "url": "https://mandarinbean.com/the-result-of-coveting-little-advantages/",
+    "url": "/story/the-result-of-coveting-little-advantages",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4073,7 +4073,7 @@
     "id": 3431,
     "title": "One Chance",
     "slug": "one-chance",
-    "url": "https://mandarinbean.com/one-chance/",
+    "url": "/story/one-chance",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4110,7 +4110,7 @@
     "id": 3892,
     "title": "The Essence of Learning",
     "slug": "the-essence-of-learning",
-    "url": "https://mandarinbean.com/the-essence-of-learning/",
+    "url": "/story/the-essence-of-learning",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4147,7 +4147,7 @@
     "id": 3633,
     "title": "We Are Rich",
     "slug": "we-are-rich",
-    "url": "https://mandarinbean.com/we-are-rich/",
+    "url": "/story/we-are-rich",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4184,7 +4184,7 @@
     "id": 3222,
     "title": "Fairness",
     "slug": "fairness",
-    "url": "https://mandarinbean.com/fairness/",
+    "url": "/story/fairness",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4221,7 +4221,7 @@
     "id": 3325,
     "title": "Sowing and Harvesting",
     "slug": "sowing-and-harvesting",
-    "url": "https://mandarinbean.com/sowing-and-harvesting/",
+    "url": "/story/sowing-and-harvesting",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4258,7 +4258,7 @@
     "id": 3246,
     "title": "Stick to Your Choice",
     "slug": "stick-to-your-choice",
-    "url": "https://mandarinbean.com/stick-to-your-choice/",
+    "url": "/story/stick-to-your-choice",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4295,7 +4295,7 @@
     "id": 3203,
     "title": "Know and Achieve",
     "slug": "know-and-achieve",
-    "url": "https://mandarinbean.com/know-and-achieve/",
+    "url": "/story/know-and-achieve",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4332,7 +4332,7 @@
     "id": 3120,
     "title": "A Leaf Block Out Eyes",
     "slug": "a-leaf-block-out-eyes",
-    "url": "https://mandarinbean.com/a-leaf-block-out-eyes/",
+    "url": "/story/a-leaf-block-out-eyes",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4369,7 +4369,7 @@
     "id": 3367,
     "title": "Nails",
     "slug": "nails",
-    "url": "https://mandarinbean.com/nails/",
+    "url": "/story/nails",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4406,7 +4406,7 @@
     "id": 3147,
     "title": "The Weight of a Glass of Water",
     "slug": "the-weight-of-a-glass-of-water",
-    "url": "https://mandarinbean.com/the-weight-of-a-glass-of-water/",
+    "url": "/story/the-weight-of-a-glass-of-water",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4443,7 +4443,7 @@
     "id": 3163,
     "title": "A Cup",
     "slug": "a-cup",
-    "url": "https://mandarinbean.com/a-cup/",
+    "url": "/story/a-cup",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4480,7 +4480,7 @@
     "id": 3049,
     "title": "Deceive Oneself",
     "slug": "deceive-oneself",
-    "url": "https://mandarinbean.com/deceive-oneself/",
+    "url": "/story/deceive-oneself",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4517,7 +4517,7 @@
     "id": 3391,
     "title": "Smart Child",
     "slug": "smart-child",
-    "url": "https://mandarinbean.com/smart-child/",
+    "url": "/story/smart-child",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4554,7 +4554,7 @@
     "id": 2917,
     "title": "Apply Mechanically",
     "slug": "apply-mechanically",
-    "url": "https://mandarinbean.com/apply-mechanically/",
+    "url": "/story/apply-mechanically",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4591,7 +4591,7 @@
     "id": 2990,
     "title": "A Mouse Without Confidence",
     "slug": "a-mouse-without-confidence",
-    "url": "https://mandarinbean.com/a-mouse-without-confidence/",
+    "url": "/story/a-mouse-without-confidence",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4628,7 +4628,7 @@
     "id": 3025,
     "title": "“万” Is Hard to Write",
     "slug": "wan-is-hard-to-write",
-    "url": "https://mandarinbean.com/wan-is-hard-to-write/",
+    "url": "/story/wan-is-hard-to-write",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4665,7 +4665,7 @@
     "id": 2941,
     "title": "Better Late Than Never",
     "slug": "better-late-than-never",
-    "url": "https://mandarinbean.com/better-late-than-never/",
+    "url": "/story/better-late-than-never",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4702,7 +4702,7 @@
     "id": 3105,
     "title": "Value of Life",
     "slug": "value-of-life",
-    "url": "https://mandarinbean.com/value-of-life/",
+    "url": "/story/value-of-life",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4739,7 +4739,7 @@
     "id": 2847,
     "title": "Boxer’s Mistake",
     "slug": "boxers-mistake",
-    "url": "https://mandarinbean.com/boxers-mistake/",
+    "url": "/story/boxers-mistake",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4776,7 +4776,7 @@
     "id": 2871,
     "title": "Don’t Forget to Cheer for Yourself",
     "slug": "dont-forget-to-cheer-for-yourself",
-    "url": "https://mandarinbean.com/dont-forget-to-cheer-for-yourself/",
+    "url": "/story/dont-forget-to-cheer-for-yourself",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4813,7 +4813,7 @@
     "id": 2817,
     "title": "Big Stone",
     "slug": "big-stone",
-    "url": "https://mandarinbean.com/big-stone/",
+    "url": "/story/big-stone",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4850,7 +4850,7 @@
     "id": 2709,
     "title": "Dog’s Enemy",
     "slug": "dogs-enemy",
-    "url": "https://mandarinbean.com/dogs-enemy/",
+    "url": "/story/dogs-enemy",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -4887,7 +4887,7 @@
     "id": 2734,
     "title": "Happiness",
     "slug": "happiness",
-    "url": "https://mandarinbean.com/happiness/",
+    "url": "/story/happiness",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4924,7 +4924,7 @@
     "id": 2789,
     "title": "Giving Is Happiness",
     "slug": "giving-is-happiness",
-    "url": "https://mandarinbean.com/giving-is-happiness/",
+    "url": "/story/giving-is-happiness",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -4961,7 +4961,7 @@
     "id": 3033,
     "title": "Strength and Weakness",
     "slug": "strength-and-weakness",
-    "url": "https://mandarinbean.com/strength-and-weakness/",
+    "url": "/story/strength-and-weakness",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -4998,7 +4998,7 @@
     "id": 2629,
     "title": "Lost Girl",
     "slug": "lost-girl",
-    "url": "https://mandarinbean.com/lost-girl/",
+    "url": "/story/lost-girl",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5035,7 +5035,7 @@
     "id": 2589,
     "title": "Cup",
     "slug": "cup",
-    "url": "https://mandarinbean.com/cup/",
+    "url": "/story/cup",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5072,7 +5072,7 @@
     "id": 2541,
     "title": "Please Don’t Open the Wrong Window",
     "slug": "please-dont-open-the-wrong-window",
-    "url": "https://mandarinbean.com/please-dont-open-the-wrong-window/",
+    "url": "/story/please-dont-open-the-wrong-window",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5109,7 +5109,7 @@
     "id": 2685,
     "title": "Imagination Is More Important",
     "slug": "imagination-is-more-important",
-    "url": "https://mandarinbean.com/imagination-is-more-important/",
+    "url": "/story/imagination-is-more-important",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5146,7 +5146,7 @@
     "id": 2433,
     "title": "I`m thirsty",
     "slug": "im-thirsty",
-    "url": "https://mandarinbean.com/im-thirsty/",
+    "url": "/story/im-thirsty",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5183,7 +5183,7 @@
     "id": 2764,
     "title": "Spend 90% of the Time Considering Failure",
     "slug": "spend-90-of-the-time-considering-failure",
-    "url": "https://mandarinbean.com/spend-90-of-the-time-considering-failure/",
+    "url": "/story/spend-90-of-the-time-considering-failure",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -5220,7 +5220,7 @@
     "id": 2637,
     "title": "Two Hours of Life Changing",
     "slug": "two-hours-of-life-changing",
-    "url": "https://mandarinbean.com/two-hours-of-life-changing/",
+    "url": "/story/two-hours-of-life-changing",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5257,7 +5257,7 @@
     "id": 2677,
     "title": "Smart Hawker",
     "slug": "smart-hawker",
-    "url": "https://mandarinbean.com/smart-hawker/",
+    "url": "/story/smart-hawker",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5294,7 +5294,7 @@
     "id": 2508,
     "title": "Fishing",
     "slug": "fishing",
-    "url": "https://mandarinbean.com/fishing/",
+    "url": "/story/fishing",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5331,7 +5331,7 @@
     "id": 2361,
     "title": "Make the Loss Cute",
     "slug": "make-the-loss-cute",
-    "url": "https://mandarinbean.com/make-the-loss-cute/",
+    "url": "/story/make-the-loss-cute",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5368,7 +5368,7 @@
     "id": 2441,
     "title": "Gold Egg",
     "slug": "gold-egg",
-    "url": "https://mandarinbean.com/gold-egg/",
+    "url": "/story/gold-egg",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5405,7 +5405,7 @@
     "id": 2392,
     "title": "Two Daughters",
     "slug": "two-daughters",
-    "url": "https://mandarinbean.com/two-daughters/",
+    "url": "/story/two-daughters",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5442,7 +5442,7 @@
     "id": 2313,
     "title": "Puppy and kitten",
     "slug": "puppy-and-kitten",
-    "url": "https://mandarinbean.com/puppy-and-kitten/",
+    "url": "/story/puppy-and-kitten",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5479,7 +5479,7 @@
     "id": 2287,
     "title": "Forgot to bring books",
     "slug": "forgot-to-bring-books",
-    "url": "https://mandarinbean.com/forgot-to-bring-books/",
+    "url": "/story/forgot-to-bring-books",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5516,7 +5516,7 @@
     "id": 2661,
     "title": "Swift Horse",
     "slug": "swift-horse",
-    "url": "https://mandarinbean.com/swift-horse/",
+    "url": "/story/swift-horse",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -5553,7 +5553,7 @@
     "id": 2247,
     "title": "Respect",
     "slug": "respect",
-    "url": "https://mandarinbean.com/respect/",
+    "url": "/story/respect",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5590,7 +5590,7 @@
     "id": 2192,
     "title": "New Friend",
     "slug": "new-friend-2",
-    "url": "https://mandarinbean.com/new-friend-2/",
+    "url": "/story/new-friend-2",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5627,7 +5627,7 @@
     "id": 2214,
     "title": "I got angry today",
     "slug": "i-was-pissed-off-today",
-    "url": "https://mandarinbean.com/i-was-pissed-off-today/",
+    "url": "/story/i-was-pissed-off-today",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5664,7 +5664,7 @@
     "id": 2263,
     "title": "Whiteboard",
     "slug": "whiteboard",
-    "url": "https://mandarinbean.com/whiteboard/",
+    "url": "/story/whiteboard",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5701,7 +5701,7 @@
     "id": 2067,
     "title": "Window",
     "slug": "window-story",
-    "url": "https://mandarinbean.com/window-story/",
+    "url": "/story/window-story",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5738,7 +5738,7 @@
     "id": 1993,
     "title": "Three Years Old",
     "slug": "three-years-old",
-    "url": "https://mandarinbean.com/three-years-old/",
+    "url": "/story/three-years-old",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5775,7 +5775,7 @@
     "id": 1981,
     "title": "Many Companies Don’t Care Anymore If You Went To College",
     "slug": "many-companies-dont-care-anymore-if-you-went-to-college",
-    "url": "https://mandarinbean.com/many-companies-dont-care-anymore-if-you-went-to-college/",
+    "url": "/story/many-companies-dont-care-anymore-if-you-went-to-college",
     "level": "Advanced",
     "hsk": "HSK6",
     "hsk_tags": [
@@ -5812,7 +5812,7 @@
     "id": 1965,
     "title": "Who Am I?",
     "slug": "who-am-i",
-    "url": "https://mandarinbean.com/who-am-i/",
+    "url": "/story/who-am-i",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -5849,7 +5849,7 @@
     "id": 2345,
     "title": "Different Perspectives",
     "slug": "different-perspectives",
-    "url": "https://mandarinbean.com/different-perspectives/",
+    "url": "/story/different-perspectives",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5886,7 +5886,7 @@
     "id": 2051,
     "title": "Kangaroo and Cage",
     "slug": "kangaroo-and-cage",
-    "url": "https://mandarinbean.com/kangaroo-and-cage/",
+    "url": "/story/kangaroo-and-cage",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -5923,7 +5923,7 @@
     "id": 1973,
     "title": "Zeng Shen Kills Pigs",
     "slug": "zeng-shen-kills-pigs",
-    "url": "https://mandarinbean.com/zeng-shen-kills-pigs/",
+    "url": "/story/zeng-shen-kills-pigs",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -5960,7 +5960,7 @@
     "id": 1832,
     "title": "Check Homework",
     "slug": "check-homework",
-    "url": "https://mandarinbean.com/check-homework/",
+    "url": "/story/check-homework",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -5997,7 +5997,7 @@
     "id": 4399,
     "title": "Learn Chinese in China",
     "slug": "learn-chinese-in-china-2",
-    "url": "https://mandarinbean.com/learn-chinese-in-china-2/",
+    "url": "/story/learn-chinese-in-china-2",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6034,7 +6034,7 @@
     "id": 1805,
     "title": "Who knows more?",
     "slug": "who-knows-more",
-    "url": "https://mandarinbean.com/who-knows-more/",
+    "url": "/story/who-knows-more",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6071,7 +6071,7 @@
     "id": 1899,
     "title": "Reverse Thinking",
     "slug": "reverse-thinking",
-    "url": "https://mandarinbean.com/reverse-thinking/",
+    "url": "/story/reverse-thinking",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -6108,7 +6108,7 @@
     "id": 1789,
     "title": "There’s A Kind Of Failure Called Short-Sightedness",
     "slug": "theres-a-kind-of-failure-called-short-sightedness",
-    "url": "https://mandarinbean.com/theres-a-kind-of-failure-called-short-sightedness/",
+    "url": "/story/theres-a-kind-of-failure-called-short-sightedness",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -6145,7 +6145,7 @@
     "id": 2151,
     "title": "Lion and Antelope",
     "slug": "lion-and-antelope",
-    "url": "https://mandarinbean.com/lion-and-antelope/",
+    "url": "/story/lion-and-antelope",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -6182,7 +6182,7 @@
     "id": 2025,
     "title": "Buying a Pair of Shoes",
     "slug": "buying-a-pair-of-shoes",
-    "url": "https://mandarinbean.com/buying-a-pair-of-shoes/",
+    "url": "/story/buying-a-pair-of-shoes",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -6219,7 +6219,7 @@
     "id": 1642,
     "title": "Teaching cooking",
     "slug": "teaching-cooking",
-    "url": "https://mandarinbean.com/teaching-cooking/",
+    "url": "/story/teaching-cooking",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6256,7 +6256,7 @@
     "id": 1733,
     "title": "Love",
     "slug": "love-story",
-    "url": "https://mandarinbean.com/love-story/",
+    "url": "/story/love-story",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6293,7 +6293,7 @@
     "id": 1848,
     "title": "Slow Down Your Steps",
     "slug": "slow-down-your-steps",
-    "url": "https://mandarinbean.com/slow-down-your-steps/",
+    "url": "/story/slow-down-your-steps",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -6330,7 +6330,7 @@
     "id": 1856,
     "title": "Nag",
     "slug": "nag",
-    "url": "https://mandarinbean.com/nag/",
+    "url": "/story/nag",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6367,7 +6367,7 @@
     "id": 1545,
     "title": "New friend",
     "slug": "new-friend",
-    "url": "https://mandarinbean.com/new-friend/",
+    "url": "/story/new-friend",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6404,7 +6404,7 @@
     "id": 1757,
     "title": "Ensure Safety",
     "slug": "ensure-safety",
-    "url": "https://mandarinbean.com/ensure-safety/",
+    "url": "/story/ensure-safety",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6441,7 +6441,7 @@
     "id": 1708,
     "title": "The Story Of Fang Zhongyong",
     "slug": "the-story-of-fang-zhongyong",
-    "url": "https://mandarinbean.com/the-story-of-fang-zhongyong/",
+    "url": "/story/the-story-of-fang-zhongyong",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6478,7 +6478,7 @@
     "id": 1869,
     "title": "Tiger",
     "slug": "tiger",
-    "url": "https://mandarinbean.com/tiger/",
+    "url": "/story/tiger",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -6515,7 +6515,7 @@
     "id": 1592,
     "title": "Boyfriend",
     "slug": "boyfriend",
-    "url": "https://mandarinbean.com/boyfriend/",
+    "url": "/story/boyfriend",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6552,7 +6552,7 @@
     "id": 1423,
     "title": "I want to revenge",
     "slug": "i-want-to-revenge",
-    "url": "https://mandarinbean.com/i-want-to-revenge/",
+    "url": "/story/i-want-to-revenge",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6589,7 +6589,7 @@
     "id": 1401,
     "title": "My Father",
     "slug": "my-father",
-    "url": "https://mandarinbean.com/my-father/",
+    "url": "/story/my-father",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6626,7 +6626,7 @@
     "id": 1782,
     "title": "Plate",
     "slug": "plate-in-story",
-    "url": "https://mandarinbean.com/plate-in-story/",
+    "url": "/story/plate-in-story",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6663,7 +6663,7 @@
     "id": 1340,
     "title": "Fashion",
     "slug": "fashion-story",
-    "url": "https://mandarinbean.com/fashion-story/",
+    "url": "/story/fashion-story",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -6700,7 +6700,7 @@
     "id": 1326,
     "title": "Pressure",
     "slug": "pressure-story",
-    "url": "https://mandarinbean.com/pressure-story/",
+    "url": "/story/pressure-story",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -6737,7 +6737,7 @@
     "id": 1281,
     "title": "Help Each Other",
     "slug": "help-each-other",
-    "url": "https://mandarinbean.com/help-each-other/",
+    "url": "/story/help-each-other",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6774,7 +6774,7 @@
     "id": 1497,
     "title": "My Birthday",
     "slug": "my-birthday",
-    "url": "https://mandarinbean.com/my-birthday/",
+    "url": "/story/my-birthday",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -6811,7 +6811,7 @@
     "id": 1464,
     "title": "Internet and cellphone",
     "slug": "internet-and-cellphone",
-    "url": "https://mandarinbean.com/internet-and-cellphone/",
+    "url": "/story/internet-and-cellphone",
     "level": "Advanced",
     "hsk": "HSK5",
     "hsk_tags": [
@@ -6848,7 +6848,7 @@
     "id": 1569,
     "title": "What to do on weekend",
     "slug": "what-to-do-on-weekend",
-    "url": "https://mandarinbean.com/what-to-do-on-weekend/",
+    "url": "/story/what-to-do-on-weekend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6885,7 +6885,7 @@
     "id": 1135,
     "title": "Learn Chinese in China",
     "slug": "learn-chinese-in-china",
-    "url": "https://mandarinbean.com/learn-chinese-in-china/",
+    "url": "/story/learn-chinese-in-china",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6922,7 +6922,7 @@
     "id": 1520,
     "title": "Pick up friend",
     "slug": "pick-up-friend",
-    "url": "https://mandarinbean.com/pick-up-friend/",
+    "url": "/story/pick-up-friend",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6959,7 +6959,7 @@
     "id": 1373,
     "title": "Why Learning Chinese",
     "slug": "why-learning-chinese",
-    "url": "https://mandarinbean.com/why-learning-chinese/",
+    "url": "/story/why-learning-chinese",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -6996,7 +6996,7 @@
     "id": 1052,
     "title": "The birthdays of children",
     "slug": "the-birthdays-of-children",
-    "url": "https://mandarinbean.com/the-birthdays-of-children/",
+    "url": "/story/the-birthdays-of-children",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -7033,7 +7033,7 @@
     "id": 1021,
     "title": "Birthday",
     "slug": "birthday-story",
-    "url": "https://mandarinbean.com/birthday-story/",
+    "url": "/story/birthday-story",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -7070,7 +7070,7 @@
     "id": 951,
     "title": "Watch Movie",
     "slug": "watch-movie",
-    "url": "https://mandarinbean.com/watch-movie/",
+    "url": "/story/watch-movie",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -7107,7 +7107,7 @@
     "id": 936,
     "title": "Be late again",
     "slug": "be-late-again",
-    "url": "https://mandarinbean.com/be-late-again/",
+    "url": "/story/be-late-again",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -7144,7 +7144,7 @@
     "id": 894,
     "title": "Buy Clothes",
     "slug": "buy-clothes",
-    "url": "https://mandarinbean.com/buy-clothes/",
+    "url": "/story/buy-clothes",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -7181,7 +7181,7 @@
     "id": 1075,
     "title": "Congratulations",
     "slug": "congratulations-story",
-    "url": "https://mandarinbean.com/congratulations-story/",
+    "url": "/story/congratulations-story",
     "level": "Intermediate",
     "hsk": "HSK4",
     "hsk_tags": [
@@ -7218,7 +7218,7 @@
     "id": 1448,
     "title": "My Mother",
     "slug": "my-mother",
-    "url": "https://mandarinbean.com/my-mother/",
+    "url": "/story/my-mother",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -7255,7 +7255,7 @@
     "id": 1149,
     "title": "One of my days",
     "slug": "one-of-my-days",
-    "url": "https://mandarinbean.com/one-of-my-days/",
+    "url": "/story/one-of-my-days",
     "level": "Beginner",
     "hsk": "HSK1",
     "hsk_tags": [
@@ -7292,7 +7292,7 @@
     "id": 1099,
     "title": "After-sale Service",
     "slug": "after-sale-service",
-    "url": "https://mandarinbean.com/after-sale-service/",
+    "url": "/story/after-sale-service",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7329,7 +7329,7 @@
     "id": 1238,
     "title": "Fruits",
     "slug": "fruits-story",
-    "url": "https://mandarinbean.com/fruits-story/",
+    "url": "/story/fruits-story",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -7366,7 +7366,7 @@
     "id": 515,
     "title": "Effort Matters",
     "slug": "effort-matters",
-    "url": "https://mandarinbean.com/effort-matters/",
+    "url": "/story/effort-matters",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7403,7 +7403,7 @@
     "id": 1164,
     "title": "Blind and lantern",
     "slug": "blind-and-lantern",
-    "url": "https://mandarinbean.com/blind-and-lantern/",
+    "url": "/story/blind-and-lantern",
     "level": "Beginner",
     "hsk": "HSK2",
     "hsk_tags": [
@@ -7440,7 +7440,7 @@
     "id": 499,
     "title": "the unwise choice",
     "slug": "the-unwise-choice",
-    "url": "https://mandarinbean.com/the-unwise-choice/",
+    "url": "/story/the-unwise-choice",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7477,7 +7477,7 @@
     "id": 475,
     "title": "A snake in the drinking cup",
     "slug": "a-snake-in-the-drinking-cup",
-    "url": "https://mandarinbean.com/a-snake-in-the-drinking-cup/",
+    "url": "/story/a-snake-in-the-drinking-cup",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7514,7 +7514,7 @@
     "id": 491,
     "title": "Learning wisely",
     "slug": "learning-wisely",
-    "url": "https://mandarinbean.com/learning-wisely/",
+    "url": "/story/learning-wisely",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7551,7 +7551,7 @@
     "id": 337,
     "title": "Waiting for the hare",
     "slug": "waiting-for-the-hare",
-    "url": "https://mandarinbean.com/waiting-for-the-hare/",
+    "url": "/story/waiting-for-the-hare",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [
@@ -7588,7 +7588,7 @@
     "id": 541,
     "title": "Forget how to walk",
     "slug": "forget-how-to-walk",
-    "url": "https://mandarinbean.com/forget-how-to-walk/",
+    "url": "/story/forget-how-to-walk",
     "level": "Intermediate",
     "hsk": "HSK3",
     "hsk_tags": [

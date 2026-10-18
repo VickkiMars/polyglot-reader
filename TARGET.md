@@ -1,24 +1,28 @@
-# Target Website Specification
+# Polyglot Reader Specification
 
-- **Target URL:** `https://mandarinbean.com/all-lessons/?jsf=epro-loop-builder&tax=category:3`
-- **Site:** Mandarin Bean - Chinese Reading and Listening Practice (All Lessons - Beginner Category)
+- **Product:** Polyglot Reader — Graded East Asian Reading and Listening Platform
 - **Primary Features:**
-  - Header with Logo, multi-level dropdown Navigation, and Login
+  - Material Design 3 Top App Bar with Dual Language Switcher (Mandarin & Japanese) and Dark Mode Toggle
+  - Thesis Hero highlighting 206 graded stories, 17,359 lexical annotations, and neural audio narrations
   - Interactive Filter Bar:
     - Search input
-    - Level selector (Beginner, Intermediate, Advanced)
-    - HSK Level checkboxes (HSK 1 to HSK 6)
-    - Progress filter (All, Read, Unread)
-    - Apply and Clear filter actions
-  - Lesson Grid (3-column responsive card grid):
-    - Featured thumbnail
-    - Lesson title
-    - Metadata tags (HSK level badge, topic category, audio indicator)
+    - Level tabs (All, Beginner, Intermediate, Advanced)
+    - Dynamic proficiency chips (HSK 1–6 for Mandarin / JLPT N5–N1 for Japanese)
+    - Audio Narrated Only filter
+  - Graded Lesson Grid (3-column responsive card grid):
+    - Stylized CJK typographic character seals with pronunciation previews
+    - Lesson title in English and native characters
+    - Proficiency badges, topic tags, and word counts
+  - Interactive Story Reader & Audio Modal:
+    - Embedded neural audio player with scrubbing and playback speed controls (0.75x to 1.5x)
+    - Interactive ruby furigana/pinyin text with instant word lookup tooltips
+    - Toggleable sentence translations
+    - Dedicated vocabulary tab with complete lexical tables
   - Pagination Controls (Prev / Next, Page numbers)
   - Footer with navigational links and copyright
 - **Design Tokens:**
-  - Primary Brand: `#cc3366` (`rgb(204, 51, 102)`)
-  - Nav/Heading Font: `Montserrat, sans-serif`
-  - Body/Metadata Font: `Roboto, sans-serif`
-  - Background: `#ffffff`
-  - Border/Input: `#ebecee`
+  - Primary: Imperial Carmine (`#b32656`)
+  - Secondary: Slate Heather (`#75565f`)
+  - Tertiary: Orient Jade (`#326865`)
+  - Surfaces: MD3 Surface Container system (`#fff8f8` Light / `#161214` Dark)
+  - Typography: Montserrat (Display), Roboto (Body), Noto Sans CJK (Characters)

@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center gap-2">
               <span className="font-montserrat font-bold text-lg text-[var(--md-sys-color-primary)]">
-                Mandarin Bean Polyglot
+                Polyglot Reader
               </span>
               <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]">
                 v2.0
@@ -123,7 +123,7 @@ export default function Footer() {
           </nav>
 
           <p className="font-roboto">
-            &copy; {new Date().getFullYear()} Mandarin Bean Polyglot. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Polyglot Reader. All Rights Reserved.
           </p>
         </div>
       </div>

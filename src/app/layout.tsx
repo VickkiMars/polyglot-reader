@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mandarin Bean Polyglot — Graded Chinese & Japanese Reading and Listening",
+  title: "Polyglot Reader — Graded Chinese & Japanese Reading and Listening",
   description:
-    "Immerse yourself in graded East Asian reading and natural neural audio narration. Featuring 206 stories across HSK 1–6 and JLPT N5–N1 with interactive ruby annotations and lexical lookups.",
-  icons: {
-    icon: "/images/logo.png",
-  },
+    "Immerse yourself in graded East Asian reading and natural neural audio narration. Featuring 206 stories across Mandarin (HSK 1–6) and Japanese (JLPT N5–N1) with interactive ruby annotations and lexical lookups.",
 };
 
 export default function RootLayout({

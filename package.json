@@ -1,7 +1,7 @@
 {
   "name": "dazzling-goodall",
   "version": "1.0.0",
-  "description": "A robust, production-grade extraction and translation pipeline for all stories on [Mandarin Bean Story Archive](https://mandarinbean.com/tag/story/).",
+  "description": "A robust, production-grade graded reading and neural audio listening platform for East Asian languages (Mandarin and Japanese).",
   "main": "index.js",
   "directories": {
     "doc": "docs"

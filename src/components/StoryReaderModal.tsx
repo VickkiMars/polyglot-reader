@@ -427,7 +427,7 @@ export default function StoryReaderModal({
                       </p>
                     )}
                     {showTranslation && detail?.english_paragraphs?.[idx] && (
-                      <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border-l-2 border-[var(--md-sys-color-tertiary)] text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                      <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
                         {detail.english_paragraphs[idx]}
                       </div>
                     )}
@@ -443,7 +443,7 @@ export default function StoryReaderModal({
                         dangerouslySetInnerHTML={{ __html: para }}
                       />
                       {showTranslation && detail?.english_paragraphs?.[idx] && (
-                        <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border-l-2 border-[var(--md-sys-color-tertiary)] text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                        <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
                           {detail.english_paragraphs[idx]}
                         </div>
                       )}

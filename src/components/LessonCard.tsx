@@ -33,7 +33,10 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
       className="group bg-[var(--md-sys-color-surface-container-lowest)] rounded-2xl border border-[var(--md-sys-color-outline-variant)]/60 overflow-hidden transition-all duration-200 hover:border-[var(--md-sys-color-primary)]/60 hover:shadow-md hover:bg-[var(--md-sys-color-surface-container-low)] flex flex-col h-full cursor-pointer"
     >
       {/* Thumbnail or Stylized Typographic CJK Banner */}
-      <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--md-sys-color-surface-container)] flex items-center justify-center">
+      <div
+        className="relative aspect-video w-full overflow-hidden bg-[var(--md-sys-color-surface-container)] flex items-center justify-center shrink-0"
+        style={{ aspectRatio: "16 / 9", minHeight: "180px" }}
+      >
         {hasImage ? (
           <Image
             src={imageSrc}

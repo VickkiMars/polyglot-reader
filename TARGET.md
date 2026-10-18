@@ -1,0 +1,24 @@
+# Target Website Specification
+
+- **Target URL:** `https://mandarinbean.com/all-lessons/?jsf=epro-loop-builder&tax=category:3`
+- **Site:** Mandarin Bean - Chinese Reading and Listening Practice (All Lessons - Beginner Category)
+- **Primary Features:**
+  - Header with Logo, multi-level dropdown Navigation, and Login
+  - Interactive Filter Bar:
+    - Search input
+    - Level selector (Beginner, Intermediate, Advanced)
+    - HSK Level checkboxes (HSK 1 to HSK 6)
+    - Progress filter (All, Read, Unread)
+    - Apply and Clear filter actions
+  - Lesson Grid (3-column responsive card grid):
+    - Featured thumbnail
+    - Lesson title
+    - Metadata tags (HSK level badge, topic category, audio indicator)
+  - Pagination Controls (Prev / Next, Page numbers)
+  - Footer with navigational links and copyright
+- **Design Tokens:**
+  - Primary Brand: `#cc3366` (`rgb(204, 51, 102)`)
+  - Nav/Heading Font: `Montserrat, sans-serif`
+  - Body/Metadata Font: `Roboto, sans-serif`
+  - Background: `#ffffff`
+  - Border/Input: `#ebecee`

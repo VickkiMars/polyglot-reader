@@ -271,6 +271,13 @@ export default function StoryReaderModal({
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
             onEnded={() => setIsPlaying(false)}
+            onError={() => {
+              if (rawAudioPath && audioRef.current && audioRef.current.src !== window.location.origin + rawAudioPath) {
+                console.warn("Audio load error on primary src, falling back to local:", rawAudioPath);
+                audioRef.current.src = rawAudioPath;
+                audioRef.current.load();
+              }
+            }}
             preload="metadata"
           />
 

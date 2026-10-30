@@ -4,6 +4,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: "/audio/:lang/:file*",
+        destination: "/api/audio/:lang/:file*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
+

@@ -13,7 +13,7 @@ import {
   Headphones,
   BookOpen,
   WifiOff,
-  AlertTriangle,
+  AlertCircle,
   Laptop,
   Smartphone,
   Share2,
@@ -66,7 +66,6 @@ export default function InstallOfflineModal({
     setIsOnline(navigator.onLine);
     const handleOnline = () => {
       setIsOnline(true);
-      // If we had a network error and were downloading, let user know or auto-resume
     };
     const handleOffline = () => {
       setIsOnline(false);
@@ -129,6 +128,15 @@ export default function InstallOfflineModal({
   const isCurrentLangError =
     Boolean(progress && progress.language === selectedLang && progress.stage === "error");
 
+  const progressRef = useRef<HTMLDivElement | null>(null);
+
+  // Auto-scroll to progress when downloading starts or errors occur
+  useEffect(() => {
+    if (isCurrentLangDownloading || isCurrentLangError) {
+      progressRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }, [isCurrentLangDownloading, isCurrentLangError]);
+
   // Calculate target bytes and formatted strings based on user audio selection
   const audioBytes = manifest?.audio.totalBytes || 0;
   const audioBytesFormatted = manifest?.audio.totalFormatted || "0 MB";
@@ -168,7 +176,8 @@ export default function InstallOfflineModal({
 
   // Delete language pack handler
   const handleDeletePack = async () => {
-    if (!confirm(`Are you sure you want to remove the cached ${manifest?.languageLabel} files?`)) {
+    const langLabel = manifest?.languageLabel || "language";
+    if (!confirm(`Remove offline files for ${langLabel}? You will need an internet connection to re-download.`)) {
       return;
     }
     setIsDeleting(true);
@@ -219,10 +228,10 @@ export default function InstallOfflineModal({
             </div>
             <div>
               <h2 className="font-montserrat font-bold text-base sm:text-lg text-[var(--md-sys-color-on-surface)] leading-tight">
-                Install &amp; Offline Setup
+                Offline Access &amp; Downloads
               </h2>
               <p className="text-[11px] sm:text-xs text-[var(--md-sys-color-on-surface-variant)]">
-                Offline language packs with full neural audio narration
+                Download complete story packages with studio voice narrations for offline practice
               </p>
             </div>
           </div>
@@ -244,10 +253,10 @@ export default function InstallOfflineModal({
                 <Laptop className="w-5 h-5 text-[var(--md-sys-color-primary)] shrink-0" />
                 <div>
                   <div className="font-semibold text-xs text-[var(--md-sys-color-on-primary-container)]">
-                    Install PolyglotReader App
+                    Install as Standalone App
                   </div>
                   <div className="text-[11px] text-[var(--md-sys-color-on-primary-container)]/80">
-                    Add to home screen or desktop for dedicated full-screen window
+                    Add PolyglotReader to your home screen or desktop for a focused reading view
                   </div>
                 </div>
               </div>
@@ -256,7 +265,7 @@ export default function InstallOfflineModal({
                 onClick={handleNativeInstall}
                 className="px-4 py-2 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs cursor-pointer shadow-xs hover:opacity-95 shrink-0"
               >
-                Install Now
+                Install App
               </button>
             </div>
           )}
@@ -265,18 +274,18 @@ export default function InstallOfflineModal({
           {!isOnline && (
             <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center gap-2.5 text-amber-800 dark:text-amber-200">
               <WifiOff className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
-              <span>You are currently offline. Cached lessons and audio remain fully playable.</span>
+              <span>You are currently offline. Downloaded lessons, vocabulary guides, and audio narrations remain fully accessible.</span>
             </div>
           )}
 
           {/* Language Selection Segmented Switcher */}
           <div>
             <div className="text-xs font-semibold text-[var(--md-sys-color-on-surface)] mb-2 flex items-center justify-between">
-              <span>Specify Language for Offline Installation</span>
+              <span>Select Language Pack</span>
               {packStatus && packStatus.totalCachedBytes > 0 && (
                 <span className="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
                   <Check className="w-3.5 h-3.5" />
-                  {formatBytes(packStatus.totalCachedBytes)} cached
+                  {formatBytes(packStatus.totalCachedBytes)} saved offline
                 </span>
               )}
             </div>
@@ -294,7 +303,7 @@ export default function InstallOfflineModal({
                 }`}
               >
                 <span className="text-sm">🇨🇳</span>
-                <span>Mandarin (HSK 1–6)</span>
+                <span>Mandarin Chinese (HSK 1–6)</span>
               </button>
               <button
                 type="button"
@@ -317,28 +326,28 @@ export default function InstallOfflineModal({
           {/* Download Options Box */}
           <div className="p-4 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 space-y-3.5">
             <div className="font-semibold text-xs text-[var(--md-sys-color-on-surface)] flex items-center justify-between">
-              <span>Offline Package Components</span>
+              <span>Package Contents</span>
               <span className="text-[11px] font-normal text-[var(--md-sys-color-on-surface-variant)]">
-                206 Graded Stories
+                206 Graded Stories Available
               </span>
             </div>
 
-            {/* 1. Text & Lexicon (Always included per spec) */}
+            {/* 1. Text & Lexicon */}
             <div className="p-3 rounded-xl bg-[var(--md-sys-color-surface-container-lowest)] border border-[var(--md-sys-color-outline-variant)]/40 flex items-start justify-between gap-3">
               <div className="flex items-start gap-2.5">
                 <BookOpen className="w-4 h-4 text-[var(--md-sys-color-tertiary)] mt-0.5 shrink-0" />
                 <div>
                   <div className="font-semibold text-xs text-[var(--md-sys-color-on-surface)]">
-                    Story Text, Morphological Lexicon & Ruby Annotations
+                    Story Texts, Vocabulary &amp; Reading Guides
                   </div>
-                  <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)] mt-0.5">
-                    All 206 lessons with bilingual definitions, furigana/pinyin, and sentence translations
+                  <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)] mt-0.5 leading-relaxed">
+                    Complete text for all 206 lessons, including furigana or pinyin reading guides, line-by-line translations, and vocabulary breakdowns
                   </div>
                 </div>
               </div>
               <div className="text-right shrink-0">
                 <span className="inline-block px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-semibold text-[10px] mb-1">
-                  Required
+                  Included
                 </span>
                 <div className="font-mono text-[11px] text-[var(--md-sys-color-on-surface-variant)]">
                   {textBytesFormatted}
@@ -349,7 +358,7 @@ export default function InstallOfflineModal({
               </div>
             </div>
 
-            {/* 2. Audio Narration Option (Core user request) */}
+            {/* 2. Audio Narration Option */}
             <label
               htmlFor="include-audio-checkbox"
               className={`p-3 rounded-xl border flex items-start justify-between gap-3 cursor-pointer transition-all ${
@@ -370,11 +379,10 @@ export default function InstallOfflineModal({
                 <div>
                   <div className="flex items-center gap-1.5 font-semibold text-xs text-[var(--md-sys-color-on-surface)]">
                     <Headphones className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
-                    <span>Download all audio for {manifest?.languageLabel || "language"}</span>
+                    <span>Full Voice Audio Narrations</span>
                   </div>
-                  <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)] mt-0.5">
-                    206 high-fidelity neural voice narrations (
-                    {selectedLang === "mandarin" ? "XiaoxiaoNeural" : "NanamiNeural"}). Zero internet required.
+                  <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)] mt-0.5 leading-relaxed">
+                    Natural native-speaker narrations for every story. Practice listening and pronunciation without an internet connection.
                   </div>
                 </div>
               </div>
@@ -386,7 +394,7 @@ export default function InstallOfflineModal({
                       : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
                   }`}
                 >
-                  {includeAudio ? "Selected" : "Omitted"}
+                  {includeAudio ? "Included" : "Excluded"}
                 </span>
                 <div className="font-mono font-bold text-xs text-[var(--md-sys-color-primary)]">
                   {audioBytesFormatted}
@@ -397,10 +405,10 @@ export default function InstallOfflineModal({
               </div>
             </label>
 
-            {/* Total Precise Size Summary */}
+            {/* Total Size Summary */}
             <div className="pt-2 flex items-center justify-between border-t border-[var(--md-sys-color-outline-variant)]/30 text-xs">
               <span className="font-medium text-[var(--md-sys-color-on-surface-variant)]">
-                Total Download Size:
+                Total download size:
               </span>
               <div className="text-right">
                 <span className="font-bold text-sm text-[var(--md-sys-color-on-surface)]">
@@ -413,19 +421,31 @@ export default function InstallOfflineModal({
             </div>
           </div>
 
-          {/* Precise Progress Bar & Live Status (Non-fake byte progress) */}
+          {/* Precise Progress Bar & Live Status */}
           {(isCurrentLangDownloading || isCurrentLangPaused || isCurrentLangError) && progress && (
-            <div className="p-4 rounded-2xl bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/60 space-y-2.5">
+            <div
+              ref={progressRef}
+              className="p-4 rounded-2xl bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/60 space-y-2.5"
+            >
               <div className="flex items-center justify-between font-semibold text-xs">
                 <span className="flex items-center gap-1.5 text-[var(--md-sys-color-on-surface)]">
                   {isCurrentLangDownloading && (
                     <span className="w-2 h-2 rounded-full bg-[var(--md-sys-color-primary)] animate-pulse" />
                   )}
-                  {isCurrentLangDownloading && "Downloading in progress..."}
-                  {isCurrentLangPaused && "Download paused (resumable)"}
-                  {isCurrentLangError && "Download interrupted"}
+                  {isCurrentLangError && (
+                    <span className="w-2 h-2 rounded-full bg-[var(--md-sys-color-error)]" />
+                  )}
+                  {isCurrentLangDownloading && "Downloading offline pack..."}
+                  {isCurrentLangPaused && "Download paused"}
+                  {isCurrentLangError && "Download paused — connection issue"}
                 </span>
-                <span className="font-mono text-sm font-bold text-[var(--md-sys-color-primary)]">
+                <span
+                  className={`font-mono text-sm font-bold ${
+                    isCurrentLangError
+                      ? "text-[var(--md-sys-color-error)]"
+                      : "text-[var(--md-sys-color-primary)]"
+                  }`}
+                >
                   {progress.percentage.toFixed(1)}%
                 </span>
               </div>
@@ -435,7 +455,7 @@ export default function InstallOfflineModal({
                 <div
                   className={`h-full rounded-full transition-all duration-150 ${
                     isCurrentLangError
-                      ? "bg-amber-500"
+                      ? "bg-[var(--md-sys-color-error)]"
                       : "bg-gradient-to-r from-[var(--md-sys-color-primary)] to-[var(--md-sys-color-tertiary)]"
                   }`}
                   style={{ width: `${Math.min(100, Math.max(0, progress.percentage))}%` }}
@@ -446,7 +466,7 @@ export default function InstallOfflineModal({
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 text-[11px] text-[var(--md-sys-color-on-surface-variant)]">
                 <div>
                   <span className="block text-[10px] text-[var(--md-sys-color-on-surface-variant)]/70">
-                    Transferred
+                    Downloaded
                   </span>
                   <span className="font-mono font-medium text-[var(--md-sys-color-on-surface)]">
                     {formatBytes(progress.downloadedBytes)} / {formatBytes(progress.totalBytes)}
@@ -454,7 +474,7 @@ export default function InstallOfflineModal({
                 </div>
                 <div>
                   <span className="block text-[10px] text-[var(--md-sys-color-on-surface-variant)]/70">
-                    Files Completed
+                    Files saved
                   </span>
                   <span className="font-mono font-medium text-[var(--md-sys-color-on-surface)]">
                     {progress.completedFiles} / {progress.totalFiles}
@@ -462,7 +482,7 @@ export default function InstallOfflineModal({
                 </div>
                 <div>
                   <span className="block text-[10px] text-[var(--md-sys-color-on-surface-variant)]/70">
-                    Network Speed
+                    Transfer speed
                   </span>
                   <span className="font-mono font-medium text-[var(--md-sys-color-on-surface)]">
                     {isCurrentLangDownloading ? formatSpeed(progress.speedBps) : "--"}
@@ -470,7 +490,7 @@ export default function InstallOfflineModal({
                 </div>
                 <div>
                   <span className="block text-[10px] text-[var(--md-sys-color-on-surface-variant)]/70">
-                    Est. Remaining
+                    Time remaining
                   </span>
                   <span className="font-mono font-medium text-[var(--md-sys-color-on-surface)]">
                     {isCurrentLangDownloading ? formatEta(progress.etaSeconds) : "--"}
@@ -481,18 +501,25 @@ export default function InstallOfflineModal({
               {/* Current File transferred label */}
               {progress.currentFileName && (
                 <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)] truncate pt-0.5">
-                  <span className="font-medium text-[var(--md-sys-color-on-surface)]">Active: </span>
+                  <span className="font-medium text-[var(--md-sys-color-on-surface)]">Current file: </span>
                   <span className="font-mono">{progress.currentFileName}</span>
                 </div>
               )}
 
-              {/* Network Error alert banner */}
+              {/* Semantic MD3 Error alert banner */}
               {isCurrentLangError && progress.errorMessage && (
-                <div className="p-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-900 dark:text-amber-200 text-[11px] flex items-start gap-2">
-                  <AlertTriangle className="w-4 h-4 text-amber-600 dark:text-amber-400 mt-0.5 shrink-0" />
-                  <div>
-                    <div className="font-semibold">Network connection dropped</div>
-                    <div>{progress.errorMessage}</div>
+                <div className="p-3 rounded-2xl bg-[var(--md-sys-color-error-container)]/80 border border-[var(--md-sys-color-error)]/40 text-[var(--md-sys-color-on-error-container)] text-[11px] flex items-start gap-2.5 shadow-xs">
+                  <AlertCircle className="w-4 h-4 text-[var(--md-sys-color-error)] mt-0.5 shrink-0" />
+                  <div className="space-y-0.5">
+                    <div className="font-semibold text-xs text-[var(--md-sys-color-on-error-container)]">
+                      Connection Interrupted
+                    </div>
+                    <div className="text-[11px] text-[var(--md-sys-color-on-error-container)]/90 leading-relaxed">
+                      {progress.errorMessage}
+                    </div>
+                    <div className="text-[10px] font-medium text-[var(--md-sys-color-error)] pt-1">
+                      Tap Resume Download below to continue from where you left off.
+                    </div>
                   </div>
                 </div>
               )}
@@ -506,10 +533,10 @@ export default function InstallOfflineModal({
                 <Check className="w-4 h-4 text-emerald-600 dark:text-emerald-400 mt-0.5 shrink-0" />
                 <div>
                   <div className="font-semibold text-xs text-emerald-900 dark:text-emerald-200">
-                    {manifest?.languageLabel} is Ready Offline
+                    {manifest?.languageLabel} Pack Ready Offline
                   </div>
                   <div className="text-[11px] text-emerald-800 dark:text-emerald-300">
-                    All {packStatus.textCachedFiles} stories and {packStatus.audioCachedFiles} neural audio files cached ({formatBytes(packStatus.totalCachedBytes)}).
+                    All {packStatus.textCachedFiles} lessons and {packStatus.audioCachedFiles} audio tracks are saved locally ({formatBytes(packStatus.totalCachedBytes)}). You can study offline anytime.
                   </div>
                 </div>
               </div>
@@ -518,10 +545,10 @@ export default function InstallOfflineModal({
                 onClick={handleDeletePack}
                 disabled={isDeleting}
                 className="px-2.5 py-1 rounded-lg border border-red-200 dark:border-red-800/60 text-red-700 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-950/40 text-[11px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
-                title="Remove cached files to free device storage"
+                title="Remove saved offline files to free up device storage"
               >
                 <Trash2 className="w-3 h-3" />
-                <span>Remove</span>
+                <span>Delete Offline Pack</span>
               </button>
             </div>
           )}
@@ -529,36 +556,36 @@ export default function InstallOfflineModal({
           {/* Device Specific Installation Instructions */}
           <div className="space-y-2 pt-1 border-t border-[var(--md-sys-color-outline-variant)]/30">
             <div className="text-xs font-semibold text-[var(--md-sys-color-on-surface)] mb-2">
-              Device Installation Instructions
+              Installation Guide by Device
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
               <div className="p-2.5 rounded-xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40">
                 <div className="flex items-center gap-1.5 font-semibold text-[11px] text-[var(--md-sys-color-on-surface)] mb-1">
                   <Laptop className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
-                  <span>Desktop Chrome/Edge</span>
+                  <span>Desktop (Chrome &amp; Edge)</span>
                 </div>
                 <p className="text-[10px] text-[var(--md-sys-color-on-surface-variant)] leading-snug">
-                  Click the Install icon in the URL address bar.
+                  Click the install icon on the right side of the address bar.
                 </p>
               </div>
 
               <div className="p-2.5 rounded-xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40">
                 <div className="flex items-center gap-1.5 font-semibold text-[11px] text-[var(--md-sys-color-on-surface)] mb-1">
                   <Smartphone className="w-3.5 h-3.5 text-[var(--md-sys-color-tertiary)]" />
-                  <span>iOS Safari</span>
+                  <span>iPhone &amp; iPad (Safari)</span>
                 </div>
                 <p className="text-[10px] text-[var(--md-sys-color-on-surface-variant)] leading-snug">
-                  Tap Share <Share2 className="w-2.5 h-2.5 inline mx-0.5" /> then &quot;Add to Home Screen&quot;.
+                  Tap Share <Share2 className="w-2.5 h-2.5 inline mx-0.5" /> then choose &quot;Add to Home Screen&quot;.
                 </p>
               </div>
 
               <div className="p-2.5 rounded-xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40">
                 <div className="flex items-center gap-1.5 font-semibold text-[11px] text-[var(--md-sys-color-on-surface)] mb-1">
                   <Smartphone className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
-                  <span>Android Chrome</span>
+                  <span>Android (Chrome)</span>
                 </div>
                 <p className="text-[10px] text-[var(--md-sys-color-on-surface-variant)] leading-snug">
-                  Tap ⋮ menu and choose &quot;Install app&quot;.
+                  Tap the menu icon (⋮) in the top-right corner, then select &quot;Install app&quot;.
                 </p>
               </div>
             </div>
@@ -571,8 +598,8 @@ export default function InstallOfflineModal({
             <HardDrive className="w-3.5 h-3.5" />
             <span>
               {storageEstimate.quota
-                ? `Storage: ${storageEstimate.usage} used of ${storageEstimate.quota}`
-                : "HTML5 Offline Cache"}
+                ? `Device storage: ${storageEstimate.usage} used of ${storageEstimate.quota} available`
+                : "Saved in browser offline storage"}
             </span>
           </div>
 
@@ -584,7 +611,7 @@ export default function InstallOfflineModal({
                 className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] font-semibold text-xs transition-colors cursor-pointer min-h-[44px] sm:min-h-[38px]"
               >
                 <Pause className="w-3.5 h-3.5" />
-                <span>Pause</span>
+                <span>Pause Download</span>
               </button>
             ) : isCurrentLangPaused || isCurrentLangError ? (
               <button
@@ -611,7 +638,7 @@ export default function InstallOfflineModal({
                 className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] font-semibold text-xs transition-colors cursor-pointer min-h-[44px] sm:min-h-[38px]"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
-                <span>Re-verify &amp; Sync</span>
+                <span>Check for Updates</span>
               </button>
             ) : (
               <button
@@ -620,7 +647,7 @@ export default function InstallOfflineModal({
                 className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs shadow-xs hover:opacity-95 transition-opacity cursor-pointer min-h-[44px] sm:min-h-[38px]"
               >
                 <Download className="w-3.5 h-3.5" />
-                <span>Download Offline Pack ({totalTargetFormatted})</span>
+                <span>Download Language Pack ({totalTargetFormatted})</span>
               </button>
             )}
 
@@ -629,7 +656,7 @@ export default function InstallOfflineModal({
               onClick={onClose}
               className="px-4 py-2.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] font-semibold text-xs transition-colors cursor-pointer min-h-[44px] sm:min-h-[38px]"
             >
-              Done
+              Close
             </button>
           </div>
         </div>

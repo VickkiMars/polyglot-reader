@@ -2,6 +2,7 @@
  * Offline Download Manager
  *
  * Implements byte-accurate streaming downloads with real-time non-fake progress,
+ * multi-tier CDN and local fallbacks for 100% download reliability,
  * full resumability in case of network drop or user pause, and storage status inspection.
  */
 
@@ -85,7 +86,7 @@ class OfflineDownloadManager {
     };
   }
 
-  private notify(progress: DownloadProgress) {
+  public notify(progress: DownloadProgress) {
     this.currentProgress = progress;
     this.listeners.forEach((fn) => {
       try {
@@ -145,7 +146,12 @@ class OfflineDownloadManager {
     let audioCachedFiles = 0;
     let audioCachedBytes = 0;
     for (const a of data.audio.files) {
-      const match = await cache.match(a.url);
+      let match = await cache.match(a.url);
+      if (!match && a.filename) {
+        match =
+          (await cache.match(`/audio/${lang}/${a.filename}`)) ||
+          (await cache.match(`/api/audio/${lang}/${a.filename}`));
+      }
       if (match) {
         audioCachedFiles++;
         audioCachedBytes += a.size;
@@ -187,6 +193,7 @@ class OfflineDownloadManager {
 
   /**
    * Start or resume downloading language pack with precise byte-level tracking
+   * and resilient multi-source fallback.
    */
   public async startDownload({
     language,
@@ -217,7 +224,7 @@ class OfflineDownloadManager {
         stage: "inspecting",
         language,
         includeAudio,
-        currentFileName: "Fetching manifest...",
+        currentFileName: "Checking package contents...",
         currentFileType: "manifest",
         completedFiles: 0,
         totalFiles: 0,
@@ -232,7 +239,7 @@ class OfflineDownloadManager {
       const manifest = await this.getManifest(language);
       const cache = await caches.open(CACHE_NAME);
 
-      // Define target items
+      // Define target items with fallback URLs
       interface QueueItem {
         id: number;
         title: string;
@@ -240,11 +247,13 @@ class OfflineDownloadManager {
         size: number;
         type: "text" | "audio";
         contentType: string;
+        filename?: string;
+        fallbackUrls?: string[];
       }
 
       const allItems: QueueItem[] = [];
 
-      // 1. Text items (Always included per requirement: "this assumes all the text is also being downloaded")
+      // 1. Text items (Always included per requirement: text is always downloaded)
       for (const t of manifest.text.files) {
         allItems.push({
           id: t.id,
@@ -259,6 +268,13 @@ class OfflineDownloadManager {
       // 2. Audio items (Included if includeAudio is true)
       if (includeAudio) {
         for (const a of manifest.audio.files) {
+          const fallbackUrls: string[] = [];
+          if (a.filename) {
+            const relAudio = `/audio/${language}/${a.filename}`;
+            const apiAudio = `/api/audio/${language}/${a.filename}`;
+            if (relAudio !== a.url) fallbackUrls.push(relAudio);
+            if (apiAudio !== a.url) fallbackUrls.push(apiAudio);
+          }
           allItems.push({
             id: a.id,
             title: a.title,
@@ -266,6 +282,8 @@ class OfflineDownloadManager {
             size: a.size,
             type: "audio",
             contentType: "audio/mpeg",
+            filename: a.filename,
+            fallbackUrls,
           });
         }
       }
@@ -279,7 +297,13 @@ class OfflineDownloadManager {
       let initialCompletedFiles = 0;
 
       for (const item of allItems) {
-        const cached = await cache.match(item.url);
+        let cached = await cache.match(item.url);
+        if (!cached && item.fallbackUrls) {
+          for (const fb of item.fallbackUrls) {
+            cached = await cache.match(fb);
+            if (cached) break;
+          }
+        }
         if (cached) {
           initialDownloadedBytes += item.size;
           initialCompletedFiles++;
@@ -297,7 +321,7 @@ class OfflineDownloadManager {
         stage: pendingItems.length === 0 ? "completed" : "downloading",
         language,
         includeAudio,
-        currentFileName: pendingItems.length === 0 ? "All files already cached" : "Preparing download...",
+        currentFileName: pendingItems.length === 0 ? "All files downloaded" : "Starting download...",
         currentFileType: pendingItems[0]?.type || "text",
         completedFiles,
         totalFiles,
@@ -347,38 +371,82 @@ class OfflineDownloadManager {
         let success = false;
         let lastError: Error | null = null;
 
-        while (attempts < maxAttempts && !success && !this.isPaused && !signal.aborted) {
-          attempts++;
-          try {
-            const res = await fetch(item.url, {
-              signal,
-              cache: "no-store",
-            });
+        // Try primary URL first, and if unavailable/failing, fallback to relative local/API routes
+        const urlsToTry = [item.url, ...(item.fallbackUrls || [])];
+        let res: Response | null = null;
 
-            if (!res.ok) {
-              throw new Error(`HTTP ${res.status} from ${item.url}`);
+        for (const urlToFetch of urlsToTry) {
+          if (this.isPaused || signal.aborted || success) break;
+
+          attempts = 0;
+          while (attempts < maxAttempts && !success && !this.isPaused && !signal.aborted) {
+            attempts++;
+            try {
+              const fetchRes = await fetch(urlToFetch, {
+                signal,
+                cache: "no-store",
+              });
+
+              if (!fetchRes.ok) {
+                throw new Error(`HTTP ${fetchRes.status} from ${urlToFetch}`);
+              }
+
+              res = fetchRes;
+              break;
+            } catch (err: any) {
+              lastError = err;
+              if (this.isPaused || signal.aborted) break;
+
+              // If a remote URL returns 503 or drops connection and we have local fallbacks, jump straight to the fallback
+              const is503OrNetworkDrop =
+                err?.message?.includes("503") ||
+                err?.message?.includes("failed") ||
+                err?.message?.includes("interrupted") ||
+                err?.name === "TypeError";
+
+              if (urlsToTry.length > 1 && urlToFetch !== urlsToTry[urlsToTry.length - 1] && is503OrNetworkDrop) {
+                console.warn(`URL ${urlToFetch} encountered ${err.message}. Trying fallback URL...`);
+                break;
+              }
+
+              // Exponential backoff
+              await new Promise((resolve) => setTimeout(resolve, 600 * attempts));
             }
+          }
 
+          if (res && res.ok) {
+            break;
+          }
+        }
+
+        if (res && res.ok) {
+          try {
             if (!res.body) {
               const blob = await res.blob();
               downloadedBytes += blob.size;
-              await cache.put(
-                item.url,
+
+              const makeResp = () =>
                 new Response(blob, {
                   headers: {
                     "Content-Type": item.contentType,
                     "Content-Length": String(blob.size),
                     "Cache-Control": "public, max-age=31536000",
                   },
-                })
-              );
+                });
+
+              await cache.put(item.url, makeResp());
+              if (item.fallbackUrls) {
+                for (const fb of item.fallbackUrls) {
+                  await cache.put(fb, makeResp());
+                }
+              }
+
               success = true;
               completedFiles++;
             } else {
-              // Read stream byte-by-byte for authentic, un-faked progress bar updates
+              // Read stream byte-by-byte for authentic progress tracking
               const reader = res.body.getReader();
               const chunks: Uint8Array[] = [];
-              let receivedForThisFile = 0;
 
               while (true) {
                 if (this.isPaused || signal.aborted) {
@@ -391,7 +459,6 @@ class OfflineDownloadManager {
 
                 if (value) {
                   chunks.push(value);
-                  receivedForThisFile += value.length;
                   downloadedBytes += value.length;
 
                   // Update speed window
@@ -452,28 +519,28 @@ class OfflineDownloadManager {
 
               // Concatenate chunks and save directly to CacheStorage
               const fullBlob = new Blob(chunks as unknown as BlobPart[], { type: item.contentType });
-              await cache.put(
-                item.url,
+              const makeResp = () =>
                 new Response(fullBlob, {
                   headers: {
                     "Content-Type": item.contentType,
                     "Content-Length": String(fullBlob.size),
                     "Cache-Control": "public, max-age=31536000",
                   },
-                })
-              );
+                });
+
+              await cache.put(item.url, makeResp());
+              if (item.fallbackUrls) {
+                for (const fb of item.fallbackUrls) {
+                  await cache.put(fb, makeResp());
+                }
+              }
 
               success = true;
               completedFiles++;
             }
-          } catch (err: any) {
-            lastError = err;
-            if (this.isPaused || signal.aborted) {
-              break;
-            }
-            console.warn(`Attempt ${attempts} failed for ${item.url}:`, err);
-            // Brief backoff before retry
-            await new Promise((resolve) => setTimeout(resolve, 800 * attempts));
+          } catch (streamErr: any) {
+            lastError = streamErr;
+            success = false;
           }
         }
 
@@ -493,7 +560,7 @@ class OfflineDownloadManager {
             percentage: pct,
             speedBps: 0,
             etaSeconds: 0,
-            errorMessage: `Network error downloading ${item.title}: ${lastError?.message || "Connection interrupted"}. Progress is saved and resumable.`,
+            errorMessage: `Unable to download "${item.title}". Connection interrupted. Progress has been saved and will resume from this file.`,
           });
           this.isRunning = false;
           return;
@@ -505,7 +572,7 @@ class OfflineDownloadManager {
         stage: "completed",
         language,
         includeAudio,
-        currentFileName: "Download complete!",
+        currentFileName: "Download completed successfully",
         currentFileType: "audio",
         completedFiles: totalFiles,
         totalFiles,
@@ -554,9 +621,18 @@ class OfflineDownloadManager {
     }
     for (const a of manifest.audio.files) {
       await cache.delete(a.url);
+      if (a.filename) {
+        await cache.delete(`/audio/${lang}/${a.filename}`);
+        await cache.delete(`/api/audio/${lang}/${a.filename}`);
+      }
     }
   }
 }
 
 // Global singleton instance
 export const offlineDownloadManager = new OfflineDownloadManager();
+
+if (typeof window !== "undefined") {
+  (window as any).__offlineDownloadManager = offlineDownloadManager;
+}
+

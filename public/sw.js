@@ -43,8 +43,18 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.includes('/audio/')) {
     event.respondWith(
       (async () => {
-        // Try matching in any cache by URL
-        const cachedResponse = await caches.match(url.pathname);
+        // Try matching in any cache by exact request, pathname, or alternative prefix
+        let cachedResponse = await caches.match(event.request);
+        if (!cachedResponse) {
+          cachedResponse = await caches.match(url.pathname);
+        }
+        if (!cachedResponse && url.pathname.startsWith('/api/audio/')) {
+          cachedResponse = await caches.match(url.pathname.replace('/api/audio/', '/audio/'));
+        }
+        if (!cachedResponse && url.pathname.startsWith('/audio/')) {
+          cachedResponse = await caches.match(url.pathname.replace('/audio/', '/api/audio/'));
+        }
+
         if (cachedResponse) {
           const rangeHeader = event.request.headers.get('range');
           if (rangeHeader) {

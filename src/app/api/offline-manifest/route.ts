@@ -63,7 +63,9 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
   const catalogPath = path.join(process.cwd(), "src", "data", "all_stories.json");
   const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf-8")) as any[];
 
-  const audioBaseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
+  const rawAudioBaseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
+  // If NEXT_PUBLIC_AUDIO_BASE_URL points to r2.dev, ignore it so downloads go through our resilient same-origin /audio/ route
+  const audioBaseUrl = rawAudioBaseUrl.includes("r2.dev") ? "" : rawAudioBaseUrl;
   const audioSizesMap = (audioSizesData as Record<string, Record<string, number>>)[lang] || {};
 
   const audioFiles: AudioManifestItem[] = [];
@@ -179,5 +181,9 @@ export async function GET(request: NextRequest) {
   const lang = langParam === "japanese" ? "japanese" : "mandarin";
 
   const manifest = buildManifest(lang);
-  return NextResponse.json(manifest);
+  return NextResponse.json(manifest, {
+    headers: {
+      "Cache-Control": "public, max-age=60, stale-while-revalidate=300",
+    },
+  });
 }

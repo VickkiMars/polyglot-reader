@@ -215,7 +215,8 @@ export default function StoryReaderModal({
 
   const isMandarin = language === "mandarin";
   const rawAudioPath = isMandarin ? story.audio.mandarin : story.audio.japanese;
-  const audioBaseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
+  const rawAudioBase = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
+  const audioBaseUrl = rawAudioBase.includes("r2.dev") ? "" : rawAudioBase;
   const audioSrc = rawAudioPath ? `${audioBaseUrl}${rawAudioPath}` : "";
 
   // Font size class mapping

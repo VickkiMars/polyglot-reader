@@ -269,16 +269,25 @@ class OfflineDownloadManager {
       if (includeAudio) {
         for (const a of manifest.audio.files) {
           const fallbackUrls: string[] = [];
+          let primaryUrl = a.url;
+
           if (a.filename) {
             const relAudio = `/audio/${language}/${a.filename}`;
             const apiAudio = `/api/audio/${language}/${a.filename}`;
-            if (relAudio !== a.url) fallbackUrls.push(relAudio);
-            if (apiAudio !== a.url) fallbackUrls.push(apiAudio);
+            // If the manifest URL is a fragile r2.dev domain or cross-origin, prioritize relative same-origin
+            if (!primaryUrl || primaryUrl.includes("r2.dev")) {
+              primaryUrl = relAudio;
+              fallbackUrls.push(apiAudio);
+            } else {
+              if (relAudio !== primaryUrl) fallbackUrls.push(relAudio);
+              if (apiAudio !== primaryUrl) fallbackUrls.push(apiAudio);
+            }
           }
+
           allItems.push({
             id: a.id,
             title: a.title,
-            url: a.url,
+            url: primaryUrl,
             size: a.size,
             type: "audio",
             contentType: "audio/mpeg",
@@ -440,6 +449,10 @@ class OfflineDownloadManager {
                   await cache.put(fb, makeResp());
                 }
               }
+              if (item.filename) {
+                await cache.put(`/audio/${language}/${item.filename}`, makeResp());
+                await cache.put(`/api/audio/${language}/${item.filename}`, makeResp());
+              }
 
               success = true;
               completedFiles++;
@@ -533,6 +546,10 @@ class OfflineDownloadManager {
                 for (const fb of item.fallbackUrls) {
                   await cache.put(fb, makeResp());
                 }
+              }
+              if (item.filename) {
+                await cache.put(`/audio/${language}/${item.filename}`, makeResp());
+                await cache.put(`/api/audio/${language}/${item.filename}`, makeResp());
               }
 
               success = true;

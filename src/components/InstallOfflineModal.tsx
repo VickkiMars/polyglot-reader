@@ -119,8 +119,6 @@ export default function InstallOfflineModal({
     return unsubscribe;
   }, [refreshStatus]);
 
-  if (!isOpen) return null;
-
   const isCurrentLangDownloading =
     Boolean(progress && progress.language === selectedLang && progress.stage === "downloading");
   const isCurrentLangPaused =
@@ -132,10 +130,12 @@ export default function InstallOfflineModal({
 
   // Auto-scroll to progress when downloading starts or errors occur
   useEffect(() => {
-    if (isCurrentLangDownloading || isCurrentLangError) {
+    if (isOpen && (isCurrentLangDownloading || isCurrentLangError)) {
       progressRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
-  }, [isCurrentLangDownloading, isCurrentLangError]);
+  }, [isOpen, isCurrentLangDownloading, isCurrentLangError]);
+
+  if (!isOpen) return null;
 
   // Calculate target bytes and formatted strings based on user audio selection
   const audioBytes = manifest?.audio.totalBytes || 0;

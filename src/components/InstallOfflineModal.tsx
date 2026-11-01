@@ -248,7 +248,7 @@ export default function InstallOfflineModal({
         <div className="flex-1 overflow-y-auto px-4 py-4 sm:px-6 sm:py-5 space-y-4 sm:space-y-5 text-xs text-[var(--md-sys-color-on-surface)]">
           {/* PWA Direct Installation Card */}
           {deferredPrompt && !isAppInstalled && (
-            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-primary-container)]/60 border border-[var(--md-sys-color-primary)]/30 flex items-center justify-between gap-3 shadow-xs">
+            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-primary-container)]/60 border border-[var(--md-sys-color-primary)]/30 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-xs">
               <div className="flex items-center gap-2.5">
                 <Laptop className="w-5 h-5 text-[var(--md-sys-color-primary)] shrink-0" />
                 <div>
@@ -263,7 +263,7 @@ export default function InstallOfflineModal({
               <button
                 type="button"
                 onClick={handleNativeInstall}
-                className="px-4 py-2 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs cursor-pointer shadow-xs hover:opacity-95 shrink-0"
+                className="px-4 py-2 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs cursor-pointer shadow-xs hover:opacity-95 shrink-0 min-h-[38px] text-center"
               >
                 Install App
               </button>
@@ -296,14 +296,15 @@ export default function InstallOfflineModal({
                   setSelectedLang("mandarin");
                   onLanguageChange?.("mandarin");
                 }}
-                className={`flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-medium text-xs transition-all cursor-pointer ${
+                className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
                   selectedLang === "mandarin"
                     ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
                 }`}
               >
-                <span className="text-sm">🇨🇳</span>
-                <span>Mandarin Chinese (HSK 1–6)</span>
+                <span className="text-sm shrink-0">🇨🇳</span>
+                <span className="hidden sm:inline">Mandarin Chinese (HSK 1–6)</span>
+                <span className="sm:hidden">Mandarin (HSK)</span>
               </button>
               <button
                 type="button"
@@ -311,14 +312,15 @@ export default function InstallOfflineModal({
                   setSelectedLang("japanese");
                   onLanguageChange?.("japanese");
                 }}
-                className={`flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-medium text-xs transition-all cursor-pointer ${
+                className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
                   selectedLang === "japanese"
                     ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
                 }`}
               >
-                <span className="text-sm">🇯🇵</span>
-                <span>Japanese (JLPT N5–N1)</span>
+                <span className="text-sm shrink-0">🇯🇵</span>
+                <span className="hidden sm:inline">Japanese (JLPT N5–N1)</span>
+                <span className="sm:hidden">Japanese (JLPT)</span>
               </button>
             </div>
           </div>

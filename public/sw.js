@@ -1,10 +1,10 @@
 /*
- * PolyglotReader Service Worker v2
+ * PolyglotReader Service Worker v3
  * Enables full offline reading, neural audio caching, range requests for HTML5 audio,
  * and PWA installability.
  */
 
-const CACHE_NAME = 'polyglot-reader-v2';
+const CACHE_NAME = 'polyglot-reader-v3';
 const PRECACHE_ASSETS = [
   '/',
   '/manifest.json',

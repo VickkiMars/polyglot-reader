@@ -68,11 +68,11 @@ export default function FilterBar({
     filters.audioOnly;
 
   return (
-    <div className="bg-[var(--md-sys-color-surface-container)] rounded-2xl p-3.5 sm:p-5 mb-6 sm:mb-8 border border-[var(--md-sys-color-outline-variant)]/60 shadow-xs transition-colors duration-200">
+    <div className="bg-[var(--md-sys-color-surface-container)] rounded-2xl p-3 sm:p-5 mb-6 sm:mb-8 border border-[var(--md-sys-color-outline-variant)]/60 shadow-xs transition-colors duration-200 min-w-0 max-w-full overflow-hidden">
       {/* Top Row: Search and Level Filter Segmented Control */}
-      <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 items-stretch lg:items-center justify-between">
+      <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 items-stretch lg:items-center justify-between min-w-0">
         {/* Search Field */}
-        <div className="relative flex-1 max-w-xl">
+        <div className="relative flex-1 max-w-xl min-w-0">
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--md-sys-color-on-surface-variant)] pointer-events-none" />
           <input
             type="text"
@@ -97,7 +97,7 @@ export default function FilterBar({
         </div>
 
         {/* Level Tabs - Scrollable on mobile without wrapping */}
-        <div className="w-full lg:w-auto overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1">
+        <div className="w-full min-w-0 lg:w-auto overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1">
           <div className="inline-flex items-center bg-[var(--md-sys-color-surface-container-lowest)] p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/60 min-w-max">
             {[
               { id: "all", label: "All Levels", count: counts.all },
@@ -134,8 +134,8 @@ export default function FilterBar({
       </div>
 
       {/* Bottom Row: Dynamic Proficiency Level Chips & Audio Filter */}
-      <div className="mt-4 pt-4 border-t border-[var(--md-sys-color-outline-variant)]/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-sm">
-        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+      <div className="mt-4 pt-4 border-t border-[var(--md-sys-color-outline-variant)]/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-sm min-w-0">
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 min-w-0">
           <span className="text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] uppercase tracking-wider mr-1">
             {isMandarin ? "HSK Filter:" : "JLPT Filter:"}
           </span>

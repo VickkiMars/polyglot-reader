@@ -46,23 +46,31 @@ export default function StoryReaderModal({
   const [activeTab, setActiveTab] = useState<"story" | "vocabulary">("story");
   const [fontSize, setFontSize] = useState<"normal" | "large" | "xlarge">("large");
 
-  // Word Tooltip state
+  // Word Tooltip state with on-screen collision clamping and directional arrow
   const [tooltip, setTooltip] = useState<{
     x: number;
     y: number;
+    arrowX: number;
+    placement: "top" | "bottom";
+    width: number;
     pinyin: string;
     reading: string;
     translation: string;
     level: string;
     visible: boolean;
+    targetWord?: string;
   }>({
     x: 0,
     y: 0,
+    arrowX: 16,
+    placement: "top",
+    width: 280,
     pinyin: "",
     reading: "",
     translation: "",
     level: "",
     visible: false,
+    targetWord: undefined,
   });
 
   // Fetch full story details
@@ -150,9 +158,9 @@ export default function StoryReaderModal({
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
 
-  // Tooltip interaction for vocabulary in the text
+  // Tooltip interaction for vocabulary in the text with airtight on-screen clamping
   const handleWordInteraction = (
-    e: React.MouseEvent<HTMLElement>,
+    e: React.MouseEvent<HTMLElement> | React.TouchEvent<HTMLElement>,
     vocabList: VocabularyItem[]
   ) => {
     const target = e.target as HTMLElement;
@@ -162,6 +170,8 @@ export default function StoryReaderModal({
       return;
     }
 
+    e.stopPropagation();
+
     const py = ruby.getAttribute("data-py") || "";
     const defn = ruby.getAttribute("data-defn") || "";
     const hsk = ruby.getAttribute("data-hsk") || "";
@@ -170,44 +180,80 @@ export default function StoryReaderModal({
       ruby.textContent?.replace(ruby.querySelector("rt")?.textContent || "", "").trim() ||
       "";
 
-    if (py || defn) {
-      const rect = ruby.getBoundingClientRect();
-      setTooltip({
-        x: rect.left + rect.width / 2,
-        y: rect.top - 8,
-        pinyin: py,
-        reading: wordText,
-        translation: defn,
-        level: hsk,
-        visible: true,
-      });
+    let pinyin = py;
+    let reading = wordText;
+    let translation = defn;
+    let level = hsk;
+
+    if (!pinyin && !translation) {
+      // Search in vocab list fallback
+      const found = vocabList.find(
+        (v) =>
+          (wordText && (v.word.includes(wordText) || wordText.includes(v.word))) ||
+          (v.pinyin && wordText.includes(v.pinyin))
+      );
+      if (found) {
+        pinyin = found.pinyin || found.reading || "";
+        reading = found.word;
+        translation = found.translation;
+        level = found.hsk || (found.jlpt ? `JLPT ${found.jlpt}` : "");
+      }
+    }
+
+    if (!pinyin && !translation && !reading) {
       return;
     }
 
-    // Search in vocab list fallback
-    const found = vocabList.find(
-      (v) =>
-        (wordText && (v.word.includes(wordText) || wordText.includes(v.word))) ||
-        (v.pinyin && wordText.includes(v.pinyin))
-    );
-
-    if (found) {
-      const rect = ruby.getBoundingClientRect();
-      setTooltip({
-        x: rect.left + rect.width / 2,
-        y: rect.top - 8,
-        pinyin: found.pinyin || found.reading || "",
-        reading: found.word,
-        translation: found.translation,
-        level: found.hsk || (found.jlpt ? `JLPT ${found.jlpt}` : ""),
-        visible: true,
-      });
+    // Toggle off if tapping the already open word on mobile
+    if (tooltip.visible && tooltip.targetWord === wordText && e.type === "click") {
+      setTooltip((prev) => ({ ...prev, visible: false, targetWord: undefined }));
+      return;
     }
+
+    const rect = ruby.getBoundingClientRect();
+    const vw = typeof window !== "undefined" ? window.innerWidth : 375;
+    const vh = typeof window !== "undefined" ? window.innerHeight : 667;
+    const padding = 12; // 12px safe boundary from viewport edges
+    const tooltipWidth = Math.min(vw - padding * 2, 280);
+
+    const targetX = rect.left + rect.width / 2;
+    const idealLeft = targetX - tooltipWidth / 2;
+    // Guaranteed on-screen clamping: left is strictly bounded between padding and vw - tooltipWidth - padding
+    const clampedLeft = Math.max(padding, Math.min(vw - tooltipWidth - padding, idealLeft));
+    // Arrow points directly at the center of the character, clamped to card body
+    const arrowX = Math.max(16, Math.min(tooltipWidth - 16, targetX - clampedLeft));
+
+    // Vertical collision detection: flip to bottom if character is near header/top of viewport
+    const estimatedHeight = 100;
+    let placement: "top" | "bottom" = "top";
+    let y = rect.top - 10;
+
+    if (rect.top < 150) {
+      placement = "bottom";
+      y = rect.bottom + 10;
+    } else if (rect.top - estimatedHeight < 20) {
+      placement = "bottom";
+      y = Math.min(vh - estimatedHeight - padding, rect.bottom + 10);
+    }
+
+    setTooltip({
+      x: clampedLeft,
+      y,
+      arrowX,
+      placement,
+      width: tooltipWidth,
+      pinyin,
+      reading,
+      translation,
+      level,
+      visible: true,
+      targetWord: wordText,
+    });
   };
 
   const closeTooltip = () => {
     if (tooltip.visible) {
-      setTooltip((prev) => ({ ...prev, visible: false }));
+      setTooltip((prev) => ({ ...prev, visible: false, targetWord: undefined }));
     }
   };
 
@@ -335,8 +381,134 @@ export default function StoryReaderModal({
         </div>
 
         {/* Reader Action Ribbon & Toggle Controls */}
-        <div className="px-4 py-2 sm:px-5 sm:py-2.5 bg-[var(--md-sys-color-surface-container-low)] border-b border-[var(--md-sys-color-outline-variant)]/40 overflow-x-auto no-scrollbar shrink-0">
-          <div className="flex items-center justify-between gap-3 min-w-max text-xs">
+        <div className="px-3.5 py-2 sm:px-5 sm:py-2.5 bg-[var(--md-sys-color-surface-container-low)] border-b border-[var(--md-sys-color-outline-variant)]/40 shrink-0">
+          {/* Mobile Layout (< sm): Stacked Two-Tier Controls */}
+          <div className="flex sm:hidden flex-col gap-2 text-xs">
+            {/* Top Tier: Tabs and Font Size Selector */}
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container)] p-0.5 rounded-full border border-[var(--md-sys-color-outline-variant)]/40">
+                <button
+                  onClick={() => setActiveTab("story")}
+                  className={`px-3 py-1 rounded-full font-semibold transition-all cursor-pointer min-h-[32px] text-[11px] ${
+                    activeTab === "story"
+                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-high)]"
+                  }`}
+                >
+                  Story Text
+                </button>
+                <button
+                  onClick={() => setActiveTab("vocabulary")}
+                  className={`px-3 py-1 rounded-full font-semibold transition-all cursor-pointer min-h-[32px] text-[11px] ${
+                    activeTab === "vocabulary"
+                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-high)]"
+                  }`}
+                >
+                  Vocab ({detail?.vocabulary?.length || story.mandarin.vocab_count})
+                </button>
+              </div>
+
+              {/* Font Size Selector on Mobile */}
+              {activeTab === "story" && (
+                <div className="flex items-center border border-[var(--md-sys-color-outline-variant)] rounded-full bg-[var(--md-sys-color-surface-container-lowest)] p-0.5">
+                  <button
+                    onClick={() => setFontSize("normal")}
+                    className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
+                      fontSize === "normal"
+                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        : "text-[var(--md-sys-color-on-surface-variant)]"
+                    }`}
+                    title="Normal font size"
+                  >
+                    A
+                  </button>
+                  <button
+                    onClick={() => setFontSize("large")}
+                    className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
+                      fontSize === "large"
+                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        : "text-[var(--md-sys-color-on-surface-variant)]"
+                    }`}
+                    title="Large font size"
+                  >
+                    A+
+                  </button>
+                  <button
+                    onClick={() => setFontSize("xlarge")}
+                    className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
+                      fontSize === "xlarge"
+                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        : "text-[var(--md-sys-color-on-surface-variant)]"
+                    }`}
+                    title="Extra large font size"
+                  >
+                    A++
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {/* Bottom Tier: Reading & Display Toggles on Mobile */}
+            {activeTab === "story" && (
+              <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1">
+                {isMandarin && (
+                  <button
+                    onClick={() => setIsTraditional(!isTraditional)}
+                    className={`px-2.5 py-1 rounded-full border transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
+                      isTraditional
+                        ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)]"
+                        : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)]"
+                    }`}
+                  >
+                    {isTraditional ? "Traditional" : "Simplified"}
+                  </button>
+                )}
+
+                <button
+                  onClick={() => setShowReading(!showReading)}
+                  className={`px-2.5 py-1 rounded-full border transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
+                    showReading
+                      ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)]"
+                      : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)]"
+                  }`}
+                >
+                  {isMandarin
+                    ? showReading
+                      ? "Pinyin On"
+                      : "Pinyin Off"
+                    : showReading
+                    ? "Reading On"
+                    : "Reading Off"}
+                </button>
+
+                <button
+                  onClick={() => setIsSpaceOn(!isSpaceOn)}
+                  className={`px-2.5 py-1 rounded-full border transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
+                    isSpaceOn
+                      ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-primary)]"
+                      : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)]"
+                  }`}
+                >
+                  {isSpaceOn ? "Spaces On" : "Spaces Off"}
+                </button>
+
+                <button
+                  onClick={() => setShowTranslation(!showTranslation)}
+                  className={`px-2.5 py-1 rounded-full border transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
+                    showTranslation
+                      ? "bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-tertiary)] text-[var(--md-sys-color-tertiary)]"
+                      : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)]"
+                  }`}
+                >
+                  {showTranslation ? "Translation On" : "Translation Off"}
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Tablet & Desktop Layout (sm+) */}
+          <div className="hidden sm:flex items-center justify-between gap-3 text-xs">
             {/* Tabs: Story Text vs Vocabulary List */}
             <div className="flex items-center gap-1">
               <button
@@ -364,7 +536,6 @@ export default function StoryReaderModal({
             {/* Reading Toggles */}
             {activeTab === "story" && (
               <div className="flex flex-wrap items-center gap-2">
-                {/* Mandarin: Simplified / Traditional toggle */}
                 {isMandarin && (
                   <button
                     onClick={() => setIsTraditional(!isTraditional)}
@@ -378,7 +549,6 @@ export default function StoryReaderModal({
                   </button>
                 )}
 
-                {/* Readings toggle (Pinyin/Reading) */}
                 <button
                   onClick={() => setShowReading(!showReading)}
                   className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
@@ -396,7 +566,6 @@ export default function StoryReaderModal({
                     : "Reading Off"}
                 </button>
 
-                {/* Space On / Space Off */}
                 <button
                   onClick={() => setIsSpaceOn(!isSpaceOn)}
                   className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
@@ -408,7 +577,6 @@ export default function StoryReaderModal({
                   {isSpaceOn ? "Space On" : "Space Off"}
                 </button>
 
-                {/* Translation Toggle */}
                 <button
                   onClick={() => setShowTranslation(!showTranslation)}
                   className={`px-3 py-1 rounded-full border transition-all cursor-pointer font-medium ${
@@ -462,7 +630,10 @@ export default function StoryReaderModal({
         </div>
 
         {/* Scrollable Reader Body */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 sm:p-8 safe-bottom">
+        <div
+          className="flex-1 overflow-y-auto p-4 sm:p-6 sm:p-8 safe-bottom"
+          onScroll={() => closeTooltip()}
+        >
           {loading ? (
             <div className="py-20 flex flex-col items-center justify-center gap-3 text-[var(--md-sys-color-on-surface-variant)]">
               <div className="w-8 h-8 border-2 border-[var(--md-sys-color-primary)] border-t-transparent rounded-full animate-spin" />
@@ -474,10 +645,16 @@ export default function StoryReaderModal({
                 !showReading ? "hide-readings pinyin-off" : ""
               } ${!isSpaceOn ? "space-off" : ""} ${isTraditional ? "traditional" : ""}`}
               onClick={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
-              onMouseOver={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
+              onMouseOver={(e) => {
+                if (typeof window !== "undefined" && window.matchMedia("(hover: hover)").matches) {
+                  handleWordInteraction(e, detail?.vocabulary || []);
+                }
+              }}
               onMouseOut={(e) => {
-                if ((e.target as HTMLElement).closest("ruby")) {
-                  closeTooltip();
+                if (typeof window !== "undefined" && window.matchMedia("(hover: hover)").matches) {
+                  if ((e.target as HTMLElement).closest("ruby")) {
+                    closeTooltip();
+                  }
                 }
               }}
             >
@@ -489,11 +666,11 @@ export default function StoryReaderModal({
               ).map((para, idx) => (
                 <div key={idx} className="space-y-3">
                   <div
-                    className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer"
+                    className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer touch-manipulation"
                     dangerouslySetInnerHTML={{ __html: para }}
                   />
                   {showTranslation && detail?.english_paragraphs?.[idx] && (
-                    <div className="p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                    <div className="p-3 sm:p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
                       {detail.english_paragraphs[idx]}
                     </div>
                   )}
@@ -501,73 +678,140 @@ export default function StoryReaderModal({
               ))}
             </div>
           ) : (
-            // Vocabulary Table View
-            <div className="overflow-x-auto no-scrollbar">
-              <table className="w-full min-w-[500px] text-left text-sm border-collapse">
-                <thead>
-                  <tr className="border-b border-[var(--md-sys-color-outline-variant)] text-xs uppercase tracking-wider text-[var(--md-sys-color-on-surface-variant)] bg-[var(--md-sys-color-surface-container-low)]">
-                    <th className="py-3 px-4 font-semibold">{isMandarin ? "Simplified" : "Word"}</th>
-                    {isMandarin && <th className="py-3 px-4 font-semibold">Traditional</th>}
-                    <th className="py-3 px-4 font-semibold">{isMandarin ? "Pinyin" : "Reading"}</th>
-                    <th className="py-3 px-4 font-semibold">English Meaning</th>
-                    <th className="py-3 px-4 font-semibold">Level</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-[var(--md-sys-color-outline-variant)]/40 font-roboto">
-                  {(detail?.vocabulary || []).map((item, idx) => (
-                    <tr
-                      key={idx}
-                      className="hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
-                    >
-                      <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
-                        {item.word || (item as any).word_simplified || "—"}
-                      </td>
-                      {isMandarin && (
-                        <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
-                          {(item as any).word_traditional || item.word || "—"}
-                        </td>
-                      )}
-                      <td className="py-3 px-4 font-mono text-xs text-[var(--md-sys-color-primary)] font-semibold">
-                        {item.pinyin || item.reading || "—"}
-                      </td>
-                      <td className="py-3 px-4 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)]">
-                        {item.translation}
-                      </td>
-                      <td className="py-3 px-4">
-                        <span className="inline-block px-2 py-0.5 rounded-full text-[11px] font-semibold bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]">
-                          {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : "—")}
+            // Vocabulary View: Responsive Card List on Mobile, Table on Tablet/Desktop
+            <div>
+              {/* Mobile View (< sm): Touch-Friendly Cards */}
+              <div className="sm:hidden space-y-2.5">
+                {(detail?.vocabulary || []).map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="p-3 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 flex flex-col gap-1.5 shadow-2xs"
+                  >
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="flex items-baseline gap-2">
+                        <span className="font-cjk font-bold text-lg text-[var(--md-sys-color-on-surface)]">
+                          {item.word || (item as any).word_simplified || "—"}
                         </span>
-                      </td>
+                        {isMandarin && (item as any).word_traditional && (item as any).word_traditional !== item.word && (
+                          <span className="font-cjk text-xs text-[var(--md-sys-color-on-surface-variant)]">
+                            ({(item as any).word_traditional})
+                          </span>
+                        )}
+                        <span className="font-mono text-xs font-semibold text-[var(--md-sys-color-primary)]">
+                          {item.pinyin || item.reading || "—"}
+                        </span>
+                      </div>
+                      <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shrink-0">
+                        {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : "—")}
+                      </span>
+                    </div>
+                    <p className="text-xs text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
+                      {item.translation}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Tablet & Desktop View (sm+): Semantic Table */}
+              <div className="hidden sm:block overflow-x-auto no-scrollbar">
+                <table className="w-full text-left text-sm border-collapse">
+                  <thead>
+                    <tr className="border-b border-[var(--md-sys-color-outline-variant)] text-xs uppercase tracking-wider text-[var(--md-sys-color-on-surface-variant)] bg-[var(--md-sys-color-surface-container-low)]">
+                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Simplified" : "Word"}</th>
+                      {isMandarin && <th className="py-3 px-4 font-semibold">Traditional</th>}
+                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Pinyin" : "Reading"}</th>
+                      <th className="py-3 px-4 font-semibold">English Meaning</th>
+                      <th className="py-3 px-4 font-semibold">Level</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody className="divide-y divide-[var(--md-sys-color-outline-variant)]/40 font-roboto">
+                    {(detail?.vocabulary || []).map((item, idx) => (
+                      <tr
+                        key={idx}
+                        className="hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
+                      >
+                        <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
+                          {item.word || (item as any).word_simplified || "—"}
+                        </td>
+                        {isMandarin && (
+                          <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
+                            {(item as any).word_traditional || item.word || "—"}
+                          </td>
+                        )}
+                        <td className="py-3 px-4 font-mono text-xs text-[var(--md-sys-color-primary)] font-semibold">
+                          {item.pinyin || item.reading || "—"}
+                        </td>
+                        <td className="py-3 px-4 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)]">
+                          {item.translation}
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className="inline-block px-2 py-0.5 rounded-full text-[11px] font-semibold bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]">
+                            {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : "—")}
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
         </div>
 
-        {/* Floating Vocabulary Tooltip */}
+        {/* Floating Vocabulary Tooltip with Guaranteed On-Screen Clamping & Indicator Arrow */}
         {tooltip.visible && (
           <div
-            className="fixed z-50 -translate-x-1/2 -translate-y-full px-3.5 py-2.5 bg-[var(--md-sys-color-surface-container-highest)] border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)] rounded-xl shadow-xl max-w-xs text-xs pointer-events-none transition-opacity"
-            style={{ left: `${tooltip.x}px`, top: `${tooltip.y}px` }}
+            className={`fixed z-50 px-3.5 py-2.5 bg-[var(--md-sys-color-surface-container-highest)] border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface)] rounded-2xl shadow-2xl text-xs pointer-events-auto transition-all animate-in fade-in zoom-in-95 duration-150 ${
+              tooltip.placement === "top" ? "-translate-y-full" : ""
+            }`}
+            style={{
+              left: `${tooltip.x}px`,
+              top: `${tooltip.y}px`,
+              width: `${tooltip.width}px`,
+            }}
+            onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between gap-2">
-              <span className="font-mono font-bold text-[var(--md-sys-color-primary)] text-sm">
+            {/* Directional Pointing Arrow */}
+            <div
+              className={`absolute w-3 h-3 bg-[var(--md-sys-color-surface-container-highest)] border-[var(--md-sys-color-outline-variant)] rotate-45 pointer-events-none ${
+                tooltip.placement === "top"
+                  ? "-bottom-1.5 border-r border-b"
+                  : "-top-1.5 border-l border-t"
+              }`}
+              style={{ left: `${tooltip.arrowX - 6}px` }}
+            />
+
+            {/* Header: Pronunciation, Level Badge, and Close Button */}
+            <div className="flex items-center justify-between gap-2 relative z-10">
+              <span className="font-mono font-bold text-[var(--md-sys-color-primary)] text-sm tracking-tight truncate">
                 {tooltip.pinyin}
               </span>
-              {tooltip.level && (
-                <span className="inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px]">
-                  {tooltip.level}
-                </span>
-              )}
+              <div className="flex items-center gap-1.5 shrink-0">
+                {tooltip.level && (
+                  <span className="inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px]">
+                    {tooltip.level}
+                  </span>
+                )}
+                <button
+                  type="button"
+                  onClick={closeTooltip}
+                  className="w-5 h-5 -mr-1 rounded-full flex items-center justify-center text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] cursor-pointer"
+                  aria-label="Close word details"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              </div>
             </div>
+
+            {/* Character / Word Reading */}
             {tooltip.reading && tooltip.reading !== tooltip.pinyin && (
-              <div className="font-cjk font-medium text-xs text-[var(--md-sys-color-on-surface)] mt-0.5">
+              <div className="font-cjk font-semibold text-xs text-[var(--md-sys-color-on-surface)] mt-0.5 relative z-10">
                 {tooltip.reading}
               </div>
             )}
-            <div className="mt-1 text-[var(--md-sys-color-on-surface-variant)] leading-snug">
+
+            {/* English Definition */}
+            <div className="mt-1 text-[var(--md-sys-color-on-surface-variant)] leading-snug font-roboto text-[11px] sm:text-xs relative z-10">
               {tooltip.translation}
             </div>
           </div>

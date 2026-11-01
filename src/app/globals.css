@@ -164,10 +164,13 @@ ruby {
   border-radius: var(--md-sys-shape-corner-xs);
   cursor: pointer;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
   transition: background-color 150ms ease, box-shadow 150ms ease;
 }
 
-ruby:hover {
+ruby:hover,
+ruby:active {
   background-color: var(--md-sys-color-primary-container);
   color: var(--md-sys-color-on-primary-container);
 }

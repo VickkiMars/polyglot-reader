@@ -151,12 +151,13 @@ export default function InstallOfflineModal({
   const totalTargetExact = `${totalTargetBytes.toLocaleString()} bytes`;
 
   // Start download handler
-  const handleStartDownload = async () => {
+  const handleStartDownload = async (isUpgrade = false) => {
     if (!manifest) return;
     try {
       await offlineDownloadManager.startDownload({
         language: selectedLang,
-        includeAudio,
+        includeAudio: isUpgrade ? true : includeAudio,
+        isUpgrade,
       });
       await refreshStatus(selectedLang);
     } catch (err) {
@@ -207,7 +208,11 @@ export default function InstallOfflineModal({
   };
 
   const isFullyInstalled =
-    Boolean(packStatus?.isTextComplete && (!includeAudio || packStatus?.isAudioComplete));
+    Boolean(
+      packStatus?.isTextComplete &&
+      (!includeAudio || packStatus?.isAudioComplete) &&
+      !packStatus?.hasAudioUpdate
+    );
 
   return (
     <div
@@ -324,6 +329,39 @@ export default function InstallOfflineModal({
               </button>
             </div>
           </div>
+
+          {/* Audio Update Alert for Existing Offline Users */}
+          {packStatus?.hasAudioUpdate && (
+            <div className="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex flex-col gap-2.5 text-[var(--md-sys-color-on-surface)]">
+              <div className="flex items-start gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-300 flex items-center justify-center shrink-0 mt-0.5">
+                  <Headphones className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span className="font-montserrat font-bold text-xs sm:text-sm text-[var(--md-sys-color-on-surface)]">
+                      Neural Audio Upgrade Available
+                    </span>
+                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded-md bg-amber-500/20 text-amber-800 dark:text-amber-200">
+                      v2.0
+                    </span>
+                  </div>
+                  <p className="text-xs text-[var(--md-sys-color-on-surface-variant)] leading-snug mt-1">
+                    Your offline cache currently contains legacy Japanese audio ({formatBytes(packStatus.audioCachedBytes)}). Upgrade to delete the old files and install the crystal-clear native neural audio ({audioBytesFormatted}).
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => handleStartDownload(true)}
+                disabled={isCurrentLangDownloading || !isOnline}
+                className="w-full flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-semibold text-xs bg-[var(--md-sys-color-primary)] hover:opacity-90 text-[var(--md-sys-color-on-primary)] shadow-xs transition-all cursor-pointer active:scale-95 disabled:opacity-50"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Delete Old Audio & Install New ({audioBytesFormatted})</span>
+              </button>
+            </div>
+          )}
 
           {/* Download Options Box */}
           <div className="p-4 rounded-2xl bg-[var(--md-sys-color-surface-container-low)] border border-[var(--md-sys-color-outline-variant)]/40 space-y-3.5">
@@ -636,7 +674,7 @@ export default function InstallOfflineModal({
             ) : isFullyInstalled ? (
               <button
                 type="button"
-                onClick={handleStartDownload}
+                onClick={() => handleStartDownload(false)}
                 className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] font-semibold text-xs transition-colors cursor-pointer min-h-[44px] sm:min-h-[38px]"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -645,7 +683,7 @@ export default function InstallOfflineModal({
             ) : (
               <button
                 type="button"
-                onClick={handleStartDownload}
+                onClick={() => handleStartDownload(false)}
                 className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold text-xs shadow-xs hover:opacity-95 transition-opacity cursor-pointer min-h-[44px] sm:min-h-[38px]"
               >
                 <Download className="w-3.5 h-3.5" />

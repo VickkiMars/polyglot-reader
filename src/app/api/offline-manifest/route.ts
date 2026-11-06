@@ -24,6 +24,9 @@ export interface LanguageManifest {
   language: "mandarin" | "japanese";
   languageLabel: string;
   totalStories: number;
+  audioVersion: string;
+  audioVersionCode: number;
+  audioVersionDescription: string;
   audio: {
     totalFiles: number;
     totalBytes: number;
@@ -145,10 +148,20 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
     });
   }
 
+  const audioVersion = lang === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard";
+  const audioVersionCode = lang === "japanese" ? 2 : 1;
+  const audioVersionDescription =
+    lang === "japanese"
+      ? "Upgraded neural Japanese narration (Nanami) with native pitch accent"
+      : "Standard Mandarin neural audio";
+
   const manifest: LanguageManifest = {
     language: lang,
     languageLabel: lang === "japanese" ? "Japanese (JLPT)" : "Mandarin Chinese (HSK)",
     totalStories: catalog.length,
+    audioVersion,
+    audioVersionCode,
+    audioVersionDescription,
     audio: {
       totalFiles: audioFiles.length,
       totalBytes: totalAudioBytes,

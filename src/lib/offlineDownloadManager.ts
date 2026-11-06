@@ -8,7 +8,9 @@
 
 import { LanguageManifest, AudioManifestItem, TextManifestItem } from "@/app/api/offline-manifest/route";
 
-export const CACHE_NAME = "polyglot-reader-v2";
+export const CACHE_NAME = "polyglot-reader-v4";
+export const AUDIO_VERSION_KEY_PREFIX = "polyglot_audio_version_";
+export const DISMISSED_AUDIO_UPDATE_KEY_PREFIX = "polyglot_audio_update_dismissed_";
 
 export interface DownloadProgress {
   stage: "idle" | "inspecting" | "downloading" | "paused" | "error" | "completed";
@@ -42,6 +44,11 @@ export interface PackStatus {
 
   totalCachedBytes: number;
   canResume: boolean;
+
+  installedAudioVersion: string | null;
+  targetAudioVersion: string;
+  hasAudioUpdate: boolean;
+  audioUpdateDescription: string;
 }
 
 // Format bytes into human-readable string
@@ -112,6 +119,12 @@ class OfflineDownloadManager {
    * Inspect current cache status for a language
    */
   public async checkStatus(lang: "mandarin" | "japanese", manifest?: LanguageManifest): Promise<PackStatus> {
+    const defaultTargetVersion = lang === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard";
+    const defaultDesc =
+      lang === "japanese"
+        ? "Upgraded neural Japanese narration (Nanami) with native pitch accent"
+        : "Standard Mandarin neural audio";
+
     if (typeof window === "undefined" || !("caches" in window)) {
       return {
         language: lang,
@@ -127,16 +140,26 @@ class OfflineDownloadManager {
         isAudioComplete: false,
         totalCachedBytes: 0,
         canResume: false,
+        installedAudioVersion: null,
+        targetAudioVersion: defaultTargetVersion,
+        hasAudioUpdate: false,
+        audioUpdateDescription: defaultDesc,
       };
     }
 
     const data = manifest || (await this.getManifest(lang));
-    const cache = await caches.open(CACHE_NAME);
+    const targetAudioVersion = data.audioVersion || defaultTargetVersion;
+    const audioUpdateDescription = data.audioVersionDescription || defaultDesc;
+
+    let installedAudioVersion: string | null = null;
+    try {
+      installedAudioVersion = localStorage.getItem(`${AUDIO_VERSION_KEY_PREFIX}${lang}`);
+    } catch (e) {}
 
     let textCachedFiles = 0;
     let textCachedBytes = 0;
     for (const t of data.text.files) {
-      const match = await cache.match(t.url);
+      let match = await caches.match(t.url);
       if (match) {
         textCachedFiles++;
         textCachedBytes += t.size;
@@ -146,11 +169,11 @@ class OfflineDownloadManager {
     let audioCachedFiles = 0;
     let audioCachedBytes = 0;
     for (const a of data.audio.files) {
-      let match = await cache.match(a.url);
+      let match = await caches.match(a.url);
       if (!match && a.filename) {
         match =
-          (await cache.match(`/audio/${lang}/${a.filename}`)) ||
-          (await cache.match(`/api/audio/${lang}/${a.filename}`));
+          (await caches.match(`/audio/${lang}/${a.filename}`)) ||
+          (await caches.match(`/api/audio/${lang}/${a.filename}`));
       }
       if (match) {
         audioCachedFiles++;
@@ -161,7 +184,13 @@ class OfflineDownloadManager {
     const isTextComplete = textCachedFiles === data.text.totalFiles && data.text.totalFiles > 0;
     const isAudioComplete = audioCachedFiles === data.audio.totalFiles && data.audio.totalFiles > 0;
     const totalCachedBytes = textCachedBytes + audioCachedBytes;
-    const canResume = (textCachedFiles > 0 && !isTextComplete) || (audioCachedFiles > 0 && !isAudioComplete);
+
+    // Detect if this device has legacy audio installed that needs replacement
+    const hasAudioUpdate = audioCachedFiles > 0 && installedAudioVersion !== targetAudioVersion;
+
+    const canResume =
+      !hasAudioUpdate &&
+      ((textCachedFiles > 0 && !isTextComplete) || (audioCachedFiles > 0 && !isAudioComplete));
 
     return {
       language: lang,
@@ -177,7 +206,48 @@ class OfflineDownloadManager {
       isAudioComplete,
       totalCachedBytes,
       canResume,
+      installedAudioVersion,
+      targetAudioVersion,
+      hasAudioUpdate,
+      audioUpdateDescription,
     };
+  }
+
+  /**
+   * Purge all cached audio for a specific language across ALL browser cache buckets.
+   * This guarantees the complete deletion of legacy audio files before fresh ones are downloaded.
+   */
+  public async purgeAudioCache(lang: "mandarin" | "japanese"): Promise<number> {
+    if (typeof window === "undefined" || !("caches" in window)) return 0;
+    let deletedCount = 0;
+    try {
+      const cacheNames = await caches.keys();
+      for (const cName of cacheNames) {
+        try {
+          const c = await caches.open(cName);
+          const requests = await c.keys();
+          for (const req of requests) {
+            const url = req.url;
+            if (
+              url.includes(`/audio/${lang}/`) ||
+              url.includes(`/api/audio/${lang}/`) ||
+              (url.includes(`/${lang}/`) && url.endsWith(".mp3"))
+            ) {
+              await c.delete(req);
+              deletedCount++;
+            }
+          }
+        } catch (err) {
+          console.warn(`Error scanning cache ${cName}:`, err);
+        }
+      }
+      try {
+        localStorage.removeItem(`${AUDIO_VERSION_KEY_PREFIX}${lang}`);
+      } catch (e) {}
+    } catch (err) {
+      console.error(`Failed to purge audio cache for ${lang}:`, err);
+    }
+    return deletedCount;
   }
 
   /**
@@ -198,10 +268,12 @@ class OfflineDownloadManager {
   public async startDownload({
     language,
     includeAudio,
+    isUpgrade = false,
     onProgress,
   }: {
     language: "mandarin" | "japanese";
     includeAudio: boolean;
+    isUpgrade?: boolean;
     onProgress?: (p: DownloadProgress) => void;
   }): Promise<void> {
     if (this.isRunning) {
@@ -237,6 +309,29 @@ class OfflineDownloadManager {
       });
 
       const manifest = await this.getManifest(language);
+
+      // If this is an upgrade or an outdated audio version was detected,
+      // wipe the previous audio files first so obsolete audio is completely removed.
+      const currentStatus = await this.checkStatus(language, manifest);
+      if (includeAudio && (isUpgrade || currentStatus.hasAudioUpdate)) {
+        this.notify({
+          stage: "inspecting",
+          language,
+          includeAudio,
+          currentFileName: "Deleting previous audio files...",
+          currentFileType: "audio",
+          completedFiles: 0,
+          totalFiles: 0,
+          downloadedBytes: 0,
+          totalBytes: 0,
+          percentage: 0,
+          speedBps: 0,
+          etaSeconds: 0,
+          errorMessage: null,
+        });
+        await this.purgeAudioCache(language);
+      }
+
       const cache = await caches.open(CACHE_NAME);
 
       // Define target items with fallback URLs
@@ -585,6 +680,13 @@ class OfflineDownloadManager {
       }
 
       // 100% Download Completed!
+      if (includeAudio) {
+        try {
+          const targetVer = manifest.audioVersion || (language === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard");
+          localStorage.setItem(`${AUDIO_VERSION_KEY_PREFIX}${language}`, targetVer);
+        } catch (e) {}
+      }
+
       this.notify({
         stage: "completed",
         language,
@@ -630,19 +732,17 @@ class OfflineDownloadManager {
    */
   public async deleteLanguagePack(lang: "mandarin" | "japanese"): Promise<void> {
     if (typeof window === "undefined" || !("caches" in window)) return;
-    const manifest = await this.getManifest(lang);
-    const cache = await caches.open(CACHE_NAME);
+    try {
+      const manifest = await this.getManifest(lang);
+      const cache = await caches.open(CACHE_NAME);
 
-    for (const t of manifest.text.files) {
-      await cache.delete(t.url);
-    }
-    for (const a of manifest.audio.files) {
-      await cache.delete(a.url);
-      if (a.filename) {
-        await cache.delete(`/audio/${lang}/${a.filename}`);
-        await cache.delete(`/api/audio/${lang}/${a.filename}`);
+      for (const t of manifest.text.files) {
+        await cache.delete(t.url);
       }
-    }
+    } catch (e) {}
+
+    // Purge all audio files across all caches
+    await this.purgeAudioCache(lang);
   }
 }
 

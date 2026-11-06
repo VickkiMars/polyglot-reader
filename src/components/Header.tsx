@@ -9,6 +9,9 @@ import { offlineDownloadManager, DownloadProgress, PackStatus } from "@/lib/offl
 interface HeaderProps {
   currentLanguage: "mandarin" | "japanese";
   onLanguageChange: (lang: "mandarin" | "japanese") => void;
+  externalOpenModal?: boolean;
+  onExternalModalHandled?: () => void;
+  targetModalLang?: "mandarin" | "japanese";
 }
 
 interface BeforeInstallPromptEvent extends Event {
@@ -16,12 +19,29 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
 }
 
-export default function Header({ currentLanguage, onLanguageChange }: HeaderProps) {
+export default function Header({
+  currentLanguage,
+  onLanguageChange,
+  externalOpenModal,
+  onExternalModalHandled,
+  targetModalLang,
+}: HeaderProps) {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstalled, setIsInstalled] = useState(false);
   const [showInstallModal, setShowInstallModal] = useState(false);
   const [packStatus, setPackStatus] = useState<PackStatus | null>(null);
+  const [japaneseHasUpdate, setJapaneseHasUpdate] = useState(false);
   const [activeProgress, setActiveProgress] = useState<DownloadProgress | null>(null);
+
+  useEffect(() => {
+    if (externalOpenModal) {
+      if (targetModalLang) {
+        onLanguageChange(targetModalLang);
+      }
+      setShowInstallModal(true);
+      onExternalModalHandled?.();
+    }
+  }, [externalOpenModal, targetModalLang, onLanguageChange, onExternalModalHandled]);
 
   useEffect(() => {
     // Register service worker for offline support & installability
@@ -70,11 +90,22 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
       })
       .catch(() => {});
 
+    offlineDownloadManager
+      .checkStatus("japanese")
+      .then((status) => {
+        if (mounted) setJapaneseHasUpdate(status.hasAudioUpdate);
+      })
+      .catch(() => {});
+
     const unsubscribe = offlineDownloadManager.subscribe((p) => {
       if (mounted) {
         setActiveProgress(p);
         if (p.stage === "completed" || p.stage === "error") {
           offlineDownloadManager.checkStatus(currentLanguage).then(setPackStatus).catch(() => {});
+          offlineDownloadManager
+            .checkStatus("japanese")
+            .then((s) => setJapaneseHasUpdate(s.hasAudioUpdate))
+            .catch(() => {});
         }
       }
     });
@@ -90,7 +121,8 @@ export default function Header({ currentLanguage, onLanguageChange }: HeaderProp
   };
 
   const isDownloading = activeProgress && activeProgress.stage === "downloading";
-  const isOfflineReady = packStatus?.isTextComplete && packStatus?.isAudioComplete;
+  const hasAudioUpdate = Boolean(packStatus?.hasAudioUpdate || (currentLanguage === "japanese" && japaneseHasUpdate));
+  const isOfflineReady = packStatus?.isTextComplete && packStatus?.isAudioComplete && !hasAudioUpdate;
 
   return (
     <>

@@ -65,3 +65,80 @@ export interface FilterState {
   selectedJlpt: string[];
   audioOnly: boolean;
 }
+
+export interface PlayChunk {
+  id: string;
+  chunk_index: number;
+  type: "dialogue" | "stage_direction";
+  speaker: string;
+  speaker_en: string;
+  direction_ja: string;
+  direction_en: string;
+  text_ja: string;
+  text_en: string;
+  ruby: string;
+  start: number;
+  end: number;
+  duration: number;
+}
+
+export interface PlayScene {
+  id: number;
+  scene_number: number;
+  title_ja: string;
+  title_en: string;
+  description_ja: string;
+  description_en: string;
+  audio_url: string;
+  duration: number;
+  chunk_count: number;
+  dialogue_count: number;
+  chunks: PlayChunk[];
+}
+
+export interface PlayCharacter {
+  name_ja: string;
+  name_en: string;
+  role_description: string;
+  voice: string;
+  gender: string;
+}
+
+export interface PlayMetadata {
+  id: string;
+  title_ja: string;
+  title_en: string;
+  author_ja: string;
+  author_en: string;
+  year: number;
+  jlpt_level: string;
+  category: string;
+  characters: PlayCharacter[];
+  setting: {
+    time_ja: string;
+    time_en: string;
+    place_ja: string;
+    place_en: string;
+  };
+  synopsis_en: string;
+  synopsis_ja: string;
+  total_scenes: number;
+  total_lines: number;
+  scenes: PlayScene[];
+}
+
+export interface PlayCatalogItem {
+  id: string;
+  title_ja: string;
+  title_en: string;
+  author_ja: string;
+  author_en: string;
+  year: number;
+  jlpt_level: string;
+  scene_count: number;
+  total_chunks: number;
+  total_duration: number;
+  cover_image: string;
+  summary: string;
+}
+

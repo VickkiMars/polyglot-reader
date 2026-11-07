@@ -22,21 +22,25 @@ import {
   Clock,
   Info
 } from "lucide-react";
-import { PlayMetadata, PlayScene, PlayChunk } from "@/types";
+import { PlayMetadata, PlayScene, PlayChunk, PlayCatalogItem } from "@/types";
 
 interface PlayReaderModalProps {
   play: PlayMetadata;
   isOpen: boolean;
   onClose: () => void;
+  availablePlays?: PlayCatalogItem[];
+  onSelectPlay?: (playId: string) => void;
 }
 
 type RehearsalMode = "chunk" | "roleplay" | "continuous";
-type CharacterRole = "all" | "夫" | "妻";
+type CharacterRole = string;
 
 export default function PlayReaderModal({
   play,
   isOpen,
   onClose,
+  availablePlays,
+  onSelectPlay,
 }: PlayReaderModalProps) {
   // Navigation State
   const [activeSceneIndex, setActiveSceneIndex] = useState(0);
@@ -67,6 +71,19 @@ export default function PlayReaderModal({
 
   // Card list ref for auto-scrolling
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  // Reset state when play changes
+  useEffect(() => {
+    setActiveSceneIndex(0);
+    setActiveChunkIndex(0);
+    setUserRole("all");
+    setIsWaitingForUserSpeech(false);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setIsPlaying(false);
+    }
+  }, [play.id]);
 
   // Reset chunk when scene changes
   useEffect(() => {
@@ -304,6 +321,20 @@ export default function PlayReaderModal({
           </div>
 
           <div className="flex items-center gap-2">
+            {availablePlays && availablePlays.length > 1 && onSelectPlay && (
+              <select
+                value={play.id}
+                onChange={(e) => onSelectPlay(e.target.value)}
+                className="text-xs bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface)] border border-[var(--md-sys-color-outline-variant)] rounded-xl px-2.5 py-1.5 font-medium cursor-pointer focus:outline-none focus:ring-1 focus:ring-[var(--md-sys-color-primary)] max-w-[180px] sm:max-w-[220px] truncate"
+                title="Switch Play"
+              >
+                {availablePlays.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.title_ja}
+                  </option>
+                ))}
+              </select>
+            )}
             <button
               onClick={() => setShowSettingInfo(!showSettingInfo)}
               className="p-2 text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] rounded-full hover:bg-[var(--md-sys-color-surface-container-highest)] transition-colors"
@@ -417,20 +448,31 @@ export default function PlayReaderModal({
           </div>
 
           {mode === "roleplay" && (
-            <div className="flex items-center gap-2 bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/20">
-              <span className="font-semibold text-rose-700 dark:text-rose-300">My Character:</span>
+            <div className="flex items-center gap-1.5 bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/20 flex-wrap">
+              <span className="font-semibold text-rose-700 dark:text-rose-300">My Role:</span>
               <button
-                onClick={() => setUserRole("夫")}
-                className={`px-2 py-0.5 rounded text-xs font-medium ${userRole === "夫" ? "bg-sky-500 text-white font-bold" : "bg-sky-500/20 text-sky-800 dark:text-sky-200"}`}
+                onClick={() => setUserRole("all")}
+                className={`px-2 py-0.5 rounded text-xs font-medium transition-all ${userRole === "all" ? "bg-stone-700 text-white font-bold" : "bg-stone-500/20 text-stone-800 dark:text-stone-200"}`}
               >
-                夫 (Husband)
+                None
               </button>
-              <button
-                onClick={() => setUserRole("妻")}
-                className={`px-2 py-0.5 rounded text-xs font-medium ${userRole === "妻" ? "bg-rose-500 text-white font-bold" : "bg-rose-500/20 text-rose-800 dark:text-rose-200"}`}
-              >
-                妻 (Wife)
-              </button>
+              {play.characters.map((c) => (
+                <button
+                  key={c.name_ja}
+                  onClick={() => setUserRole(c.name_ja)}
+                  className={`px-2 py-0.5 rounded text-xs font-medium transition-all ${
+                    userRole === c.name_ja
+                      ? c.gender === "male"
+                        ? "bg-sky-600 text-white font-bold shadow-xs"
+                        : "bg-rose-600 text-white font-bold shadow-xs"
+                      : c.gender === "male"
+                      ? "bg-sky-500/20 text-sky-800 dark:text-sky-200 hover:bg-sky-500/30"
+                      : "bg-rose-500/20 text-rose-800 dark:text-rose-200 hover:bg-rose-500/30"
+                  }`}
+                >
+                  {c.name_ja} ({c.name_en})
+                </button>
+              ))}
             </div>
           )}
 
@@ -487,8 +529,9 @@ export default function PlayReaderModal({
               );
             }
 
-            const isHusband = chunk.speaker === "夫";
-            const speakerColor = isHusband
+            const charMeta = play.characters.find((c) => c.name_ja === chunk.speaker);
+            const isMale = charMeta?.gender === "male";
+            const speakerColor = isMale
               ? "bg-sky-500/15 text-sky-800 dark:text-sky-300 border-sky-500/30"
               : "bg-rose-500/15 text-rose-800 dark:text-rose-300 border-rose-500/30";
 

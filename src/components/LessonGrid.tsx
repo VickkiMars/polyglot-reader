@@ -6,9 +6,15 @@ import FilterBar from "./FilterBar";
 import Pagination from "./Pagination";
 import StoryReaderModal from "./StoryReaderModal";
 import PlayReaderModal from "./PlayReaderModal";
-import kamifusenPlayData from "@/data/plays/kamifusen.json";
-import { StoryCatalogItem, FilterState, PlayMetadata } from "@/types";
-import { Theater, Users, Play as PlayIcon, Sparkles, BookOpen } from "lucide-react";
+import playsCatalogData from "@/data/plays/plays_catalog.json";
+import kamifusenData from "@/data/plays/kamifusen.json";
+import itsutakaData from "@/data/plays/itsutaka.json";
+import highwayData from "@/data/plays/highway.json";
+import lionData from "@/data/plays/lion.json";
+import hansuuData from "@/data/plays/hansuu.json";
+import nemurenaiData from "@/data/plays/nemurenai.json";
+import { StoryCatalogItem, FilterState, PlayMetadata, PlayCatalogItem } from "@/types";
+import { Theater, Users, Play as PlayIcon, Sparkles, BookOpen, Layers, Clock } from "lucide-react";
 
 interface LessonGridProps {
   initialStories: StoryCatalogItem[];
@@ -16,6 +22,17 @@ interface LessonGridProps {
 }
 
 const ITEMS_PER_PAGE = 9;
+
+const PLAYS_MAP: Record<string, PlayMetadata> = {
+  kamifusen: kamifusenData as unknown as PlayMetadata,
+  itsutaka: itsutakaData as unknown as PlayMetadata,
+  highway: highwayData as unknown as PlayMetadata,
+  lion: lionData as unknown as PlayMetadata,
+  hansuu: hansuuData as unknown as PlayMetadata,
+  nemurenai: nemurenaiData as unknown as PlayMetadata,
+};
+
+const playsCatalog = playsCatalogData as unknown as PlayCatalogItem[];
 
 export default function LessonGrid({ initialStories, language }: LessonGridProps) {
   const [filters, setFilters] = useState<FilterState>({
@@ -29,8 +46,10 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
 
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedStory, setSelectedStory] = useState<StoryCatalogItem | null>(null);
+  const [activePlayId, setActivePlayId] = useState<string>("kamifusen");
   const [isPlayModalOpen, setIsPlayModalOpen] = useState(false);
-  const playData = kamifusenPlayData as unknown as PlayMetadata;
+
+  const activePlay = PLAYS_MAP[activePlayId] || PLAYS_MAP["kamifusen"];
 
   // Sync language prop into filters
   React.useEffect(() => {
@@ -140,57 +159,116 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
         counts={levelCounts}
       />
 
-      {/* Featured Japanese Play Rehearsal Card (when Japanese track is active) */}
+      {/* Featured Japanese Plays Rehearsal Showcase (when Japanese track is active) */}
       {language === "japanese" && (
-        <div className="mb-8 p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-[var(--md-sys-color-surface-container-high)] via-[var(--md-sys-color-surface-container)] to-[var(--md-sys-color-surface-container-high)] border-2 border-[var(--md-sys-color-primary)]/30 shadow-md transition-all relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-[var(--md-sys-color-primary)]/5 rounded-full blur-3xl pointer-events-none" />
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 relative z-10">
-            <div className="space-y-3 max-w-2xl">
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="px-3 py-1 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] text-xs font-bold tracking-wide uppercase flex items-center gap-1.5 shadow-xs">
-                  <Theater className="w-3.5 h-3.5" />
-                  New: Theatrical Play Rehearsal
-                </span>
-                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 text-xs font-semibold border border-emerald-500/30">
-                  JLPT N3–N2
-                </span>
-                <span className="px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-800 dark:text-indigo-300 text-xs font-semibold border border-indigo-500/30">
-                  4 Scenes · 270 Chunks
-                </span>
-              </div>
-
-              <div>
-                <h3 className="text-xl sm:text-2xl font-bold text-[var(--md-sys-color-on-surface)] flex items-center gap-2">
-                  <span>紙風船（一幕）</span>
-                  <span className="text-base sm:text-lg font-normal text-[var(--md-sys-color-on-surface-variant)]">
-                    — Paper Balloon by 岸田國士 (Kunio Kishida)
+        <div className="mb-8 space-y-4">
+          {/* Main Featured Play Card */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-[var(--md-sys-color-surface-container-high)] via-[var(--md-sys-color-surface-container)] to-[var(--md-sys-color-surface-container-high)] border-2 border-[var(--md-sys-color-primary)]/30 shadow-md transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[var(--md-sys-color-primary)]/5 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 relative z-10">
+              <div className="space-y-3 max-w-2xl">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="px-3 py-1 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] text-xs font-bold tracking-wide uppercase flex items-center gap-1.5 shadow-xs">
+                    <Theater className="w-3.5 h-3.5" />
+                    Theatrical Play Rehearsal (戯曲の稽古)
                   </span>
-                </h3>
-                <p className="mt-1 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
-                  Immerse yourself in authentic modernist Japanese dialogue. Practice turn-by-turn with clamped audio chunks, shadow conversational pauses, or choose your character role (<strong className="text-[var(--md-sys-color-on-surface)]">夫 Husband</strong> or <strong className="text-[var(--md-sys-color-on-surface)]">妻 Wife</strong>) for interactive dialogue sparring.
-                </p>
+                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 text-xs font-semibold border border-emerald-500/30">
+                    JLPT {activePlay.jlpt_level}
+                  </span>
+                  <span className="px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-800 dark:text-indigo-300 text-xs font-semibold border border-indigo-500/30">
+                    {activePlay.total_scenes} Scenes · {activePlay.total_lines} Chunks
+                  </span>
+                  <span className="px-2.5 py-0.5 rounded-full bg-rose-500/15 text-rose-800 dark:text-rose-300 text-xs font-semibold border border-rose-500/30">
+                    {activePlay.characters.length} Roles Cast
+                  </span>
+                </div>
+
+                <div>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[var(--md-sys-color-on-surface)] flex items-center gap-2 flex-wrap">
+                    <span>{activePlay.title_ja}</span>
+                    <span className="text-base sm:text-lg font-normal text-[var(--md-sys-color-on-surface-variant)]">
+                      — {activePlay.title_en} by {activePlay.author_ja} ({activePlay.author_en})
+                    </span>
+                  </h3>
+                  <p className="mt-1 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
+                    {activePlay.synopsis_en}
+                  </p>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-1">
+                  <span className="flex items-center gap-1.5 font-medium">
+                    <Users className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                    Multi-Cast Neural Audio ({activePlay.characters.map((c) => c.name_ja).join(" · ")})
+                  </span>
+                  <span className="flex items-center gap-1.5 font-medium">
+                    <Sparkles className="w-4 h-4 text-amber-500" />
+                    100% Ruby Annotations & Stage English
+                  </span>
+                </div>
               </div>
 
-              <div className="flex items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-1">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <Users className="w-4 h-4 text-rose-600 dark:text-rose-400" />
-                  Dual-Character Neural Audio
-                </span>
-                <span className="flex items-center gap-1.5 font-medium">
-                  <Sparkles className="w-4 h-4 text-amber-500" />
-                  100% Ruby Annotations & Stage English
-                </span>
+              <div className="shrink-0 w-full sm:w-auto">
+                <button
+                  onClick={() => setIsPlayModalOpen(true)}
+                  className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-bold text-sm shadow-md hover:bg-[var(--md-sys-color-primary)]/90 transition-all flex items-center justify-center gap-2 cursor-pointer scale-100 hover:scale-[1.02] active:scale-95"
+                >
+                  <PlayIcon className="w-5 h-5 fill-current" />
+                  <span>Rehearse Scene ({activePlay.title_ja.slice(0, 8)}...)</span>
+                </button>
               </div>
             </div>
+          </div>
 
-            <div className="shrink-0 w-full sm:w-auto">
-              <button
-                onClick={() => setIsPlayModalOpen(true)}
-                className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-bold text-sm shadow-md hover:bg-[var(--md-sys-color-primary)]/90 transition-all flex items-center justify-center gap-2 cursor-pointer scale-100 hover:scale-[1.02] active:scale-95"
-              >
-                <PlayIcon className="w-5 h-5 fill-current" />
-                <span>Rehearse Play (戯曲を試みる)</span>
-              </button>
+          {/* All 6 Plays Quick-Selector Shelf */}
+          <div className="bg-[var(--md-sys-color-surface-container)] rounded-2xl p-3 border border-[var(--md-sys-color-outline-variant)]/60">
+            <div className="flex items-center justify-between mb-2 px-1">
+              <span className="text-xs font-bold text-[var(--md-sys-color-on-surface)] flex items-center gap-1.5 uppercase tracking-wider">
+                <Layers className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
+                Select Play to Rehearse (全6作品):
+              </span>
+              <span className="text-xs text-[var(--md-sys-color-on-surface-variant)]">
+                6 Modern & Contemporary Japanese Scripts
+              </span>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
+              {playsCatalog.map((p) => {
+                const isSelected = p.id === activePlayId;
+                return (
+                  <button
+                    key={p.id}
+                    onClick={() => {
+                      setActivePlayId(p.id);
+                      setIsPlayModalOpen(true);
+                    }}
+                    className={`p-2.5 rounded-xl text-left border transition-all cursor-pointer flex flex-col justify-between ${
+                      isSelected
+                        ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary-container)] shadow-xs"
+                        : "bg-[var(--md-sys-color-surface)] border-[var(--md-sys-color-outline-variant)]/50 hover:border-[var(--md-sys-color-primary)]/50 hover:bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]"
+                    }`}
+                  >
+                    <div>
+                      <div className="flex items-center justify-between gap-1 mb-1">
+                        <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-400">
+                          {p.jlpt_level}
+                        </span>
+                        <span className="text-[10px] text-[var(--md-sys-color-on-surface-variant)]">
+                          {p.scene_count}場
+                        </span>
+                      </div>
+                      <div className="font-bold text-xs line-clamp-1" title={p.title_ja}>
+                        {p.title_ja}
+                      </div>
+                      <div className="text-[10px] text-[var(--md-sys-color-on-surface-variant)] line-clamp-1">
+                        {p.title_en}
+                      </div>
+                    </div>
+                    <div className="mt-2 pt-1 border-t border-[var(--md-sys-color-outline-variant)]/30 text-[10px] text-[var(--md-sys-color-on-surface-variant)] truncate">
+                      {p.author_ja}
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -250,9 +328,11 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
 
       {/* Interactive Theatrical Play Reader Modal */}
       <PlayReaderModal
-        play={playData}
+        play={activePlay}
         isOpen={isPlayModalOpen}
         onClose={() => setIsPlayModalOpen(false)}
+        availablePlays={playsCatalog}
+        onSelectPlay={(id) => setActivePlayId(id)}
       />
     </div>
   );

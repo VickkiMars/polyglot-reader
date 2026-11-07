@@ -8,4 +8,5 @@ node_modules/
 .vercel
 public/audio/*
 !public/audio/.gitkeep
+tmp_plays_batch/
 *.tsbuildinfo

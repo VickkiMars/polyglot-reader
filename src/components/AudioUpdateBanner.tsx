@@ -68,15 +68,15 @@ export default function AudioUpdateBanner({
     <div
       role="alert"
       aria-live="polite"
-      className="w-full bg-gradient-to-r from-amber-500/10 via-[var(--md-sys-color-primary-container)]/70 to-amber-500/10 border-b border-amber-500/30 text-[var(--md-sys-color-on-surface)] transition-all duration-300 animate-in slide-in-from-top-2"
+      className="w-full bg-gradient-to-r from-[var(--md-sys-color-secondary-container)]/60 via-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-secondary-container)]/60 border-b border-[var(--md-sys-color-secondary)]/30 text-[var(--md-sys-color-on-surface)] transition-all duration-300 animate-in slide-in-from-top-2"
     >
       <div className="max-w-[1280px] mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         {/* Left: Icon & Description */}
         <div className="flex items-start sm:items-center gap-2.5 sm:gap-3.5 min-w-0">
-          <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-500/30 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
-            <Headphones className="w-4 h-4 sm:w-5 sm:h-5 text-amber-600 dark:text-amber-400" />
-            <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-amber-500 flex items-center justify-center">
-              <Sparkles className="w-2 h-2 text-white" />
+          <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] border border-[var(--md-sys-color-secondary)]/30 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0 shadow-2xs">
+            <Headphones className="w-4 h-4 sm:w-5 sm:h-5 text-[var(--md-sys-color-secondary)]" />
+            <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-[var(--md-sys-color-secondary)] flex items-center justify-center">
+              <Sparkles className="w-2 h-2 text-[var(--md-sys-color-on-secondary)]" />
             </span>
           </div>
 
@@ -85,7 +85,7 @@ export default function AudioUpdateBanner({
               <span className="font-montserrat font-bold text-xs sm:text-sm text-[var(--md-sys-color-on-surface)] tracking-tight">
                 New Japanese Neural Audio Available
               </span>
-              <span className="inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded-md bg-amber-500/20 text-amber-800 dark:text-amber-200 border border-amber-500/30">
+              <span className="inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border border-[var(--md-sys-color-secondary)]/30">
                 <RotateCcw className="w-2.5 h-2.5" />
                 Action Required
               </span>

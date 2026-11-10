@@ -185,9 +185,9 @@ export default function Header({
                 isDownloading
                   ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
                   : isOfflineReady
-                  ? "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300"
+                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
                   : isInstalled
-                  ? "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300"
+                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
                   : "bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-surface)] hover:text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-outline-variant)]/60"
               }`}
               aria-label="Install App and Offline Audio"
@@ -202,13 +202,13 @@ export default function Header({
                 </>
               ) : isOfflineReady ? (
                 <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                  <Check className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
                   <span className="hidden sm:inline font-medium">Offline Ready</span>
                   <span className="hidden min-[360px]:inline sm:hidden text-[11px]">Ready</span>
                 </>
               ) : isInstalled ? (
                 <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                  <Check className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
                   <span className="hidden sm:inline font-medium">Installed</span>
                   <span className="hidden min-[360px]:inline sm:hidden text-[11px]">App</span>
                 </>

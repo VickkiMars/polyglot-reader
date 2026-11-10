@@ -172,13 +172,13 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
                     <Theater className="w-3.5 h-3.5" />
                     Theatrical Play Rehearsal (戯曲の稽古)
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 text-xs font-semibold border border-emerald-500/30">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] text-xs font-semibold border border-[var(--md-sys-color-primary)]/30">
                     JLPT {activePlay.jlpt_level}
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-800 dark:text-indigo-300 text-xs font-semibold border border-indigo-500/30">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold border border-[var(--md-sys-color-outline-variant)]/60">
                     {activePlay.total_scenes} Scenes · {activePlay.total_lines} Chunks
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-rose-500/15 text-rose-800 dark:text-rose-300 text-xs font-semibold border border-rose-500/30">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] text-xs font-semibold border border-[var(--md-sys-color-secondary)]/30">
                     {activePlay.characters.length} Roles Cast
                   </span>
                 </div>
@@ -197,11 +197,11 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
 
                 <div className="flex flex-wrap items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-1">
                   <span className="flex items-center gap-1.5 font-medium">
-                    <Users className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                    <Users className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
                     Multi-Cast Neural Audio ({activePlay.characters.map((c) => c.name_ja).join(" · ")})
                   </span>
                   <span className="flex items-center gap-1.5 font-medium">
-                    <Sparkles className="w-4 h-4 text-amber-500" />
+                    <Sparkles className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
                     100% Ruby Annotations & Stage English
                   </span>
                 </div>
@@ -249,7 +249,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
                   >
                     <div>
                       <div className="flex items-center justify-between gap-1 mb-1">
-                        <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-400">
+                        <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]">
                           {p.jlpt_level}
                         </span>
                         <span className="text-[10px] text-[var(--md-sys-color-on-surface-variant)]">

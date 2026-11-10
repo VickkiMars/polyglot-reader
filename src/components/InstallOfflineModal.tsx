@@ -277,8 +277,8 @@ export default function InstallOfflineModal({
 
           {/* Network Status Warning if Offline */}
           {!isOnline && (
-            <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center gap-2.5 text-amber-800 dark:text-amber-200">
-              <WifiOff className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+            <div className="p-3 rounded-2xl bg-[var(--md-sys-color-secondary-container)] border border-[var(--md-sys-color-secondary)]/30 flex items-center gap-2.5 text-[var(--md-sys-color-on-secondary-container)]">
+              <WifiOff className="w-4 h-4 text-[var(--md-sys-color-secondary)] shrink-0" />
               <span>You are currently offline. Downloaded lessons, vocabulary guides, and audio narrations remain fully accessible.</span>
             </div>
           )}
@@ -288,7 +288,7 @@ export default function InstallOfflineModal({
             <div className="text-xs font-semibold text-[var(--md-sys-color-on-surface)] mb-2 flex items-center justify-between">
               <span>Select Language Pack</span>
               {packStatus && packStatus.totalCachedBytes > 0 && (
-                <span className="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                <span className="text-[11px] font-medium text-[var(--md-sys-color-primary)] flex items-center gap-1">
                   <Check className="w-3.5 h-3.5" />
                   {formatBytes(packStatus.totalCachedBytes)} saved offline
                 </span>
@@ -332,17 +332,17 @@ export default function InstallOfflineModal({
 
           {/* Audio Update Alert for Existing Offline Users */}
           {packStatus?.hasAudioUpdate && (
-            <div className="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex flex-col gap-2.5 text-[var(--md-sys-color-on-surface)]">
+            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-secondary-container)]/70 border border-[var(--md-sys-color-secondary)]/30 flex flex-col gap-2.5 text-[var(--md-sys-color-on-surface)]">
               <div className="flex items-start gap-2.5">
-                <div className="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-300 flex items-center justify-center shrink-0 mt-0.5">
-                  <Headphones className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                <div className="w-8 h-8 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] border border-[var(--md-sys-color-secondary)]/30 flex items-center justify-center shrink-0 mt-0.5 shadow-2xs">
+                  <Headphones className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
                     <span className="font-montserrat font-bold text-xs sm:text-sm text-[var(--md-sys-color-on-surface)]">
                       Neural Audio Upgrade Available
                     </span>
-                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded-md bg-amber-500/20 text-amber-800 dark:text-amber-200">
+                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border border-[var(--md-sys-color-secondary)]/30">
                       v2.0
                     </span>
                   </div>
@@ -386,7 +386,7 @@ export default function InstallOfflineModal({
                 </div>
               </div>
               <div className="text-right shrink-0">
-                <span className="inline-block px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-semibold text-[10px] mb-1">
+                <span className="inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px] mb-1 border border-[var(--md-sys-color-primary)]/20">
                   Included
                 </span>
                 <div className="font-mono text-[11px] text-[var(--md-sys-color-on-surface-variant)]">
@@ -431,7 +431,7 @@ export default function InstallOfflineModal({
                   className={`inline-block px-2 py-0.5 rounded-full font-semibold text-[10px] mb-1 ${
                     includeAudio
                       ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]"
-                      : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
+                      : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface-variant)]"
                   }`}
                 >
                   {includeAudio ? "Included" : "Excluded"}
@@ -568,14 +568,14 @@ export default function InstallOfflineModal({
 
           {/* Success Banner if Completed */}
           {packStatus?.isTextComplete && (packStatus.isAudioComplete || !includeAudio) && !isCurrentLangDownloading && (
-            <div className="p-3.5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 flex items-start justify-between gap-3">
+            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-primary-container)]/60 border border-[var(--md-sys-color-primary)]/30 flex items-start justify-between gap-3">
               <div className="flex items-start gap-2.5">
-                <Check className="w-4 h-4 text-emerald-600 dark:text-emerald-400 mt-0.5 shrink-0" />
+                <Check className="w-4 h-4 text-[var(--md-sys-color-primary)] mt-0.5 shrink-0" />
                 <div>
-                  <div className="font-semibold text-xs text-emerald-900 dark:text-emerald-200">
+                  <div className="font-semibold text-xs text-[var(--md-sys-color-on-primary-container)]">
                     {manifest?.languageLabel} Pack Ready Offline
                   </div>
-                  <div className="text-[11px] text-emerald-800 dark:text-emerald-300">
+                  <div className="text-[11px] text-[var(--md-sys-color-on-surface-variant)]">
                     All {packStatus.textCachedFiles} lessons and {packStatus.audioCachedFiles} audio tracks are saved locally ({formatBytes(packStatus.totalCachedBytes)}). You can study offline anytime.
                   </div>
                 </div>
@@ -584,7 +584,7 @@ export default function InstallOfflineModal({
                 type="button"
                 onClick={handleDeletePack}
                 disabled={isDeleting}
-                className="px-2.5 py-1 rounded-lg border border-red-200 dark:border-red-800/60 text-red-700 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-950/40 text-[11px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
+                className="px-2.5 py-1 rounded-lg border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-highest)] hover:text-[var(--md-sys-color-on-surface)] text-[11px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
                 title="Remove saved offline files to free up device storage"
               >
                 <Trash2 className="w-3 h-3" />

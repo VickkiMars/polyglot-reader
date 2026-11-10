@@ -3,51 +3,51 @@
 @layer base {
   :root {
     /* ==========================================================================
-       MD3 DESIGN SYSTEM: 3-COLOR STRICT COMPLEMENTARY PALETTE
-       - Color 1 (Main): Deep Imperial Indigo (#193b68, H: 214.2°, S: 61.3%, L: 25.3%)
-       - Color 2 (White): Pure White (#ffffff) & clean tonal surface scale
-       - Color 3 (Provably Complementary): Warm Ochre Amber (#996317, H: 34.2°, S: 73.8%, L: 34.7%)
-       * Mathematical Proof of Complement: |214.2° - 34.2°| = 180.0° exact opposite on 360° color wheel.
-       * All neon and arbitrary chromatic colors eliminated.
+       MD3 DESIGN SYSTEM: STRICT 3-COLOR COMPLEMENTARY PALETTE
+       - Color 1 (Primary): Imperial Carmine (#b32656, H: 339.57°, S: 64.98%, L: 42.55%)
+       - Color 2 (White): Pure White (#ffffff) & clean neutral tonal surface scale (#fff8f8, #faf2f3, #f4ecee, etc.)
+       - Color 3 (Provably Complementary): Deep Jade (#297a5f, H: 159.57°, S: 49.80%, L: 32.00%)
+       * Mathematical Proof of Complement: |339.57° - 159.57°| = 180.00° exact diametric opposite on the 360° color wheel.
+       * Strictly zero neon, zero arbitrary chromatic deviations.
        ========================================================================== */
 
-    /* Main Color: Deep Imperial Indigo */
-    --md-sys-color-primary: #193b68;
+    /* Main Color: Imperial Carmine */
+    --md-sys-color-primary: #b32656;
     --md-sys-color-on-primary: #ffffff;
-    --md-sys-color-primary-container: #e2ecf8;
-    --md-sys-color-on-primary-container: #0c2340;
+    --md-sys-color-primary-container: #ffd9e2;
+    --md-sys-color-on-primary-container: #3e001d;
 
-    /* Complementary Color: Warm Ochre Amber (180° Complement) */
-    --md-sys-color-secondary: #996317;
+    /* Complementary Color: Deep Jade (180° Complement) */
+    --md-sys-color-secondary: #297a5f;
     --md-sys-color-on-secondary: #ffffff;
-    --md-sys-color-secondary-container: #f8ecd9;
-    --md-sys-color-on-secondary-container: #472b05;
+    --md-sys-color-secondary-container: #e3f2ed;
+    --md-sys-color-on-secondary-container: #0f3d2e;
 
-    /* Tertiary (Aligned with Complementary Color Scale) */
-    --md-sys-color-tertiary: #87540f;
+    /* Tertiary (Strictly Aligned with Provably Complementary Color) */
+    --md-sys-color-tertiary: #297a5f;
     --md-sys-color-on-tertiary: #ffffff;
-    --md-sys-color-tertiary-container: #fcefdc;
-    --md-sys-color-on-tertiary-container: #3e2402;
+    --md-sys-color-tertiary-container: #e3f2ed;
+    --md-sys-color-on-tertiary-container: #0f3d2e;
 
     /* Clean White Paper & Neutral Surface Scale */
-    --md-sys-color-surface: #fcfdfe;
-    --md-sys-color-on-surface: #0e1726;
-    --md-sys-color-on-surface-variant: #475569;
+    --md-sys-color-surface: #fff8f8;
+    --md-sys-color-on-surface: #211a1c;
+    --md-sys-color-on-surface-variant: #524346;
 
     --md-sys-color-surface-container-lowest: #ffffff;
-    --md-sys-color-surface-container-low: #f4f6fa;
-    --md-sys-color-surface-container: #ecf0f6;
-    --md-sys-color-surface-container-high: #e2e8f1;
-    --md-sys-color-surface-container-highest: #d7e0ec;
+    --md-sys-color-surface-container-low: #faf2f3;
+    --md-sys-color-surface-container: #f4ecee;
+    --md-sys-color-surface-container-high: #eee6e8;
+    --md-sys-color-surface-container-highest: #e8dee1;
 
-    --md-sys-color-outline: #76869b;
-    --md-sys-color-outline-variant: #c8d3e2;
+    --md-sys-color-outline: #847376;
+    --md-sys-color-outline-variant: #d6c2c5;
 
-    /* Error / Alert (Grounded in Complementary Amber Scale) */
-    --md-sys-color-error: #996317;
+    /* Error / Alert (Aligned with Carmine Scale) */
+    --md-sys-color-error: #b32656;
     --md-sys-color-on-error: #ffffff;
-    --md-sys-color-error-container: #f8ecd9;
-    --md-sys-color-on-error-container: #472b05;
+    --md-sys-color-error-container: #ffd9e2;
+    --md-sys-color-on-error-container: #3e001d;
 
     /* MD3 Shapes */
     --md-sys-shape-corner-xs: 4px;
@@ -59,7 +59,7 @@
 
     /* Semantic Aliases */
     --primary: var(--md-sys-color-primary);
-    --primary-hover: #122b4d;
+    --primary-hover: #961b44;
     --bg-main: var(--md-sys-color-surface);
     --text-main: var(--md-sys-color-on-surface);
     --text-muted: var(--md-sys-color-on-surface-variant);
@@ -69,42 +69,42 @@
   }
 
   .dark {
-    /* MD3 Dark Theme: Luminous Indigo & Radiant Amber against Obsidian White-Derivation */
-    --md-sys-color-primary: #8fb6e8;
-    --md-sys-color-on-primary: #071930;
-    --md-sys-color-primary-container: #163760;
-    --md-sys-color-on-primary-container: #d4e3f7;
+    /* MD3 Dark Theme: Luminous Carmine & Radiant Jade against Obsidian White-Derivation */
+    --md-sys-color-primary: #ffb1c8;
+    --md-sys-color-on-primary: #65002b;
+    --md-sys-color-primary-container: #8e083f;
+    --md-sys-color-on-primary-container: #ffd9e2;
 
-    --md-sys-color-secondary: #eec384;
-    --md-sys-color-on-secondary: #3d2503;
-    --md-sys-color-secondary-container: #5c3a08;
-    --md-sys-color-on-secondary-container: #fbe8ce;
+    --md-sys-color-secondary: #86d8b9;
+    --md-sys-color-on-secondary: #003827;
+    --md-sys-color-secondary-container: #0b513a;
+    --md-sys-color-on-secondary-container: #a2f5d4;
 
-    --md-sys-color-tertiary: #eec384;
-    --md-sys-color-on-tertiary: #3d2503;
-    --md-sys-color-tertiary-container: #5c3a08;
-    --md-sys-color-on-tertiary-container: #fbe8ce;
+    --md-sys-color-tertiary: #86d8b9;
+    --md-sys-color-on-tertiary: #003827;
+    --md-sys-color-tertiary-container: #0b513a;
+    --md-sys-color-on-tertiary-container: #a2f5d4;
 
-    --md-sys-color-surface: #0a0f18;
-    --md-sys-color-on-surface: #f0f4fa;
-    --md-sys-color-on-surface-variant: #b2c0d4;
+    --md-sys-color-surface: #161214;
+    --md-sys-color-on-surface: #f0dfe2;
+    --md-sys-color-on-surface-variant: #d4c2c5;
 
-    --md-sys-color-surface-container-lowest: #060a10;
-    --md-sys-color-surface-container-low: #0f1622;
-    --md-sys-color-surface-container: #141c2c;
-    --md-sys-color-surface-container-high: #1c263a;
-    --md-sys-color-surface-container-highest: #25324c;
+    --md-sys-color-surface-container-lowest: #100d0e;
+    --md-sys-color-surface-container-low: #1e191b;
+    --md-sys-color-surface-container: #231d20;
+    --md-sys-color-surface-container-high: #2d272a;
+    --md-sys-color-surface-container-highest: #383135;
 
-    --md-sys-color-outline: #5c6e88;
-    --md-sys-color-outline-variant: #2d3b50;
+    --md-sys-color-outline: #9d8c90;
+    --md-sys-color-outline-variant: #514346;
 
-    --md-sys-color-error: #eec384;
-    --md-sys-color-on-error: #3d2503;
-    --md-sys-color-error-container: #5c3a08;
-    --md-sys-color-on-error-container: #fbe8ce;
+    --md-sys-color-error: #ffb1c8;
+    --md-sys-color-on-error: #65002b;
+    --md-sys-color-error-container: #8e083f;
+    --md-sys-color-on-error-container: #ffd9e2;
 
     --primary: var(--md-sys-color-primary);
-    --primary-hover: #b3cff4;
+    --primary-hover: #ffc2d3;
     --bg-main: var(--md-sys-color-surface);
     --text-main: var(--md-sys-color-on-surface);
     --text-muted: var(--md-sys-color-on-surface-variant);

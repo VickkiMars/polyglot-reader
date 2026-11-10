@@ -22,7 +22,6 @@
   - Footer with navigational links and copyright
 - **Design Tokens:**
   - Primary: Imperial Carmine (`#b32656`)
-  - Secondary: Slate Heather (`#75565f`)
-  - Tertiary: Orient Jade (`#326865`)
-  - Surfaces: MD3 Surface Container system (`#fff8f8` Light / `#161214` Dark)
+  - White & Surfaces: Pure White (`#ffffff`) & MD3 Surface Container system (`#fff8f8` Light / `#161214` Dark)
+  - Complementary Color (180° Complement): Deep Jade (`#297a5f`)
   - Typography: Montserrat (Display), Roboto (Body), Noto Sans CJK (Characters)

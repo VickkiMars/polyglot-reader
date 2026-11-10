@@ -178,7 +178,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
                   <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold border border-[var(--md-sys-color-outline-variant)]/60">
                     {activePlay.total_scenes} Scenes · {activePlay.total_lines} Chunks
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] text-xs font-semibold border border-[var(--md-sys-color-secondary)]/30">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold border border-[var(--md-sys-color-outline-variant)]/60">
                     {activePlay.characters.length} Roles Cast
                   </span>
                 </div>
@@ -197,11 +197,11 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
 
                 <div className="flex flex-wrap items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-1">
                   <span className="flex items-center gap-1.5 font-medium">
-                    <Users className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
+                    <Users className="w-4 h-4 text-[var(--md-sys-color-primary)]" />
                     Multi-Cast Neural Audio ({activePlay.characters.map((c) => c.name_ja).join(" · ")})
                   </span>
                   <span className="flex items-center gap-1.5 font-medium">
-                    <Sparkles className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
+                    <Sparkles className="w-4 h-4 text-[var(--md-sys-color-primary)]" />
                     100% Ruby Annotations & Stage English
                   </span>
                 </div>

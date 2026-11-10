@@ -7,17 +7,17 @@
   <style>
     /* Clean typography and controls */
     :root {
-      --primary: #0094C6;
-      --primary-hover: #007ba6;
-      --bg: #f8fafc;
+      --primary: #b32656;
+      --primary-hover: #961b44;
+      --bg: #fff8f8;
       --card-bg: #ffffff;
-      --text: #1e293b;
-      --muted: #64748b;
-      --border: #e2e8f0;
-      --rt-color: #af9c0a;
-      --badge-beginner: #10b981;
-      --badge-intermediate: #f59e0b;
-      --badge-advanced: #ef4444;
+      --text: #211a1c;
+      --muted: #524346;
+      --border: #d6c2c5;
+      --rt-color: #b32656;
+      --badge-beginner: #297a5f;
+      --badge-intermediate: #b32656;
+      --badge-advanced: #961b44;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); display: flex; height: 100vh; overflow: hidden; }
@@ -403,7 +403,7 @@
             <td>${v.word_traditional || '-'}</td>
             <td style="color:var(--rt-color); font-weight:600;">${v.pinyin || '-'}</td>
             <td>${v.definition || '-'}</td>
-            <td><span class="badge" style="background:#0284c7;">HSK ${v.old_hsk || v.new_hsk || '-'}</span></td>
+            <td><span class="badge" style="background:var(--primary);">HSK ${v.old_hsk || v.new_hsk || '-'}</span></td>
           </tr>`;
         });
       } else {
@@ -413,7 +413,7 @@
             <td><strong>${v.word}</strong></td>
             <td style="color:var(--rt-color); font-weight:600;">${v.reading || '-'}</td>
             <td>${v.definition || '-'}</td>
-            <td><span class="badge" style="background:#7c3aed;">${v.jlpt || '-'}</span></td>
+            <td><span class="badge" style="background:var(--primary);">${v.jlpt || '-'}</span></td>
           </tr>`;
         });
       }

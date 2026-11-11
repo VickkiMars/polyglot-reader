@@ -1,10 +1,10 @@
 /*
- * PolyglotReader Service Worker v4
+ * PolyglotReader Service Worker v6
  * Enables full offline reading, upgraded neural audio caching, range requests for HTML5 audio,
- * and PWA installability.
+ * and PWA installability with immediate cache freshness on deployments.
  */
 
-const CACHE_NAME = 'polyglot-reader-v4';
+const CACHE_NAME = 'polyglot-reader-v6';
 const PRECACHE_ASSETS = [
   '/',
   '/manifest.json',
@@ -25,7 +25,14 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.filter((key) => key !== CACHE_NAME && !key.startsWith('polyglot-')).map((key) => caches.delete(key))
+        keys.map((key) => {
+          // Delete all older polyglot-reader app shell caches
+          if (key.startsWith('polyglot-reader-') && key !== CACHE_NAME) {
+            console.log('[SW] Purging legacy app shell cache:', key);
+            return caches.delete(key);
+          }
+          return null;
+        })
       );
     }).then(() => self.clients.claim())
   );
@@ -130,38 +137,57 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3. General static assets & navigation
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        // Return cached and refresh in background
-        fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse.clone()));
+  // 3. Navigation / HTML Document requests: ALWAYS Network-First with Cache Fallback
+  // Prevents stale HTML shells from trapping users in older CSS/JS bundles while online.
+  if (event.request.mode === 'navigate' || url.pathname === '/' || url.pathname === '/index.html') {
+    event.respondWith(
+      (async () => {
+        try {
+          const networkResponse = await fetch(event.request);
+          if (networkResponse && networkResponse.status === 200) {
+            const cache = await caches.open(CACHE_NAME);
+            cache.put(event.request, networkResponse.clone());
           }
-        }).catch(() => {});
-        return cachedResponse;
+          return networkResponse;
+        } catch (err) {
+          const cached = await caches.match(event.request);
+          if (cached) return cached;
+          const rootCached = await caches.match('/');
+          if (rootCached) return rootCached;
+          return new Response('Offline: Page not cached', { status: 503, statusText: 'Offline' });
+        }
+      })()
+    );
+    return;
+  }
+
+  // 4. Static assets & media: Hashed immutable chunks can use cache-first; mutable assets use network-first
+  event.respondWith(
+    (async () => {
+      if (url.pathname.startsWith('/_next/static/immutable/')) {
+        const cached = await caches.match(event.request);
+        if (cached) return cached;
+        const netRes = await fetch(event.request);
+        if (netRes && netRes.status === 200) {
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(event.request, netRes.clone());
+        }
+        return netRes;
       }
 
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
-          return networkResponse;
+      // Network-first for other assets (CSS, JS, icons, manifest)
+      try {
+        const netRes = await fetch(event.request);
+        if (netRes && netRes.status === 200) {
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(event.request, netRes.clone());
         }
-
-        if (
-          url.pathname.startsWith('/icons/') ||
-          url.pathname.match(/\.(png|jpg|jpeg|svg|css|js|woff2)$/)
-        ) {
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
-        }
-
-        return networkResponse;
-      }).catch(() => {
-        if (event.request.mode === 'navigate') {
-          return caches.match('/');
-        }
-      });
-    })
+        return netRes;
+      } catch (err) {
+        const cached = await caches.match(event.request);
+        if (cached) return cached;
+        throw err;
+      }
+    })()
   );
 });

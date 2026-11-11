@@ -46,9 +46,26 @@ export default function Header({
   useEffect(() => {
     // Register service worker for offline support & installability
     if (typeof window !== "undefined" && "serviceWorker" in navigator) {
+      // Purge legacy app shell caches from previous builds
+      if ("caches" in window) {
+        caches.delete("polyglot-reader-v4").catch(() => {});
+        caches.delete("polyglot-reader-v3").catch(() => {});
+      }
+
       navigator.serviceWorker
         .register("/sw.js")
+        .then((reg) => {
+          reg.update();
+        })
         .catch((err) => console.debug("Service worker registration:", err));
+
+      let refreshing = false;
+      navigator.serviceWorker.addEventListener("controllerchange", () => {
+        if (!refreshing) {
+          refreshing = true;
+          window.location.reload();
+        }
+      });
     }
 
     // Check if already in standalone display mode

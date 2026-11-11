@@ -30,9 +30,9 @@
     },
     "japanese": {
       "title": "楽しい一日",
-      "character_preview": "私の名前はダーウェイです。大学生で、今、中国で中国語を勉強しています。仲のいい友",
-      "reading_preview": "わたし の なまえ は だーうぇい です。だいがくせい で、いま、ちゅうごく で ちゅうごくご を ",
-      "vocab_count": 61,
+      "character_preview": "私の名前はダーウェイで、私は学生です。今、中国で中国語を勉強しています。私にはマ",
+      "reading_preview": "わたしの なまえは だーうぇいで、わたしは がくせいです。いま、ちゅうごくで ち",
+      "vocab_count": 62,
       "para_count": 1
     }
   },
@@ -67,9 +67,9 @@
     },
     "japanese": {
       "title": "私の自転車",
-      "character_preview": "私のいちばん好きな乗り物は自転車です。六歳のとき、母が小さな自転車を買ってくれま",
-      "reading_preview": "わたし の いちばん すきな のりもの は じてんしゃ です。 ろくさい の とき、 はは が ちい",
-      "vocab_count": 48,
+      "character_preview": "私のお気に入りの車は自転車です。私が6歳のとき、母が私に小さな自転車を買ってくれ",
+      "reading_preview": "わたしのおきにいりのくるまはいちじくしゃです。わたしがろくさいのとき、ははがわた",
+      "vocab_count": 47,
       "para_count": 2
     }
   },
@@ -104,8 +104,8 @@
     },
     "japanese": {
       "title": "人民公園への行き方",
-      "character_preview": "A：人民公園へはどう行けばいいですか？",
-      "reading_preview": "えー：じんみんこうえん へは どう いけば いいですか？",
+      "character_preview": "A: 人々の公園にどうやって行くのですか？",
+      "reading_preview": "A: ひとびとのこうえんに どうやって いくのですか？",
       "vocab_count": 58,
       "para_count": 3
     }
@@ -141,9 +141,9 @@
     },
     "japanese": {
       "title": "中国初の「冷凍保存された人」",
-      "character_preview": "8年前、桂軍民の妻、展文蓮は肺がんで死が迫っていました。桂軍民は妻が亡くなる前に",
-      "reading_preview": "はちねんまえ、 けいぐんみん の つま、 てんぶんれん は はいがん で し が せまっていました。",
-      "vocab_count": 156,
+      "character_preview": "8年前、桂俊民の妻、詹雯連は肺がんで死にかけていました。しかし、彼女の死の前に、",
+      "reading_preview": "はちねんまえ、けいしゅんみんのつま、ざんうぇんりゃんははいがんでしにかけていまし",
+      "vocab_count": 168,
       "para_count": 6
     }
   },
@@ -178,9 +178,9 @@
     },
     "japanese": {
       "title": "どちらを買おうかな？",
-      "character_preview": "ショッピングモールで服を見ています。赤いのはすてきですが、とても高いです。黒いの",
-      "reading_preview": "しょっぴんぐもーる で ふく を みています。あかい の は すてき ですが、とても たかい です。",
-      "vocab_count": 32,
+      "character_preview": "私はショッピングモールで衣服を買い物しています。赤い服はきれいに見えますが、とて",
+      "reading_preview": "わたしはショッピングモールでいふくをかいものしています。あかいふくはきれいにみえ",
+      "vocab_count": 39,
       "para_count": 1
     }
   },
@@ -215,9 +215,9 @@
     },
     "japanese": {
       "title": "子ザルのパンチ",
-      "character_preview": "パンチは、2025年7月26日に生まれた小さなニホンザルです。日本の動物園で暮ら",
-      "reading_preview": "ぱんち は、 にせんにじゅうごねん しちがつ にじゅうろくにち に うまれた ちいさな にほんざる ",
-      "vocab_count": 157,
+      "character_preview": "パンチは2025年7月26日に生まれた小さい日本のさるです。彼は日本の動物園に住",
+      "reading_preview": "ぱんちは2025ねん7がつ26にちにうまれたちいさいにほんのさるです。かれはにほ",
+      "vocab_count": 167,
       "para_count": 8
     }
   },
@@ -252,9 +252,9 @@
     },
     "japanese": {
       "title": "日記――私の一日",
-      "character_preview": "2025年5月20日（火曜日） 晴れ",
-      "reading_preview": "にせんにじゅうごねん ごがつ はつか（かようび） はれ",
-      "vocab_count": 99,
+      "character_preview": "2025年5月20日 | 火曜日 | 明るい",
+      "reading_preview": "にせんにじゅうごねん ごがつ にじゅうににち | かようび | あかるい",
+      "vocab_count": 104,
       "para_count": 6
     }
   },
@@ -289,9 +289,9 @@
     },
     "japanese": {
       "title": "メール――引っ越しを手伝ってくれてありがとう",
-      "character_preview": "差出人：zhangyi@email.com",
-      "reading_preview": "さしだしにん：じゃんいー あっとまーく いーめーる どっと こむ",
-      "vocab_count": 87,
+      "character_preview": "発送人: zhangyi@email.com",
+      "reading_preview": "はっそうにん: zhangyi@email.com",
+      "vocab_count": 96,
       "para_count": 11
     }
   },
@@ -326,9 +326,9 @@
     },
     "japanese": {
       "title": "私の寝室",
-      "character_preview": "私の寝室は小さいですが、とても気に入っています。部屋の真ん中には大きなベッドがあ",
-      "reading_preview": "わたし の しんしつ は ちいさい ですが、 とても きにいっています。 へや の まんなか には ",
-      "vocab_count": 61,
+      "character_preview": "私の寝室は小さいですが、私はそれがとても好きです。寝室のまん中に大きなベッドがあ",
+      "reading_preview": "わたしのしんしつはちいさいですが、わたしはそれがとてもすきです。しんしつのまんな",
+      "vocab_count": 55,
       "para_count": 1
     }
   },
@@ -363,9 +363,9 @@
     },
     "japanese": {
       "title": "お母さんがいない！",
-      "character_preview": "春節がやって来ました。娘とその夫は、お母さんを乗せ、広東省から湖北省へお正月を祝",
-      "reading_preview": "しゅんせつ が やって きました。むすめ と その おっと は、おかあさん を のせ、かんとんしょう",
-      "vocab_count": 94,
+      "character_preview": "春祭りがやってきました。娘と彼女の夫は、母親を広東から湖北に連れて行き、新年を祝",
+      "reading_preview": "はるまつりがやってきました。むすめとかれの おっとは、ははおやを こうとうから ",
+      "vocab_count": 98,
       "para_count": 4
     }
   },
@@ -400,9 +400,9 @@
     },
     "japanese": {
       "title": "手紙――語学の授業",
-      "character_preview": "ワン・ベイさんへ",
-      "reading_preview": "わん・べいさん へ",
-      "vocab_count": 115,
+      "character_preview": "親愛なるワン・ベイへ：",
+      "reading_preview": "しんあいなるわん・べいへ：",
+      "vocab_count": 114,
       "para_count": 9
     }
   },
@@ -437,9 +437,9 @@
     },
     "japanese": {
       "title": "私の一日",
-      "character_preview": "明日は深圳へ出張に行きます。今夜はその準備をするつもりです。明日の朝は7時15分",
-      "reading_preview": "あした は しんせん へ しゅっちょう に いきます。こんや は その じゅんび を する つもり ",
-      "vocab_count": 100,
+      "character_preview": "私明日深センに出張に行くので、今晩出張の準備をする予定です。明日の朝は7時15分",
+      "reading_preview": "わたしあすしんせんにしゅっちょうにいくので、こんばんしゅっちょうのじゅんびをする",
+      "vocab_count": 95,
       "para_count": 1
     }
   },
@@ -474,9 +474,9 @@
     },
     "japanese": {
       "title": "私の友達",
-      "character_preview": "私には仲のいい友達がいます。名前はリー・ミンといいます。大学の同級生で、今は二十",
-      "reading_preview": "わたし には なか の いい ともだち が います。 なまえ は りー・みん と いいます。 だいが",
-      "vocab_count": 76,
+      "character_preview": "私には良い友達が一人いて、彼の名前はリー・ミンです。彼は私の大学の同級生で、今は",
+      "reading_preview": "わたしには よいともだちが いちにんいて、かれのなまえはリー・ミンです。かれは ",
+      "vocab_count": 74,
       "para_count": 3
     }
   },
@@ -511,9 +511,9 @@
     },
     "japanese": {
       "title": "私の娘",
-      "character_preview": "私には五歳の娘がいます。名前はシャオバオです。かわいくて、頭のいい子です。",
-      "reading_preview": "わたし には ごさい の むすめ が います。 なまえ は しゃおばお です。 かわいくて、 あたま",
-      "vocab_count": 45,
+      "character_preview": "私には五歳の娘がいます。彼女の名前はシャオバオです。彼女はかわいくて、賢いです。",
+      "reading_preview": "わたしにはごさいのむすめがいます。かのじょのなまえはしゃおばおです。かのじょはか",
+      "vocab_count": 44,
       "para_count": 4
     }
   },
@@ -548,9 +548,9 @@
     },
     "japanese": {
       "title": "私の大家族",
-      "character_preview": "私の家族は大家族です。父は中学校の教師、母は看護師でしたが、二人とも今は退職して",
-      "reading_preview": "わたし の かぞく は だいかぞく です。ちち は ちゅうがっこう の きょうし、はは は かんごし",
-      "vocab_count": 95,
+      "character_preview": "私には大きな家族がいます。私の父は中等学校の先生で、母は看護婦です。彼らは今、両",
+      "reading_preview": "わたしにはおおきなかぞくがいます。わたしのちちわちゅうとうがっこうのせんせいで、",
+      "vocab_count": 103,
       "para_count": 1
     }
   },
@@ -585,9 +585,9 @@
     },
     "japanese": {
       "title": "年齢",
-      "character_preview": "店員さんは母がとても若く見えると言い、父もとてもうれしそうでした。みんなでおばさ",
-      "reading_preview": "てんいんさん は はは が とても わかく みえる と いい、ちち も とても うれしそう でした。",
-      "vocab_count": 56,
+      "character_preview": "店の付き添いの人は私の母が非常に若く見えると思い、私の父もまたとても幸せでした。",
+      "reading_preview": "みせ の つきそい の にん は わたし の はは が ひじょう に わかく み",
+      "vocab_count": 63,
       "para_count": 1
     }
   },
@@ -622,9 +622,9 @@
     },
     "japanese": {
       "title": "母の日",
-      "character_preview": "今日は母の日です。朝、娘と息子はお母さんに「お母さん、母の日おめでとう！大好きだ",
-      "reading_preview": "きょう は はは の ひ です。 あさ、 むすめ と むすこ は おかあさん に「おかあさん、 はは",
-      "vocab_count": 34,
+      "character_preview": "きょうは母の日です。朝、娘と息子が母に言いました。「お母さん、母の日おめでとう。",
+      "reading_preview": "きょう は はは の ひ です。あさ、むすめ と むすこ が はは に いまし ",
+      "vocab_count": 39,
       "para_count": 1
     }
   },
@@ -659,9 +659,9 @@
     },
     "japanese": {
       "title": "今日は暑い",
-      "character_preview": "今日はとても暑いです。中国語の先生は午前中に三コマの授業をして、喉がとても渇きま",
-      "reading_preview": "きょう は とても あつい です。 ちゅうごくご の せんせい は ごぜんちゅう に さんこま の ",
-      "vocab_count": 42,
+      "character_preview": "きょうの天気は非常に暑いです。中国の先生は朝に三つのクラスがあり、私はとてものど",
+      "reading_preview": "きょうのてんきはひじょうにあついです。ちゅうごくのせんせいはあさにみっつのくらす",
+      "vocab_count": 39,
       "para_count": 1
     }
   },
@@ -696,9 +696,9 @@
     },
     "japanese": {
       "title": "音楽",
-      "character_preview": "私は音楽が好きで、毎日たくさん聴きます。朝は車の中で、夜は家で音楽を聴きます。音",
-      "reading_preview": "わたし は おんがく が すき で、 まいにち たくさん ききます。 あさ は くるま の なか で",
-      "vocab_count": 50,
+      "character_preview": "私は音楽が好きで、毎日たくさんの音楽を聞きます。朝は車で音楽を聞き、夕方は家庭で",
+      "reading_preview": "わたしはおんがくがすきで、まいにたくさんのおんがくをききます。あさはくるまでおん",
+      "vocab_count": 47,
       "para_count": 4
     }
   },
@@ -733,8 +733,8 @@
     },
     "japanese": {
       "title": "午後の会議",
-      "character_preview": "今日の午後、会議があります。とても大切な会議なのに、まだ準備ができていません。お",
-      "reading_preview": "きょう の ごご、かいぎ が あります。とても たいせつ な かいぎ なのに、まだ じゅんび が で",
+      "character_preview": "私は今日の午後に会議があります。この会議は非常に重要ですが、準備ができていません",
+      "reading_preview": "わたしは きょうの ごごに かいぎが あります。この かいぎは ひじょうに じゅ",
       "vocab_count": 39,
       "para_count": 1
     }
@@ -770,9 +770,9 @@
     },
     "japanese": {
       "title": "旧暦三月三日の祭り",
-      "character_preview": "旧暦の三月三日は、中国のさまざまな民族が祝う伝統的な祭りです。その起源は、古代の",
-      "reading_preview": "きゅうれき の さんがつ みっか は、 ちゅうごく の さまざまな みんぞく が いわう でんとうて",
-      "vocab_count": 245,
+      "character_preview": "太陰月の第3番目の日は、中国の多くの民族グループに共有される伝統的な祭りです。こ",
+      "reading_preview": "たいいんづきのだい3ばんめのひは、ちゅうごくのたくさんのみんぞくグループにきょう",
+      "vocab_count": 259,
       "para_count": 3
     }
   },
@@ -807,9 +807,9 @@
     },
     "japanese": {
       "title": "私のふるさと",
-      "character_preview": "私のふるさとは田舎にあり、動物や植物がたくさん見られます。家では羊を何匹も飼って",
-      "reading_preview": "わたし の ふるさと は いなか に あり、どうぶつ や しょくぶつ が たくさん みられます。いえ",
-      "vocab_count": 90,
+      "character_preview": "私の故郷は田舎にあり、たくさんの動物と植物があります。私の家族は、一群の羊、二頭",
+      "reading_preview": "わたしのふるさとはいなかにあり、たくさんのどうぶつとしょくぶつがあります。わたし",
+      "vocab_count": 85,
       "para_count": 1
     }
   },
@@ -844,9 +844,9 @@
     },
     "japanese": {
       "title": "知っていますか？",
-      "character_preview": "知っていますか？私の家の隣には大学があります。この大学には学生が3万人、先生が2",
-      "reading_preview": "しっていますか？ わたし の いえ の となり には だいがく が あります。 この だいがく には",
-      "vocab_count": 77,
+      "character_preview": "あなたは知っていますか？私の家の隣に大学があります。この大学には3万人の学生と2",
+      "reading_preview": "あなたはしっていますか？わたしのいえのとなりにだいがくがあります。このだいがくに",
+      "vocab_count": 56,
       "para_count": 1
     }
   },
@@ -881,9 +881,9 @@
     },
     "japanese": {
       "title": "私は誰？",
-      "character_preview": "私の名前はデイビッド・リーです。アメリカ人ですが、日本で育ち、イギリスの大学に通",
-      "reading_preview": "わたし の なまえ は でいびっど・りー です。あめりかじん ですが、にほん で そだち、いぎりす ",
-      "vocab_count": 39,
+      "character_preview": "私の名前はダビデ・リーです。私はアメリカ人ですが、日本で育ち、イングランドの大学",
+      "reading_preview": "わたしのなまえはダビデ・リーです。わたしはアメリカじんですが、にほんでそだち、イ",
+      "vocab_count": 38,
       "para_count": 1
     }
   },
@@ -918,9 +918,9 @@
     },
     "japanese": {
       "title": "リリー、中国語を学ぶ",
-      "character_preview": "リリーはフランス人で、中国語の名前はリーリーです。フランスで中国語を勉強しました",
-      "reading_preview": "りりー は ふらんすじん で、 ちゅうごくご の なまえ は りーりー です。 ふらんす で ちゅう",
-      "vocab_count": 45,
+      "character_preview": "ユリはフランスの人で、リ・リは彼女の中国の名前です。彼女はフランスで中国語を勉強",
+      "reading_preview": "ユリ は フランス の ひと で 、リ・リ は かのじょ の ちゅうごく の な",
+      "vocab_count": 44,
       "para_count": 1
     }
   },
@@ -955,9 +955,9 @@
     },
     "japanese": {
       "title": "今日は私の誕生日",
-      "character_preview": "今日は私の誕生日です。自分へのプレゼントに、靴を一足買いました。少し高かったけれ",
-      "reading_preview": "きょう は わたし の たんじょうび です。じぶん への プレゼント に、くつ を いっそく かいま",
-      "vocab_count": 58,
+      "character_preview": "今日は私の誕生日です。私自身に贈った贈り物は靴の組でした。それらの靴は少し高価で",
+      "reading_preview": "きょうはわたしのたんじょうびです。わたしじしんにおくったおくりものはくつのくみで",
+      "vocab_count": 55,
       "para_count": 1
     }
   },
@@ -992,8 +992,8 @@
     },
     "japanese": {
       "title": "今日は何を食べよう？",
-      "character_preview": "今朝、私はお母さんに「朝ごはんにパンとハンバーガーを食べて、コーラを飲みたい」と",
-      "reading_preview": "けさ、 わたし は おかあさん に「 あさごはん に ぱん と はんばーがー を たべて、 こーら ",
+      "character_preview": "今朝、私は言いました：「お母さん、朝食にパンとハンバーガーとコークが食べたいです",
+      "reading_preview": "いまさ、わたしはいいました：「おかあさん、ちょうしょくにぱんとはんばーがーとこー",
       "vocab_count": 38,
       "para_count": 1
     }
@@ -1029,9 +1029,9 @@
     },
     "japanese": {
       "title": "故郷",
-      "character_preview": "私には、この町の出身ではない友達がいます。彼はよく、故郷はこの町とはずいぶん違う",
-      "reading_preview": "わたし には、 この まち の しゅっしん ではない ともだち が います。 かれ は よく、 ふる",
-      "vocab_count": 61,
+      "character_preview": "私にはこの都市ではない故郷を持つ友達がいます。彼はしばしば、彼の故郷はこの都市と",
+      "reading_preview": "わたしにはこのとしではないこきょうをもつともだちがいます。かれはしばしば、かれの",
+      "vocab_count": 58,
       "para_count": 1
     }
   },
@@ -1066,9 +1066,9 @@
     },
     "japanese": {
       "title": "私の彼氏を紹介します",
-      "character_preview": "私には彼氏がいます。名前はチャン・ヤンです。太っても痩せてもいなくて、背が高く、",
-      "reading_preview": "わたし には かれし が います。 なまえ は ちゃん・やん です。 ふとって も やせて も いな",
-      "vocab_count": 66,
+      "character_preview": "私にはボーイフレンドがいて、彼の名前はジャン・ヤンです。彼は脂肪も薄くもなく、非",
+      "reading_preview": "わたしにはボーイフレンドがいて、かれのなまえはジャン・ヤンです。かれはしぼうもう",
+      "vocab_count": 72,
       "para_count": 1
     }
   },
@@ -1103,9 +1103,9 @@
     },
     "japanese": {
       "title": "世界市民",
-      "character_preview": "私はどこの出身でしょうか。この質問に答えるのは難しいです。父はアメリカ人で、母は",
-      "reading_preview": "わたし は どこ の しゅっしん でしょうか。 この しつもん に こたえる の は むずかしい で",
-      "vocab_count": 56,
+      "character_preview": "私はどこから来たのでしょうか。この質問は答えるのが難しいです。私の父はアメリカ人",
+      "reading_preview": "わたしは どこから きたのでしょうか。この しつもんは こたえるのが むずかしい",
+      "vocab_count": 60,
       "para_count": 1
     }
   },
@@ -1140,9 +1140,9 @@
     },
     "japanese": {
       "title": "中国に来て三年",
-      "character_preview": "私は中国で勉強しながら働いて、三年になります。五年前、初めて中国を旅行し、ここの",
-      "reading_preview": "わたし は ちゅうごく で べんきょう しながら はたらいて、 さんねん に なります。 ごねんまえ",
-      "vocab_count": 82,
+      "character_preview": "私は中国で三年間勉強と仕事をしています。五年前、私は初めて中国を旅行し、ここでの",
+      "reading_preview": "わたしはちゅうごくでさんねんかんべんきょうとしごとをしています。ごねんまえ、わた",
+      "vocab_count": 74,
       "para_count": 1
     }
   },
@@ -1177,9 +1177,9 @@
     },
     "japanese": {
       "title": "この二人を知っていますか？",
-      "character_preview": "この二人を知っていますか？女の人は私の中国語の先生で、王先生といいます。男の人は",
-      "reading_preview": "この ふたり を しっていますか？ おんな の ひと は わたし の ちゅうごくご の せんせい で",
-      "vocab_count": 53,
+      "character_preview": "あなたはこの二人の人々を知っていますか？彼女は私の中国人の先生で、姓はワンです。",
+      "reading_preview": "あなたはこのふたりのひとびとをしっていますか？かのじょはわたしのちゅうごくじんの",
+      "vocab_count": 24,
       "para_count": 1
     }
   },
@@ -1214,8 +1214,8 @@
     },
     "japanese": {
       "title": "お父さんが泣いた",
-      "character_preview": "お父さんは仕事がとても忙しいです。毎朝、私が起きる前に家を出て、夜は私が寝るころ",
-      "reading_preview": "おとうさん は しごと が とても いそがしい です。まいあさ、わたし が おきる まえ に いえ ",
+      "character_preview": "おとうちゃんの仕事は非常に忙しいです。毎日、私が起きる前に、彼は出て行きます;夜",
+      "reading_preview": "おとうちゃんの しごとは ひじょうに いそがしいです。まいにち、わたしが おきる",
       "vocab_count": 69,
       "para_count": 1
     }
@@ -1251,9 +1251,9 @@
     },
     "japanese": {
       "title": "好きな食べ物",
-      "character_preview": "私たちは三人家族で、それぞれ好きな食べ物が違います。私は野菜が好きで、特に辛い料",
-      "reading_preview": "わたしたち は さんにんかぞく で、 それぞれ すき な たべもの が ちがいます。 わたし は や",
-      "vocab_count": 69,
+      "character_preview": "私たちは3人家族で、すべての人が自分自身の気に入りの食べ物を持っています。私は野",
+      "reading_preview": "わたしたちはさんにんかぞくで、すべてのひとがじぶんじしんのきにいりのたべものをも",
+      "vocab_count": 77,
       "para_count": 1
     }
   },
@@ -1288,9 +1288,9 @@
     },
     "japanese": {
       "title": "生活習慣を変える",
-      "character_preview": "シャオ・チャンさんは、毎日会社に通う若い会社員です。仕事がとても忙しく、夜遅くま",
-      "reading_preview": "しゃお・ちゃんさん は、まいにち かいしゃ に かよう わかい かいしゃいん です。しごと が とて",
-      "vocab_count": 88,
+      "character_preview": "シャオ・ジャンは毎日仕事に行かなければならない若いサラリーマンです。彼は仕事が非",
+      "reading_preview": "しゃお・じゃん は まいにち しごとに いかなければならない わかい さらりーま",
+      "vocab_count": 94,
       "para_count": 1
     }
   },
@@ -1325,9 +1325,9 @@
     },
     "japanese": {
       "title": "ウサギとカメ",
-      "character_preview": "昔々、美しい村に亀とウサギが住んでいました。ある日、二匹はかけっこで勝負すること",
-      "reading_preview": "むかしむかし、 うつくしい むら に かめ と うさぎ が すんでいました。 あるひ、 にひき は ",
-      "vocab_count": 101,
+      "character_preview": "かつて、美しい村にカメと野ウサギが住んでいて、彼らは走る競走をすることに決めまし",
+      "reading_preview": "かつて、うつくしいむらにカメとやうさぎがすんでいて、かれらははしるきょうそうをす",
+      "vocab_count": 111,
       "para_count": 5
     }
   },
@@ -1362,9 +1362,9 @@
     },
     "japanese": {
       "title": "自分を貸し出す仕事",
-      "character_preview": "森本祥司さんという日本人男性が、変わった仕事で有名になりました。彼の今の主な仕事",
-      "reading_preview": "もりもと しょうじ さん という にほんじん だんせい が、かわった しごと で ゆうめい に なり",
-      "vocab_count": 111,
+      "character_preview": "将司という名前の日本人男性が、彼の仕事で有名になりました。彼の現在の主な仕事は、",
+      "reading_preview": "しょうじというなまえのにほんじんだんせいが、かれのしごとでゆうめいになりました。",
+      "vocab_count": 102,
       "para_count": 4
     }
   },
@@ -1399,9 +1399,9 @@
     },
     "japanese": {
       "title": "奇跡の校長、チャン・グイメイ",
-      "character_preview": "中国の雲南省麗江にある貧しい県に、特別な学校があります。2008年にできたこの学",
-      "reading_preview": "ちゅうごく の うんなんしょう れいこう に ある まずしい けん に、とくべつ な がっこう が ",
-      "vocab_count": 262,
+      "character_preview": "云南省の麗江に貧しい郡の特別な学校があります。この学校は2008年に設立され、周",
+      "reading_preview": "ゆうなんしょうのれいこうに、まずしいぐんのとくべつなしょうががあります。このがっ",
+      "vocab_count": 263,
       "para_count": 5
     }
   },
@@ -1436,9 +1436,9 @@
     },
     "japanese": {
       "title": "彼女と彼氏",
-      "character_preview": "A：スマホに写ってるあの子、彼女？",
-      "reading_preview": "えー： すまほ に うつってる あのこ、 かのじょ？",
-      "vocab_count": 83,
+      "character_preview": "A: あの電話にいる女の子はあなたのガールフレンドですか？",
+      "reading_preview": "A: あの でんわ に いる おんなのこ は あなたの ガールフレンド ですか？",
+      "vocab_count": 86,
       "para_count": 6
     }
   },
@@ -1473,9 +1473,9 @@
     },
     "japanese": {
       "title": "結婚することになったの",
-      "character_preview": "A：来月の8日に結婚するの。南湖ホテルで結婚式を挙げるから、来てね。",
-      "reading_preview": "えー：らいげつ の ようか に けっこん する の。なんこ ほてる で けっこんしき を あげる か",
-      "vocab_count": 86,
+      "character_preview": "A: 私は来月の8日に結婚します。ナンフホテルに来て私の結婚式に出席してください",
+      "reading_preview": "A: わたしは らいげつの 8にちに けっこんします。ナンフホテルに きて わた",
+      "vocab_count": 91,
       "para_count": 9
     }
   },
@@ -1510,9 +1510,9 @@
     },
     "japanese": {
       "title": "スー・ミンの自由な車旅",
-      "character_preview": "スー・ミンは1964年にチベットで生まれました。その後、家族と一緒に河南省へ移り",
-      "reading_preview": "すー・みん は せんきゅうひゃくろくじゅうよねん に ちべっと で うまれました。 そのご、 かぞく",
-      "vocab_count": 215,
+      "character_preview": "スーミンは1964年にチベットで生まれました。それから彼女は家族に従って河南に移",
+      "reading_preview": "すーミンは1964ねんにちべっとでうまれました。それからかのじょはかぞくにしたが",
+      "vocab_count": 236,
       "para_count": 7
     }
   },
@@ -1547,9 +1547,9 @@
     },
     "japanese": {
       "title": "そこで会おうね",
-      "character_preview": "A：今、何時？",
-      "reading_preview": "えー：いま、なんじ？",
-      "vocab_count": 91,
+      "character_preview": "A: 今、何時ですか？",
+      "reading_preview": "A: いま、なんじですか？",
+      "vocab_count": 95,
       "para_count": 11
     }
   },
@@ -1584,9 +1584,9 @@
     },
     "japanese": {
       "title": "私の新しい家",
-      "character_preview": "家族で去年新しい家を買い、今年引っ越しました。家の西側にはきれいな川があり、南側",
-      "reading_preview": "かぞく で きょねん あたらしい いえ を かい、 ことし ひっこしました。 いえ の にしがわ に",
-      "vocab_count": 78,
+      "character_preview": "私の家族と私は昨年新しい家を買い、今年引っ越しました。新しい家の西にはきれいな川",
+      "reading_preview": "わたしのかぞくとわたしはさくねんあたらしいいえをかった、そしてことしひっこしまし",
+      "vocab_count": 80,
       "para_count": 1
     }
   },
@@ -1621,9 +1621,9 @@
     },
     "japanese": {
       "title": "詩人・余秀華",
-      "character_preview": "余秀華は四十代です。湖北省の農村に生まれましたが、出生時の事故で脳性まひになりま",
-      "reading_preview": "よ しゅうか は よんじゅうだい です。こほくしょう の のうそん に うまれました が、しゅっしょ",
-      "vocab_count": 173,
+      "character_preview": "ユ・シウフアは40代です。彼女は農村の湖北省で生まれましたが、誕生時の事故により",
+      "reading_preview": "ユ・シウフアは40だいです。かのじょはのうそんのこほくしょうでうまれましたが、た",
+      "vocab_count": 169,
       "para_count": 4
     }
   },
@@ -1658,9 +1658,9 @@
     },
     "japanese": {
       "title": "何を勉強していますか？",
-      "character_preview": "A：何を勉強していますか？",
-      "reading_preview": "えー：なに を べんきょう していますか？",
-      "vocab_count": 63,
+      "character_preview": "A: あなたは何を勉強していますか？",
+      "reading_preview": "A: あなたは なにを べんきょう していますか？",
+      "vocab_count": 64,
       "para_count": 12
     }
   },
@@ -1695,9 +1695,9 @@
     },
     "japanese": {
       "title": "私のルームメイト",
-      "character_preview": "私のルームメイトは25歳のフランス人です。中国の文化が好きで、中国で働きながら暮",
-      "reading_preview": "わたし の るーむめいと は にじゅうごさい の ふらんすじん です。 ちゅうごく の ぶんか が ",
-      "vocab_count": 92,
+      "character_preview": "私の同室者はフランス人です。彼は25歳です。彼は中国文化を好むので、中国で働いて",
+      "reading_preview": "わたしの どうしつしゃは フランスじんです。かれは 25さいです。かれは ちゅう",
+      "vocab_count": 98,
       "para_count": 1
     }
   },
@@ -1732,8 +1732,8 @@
     },
     "japanese": {
       "title": "私の家族",
-      "character_preview": "A：王先生、お久しぶりです！",
-      "reading_preview": "えー：おうせんせい、おひさしぶりです！",
+      "character_preview": "A: ウォン先生、長い間お会いしていませんね！",
+      "reading_preview": "A: ウォンせんせい、ながいあいだおあいしていませんね！",
       "vocab_count": 86,
       "para_count": 9
     }
@@ -1769,9 +1769,9 @@
     },
     "japanese": {
       "title": "どこへ行くの？",
-      "character_preview": "A：おはよう！朝ごはん、もう食べた？",
-      "reading_preview": "えー：おはよう！ あさごはん、もう たべた？",
-      "vocab_count": 62,
+      "character_preview": "A: おはよう！朝食は食べましたか？",
+      "reading_preview": "A: おはよう！あさしょくはたべましたか？",
+      "vocab_count": 63,
       "para_count": 10
     }
   },
@@ -1806,9 +1806,9 @@
     },
     "japanese": {
       "title": "刻舟求剣",
-      "character_preview": "戦国時代、楚の国の男が舟で川を渡っていました。舟が川の真ん中に差しかかったとき、",
-      "reading_preview": "せんごくじだい、 その くに の おとこ が ふね で かわ を わたっていました。 ふね が かわ",
-      "vocab_count": 109,
+      "character_preview": "戦国時代に、楚の国の男が船で川を渡っていました。船が川のまん中に到達したとき、男",
+      "reading_preview": "せんごくじだいに、そ のくに の おとこが ふねで かわを わたっていました。ふ",
+      "vocab_count": 124,
       "para_count": 4
     }
   },
@@ -1843,9 +1843,9 @@
     },
     "japanese": {
       "title": "明日は何をする？",
-      "character_preview": "Ａ：明日は何をしたい？",
-      "reading_preview": "えー：あした は なに を したい？",
-      "vocab_count": 80,
+      "character_preview": "A: あなたは明日何をしたいですか？",
+      "reading_preview": "A: あなたはあしたなにをしたいですか？",
+      "vocab_count": 76,
       "para_count": 13
     }
   },
@@ -1880,9 +1880,9 @@
     },
     "japanese": {
       "title": "最近の様子はどうですか？",
-      "character_preview": "「李先生、お久しぶりです！」",
-      "reading_preview": "「りーせんせい、 おひさしぶり です！」",
-      "vocab_count": 73,
+      "character_preview": "A: リ先生、お久しぶりです！",
+      "reading_preview": "A: リせんせい、おひさしぶりです！",
+      "vocab_count": 63,
       "para_count": 9
     }
   },
@@ -1917,9 +1917,9 @@
     },
     "japanese": {
       "title": "お買い物",
-      "character_preview": "A：いらっしゃいませ。何をお買いになりますか？",
-      "reading_preview": "えー：いらっしゃいませ。なに を おかい に なりますか？",
-      "vocab_count": 69,
+      "character_preview": "A: 先生、何を買いたいですか？",
+      "reading_preview": "A: せんせい、なにをかいたいですか？",
+      "vocab_count": 61,
       "para_count": 12
     }
   },
@@ -1954,9 +1954,9 @@
     },
     "japanese": {
       "title": "掩耳盗鈴（耳をふさいで鐘を盗む）",
-      "character_preview": "昔、ある男が他人の家の門にある大きな鐘を見て、盗みたいと思いました。しかし、鐘は",
-      "reading_preview": "むかし、 ある おとこ が たにん の いえ の もん に ある おおきな かね を みて、 ぬすみ",
-      "vocab_count": 78,
+      "character_preview": "かつて、ある男が誰かの家の扉にある大きな時計を見て、それを盗もうとしたことがあり",
+      "reading_preview": "かつて、あるおとこがだれかのいえのとびらにあるおおきなくろっくをみて、それをぬす",
+      "vocab_count": 91,
       "para_count": 1
     }
   },
@@ -1991,9 +1991,9 @@
     },
     "japanese": {
       "title": "一通のメール",
-      "character_preview": "昨日、ダニーからメールが届きました。ダニーは大学時代の恋人です。大学を卒業した後",
-      "reading_preview": "きのう、 ダニー から メール が とどきました。 ダニー は だいがくじだい の こいびと です。",
-      "vocab_count": 102,
+      "character_preview": "きのう、ダニーからメールを受け取りました。ダニーは大学時代の私のボーイフレンドで",
+      "reading_preview": "きのう、ダニーからメールをうけとりました。ダニーはだいがくじだいのわたしのボーイ",
+      "vocab_count": 48,
       "para_count": 1
     }
   },
@@ -2028,9 +2028,9 @@
     },
     "japanese": {
       "title": "孫玲の奮闘",
-      "character_preview": "孫玲は、国が貧しい地域に指定した湖南省の県に生まれました。家の暮らしは、ずっと苦",
-      "reading_preview": "そんれい は、 くに が まずしい ちいき に してい した こなんしょう の けん に うまれまし",
-      "vocab_count": 216,
+      "character_preview": "太陽リンは、湖南省の貧しい郡に生まれました。彼女の家族はいつも経済的に苦しんでい",
+      "reading_preview": "たいようリンは、ふんなんしょうのまずしいぐんにうまれました。かのじょのかぞくはい",
+      "vocab_count": 209,
       "para_count": 6
     }
   },
@@ -2065,9 +2065,9 @@
     },
     "japanese": {
       "title": "耳の聞こえない弁護士",
-      "character_preview": "中国の調査によると、聴覚に障害のある人は約二千七百八十万人います。二〇二〇年の終",
-      "reading_preview": "ちゅうごく の ちょうさ に よる と、 ちょうかく に しょうがい の ある ひと は やく にせ",
-      "vocab_count": 191,
+      "character_preview": "身体障害者の第2回全国サンプル調査によると、中国の聴覚に障害のある人々の数は27",
+      "reading_preview": "しんたい しょうがいしゃ の だい2かい ぜんこく サンプル ちょうさ によると",
+      "vocab_count": 201,
       "para_count": 4
     }
   },
@@ -2102,9 +2102,9 @@
     },
     "japanese": {
       "title": "葉公、竜を好む",
-      "character_preview": "春秋時代、葉公という、竜が大好きな人がいました。家の戸や窓、庭や石、塀、家具にま",
-      "reading_preview": "しゅんじゅうじだい、 ようこう という、 りゅう が だいすきな ひと が いました。 いえ の と",
-      "vocab_count": 132,
+      "character_preview": "春秋時代に、リュウが非常に好きなマイヨという男がいました。マイヨの家の扉、窓、庭",
+      "reading_preview": "しゅんちゅうじだいに、りゅうがひじょうにすきなまイよというおとこがいました。まイ",
+      "vocab_count": 135,
       "para_count": 3
     }
   },
@@ -2139,8 +2139,8 @@
     },
     "japanese": {
       "title": "母の一日",
-      "character_preview": "母は図書館で働いています。毎朝六時に起きて、父と私のために朝ご飯を作り、それから",
-      "reading_preview": "はは は としょかん で はたらいて います。 まいあさ ろくじ に おきて、 ちち と わたし の",
+      "character_preview": "母は図書館で働いています。彼女は毎朝6時に起きて、私と父のために朝食を作り、その",
+      "reading_preview": "ははは としょかんではたらいています。かのじょはまいあさ6じにおきて、わたしとち",
       "vocab_count": 55,
       "para_count": 1
     }
@@ -2176,9 +2176,9 @@
     },
     "japanese": {
       "title": "無料の老人ホーム",
-      "character_preview": "1997年生まれの范金林さんは、中国・河南省出身の若者です。現在、四つの老人ホー",
-      "reading_preview": "せんきゅうひゃくきゅうじゅうななねん うまれ の はんきんりんさん は、 ちゅうごく・かなんしょう ",
-      "vocab_count": 119,
+      "character_preview": "ファン・ジンリンは、河南省出身の若い男性で、1997年に生まれました。現在、彼は",
+      "reading_preview": "ふぁん・じんりんは、かなんしょうしゅっしんのわかいだんせいで、1997ねんにうま",
+      "vocab_count": 47,
       "para_count": 1
     }
   },
@@ -2213,9 +2213,9 @@
     },
     "japanese": {
       "title": "出前を注文する",
-      "character_preview": "私は医者で、仕事がとても忙しいです。料理ができないので、普段は家で食事をしません",
-      "reading_preview": "わたし は いしゃ で、 しごと が とても いそがしい です。 りょうり が できない ので、 ふ",
-      "vocab_count": 66,
+      "character_preview": "私は医者で、仕事が非常に忙しいです。料理の仕方がわからず、普段は家で食べません。",
+      "reading_preview": "わたしは いしゃで、しごとが ひじょうに いそがしいです。りょうりのしかたが わ",
+      "vocab_count": 73,
       "para_count": 1
     }
   },
@@ -2250,9 +2250,9 @@
     },
     "japanese": {
       "title": "推敲",
-      "character_preview": "中国語には、言葉の由来を伝える物語がたくさんあります。「言葉をよく考えて選ぶ」と",
-      "reading_preview": "ちゅうごくご には、 ことば の ゆらい を つたえる ものがたり が たくさん あります。 「こと",
-      "vocab_count": 189,
+      "character_preview": "多くの中国の言葉には、その背後に物語があります。「ついきょう」という言葉は「言葉",
+      "reading_preview": "おおくのちゅうごくのことばには、そのはいごにものがたりがあります。「ついきょう」",
+      "vocab_count": 198,
       "para_count": 10
     }
   },
@@ -2287,9 +2287,9 @@
     },
     "japanese": {
       "title": "いちばん好きな国",
-      "character_preview": "最近、私たち家族は海外旅行がますます好きになっています。兄は日本の文化が好きなの",
-      "reading_preview": "さいきん、 わたしたち かぞく は かいがいりょこう が ますます すき に なっています。 あに ",
-      "vocab_count": 63,
+      "character_preview": "私の家族と私は今、ますます海外へ旅行することが好きです。私の兄は日本文化が好きだ",
+      "reading_preview": "わたしのかぞくとわたしはいま、ますますおおがいへりょこうすることがすきです。わた",
+      "vocab_count": 70,
       "para_count": 1
     }
   },
@@ -2324,9 +2324,9 @@
     },
     "japanese": {
       "title": "冬季五輪の特別な聖火ランナー",
-      "character_preview": "2022年の北京冬季五輪の聖火リレーには、特別なランナーがいました。宅配便の配達",
-      "reading_preview": "にせんにじゅうにねん の ぺきん とうきごりん の せいかりれー には、 とくべつ な らんなー が",
-      "vocab_count": 100,
+      "character_preview": "2022年の北京冬季オリンピックのトーチリレーには、特別なたいまつを持つ人がいま",
+      "reading_preview": "2022ねんのぺきんとうきオリンピックのトーチリレーには、とくべつなたいまつをも",
+      "vocab_count": 117,
       "para_count": 1
     }
   },
@@ -2361,9 +2361,9 @@
     },
     "japanese": {
       "title": "シャオ・リーと私",
-      "character_preview": "シャオ・リーと私は仲のよい友達で、よく会います。一緒にご飯を食べたり、お店に買い",
-      "reading_preview": "しゃお・りー と わたし は なか の よい ともだち で、よく あいます。いっしょ に ごはん を",
-      "vocab_count": 56,
+      "character_preview": "シャオ・リと私は良い友達で、しばしば会います。時々、一緒に食事をしたり、時々、店",
+      "reading_preview": "",
+      "vocab_count": 54,
       "para_count": 1
     }
   },
@@ -2398,9 +2398,9 @@
     },
     "japanese": {
       "title": "地下鉄の駅はどこですか？",
-      "character_preview": "A：すみません、この近くに地下鉄の駅はありますか？",
-      "reading_preview": "えー：すみません、この ちかく に ちかてつ の えき は ありますか？",
-      "vocab_count": 77,
+      "character_preview": "A: すみません、近くに地下鉄の駅はありますか？",
+      "reading_preview": "A: すみません、ちかくにちかてつのえきはありますか？",
+      "vocab_count": 74,
       "para_count": 6
     }
   },
@@ -2435,9 +2435,9 @@
     },
     "japanese": {
       "title": "ミルクティーを買う",
-      "character_preview": "店員：こんにちは。お飲み物は何になさいますか？こちらがメニューです。",
-      "reading_preview": "てんいん：こんにちは。 おのみもの は なに に なさいますか？ こちら が めにゅー です。",
-      "vocab_count": 112,
+      "character_preview": "ウェイター：こんにちは、何を飲みたいですか？こちらがメニューです。",
+      "reading_preview": "うぇいたー：こんにちは、なにを のみたいですか？こちらが めにゅーです。",
+      "vocab_count": 116,
       "para_count": 23
     }
   },
@@ -2472,9 +2472,9 @@
     },
     "japanese": {
       "title": "病気休暇を申請する",
-      "character_preview": "先日、王さんは歯の痛みのため、二日間にわたる歯科の検査と治療を予約し、会社に有給",
-      "reading_preview": "せんじつ、 おうさん は は の いたみ の ため、 ふつかかん に わたる しか の けんさ と ",
-      "vocab_count": 73,
+      "character_preview": "近ごろ、ワン氏は歯の痛みのために二日間の歯科検査と治療の約束をし、会社から有給の",
+      "reading_preview": "ちかごろ、ワンしは は の いたみのために ににちかんの しかけんさと ちりょう",
+      "vocab_count": 70,
       "para_count": 1
     }
   },
@@ -2509,9 +2509,9 @@
     },
     "japanese": {
       "title": "四代続く教師一家",
-      "character_preview": "広州には、ウー・ホイホイさんという中学校の数学教師がいます。教師を務めて29年に",
-      "reading_preview": "こうしゅう には、 うー・ほいほい さん という ちゅうがっこう の すうがく きょうし が います",
-      "vocab_count": 59,
+      "character_preview": "広州にはウー・フイフイという名前の中等学校の数学の先生がいます。彼女は29年間先",
+      "reading_preview": "こうしゅうにはウー・フイフイというなまえのちゅうとうがっこうのすうがくのせんせい",
+      "vocab_count": 65,
       "para_count": 1
     }
   },
@@ -2546,9 +2546,9 @@
     },
     "japanese": {
       "title": "木の下で兎を待つ",
-      "character_preview": "昔、ある農夫が畑で働いていました。突然、近くの草むらから一匹の兎が慌てて飛び出し",
-      "reading_preview": "むかし、 ある のうふ が はたけ で はたらいていました。 とつぜん、 ちかく の くさむら から",
-      "vocab_count": 116,
+      "character_preview": "昔々、農場主が自分の田畑で働いていました。突然、近くの草の中からウサギがパニック",
+      "reading_preview": "むかしむかし、のうじょうぬしがじぶんのたはたではたらいていました。とつぜん、ちか",
+      "vocab_count": 127,
       "para_count": 1
     }
   },
@@ -2583,9 +2583,9 @@
     },
     "japanese": {
       "title": "何が起こるかわからない人生",
-      "character_preview": "人生はバスの旅に似ています。出発する場所と終点はわかっていても、途中で何が起こる",
-      "reading_preview": "じんせい は ばす の たび に にています。しゅっぱつ する ばしょ と しゅうてん は わかって",
-      "vocab_count": 96,
+      "character_preview": "人生はバスの乗車のようです。私たちはそれがどこで始まり、どこで終わるかを知ってい",
+      "reading_preview": "じんせい は バス の のりあい の よう です。わたしたち は それ が どこ",
+      "vocab_count": 109,
       "para_count": 2
     }
   },
@@ -2620,9 +2620,9 @@
     },
     "japanese": {
       "title": "ある日の午後",
-      "character_preview": "今日の午後は映画を見に行きたかったのですが、見たい映画がありませんでした。仲のい",
-      "reading_preview": "きょう の ごご は えいが を みに いきたかった の ですが、 みたい えいが が ありませんで",
-      "vocab_count": 61,
+      "character_preview": "私は今日の午後に映画を見に行きたかったのですが、良い映画がありませんでしたので、",
+      "reading_preview": "わたしはきょうのごごにえいがをみにいきたかったのですが、よいえいががありませんで",
+      "vocab_count": 45,
       "para_count": 1
     }
   },
@@ -2657,9 +2657,9 @@
     },
     "japanese": {
       "title": "学ぶのに遅すぎることはない",
-      "character_preview": "六月、上海に住む徐安玲さんが、中国美術学院の中国画専攻を卒業し、二つの学士号を取",
-      "reading_preview": "ろくがつ、 しゃんはい に すむ じょ あんれい さん が、 ちゅうごくびじゅつがくいん の ちゅう",
-      "vocab_count": 123,
+      "character_preview": "今年の6月、上海出身の年上の女性が中国芸術院から中国画で二つの学士号を取得して卒",
+      "reading_preview": "ことしの 6がつ、 シャンハイしゅっしんの としうえの じょせいが ちゅうごくげ",
+      "vocab_count": 138,
       "para_count": 3
     }
   },
@@ -2694,9 +2694,9 @@
     },
     "japanese": {
       "title": "天才スキー少女、谷愛凌",
-      "character_preview": "谷愛凌（グー・アイリン）は、2022年の北京冬季オリンピックで活躍したスキー選手",
-      "reading_preview": "ぐー・あいりん は、にせんにじゅうにねん の ぺきん とうきおりんぴっく で かつやくした すきーせ",
-      "vocab_count": 190,
+      "character_preview": "グ・アイリンは2022年の北京冬季オリンピックでのスターです。彼女は才能のあるス",
+      "reading_preview": "ぐ・あいりんは2022ねんのぺきんとうきオリンピックでのスターです。かのじょはさ",
+      "vocab_count": 191,
       "para_count": 4
     }
   },
@@ -2731,9 +2731,9 @@
     },
     "japanese": {
       "title": "私たちの結婚生活",
-      "character_preview": "結婚したばかりの頃、私は普通の医師で、夫は中学校の教師でした。毎日の生活は規則正",
-      "reading_preview": "けっこん した ばかり の ころ、 わたし は ふつう の いし で、 おっと は ちゅうがっこう ",
-      "vocab_count": 99,
+      "character_preview": "私たちが最初に結婚したとき、私は普通の医者で、夫は中等学校の教師でした。私たちの",
+      "reading_preview": "わたしたちがさいしょにけっこんしたとき、わたしはふつうのいしゃで、 おっとはちゅ",
+      "vocab_count": 43,
       "para_count": 1
     }
   },
@@ -2768,9 +2768,9 @@
     },
     "japanese": {
       "title": "正しい方向",
-      "character_preview": "昔、ある男が魏の国から楚の国へ行こうとしていました。たくさんのお金を持ち、立派な",
-      "reading_preview": "むかし、 ある おとこ が ぎ の くに から そ の くに へ いこう と していました。 たくさ",
-      "vocab_count": 134,
+      "character_preview": "昔々、ある男が魏の国から楚の国へ旅行したいと思いました。彼はたくさんの金を持ち、",
+      "reading_preview": "むかしむかし、ある おとこが ぎの くにから そ の くにへ りょこうしたいと ",
+      "vocab_count": 137,
       "para_count": 3
     }
   },
@@ -2805,9 +2805,9 @@
     },
     "japanese": {
       "title": "趣味が多すぎる",
-      "character_preview": "シャオヤンは今年八歳で、よく両親を困らせています。絵を習いたいと言ったので、母親",
-      "reading_preview": "しゃおやん は ことし はっさい で、 よく りょうしん を こまらせています。 え を ならいたい",
-      "vocab_count": 85,
+      "character_preview": "シャオ・ヤンは今年8歳で、しばしば両親を不幸にしています。彼は絵を描くことを習い",
+      "reading_preview": "しゃお・やんは ことし 8さいで、しばしば りょうしんを ふこうに しています。",
+      "vocab_count": 86,
       "para_count": 1
     }
   },
@@ -2842,8 +2842,8 @@
     },
     "japanese": {
       "title": "色",
-      "character_preview": "色が見えることの大切さは、普通の人にはなかなか分からないかもしれません。12歳の",
-      "reading_preview": "いろ が みえる こと の たいせつさ は、 ふつう の ひと には なかなか わからない かもしれ",
+      "character_preview": "普通の人々にとって、色の重要性を理解するのは難しいかもしれません。12歳の少年、",
+      "reading_preview": "ふつう の ひとびと に とって、いろ の じゅうようせい を りかい する の",
       "vocab_count": 61,
       "para_count": 1
     }
@@ -2879,9 +2879,9 @@
     },
     "japanese": {
       "title": "二十年後",
-      "character_preview": "最近、上海で、娘が真面目に宿題をしないことに腹を立て、怒り狂った母親がいました。",
-      "reading_preview": "さいきん、 しゃんはい で、 むすめ が まじめ に しゅくだい を しない こと に はら を た",
-      "vocab_count": 64,
+      "character_preview": "最近、シャンハイの母親は、娘が真剣に宿題をしなかったので非常に怒って、狂ったよう",
+      "reading_preview": "最近（さいきん）、シャンハイの母親（ははおや）は、娘（むすめ）が真剣（しんけん）",
+      "vocab_count": 68,
       "para_count": 2
     }
   },
@@ -2916,9 +2916,9 @@
     },
     "japanese": {
       "title": "私の親友",
-      "character_preview": "私の親友はチェンチェンといいます。彼はお酒を飲むのが好きで、私はスポーツをするの",
-      "reading_preview": "わたし の しんゆう は ちぇんちぇん と いいます。かれ は おさけ を のむ の が すき で、",
-      "vocab_count": 43,
+      "character_preview": "私の仲の良い友達の名前はチェンチェンです。彼は飲むのが好きで、私はスポーツをする",
+      "reading_preview": "わたしのなかのよいたんじょうのなまえはちぇんちぇんです。かれはのむのがすきで、わ",
+      "vocab_count": 42,
       "para_count": 1
     }
   },
@@ -2953,9 +2953,9 @@
     },
     "japanese": {
       "title": "旅行の準備",
-      "character_preview": "来月、旅行に行きたいのですが、まだ行き先を決めていません。友達は北のほうが楽しい",
-      "reading_preview": "らいげつ、 りょこう に いきたい の ですが、 まだ いきさき を きめて いません。 ともだち ",
-      "vocab_count": 68,
+      "character_preview": "私は来月旅行したいですが、まだどこに行くか決めていません。私の友達は北の方が楽し",
+      "reading_preview": "わたしはらいげつりょこうしたいですが、まだどこにいくかきめていません。わたしのと",
+      "vocab_count": 76,
       "para_count": 1
     }
   },
@@ -2990,9 +2990,9 @@
     },
     "japanese": {
       "title": "お父さんとお母さんがいない日",
-      "character_preview": "今日はお父さんとお母さんが留守で、私たちきょうだいだけで家にいます。",
-      "reading_preview": "きょう は おとうさん と おかあさん が るす で、 わたしたち きょうだい だけ で いえ に ",
-      "vocab_count": 49,
+      "character_preview": "私の両親はきょう家にいません。私と兄弟、妹たちは家にいます。",
+      "reading_preview": "わたしのりょうしんはきょういえにいません。わたしときょうだい、いもうとたちはいえ",
+      "vocab_count": 45,
       "para_count": 3
     }
   },
@@ -3027,9 +3027,9 @@
     },
     "japanese": {
       "title": "読書",
-      "character_preview": "多くの人は勉強をやらなければならないことだと考え、本から知識を得ることにあまり興",
-      "reading_preview": "おおく の ひと は べんきょう を やらなければ ならない こと だ と かんがえ、 ほん から ",
-      "vocab_count": 62,
+      "character_preview": "多くの人々は学ぶことを仕事だとみなし、書物の中の知識を学ぶことに熱意がありません",
+      "reading_preview": "おおくの ひとびとは まなぶことを しごとだと みなし、しょもつの なかの ちし",
+      "vocab_count": 59,
       "para_count": 1
     }
   },
@@ -3064,9 +3064,9 @@
     },
     "japanese": {
       "title": "瓶をいっぱいにするには",
-      "character_preview": "子どもたちは、ささいなことでよくけんかをしていました。ある日、お母さんは石やガラ",
-      "reading_preview": "こどもたち は、 ささいな こと で よく けんか を していました。 あるひ、 おかあさん は い",
-      "vocab_count": 89,
+      "character_preview": "子供たちはささいなことで喧嘩をしました。お母さんは岩、ガラスの破片、砂で満たされ",
+      "reading_preview": "こどもたちはささいなことでけんかをしました。おかあさんはがん、ガラスのはへん、す",
+      "vocab_count": 88,
       "para_count": 4
     }
   },
@@ -3101,8 +3101,8 @@
     },
     "japanese": {
       "title": "ダンス",
-      "character_preview": "張先生のダンス教室に、最近、新しい生徒が入りました。八歳の女の子で、お母さんに連",
-      "reading_preview": "ちゃんせんせい の だんすきょうしつ に、 さいきん、 あたらしい せいと が はいりました。 はっ",
+      "character_preview": "張先生は最近、新しい生徒を持ちました。彼女は8歳の女の子です。彼女の母親は彼女を",
+      "reading_preview": "ちょうせんせいはさいきん、あたらしいせいとをもちました。かのじょは8さいのおんな",
       "vocab_count": 86,
       "para_count": 1
     }
@@ -3138,9 +3138,9 @@
     },
     "japanese": {
       "title": "暮らしの変化",
-      "character_preview": "中国語を学ぶために、中国へ来て暮らし始めました。新しい環境に飛び込んだことで、長",
-      "reading_preview": "ちゅうごくご を まなぶ ため に、ちゅうごく へ きて くらしはじめました。あたらしい かんきょう",
-      "vocab_count": 94,
+      "character_preview": "中国語を学ぶために、中国に住むことにしました。新しい環境に到着するということは、",
+      "reading_preview": "ちゅうごくごをまなぶために、ちゅうごくにすむことにしました。あたらしいかんきょう",
+      "vocab_count": 43,
       "para_count": 1
     }
   },
@@ -3175,9 +3175,9 @@
     },
     "japanese": {
       "title": "私の中国語の先生",
-      "character_preview": "仕事の都合で中国語を学ぶ必要があります。でも、しばらく勉強しているうちに、だんだ",
-      "reading_preview": "しごと の つごう で ちゅうごくご を まなぶ ひつよう が あります。でも、しばらく べんきょう",
-      "vocab_count": 64,
+      "character_preview": "私の仕事の必要があるので、中国語を学ばなければなりませんが、しばらく勉強した後、",
+      "reading_preview": "わたしの しごとの ひつようが あるので、ちゅうごくごを まなばなければなりませ",
+      "vocab_count": 66,
       "para_count": 1
     }
   },
@@ -3212,8 +3212,8 @@
     },
     "japanese": {
       "title": "私",
-      "character_preview": "大学を卒業して、最初に就いた仕事は会社の事務員でした。でも、一日中オフィスに座っ",
-      "reading_preview": "だいがく を そつぎょう して、 さいしょ に ついた しごと は かいしゃ の じむいん でした。",
+      "character_preview": "大学を卒業した後、私の最初の仕事は会社の事務員でした。その後、私は一日中事務所に",
+      "reading_preview": "だいがくを そつぎょうした あと、 わたしの さいしょの しごとは かいしゃの ",
       "vocab_count": 58,
       "para_count": 1
     }
@@ -3249,8 +3249,8 @@
     },
     "japanese": {
       "title": "博士号を持つ三兄弟",
-      "character_preview": "三兄弟は全員博士号を持ち、宇宙の研究をしていました。ある日、三兄弟はそれぞれ妻を",
-      "reading_preview": "さんきょうだい は ぜんいん はくしごう を もち、 うちゅう の けんきゅう を していました。 ",
+      "character_preview": "三人の兄弟は全員博士号を持っており、宇宙研究に従事しています。ある日、三人の兄弟",
+      "reading_preview": "さんにんのきょうだいはぜんいんはくしょこうをもっており、うちゅうけんきゅうにじゅ",
       "vocab_count": 97,
       "para_count": 2
     }
@@ -3286,9 +3286,9 @@
     },
     "japanese": {
       "title": "肩",
-      "character_preview": "幼いころ、私は体の中でいちばん大切なのは目だと思っていました。目があれば、青い空",
-      "reading_preview": "おさない ころ、 わたし は からだ の なか で いちばん たいせつ なのは め だと おもって ",
-      "vocab_count": 114,
+      "character_preview": "私が非常に若い頃、身体で最も重要な部分は目だと思っていました。なぜなら、目は青い",
+      "reading_preview": "わたしがひじょうにわかいころ、からだで最もじゅうようなぶぶんはめだとおもっていま",
+      "vocab_count": 103,
       "para_count": 3
     }
   },
@@ -3323,9 +3323,9 @@
     },
     "japanese": {
       "title": "磁器が教えてくれた人生の知恵",
-      "character_preview": "旅先で、高価な磁器の品を買いました。その品は大きな箱に入っていて、箱の隙間にはく",
-      "reading_preview": "たびさき で、 こうか な じき の しな を かいました。 その しな は おおきな はこ に は",
-      "vocab_count": 91,
+      "character_preview": "私が旅行していたとき、高価な磁器の一片を買いました。その磁器は大きな箱に詰められ",
+      "reading_preview": "わたしがりょこうしていたとき、こうかなじきをいっぺんをかいました。そのじきはおお",
+      "vocab_count": 93,
       "para_count": 3
     }
   },
@@ -3360,9 +3360,9 @@
     },
     "japanese": {
       "title": "褒めたことを謝ってください",
-      "character_preview": "ある日、友人が教授の家を訪ねました。教授には、とてもきれいな五歳の娘がいました。",
-      "reading_preview": "あるひ、 ゆうじん が きょうじゅ の いえ を たずねました。 きょうじゅ には、 とても きれい",
-      "vocab_count": 103,
+      "character_preview": "かつて、友人が教授の家に招待客として行きました。教授には非常に美しい五歳の娘がい",
+      "reading_preview": "かつて、ゆうじんがきょうじゅのいえにしょうたいきゃくとしていきました。きょうじゅ",
+      "vocab_count": 106,
       "para_count": 3
     }
   },
@@ -3397,9 +3397,9 @@
     },
     "japanese": {
       "title": "美しいひと言",
-      "character_preview": "オックスフォード大学に、ケリーという女の子がいました。大学に入るまでは、ずっと成",
-      "reading_preview": "おっくすふぉーどだいがく に、 けりー という おんなのこ が いました。 だいがく に はいる ま",
-      "vocab_count": 92,
+      "character_preview": "オクスフォード大学にはケリーという名前の女の子がいます。大学に行く前、彼女はいつ",
+      "reading_preview": "オクスフォードだいがくにはケリーというなまえの女のこがいます。だいがくにいくまえ",
+      "vocab_count": 84,
       "para_count": 3
     }
   },
@@ -3434,9 +3434,9 @@
     },
     "japanese": {
       "title": "まずは一歩を踏み出そう",
-      "character_preview": "別の美しい町へ行きたい人がいました。その町はすぐ近くにあり、歩いても一時間しかか",
-      "reading_preview": "べつ の うつくしい まち へ いきたい ひと が いました。 その まち は すぐ ちかく に あ",
-      "vocab_count": 91,
+      "character_preview": "別の美しい都市に行きたい人がいます。その都市は非常に近く、歩いてたった1時間で行",
+      "reading_preview": "べつの うつくしい としに いきたい ひとが います。その としは ひじょうに ",
+      "vocab_count": 93,
       "para_count": 3
     }
   },
@@ -3471,9 +3471,9 @@
     },
     "japanese": {
       "title": "人生の10分間",
-      "character_preview": "父親と息子は、10分間を人の一生に見立てたゲームをしました。二人はその間に、本の",
-      "reading_preview": "ちちおや と むすこ は、 じゅっぷんかん を ひと の いっしょう に みたてた ゲーム を しま",
-      "vocab_count": 85,
+      "character_preview": "父と息子はゲームをしました。10分は一人の人生を表します。この10分間で、各自が",
+      "reading_preview": "ちち と むすこ は ゲーム を しました。 じゅっぷん は ひとり の じんせ",
+      "vocab_count": 82,
       "para_count": 2
     }
   },
@@ -3508,8 +3508,8 @@
     },
     "japanese": {
       "title": "斧を研ぐ",
-      "character_preview": "ある労働者が製材所で仕事を見つけました。給料も労働条件もよかったので、その仕事を",
-      "reading_preview": "ある ろうどうしゃ が せいざいしょ で しごと を みつけました。 きゅうりょう も ろうどうじょ",
+      "character_preview": "ある労働者が材木工場で仕事を見つけました。給料は良く、働く条件も良かったので、彼",
+      "reading_preview": "ある ろうどうしゃ が ざいもくこうじょう で しごと を みつけました。きゅう",
       "vocab_count": 103,
       "para_count": 3
     }
@@ -3545,9 +3545,9 @@
     },
     "japanese": {
       "title": "仕事への姿勢が未来を決める",
-      "character_preview": "三人の作業員が壁を造っていました。通りかかった人が「何をしているんですか」と尋ね",
-      "reading_preview": "さんにん の さぎょういん が かべ を つくって いました。 とおりかかった ひと が「なに を ",
-      "vocab_count": 98,
+      "character_preview": "3人の労働者が壁を建てています。ある人が彼らに尋ねました。「何をしていますか？」",
+      "reading_preview": "さんにんのろうどうしゃがかべをたてています。あるひとがかれらにたずねました。「な",
+      "vocab_count": 95,
       "para_count": 4
     }
   },
@@ -3582,9 +3582,9 @@
     },
     "japanese": {
       "title": "思考の惰性",
-      "character_preview": "あるホテルの経営は順調で、オーナーは新しい事業を始めようとしていました。しかし、",
-      "reading_preview": "ある ホテル の けいえい は じゅんちょう で、 オーナー は あたらしい じぎょう を はじめよ",
-      "vocab_count": 80,
+      "character_preview": "ホテルは順調に運営されていて、持ち主はもう一つのビジネスを始める準備ができていま",
+      "reading_preview": "ホテル は じゅんちょう に うんえい されていて、もちぬし は もう ひとつ ",
+      "vocab_count": 90,
       "para_count": 3
     }
   },
@@ -3619,9 +3619,9 @@
     },
     "japanese": {
       "title": "一ドルを借りる",
-      "character_preview": "ある男が銀行に入り、支店長に「お金を借りられますか」と尋ねました。支店長は「もち",
-      "reading_preview": "ある おとこ が ぎんこう に はいり、してんちょう に「おかね を かりられますか」と たずねまし",
-      "vocab_count": 85,
+      "character_preview": "ある男が銀行に入ってきて、支配人に言った。「お金を借りてもいいですか？」支配人は",
+      "reading_preview": "ある おとこ が ぎんこう に はいってきて、しはいにん に いった。「おかね ",
+      "vocab_count": 81,
       "para_count": 3
     }
   },
@@ -3656,9 +3656,9 @@
     },
     "japanese": {
       "title": "私の好きな天気",
-      "character_preview": "レストランで、お客さんがウェイターに尋ねました。「すみません、明日の天気はどうな",
-      "reading_preview": "れすとらん で、 おきゃくさん が うぇいたー に たずねました。「すみません、 あした の てんき",
-      "vocab_count": 66,
+      "character_preview": "レストランで、お客がウエーターに尋ねました。「すみませんが、明日の天気はどうなる",
+      "reading_preview": "れすとらんで、 おきゃくが うえーたーに たずねました。「すみませんが、 あした",
+      "vocab_count": 70,
       "para_count": 3
     }
   },
@@ -3693,9 +3693,9 @@
     },
     "japanese": {
       "title": "違う答え",
-      "character_preview": "ある若者が見知らぬ土地にやって来て、一人の老人に会いました。若者が「ここはどんな",
-      "reading_preview": "ある わかもの が みしらぬ とち に やってきて、 ひとり の ろうじん に あいました。 わかも",
-      "vocab_count": 90,
+      "character_preview": "若い男が奇妙な場所に来て、老いた男に会いました。若い男は「ここはどうですか？」と",
+      "reading_preview": "わかい おとこ が きみょう な ばしょ に きて、 おいた おとこ に あいま",
+      "vocab_count": 83,
       "para_count": 4
     }
   },
@@ -3730,9 +3730,9 @@
     },
     "japanese": {
       "title": "六つの蒸しパン",
-      "character_preview": "ある朝、小坊主は、師匠と兄弟子には蒸しパンが六つずつ配られたのに、自分には四つし",
-      "reading_preview": "ある あさ、 こぼうず は、 ししょう と あにでし には むしぱん が むっつ ずつ くばられた ",
-      "vocab_count": 97,
+      "character_preview": "ある朝、若い修道僧は、彼の主人と年上の修道僧がそれぞれ六個の蒸しパンを与えられて",
+      "reading_preview": "あるあさ、わかいしゅうどうそうは、かれのしゅじんととしうえのしゅうどうそうがそれ",
+      "vocab_count": 100,
       "para_count": 3
     }
   },
@@ -3767,9 +3767,9 @@
     },
     "japanese": {
       "title": "レイヨウの勝利",
-      "character_preview": "草原で二頭のレイヨウが草を食べていると、突然チーターが子どものレイヨウに向かって",
-      "reading_preview": "そうげん で にとう の れいよう が くさ を たべている と、 とつぜん ちーたー が こども ",
-      "vocab_count": 99,
+      "character_preview": "二頭のレイヨウが草原地帯で放牧していると、突然チーターが若いレイヨウの方へ突進し",
+      "reading_preview": "にとうの れいようが そうげんちたいで ほうぼくしていると、 とつぜん ちーたー",
+      "vocab_count": 110,
       "para_count": 3
     }
   },
@@ -3804,9 +3804,9 @@
     },
     "japanese": {
       "title": "黒い子羊の大切さ",
-      "character_preview": "ある農夫は、白い子羊を三匹と黒い子羊を一匹飼っていました。白い子羊たちは、黒い子",
-      "reading_preview": "ある のうふ は、しろい こひつじ を さんびき と くろい こひつじ を いっぴき かっていました",
-      "vocab_count": 107,
+      "character_preview": "農場主は三匹の小さな白い羊と一匹の小さな黒い羊を飼っていました。白い羊はしばしば",
+      "reading_preview": "のうじょうぬしはさんびきのちいさなしろいひつじといっぴきのちいさなくろいひつじを",
+      "vocab_count": 121,
       "para_count": 3
     }
   },
@@ -3841,9 +3841,9 @@
     },
     "japanese": {
       "title": "幸せ",
-      "character_preview": "結婚して一年になる夫婦がいました。妻は少し無邪気なところがあり、夫にたくさんの楽",
-      "reading_preview": "けっこん して いちねん に なる ふうふ が いました。 つま は すこし むじゃき な ところ ",
-      "vocab_count": 96,
+      "character_preview": "夫婦は結婚して1年が経ちました。妻はやや無邪気で、夫に多くの幸せな瞬間と思い出を",
+      "reading_preview": "ふうふはけっこんして1ねんがたちました。つまはややむじゃきで、あんたにおおくのし",
+      "vocab_count": 98,
       "para_count": 3
     }
   },
@@ -3878,9 +3878,9 @@
     },
     "japanese": {
       "title": "博士と漁師",
-      "character_preview": "ある日、博士号を持つ男が、景色を楽しもうと船に乗りました。船の上で、男は漁師に尋",
-      "reading_preview": "あるひ、 はかせごう を もつ おとこ が、 けしき を たのしもう と ふね に のりました。 ふ",
-      "vocab_count": 68,
+      "character_preview": "ある日、博士号を持つ男が風景を楽しむためにボートに乗っていました。ボートの中で、",
+      "reading_preview": "あるにち、はくしごうをもつおとこがふうけいをたのしむためにぼーとにのっていました",
+      "vocab_count": 71,
       "para_count": 4
     }
   },
@@ -3915,9 +3915,9 @@
     },
     "japanese": {
       "title": "知恵で泥棒を捕まえる",
-      "character_preview": "ある夕方、農夫は、大きな包みを抱えて隣村へ向かう人を見かけました。翌日、自分の綿",
-      "reading_preview": "ある ゆうがた、 のうふ は、 おおきな つつみ を かかえて となりむら へ むかう ひと を み",
-      "vocab_count": 86,
+      "character_preview": "ある夕方、農場主は近くの村に向かって大きな束を運んでいる誰かを見ました。次の日、",
+      "reading_preview": "ある ゆうがた、のうじょうぬし は ちかく の むら に むかって おおきな た",
+      "vocab_count": 91,
       "para_count": 3
     }
   },
@@ -3952,9 +3952,9 @@
     },
     "japanese": {
       "title": "励まし",
-      "character_preview": "先生に合唱団から外されてしまった女の子は、公園で一人きりで座り、悲しくて泣いてい",
-      "reading_preview": "せんせい に がっしょうだん から はずされて しまった おんなのこ は、こうえん で ひとりきり ",
-      "vocab_count": 81,
+      "character_preview": "小さい女の子は先生に合唱団から外されてしまったので、公園で一人で座って悲しそうに",
+      "reading_preview": "ちいさいおんなのこはせんせいにがっしょうだんからはずされてしまったので、こうえん",
+      "vocab_count": 85,
       "para_count": 3
     }
   },
@@ -3989,8 +3989,8 @@
     },
     "japanese": {
       "title": "15分の遅刻",
-      "character_preview": "誰かと会う約束をしていて、15分ほど遅れそうだとしたら、どうしますか。電話をして",
-      "reading_preview": "だれか と あう やくそく を していて、じゅうごふん ほど おくれそう だと したら、どう します",
+      "character_preview": "誰かに会う予定があるけれど、15分遅れると思った場合、あなたはどうしますか？電話",
+      "reading_preview": "だれかにあうよていがあるけれど、15ぶんおくれるとおもったばあい、あなたはどうし",
       "vocab_count": 84,
       "para_count": 2
     }
@@ -4026,9 +4026,9 @@
     },
     "japanese": {
       "title": "いちばん簡単な常識",
-      "character_preview": "公園で大学生たちがおしゃべりをしていると、一人が尋ねました。「水が一滴、ものすご",
-      "reading_preview": "こうえん で だいがくせいたち が おしゃべり を している と、 ひとり が たずねました。「みず",
-      "vocab_count": 70,
+      "character_preview": "いくらかの大学の学生たちが公園で雑談していると、そのうちの一人が「もし水滴が大き",
+      "reading_preview": "いくらかの だいがくの がくせいたちが こうえんで ざつだんしていると、そのうち",
+      "vocab_count": 79,
       "para_count": 4
     }
   },
@@ -4063,9 +4063,9 @@
     },
     "japanese": {
       "title": "小さな得を欲しがった結果",
-      "character_preview": "シャオ・ジャンは、いつも少しでもただで得をする方法を探していました。ある日、まと",
-      "reading_preview": "しゃお・じゃん は、いつも すこし でも ただ で とく を する ほうほう を さがして いました",
-      "vocab_count": 82,
+      "character_preview": "シャオ・ジャンはいつも少しの何かを無料でもらう方法を探していました。ある日、彼は",
+      "reading_preview": "シャオ・ジャンはいつもすこしのなにかをむりょうでもらうほうほうをさがしていました",
+      "vocab_count": 88,
       "para_count": 3
     }
   },
@@ -4100,9 +4100,9 @@
     },
     "japanese": {
       "title": "一度きりのチャンス",
-      "character_preview": "ある男が弓の射方を習おうと思い、弓の名手を先生にしました。男は弓と二本の矢を手に",
-      "reading_preview": "ある おとこ が ゆみ の いかた を ならおう と おもい、 ゆみ の めいしゅ を せんせい に",
-      "vocab_count": 76,
+      "character_preview": "ある男が弓術を習いたいと思って、熟練した弓術家を見つけて教えてもらうことにした。",
+      "reading_preview": "ある おとこが きゅうじゅつを ならいたいと おもって、 じゅくれんした きゅう",
+      "vocab_count": 80,
       "para_count": 5
     }
   },
@@ -4137,9 +4137,9 @@
     },
     "japanese": {
       "title": "学びの本質",
-      "character_preview": "あるとき、生徒が先生に尋ねました。「先生、先生の知恵の本質を教えていただけません",
-      "reading_preview": "あるとき、 せいと が せんせい に たずねました。「せんせい、 せんせい の ちえ の ほんしつ ",
-      "vocab_count": 102,
+      "character_preview": "かつて、ある学生が彼の先生に尋ねました。「先生、あなたの知恵の本質について教えて",
+      "reading_preview": "かつて、あるがくせいがかれのせんせいにたずねました。「せんせい、あなたのちえのほ",
+      "vocab_count": 103,
       "para_count": 2
     }
   },
@@ -4174,9 +4174,9 @@
     },
     "japanese": {
       "title": "私たちは豊かだ",
-      "character_preview": "昔、お金がないと毎日のように嘆いている若者がいました。ある日、通りかかったおじい",
-      "reading_preview": "むかし、 おかね が ない と まいにち の ように なげいている わかもの が いました。 あるひ",
-      "vocab_count": 105,
+      "character_preview": "かつて、毎日お金がないと不平を言う若い男がいました。ある日、通りかかった老人が彼",
+      "reading_preview": "かつて、まいにちおかねがないとふへいをいうわかいおとこがいました。あるひ、とおり",
+      "vocab_count": 107,
       "para_count": 2
     }
   },
@@ -4211,9 +4211,9 @@
     },
     "japanese": {
       "title": "公平",
-      "character_preview": "二匹の小さな犬が、一枚のクッキーをめぐって激しくけんかしていました。そこへ、大き",
-      "reading_preview": "にひき の ちいさな いぬ が、 いちまい の くっきー を めぐって はげしく けんか していまし",
-      "vocab_count": 78,
+      "character_preview": "二匹の小さな犬がクッキーを巡って激しく戦っていました。その時、大きな犬がやってき",
+      "reading_preview": "にひきの ちいさな いぬが クッキーをめぐって はげしく たたかっていました。そ",
+      "vocab_count": 74,
       "para_count": 3
     }
   },
@@ -4248,9 +4248,9 @@
     },
     "japanese": {
       "title": "種まきと収穫",
-      "character_preview": "オアシスを通りかかった男は、種をまいている老人を見かけました。男は近づいて尋ねま",
-      "reading_preview": "おあしす を とおりかかった おとこ は、 たね を まいている ろうじん を みかけました。 おと",
-      "vocab_count": 95,
+      "character_preview": "オアシスを通りかかった男は、老いた男が種を植えているのを見ました。彼は近づいて、",
+      "reading_preview": "オアシスをとおりかかったおとこは、 おいたおとこがたねをうえているのをみました。",
+      "vocab_count": 93,
       "para_count": 6
     }
   },
@@ -4285,9 +4285,9 @@
     },
     "japanese": {
       "title": "自分の選んだ道を進む",
-      "character_preview": "あるとき、三人の兄弟は自分たちの商売を始めようと、田舎を出て都会を目指しました。",
-      "reading_preview": "あるとき、 さんにん の きょうだい は じぶんたち の しょうばい を はじめよう と、 いなか ",
-      "vocab_count": 107,
+      "character_preview": "かつて、三人の兄弟が自分たちの商売を作るために田舎を離れて都市に向かいました。多",
+      "reading_preview": "かつて、さんにんのきょうだいがじぶんたちのしょうばいをつくるためにいなかをはなれ",
+      "vocab_count": 108,
       "para_count": 2
     }
   },
@@ -4322,9 +4322,9 @@
     },
     "japanese": {
       "title": "知ることと実行すること",
-      "character_preview": "かつて、ゼネラル・エレクトリック社の最高経営責任者だったジャック・ウェルチが、中",
-      "reading_preview": "かつて、 ぜねらる・えれくとりっくしゃ の さいこうけいえいせきにんしゃ だった じゃっく・うぇるち",
-      "vocab_count": 108,
+      "character_preview": "かつて、ジャック・ウェルチは、ゼネラル・エレクトリックのCEOとして、中国に招待",
+      "reading_preview": "かつて、ジャック・ウェルチは、ゼネラル・エレクトリックのCEOとして、中国にしょ",
+      "vocab_count": 117,
       "para_count": 3
     }
   },
@@ -4359,9 +4359,9 @@
     },
     "japanese": {
       "title": "一枚の葉で姿を隠す",
-      "character_preview": "昔、ひどく貧しい学者がいて、金持ちになる方法を探していました。ある日、学者は本で",
-      "reading_preview": "むかし、 ひどく まずしい がくしゃ が いて、 かねもち に なる ほうほう を さがして いまし",
-      "vocab_count": 102,
+      "character_preview": "ずいぶん昔、非常に貧乏な学者がいて、金持ちになる方法を見つけたいと思っていました",
+      "reading_preview": "ずいぶんむかし、ひじょうにびんぼうながくしゃがいて、かねもちになるほうほうをみつ",
+      "vocab_count": 114,
       "para_count": 1
     }
   },
@@ -4396,9 +4396,9 @@
     },
     "japanese": {
       "title": "釘",
-      "character_preview": "昔、ほかの人にすぐ腹を立てる少年がいました。ある日、父親は少年に言いました。「腹",
-      "reading_preview": "むかし、 ほか の ひと に すぐ はら を たてる しょうねん が いました。 あるひ、 ちちおや",
-      "vocab_count": 94,
+      "character_preview": "かつて、他の人々に対してしばしば立腹していた少年がいました。ある日、彼の父は言い",
+      "reading_preview": "かつて、ほかの ひとびとにたいして しばしば りっぱくしていた しょうねんが い",
+      "vocab_count": 93,
       "para_count": 4
     }
   },
@@ -4433,9 +4433,9 @@
     },
     "japanese": {
       "title": "コップ一杯の水の重さ",
-      "character_preview": "先生が授業をしている間、生徒たちは熱心に話を聞いていました。「この水の入ったコッ",
-      "reading_preview": "せんせい が じゅぎょう を している あいだ、せいとたち は ねっしん に はなし を きいていま",
-      "vocab_count": 111,
+      "character_preview": "先生が授業をしていて、生徒たちは注意深く聞いていました。「このコップの水はどれく",
+      "reading_preview": "せんせい が じゅぎょう を していて、せいとたち は ちゅういぶかく きいてい",
+      "vocab_count": 105,
       "para_count": 3
     }
   },
@@ -4470,9 +4470,9 @@
     },
     "japanese": {
       "title": "一つのコップ",
-      "character_preview": "裕福な男が禅僧に尋ねました。「私はこれまでの人生を、お金を稼ぐことに費やしてきま",
-      "reading_preview": "ゆうふく な おとこ が ぜんそう に たずねました。「わたし は これまで の じんせい を、 お",
-      "vocab_count": 77,
+      "character_preview": "富裕な男が禅の主人に尋ねました。「私は生涯を通じてお金を稼いできました。いくら稼",
+      "reading_preview": "ふゆう な おとこ が ぜん の しゅじん に たずねました。「わたし は しょ",
+      "vocab_count": 79,
       "para_count": 5
     }
   },
@@ -4507,9 +4507,9 @@
     },
     "japanese": {
       "title": "自分をだました泥棒",
-      "character_preview": "昔、ある泥棒が大きくて美しい鐘を見つけ、家に持ち帰りたいと思いました。しかし、鐘",
-      "reading_preview": "むかし、 ある どろぼう が おおきくて うつくしい かね を みつけ、 いえ に もちかえりたい ",
-      "vocab_count": 97,
+      "character_preview": "かつて、泥棒が美しくて大きなベルを見つけ、それを家に持って帰りたいと思いました。",
+      "reading_preview": "かつて、どろぼうがうつくしくておおきなベルをみつけ、それをいえにもってかえりたい",
+      "vocab_count": 111,
       "para_count": 3
     }
   },
@@ -4544,9 +4544,9 @@
     },
     "japanese": {
       "title": "賢い子ども",
-      "character_preview": "ある日、王おばあさんは道端でリンゴを売っている人を見かけました。「リンゴはいくら",
-      "reading_preview": "あるひ、 わんおばあさん は みちばた で りんご を うっている ひと を みかけました。「りんご",
-      "vocab_count": 94,
+      "character_preview": "ある日、ワンおばあちゃんは道ばたでリンゴを売っている人を見ました。彼女はその行商",
+      "reading_preview": "あるひ、ワンおばあちゃんはみちばたでリンゴをうっているひとをみました。かのじょは",
+      "vocab_count": 83,
       "para_count": 3
     }
   },
@@ -4581,9 +4581,9 @@
     },
     "japanese": {
       "title": "機械的に当てはめる",
-      "character_preview": "レストランのウェイターが、客になぞなぞを出しました。「父と母には、私の兄でも弟で",
-      "reading_preview": "れすとらん の うぇいたー が、きゃく に なぞなぞ を だしました。「ちち と はは には、わたし",
-      "vocab_count": 62,
+      "character_preview": "レストランのウエーターが、お客にいなぞを尋ねました。「私の母と父には、私の兄でも",
+      "reading_preview": "レストランのウエーターが、おきゃくにいなぞをたずねました。「わたしのははとちちは",
+      "vocab_count": 63,
       "para_count": 3
     }
   },
@@ -4618,9 +4618,9 @@
     },
     "japanese": {
       "title": "自信のないネズミ",
-      "character_preview": "森に、自分は見た目もぱっとせず、これといった取り柄もないと思っている小さなネズミ",
-      "reading_preview": "もり に、 じぶん は みため も ぱっと せず、 これといった とりえ も ない と おもっている",
-      "vocab_count": 108,
+      "character_preview": "森には、印象が薄く、能力が少ないと思っている小さなハツカネズミがいました。彼は動",
+      "reading_preview": "もりには、いんしょうがうすく、のうりょくがすくないとおもっているちいさなはつかね",
+      "vocab_count": 103,
       "para_count": 2
     }
   },
@@ -4655,9 +4655,9 @@
     },
     "japanese": {
       "title": "「万」の字は難しい",
-      "character_preview": "昔、ある商人が息子に漢字を教えるため、先生を雇いました。一日目、先生は紙に横線を",
-      "reading_preview": "むかし、 ある しょうにん が むすこ に かんじ を おしえる ため、 せんせい を やといました",
-      "vocab_count": 104,
+      "character_preview": "かつて、ある商人が息子に中国の漢字を教えるために先生を雇いました。初めの日、先生",
+      "reading_preview": "かつて、あるしょうにんがむすこにちゅうごくのかんじをおしえるためにせんせいをやと",
+      "vocab_count": 110,
       "para_count": 2
     }
   },
@@ -4692,8 +4692,8 @@
     },
     "japanese": {
       "title": "亡羊補牢――羊を失ってから囲いを直す",
-      "character_preview": "昔、たくさんの羊を飼っている男がいました。ある朝、羊を草を食べに連れて行こうとす",
-      "reading_preview": "むかし、 たくさん の ひつじ を かっている おとこ が いました。 あるあさ、 ひつじ を くさ",
+      "character_preview": "昔々、ある男がたくさんの羊を飼っていました。ある朝、彼が羊を外に出して草を食べさ",
+      "reading_preview": "むかしむかし、あるおとこがたくさんのひつじをかっていました。あるあさ、かれがひつ",
       "vocab_count": 100,
       "para_count": 3
     }
@@ -4729,9 +4729,9 @@
     },
     "japanese": {
       "title": "人生の価値",
-      "character_preview": "講演会で、有名な講演家が二十ドル札を掲げて尋ねました。「この二十ドルが欲しい人は",
-      "reading_preview": "こうえんかい で、 ゆうめい な こうえんか が にじゅうドルさつ を かかげて たずねました。「こ",
-      "vocab_count": 90,
+      "character_preview": "あるスピーチで、有名な演説者が二十ドル札を掲げて「誰がこの二十ドルがほしいですか",
+      "reading_preview": "あるスピーチで、ゆうめいなえんぜつしゃがにじゅうドルさつをかかげて「だれがこのに",
+      "vocab_count": 101,
       "para_count": 2
     }
   },
@@ -4766,9 +4766,9 @@
     },
     "japanese": {
       "title": "ボクサーの失敗",
-      "character_preview": "背の高いボクサーが、食事をしにレストランへ行きました。彼はコートを脱ぎ、入り口の",
-      "reading_preview": "せ の たかい ボクサー が、 しょくじ を しに レストラン へ いきました。 かれ は コート ",
-      "vocab_count": 84,
+      "character_preview": "高いボクサーは食事をするためにレストランに行きました。彼はコートを脱いで、扉のそ",
+      "reading_preview": "たかい ボクサー は しょくじ を する ために レストラン に いきました。か",
+      "vocab_count": 90,
       "para_count": 2
     }
   },
@@ -4803,9 +4803,9 @@
     },
     "japanese": {
       "title": "自分を応援することも忘れずに",
-      "character_preview": "人生では、私たちはよく人を応援します。でも、自分自身を応援しようと思ったことはあ",
-      "reading_preview": "じんせい では、 わたしたち は よく ひと を おうえん します。 でも、 じぶんじしん を おう",
-      "vocab_count": 101,
+      "character_preview": "人生では、私たちはしばしば他の人を励まします。しかし、自分自身を励ますことを考え",
+      "reading_preview": "じんせいでは、わたしたちはしばしばほかのひとをはげまします。しかし、じぶんじしん",
+      "vocab_count": 105,
       "para_count": 3
     }
   },
@@ -4840,9 +4840,9 @@
     },
     "japanese": {
       "title": "大きな石",
-      "character_preview": "昔、ある家の前に大きな石がありました。家に出入りする人たちの邪魔になり、みんなよ",
-      "reading_preview": "むかし、 ある いえ の まえ に おおきな いし が ありました。 いえ に でいり する ひとた",
-      "vocab_count": 109,
+      "character_preview": "かつて、ある家族の家の前に大きな石がありました。それは人々が出入りする際に邪魔に",
+      "reading_preview": "かつて、ある かぞく の いえ の まえ に おおきな いし が ありました。そ",
+      "vocab_count": 116,
       "para_count": 4
     }
   },
@@ -4877,9 +4877,9 @@
     },
     "japanese": {
       "title": "犬の敵",
-      "character_preview": "犬は鏡の前に立ち、敵を見つけました。「こいつは初めて見るな。どれほど強いか分から",
-      "reading_preview": "いぬ は かがみ の まえ に たち、てき を みつけました。「こいつ は はじめて みる な。どれ",
-      "vocab_count": 86,
+      "character_preview": "犬は鏡の前に立ち、敵を見つけました。犬は思いました。「このやつを前に見たことがな",
+      "reading_preview": "いぬ は かがみ の まえ に たち、てき を みつけました。いぬ は おもいま",
+      "vocab_count": 82,
       "para_count": 3
     }
   },
@@ -4914,9 +4914,9 @@
     },
     "japanese": {
       "title": "幸せ",
-      "character_preview": "若者たちは幸せを求めてあちこち探し回りましたが、出会ったのは悩みや苦労ばかりでし",
-      "reading_preview": "わかものたち は しあわせ を もとめて あちこち さがしまわりました が、 であった の は なや",
-      "vocab_count": 81,
+      "character_preview": "若い人々の群れが幸福を求めて至る所を捜しましたが、その代りに多くの心配や苦難に遭",
+      "reading_preview": "わかいひとびとのむれがこうふくをもとめていたるところをさがしましたが、そのかわり",
+      "vocab_count": 80,
       "para_count": 3
     }
   },
@@ -4951,9 +4951,9 @@
     },
     "japanese": {
       "title": "与えることは幸せ",
-      "character_preview": "昔々、息子をとてもかわいがっている王様がいました。若い王子は欲しいものを何でも手",
-      "reading_preview": "むかしむかし、 むすこ を とても かわいがっている おうさま が いました。 わかい おうじ は ",
-      "vocab_count": 89,
+      "character_preview": "かつて、王がいて、彼は心から息子を愛していました。若い王子は何でも欲しいものを持",
+      "reading_preview": "かつて、 おうがいて、 かれはこころからむすこをあいしていました。 わかいおうじ",
+      "vocab_count": 83,
       "para_count": 3
     }
   },
@@ -4988,9 +4988,9 @@
     },
     "japanese": {
       "title": "長所と短所",
-      "character_preview": "二人の会社経営者が会い、会社を経営する中での経験を語り合いました。すると、一人が",
-      "reading_preview": "ふたり の かいしゃけいえいしゃ が あい、 かいしゃ を けいえい する なか での けいけん を",
-      "vocab_count": 122,
+      "character_preview": "二人のビジネスオーナーが出会ったとき、彼らは自分たちの会社を運営している経験を共",
+      "reading_preview": "ににんのびじねすおーなーがであったとき、かれらはじぶんたちのかいしゃをうんえいし",
+      "vocab_count": 140,
       "para_count": 3
     }
   },
@@ -5025,9 +5025,9 @@
     },
     "japanese": {
       "title": "迷子の女の子",
-      "character_preview": "道端で小さな女の子が泣いていました。お巡りさんが近づいて、「どうしたの、お嬢ちゃ",
-      "reading_preview": "みちばた で ちいさな おんなのこ が ないていました。 おまわりさん が ちかづいて、「どうしたの",
-      "vocab_count": 42,
+      "character_preview": "小さい女の子が道路のそばで泣いていました。警官がやって来て、「どうしたの、小さな",
+      "reading_preview": "ちいさい おんなのこが どうろのそばで なきました。けいかんが やってきて、「ど",
+      "vocab_count": 50,
       "para_count": 6
     }
   },
@@ -5062,9 +5062,9 @@
     },
     "japanese": {
       "title": "コップ",
-      "character_preview": "水の入ったコップがあります。私があなたに「これは何ですか」と聞いたとしましょう。",
-      "reading_preview": "みず の はいった こっぷ が あります。 わたし が あなた に「これ は なん です か」と き",
-      "vocab_count": 72,
+      "character_preview": "水が入ったカップがあります。私があなたに「これは何ですか？」と尋ねたら、あなたは",
+      "reading_preview": "みずがはいったかっぷがあります。わたしがあなたに「これはなんですか？」とたずねた",
+      "vocab_count": 74,
       "para_count": 3
     }
   },
@@ -5099,9 +5099,9 @@
     },
     "japanese": {
       "title": "間違った窓を開けないで",
-      "character_preview": "小さな女の子が窓辺に立ち、外で人々が大切な子犬を埋めているのを見ていました。その",
-      "reading_preview": "ちいさな おんなのこ が まどべ に たち、そと で ひとびと が たいせつな こいぬ を うめてい",
-      "vocab_count": 86,
+      "character_preview": "小さな女の子が窓のそばに立ち、人々が彼らの最愛の子犬を埋葬しているのを見つめてい",
+      "reading_preview": "ちいさな おんなのこが まどの そばに たち、ひとびとが かれらの さいあいの ",
+      "vocab_count": 90,
       "para_count": 3
     }
   },
@@ -5136,9 +5136,9 @@
     },
     "japanese": {
       "title": "想像力は知識より大切",
-      "character_preview": "もし誰かと戦わなければならないとしたら、普通の人と空手のチャンピオン、どちらを相",
-      "reading_preview": "もし だれか と たたかわなければ ならない と したら、 ふつう の ひと と からて の ちゃん",
-      "vocab_count": 86,
+      "character_preview": "もし誰かと戦わなければならなかったら、あなたは普通の人を選びますか、それとも空手",
+      "reading_preview": "もしだれかとたたかわなければならなかったら、あなたはふつうのひとをえらびますか、",
+      "vocab_count": 82,
       "para_count": 3
     }
   },
@@ -5173,9 +5173,9 @@
     },
     "japanese": {
       "title": "喉が渇いた",
-      "character_preview": "お母さん：どうしたの？",
-      "reading_preview": "おかあさん：どうしたの？",
-      "vocab_count": 38,
+      "character_preview": "ママ：どうしたの？",
+      "reading_preview": "まま：どうしたの？",
+      "vocab_count": 39,
       "para_count": 9
     }
   },
@@ -5210,9 +5210,9 @@
     },
     "japanese": {
       "title": "時間の九割を失敗について考える",
-      "character_preview": "李嘉誠は、中国の著名な実業家です。あるとき、記者が彼に尋ねました。「皆さんが不思",
-      "reading_preview": "りかせい は、ちゅうごく の ちょめい な じつぎょうか です。あるとき、きしゃ が かれ に たず",
-      "vocab_count": 113,
+      "character_preview": "李嘉誠（リー・ジャーチョン）は有名な中国のビジネスの大立者です。ある報道員が彼に",
+      "reading_preview": "リー・ジャーチョンは ゆうめいな ちゅうごくの ビジネスの だいりったしゃです。",
+      "vocab_count": 117,
       "para_count": 4
     }
   },
@@ -5247,8 +5247,8 @@
     },
     "japanese": {
       "title": "人生を変えた二時間",
-      "character_preview": "同窓会で、ある元同級生がみんなの注目を集めました。仕事で大成功を収めていたからで",
-      "reading_preview": "どうそうかい で、 ある もとどうきゅうせい が みんな の ちゅうもく を あつめました。 しごと",
+      "character_preview": "同窓会で、ある元同級生が皆の注目を集めました。なぜなら、彼は非常に成功したキャリ",
+      "reading_preview": "どうそうかいで、あるもとどうきゅうせいがみんなのちゅうもくをあつめました。なぜな",
       "vocab_count": 82,
       "para_count": 3
     }
@@ -5284,9 +5284,9 @@
     },
     "japanese": {
       "title": "賢い牛乳売り",
-      "character_preview": "ある男が牛乳を買いに行きました。牛乳売りは「一杯三元、三杯なら十元です」と言いま",
-      "reading_preview": "ある おとこ が ぎゅうにゅう を かいに いきました。 ぎゅうにゅううり は「いっぱい さんげん、",
-      "vocab_count": 46,
+      "character_preview": "ある男が牛乳を買いに行きました。行商人は言いました、「カップ一杯は3元、または3",
+      "reading_preview": "あるおとこがぎゅうにゅうをかいにいきました。ぎょうしょうにんはいいます、「カップ",
+      "vocab_count": 48,
       "para_count": 3
     }
   },
@@ -5321,9 +5321,9 @@
     },
     "japanese": {
       "title": "釣り",
-      "character_preview": "あるおじいさんが釣りをしていると、子どもがそばに来て、釣りを見始めました。おじい",
-      "reading_preview": "ある おじいさん が つり を している と、 こども が そば に きて、 つり を みはじめまし",
-      "vocab_count": 64,
+      "character_preview": "おじいさんが釣りをしていると、子供がやって来て彼を見つめました。おじいさんはその",
+      "reading_preview": "おじいさんがつりをしていると、こどもがやってきてかれをみつめました。おじいさんは",
+      "vocab_count": 65,
       "para_count": 2
     }
   },
@@ -5358,9 +5358,9 @@
     },
     "japanese": {
       "title": "なくした靴にできること",
-      "character_preview": "ある男性が、とても気に入った新しい靴を買いました。彼はその靴を履いて、恋人に会う",
-      "reading_preview": "ある だんせい が、 とても きにいった あたらしい くつ を かいました。 かれ は その くつ ",
-      "vocab_count": 65,
+      "character_preview": "ある男が非常に好みの新しい靴を一足買いました。だから、彼は彼女を訪ねるために列車",
+      "reading_preview": "ある おとこが ひじょうに このみの あたらしい くつを いっそく かいました。",
+      "vocab_count": 66,
       "para_count": 1
     }
   },
@@ -5395,9 +5395,9 @@
     },
     "japanese": {
       "title": "金の卵",
-      "character_preview": "ある朝、農夫は飼っているめんどりが金の卵を産んだことに気づきました。大喜びで卵を",
-      "reading_preview": "ある あさ、 のうふ は かっている めんどり が きん の たまご を うんだ こと に きづきま",
-      "vocab_count": 63,
+      "character_preview": "ある朝、農場主は彼のめんどりが金の卵を産んだことを発見しました。喜んで、彼はその",
+      "reading_preview": "あるあさ、のうばしょはかれのめんどりがきんのたまごをさんだことをはっけんしました",
+      "vocab_count": 64,
       "para_count": 1
     }
   },
@@ -5432,9 +5432,9 @@
     },
     "japanese": {
       "title": "二人の娘",
-      "character_preview": "あるおばあさんには、二人の娘がいました。上の娘は日よけの麦わら帽子を売り、下の娘",
-      "reading_preview": "ある おばあさん には、 ふたり の むすめ が いました。 うえ の むすめ は ひよけ の むぎ",
-      "vocab_count": 86,
+      "character_preview": "かなり年配の女性が二人の娘を持っていました。彼女の年上の娘は麦わらの帽子を売って",
+      "reading_preview": "かなりねんぱいの じょせいが ににんの むすめを もっていました。かのじょの と",
+      "vocab_count": 80,
       "para_count": 4
     }
   },
@@ -5469,9 +5469,9 @@
     },
     "japanese": {
       "title": "子犬と子猫",
-      "character_preview": "私の子犬が友達の子猫を初めて見たとき、とても怖がりました。",
-      "reading_preview": "わたし の こいぬ が ともだち の こねこ を はじめて みた とき、 とても こわがりました。",
-      "vocab_count": 31,
+      "character_preview": "私の子犬が友達の子猫を初めて見た時、とても怖がっていました。",
+      "reading_preview": "わたしのこいぬがともだちのこねこをはじめてみたとき、とてもこわがっていました。",
+      "vocab_count": 32,
       "para_count": 4
     }
   },
@@ -5506,9 +5506,9 @@
     },
     "japanese": {
       "title": "本を持っていくのを忘れた",
-      "character_preview": "A：もしもし、今どこにいるの？ 本、持っていってないじゃない！",
-      "reading_preview": "えー：もしもし、いま どこ に いるの？ ほん、もっていってない じゃない！",
-      "vocab_count": 44,
+      "character_preview": "A: もしもし？あんたはどこにいるの？君は本を持ってこなかった！",
+      "reading_preview": "A: もしもし？あんたはどこにいるの？きみはほんをもってこなかった！",
+      "vocab_count": 43,
       "para_count": 8
     }
   },
@@ -5543,9 +5543,9 @@
     },
     "japanese": {
       "title": "駿馬",
-      "character_preview": "白い馬と黒い馬がいました。白い馬は生まれつき体が丈夫で、足の速い駿馬でした。一方",
-      "reading_preview": "しろい うま と くろい うま が いました。しろい うま は うまれつき からだ が じょうぶ で",
-      "vocab_count": 104,
+      "character_preview": "白い馬と黒い馬の二頭がいました。白い馬はスウィフトな馬で、生まれながらに強くてた",
+      "reading_preview": "しろい うま と くろい うま の にとう が いました。 しろい うま は す",
+      "vocab_count": 102,
       "para_count": 4
     }
   },
@@ -5580,9 +5580,9 @@
     },
     "japanese": {
       "title": "敬意",
-      "character_preview": "ある男性が人でにぎわう駅を通りかかったとき、障害のある人が品物を売っているのを見",
-      "reading_preview": "ある だんせい が ひと で にぎわう えき を とおりかかった とき、しょうがい の ある ひと ",
-      "vocab_count": 94,
+      "character_preview": "ある男性がにぎやかな train 駅を通過していると、障害者が物を売っているのを",
+      "reading_preview": "ある だんせい が にぎやかな train えき を つうか している と、しょ",
+      "vocab_count": 87,
       "para_count": 3
     }
   },
@@ -5617,8 +5617,8 @@
     },
     "japanese": {
       "title": "新しい友達",
-      "character_preview": "今日、職場で新しい友達ができました。彼は中国人です。夜、彼が私を中華料理店に連れ",
-      "reading_preview": "きょう、 しょくば で あたらしい ともだち が できました。 かれ は ちゅうごくじん です。 よ",
+      "character_preview": "きょう、私は職場で新しい友達に出会いました。彼は中国人です。夕方、彼は私を中国料",
+      "reading_preview": "",
       "vocab_count": 57,
       "para_count": 1
     }
@@ -5654,9 +5654,9 @@
     },
     "japanese": {
       "title": "今日は腹が立ちました",
-      "character_preview": "今朝、彼氏が「誕生日をお祝いしたいから、今夜一緒に夕食を食べよう」と言いました。",
-      "reading_preview": "けさ、 かれし が「たんじょうび を おいわい したい から、 こんや いっしょ に ゆうしょく を",
-      "vocab_count": 76,
+      "character_preview": "今朝、私のボーイフレンドは今晩いっしょに夕食を食べるつもりだと言いました。彼は私",
+      "reading_preview": "今朝、わたしのボーイフレンドはこんばんいっしょにゆうしょくをたべるつもりだといい",
+      "vocab_count": 74,
       "para_count": 1
     }
   },
@@ -5691,9 +5691,9 @@
     },
     "japanese": {
       "title": "ホワイトボード",
-      "character_preview": "先生は教室に入ると、ホワイトボードに黒い点を一つ描きました。そして生徒たちに「こ",
-      "reading_preview": "せんせい は きょうしつ に はいる と、 ホワイトボード に くろい てん を ひとつ かきました",
-      "vocab_count": 58,
+      "character_preview": "先生が教室に入って、白板に黒い点を描きました。彼は学生に「これは何ですか？」と尋",
+      "reading_preview": "せんせい が きょうしつ に はいって、 はくばん に くろい てん を かきま",
+      "vocab_count": 57,
       "para_count": 2
     }
   },
@@ -5728,9 +5728,9 @@
     },
     "japanese": {
       "title": "窓",
-      "character_preview": "何年もの間、ある女性は隣の人を怠け者だと思っていました。「あの人の洗濯物は、ちっ",
-      "reading_preview": "なんねんもの あいだ、 ある じょせい は となり の ひと を なまけもの だと おもっていました",
-      "vocab_count": 61,
+      "character_preview": "数年間、ある女性は隣人が怠惰だと思っていました。「あの女性は衣服を清潔にすること",
+      "reading_preview": "すうねんかん、あるじょせいはりんじんがおせいだと思っていました。「あのじょせいは",
+      "vocab_count": 66,
       "para_count": 2
     }
   },
@@ -5765,9 +5765,9 @@
     },
     "japanese": {
       "title": "三歳",
-      "character_preview": "お母さんは息子に「今年、何歳？」と聞きました。",
-      "reading_preview": "おかあさん は むすこ に「ことし、なんさい？」と ききました。",
-      "vocab_count": 34,
+      "character_preview": "母は彼女の息子に「今年は何歳ですか？」と尋ねました。",
+      "reading_preview": "はははかれのむすこに「ことしはなんさいですか？」とたずねました。",
+      "vocab_count": 38,
       "para_count": 6
     }
   },
@@ -5802,9 +5802,9 @@
     },
     "japanese": {
       "title": "大卒かどうかを気にしない企業が増えている",
-      "character_preview": "最近、求人サイトのグラスドアは、大学卒業を応募条件としない企業を15社紹介しまし",
-      "reading_preview": "さいきん、きゅうじんさいと の ぐらすどあ は、だいがくそつぎょう を おうぼじょうけん と しない",
-      "vocab_count": 137,
+      "character_preview": "近ごろ、求人情報ウェブサイトのグラスドアは、リンゴやグーグル、スターバックスを含",
+      "reading_preview": "ちかごろ、きゅうじんじょうほうウエブサイトのグラスドアは、リンゴやグーグル、スタ",
+      "vocab_count": 135,
       "para_count": 4
     }
   },
@@ -5839,9 +5839,9 @@
     },
     "japanese": {
       "title": "私は誰？",
-      "character_preview": "妹には幼いころから不思議な病気があり、覚えていられる人は四人まででした。成長する",
-      "reading_preview": "いもうと には おさない ころ から ふしぎな びょうき が あり、 おぼえて いられる ひと は ",
-      "vocab_count": 73,
+      "character_preview": "彼女が幼い頃から、年下の妹は奇妙な病気を持っていました。彼女は四人以上の人々を思",
+      "reading_preview": "かのじょが おさないころから、 とししたの いもうとは きみょうな びょうきを ",
+      "vocab_count": 72,
       "para_count": 2
     }
   },
@@ -5876,9 +5876,9 @@
     },
     "japanese": {
       "title": "見方を変えれば",
-      "character_preview": "二人の女性がおしゃべりをしていました。一人が「息子さんはお元気？」と尋ねました。",
-      "reading_preview": "ふたり の じょせい が おしゃべり を していました。 ひとり が「むすこさん は おげんき？」と",
-      "vocab_count": 85,
+      "character_preview": "二人の女性が雑談をしていました。一人が尋ねました、「あなたの息子はどうしています",
+      "reading_preview": "ににんのじょせいがざつだんをしていました。いちにんがたずねました、「あなたのむす",
+      "vocab_count": 93,
       "para_count": 5
     }
   },
@@ -5913,9 +5913,9 @@
     },
     "japanese": {
       "title": "カンガルーと檻",
-      "character_preview": "ある日、カンガルーたちが囲いの外に出ているのが見つかりました。みんなで話し合った",
-      "reading_preview": "あるひ、 カンガルーたち が かこい の そと に でている の が みつかりました。 みんな で ",
-      "vocab_count": 85,
+      "character_preview": "ある日、誰かがカンガルーが彼らの囲いから出てしまったことを発見しました。それにつ",
+      "reading_preview": "あるひ、だれかがカンガルーがかれらのいかいからでてしまったことをはっけんしました",
+      "vocab_count": 91,
       "para_count": 2
     }
   },
@@ -5950,9 +5950,9 @@
     },
     "japanese": {
       "title": "曾参、豚を殺す",
-      "character_preview": "曾参は、春秋時代に生きた徳の高い人物でした。ある朝、妻は買い物をしに市場へ出かけ",
-      "reading_preview": "そうしん は、しゅんじゅうじだい に いきた とく の たかい じんぶつ でした。ある あさ、つま ",
-      "vocab_count": 122,
+      "character_preview": "曾申は春秋時代に生きていた高い道徳心を持つ男でした。ある朝、彼の妻が市場へ行く準",
+      "reading_preview": "そうしんはしゅんきゅうじだいにいきていたたかいどうとくしんをもつおとこでした。あ",
+      "vocab_count": 114,
       "para_count": 4
     }
   },
@@ -5987,9 +5987,9 @@
     },
     "japanese": {
       "title": "宿題の答え合わせ",
-      "character_preview": "ある日、お母さんは、勉強している六歳の娘のそばに座っていました。",
-      "reading_preview": "あるひ、 おかあさん は、 べんきょう している ろくさい の むすめ の そば に すわって いま",
-      "vocab_count": 50,
+      "character_preview": "ある日、母親は彼女の6歳の娘と一緒に座って、娘が勉強しているのを見ていました。",
+      "reading_preview": "あるにち、ははおやはかのじょのろくさいのむすめといっしょにすわって、むすめがべん",
+      "vocab_count": 57,
       "para_count": 3
     }
   },
@@ -6024,9 +6024,9 @@
     },
     "japanese": {
       "title": "中国で中国語を学ぶ",
-      "character_preview": "昨年の夏、私は中国に来ました。ここで勉強を始めてから、もう十一か月になります。中",
-      "reading_preview": "さくねん の なつ、 わたし は ちゅうごく に きました。 ここ で べんきょう を はじめて か",
-      "vocab_count": 78,
+      "character_preview": "去年の夏、私は中国に来ました。今、私はここで11か月間勉強しています。中国での勉",
+      "reading_preview": "きょねんの なつ、わたしは ちゅうごくに きました。いま、わたしは ここで 11",
+      "vocab_count": 83,
       "para_count": 2
     }
   },
@@ -6061,9 +6061,9 @@
     },
     "japanese": {
       "title": "物知りなのはどっち？",
-      "character_preview": "小さな男の子がお父さんに聞きました。「お父さんは子どもより、いつも物知りなの？」",
-      "reading_preview": "ちいさな おとこのこ が おとうさん に ききました。「おとうさん は こども より、いつも ものし",
-      "vocab_count": 59,
+      "character_preview": "小さい男の子が彼のおとうちゃんに「おとうちゃんはいつも子供よりも多くを知っている",
+      "reading_preview": "ちいさい おとこのこ が かれの おとうちゃん に 「おとうちゃん は いつも ",
+      "vocab_count": 68,
       "para_count": 6
     }
   },
@@ -6098,9 +6098,9 @@
     },
     "japanese": {
       "title": "逆転の発想",
-      "character_preview": "ある男がハッサンから二千元を借り、借用書を書いて渡しました。返済期限が近づいたこ",
-      "reading_preview": "ある おとこ が はっさん から にせんげん を かり、 しゃくようしょ を かいて わたしました。",
-      "vocab_count": 96,
+      "character_preview": "ある男がハッサンから2,000ユアンを借りて、彼に借用証を書きました。返済期日が",
+      "reading_preview": "あるおとこがハッサンから2,000ユアンをかりて、かれにしゃくようしょうをかきま",
+      "vocab_count": 101,
       "para_count": 4
     }
   },
@@ -6135,9 +6135,9 @@
     },
     "japanese": {
       "title": "目先のことしか見えないという失敗",
-      "character_preview": "二人のインターンが会社に入り、私はその指導係になりました。ある日の昼食後、一人が",
-      "reading_preview": "ふたり の いんたーん が かいしゃ に はいり、 わたし は その しどうがかり に なりました。",
-      "vocab_count": 103,
+      "character_preview": "二人のインターンが会社に入社し、私は彼らの監督者でした。ある日、昼食の後に、私は",
+      "reading_preview": "ににんのいんたーんがかいしゃにはいしゃし、わたしはかれらのかんとくしゃでした。あ",
+      "vocab_count": 99,
       "para_count": 2
     }
   },
@@ -6172,9 +6172,9 @@
     },
     "japanese": {
       "title": "ライオンとレイヨウ",
-      "character_preview": "毎朝、アフリカのサバンナに太陽が昇ると、動物たちは走り始めます。母親のライオンは",
-      "reading_preview": "まいあさ、 あふりか の さばんな に たいよう が のぼる と、 どうぶつたち は はしりはじめま",
-      "vocab_count": 65,
+      "character_preview": "毎日、太陽が昇ると、アフリカのサバンナにいる動物たちが走り始めます。母ライオンは",
+      "reading_preview": "まいにち、たいようがのぼると、アフリカのサバンナにいるどうぶつたちがはしりはじめ",
+      "vocab_count": 70,
       "para_count": 2
     }
   },
@@ -6209,9 +6209,9 @@
     },
     "japanese": {
       "title": "靴を買いそこねた鄭の人",
-      "character_preview": "昔、鄭の国に、市場で靴を一足買おうとしている男がいました。男はまず自分の足の寸法",
-      "reading_preview": "むかし、 てい の くに に、 いちば で くつ を いっそく かおう と している おとこ が い",
-      "vocab_count": 90,
+      "character_preview": "昔、鄭の国の男が市場で靴を買うことを計画しました。まず、彼は自分の足のサイズを測",
+      "reading_preview": "むかし、ていのくにのおとこがしじょうでくつをかうことをけいかくしました。まず、か",
+      "vocab_count": 86,
       "para_count": 3
     }
   },
@@ -6246,9 +6246,9 @@
     },
     "japanese": {
       "title": "料理を教える",
-      "character_preview": "私はいろいろなものを作れますが、料理をするのが一番好きです。友達も両親も、私が作",
-      "reading_preview": "わたし は いろいろな もの を つくれます が、りょうり を する の が いちばん すき です。",
-      "vocab_count": 59,
+      "character_preview": "私はたくさんの物を作ることができますが、料理がいちばん好きです。私の友達と両親は",
+      "reading_preview": "わたしはたくさんのものをつくることができますが、りょうりがいちばんすきです。わた",
+      "vocab_count": 58,
       "para_count": 1
     }
   },
@@ -6283,9 +6283,9 @@
     },
     "japanese": {
       "title": "愛",
-      "character_preview": "小さな女の子がリンゴを二つ持っていました。お母さんが「一つくれる？」と聞きました",
-      "reading_preview": "ちいさな おんなのこ が りんご を ふたつ もっていました。おかあさん が「ひとつ くれる？」と ",
-      "vocab_count": 36,
+      "character_preview": "小さい女の子が二つのリンゴを持っていました。彼女の母は「一つを私にくれますか？」",
+      "reading_preview": "ちいさい おんなのこが ふたつの りんごを もっていました。かのじょの ははは「",
+      "vocab_count": 43,
       "para_count": 3
     }
   },
@@ -6320,9 +6320,9 @@
     },
     "japanese": {
       "title": "歩みを緩めて",
-      "character_preview": "若い社長が、新車のジャガーで住宅街を速いスピードで走っていました。すると突然、少",
-      "reading_preview": "わかい しゃちょう が、 しんしゃ の じゃがー で じゅうたくがい を はやい すぴーど で はし",
-      "vocab_count": 116,
+      "character_preview": "若いCEOは、真新しいジャガーを住居の多い近所で速く運転していました。通り過ぎる",
+      "reading_preview": "わかいCEOは、まったくあたらしいジャガーをじゅうきょの おおいきんじょで はや",
+      "vocab_count": 117,
       "para_count": 2
     }
   },
@@ -6357,9 +6357,9 @@
     },
     "japanese": {
       "title": "口出し",
-      "character_preview": "妻が料理をしていると、そばにいた夫がしきりに口を出しました。「そんなに急がないで",
-      "reading_preview": "つま が りょうり を している と、 そば に いた おっと が しきりに くち を だしました。",
-      "vocab_count": 69,
+      "character_preview": "妻は料理をしていて、夫が彼女のそばでずっと文句を言っていました。「遅くして！注意",
+      "reading_preview": "つまはりょうりをしていて、あんなたがかのじょのそばでずっともんくを言っていました",
+      "vocab_count": 67,
       "para_count": 3
     }
   },
@@ -6394,9 +6394,9 @@
     },
     "japanese": {
       "title": "新しい友達",
-      "character_preview": "リーさんは、今日知り合った新しい友達です。私はカフェで何か食べたかったのですが、",
-      "reading_preview": "りーさん は、 きょう しりあった あたらしい ともだち です。 わたし は かふぇ で なにか た",
-      "vocab_count": 65,
+      "character_preview": "ミス・リーは、きょう私が出会った新しい友達です。私はカフェにいて、何かを食べたか",
+      "reading_preview": "みす・りーは、きょう わたしが であった あたらしいともだちです。わたしは かふ",
+      "vocab_count": 56,
       "para_count": 1
     }
   },
@@ -6431,9 +6431,9 @@
     },
     "japanese": {
       "title": "安全第一",
-      "character_preview": "去年、弟が「果物を育てているんだ」と言いました。私は「スイカは植えたの？」と聞き",
-      "reading_preview": "きょねん、 おとうと が「くだもの を そだてて いるんだ」と いいました。 わたし は「すいか は",
-      "vocab_count": 56,
+      "character_preview": "去年、私の弟が果物を育てていると言いました。私は彼に、「スイカを植えましたか？」",
+      "reading_preview": "きょねん、わたしのいもうとがくだものをそだてているといいました。わたしはかれに、",
+      "vocab_count": 48,
       "para_count": 7
     }
   },
@@ -6468,9 +6468,9 @@
     },
     "japanese": {
       "title": "方仲永の物語",
-      "character_preview": "昔、中国に方仲永という、とても賢い子どもがいました。仲永は筆も紙も見たことがあり",
-      "reading_preview": "むかし、 ちゅうごく に ほうちゅうえい という、 とても かしこい こども が いました。 ちゅう",
-      "vocab_count": 76,
+      "character_preview": "昔、中国に非常に利口な子供がいました。その子供の名前はフォン・ジョンヨンです。彼",
+      "reading_preview": "むかし、ちゅうごくにひじょうにりこうなこどもがいました。そのこどものなまえはふぉ",
+      "vocab_count": 70,
       "para_count": 1
     }
   },
@@ -6505,9 +6505,9 @@
     },
     "japanese": {
       "title": "二頭の虎",
-      "character_preview": "二頭の虎がいました。一頭は檻の中で、もう一頭は森で暮らしていました。檻の虎は食べ",
-      "reading_preview": "にとう の とら が いました。いっとう は おり の なか で、もう いっとう は もり で くら",
-      "vocab_count": 81,
+      "character_preview": "トラが二匹いました：一匹は檻の中で生きていて、もう一匹は森に住んでいました。檻の",
+      "reading_preview": "トラがにひきいました：いっぴきはおりのなかでいきていて、もういっぴきはもりにすん",
+      "vocab_count": 91,
       "para_count": 3
     }
   },
@@ -6542,9 +6542,9 @@
     },
     "japanese": {
       "title": "彼氏",
-      "character_preview": "友達から、昨日、私の彼氏が女性と一緒にタクシーに乗って食事に出かけるのを見たと聞",
-      "reading_preview": "ともだち から、きのう、わたし の かれし が じょせい と いっしょ に タクシー に のって し",
-      "vocab_count": 62,
+      "character_preview": "友人が昨日、彼が女性と一緒にタクシーに乗って食事に行くのを見たと言いました。私は",
+      "reading_preview": "ゆうじんがきのう、かれがじょせいといっしょにたくしーにのってしょくじにいくのをみ",
+      "vocab_count": 57,
       "para_count": 1
     }
   },
@@ -6579,9 +6579,9 @@
     },
     "japanese": {
       "title": "会社に仕返ししたい",
-      "character_preview": "ある男が友人に言いました。「この会社は僕をひどく扱うんだ！もう辞める。仕返しして",
-      "reading_preview": "ある おとこ が ゆうじん に いいました。「この かいしゃ は ぼく を ひどく あつかうんだ！も",
-      "vocab_count": 86,
+      "character_preview": "ある男が友達に言いました。「この会社は私を悪く扱います！私は辞めるつもりです。彼",
+      "reading_preview": "あるおとこがともだちにいりました。「このかいしゃはわたしをあくくあつかいます！わ",
+      "vocab_count": 91,
       "para_count": 7
     }
   },
@@ -6616,9 +6616,9 @@
     },
     "japanese": {
       "title": "私の父",
-      "character_preview": "こちらは私の父です。父は55歳で、四川省の大学で先生をしています。月曜日から金曜",
-      "reading_preview": "こちら は わたし の ちち です。 ちち は ごじゅうごさい で、 しせんしょう の だいがく で",
-      "vocab_count": 43,
+      "character_preview": "これは私のおとうちゃんです。彼は55歳です。彼は四川の大学で先生をしています。彼",
+      "reading_preview": "これは わたしの おとうちゃん です。かれは ごじゅうごさい です。かれは しせ",
+      "vocab_count": 46,
       "para_count": 1
     }
   },
@@ -6653,9 +6653,9 @@
     },
     "japanese": {
       "title": "お皿",
-      "character_preview": "ある日、お母さんと娘が皿を洗い、お父さんと息子はテレビを見ていました。突然、皿が",
-      "reading_preview": "あるひ、 おかあさん と むすめ が さら を あらい、 おとうさん と むすこ は てれび を み",
-      "vocab_count": 48,
+      "character_preview": "ある日、母と娘は皿を洗っていましたが、父と息子はテレビを見ていました。突然、皿が",
+      "reading_preview": "あるにち、ははとむすめはさらをあらっていましたが、ちちとむすこはてれびをみていま",
+      "vocab_count": 49,
       "para_count": 1
     }
   },
@@ -6690,9 +6690,9 @@
     },
     "japanese": {
       "title": "ファッション",
-      "character_preview": "「この髪型、いいな。髪をピンクに染めて、パーマをかけて、もう少し短く切りたいんだ",
-      "reading_preview": "「この かみがた、 いいな。 かみ を ぴんく に そめて、 ぱーま を かけて、 もう すこし み",
-      "vocab_count": 83,
+      "character_preview": "A: 私はこの髪型が好きです。髪を桃色に染めて、カールにして、ちょっと短く切りた",
+      "reading_preview": "A: わたしはこのかみがたがすきです。かみをももいろにそめて、かーるにして、ちょ",
+      "vocab_count": 90,
       "para_count": 3
     }
   },
@@ -6727,9 +6727,9 @@
     },
     "japanese": {
       "title": "プレッシャー",
-      "character_preview": "今年、中国語を勉強するために中国へ来ました。海外に来るのは初めてで、慣れない環境",
-      "reading_preview": "ことし、 ちゅうごくご を べんきょう する ため に ちゅうごく へ きました。 かいがい に く",
-      "vocab_count": 102,
+      "character_preview": "私は今年、中国に中国語を勉強するために来ました。海外に行くのは初めてで、未知の環",
+      "reading_preview": "わたしは　ことし、ちゅうごくに　ちゅうごくごを　べんきょうするために　きました。",
+      "vocab_count": 49,
       "para_count": 1
     }
   },
@@ -6764,9 +6764,9 @@
     },
     "japanese": {
       "title": "助け合い",
-      "character_preview": "私は北京で中国語を勉強している留学生です。今、仕事を探したいのですが、留学生が働",
-      "reading_preview": "わたし は ぺきん で ちゅうごくご を べんきょう している りゅうがくせい です。 いま、 しご",
-      "vocab_count": 54,
+      "character_preview": "私は北京で中国語を勉強しているインターナショナル学生です。今、仕事を探したいので",
+      "reading_preview": "わたしはぺきんでちゅうごくごをべんきょうしているいんたーなしょなるがくせいです。",
+      "vocab_count": 56,
       "para_count": 1
     }
   },
@@ -6801,9 +6801,9 @@
     },
     "japanese": {
       "title": "私の誕生日",
-      "character_preview": "私は1992年2月29日に生まれました。だから、私の誕生日は2月29日です。この",
-      "reading_preview": "わたし は せんきゅうひゃくきゅうじゅうにねん にがつ にじゅうくにち に うまれました。だから、わ",
-      "vocab_count": 50,
+      "character_preview": "私は1992年2月29日に生まれました。だから、それが私の誕生日です。この日付は",
+      "reading_preview": "わたしは1992ねん2がつ29にちにうまれました。だから、それがわたしのたんじょ",
+      "vocab_count": 53,
       "para_count": 1
     }
   },
@@ -6838,8 +6838,8 @@
     },
     "japanese": {
       "title": "インターネットと携帯電話",
-      "character_preview": "最近、どうも気持ちが晴れません。娘が結婚してから、めったに実家に顔を見せなくなり",
-      "reading_preview": "さいきん、 どうも きもち が はれません。 むすめ が けっこん してから、 めったに じっか に",
+      "character_preview": "最近、私はあまり幸せを感じていません。娘が結婚して以来、彼女はめったに私たちの元",
+      "reading_preview": "さいきん、わたしはあまりしあわせをかんじていません。むすめがけっこんしていらい、",
       "vocab_count": 79,
       "para_count": 1
     }
@@ -6875,9 +6875,9 @@
     },
     "japanese": {
       "title": "週末は何をしよう？",
-      "character_preview": "週末がまたやって来ました。友達に「何をする予定？」と聞かれましたが、「わからない",
-      "reading_preview": "しゅうまつ が また やってきました。ともだち に 「なに を する よてい？」 と きかれました ",
-      "vocab_count": 70,
+      "character_preview": "週末が再びやってきました。友達が私に何をするつもりか尋ねましたが、私は知らないと",
+      "reading_preview": "しゅうまつが ふたたびやってきました。ともだちが わたしに なにをするつもりか ",
+      "vocab_count": 71,
       "para_count": 1
     }
   },
@@ -6912,9 +6912,9 @@
     },
     "japanese": {
       "title": "中国で中国語を学ぶ",
-      "character_preview": "最近、多くの留学生が勉強のために中国へ来ています。その多くは中国語を学んでいます",
-      "reading_preview": "さいきん、 おおく の りゅうがくせい が べんきょう の ため に ちゅうごく へ きています。 ",
-      "vocab_count": 58,
+      "character_preview": "最近、多くのインターナショナルな学生が中国に来て勉強しています。そのうちの多くが",
+      "reading_preview": "さいきん、 おおくの インターナショナルな がくせいが ちゅうごくに きて べん",
+      "vocab_count": 54,
       "para_count": 1
     }
   },
@@ -6949,9 +6949,9 @@
     },
     "japanese": {
       "title": "友達を迎えに",
-      "character_preview": "仲のいい友達が明日、上海で就職の面接を受けます。そのため、今日北京から飛行機でこ",
-      "reading_preview": "なか の いい ともだち が あした、しゃんはい で しゅうしょく の めんせつ を うけます。その",
-      "vocab_count": 82,
+      "character_preview": "私の良い友達は明日シャンハイで仕事の面接があります。だから、彼女は今日北京からこ",
+      "reading_preview": "わたしの よいともだちは あした シャンハイで しごとの めんせつが あります。",
+      "vocab_count": 87,
       "para_count": 1
     }
   },
@@ -6986,9 +6986,9 @@
     },
     "japanese": {
       "title": "中国語を学ぶ理由",
-      "character_preview": "中国人の友達によく「どうして中国語を勉強しているの？」と聞かれます。私は旅行が大",
-      "reading_preview": "ちゅうごくじん の ともだち に よく「どうして ちゅうごくご を べんきょう している の？」と ",
-      "vocab_count": 53,
+      "character_preview": "私の中国人の友達はしばしば私に、「なぜ中国語を学んでいるのですか？」と尋ねます。",
+      "reading_preview": "わたしのちゅうごくじんのともだちはしばしばわたしに、「なぜちゅうごくごをまなんで",
+      "vocab_count": 51,
       "para_count": 1
     }
   },
@@ -7023,9 +7023,9 @@
     },
     "japanese": {
       "title": "子どもたちの誕生日",
-      "character_preview": "私と仲のいい友達には、それぞれ子どもがいます。私には娘がいて、友達には息子がいま",
-      "reading_preview": "わたし と なか の いい ともだち には、 それぞれ こども が います。 わたし には むすめ ",
-      "vocab_count": 35,
+      "character_preview": "私の良い友達と私は両方とも子供がいます。私は娘がいて、彼女は息子がいます。私の娘",
+      "reading_preview": "わたしの よい ともだち と わたし は りょうほうとも こども が います。 ",
+      "vocab_count": 38,
       "para_count": 1
     }
   },
@@ -7060,9 +7060,9 @@
     },
     "japanese": {
       "title": "誕生日",
-      "character_preview": "今日は5月20日です。もうすぐ仲のいい友達の誕生日です。時間がたつのは早いですね",
-      "reading_preview": "きょう は ごがつ はつか です。もうすぐ なか の いい ともだち の たんじょうび です。じかん",
-      "vocab_count": 62,
+      "character_preview": "きょうは5月20日で、私の良い友達の誕生日が間もなく来ます。時間が飛ぶように過ぎ",
+      "reading_preview": "きょうはごがつにじゅうにちで、わたしのよいともだちのたんじょうびがまもなくきます",
+      "vocab_count": 64,
       "para_count": 1
     }
   },
@@ -7097,9 +7097,9 @@
     },
     "japanese": {
       "title": "映画を見に行こう",
-      "character_preview": "新しい映画が公開されたと聞いた。まだ見ていないけど、とても面白いらしい。彼女と見",
-      "reading_preview": "あたらしい えいが が こうかい された と きいた。 まだ みて いない けど、 とても おもしろ",
-      "vocab_count": 56,
+      "character_preview": "私は新しい映画が公開されたと聞きました。まだ見ていませんが、人々はそれが本当にお",
+      "reading_preview": "わたしはあたらしいえいががこうかいされたとききました。まだみていませんが、ひとび",
+      "vocab_count": 60,
       "para_count": 1
     }
   },
@@ -7134,9 +7134,9 @@
     },
     "japanese": {
       "title": "また遅れた",
-      "character_preview": "2017年9月、私は学校でヤン・チェンと出会いました。彼は私のクラスメートです。",
-      "reading_preview": "にせんじゅうななねん くがつ、 わたし は がっこう で やん・ちぇん と であいました。 かれ は",
-      "vocab_count": 43,
+      "character_preview": "2017年9月に学校で陽陳に会いました。彼は私の同級生です。彼は毎日学校にタクシ",
+      "reading_preview": "にせんじゅうななねんくがつにがくこうでようちんにあいました。かれはわたしのどうき",
+      "vocab_count": 38,
       "para_count": 1
     }
   },
@@ -7171,9 +7171,9 @@
     },
     "japanese": {
       "title": "服を買う",
-      "character_preview": "昨日の朝、妹と買い物に出かけ、家に帰るのがずいぶん遅くなりました。妹は果物を買い",
-      "reading_preview": "きのう の あさ、 いもうと と かいもの に でかけ、 いえ に かえる の が ずいぶん おそく",
-      "vocab_count": 45,
+      "character_preview": "きのうの朝、私の妹と私は買物に行き、非常に遅く帰宅しました。彼女は果物をいくらか",
+      "reading_preview": "きのうのあさ、わたしのいもうととわたしはかいものにいき、ひじょうにおそくかいたく",
+      "vocab_count": 40,
       "para_count": 1
     }
   },
@@ -7208,9 +7208,9 @@
     },
     "japanese": {
       "title": "おめでとう！",
-      "character_preview": "すごいね！また中国語のコンテストで優勝したんだね。",
-      "reading_preview": "すごいね！ また ちゅうごくご の コンテスト で ゆうしょう したんだね。",
-      "vocab_count": 62,
+      "character_preview": "A: あなたは驚くべきです！あなたは再び中国語の競争に勝ちました。",
+      "reading_preview": "A: あなたはおどろくべきです！あなたはふたたびちゅうごくごのきょうそうにかちま",
+      "vocab_count": 69,
       "para_count": 5
     }
   },
@@ -7245,9 +7245,9 @@
     },
     "japanese": {
       "title": "私の母",
-      "character_preview": "明日は母の誕生日です。母は五十五歳になります。母には姉が一人と弟が二人います。コ",
-      "reading_preview": "あした は はは の たんじょうび です。 はは は ごじゅうごさい に なります。 はは には あ",
-      "vocab_count": 55,
+      "character_preview": "明日は私の母の誕生日です。彼女は55歳になります。彼女には姉が一人と弟が二人いま",
+      "reading_preview": "あしたはわたしのははのたんじょうびです。かのじょは55さいにまなります。かのじょ",
+      "vocab_count": 50,
       "para_count": 1
     }
   },
@@ -7282,9 +7282,9 @@
     },
     "japanese": {
       "title": "私の一日",
-      "character_preview": "今日は七時に起きて、朝ご飯を食べました。九時に学校へ行って、授業を受けました。私",
-      "reading_preview": "きょう は しちじ に おきて、 あさごはん を たべました。 くじ に がっこう へ いって、 じ",
-      "vocab_count": 67,
+      "character_preview": "私は今日は七時に起きて、何かを食べました。九時に、私はクラスのために学校に行きま",
+      "reading_preview": "わたしはきょうはななじにおきて、なにかをたべました。くじに、わたしはクラスのため",
+      "vocab_count": 64,
       "para_count": 1
     }
   },
@@ -7319,9 +7319,9 @@
     },
     "japanese": {
       "title": "アフターサービス",
-      "character_preview": "A：このスマホを買ってまだ一週間なのに、もう壊れました。返品したいです！",
-      "reading_preview": "えー：この すまほ を かって まだ いっしゅうかん なのに、もう こわれました。へんぴん したい ",
-      "vocab_count": 68,
+      "character_preview": "A: 私はこの電話をたった一週間しか使っていないのに、もう壊れてしまいました。返",
+      "reading_preview": "A: わたしはこのでんわをたったいっしゅうかんしかつかっていないのに、もうこわれ",
+      "vocab_count": 79,
       "para_count": 5
     }
   },
@@ -7356,9 +7356,9 @@
     },
     "japanese": {
       "title": "果物",
-      "character_preview": "妹は果物を食べるのが大好きでした。もうすぐ妹の誕生日なので、兄と姉はおいしい果物",
-      "reading_preview": "いもうと は くだもの を たべる の が だいすき でした。 もうすぐ いもうと の たんじょうび",
-      "vocab_count": 81,
+      "character_preview": "妹は果物を食べるのが大好きでした。彼女の誕生日が間もなくやって来るので、年上の兄",
+      "reading_preview": "いもと は くだもの を たべる のが だいすき でした。かのじょ の たんじょ",
+      "vocab_count": 88,
       "para_count": 7
     }
   },
@@ -7393,9 +7393,9 @@
     },
     "japanese": {
       "title": "努力の大切さ",
-      "character_preview": "唐の時代の偉大な詩人、李白は、子どものころ勉強が嫌いでした。よく授業をさぼって、",
-      "reading_preview": "とう の じだい の いだいな しじん、 りはく は、 こども の ころ べんきょう が きらい で",
-      "vocab_count": 139,
+      "character_preview": "偉大な唐の詩人李白が若い頃、彼は勉強が好きではありませんでした。彼はしばしば授業",
+      "reading_preview": "いだいなとうのしじんりはくがわかいころ、かれはべんきょうがすきではありませんでし",
+      "vocab_count": 137,
       "para_count": 7
     }
   },
@@ -7430,9 +7430,9 @@
     },
     "japanese": {
       "title": "目の見えない男と提灯",
-      "character_preview": "電灯がなかったころ、人々は夜道を歩くとき、提灯で足元を照らしていました。",
-      "reading_preview": "でんとう が なかった ころ、 ひとびと は よみち を あるく とき、 ちょうちん で あしもと ",
-      "vocab_count": 78,
+      "character_preview": "電気の光が存在する前に、人々は夜に道を照らすためにランタンを使っていました。",
+      "reading_preview": "でんきのひかりがそんざいするまえに、ひとびとはよるにみちをてらすためにらんたんを",
+      "vocab_count": 75,
       "para_count": 4
     }
   },
@@ -7467,9 +7467,9 @@
     },
     "japanese": {
       "title": "愚かな選択",
-      "character_preview": "春秋時代、宝石を売る商人がいました。",
-      "reading_preview": "しゅんじゅうじだい、 ほうせき を うる しょうにん が いました。",
-      "vocab_count": 79,
+      "character_preview": "春と秋の時代に、宝石を売る商人がいました。",
+      "reading_preview": "はるとあきのじだいに、ほうせきを する しょうにんが いました。",
+      "vocab_count": 82,
       "para_count": 4
     }
   },
@@ -7504,9 +7504,9 @@
     },
     "japanese": {
       "title": "杯の中の蛇",
-      "character_preview": "楽広には、長い間訪ねてこない親しい友人がいました。楽広が理由を尋ねると、友人は答",
-      "reading_preview": "らくこう には、 ながい あいだ たずねてこない したしい ゆうじん が いました。 らくこう が ",
-      "vocab_count": 91,
+      "character_preview": "レ・クアンには、長い間彼に会いに来ていない良い友達がいました。レ・クアンがその理",
+      "reading_preview": "れ・くあんには、ながいあいだかれにあいにきていないよいともだちがいました。れ・く",
+      "vocab_count": 93,
       "para_count": 3
     }
   },
@@ -7541,9 +7541,9 @@
     },
     "japanese": {
       "title": "賢く学ぶ",
-      "character_preview": "『論語』の中で、孔子は弟子たちにこう言いました。「一つのやり方を教えたら、ほかの",
-      "reading_preview": "『ろんご』 の なか で、こうし は でし たち に こう いいました。「ひとつ の やりかた を ",
-      "vocab_count": 62,
+      "character_preview": "論語で、孔子は彼の学生たちに言いました。「もし、私があなたに何かをするための一つ",
+      "reading_preview": "ろんごで、こうしはかれのがくせいたちにいいました。「もし、わたしがあなたになにか",
+      "vocab_count": 57,
       "para_count": 2
     }
   },
@@ -7578,9 +7578,9 @@
     },
     "japanese": {
       "title": "守株待兎",
-      "character_preview": "戦国時代、ある農夫の畑には一本の木がありました。",
-      "reading_preview": "せんごくじだい、 ある のうふ の はたけ には いっぽん の き が ありました。",
-      "vocab_count": 78,
+      "character_preview": "戦国時代に、ある農場主が自分の田畑に木を持っていました。",
+      "reading_preview": "せんごくじだいに、あるのうじょうぬしがじぶんのたはたにきおもっていました。",
+      "vocab_count": 80,
       "para_count": 5
     }
   },
@@ -7615,9 +7615,9 @@
     },
     "japanese": {
       "title": "歩き方を忘れた男",
-      "character_preview": "二千年ほど前、燕の国に自分に自信のない男がいました。男はいつも、自分はほかの人よ",
-      "reading_preview": "にせんねん ほど まえ、 えん の くに に じぶん に じしん の ない おとこ が いました。 ",
-      "vocab_count": 133,
+      "character_preview": "二千年前、信頼が欠けていた燕の男がいました。彼はしばしば自分が他のすべての人より",
+      "reading_preview": "にせんねんまえ、しんらいがかけていたえんのおとこがいました。かれはしばしばじぶん",
+      "vocab_count": 135,
       "para_count": 6
     }
   }

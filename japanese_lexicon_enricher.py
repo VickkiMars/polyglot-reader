@@ -178,15 +178,20 @@ def clean_defn(text):
     return cleaned[:85]
 
 def get_jamdict_info(word):
+    if not word or not word.strip():
+        return {'defn': '', 'reading': '', 'jlpt': '-'}
     if word in dict_cache:
         return dict_cache[word]
-    r = jmd.lookup(word)
     res = {'defn': '', 'reading': '', 'jlpt': '-'}
-    if r.entries:
-        e = r.entries[0]
-        res['reading'] = e.kana_forms[0].text if e.kana_forms else ''
-        raw_senses = [s.text() for s in e.senses[:2]]
-        res['defn'] = clean_defn('; '.join(raw_senses))
+    try:
+        r = jmd.lookup(word)
+        if r.entries:
+            e = r.entries[0]
+            res['reading'] = e.kana_forms[0].text if e.kana_forms else ''
+            raw_senses = [s.text() for s in e.senses[:2]]
+            res['defn'] = clean_defn('; '.join(raw_senses))
+    except Exception:
+        pass
     dict_cache[word] = res
     return res
 

@@ -1,7 +1,7 @@
 {
-  "name": "PolyglotReader — Graded East Asian Stories",
+  "name": "PolyglotReader — Graded Language Stories",
   "short_name": "PolyglotReader",
-  "description": "Graded readers for Mandarin and Japanese with Furigana, Pinyin, interactive tooltips, and native audio narrations",
+  "description": "Graded reading and listening platform for language learners with interactive annotations, instant vocabulary lookups, and natural audio narration.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

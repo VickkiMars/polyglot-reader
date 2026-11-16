@@ -1,7 +1,7 @@
 {
   "name": "dazzling-goodall",
   "version": "1.0.0",
-  "description": "A robust, production-grade graded reading and neural audio listening platform for East Asian languages (Mandarin and Japanese).",
+  "description": "A production-grade graded reading and neural audio listening platform for language learners.",
   "main": "index.js",
   "directories": {
     "doc": "docs"

@@ -156,7 +156,7 @@ export default function Header({
                   Polyglot<span className="text-[var(--md-sys-color-primary)]">Reader</span>
                 </span>
                 <span className="text-[10px] font-medium text-[var(--md-sys-color-on-surface-variant)] leading-tight hidden md:inline">
-                  Graded East Asian Stories
+                  Graded Language Stories
                 </span>
               </div>
             </Link>

@@ -28,7 +28,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] leading-relaxed max-w-sm">
-              The premier graded reading and listening platform for East Asian language learners. 206 parallel stories across Mandarin Chinese (HSK 1–6) and Japanese (JLPT N5–N1).
+              The premier graded reading and listening platform for language learners. Immerse yourself in parallel stories, theatrical scripts, interactive annotations, and natural neural audio across every proficiency level.
             </p>
             <div className="hidden sm:flex items-center gap-4 text-xs text-[var(--md-sys-color-on-surface-variant)] pt-2">
               <div className="flex items-center gap-1.5">

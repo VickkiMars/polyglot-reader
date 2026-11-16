@@ -17,16 +17,16 @@ export default function Hero({ currentLanguage, totalStories }: HeroProps) {
         <div className="max-w-3xl">
           {/* Main Headline */}
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-montserrat font-bold text-[var(--md-sys-color-on-surface)] tracking-tight leading-[1.2]">
-            Master East Asian Languages Through Graded Reading &amp; Natural Audio
+            Master Languages Through Graded Reading &amp; Natural Audio
           </h1>
 
           {/* Subtitle / Value Proposition */}
           <p className="mt-3 sm:mt-4 text-sm sm:text-base text-[var(--md-sys-color-on-surface-variant)] leading-relaxed max-w-2xl font-roboto">
-            Immerse yourself in {totalStories} graded stories across{" "}
+            Immerse yourself in {totalStories} graded stories in{" "}
             <span className="font-semibold text-[var(--md-sys-color-primary)]">
               {isMandarin ? "Mandarin Chinese (HSK 1–6)" : "Japanese (JLPT N5–N1)"}
             </span>
-            . Complete with interactive word-level ruby annotations, instant hover glosses, and crystal-clear neural narration.
+            — built for natural language acquisition with interactive word-level annotations, instant hover glosses, and crystal-clear neural narration.
           </p>
 
           {/* Feature Metric Pills - Responsive 2x2 grid on mobile, flex-wrap on desktop */}

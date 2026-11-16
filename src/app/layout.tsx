@@ -9,9 +9,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Polyglot Reader — Graded Chinese & Japanese Reading and Listening",
+  title: "Polyglot Reader — Graded Language Reading & Natural Audio",
   description:
-    "Immerse yourself in graded East Asian reading and natural neural audio narration. Featuring 206 stories across Mandarin (HSK 1–6) and Japanese (JLPT N5–N1) with interactive ruby annotations and lexical lookups.",
+    "Master languages through graded reading and natural neural audio narration. Featuring parallel stories with interactive phonetic annotations, instant hover glosses, and lexical lookups.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,

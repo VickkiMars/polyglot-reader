@@ -14,11 +14,11 @@ import {
   ChevronDown,
   Check,
 } from "lucide-react";
-import { StoryCatalogItem, StoryDetail, VocabularyItem } from "@/types";
+import { StoryCatalogItem, StoryDetail, VocabularyItem, Language } from "@/types";
 
 interface StoryReaderModalProps {
   story: StoryCatalogItem | null;
-  language: "mandarin" | "japanese";
+  language: Language;
   onClose: () => void;
 }
 
@@ -260,7 +260,15 @@ export default function StoryReaderModal({
   if (!story) return null;
 
   const isMandarin = language === "mandarin";
-  const rawAudioPath = isMandarin ? story.audio.mandarin : story.audio.japanese;
+  const isJapanese = language === "japanese";
+  const isRussian = language === "russian";
+
+  const rawAudioPath = isMandarin
+    ? story.audio.mandarin
+    : isJapanese
+    ? story.audio.japanese
+    : story.audio.russian || `/audio/russian/${story.id}_${story.slug}.mp3`;
+
   const rawAudioBase = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
   const audioBaseUrl = rawAudioBase.includes("r2.dev") ? "" : rawAudioBase;
   const audioSrc = rawAudioPath ? `${audioBaseUrl}${rawAudioPath}` : "";
@@ -275,6 +283,9 @@ export default function StoryReaderModal({
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={story.title}
       className="fixed inset-0 z-50 flex items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-xs transition-opacity"
       onClick={onClose}
     >
@@ -289,11 +300,19 @@ export default function StoryReaderModal({
         <div className="px-4 py-3 sm:px-5 sm:py-4 bg-[var(--md-sys-color-surface-container-low)] border-b border-[var(--md-sys-color-outline-variant)]/60 flex items-center justify-between gap-3 shrink-0">
           <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
             <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shrink-0">
-              {isMandarin ? story.hsk : `JLPT ${story.jlpt}`}
+              {isMandarin
+                ? story.hsk
+                : isJapanese
+                ? `JLPT ${story.jlpt}`
+                : story.torfl || (story.hsk_tags?.[0]) || "A1"}
             </span>
             <div className="min-w-0">
               <h2 className="font-montserrat font-bold text-base sm:text-lg text-[var(--md-sys-color-on-surface)] truncate">
-                {isMandarin ? story.title : story.japanese.title || story.title}
+                {isMandarin
+                  ? story.title
+                  : isJapanese
+                  ? story.japanese?.title || story.title
+                  : story.russian?.title || story.title}
               </h2>
               <p className="text-xs text-[var(--md-sys-color-on-surface-variant)] truncate">
                 {story.title} • {story.level}
@@ -477,9 +496,13 @@ export default function StoryReaderModal({
                     ? showReading
                       ? "Pinyin On"
                       : "Pinyin Off"
+                    : isJapanese
+                    ? showReading
+                      ? "Reading On"
+                      : "Reading Off"
                     : showReading
-                    ? "Reading On"
-                    : "Reading Off"}
+                    ? "Translit On"
+                    : "Translit Off"}
                 </button>
 
                 <button
@@ -529,7 +552,7 @@ export default function StoryReaderModal({
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)]"
                 }`}
               >
-                Vocabulary ({detail?.vocabulary?.length || story.mandarin.vocab_count})
+                Vocabulary ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : story.mandarin.vocab_count)})
               </button>
             </div>
 
@@ -561,9 +584,13 @@ export default function StoryReaderModal({
                     ? showReading
                       ? "Pinyin On"
                       : "Pinyin Off"
+                    : isJapanese
+                    ? showReading
+                      ? "Reading On"
+                      : "Reading Off"
                     : showReading
-                    ? "Reading On"
-                    : "Reading Off"}
+                    ? "Translit On"
+                    : "Translit Off"}
                 </button>
 
                 <button
@@ -641,7 +668,7 @@ export default function StoryReaderModal({
             </div>
           ) : activeTab === "story" ? (
             <div
-              className={`font-cjk ${fontSizeClass} text-[var(--md-sys-color-on-surface)] space-y-8 select-text ${
+              className={`${isRussian ? 'font-montserrat' : 'font-cjk'} ${fontSizeClass} text-[var(--md-sys-color-on-surface)] space-y-8 select-text ${
                 !showReading ? "hide-readings pinyin-off" : ""
               } ${!isSpaceOn ? "space-off" : ""} ${isTraditional ? "traditional" : ""}`}
               onClick={(e) => handleWordInteraction(e, detail?.vocabulary || [])}
@@ -662,7 +689,9 @@ export default function StoryReaderModal({
                 ? detail.ruby_paragraphs
                 : isMandarin
                 ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
-                : detail?.japanese_paragraphs || []
+                : isJapanese
+                ? detail?.japanese_paragraphs || []
+                : detail?.russian_paragraphs || []
               ).map((para, idx) => (
                 <div key={idx} className="space-y-3">
                   <div
@@ -702,7 +731,7 @@ export default function StoryReaderModal({
                         </span>
                       </div>
                       <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shrink-0">
-                        {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : "—")}
+                        {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : item.torfl ? `${item.torfl}` : "—")}
                       </span>
                     </div>
                     <p className="text-xs text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
@@ -717,9 +746,9 @@ export default function StoryReaderModal({
                 <table className="w-full text-left text-sm border-collapse">
                   <thead>
                     <tr className="border-b border-[var(--md-sys-color-outline-variant)] text-xs uppercase tracking-wider text-[var(--md-sys-color-on-surface-variant)] bg-[var(--md-sys-color-surface-container-low)]">
-                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Simplified" : "Word"}</th>
+                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Simplified" : isJapanese ? "Word" : "Cyrillic Word"}</th>
                       {isMandarin && <th className="py-3 px-4 font-semibold">Traditional</th>}
-                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Pinyin" : "Reading"}</th>
+                      <th className="py-3 px-4 font-semibold">{isMandarin ? "Pinyin" : isJapanese ? "Reading" : "Transliteration"}</th>
                       <th className="py-3 px-4 font-semibold">English Meaning</th>
                       <th className="py-3 px-4 font-semibold">Level</th>
                     </tr>
@@ -730,7 +759,7 @@ export default function StoryReaderModal({
                         key={idx}
                         className="hover:bg-[var(--md-sys-color-surface-container)] transition-colors"
                       >
-                        <td className="py-3 px-4 font-cjk font-semibold text-base text-[var(--md-sys-color-on-surface)]">
+                        <td className={`py-3 px-4 font-semibold text-base text-[var(--md-sys-color-on-surface)] ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
                           {item.word || (item as any).word_simplified || "—"}
                         </td>
                         {isMandarin && (
@@ -746,7 +775,7 @@ export default function StoryReaderModal({
                         </td>
                         <td className="py-3 px-4">
                           <span className="inline-block px-2 py-0.5 rounded-full text-[11px] font-semibold bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]">
-                            {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : "—")}
+                            {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : item.torfl ? `${item.torfl}` : "—")}
                           </span>
                         </td>
                       </tr>

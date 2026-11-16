@@ -27,12 +27,13 @@ import {
   formatEta,
 } from "@/lib/offlineDownloadManager";
 import { LanguageManifest } from "@/app/api/offline-manifest/route";
+import { Language } from "@/types";
 
 interface InstallOfflineModalProps {
   isOpen: boolean;
   onClose: () => void;
-  currentLanguage: "mandarin" | "japanese";
-  onLanguageChange?: (lang: "mandarin" | "japanese") => void;
+  currentLanguage: Language;
+  onLanguageChange?: (lang: Language) => void;
   deferredPrompt: any;
   isAppInstalled: boolean;
   onAppInstalled: () => void;
@@ -47,7 +48,7 @@ export default function InstallOfflineModal({
   isAppInstalled,
   onAppInstalled,
 }: InstallOfflineModalProps) {
-  const [selectedLang, setSelectedLang] = useState<"mandarin" | "japanese">(currentLanguage);
+  const [selectedLang, setSelectedLang] = useState<Language>(currentLanguage);
   const [includeAudio, setIncludeAudio] = useState(true);
   const [manifest, setManifest] = useState<LanguageManifest | null>(null);
   const [packStatus, setPackStatus] = useState<PackStatus | null>(null);
@@ -79,7 +80,7 @@ export default function InstallOfflineModal({
   }, []);
 
   // Fetch manifest & pack status whenever selectedLang or modal open state changes
-  const refreshStatus = useCallback(async (lang: "mandarin" | "japanese") => {
+  const refreshStatus = useCallback(async (lang: Language) => {
     try {
       const data = await offlineDownloadManager.getManifest(lang);
       setManifest(data);
@@ -294,7 +295,7 @@ export default function InstallOfflineModal({
                 </span>
               )}
             </div>
-            <div className="grid grid-cols-2 gap-2 bg-[var(--md-sys-color-surface-container-high)] p-1.5 rounded-2xl border border-[var(--md-sys-color-outline-variant)]/40">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-[var(--md-sys-color-surface-container-high)] p-1.5 rounded-2xl border border-[var(--md-sys-color-outline-variant)]/40">
               <button
                 type="button"
                 onClick={() => {
@@ -308,7 +309,7 @@ export default function InstallOfflineModal({
                 }`}
               >
                 <span className="text-sm shrink-0">🇨🇳</span>
-                <span className="hidden sm:inline">Mandarin Chinese (HSK 1–6)</span>
+                <span className="hidden sm:inline">Mandarin (HSK)</span>
                 <span className="sm:hidden">Mandarin (HSK)</span>
               </button>
               <button
@@ -324,8 +325,24 @@ export default function InstallOfflineModal({
                 }`}
               >
                 <span className="text-sm shrink-0">🇯🇵</span>
-                <span className="hidden sm:inline">Japanese (JLPT N5–N1)</span>
+                <span className="hidden sm:inline">Japanese (JLPT)</span>
                 <span className="sm:hidden">Japanese (JLPT)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setSelectedLang("russian");
+                  onLanguageChange?.("russian");
+                }}
+                className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
+                  selectedLang === "russian"
+                    ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                <span className="text-sm shrink-0">🇷🇺</span>
+                <span className="hidden sm:inline">Russian (ТРКИ)</span>
+                <span className="sm:hidden">Russian (ТРКИ)</span>
               </button>
             </div>
           </div>

@@ -3,10 +3,11 @@
 import React, { useState, useEffect } from "react";
 import { Headphones, Sparkles, ArrowRight, X, RotateCcw } from "lucide-react";
 import { offlineDownloadManager, PackStatus } from "@/lib/offlineDownloadManager";
+import { Language } from "@/types";
 
 interface AudioUpdateBannerProps {
-  currentLanguage: "mandarin" | "japanese";
-  onOpenUpdateModal: (lang: "mandarin" | "japanese") => void;
+  currentLanguage: Language;
+  onOpenUpdateModal: (lang: Language) => void;
 }
 
 export default function AudioUpdateBanner({

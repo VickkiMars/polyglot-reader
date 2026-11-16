@@ -1,0 +1,496 @@
+{
+  "id": 18951,
+  "title": "This is my boyfriend",
+  "russian_title": "Э́то мой бойфре́нд",
+  "level": "Beginner",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "this-is-my-boyfriend",
+  "audio_url": "/audio/russian/18951_this-is-my-boyfriend.mp3",
+  "english_paragraphs": [
+    "I have a boyfriend, his name is Zhang Yang. He is neither fat nor thin, very tall and likes sports. We have known each other for three and a half years. Zhang Yang is my brother's classmate, but my brother is not satisfied with him because he has no job. Zhang Yang has a sister who is a middle school student. I like this girl very much. She is very smart and cute. Zhang Yang’s mother is a nurse and his father works in a small company. I haven’t met them yet. This is my boyfriend and his family, what do you think?"
+  ],
+  "english_full": "I have a boyfriend, his name is Zhang Yang. He is neither fat nor thin, very tall and likes sports. We have known each other for three and a half years. Zhang Yang is my brother's classmate, but my brother is not satisfied with him because he has no job. Zhang Yang has a sister who is a middle school student. I like this girl very much. She is very smart and cute. Zhang Yang’s mother is a nurse and his father works in a small company. I haven’t met them yet. This is my boyfriend and his family, what do you think?",
+  "russian_paragraphs": [
+    "У меня е́сть бойфре́нд, его и́мя Чжан Я́н. Он та́кже не то́лстый, ни худо́й, высо́кий и люби́т спорт. Мы зна́ем друг дру́га уже три с полови́ной года. Чжан Я́н — однока́шник моего́ бра́та, но мой брат не дово́лен е́м из-за того, что у не́го нет рабо́ты. У Чжана Я́на е́сть се́стра, кото́рая учи́тся в сре́дней шко́ле. Мне о́чень на́до э́та де́вушка. Она о́чень умная и ми́лая. Ма́ма Чжана Я́на — медсестра́, а его́ ба́тька рабо́тает в ма́лой компа́нии. Я ещё не встре́чал их. Э́то мой бойфре́нд и его́ семья́, как вы ду́маете?"
+  ],
+  "reading_paragraphs": [
+    "U menya yest' boyfrénd, yevo ímya Chzhan Yán. On tákzhe ne tóls'tyy, ni khudóy, vysokýy i lyubít sport. My znáem drug drugá uzhe tri s polovinóy goda. Chzhan Yán — odnokláschnik moegó bráta, no moy brat ne dovolén yém iz-za togo, chto u négo net rabótý. U Chzhana Yána yest' séstra, kotoráya uchítsya v srédney shkóle. Mne óchen' nádo étá devúshka. Ona óchen' úmnaya i mílayá. Máma Chzhana Yána — medséstra, a yevo bátyka rabótayet v máloy kompánii. Ya yeshchó ne vstretchál ikh. Éto moy boyfrénd i yevo sem'yá, kak vy dún'chóíte?"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menya\" data-defn=\"меня\" data-hsk=\"A2\"><span class=\"si\">меня</span><rt>menya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ést&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">е́сть</span><rt>ést&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"boyfrénd\" data-defn=\"бойфренд\" data-hsk=\"A2\"><span class=\"si\">бойфре́нд</span><rt>boyfrénd</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ego\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его</span><rt>ego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A2\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Chzhan\" data-defn=\"чжан\" data-hsk=\"A2\"><span class=\"si\">Чжан</span><rt>Chzhan</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yán\" data-defn=\"ян\" data-hsk=\"A2\"><span class=\"si\">Я́н</span><rt>Yán</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tákzhe\" data-defn=\"также\" data-hsk=\"A2\"><span class=\"si\">та́кже</span><rt>tákzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tólstyy\" data-defn=\"толстый\" data-hsk=\"A2\"><span class=\"si\">то́лстый</span><rt>tólstyy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ni\" data-defn=\"ни\" data-hsk=\"A2\"><span class=\"si\">ни</span><rt>ni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khudóy\" data-defn=\"худой\" data-hsk=\"A2\"><span class=\"si\">худо́й</span><rt>khudóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vysókiy\" data-defn=\"высокий\" data-hsk=\"A2\"><span class=\"si\">высо́кий</span><rt>vysókiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubít\" data-defn=\"любит\" data-hsk=\"A2\"><span class=\"si\">люби́т</span><rt>lyubít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sport\" data-defn=\"спорт\" data-hsk=\"A2\"><span class=\"si\">спорт</span><rt>sport</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"My\" data-defn=\"мы\" data-hsk=\"A2\"><span class=\"si\">Мы</span><rt>My</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáem\" data-defn=\"знаем\" data-hsk=\"A2\"><span class=\"si\">зна́ем</span><rt>znáem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drug\" data-defn=\"друг\" data-hsk=\"A2\"><span class=\"si\">друг</span><rt>drug</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drúga\" data-defn=\"друга\" data-hsk=\"A2\"><span class=\"si\">дру́га</span><rt>drúga</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uzhe\" data-defn=\"уже\" data-hsk=\"A2\"><span class=\"si\">уже</span><rt>uzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tri\" data-defn=\"три\" data-hsk=\"A2\"><span class=\"si\">три</span><rt>tri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polovínoy\" data-defn=\"половиной\" data-hsk=\"A2\"><span class=\"si\">полови́ной</span><rt>polovínoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"goda\" data-defn=\"года\" data-hsk=\"A2\"><span class=\"si\">года</span><rt>goda</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Chzhan\" data-defn=\"чжан\" data-hsk=\"A2\"><span class=\"si\">Чжан</span><rt>Chzhan</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yán\" data-defn=\"ян\" data-hsk=\"A2\"><span class=\"si\">Я́н</span><rt>Yán</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"odnokáshnik\" data-defn=\"однокашник\" data-hsk=\"A2\"><span class=\"si\">однока́шник</span><rt>odnokáshnik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moegó\" data-defn=\"моего\" data-hsk=\"A2\"><span class=\"si\">моего́</span><rt>moegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bráta\" data-defn=\"брата\" data-hsk=\"A2\"><span class=\"si\">бра́та</span><rt>bráta</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A2\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"brat\" data-defn=\"брат\" data-hsk=\"A2\"><span class=\"si\">брат</span><rt>brat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dovólen\" data-defn=\"доволен\" data-hsk=\"A2\"><span class=\"si\">дово́лен</span><rt>dovólen</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ém\" data-defn=\"ем\" data-hsk=\"A2\"><span class=\"si\">е́м</span><rt>ém</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz-za\" data-defn=\"из-за\" data-hsk=\"A2\"><span class=\"si\">из-за</span><rt>iz-za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того</span><rt>togo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"négo\" data-defn=\"него\" data-hsk=\"A2\"><span class=\"si\">не́го</span><rt>négo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">нет</span><rt>net</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóty\" data-defn=\"работы\" data-hsk=\"A2\"><span class=\"si\">рабо́ты</span><rt>rabóty</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Chzhana\" data-defn=\"чжана\" data-hsk=\"A2\"><span class=\"si\">Чжана</span><rt>Chzhana</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yána\" data-defn=\"яна\" data-hsk=\"A2\"><span class=\"si\">Я́на</span><rt>Yána</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ést&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">е́сть</span><rt>ést&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"séstra\" data-defn=\"сестра\" data-hsk=\"A2\"><span class=\"si\">се́стра</span><rt>séstra</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotóraya\" data-defn=\"которая\" data-hsk=\"A2\"><span class=\"si\">кото́рая</span><rt>kotóraya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchítsya\" data-defn=\"учится\" data-hsk=\"A2\"><span class=\"si\">учи́тся</span><rt>uchítsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"srédney\" data-defn=\"средней\" data-hsk=\"A2\"><span class=\"si\">сре́дней</span><rt>srédney</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkóle\" data-defn=\"школе\" data-hsk=\"A2\"><span class=\"si\">шко́ле</span><rt>shkóle</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">Мне</span><rt>Mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nádo\" data-defn=\"надо\" data-hsk=\"A2\"><span class=\"si\">на́до</span><rt>nádo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"éta\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">э́та</span><rt>éta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dévushka\" data-defn=\"девушка\" data-hsk=\"A2\"><span class=\"si\">де́вушка</span><rt>dévushka</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Ona\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она</span><rt>Ona</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"umnaya\" data-defn=\"умная\" data-hsk=\"A2\"><span class=\"si\">умная</span><rt>umnaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mílaya\" data-defn=\"милая\" data-hsk=\"A2\"><span class=\"si\">ми́лая</span><rt>mílaya</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A2\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Chzhana\" data-defn=\"чжана\" data-hsk=\"A2\"><span class=\"si\">Чжана</span><rt>Chzhana</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yána\" data-defn=\"яна\" data-hsk=\"A2\"><span class=\"si\">Я́на</span><rt>Yána</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"medsestrá\" data-defn=\"медсестра\" data-hsk=\"A2\"><span class=\"si\">медсестра́</span><rt>medsestrá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A2\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bát&#x27;ka\" data-defn=\"батька\" data-hsk=\"A2\"><span class=\"si\">ба́тька</span><rt>bát&#x27;ka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótaet\" data-defn=\"работает\" data-hsk=\"A2\"><span class=\"si\">рабо́тает</span><rt>rabótaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"máloy\" data-defn=\"малой\" data-hsk=\"A2\"><span class=\"si\">ма́лой</span><rt>máloy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompánii\" data-defn=\"компании\" data-hsk=\"A2\"><span class=\"si\">компа́нии</span><rt>kompánii</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eshchyo\" data-defn=\"ещё\" data-hsk=\"A2\"><span class=\"si\">ещё</span><rt>eshchyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstréchal\" data-defn=\"встречал\" data-hsk=\"A2\"><span class=\"si\">встре́чал</span><rt>vstréchal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Éto\" data-defn=\"это\" data-hsk=\"A2\"><span class=\"si\">Э́то</span><rt>Éto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A2\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"boyfrénd\" data-defn=\"бойфренд\" data-hsk=\"A2\"><span class=\"si\">бойфре́нд</span><rt>boyfrénd</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sem&#x27;yá\" data-defn=\"семья\" data-hsk=\"A2\"><span class=\"si\">семья́</span><rt>sem&#x27;yá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmaete\" data-defn=\"думаете\" data-hsk=\"A2\"><span class=\"si\">ду́маете</span><rt>dúmaete</rt></ruby>?"
+  ],
+  "vocabulary": [
+    {
+      "word": "меня",
+      "reading": "menya",
+      "translation": "меня",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "е́сть",
+      "reading": "ést'",
+      "translation": "есть",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "бойфре́нд",
+      "reading": "boyfrénd",
+      "translation": "бойфренд",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "его",
+      "reading": "ego",
+      "translation": "его",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "и́мя",
+      "reading": "ímya",
+      "translation": "имя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Чжан",
+      "reading": "Chzhan",
+      "translation": "чжан",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Я́н",
+      "reading": "Yán",
+      "translation": "ян",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Он",
+      "reading": "On",
+      "translation": "он",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "та́кже",
+      "reading": "tákzhe",
+      "translation": "также",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "не",
+      "reading": "ne",
+      "translation": "не",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "то́лстый",
+      "reading": "tólstyy",
+      "translation": "толстый",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ни",
+      "reading": "ni",
+      "translation": "ни",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "худо́й",
+      "reading": "khudóy",
+      "translation": "худой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "высо́кий",
+      "reading": "vysókiy",
+      "translation": "высокий",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "люби́т",
+      "reading": "lyubít",
+      "translation": "любит",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "спорт",
+      "reading": "sport",
+      "translation": "спорт",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Мы",
+      "reading": "My",
+      "translation": "мы",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "зна́ем",
+      "reading": "znáem",
+      "translation": "знаем",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "друг",
+      "reading": "drug",
+      "translation": "друг",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "дру́га",
+      "reading": "drúga",
+      "translation": "друга",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "уже",
+      "reading": "uzhe",
+      "translation": "уже",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "три",
+      "reading": "tri",
+      "translation": "три",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "полови́ной",
+      "reading": "polovínoy",
+      "translation": "половиной",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "года",
+      "reading": "goda",
+      "translation": "года",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "однока́шник",
+      "reading": "odnokáshnik",
+      "translation": "однокашник",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "моего́",
+      "reading": "moegó",
+      "translation": "моего",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "бра́та",
+      "reading": "bráta",
+      "translation": "брата",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "но",
+      "reading": "no",
+      "translation": "но",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мой",
+      "reading": "moy",
+      "translation": "мой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "брат",
+      "reading": "brat",
+      "translation": "брат",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "дово́лен",
+      "reading": "dovólen",
+      "translation": "доволен",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "е́м",
+      "reading": "ém",
+      "translation": "ем",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "из-за",
+      "reading": "iz-za",
+      "translation": "из-за",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "того",
+      "reading": "togo",
+      "translation": "того",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "что",
+      "reading": "chto",
+      "translation": "что",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "не́го",
+      "reading": "négo",
+      "translation": "него",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "нет",
+      "reading": "net",
+      "translation": "нет",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́ты",
+      "reading": "rabóty",
+      "translation": "работы",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Чжана",
+      "reading": "Chzhana",
+      "translation": "чжана",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Я́на",
+      "reading": "Yána",
+      "translation": "яна",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "се́стра",
+      "reading": "séstra",
+      "translation": "сестра",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "кото́рая",
+      "reading": "kotóraya",
+      "translation": "которая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "учи́тся",
+      "reading": "uchítsya",
+      "translation": "учится",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "сре́дней",
+      "reading": "srédney",
+      "translation": "средней",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "шко́ле",
+      "reading": "shkóle",
+      "translation": "школе",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Мне",
+      "reading": "Mne",
+      "translation": "мне",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "о́чень",
+      "reading": "óchen'",
+      "translation": "очень",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "на́до",
+      "reading": "nádo",
+      "translation": "надо",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "э́та",
+      "reading": "éta",
+      "translation": "эта",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "де́вушка",
+      "reading": "dévushka",
+      "translation": "девушка",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Она",
+      "reading": "Ona",
+      "translation": "она",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "умная",
+      "reading": "umnaya",
+      "translation": "умная",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ми́лая",
+      "reading": "mílaya",
+      "translation": "милая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Ма́ма",
+      "reading": "Máma",
+      "translation": "мама",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "медсестра́",
+      "reading": "medsestrá",
+      "translation": "медсестра",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ба́тька",
+      "reading": "bát'ka",
+      "translation": "батька",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́тает",
+      "reading": "rabótaet",
+      "translation": "работает",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ма́лой",
+      "reading": "máloy",
+      "translation": "малой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "компа́нии",
+      "reading": "kompánii",
+      "translation": "компании",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ещё",
+      "reading": "eshchyo",
+      "translation": "ещё",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "встре́чал",
+      "reading": "vstréchal",
+      "translation": "встречал",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "их",
+      "reading": "ikh",
+      "translation": "их",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Э́то",
+      "reading": "Éto",
+      "translation": "это",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "семья́",
+      "reading": "sem'yá",
+      "translation": "семья",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "как",
+      "reading": "kak",
+      "translation": "как",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "вы",
+      "reading": "vy",
+      "translation": "вы",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ду́маете",
+      "reading": "dúmaete",
+      "translation": "думаете",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

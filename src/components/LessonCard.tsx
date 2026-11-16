@@ -2,39 +2,68 @@
 
 import React from "react";
 import { Headphones, BookOpen } from "lucide-react";
-import { StoryCatalogItem } from "@/types";
+import { StoryCatalogItem, Language } from "@/types";
 
 interface LessonCardProps {
   story: StoryCatalogItem;
-  language: "mandarin" | "japanese";
+  language: Language;
   onSelect: (story: StoryCatalogItem) => void;
 }
 
 export default function LessonCard({ story, language, onSelect }: LessonCardProps) {
   const isMandarin = language === "mandarin";
-  const displayTitle = isMandarin ? story.title : story.japanese.title || story.title;
-  const secondaryTitle = isMandarin ? story.mandarin.character_preview : story.title;
+  const isJapanese = language === "japanese";
+  const isRussian = language === "russian";
+
+  const displayTitle = isMandarin
+    ? story.title
+    : isJapanese
+    ? story.japanese?.title || story.title
+    : story.russian?.title || story.title;
+
+  const secondaryTitle = isMandarin
+    ? story.mandarin.character_preview
+    : isJapanese
+    ? story.title
+    : story.russian?.character_preview || story.title;
+
   const previewReading = isMandarin
     ? story.mandarin.pinyin_preview
-    : story.japanese.reading_preview;
-  const vocabCount = isMandarin ? story.mandarin.vocab_count : story.japanese.vocab_count;
-  const levelBadge = isMandarin ? story.hsk : `JLPT ${story.jlpt}`;
+    : isJapanese
+    ? story.japanese?.reading_preview
+    : story.russian?.reading_preview;
+
+  const vocabCount = isMandarin
+    ? story.mandarin.vocab_count
+    : isJapanese
+    ? story.japanese?.vocab_count || 0
+    : story.russian?.vocab_count || 0;
+
+  const levelBadge = isMandarin
+    ? story.hsk
+    : isJapanese
+    ? `JLPT ${story.jlpt}`
+    : story.torfl || (story.hsk_tags?.[0]) || story.level;
 
   return (
     <article
       onClick={() => onSelect(story)}
       className="group bg-[var(--md-sys-color-surface-container-lowest)] rounded-2xl border border-[var(--md-sys-color-outline-variant)]/60 overflow-hidden transition-all duration-200 hover:border-[var(--md-sys-color-primary)]/60 hover:shadow-md hover:bg-[var(--md-sys-color-surface-container-low)] flex flex-col h-full cursor-pointer active:scale-[0.99]"
     >
-      {/* Stylized Typographic CJK Banner */}
+      {/* Stylized Typographic Banner */}
       <div
         className="relative w-full aspect-video min-h-[145px] sm:min-h-[175px] overflow-hidden bg-gradient-to-br from-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-surface-container-lowest)] flex flex-col items-center justify-center p-4 sm:p-6 text-center select-none shrink-0"
       >
         {/* Subtle background seal watermarking */}
         <span className="absolute -right-4 -bottom-4 text-6xl sm:text-7xl font-cjk font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none">
-          {isMandarin ? "汉语" : "日本語"}
+          {isMandarin ? "汉语" : isJapanese ? "日本語" : "Русский"}
         </span>
-        <span className="text-lg sm:text-2xl font-cjk font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1">
-          {isMandarin ? story.mandarin.character_preview.slice(0, 8) : story.japanese.title}
+        <span className={`text-lg sm:text-2xl font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1 ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
+          {isMandarin
+            ? story.mandarin.character_preview.slice(0, 8)
+            : isJapanese
+            ? story.japanese?.title
+            : story.russian?.title || story.title}
         </span>
         <span className="text-xs text-[var(--md-sys-color-on-surface-variant)] mt-1.5 font-roboto italic line-clamp-1">
           {story.title}

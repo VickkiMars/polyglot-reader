@@ -1,0 +1,412 @@
+{
+  "id": 20651,
+  "title": "My bedroom",
+  "russian_title": "Моя спальня",
+  "level": "Intermediate",
+  "torfl_level": "A1",
+  "hsk_tags": [
+    "A1"
+  ],
+  "slug": "my-bedroom",
+  "audio_url": "/audio/russian/20651_my-bedroom.mp3",
+  "english_paragraphs": [
+    "My bedroom is small, but I like it very much. There is a large bed in the middle of the bedroom, a desk beside the bed, and a chair in front of the desk. On the other side of the bed is a wardrobe and bookshelf. The bookshelf is filled with my favorite books. Sitting in front of the window and reading every night is my happiest time. The bedroom walls are green and the curtains are green. That's my favorite color. There are my paintings and flowers on the desk. They are so beautiful."
+  ],
+  "english_full": "My bedroom is small, but I like it very much. There is a large bed in the middle of the bedroom, a desk beside the bed, and a chair in front of the desk. On the other side of the bed is a wardrobe and bookshelf. The bookshelf is filled with my favorite books. Sitting in front of the window and reading every night is my happiest time. The bedroom walls are green and the curtains are green. That's my favorite color. There are my paintings and flowers on the desk. They are so beautiful.",
+  "russian_paragraphs": [
+    "Моя спа́льня ма́ленькая, но я её о́чень лю́блю. В сре́дине спа́льни стои́т большо́я крова́ть, рядом с крова́тью находитс́я би́ржу, а пе́ред би́ржей ста́л стул. На друго́й сторо́не крова́ти - гардеро́б и кни́жная по́лка. Кни́жная по́лка запо́лнена моими люби́мыми кни́гами. Присев пе́ред око́ном и чита́я ка́ждую ночь, я наи́более сча́стлив. Стены в спа́льне зе́лёные, а капу́т тоже зе́лёный. Это мой люби́мый цвет. На би́рже лежат мои карти́ны и цветы́. Они о́чень краси́вые."
+  ],
+  "reading_paragraphs": [
+    "Moya spályn' málen'kaya, no ya yeyo óchen' lyúblyu. V sréddinee spályn' stoit bol'shóya krevát', ryádom s krevát'yu nakhodit'sya bírzhú, a péred bírzhé stál stul. Na drugóy storóně krevát'i - garderób i knízh’naya pólka. Knízh’naya pólka zapólnena móimi lyubí-mými knígamí. Prisésév péred okónm i chitáya káz'duyu nóch', ya naiból’ shchástliv. Stény v spályně zelé-nyé, a kapút tozhe zelé-ny. Éto moy lyubí-myy tsévt. Na bírzhé lezhát mói kartíný i tsvéty. Ony óchen' krásivyy."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Moya\" data-defn=\"моя\" data-hsk=\"A1\"><span class=\"si\">Моя</span><rt>Moya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spál&#x27;nya\" data-defn=\"спальня\" data-hsk=\"A1\"><span class=\"si\">спа́льня</span><rt>spál&#x27;nya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"málen&#x27;kaya\" data-defn=\"маленькая\" data-hsk=\"A1\"><span class=\"si\">ма́ленькая</span><rt>málen&#x27;kaya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A1\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eyo\" data-defn=\"её\" data-hsk=\"A1\"><span class=\"si\">её</span><rt>eyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A1\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúblyu\" data-defn=\"люблю\" data-hsk=\"A1\"><span class=\"si\">лю́блю</span><rt>lyúblyu</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"srédine\" data-defn=\"средине\" data-hsk=\"A1\"><span class=\"si\">сре́дине</span><rt>srédine</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spál&#x27;ni\" data-defn=\"спальни\" data-hsk=\"A1\"><span class=\"si\">спа́льни</span><rt>spál&#x27;ni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stoít\" data-defn=\"стоит\" data-hsk=\"A1\"><span class=\"si\">стои́т</span><rt>stoít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shóya\" data-defn=\"большоя\" data-hsk=\"A1\"><span class=\"si\">большо́я</span><rt>bol&#x27;shóya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krovát&#x27;\" data-defn=\"кровать\" data-hsk=\"A1\"><span class=\"si\">крова́ть</span><rt>krovát&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ryadom\" data-defn=\"рядом\" data-hsk=\"A1\"><span class=\"si\">рядом</span><rt>ryadom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krovát&#x27;yu\" data-defn=\"кроватью\" data-hsk=\"A1\"><span class=\"si\">крова́тью</span><rt>krovát&#x27;yu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nakhoditśya\" data-defn=\"находится\" data-hsk=\"A1\"><span class=\"si\">находитс́я</span><rt>nakhoditśya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bírzhu\" data-defn=\"биржу\" data-hsk=\"A1\"><span class=\"si\">би́ржу</span><rt>bírzhu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"péred\" data-defn=\"перед\" data-hsk=\"A1\"><span class=\"si\">пе́ред</span><rt>péred</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bírzhey\" data-defn=\"биржей\" data-hsk=\"A1\"><span class=\"si\">би́ржей</span><rt>bírzhey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stál\" data-defn=\"стал\" data-hsk=\"A1\"><span class=\"si\">ста́л</span><rt>stál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stul\" data-defn=\"стул\" data-hsk=\"A1\"><span class=\"si\">стул</span><rt>stul</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">На</span><rt>Na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugóy\" data-defn=\"другой\" data-hsk=\"A1\"><span class=\"si\">друго́й</span><rt>drugóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"storóne\" data-defn=\"стороне\" data-hsk=\"A1\"><span class=\"si\">сторо́не</span><rt>storóne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krováti\" data-defn=\"кровати\" data-hsk=\"A1\"><span class=\"si\">крова́ти</span><rt>krováti</rt></ruby> - <ruby class=\"mb-tooltip\" data-py=\"garderób\" data-defn=\"гардероб\" data-hsk=\"A1\"><span class=\"si\">гардеро́б</span><rt>garderób</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"knízhnaya\" data-defn=\"книжная\" data-hsk=\"A1\"><span class=\"si\">кни́жная</span><rt>knízhnaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pólka\" data-defn=\"полка\" data-hsk=\"A1\"><span class=\"si\">по́лка</span><rt>pólka</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Knízhnaya\" data-defn=\"книжная\" data-hsk=\"A1\"><span class=\"si\">Кни́жная</span><rt>Knízhnaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pólka\" data-defn=\"полка\" data-hsk=\"A1\"><span class=\"si\">по́лка</span><rt>pólka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zapólnena\" data-defn=\"заполнена\" data-hsk=\"A1\"><span class=\"si\">запо́лнена</span><rt>zapólnena</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moimi\" data-defn=\"моими\" data-hsk=\"A1\"><span class=\"si\">моими</span><rt>moimi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubímymi\" data-defn=\"любимыми\" data-hsk=\"A1\"><span class=\"si\">люби́мыми</span><rt>lyubímymi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"knígami\" data-defn=\"книгами\" data-hsk=\"A1\"><span class=\"si\">кни́гами</span><rt>knígami</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Prisev\" data-defn=\"присев\" data-hsk=\"A1\"><span class=\"si\">Присев</span><rt>Prisev</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"péred\" data-defn=\"перед\" data-hsk=\"A1\"><span class=\"si\">пе́ред</span><rt>péred</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"okónom\" data-defn=\"оконом\" data-hsk=\"A1\"><span class=\"si\">око́ном</span><rt>okónom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitáya\" data-defn=\"читая\" data-hsk=\"A1\"><span class=\"si\">чита́я</span><rt>chitáya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhduyu\" data-defn=\"каждую\" data-hsk=\"A1\"><span class=\"si\">ка́ждую</span><rt>kázhduyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"noch&#x27;\" data-defn=\"ночь\" data-hsk=\"A1\"><span class=\"si\">ночь</span><rt>noch&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"naíbolee\" data-defn=\"наиболее\" data-hsk=\"A1\"><span class=\"si\">наи́более</span><rt>naíbolee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"schástliv\" data-defn=\"счастлив\" data-hsk=\"A1\"><span class=\"si\">сча́стлив</span><rt>schástliv</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Steny\" data-defn=\"стены\" data-hsk=\"A1\"><span class=\"si\">Стены</span><rt>Steny</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spál&#x27;ne\" data-defn=\"спальне\" data-hsk=\"A1\"><span class=\"si\">спа́льне</span><rt>spál&#x27;ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zélyonye\" data-defn=\"зелёные\" data-hsk=\"A1\"><span class=\"si\">зе́лёные</span><rt>zélyonye</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kapút\" data-defn=\"капут\" data-hsk=\"A1\"><span class=\"si\">капу́т</span><rt>kapút</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tozhe\" data-defn=\"тоже\" data-hsk=\"A1\"><span class=\"si\">тоже</span><rt>tozhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zélyonyy\" data-defn=\"зелёный\" data-hsk=\"A1\"><span class=\"si\">зе́лёный</span><rt>zélyonyy</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Eto\" data-defn=\"это\" data-hsk=\"A1\"><span class=\"si\">Это</span><rt>Eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A1\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubímyy\" data-defn=\"любимый\" data-hsk=\"A1\"><span class=\"si\">люби́мый</span><rt>lyubímyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvet\" data-defn=\"цвет\" data-hsk=\"A1\"><span class=\"si\">цвет</span><rt>tsvet</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">На</span><rt>Na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bírzhe\" data-defn=\"бирже\" data-hsk=\"A1\"><span class=\"si\">би́рже</span><rt>bírzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lezhat\" data-defn=\"лежат\" data-hsk=\"A1\"><span class=\"si\">лежат</span><rt>lezhat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moi\" data-defn=\"мои\" data-hsk=\"A1\"><span class=\"si\">мои</span><rt>moi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kartíny\" data-defn=\"картины\" data-hsk=\"A1\"><span class=\"si\">карти́ны</span><rt>kartíny</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvetý\" data-defn=\"цветы\" data-hsk=\"A1\"><span class=\"si\">цветы́</span><rt>tsvetý</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A1\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A1\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krasívye\" data-defn=\"красивые\" data-hsk=\"A1\"><span class=\"si\">краси́вые</span><rt>krasívye</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "Моя",
+      "reading": "Moya",
+      "translation": "моя",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "спа́льня",
+      "reading": "spál'nya",
+      "translation": "спальня",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ма́ленькая",
+      "reading": "málen'kaya",
+      "translation": "маленькая",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "но",
+      "reading": "no",
+      "translation": "но",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "её",
+      "reading": "eyo",
+      "translation": "её",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "о́чень",
+      "reading": "óchen'",
+      "translation": "очень",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "лю́блю",
+      "reading": "lyúblyu",
+      "translation": "люблю",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "сре́дине",
+      "reading": "srédine",
+      "translation": "средине",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "спа́льни",
+      "reading": "spál'ni",
+      "translation": "спальни",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "стои́т",
+      "reading": "stoít",
+      "translation": "стоит",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "большо́я",
+      "reading": "bol'shóya",
+      "translation": "большоя",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "крова́ть",
+      "reading": "krovát'",
+      "translation": "кровать",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "рядом",
+      "reading": "ryadom",
+      "translation": "рядом",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "крова́тью",
+      "reading": "krovát'yu",
+      "translation": "кроватью",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "находитс́я",
+      "reading": "nakhoditśya",
+      "translation": "находится",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "би́ржу",
+      "reading": "bírzhu",
+      "translation": "биржу",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "пе́ред",
+      "reading": "péred",
+      "translation": "перед",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "би́ржей",
+      "reading": "bírzhey",
+      "translation": "биржей",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ста́л",
+      "reading": "stál",
+      "translation": "стал",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "стул",
+      "reading": "stul",
+      "translation": "стул",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "На",
+      "reading": "Na",
+      "translation": "на",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "друго́й",
+      "reading": "drugóy",
+      "translation": "другой",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "сторо́не",
+      "reading": "storóne",
+      "translation": "стороне",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "крова́ти",
+      "reading": "krováti",
+      "translation": "кровати",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "гардеро́б",
+      "reading": "garderób",
+      "translation": "гардероб",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "кни́жная",
+      "reading": "knízhnaya",
+      "translation": "книжная",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "по́лка",
+      "reading": "pólka",
+      "translation": "полка",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "запо́лнена",
+      "reading": "zapólnena",
+      "translation": "заполнена",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "моими",
+      "reading": "moimi",
+      "translation": "моими",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "люби́мыми",
+      "reading": "lyubímymi",
+      "translation": "любимыми",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "кни́гами",
+      "reading": "knígami",
+      "translation": "книгами",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Присев",
+      "reading": "Prisev",
+      "translation": "присев",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "око́ном",
+      "reading": "okónom",
+      "translation": "оконом",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "чита́я",
+      "reading": "chitáya",
+      "translation": "читая",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ка́ждую",
+      "reading": "kázhduyu",
+      "translation": "каждую",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ночь",
+      "reading": "noch'",
+      "translation": "ночь",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "наи́более",
+      "reading": "naíbolee",
+      "translation": "наиболее",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "сча́стлив",
+      "reading": "schástliv",
+      "translation": "счастлив",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Стены",
+      "reading": "Steny",
+      "translation": "стены",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "спа́льне",
+      "reading": "spál'ne",
+      "translation": "спальне",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "зе́лёные",
+      "reading": "zélyonye",
+      "translation": "зелёные",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "капу́т",
+      "reading": "kapút",
+      "translation": "капут",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "тоже",
+      "reading": "tozhe",
+      "translation": "тоже",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "зе́лёный",
+      "reading": "zélyonyy",
+      "translation": "зелёный",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Это",
+      "reading": "Eto",
+      "translation": "это",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "мой",
+      "reading": "moy",
+      "translation": "мой",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "люби́мый",
+      "reading": "lyubímyy",
+      "translation": "любимый",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "цвет",
+      "reading": "tsvet",
+      "translation": "цвет",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "би́рже",
+      "reading": "bírzhe",
+      "translation": "бирже",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "лежат",
+      "reading": "lezhat",
+      "translation": "лежат",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "мои",
+      "reading": "moi",
+      "translation": "мои",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "карти́ны",
+      "reading": "kartíny",
+      "translation": "картины",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "цветы́",
+      "reading": "tsvetý",
+      "translation": "цветы",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Они",
+      "reading": "Oni",
+      "translation": "они",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "краси́вые",
+      "reading": "krasívye",
+      "translation": "красивые",
+      "torfl": "A1",
+      "hsk": "A1"
+    }
+  ]
+}

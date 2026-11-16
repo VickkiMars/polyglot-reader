@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 
 import audioSizesData from "@/data/audio_sizes.json";
+import { Language } from "@/types";
 
 export interface AudioManifestItem {
   id: number;
@@ -21,7 +22,7 @@ export interface TextManifestItem {
 }
 
 export interface LanguageManifest {
-  language: "mandarin" | "japanese";
+  language: Language;
   languageLabel: string;
   totalStories: number;
   audioVersion: string;
@@ -58,7 +59,7 @@ function formatBytes(bytes: number): string {
 // Memory cache for instant response
 const manifestCache: Record<string, LanguageManifest> = {};
 
-function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
+function buildManifest(lang: Language): LanguageManifest {
   if (manifestCache[lang]) {
     return manifestCache[lang];
   }
@@ -84,7 +85,7 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
     totalAudioBytes += size;
     audioFiles.push({
       id: story.id,
-      title: lang === "japanese" ? (story.japanese?.title || story.title) : story.title,
+      title: lang === "japanese" ? (story.japanese?.title || story.title) : lang === "russian" ? (story.russian?.title || story.title) : story.title,
       slug: story.slug || String(story.id),
       url: audioUrl,
       filename,
@@ -95,6 +96,8 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
   // Pre-calculate story text API sizes
   const storyJsonPath = lang === "japanese"
     ? path.join(process.cwd(), "data", "japanese_stories", "stories.json")
+    : lang === "russian"
+    ? path.join(process.cwd(), "data", "russian_stories", "stories.json")
     : path.join(process.cwd(), "data", "mandarin_stories", "stories.json");
 
   const storiesData = fs.existsSync(storyJsonPath)
@@ -121,6 +124,21 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
       reading_paragraphs: s.reading_paragraphs || [],
       ruby_paragraphs: s.ruby_paragraphs || [],
       vocabulary: s.vocabulary || [],
+    } : lang === "russian" ? {
+      id: s.id,
+      title: s.title,
+      russian_title: s.russian_title || s.title,
+      level: s.level,
+      torfl_level: s.torfl_level || "A1",
+      hsk_tags: s.hsk_tags || [],
+      slug: s.slug,
+      audio_url: `/audio/russian/${s.id}_${(s.slug || String(s.id)).split("%")[0].replace(/-+$/, "")}.mp3`,
+      english_paragraphs: s.english_paragraphs || [],
+      english_full: s.english_full || "",
+      russian_paragraphs: s.russian_paragraphs || [],
+      reading_paragraphs: s.reading_paragraphs || [],
+      ruby_paragraphs: s.ruby_paragraphs || [],
+      vocabulary: s.vocabulary || [],
     } : {
       id: s.id,
       title: s.title,
@@ -142,22 +160,24 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
 
     textFiles.push({
       id: s.id,
-      title: lang === "japanese" ? (s.japanese_title || s.title) : s.title,
+      title: lang === "japanese" ? (s.japanese_title || s.title) : lang === "russian" ? (s.russian_title || s.title) : s.title,
       url,
       size,
     });
   }
 
-  const audioVersion = lang === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard";
-  const audioVersionCode = lang === "japanese" ? 2 : 1;
+  const audioVersion = lang === "japanese" ? "2.0.0-neural-nanami" : lang === "russian" ? "1.0.0-neural-svetlana" : "1.0.0-standard";
+  const audioVersionCode = lang === "japanese" ? 2 : lang === "russian" ? 3 : 1;
   const audioVersionDescription =
     lang === "japanese"
       ? "Upgraded neural Japanese narration (Nanami) with native pitch accent"
+      : lang === "russian"
+      ? "High-fidelity neural Russian narration (Svetlana) with clear educational diction"
       : "Standard Mandarin neural audio";
 
   const manifest: LanguageManifest = {
     language: lang,
-    languageLabel: lang === "japanese" ? "Japanese (JLPT)" : "Mandarin Chinese (HSK)",
+    languageLabel: lang === "japanese" ? "Japanese (JLPT)" : lang === "russian" ? "Russian (ТРКИ / TORFL)" : "Mandarin Chinese (HSK)",
     totalStories: catalog.length,
     audioVersion,
     audioVersionCode,
@@ -191,7 +211,7 @@ function buildManifest(lang: "mandarin" | "japanese"): LanguageManifest {
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const langParam = searchParams.get("lang") || "mandarin";
-  const lang = langParam === "japanese" ? "japanese" : "mandarin";
+  const lang: Language = langParam === "japanese" ? "japanese" : langParam === "russian" ? "russian" : "mandarin";
 
   const manifest = buildManifest(lang);
   return NextResponse.json(manifest, {

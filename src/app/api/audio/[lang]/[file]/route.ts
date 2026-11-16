@@ -63,7 +63,7 @@ export async function GET(
 ) {
   const { lang, file } = await params;
 
-  if (lang !== "mandarin" && lang !== "japanese") {
+  if (lang !== "mandarin" && lang !== "japanese" && lang !== "russian") {
     return new NextResponse("Unsupported language", { status: 400 });
   }
 

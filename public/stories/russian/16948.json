@@ -1,0 +1,146 @@
+{
+  "id": 16948,
+  "title": "Dad cried",
+  "russian_title": "Па́па плакал",
+  "level": "Beginner",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "dad-cried",
+  "audio_url": "/audio/russian/16948_dad-cried.mp3",
+  "english_paragraphs": [
+    "Dad's work is very busy. Every day before I get up, he leaves; at night, when I go to bed, he comes home. Yesterday, my birthday, I called my dad and asked him how much he could earn in an hour. He was a little unhappy. I said, \"Dad, I have twenty yuan now, and I want to buy you an hour, can you? I want to eat birthday cake with you today.\" Then Dad cried on the phone."
+  ],
+  "english_full": "Dad's work is very busy. Every day before I get up, he leaves; at night, when I go to bed, he comes home. Yesterday, my birthday, I called my dad and asked him how much he could earn in an hour. He was a little unhappy. I said, \"Dad, I have twenty yuan now, and I want to buy you an hour, can you? I want to eat birthday cake with you today.\" Then Dad cried on the phone.",
+  "russian_paragraphs": [
+    "Па́пина рабо́та очень за́нятая. Ка́ждый день ра́ньше чем я поднима́юсь, он уходит; но́чью, когда́ я ложу́сь спать, он приходи́т домо́й."
+  ],
+  "reading_paragraphs": [
+    "Pápina rábota óchen' zányataya. Kázhdy den' ránshe chem ya podnimayus', on ukhodít; nóch'yu, kogdá ya lozhus' spat', on prikhodít domóy."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Pápina\" data-defn=\"папина\" data-hsk=\"A2\"><span class=\"si\">Па́пина</span><rt>Pápina</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóta\" data-defn=\"работа\" data-hsk=\"A2\"><span class=\"si\">рабо́та</span><rt>rabóta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ochen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">очень</span><rt>ochen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zányataya\" data-defn=\"занятая\" data-hsk=\"A2\"><span class=\"si\">за́нятая</span><rt>zányataya</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Kázhdyy\" data-defn=\"каждый\" data-hsk=\"A2\"><span class=\"si\">Ка́ждый</span><rt>Kázhdyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rán&#x27;she\" data-defn=\"раньше\" data-hsk=\"A2\"><span class=\"si\">ра́ньше</span><rt>rán&#x27;she</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chem\" data-defn=\"чем\" data-hsk=\"A2\"><span class=\"si\">чем</span><rt>chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podnimáyus&#x27;\" data-defn=\"поднимаюсь\" data-hsk=\"A2\"><span class=\"si\">поднима́юсь</span><rt>podnimáyus&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ukhodit\" data-defn=\"уходит\" data-hsk=\"A2\"><span class=\"si\">уходит</span><rt>ukhodit</rt></ruby>; <ruby class=\"mb-tooltip\" data-py=\"nóch&#x27;yu\" data-defn=\"ночью\" data-hsk=\"A2\"><span class=\"si\">но́чью</span><rt>nóch&#x27;yu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kogdá\" data-defn=\"когда\" data-hsk=\"A2\"><span class=\"si\">когда́</span><rt>kogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lozhús&#x27;\" data-defn=\"ложусь\" data-hsk=\"A2\"><span class=\"si\">ложу́сь</span><rt>lozhús&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spat&#x27;\" data-defn=\"спать\" data-hsk=\"A2\"><span class=\"si\">спать</span><rt>spat&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prikhodít\" data-defn=\"приходит\" data-hsk=\"A2\"><span class=\"si\">приходи́т</span><rt>prikhodít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"domóy\" data-defn=\"домой\" data-hsk=\"A2\"><span class=\"si\">домо́й</span><rt>domóy</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "Па́пина",
+      "reading": "Pápina",
+      "translation": "папина",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́та",
+      "reading": "rabóta",
+      "translation": "работа",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "очень",
+      "reading": "ochen'",
+      "translation": "очень",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "за́нятая",
+      "reading": "zányataya",
+      "translation": "занятая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Ка́ждый",
+      "reading": "Kázhdyy",
+      "translation": "каждый",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "день",
+      "reading": "den'",
+      "translation": "день",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ра́ньше",
+      "reading": "rán'she",
+      "translation": "раньше",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "чем",
+      "reading": "chem",
+      "translation": "чем",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "поднима́юсь",
+      "reading": "podnimáyus'",
+      "translation": "поднимаюсь",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "он",
+      "reading": "on",
+      "translation": "он",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "уходит",
+      "reading": "ukhodit",
+      "translation": "уходит",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "но́чью",
+      "reading": "nóch'yu",
+      "translation": "ночью",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "когда́",
+      "reading": "kogdá",
+      "translation": "когда",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ложу́сь",
+      "reading": "lozhús'",
+      "translation": "ложусь",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "спать",
+      "reading": "spat'",
+      "translation": "спать",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "приходи́т",
+      "reading": "prikhodít",
+      "translation": "приходит",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "домо́й",
+      "reading": "domóy",
+      "translation": "домой",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] border-t border-[var(--md-sys-color-outline-variant)]/60 pt-10 pb-8 sm:pt-14 sm:pb-12 px-4 sm:px-6 mt-12 sm:mt-20 transition-colors duration-200">
       <div className="max-w-[1280px] mx-auto flex flex-col gap-8 sm:gap-10">
         {/* Top Info Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 sm:gap-8">
           {/* Brand Column */}
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center gap-2">
@@ -99,6 +99,35 @@ export default function Footer() {
               <li>
                 <Link href="#" className="hover:text-[var(--md-sys-color-primary)] transition-colors">
                   Interactive Furigana Annotations
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Russian Track Column */}
+          <div className="space-y-2.5">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[var(--md-sys-color-primary)]">
+              🇷🇺 Russian Track
+            </h4>
+            <ul className="space-y-2 text-sm text-[var(--md-sys-color-on-surface-variant)]">
+              <li>
+                <Link href="#" className="hover:text-[var(--md-sys-color-primary)] transition-colors">
+                  ТРКИ A1–A2 Elementary Readers
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-[var(--md-sys-color-primary)] transition-colors">
+                  ТРКИ B1–B2 Intermediate Stories
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-[var(--md-sys-color-primary)] transition-colors">
+                  ТРКИ C1–C2 Authentic Articles
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-[var(--md-sys-color-primary)] transition-colors">
+                  Stress Accents &amp; Transliteration
                 </Link>
               </li>
             </ul>

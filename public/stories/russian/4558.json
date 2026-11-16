@@ -1,0 +1,412 @@
+{
+  "id": 4558,
+  "title": "Me",
+  "russian_title": "Я",
+  "level": "Intermediate",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "me-story",
+  "audio_url": "/audio/russian/4558_me-story.mp3",
+  "english_paragraphs": [
+    "After I graduated from college, my first job was as a clerk in a company. Later, I found that life was too boring, sitting in the office all day, so I decided to quit. After resigning, I went to many places, broadened my horizons, met many people, and saw many scenery. When I met my now husband, I knew it was time to settle down and go home and find a job that suited me."
+  ],
+  "english_full": "After I graduated from college, my first job was as a clerk in a company. Later, I found that life was too boring, sitting in the office all day, so I decided to quit. After resigning, I went to many places, broadened my horizons, met many people, and saw many scenery. When I met my now husband, I knew it was time to settle down and go home and find a job that suited me.",
+  "russian_paragraphs": [
+    "По́сле того́ как я выпускни́лся из ко́лледжа, моя пе́рвая рабо́та была клерком в компа́нии. По́зже я нашёл, что жизнь та́кже ну́дная, сидя в офисе це́лый день, поэ́тому я реши́л уво́литься. По́сле отка́за от до́лжности я побыва́л во мно́гих ме́стах, расши́рил свои горизо́нты, встретил мно́гих лю́дей и уви́дел мно́гие пейза́жи. Когда́ я встретил моего́ ны́нешнего му́жа, я понял, что пришло вре́мя обустро́иться и верну́ться домой, и найти́ рабо́ту, которая мне подхо́дит."
+  ],
+  "reading_paragraphs": [
+    "Pósle tógo kak ya vypusknílsya iz kólledzha, moya pérvaya rabóta byla klerkom v kompánii. Pózhye ya nashö, chto zhizń tákzhe núdna, sidya v ofise t́selý deń, poétemu ya reshíl uvólitsya. Pósle otkáza ot dólzhnosti ya pobyvál vo mnógikh méstakh, rassíríl svoi gorizónty, vstrétil mnógikh lyúdei i uvídél mnógiye peyzажи. Kogdá ya vstretíl moyegó nyńeshnego múzha, ya pońal, chto prishló vreḿya obustroítsya i verńutsya domoy, i nayt́ rabotu, kotoráya mne podkhódit."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Pósle\" data-defn=\"после\" data-hsk=\"A2\"><span class=\"si\">По́сле</span><rt>Pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togó\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того́</span><rt>togó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vypusknílsya\" data-defn=\"выпускнился\" data-hsk=\"A2\"><span class=\"si\">выпускни́лся</span><rt>vypusknílsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kólledzha\" data-defn=\"колледжа\" data-hsk=\"A2\"><span class=\"si\">ко́лледжа</span><rt>kólledzha</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"moya\" data-defn=\"моя\" data-hsk=\"A2\"><span class=\"si\">моя</span><rt>moya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvaya\" data-defn=\"первая\" data-hsk=\"A2\"><span class=\"si\">пе́рвая</span><rt>pérvaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóta\" data-defn=\"работа\" data-hsk=\"A2\"><span class=\"si\">рабо́та</span><rt>rabóta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byla\" data-defn=\"была\" data-hsk=\"A2\"><span class=\"si\">была</span><rt>byla</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"klerkom\" data-defn=\"клерком\" data-hsk=\"A2\"><span class=\"si\">клерком</span><rt>klerkom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompánii\" data-defn=\"компании\" data-hsk=\"A2\"><span class=\"si\">компа́нии</span><rt>kompánii</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Pózzhe\" data-defn=\"позже\" data-hsk=\"A2\"><span class=\"si\">По́зже</span><rt>Pózzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nashyol\" data-defn=\"нашёл\" data-hsk=\"A2\"><span class=\"si\">нашёл</span><rt>nashyol</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhizn&#x27;\" data-defn=\"жизнь\" data-hsk=\"A2\"><span class=\"si\">жизнь</span><rt>zhizn&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tákzhe\" data-defn=\"также\" data-hsk=\"A2\"><span class=\"si\">та́кже</span><rt>tákzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"núdnaya\" data-defn=\"нудная\" data-hsk=\"A2\"><span class=\"si\">ну́дная</span><rt>núdnaya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"sidya\" data-defn=\"сидя\" data-hsk=\"A2\"><span class=\"si\">сидя</span><rt>sidya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ofise\" data-defn=\"офисе\" data-hsk=\"A2\"><span class=\"si\">офисе</span><rt>ofise</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsélyy\" data-defn=\"целый\" data-hsk=\"A2\"><span class=\"si\">це́лый</span><rt>tsélyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poétomu\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">поэ́тому</span><rt>poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"reshíl\" data-defn=\"решил\" data-hsk=\"A2\"><span class=\"si\">реши́л</span><rt>reshíl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uvólit&#x27;sya\" data-defn=\"уволиться\" data-hsk=\"A2\"><span class=\"si\">уво́литься</span><rt>uvólit&#x27;sya</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Pósle\" data-defn=\"после\" data-hsk=\"A2\"><span class=\"si\">По́сле</span><rt>Pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otkáza\" data-defn=\"отказа\" data-hsk=\"A2\"><span class=\"si\">отка́за</span><rt>otkáza</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ot\" data-defn=\"от\" data-hsk=\"A2\"><span class=\"si\">от</span><rt>ot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dólzhnosti\" data-defn=\"должности\" data-hsk=\"A2\"><span class=\"si\">до́лжности</span><rt>dólzhnosti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pobyvál\" data-defn=\"побывал\" data-hsk=\"A2\"><span class=\"si\">побыва́л</span><rt>pobyvál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vo\" data-defn=\"во\" data-hsk=\"A2\"><span class=\"si\">во</span><rt>vo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógikh\" data-defn=\"многих\" data-hsk=\"A2\"><span class=\"si\">мно́гих</span><rt>mnógikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"méstakh\" data-defn=\"местах\" data-hsk=\"A2\"><span class=\"si\">ме́стах</span><rt>méstakh</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"rasshíril\" data-defn=\"расширил\" data-hsk=\"A2\"><span class=\"si\">расши́рил</span><rt>rasshíril</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoi\" data-defn=\"свои\" data-hsk=\"A2\"><span class=\"si\">свои</span><rt>svoi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gorizónty\" data-defn=\"горизонты\" data-hsk=\"A2\"><span class=\"si\">горизо́нты</span><rt>gorizónty</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vstretil\" data-defn=\"встретил\" data-hsk=\"A2\"><span class=\"si\">встретил</span><rt>vstretil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógikh\" data-defn=\"многих\" data-hsk=\"A2\"><span class=\"si\">мно́гих</span><rt>mnógikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdey\" data-defn=\"людей\" data-hsk=\"A2\"><span class=\"si\">лю́дей</span><rt>lyúdey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uvídel\" data-defn=\"увидел\" data-hsk=\"A2\"><span class=\"si\">уви́дел</span><rt>uvídel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógie\" data-defn=\"многие\" data-hsk=\"A2\"><span class=\"si\">мно́гие</span><rt>mnógie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"peyzázhi\" data-defn=\"пейзажи\" data-hsk=\"A2\"><span class=\"si\">пейза́жи</span><rt>peyzázhi</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Kogdá\" data-defn=\"когда\" data-hsk=\"A2\"><span class=\"si\">Когда́</span><rt>Kogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstretil\" data-defn=\"встретил\" data-hsk=\"A2\"><span class=\"si\">встретил</span><rt>vstretil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moegó\" data-defn=\"моего\" data-hsk=\"A2\"><span class=\"si\">моего́</span><rt>moegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nýneshnego\" data-defn=\"нынешнего\" data-hsk=\"A2\"><span class=\"si\">ны́нешнего</span><rt>nýneshnego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"múzha\" data-defn=\"мужа\" data-hsk=\"A2\"><span class=\"si\">му́жа</span><rt>múzha</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ponyal\" data-defn=\"понял\" data-hsk=\"A2\"><span class=\"si\">понял</span><rt>ponyal</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prishlo\" data-defn=\"пришло\" data-hsk=\"A2\"><span class=\"si\">пришло</span><rt>prishlo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"A2\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obustróit&#x27;sya\" data-defn=\"обустроиться\" data-hsk=\"A2\"><span class=\"si\">обустро́иться</span><rt>obustróit&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vernút&#x27;sya\" data-defn=\"вернуться\" data-hsk=\"A2\"><span class=\"si\">верну́ться</span><rt>vernút&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"domoy\" data-defn=\"домой\" data-hsk=\"A2\"><span class=\"si\">домой</span><rt>domoy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"naytí\" data-defn=\"найти\" data-hsk=\"A2\"><span class=\"si\">найти́</span><rt>naytí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A2\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotoraya\" data-defn=\"которая\" data-hsk=\"A2\"><span class=\"si\">которая</span><rt>kotoraya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podkhódit\" data-defn=\"подходит\" data-hsk=\"A2\"><span class=\"si\">подхо́дит</span><rt>podkhódit</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "По́сле",
+      "reading": "Pósle",
+      "translation": "после",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "того́",
+      "reading": "togó",
+      "translation": "того",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "как",
+      "reading": "kak",
+      "translation": "как",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "выпускни́лся",
+      "reading": "vypusknílsya",
+      "translation": "выпускнился",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "из",
+      "reading": "iz",
+      "translation": "из",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ко́лледжа",
+      "reading": "kólledzha",
+      "translation": "колледжа",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "моя",
+      "reading": "moya",
+      "translation": "моя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пе́рвая",
+      "reading": "pérvaya",
+      "translation": "первая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́та",
+      "reading": "rabóta",
+      "translation": "работа",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "была",
+      "reading": "byla",
+      "translation": "была",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "клерком",
+      "reading": "klerkom",
+      "translation": "клерком",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "компа́нии",
+      "reading": "kompánii",
+      "translation": "компании",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "По́зже",
+      "reading": "Pózzhe",
+      "translation": "позже",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "нашёл",
+      "reading": "nashyol",
+      "translation": "нашёл",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "что",
+      "reading": "chto",
+      "translation": "что",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "жизнь",
+      "reading": "zhizn'",
+      "translation": "жизнь",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "та́кже",
+      "reading": "tákzhe",
+      "translation": "также",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ну́дная",
+      "reading": "núdnaya",
+      "translation": "нудная",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "сидя",
+      "reading": "sidya",
+      "translation": "сидя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "офисе",
+      "reading": "ofise",
+      "translation": "офисе",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "це́лый",
+      "reading": "tsélyy",
+      "translation": "целый",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "день",
+      "reading": "den'",
+      "translation": "день",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "поэ́тому",
+      "reading": "poétomu",
+      "translation": "поэтому",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "реши́л",
+      "reading": "reshíl",
+      "translation": "решил",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "уво́литься",
+      "reading": "uvólit'sya",
+      "translation": "уволиться",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "отка́за",
+      "reading": "otkáza",
+      "translation": "отказа",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "от",
+      "reading": "ot",
+      "translation": "от",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "до́лжности",
+      "reading": "dólzhnosti",
+      "translation": "должности",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "побыва́л",
+      "reading": "pobyvál",
+      "translation": "побывал",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "во",
+      "reading": "vo",
+      "translation": "во",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мно́гих",
+      "reading": "mnógikh",
+      "translation": "многих",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ме́стах",
+      "reading": "méstakh",
+      "translation": "местах",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "расши́рил",
+      "reading": "rasshíril",
+      "translation": "расширил",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "свои",
+      "reading": "svoi",
+      "translation": "свои",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "горизо́нты",
+      "reading": "gorizónty",
+      "translation": "горизонты",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "встретил",
+      "reading": "vstretil",
+      "translation": "встретил",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "лю́дей",
+      "reading": "lyúdey",
+      "translation": "людей",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "уви́дел",
+      "reading": "uvídel",
+      "translation": "увидел",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мно́гие",
+      "reading": "mnógie",
+      "translation": "многие",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пейза́жи",
+      "reading": "peyzázhi",
+      "translation": "пейзажи",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Когда́",
+      "reading": "Kogdá",
+      "translation": "когда",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "моего́",
+      "reading": "moegó",
+      "translation": "моего",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ны́нешнего",
+      "reading": "nýneshnego",
+      "translation": "нынешнего",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "му́жа",
+      "reading": "múzha",
+      "translation": "мужа",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "понял",
+      "reading": "ponyal",
+      "translation": "понял",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пришло",
+      "reading": "prishlo",
+      "translation": "пришло",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "вре́мя",
+      "reading": "vrémya",
+      "translation": "время",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "обустро́иться",
+      "reading": "obustróit'sya",
+      "translation": "обустроиться",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "верну́ться",
+      "reading": "vernút'sya",
+      "translation": "вернуться",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "домой",
+      "reading": "domoy",
+      "translation": "домой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "найти́",
+      "reading": "naytí",
+      "translation": "найти",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́ту",
+      "reading": "rabótu",
+      "translation": "работу",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "которая",
+      "reading": "kotoraya",
+      "translation": "которая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мне",
+      "reading": "mne",
+      "translation": "мне",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "подхо́дит",
+      "reading": "podkhódit",
+      "translation": "подходит",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

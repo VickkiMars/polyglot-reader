@@ -7,6 +7,7 @@
  */
 
 import { LanguageManifest, AudioManifestItem, TextManifestItem } from "@/app/api/offline-manifest/route";
+import { Language } from "@/types";
 
 export const CACHE_NAME = "polyglot-reader-v4";
 export const AUDIO_VERSION_KEY_PREFIX = "polyglot_audio_version_";
@@ -14,7 +15,7 @@ export const DISMISSED_AUDIO_UPDATE_KEY_PREFIX = "polyglot_audio_update_dismisse
 
 export interface DownloadProgress {
   stage: "idle" | "inspecting" | "downloading" | "paused" | "error" | "completed";
-  language: "mandarin" | "japanese";
+  language: Language;
   includeAudio: boolean;
   currentFileName: string;
   currentFileType: "text" | "audio" | "manifest";
@@ -29,7 +30,7 @@ export interface DownloadProgress {
 }
 
 export interface PackStatus {
-  language: "mandarin" | "japanese";
+  language: Language;
   textCachedFiles: number;
   textTotalFiles: number;
   textCachedBytes: number;
@@ -107,7 +108,7 @@ class OfflineDownloadManager {
   /**
    * Fetch manifest for a language
    */
-  public async getManifest(lang: "mandarin" | "japanese"): Promise<LanguageManifest> {
+  public async getManifest(lang: Language): Promise<LanguageManifest> {
     const res = await fetch(`/api/offline-manifest?lang=${lang}`);
     if (!res.ok) {
       throw new Error(`Failed to fetch offline manifest for ${lang} (${res.status})`);
@@ -118,11 +119,18 @@ class OfflineDownloadManager {
   /**
    * Inspect current cache status for a language
    */
-  public async checkStatus(lang: "mandarin" | "japanese", manifest?: LanguageManifest): Promise<PackStatus> {
-    const defaultTargetVersion = lang === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard";
+  public async checkStatus(lang: Language, manifest?: LanguageManifest): Promise<PackStatus> {
+    const defaultTargetVersion =
+      lang === "japanese"
+        ? "2.0.0-neural-nanami"
+        : lang === "russian"
+        ? "1.0.0-neural-svetlana"
+        : "1.0.0-standard";
     const defaultDesc =
       lang === "japanese"
         ? "Upgraded neural Japanese narration (Nanami) with native pitch accent"
+        : lang === "russian"
+        ? "High-fidelity neural Russian narration (Svetlana) with clear educational diction"
         : "Standard Mandarin neural audio";
 
     if (typeof window === "undefined" || !("caches" in window)) {
@@ -217,7 +225,7 @@ class OfflineDownloadManager {
    * Purge all cached audio for a specific language across ALL browser cache buckets.
    * This guarantees the complete deletion of legacy audio files before fresh ones are downloaded.
    */
-  public async purgeAudioCache(lang: "mandarin" | "japanese"): Promise<number> {
+  public async purgeAudioCache(lang: Language): Promise<number> {
     if (typeof window === "undefined" || !("caches" in window)) return 0;
     let deletedCount = 0;
     try {
@@ -271,7 +279,7 @@ class OfflineDownloadManager {
     isUpgrade = false,
     onProgress,
   }: {
-    language: "mandarin" | "japanese";
+    language: Language;
     includeAudio: boolean;
     isUpgrade?: boolean;
     onProgress?: (p: DownloadProgress) => void;
@@ -682,7 +690,13 @@ class OfflineDownloadManager {
       // 100% Download Completed!
       if (includeAudio) {
         try {
-          const targetVer = manifest.audioVersion || (language === "japanese" ? "2.0.0-neural-nanami" : "1.0.0-standard");
+          const targetVer =
+            manifest.audioVersion ||
+            (language === "japanese"
+              ? "2.0.0-neural-nanami"
+              : language === "russian"
+              ? "1.0.0-neural-svetlana"
+              : "1.0.0-standard");
           localStorage.setItem(`${AUDIO_VERSION_KEY_PREFIX}${language}`, targetVer);
         } catch (e) {}
       }
@@ -730,7 +744,7 @@ class OfflineDownloadManager {
   /**
    * Delete all cached text and audio for a language
    */
-  public async deleteLanguagePack(lang: "mandarin" | "japanese"): Promise<void> {
+  public async deleteLanguagePack(lang: Language): Promise<void> {
     if (typeof window === "undefined" || !("caches" in window)) return;
     try {
       const manifest = await this.getManifest(lang);

@@ -1,0 +1,363 @@
+{
+  "id": 20370,
+  "title": "Age",
+  "russian_title": "Во́зраст",
+  "level": "Intermediate",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "age-story",
+  "audio_url": "/audio/russian/20370_age-story.mp3",
+  "english_paragraphs": [
+    "The store attendant thought my mother looked very young, and my father was also very happy. They started guessing how old their aunt was. The aunt said, \"Guess how old I am?\" Mom thought for a while and said, \"I think you are about forty years old.\" The aunt smiled and said, \"No, I am fifty years old this year.\" Everyone was surprised. Then, they talked about their zodiac sign, and the question of the year they were born also became interesting."
+  ],
+  "english_full": "The store attendant thought my mother looked very young, and my father was also very happy. They started guessing how old their aunt was. The aunt said, \"Guess how old I am?\" Mom thought for a while and said, \"I think you are about forty years old.\" The aunt smiled and said, \"No, I am fifty years old this year.\" Everyone was surprised. Then, they talked about their zodiac sign, and the question of the year they were born also became interesting.",
+  "russian_paragraphs": [
+    "Служа́щая в скла́де ду́мала, что ма́ма выгляд́ит са́мой молодо́й, а ба́тя то́же был са́мым счастли́вым. Они́ нача́ли дога́дываться, сколь́ко ле́т их тётя. Тётя ска́зала: «Дога́дайся, сколь́ко мне ле́т?» Ма́ма по́думала неко́торое вре́мя и ска́зала: «Дума́ю, тебе о́коло сорока́ лет.» Тётя улы́бнулась и ска́зала: «Нет, мне пятьдеся́т ле́т в э́том году́.» Все были изумлённые. Тогда́ они го́ворили о своём знаке зодиа́ка, и вопро́с о году́, в кото́ром они́ роди́лись, то́же ста́л интере́сным."
+  ],
+  "reading_paragraphs": [
+    "Slúzhashchaya v skláde dúmala, chto máma výglidit sámóy molodóy, a bátya tózhe byl sámým schastlívym. Oní nacháli dogádyvatsya, skól'ko lét ikh tétya. Tét'ya skázala: «Dogáidaysya, skól'ko mne lét?» Máma pódumala nekótoroje vrémya i skázala: «Dumáyu, tebe ókolo soroká lét.» Tét'ya ulýbnulas' i skázala: «Net, mne pyát'desyát lét v étom godú.» Vse býli izumlyónnye. Togdá oni gово́rili o svoém znake zodiáka, i vopros o godú, v kotoróm oní rodílis', tózhe stál interéssnym."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Sluzháshchaya\" data-defn=\"служащая\" data-hsk=\"A2\"><span class=\"si\">Служа́щая</span><rt>Sluzháshchaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skláde\" data-defn=\"складе\" data-hsk=\"A2\"><span class=\"si\">скла́де</span><rt>skláde</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmala\" data-defn=\"думала\" data-hsk=\"A2\"><span class=\"si\">ду́мала</span><rt>dúmala</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"máma\" data-defn=\"мама\" data-hsk=\"A2\"><span class=\"si\">ма́ма</span><rt>máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vyglyad́it\" data-defn=\"выглядит\" data-hsk=\"A2\"><span class=\"si\">выгляд́ит</span><rt>vyglyad́it</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámoy\" data-defn=\"самой\" data-hsk=\"A2\"><span class=\"si\">са́мой</span><rt>sámoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"molodóy\" data-defn=\"молодой\" data-hsk=\"A2\"><span class=\"si\">молодо́й</span><rt>molodóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A2\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bátya\" data-defn=\"батя\" data-hsk=\"A2\"><span class=\"si\">ба́тя</span><rt>bátya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"A2\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámym\" data-defn=\"самым\" data-hsk=\"A2\"><span class=\"si\">са́мым</span><rt>sámym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"schastlívym\" data-defn=\"счастливым\" data-hsk=\"A2\"><span class=\"si\">счастли́вым</span><rt>schastlívym</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Oní\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они́</span><rt>Oní</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nacháli\" data-defn=\"начали\" data-hsk=\"A2\"><span class=\"si\">нача́ли</span><rt>nacháli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dogádyvat&#x27;sya\" data-defn=\"догадываться\" data-hsk=\"A2\"><span class=\"si\">дога́дываться</span><rt>dogádyvat&#x27;sya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"skol&#x27;́ko\" data-defn=\"сколько\" data-hsk=\"A2\"><span class=\"si\">сколь́ко</span><rt>skol&#x27;́ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">тётя</span><rt>tyotya</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">Тётя</span><rt>Tyotya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dogádaysya\" data-defn=\"догадайся\" data-hsk=\"A2\"><span class=\"si\">Дога́дайся</span><rt>Dogádaysya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"skol&#x27;́ko\" data-defn=\"сколько\" data-hsk=\"A2\"><span class=\"si\">сколь́ко</span><rt>skol&#x27;́ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby>?» <ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A2\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pódumala\" data-defn=\"подумала\" data-hsk=\"A2\"><span class=\"si\">по́думала</span><rt>pódumala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nekótoroe\" data-defn=\"некоторое\" data-hsk=\"A2\"><span class=\"si\">неко́торое</span><rt>nekótoroe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"A2\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dumáyu\" data-defn=\"думаю\" data-hsk=\"A2\"><span class=\"si\">Дума́ю</span><rt>Dumáyu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tebe\" data-defn=\"тебе\" data-hsk=\"A2\"><span class=\"si\">тебе</span><rt>tebe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ókolo\" data-defn=\"около\" data-hsk=\"A2\"><span class=\"si\">о́коло</span><rt>ókolo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"soroká\" data-defn=\"сорока\" data-hsk=\"A2\"><span class=\"si\">сорока́</span><rt>soroká</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">лет</span><rt>let</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"Tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">Тётя</span><rt>Tyotya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ulýbnulas&#x27;\" data-defn=\"улыбнулась\" data-hsk=\"A2\"><span class=\"si\">улы́бнулась</span><rt>ulýbnulas&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">Нет</span><rt>Net</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pyat&#x27;desyát\" data-defn=\"пятьдесят\" data-hsk=\"A2\"><span class=\"si\">пятьдеся́т</span><rt>pyat&#x27;desyát</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"étom\" data-defn=\"этом\" data-hsk=\"A2\"><span class=\"si\">э́том</span><rt>étom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"godú\" data-defn=\"году\" data-hsk=\"A2\"><span class=\"si\">году́</span><rt>godú</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"Vse\" data-defn=\"все\" data-hsk=\"A2\"><span class=\"si\">Все</span><rt>Vse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byli\" data-defn=\"были\" data-hsk=\"A2\"><span class=\"si\">были</span><rt>byli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"izumlyonnye\" data-defn=\"изумлённые\" data-hsk=\"A2\"><span class=\"si\">изумлённые</span><rt>izumlyonnye</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Togdá\" data-defn=\"тогда\" data-hsk=\"A2\"><span class=\"si\">Тогда́</span><rt>Togdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">они</span><rt>oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góvorili\" data-defn=\"говорили\" data-hsk=\"A2\"><span class=\"si\">го́ворили</span><rt>góvorili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoyom\" data-defn=\"своём\" data-hsk=\"A2\"><span class=\"si\">своём</span><rt>svoyom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znake\" data-defn=\"знаке\" data-hsk=\"A2\"><span class=\"si\">знаке</span><rt>znake</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zodiáka\" data-defn=\"зодиака\" data-hsk=\"A2\"><span class=\"si\">зодиа́ка</span><rt>zodiáka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voprós\" data-defn=\"вопрос\" data-hsk=\"A2\"><span class=\"si\">вопро́с</span><rt>voprós</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"godú\" data-defn=\"году\" data-hsk=\"A2\"><span class=\"si\">году́</span><rt>godú</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotórom\" data-defn=\"котором\" data-hsk=\"A2\"><span class=\"si\">кото́ром</span><rt>kotórom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oní\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">они́</span><rt>oní</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rodílis&#x27;\" data-defn=\"родились\" data-hsk=\"A2\"><span class=\"si\">роди́лись</span><rt>rodílis&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stál\" data-defn=\"стал\" data-hsk=\"A2\"><span class=\"si\">ста́л</span><rt>stál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"interésnym\" data-defn=\"интересным\" data-hsk=\"A2\"><span class=\"si\">интере́сным</span><rt>interésnym</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "Служа́щая",
+      "reading": "Sluzháshchaya",
+      "translation": "служащая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "скла́де",
+      "reading": "skláde",
+      "translation": "складе",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ду́мала",
+      "reading": "dúmala",
+      "translation": "думала",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "что",
+      "reading": "chto",
+      "translation": "что",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ма́ма",
+      "reading": "máma",
+      "translation": "мама",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "выгляд́ит",
+      "reading": "vyglyad́it",
+      "translation": "выглядит",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "са́мой",
+      "reading": "sámoy",
+      "translation": "самой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "молодо́й",
+      "reading": "molodóy",
+      "translation": "молодой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ба́тя",
+      "reading": "bátya",
+      "translation": "батя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "то́же",
+      "reading": "tózhe",
+      "translation": "тоже",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "был",
+      "reading": "byl",
+      "translation": "был",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "са́мым",
+      "reading": "sámym",
+      "translation": "самым",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "счастли́вым",
+      "reading": "schastlívym",
+      "translation": "счастливым",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Они́",
+      "reading": "Oní",
+      "translation": "они",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "нача́ли",
+      "reading": "nacháli",
+      "translation": "начали",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "дога́дываться",
+      "reading": "dogádyvat'sya",
+      "translation": "догадываться",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "сколь́ко",
+      "reading": "skol'́ko",
+      "translation": "сколько",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ле́т",
+      "reading": "lét",
+      "translation": "лет",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "их",
+      "reading": "ikh",
+      "translation": "их",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "тётя",
+      "reading": "tyotya",
+      "translation": "тётя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ска́зала",
+      "reading": "skázala",
+      "translation": "сказала",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Дога́дайся",
+      "reading": "Dogádaysya",
+      "translation": "догадайся",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мне",
+      "reading": "mne",
+      "translation": "мне",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "по́думала",
+      "reading": "pódumala",
+      "translation": "подумала",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "неко́торое",
+      "reading": "nekótoroe",
+      "translation": "некоторое",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "вре́мя",
+      "reading": "vrémya",
+      "translation": "время",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Дума́ю",
+      "reading": "Dumáyu",
+      "translation": "думаю",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "тебе",
+      "reading": "tebe",
+      "translation": "тебе",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "о́коло",
+      "reading": "ókolo",
+      "translation": "около",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "сорока́",
+      "reading": "soroká",
+      "translation": "сорока",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "улы́бнулась",
+      "reading": "ulýbnulas'",
+      "translation": "улыбнулась",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Нет",
+      "reading": "Net",
+      "translation": "нет",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пятьдеся́т",
+      "reading": "pyat'desyát",
+      "translation": "пятьдесят",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "э́том",
+      "reading": "étom",
+      "translation": "этом",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "году́",
+      "reading": "godú",
+      "translation": "году",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Все",
+      "reading": "Vse",
+      "translation": "все",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "были",
+      "reading": "byli",
+      "translation": "были",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "изумлённые",
+      "reading": "izumlyonnye",
+      "translation": "изумлённые",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Тогда́",
+      "reading": "Togdá",
+      "translation": "тогда",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "го́ворили",
+      "reading": "góvorili",
+      "translation": "говорили",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "своём",
+      "reading": "svoyom",
+      "translation": "своём",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "знаке",
+      "reading": "znake",
+      "translation": "знаке",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "зодиа́ка",
+      "reading": "zodiáka",
+      "translation": "зодиака",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "вопро́с",
+      "reading": "voprós",
+      "translation": "вопрос",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "кото́ром",
+      "reading": "kotórom",
+      "translation": "котором",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "роди́лись",
+      "reading": "rodílis'",
+      "translation": "родились",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "ста́л",
+      "reading": "stál",
+      "translation": "стал",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "интере́сным",
+      "reading": "interésnym",
+      "translation": "интересным",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

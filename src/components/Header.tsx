@@ -5,13 +5,14 @@ import Link from "next/link";
 import { Download, Check } from "lucide-react";
 import InstallOfflineModal from "./InstallOfflineModal";
 import { offlineDownloadManager, DownloadProgress, PackStatus } from "@/lib/offlineDownloadManager";
+import { Language } from "@/types";
 
 interface HeaderProps {
-  currentLanguage: "mandarin" | "japanese";
-  onLanguageChange: (lang: "mandarin" | "japanese") => void;
+  currentLanguage: Language;
+  onLanguageChange: (lang: Language) => void;
   externalOpenModal?: boolean;
   onExternalModalHandled?: () => void;
-  targetModalLang?: "mandarin" | "japanese";
+  targetModalLang?: Language;
 }
 
 interface BeforeInstallPromptEvent extends Event {
@@ -191,6 +192,19 @@ export default function Header({
                 <span>🇯🇵</span>
                 <span className="hidden sm:inline">Japanese (JLPT)</span>
                 <span className="hidden min-[360px]:inline sm:hidden text-[11px]">JLPT</span>
+              </button>
+              <button
+                onClick={() => onLanguageChange("russian")}
+                className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[32px] sm:min-h-[36px] ${
+                  currentLanguage === "russian"
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                }`}
+                aria-pressed={currentLanguage === "russian"}
+              >
+                <span>🇷🇺</span>
+                <span className="hidden sm:inline">Russian (ТРКИ)</span>
+                <span className="hidden min-[360px]:inline sm:hidden text-[11px]">ТРКИ</span>
               </button>
             </div>
 

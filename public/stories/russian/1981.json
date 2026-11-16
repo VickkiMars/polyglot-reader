@@ -1,0 +1,977 @@
+{
+  "id": 1981,
+  "title": "Many Companies Don’t Care Anymore If You Went To College",
+  "russian_title": "Мно́гие компа́нии уже́ не волну́ются, если вы учи́лись в ко́лледже",
+  "level": "Advanced",
+  "torfl_level": "B1",
+  "hsk_tags": [
+    "B1"
+  ],
+  "slug": "many-companies-dont-care-anymore-if-you-went-to-college",
+  "audio_url": "/audio/russian/1981_many-companies-dont-care-anymore-if-you-went-to-college.mp3",
+  "english_paragraphs": [
+    "Recently, job-search website Glassdoor listed 15 companies that do not require applicants to have a college degree, including Apple, Google, and Starbucks.",
+    "Dropping the college degree requirement goes against traditional hiring practices. Maggie Stilwell of the accounting firm Ernst & Young told The Huffington Post: “Companies will still consider education when hiring. It remains an important factor in evaluating applicants, but it is no longer a barrier.” This means companies will hire the people whose experience and abilities best fit each position. Many of those hired in the future will have college degrees, while some will not.",
+    "A few years ago, Google said that college grades have little connection to job performance. IBM’s Ginni Rometty has said that, for many technical jobs, professional training courses and on-the-job experience are more useful than a four-year college degree. But that does not mean a college degree is useless. For many people, college is a place to gain skills that employers value.",
+    "Which kind of résumé better shows an applicant’s work ethic or motivation? What a person has actually learned matters more than how they learned it."
+  ],
+  "english_full": "Recently, job-search website Glassdoor listed 15 companies that do not require applicants to have a college degree, including Apple, Google, and Starbucks.\n\nDropping the college degree requirement goes against traditional hiring practices. Maggie Stilwell of the accounting firm Ernst & Young told The Huffington Post: “Companies will still consider education when hiring. It remains an important factor in evaluating applicants, but it is no longer a barrier.” This means companies will hire the people whose experience and abilities best fit each position. Many of those hired in the future will have college degrees, while some will not.\n\nA few years ago, Google said that college grades have little connection to job performance. IBM’s Ginni Rometty has said that, for many technical jobs, professional training courses and on-the-job experience are more useful than a four-year college degree. But that does not mean a college degree is useless. For many people, college is a place to gain skills that employers value.\n\nWhich kind of résumé better shows an applicant’s work ethic or motivation? What a person has actually learned matters more than how they learned it.",
+  "russian_paragraphs": [
+    "Неда́вно веб-сайт по поиску рабо́ты Glassdoor опубликова́л спи́сок из 15 компа́ний, которые не тре́буют от аплика́нтов наличия дипло́ма, включа́я я́блоко, гугле́ние и Ста́рбакс.",
+    "Отка́з от требо́вания дипло́ма противо́речит традицио́нным практикам наёма. Мэ́гги Сти́лвелл из бухгалте́рской компа́нии Ernst & Young ска́зала The Huffington Post: «Коман́ды всё ещё будут расста́ривать образова́ние при наёме. Оно остаётся ва́жным факто́ром при оце́нке аплика́нтов, но уже́ не является барье́ром.» Это значит, что компа́нии будут наима́ть лю́дей, чей о́пыт и уме́ния наилу́чшим обра́зом подхо́дят для каждо́й пози́ции. Мно́гие из тех, кого нанимают в будущем, будут иметь дипло́мы, в то вре́мя как не́сколько из них нет.",
+    "Не́сколько лет наза́д гугле́ние ска́зало, что оценки́ в ко́лледже имеют ма́ленькое соедине́ние с производи́тельностью на рабо́те. Джинни Ромéтти из Ай-Би-Э́м ска́зала, что для мно́гих техни́ческих работ про́фессиональные курсы и практи́ческий о́пыт на рабо́те более полезны, чем четырёхле́тний диплом. Но это не значи́т, что дипло́м бесполе́зен. Для мно́гих лю́дей ко́лледж — это ме́сто, где можно приобрести на́выки, которые это́гкоторые́ нанима́тели це́нят.",
+    "Како́й вид резюме́ лучше всего демонстриру́ет трудолюбие или мотива́цию аплика́нта? То, что человек факти́чески узнал, имеет большее зна́чение, чем то, как он это узнал."
+  ],
+  "reading_paragraphs": [
+    "Nedávno veb-sajt po poisku rabóty Glassdoor opublikovál spisók iz 15 kompánii, kotorye ne trébuyut ot aplikántov nalichiya diplóma, vklyucháya yábloko, guglénie i Stárbaks.",
+    "Otkáz ot trebovánia diplóma protivoréchit traditsionným praktikám naëma. Méggí Stílvell iz búkhalterskoy kompánii Ernst & Young skázala The Huffington Post: «Komand́y vsyo yeshchó budut rassmát rivat' obrazovániye pri naëme. Ono ostayótsya vájnym faktórm pri otsénke aplikántov, no uzhé ne yavlyáetsya bariéróm.» Eto znachít, chto kompánii budut naimát' lyúdey, ch'yó opyt i uméniya nailúchshim obrazóm podkhódyat dlya každoy pozitsíi. Mnogíye iz tekh, kogo nánimayut v budúshchem, budut iméti diplómy, v to vremá, kak néskol'ko iz nikh nyet.",
+    "Néskol'ko lét nazad guglénie skázalo, chto otsénki v kólledzhe imeyut málen'koye soyedineniye s proizvodítel'nost'yu na rabóté. Dzhínni Rométti iz Aý-Bi-Ém skázala, chto dlya mnogíkh tekhnicheskíkh rabót professional'nye kúrsы i práticheskiy opyt na raboté bol'she polézny, chem chetyr'ókhletniy diplom. No éto ne znachít, chto diplóm bespolézen. Dlya mnogíkh lyúdey kólledzh — eto mésto, gdé mozhno priobresti návyki, kotorye náimiráteli tsenit.",
+    "Kakóy vid rézyumé luchshe vsego démonstríruyet trudolyúbiye ili motivátsiyu aplikánta? To, chto chelovék faktícheski uznál, imeyet bol'shoye znachéniye, chem to, kak on éto uznál."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Nedávno\" data-defn=\"недавно\" data-hsk=\"B1\"><span class=\"si\">Неда́вно</span><rt>Nedávno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"veb-sayt\" data-defn=\"веб-сайт\" data-hsk=\"B1\"><span class=\"si\">веб-сайт</span><rt>veb-sayt</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"B1\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poisku\" data-defn=\"поиску\" data-hsk=\"B1\"><span class=\"si\">поиску</span><rt>poisku</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóty\" data-defn=\"работы\" data-hsk=\"B1\"><span class=\"si\">рабо́ты</span><rt>rabóty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Glassdoor\" data-defn=\"glassdoor\" data-hsk=\"B1\"><span class=\"si\">Glassdoor</span><rt>Glassdoor</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"opublikovál\" data-defn=\"опубликовал\" data-hsk=\"B1\"><span class=\"si\">опубликова́л</span><rt>opublikovál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spísok\" data-defn=\"список\" data-hsk=\"B1\"><span class=\"si\">спи́сок</span><rt>spísok</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"15\" data-defn=\"15\" data-hsk=\"B1\"><span class=\"si\">15</span><rt>15</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompániy\" data-defn=\"компаний\" data-hsk=\"B1\"><span class=\"si\">компа́ний</span><rt>kompániy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotorye\" data-defn=\"которые\" data-hsk=\"B1\"><span class=\"si\">которые</span><rt>kotorye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"trébuyut\" data-defn=\"требуют\" data-hsk=\"B1\"><span class=\"si\">тре́буют</span><rt>trébuyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ot\" data-defn=\"от\" data-hsk=\"B1\"><span class=\"si\">от</span><rt>ot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"aplikántov\" data-defn=\"апликантов\" data-hsk=\"B1\"><span class=\"si\">аплика́нтов</span><rt>aplikántov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nalichiya\" data-defn=\"наличия\" data-hsk=\"B1\"><span class=\"si\">наличия</span><rt>nalichiya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"diplóma\" data-defn=\"диплома\" data-hsk=\"B1\"><span class=\"si\">дипло́ма</span><rt>diplóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vklyucháya\" data-defn=\"включая\" data-hsk=\"B1\"><span class=\"si\">включа́я</span><rt>vklyucháya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yábloko\" data-defn=\"яблоко\" data-hsk=\"B1\"><span class=\"si\">я́блоко</span><rt>yábloko</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"guglénie\" data-defn=\"гугление\" data-hsk=\"B1\"><span class=\"si\">гугле́ние</span><rt>guglénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Stárbaks\" data-defn=\"старбакс\" data-hsk=\"B1\"><span class=\"si\">Ста́рбакс</span><rt>Stárbaks</rt></ruby>.",
+    "<ruby class=\"mb-tooltip\" data-py=\"Otkáz\" data-defn=\"отказ\" data-hsk=\"B1\"><span class=\"si\">Отка́з</span><rt>Otkáz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ot\" data-defn=\"от\" data-hsk=\"B1\"><span class=\"si\">от</span><rt>ot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"trebóvaniya\" data-defn=\"требования\" data-hsk=\"B1\"><span class=\"si\">требо́вания</span><rt>trebóvaniya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"diplóma\" data-defn=\"диплома\" data-hsk=\"B1\"><span class=\"si\">дипло́ма</span><rt>diplóma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"protivórechit\" data-defn=\"противоречит\" data-hsk=\"B1\"><span class=\"si\">противо́речит</span><rt>protivórechit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"traditsiónnym\" data-defn=\"традиционным\" data-hsk=\"B1\"><span class=\"si\">традицио́нным</span><rt>traditsiónnym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"praktikam\" data-defn=\"практикам\" data-hsk=\"B1\"><span class=\"si\">практикам</span><rt>praktikam</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nayoma\" data-defn=\"наёма\" data-hsk=\"B1\"><span class=\"si\">наёма</span><rt>nayoma</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Méggi\" data-defn=\"мэгги\" data-hsk=\"B1\"><span class=\"si\">Мэ́гги</span><rt>Méggi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Stílvell\" data-defn=\"стилвелл\" data-hsk=\"B1\"><span class=\"si\">Сти́лвелл</span><rt>Stílvell</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bukhgaltérskoy\" data-defn=\"бухгалтерской\" data-hsk=\"B1\"><span class=\"si\">бухгалте́рской</span><rt>bukhgaltérskoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompánii\" data-defn=\"компании\" data-hsk=\"B1\"><span class=\"si\">компа́нии</span><rt>kompánii</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Ernst\" data-defn=\"ernst\" data-hsk=\"B1\"><span class=\"si\">Ernst</span><rt>Ernst</rt></ruby> & <ruby class=\"mb-tooltip\" data-py=\"Young\" data-defn=\"молодой, младо́й, молодо́й\" data-hsk=\"B1\"><span class=\"si\">Young</span><rt>Young</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"B1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"The\" data-defn=\"чем + comp., тем + comp.\" data-hsk=\"B1\"><span class=\"si\">The</span><rt>The</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Huffington\" data-defn=\"huffington\" data-hsk=\"B1\"><span class=\"si\">Huffington</span><rt>Huffington</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Post\" data-defn=\"пост, сообще́ние, столб\" data-hsk=\"B1\"><span class=\"si\">Post</span><rt>Post</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Komańdy\" data-defn=\"команды\" data-hsk=\"B1\"><span class=\"si\">Коман́ды</span><rt>Komańdy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"B1\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eshchyo\" data-defn=\"ещё\" data-hsk=\"B1\"><span class=\"si\">ещё</span><rt>eshchyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budut\" data-defn=\"будут\" data-hsk=\"B1\"><span class=\"si\">будут</span><rt>budut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rasstárivat&#x27;\" data-defn=\"расстаривать\" data-hsk=\"B1\"><span class=\"si\">расста́ривать</span><rt>rasstárivat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obrazovánie\" data-defn=\"образование\" data-hsk=\"B1\"><span class=\"si\">образова́ние</span><rt>obrazovánie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pri\" data-defn=\"при\" data-hsk=\"B1\"><span class=\"si\">при</span><rt>pri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nayome\" data-defn=\"наёме\" data-hsk=\"B1\"><span class=\"si\">наёме</span><rt>nayome</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Ono\" data-defn=\"оно\" data-hsk=\"B1\"><span class=\"si\">Оно</span><rt>Ono</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ostayotsya\" data-defn=\"остаётся\" data-hsk=\"B1\"><span class=\"si\">остаётся</span><rt>ostayotsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vázhnym\" data-defn=\"важным\" data-hsk=\"B1\"><span class=\"si\">ва́жным</span><rt>vázhnym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"faktórom\" data-defn=\"фактором\" data-hsk=\"B1\"><span class=\"si\">факто́ром</span><rt>faktórom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pri\" data-defn=\"при\" data-hsk=\"B1\"><span class=\"si\">при</span><rt>pri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otsénke\" data-defn=\"оценке\" data-hsk=\"B1\"><span class=\"si\">оце́нке</span><rt>otsénke</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"aplikántov\" data-defn=\"апликантов\" data-hsk=\"B1\"><span class=\"si\">аплика́нтов</span><rt>aplikántov</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"B1\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uzhé\" data-defn=\"уже\" data-hsk=\"B1\"><span class=\"si\">уже́</span><rt>uzhé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yavlyaetsya\" data-defn=\"является\" data-hsk=\"B1\"><span class=\"si\">является</span><rt>yavlyaetsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bar&#x27;érom\" data-defn=\"барьером\" data-hsk=\"B1\"><span class=\"si\">барье́ром</span><rt>bar&#x27;érom</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"Eto\" data-defn=\"это\" data-hsk=\"B1\"><span class=\"si\">Это</span><rt>Eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znachit\" data-defn=\"значит\" data-hsk=\"B1\"><span class=\"si\">значит</span><rt>znachit</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompánii\" data-defn=\"компании\" data-hsk=\"B1\"><span class=\"si\">компа́нии</span><rt>kompánii</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budut\" data-defn=\"будут\" data-hsk=\"B1\"><span class=\"si\">будут</span><rt>budut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"naimát&#x27;\" data-defn=\"наимать\" data-hsk=\"B1\"><span class=\"si\">наима́ть</span><rt>naimát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdey\" data-defn=\"людей\" data-hsk=\"B1\"><span class=\"si\">лю́дей</span><rt>lyúdey</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chey\" data-defn=\"чей\" data-hsk=\"B1\"><span class=\"si\">чей</span><rt>chey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ópyt\" data-defn=\"опыт\" data-hsk=\"B1\"><span class=\"si\">о́пыт</span><rt>ópyt</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uméniya\" data-defn=\"умения\" data-hsk=\"B1\"><span class=\"si\">уме́ния</span><rt>uméniya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nailúchshim\" data-defn=\"наилучшим\" data-hsk=\"B1\"><span class=\"si\">наилу́чшим</span><rt>nailúchshim</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obrázom\" data-defn=\"образом\" data-hsk=\"B1\"><span class=\"si\">обра́зом</span><rt>obrázom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podkhódyat\" data-defn=\"подходят\" data-hsk=\"B1\"><span class=\"si\">подхо́дят</span><rt>podkhódyat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"B1\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kazhdóy\" data-defn=\"каждой\" data-hsk=\"B1\"><span class=\"si\">каждо́й</span><rt>kazhdóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pozítsii\" data-defn=\"позиции\" data-hsk=\"B1\"><span class=\"si\">пози́ции</span><rt>pozítsii</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Mnógie\" data-defn=\"многие\" data-hsk=\"B1\"><span class=\"si\">Мно́гие</span><rt>Mnógie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tekh\" data-defn=\"тех\" data-hsk=\"B1\"><span class=\"si\">тех</span><rt>tekh</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kogo\" data-defn=\"кого\" data-hsk=\"B1\"><span class=\"si\">кого</span><rt>kogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nanimayut\" data-defn=\"нанимают\" data-hsk=\"B1\"><span class=\"si\">нанимают</span><rt>nanimayut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budushchem\" data-defn=\"будущем\" data-hsk=\"B1\"><span class=\"si\">будущем</span><rt>budushchem</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"budut\" data-defn=\"будут\" data-hsk=\"B1\"><span class=\"si\">будут</span><rt>budut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"imet&#x27;\" data-defn=\"иметь\" data-hsk=\"B1\"><span class=\"si\">иметь</span><rt>imet&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"diplómy\" data-defn=\"дипломы\" data-hsk=\"B1\"><span class=\"si\">дипло́мы</span><rt>diplómy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"to\" data-defn=\"то\" data-hsk=\"B1\"><span class=\"si\">то</span><rt>to</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"B1\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"B1\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"néskol&#x27;ko\" data-defn=\"несколько\" data-hsk=\"B1\"><span class=\"si\">не́сколько</span><rt>néskol&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nikh\" data-defn=\"них\" data-hsk=\"B1\"><span class=\"si\">них</span><rt>nikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"net\" data-defn=\"нет\" data-hsk=\"B1\"><span class=\"si\">нет</span><rt>net</rt></ruby>.",
+    "<ruby class=\"mb-tooltip\" data-py=\"Néskol&#x27;ko\" data-defn=\"несколько\" data-hsk=\"B1\"><span class=\"si\">Не́сколько</span><rt>Néskol&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"B1\"><span class=\"si\">лет</span><rt>let</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nazád\" data-defn=\"назад\" data-hsk=\"B1\"><span class=\"si\">наза́д</span><rt>nazád</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"guglénie\" data-defn=\"гугление\" data-hsk=\"B1\"><span class=\"si\">гугле́ние</span><rt>guglénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázalo\" data-defn=\"сказало\" data-hsk=\"B1\"><span class=\"si\">ска́зало</span><rt>skázalo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otsenkí\" data-defn=\"оценки\" data-hsk=\"B1\"><span class=\"si\">оценки́</span><rt>otsenkí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kólledzhe\" data-defn=\"колледже\" data-hsk=\"B1\"><span class=\"si\">ко́лледже</span><rt>kólledzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"imeyut\" data-defn=\"имеют\" data-hsk=\"B1\"><span class=\"si\">имеют</span><rt>imeyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"málen&#x27;koe\" data-defn=\"маленькое\" data-hsk=\"B1\"><span class=\"si\">ма́ленькое</span><rt>málen&#x27;koe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"soedinénie\" data-defn=\"соединение\" data-hsk=\"B1\"><span class=\"si\">соедине́ние</span><rt>soedinénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"B1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"proizvodítel&#x27;nost&#x27;yu\" data-defn=\"производительностью\" data-hsk=\"B1\"><span class=\"si\">производи́тельностью</span><rt>proizvodítel&#x27;nost&#x27;yu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóte\" data-defn=\"работе\" data-hsk=\"B1\"><span class=\"si\">рабо́те</span><rt>rabóte</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Dzhinni\" data-defn=\"джинни\" data-hsk=\"B1\"><span class=\"si\">Джинни</span><rt>Dzhinni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Rométti\" data-defn=\"ромéтти\" data-hsk=\"B1\"><span class=\"si\">Ромéтти</span><rt>Rométti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Ay-Bi-Ém\" data-defn=\"ай-би-эм\" data-hsk=\"B1\"><span class=\"si\">Ай-Би-Э́м</span><rt>Ay-Bi-Ém</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"B1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"B1\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógikh\" data-defn=\"многих\" data-hsk=\"B1\"><span class=\"si\">мно́гих</span><rt>mnógikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tekhnícheskikh\" data-defn=\"технических\" data-hsk=\"B1\"><span class=\"si\">техни́ческих</span><rt>tekhnícheskikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabot\" data-defn=\"работ\" data-hsk=\"B1\"><span class=\"si\">работ</span><rt>rabot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prófessional&#x27;nye\" data-defn=\"профессиональные\" data-hsk=\"B1\"><span class=\"si\">про́фессиональные</span><rt>prófessional&#x27;nye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kursy\" data-defn=\"курсы\" data-hsk=\"B1\"><span class=\"si\">курсы</span><rt>kursy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"praktícheskiy\" data-defn=\"практический\" data-hsk=\"B1\"><span class=\"si\">практи́ческий</span><rt>praktícheskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ópyt\" data-defn=\"опыт\" data-hsk=\"B1\"><span class=\"si\">о́пыт</span><rt>ópyt</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóte\" data-defn=\"работе\" data-hsk=\"B1\"><span class=\"si\">рабо́те</span><rt>rabóte</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bolee\" data-defn=\"более\" data-hsk=\"B1\"><span class=\"si\">более</span><rt>bolee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polezny\" data-defn=\"полезны\" data-hsk=\"B1\"><span class=\"si\">полезны</span><rt>polezny</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chem\" data-defn=\"чем\" data-hsk=\"B1\"><span class=\"si\">чем</span><rt>chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chetyryokhlétniy\" data-defn=\"четырёхлетний\" data-hsk=\"B1\"><span class=\"si\">четырёхле́тний</span><rt>chetyryokhlétniy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"diplom\" data-defn=\"диплом\" data-hsk=\"B1\"><span class=\"si\">диплом</span><rt>diplom</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"No\" data-defn=\"но\" data-hsk=\"B1\"><span class=\"si\">Но</span><rt>No</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eto\" data-defn=\"это\" data-hsk=\"B1\"><span class=\"si\">это</span><rt>eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znachít\" data-defn=\"значит\" data-hsk=\"B1\"><span class=\"si\">значи́т</span><rt>znachít</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"diplóm\" data-defn=\"диплом\" data-hsk=\"B1\"><span class=\"si\">дипло́м</span><rt>diplóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bespolézen\" data-defn=\"бесполезен\" data-hsk=\"B1\"><span class=\"si\">бесполе́зен</span><rt>bespolézen</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Dlya\" data-defn=\"для\" data-hsk=\"B1\"><span class=\"si\">Для</span><rt>Dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógikh\" data-defn=\"многих\" data-hsk=\"B1\"><span class=\"si\">мно́гих</span><rt>mnógikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdey\" data-defn=\"людей\" data-hsk=\"B1\"><span class=\"si\">лю́дей</span><rt>lyúdey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kólledzh\" data-defn=\"колледж\" data-hsk=\"B1\"><span class=\"si\">ко́лледж</span><rt>kólledzh</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"eto\" data-defn=\"это\" data-hsk=\"B1\"><span class=\"si\">это</span><rt>eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mésto\" data-defn=\"место\" data-hsk=\"B1\"><span class=\"si\">ме́сто</span><rt>mésto</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"gde\" data-defn=\"где\" data-hsk=\"B1\"><span class=\"si\">где</span><rt>gde</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhno\" data-defn=\"можно\" data-hsk=\"B1\"><span class=\"si\">можно</span><rt>mozhno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"priobresti\" data-defn=\"приобрести\" data-hsk=\"B1\"><span class=\"si\">приобрести</span><rt>priobresti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"návyki\" data-defn=\"навыки\" data-hsk=\"B1\"><span class=\"si\">на́выки</span><rt>návyki</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotorye\" data-defn=\"которые\" data-hsk=\"B1\"><span class=\"si\">которые</span><rt>kotorye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"etógkotoryé\" data-defn=\"этогкоторые\" data-hsk=\"B1\"><span class=\"si\">это́гкоторые́</span><rt>etógkotoryé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nanimáteli\" data-defn=\"наниматели\" data-hsk=\"B1\"><span class=\"si\">нанима́тели</span><rt>nanimáteli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsényat\" data-defn=\"ценят\" data-hsk=\"B1\"><span class=\"si\">це́нят</span><rt>tsényat</rt></ruby>.",
+    "<ruby class=\"mb-tooltip\" data-py=\"Kakóy\" data-defn=\"какой\" data-hsk=\"B1\"><span class=\"si\">Како́й</span><rt>Kakóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vid\" data-defn=\"вид\" data-hsk=\"B1\"><span class=\"si\">вид</span><rt>vid</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rezyumé\" data-defn=\"резюме\" data-hsk=\"B1\"><span class=\"si\">резюме́</span><rt>rezyumé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"luchshe\" data-defn=\"лучше\" data-hsk=\"B1\"><span class=\"si\">лучше</span><rt>luchshe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsego\" data-defn=\"всего\" data-hsk=\"B1\"><span class=\"si\">всего</span><rt>vsego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"demonstrirúet\" data-defn=\"демонстрирует\" data-hsk=\"B1\"><span class=\"si\">демонстриру́ет</span><rt>demonstrirúet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"trudolyubie\" data-defn=\"трудолюбие\" data-hsk=\"B1\"><span class=\"si\">трудолюбие</span><rt>trudolyubie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"B1\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"motivátsiyu\" data-defn=\"мотивацию\" data-hsk=\"B1\"><span class=\"si\">мотива́цию</span><rt>motivátsiyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"aplikánta\" data-defn=\"апликанта\" data-hsk=\"B1\"><span class=\"si\">аплика́нта</span><rt>aplikánta</rt></ruby>? <ruby class=\"mb-tooltip\" data-py=\"To\" data-defn=\"то\" data-hsk=\"B1\"><span class=\"si\">То</span><rt>To</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovek\" data-defn=\"человек\" data-hsk=\"B1\"><span class=\"si\">человек</span><rt>chelovek</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"faktícheski\" data-defn=\"фактически\" data-hsk=\"B1\"><span class=\"si\">факти́чески</span><rt>faktícheski</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uznal\" data-defn=\"узнал\" data-hsk=\"B1\"><span class=\"si\">узнал</span><rt>uznal</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"imeet\" data-defn=\"имеет\" data-hsk=\"B1\"><span class=\"si\">имеет</span><rt>imeet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shee\" data-defn=\"большее\" data-hsk=\"B1\"><span class=\"si\">большее</span><rt>bol&#x27;shee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáchenie\" data-defn=\"значение\" data-hsk=\"B1\"><span class=\"si\">зна́чение</span><rt>znáchenie</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chem\" data-defn=\"чем\" data-hsk=\"B1\"><span class=\"si\">чем</span><rt>chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"to\" data-defn=\"то\" data-hsk=\"B1\"><span class=\"si\">то</span><rt>to</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"B1\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"B1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eto\" data-defn=\"это\" data-hsk=\"B1\"><span class=\"si\">это</span><rt>eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uznal\" data-defn=\"узнал\" data-hsk=\"B1\"><span class=\"si\">узнал</span><rt>uznal</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "Неда́вно",
+      "reading": "Nedávno",
+      "translation": "недавно",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "веб-сайт",
+      "reading": "veb-sayt",
+      "translation": "веб-сайт",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "по",
+      "reading": "po",
+      "translation": "по",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "поиску",
+      "reading": "poisku",
+      "translation": "поиску",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "рабо́ты",
+      "reading": "rabóty",
+      "translation": "работы",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Glassdoor",
+      "reading": "Glassdoor",
+      "translation": "glassdoor",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "опубликова́л",
+      "reading": "opublikovál",
+      "translation": "опубликовал",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "спи́сок",
+      "reading": "spísok",
+      "translation": "список",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "из",
+      "reading": "iz",
+      "translation": "из",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "15",
+      "reading": "15",
+      "translation": "15",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "компа́ний",
+      "reading": "kompániy",
+      "translation": "компаний",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "которые",
+      "reading": "kotorye",
+      "translation": "которые",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "не",
+      "reading": "ne",
+      "translation": "не",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "тре́буют",
+      "reading": "trébuyut",
+      "translation": "требуют",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "от",
+      "reading": "ot",
+      "translation": "от",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "аплика́нтов",
+      "reading": "aplikántov",
+      "translation": "апликантов",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наличия",
+      "reading": "nalichiya",
+      "translation": "наличия",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "дипло́ма",
+      "reading": "diplóma",
+      "translation": "диплома",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "включа́я",
+      "reading": "vklyucháya",
+      "translation": "включая",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "я́блоко",
+      "reading": "yábloko",
+      "translation": "яблоко",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "гугле́ние",
+      "reading": "guglénie",
+      "translation": "гугление",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Ста́рбакс",
+      "reading": "Stárbaks",
+      "translation": "старбакс",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Отка́з",
+      "reading": "Otkáz",
+      "translation": "отказ",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "требо́вания",
+      "reading": "trebóvaniya",
+      "translation": "требования",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "противо́речит",
+      "reading": "protivórechit",
+      "translation": "противоречит",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "традицио́нным",
+      "reading": "traditsiónnym",
+      "translation": "традиционным",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "практикам",
+      "reading": "praktikam",
+      "translation": "практикам",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наёма",
+      "reading": "nayoma",
+      "translation": "наёма",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Мэ́гги",
+      "reading": "Méggi",
+      "translation": "мэгги",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Сти́лвелл",
+      "reading": "Stílvell",
+      "translation": "стилвелл",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "бухгалте́рской",
+      "reading": "bukhgaltérskoy",
+      "translation": "бухгалтерской",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "компа́нии",
+      "reading": "kompánii",
+      "translation": "компании",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Ernst",
+      "reading": "Ernst",
+      "translation": "ernst",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Young",
+      "reading": "Young",
+      "translation": "молодой, младо́й, молодо́й",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ска́зала",
+      "reading": "skázala",
+      "translation": "сказала",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "The",
+      "reading": "The",
+      "translation": "чем + comp., тем + comp.",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Huffington",
+      "reading": "Huffington",
+      "translation": "huffington",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Post",
+      "reading": "Post",
+      "translation": "пост, сообще́ние, столб",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Коман́ды",
+      "reading": "Komańdy",
+      "translation": "команды",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "всё",
+      "reading": "vsyo",
+      "translation": "всё",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ещё",
+      "reading": "eshchyo",
+      "translation": "ещё",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "будут",
+      "reading": "budut",
+      "translation": "будут",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "расста́ривать",
+      "reading": "rasstárivat'",
+      "translation": "расстаривать",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "образова́ние",
+      "reading": "obrazovánie",
+      "translation": "образование",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "при",
+      "reading": "pri",
+      "translation": "при",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наёме",
+      "reading": "nayome",
+      "translation": "наёме",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Оно",
+      "reading": "Ono",
+      "translation": "оно",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "остаётся",
+      "reading": "ostayotsya",
+      "translation": "остаётся",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ва́жным",
+      "reading": "vázhnym",
+      "translation": "важным",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "факто́ром",
+      "reading": "faktórom",
+      "translation": "фактором",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "оце́нке",
+      "reading": "otsénke",
+      "translation": "оценке",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "но",
+      "reading": "no",
+      "translation": "но",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "уже́",
+      "reading": "uzhé",
+      "translation": "уже",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "является",
+      "reading": "yavlyaetsya",
+      "translation": "является",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "барье́ром",
+      "reading": "bar'érom",
+      "translation": "барьером",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Это",
+      "reading": "Eto",
+      "translation": "это",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "значит",
+      "reading": "znachit",
+      "translation": "значит",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "что",
+      "reading": "chto",
+      "translation": "что",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наима́ть",
+      "reading": "naimát'",
+      "translation": "наимать",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "лю́дей",
+      "reading": "lyúdey",
+      "translation": "людей",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "чей",
+      "reading": "chey",
+      "translation": "чей",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "о́пыт",
+      "reading": "ópyt",
+      "translation": "опыт",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "уме́ния",
+      "reading": "uméniya",
+      "translation": "умения",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наилу́чшим",
+      "reading": "nailúchshim",
+      "translation": "наилучшим",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "обра́зом",
+      "reading": "obrázom",
+      "translation": "образом",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "подхо́дят",
+      "reading": "podkhódyat",
+      "translation": "подходят",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "для",
+      "reading": "dlya",
+      "translation": "для",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "каждо́й",
+      "reading": "kazhdóy",
+      "translation": "каждой",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "пози́ции",
+      "reading": "pozítsii",
+      "translation": "позиции",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Мно́гие",
+      "reading": "Mnógie",
+      "translation": "многие",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "тех",
+      "reading": "tekh",
+      "translation": "тех",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "кого",
+      "reading": "kogo",
+      "translation": "кого",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "нанимают",
+      "reading": "nanimayut",
+      "translation": "нанимают",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "будущем",
+      "reading": "budushchem",
+      "translation": "будущем",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "иметь",
+      "reading": "imet'",
+      "translation": "иметь",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "дипло́мы",
+      "reading": "diplómy",
+      "translation": "дипломы",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "то",
+      "reading": "to",
+      "translation": "то",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "вре́мя",
+      "reading": "vrémya",
+      "translation": "время",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "как",
+      "reading": "kak",
+      "translation": "как",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "не́сколько",
+      "reading": "néskol'ko",
+      "translation": "несколько",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "них",
+      "reading": "nikh",
+      "translation": "них",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "нет",
+      "reading": "net",
+      "translation": "нет",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "лет",
+      "reading": "let",
+      "translation": "лет",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "наза́д",
+      "reading": "nazád",
+      "translation": "назад",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ска́зало",
+      "reading": "skázalo",
+      "translation": "сказало",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "оценки́",
+      "reading": "otsenkí",
+      "translation": "оценки",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ко́лледже",
+      "reading": "kólledzhe",
+      "translation": "колледже",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "имеют",
+      "reading": "imeyut",
+      "translation": "имеют",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ма́ленькое",
+      "reading": "málen'koe",
+      "translation": "маленькое",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "соедине́ние",
+      "reading": "soedinénie",
+      "translation": "соединение",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "производи́тельностью",
+      "reading": "proizvodítel'nost'yu",
+      "translation": "производительностью",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "на",
+      "reading": "na",
+      "translation": "на",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "рабо́те",
+      "reading": "rabóte",
+      "translation": "работе",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Джинни",
+      "reading": "Dzhinni",
+      "translation": "джинни",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Ромéтти",
+      "reading": "Rométti",
+      "translation": "ромéтти",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Ай-Би-Э́м",
+      "reading": "Ay-Bi-Ém",
+      "translation": "ай-би-эм",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "мно́гих",
+      "reading": "mnógikh",
+      "translation": "многих",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "техни́ческих",
+      "reading": "tekhnícheskikh",
+      "translation": "технических",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "работ",
+      "reading": "rabot",
+      "translation": "работ",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "про́фессиональные",
+      "reading": "prófessional'nye",
+      "translation": "профессиональные",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "курсы",
+      "reading": "kursy",
+      "translation": "курсы",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "практи́ческий",
+      "reading": "praktícheskiy",
+      "translation": "практический",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "более",
+      "reading": "bolee",
+      "translation": "более",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "полезны",
+      "reading": "polezny",
+      "translation": "полезны",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "чем",
+      "reading": "chem",
+      "translation": "чем",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "четырёхле́тний",
+      "reading": "chetyryokhlétniy",
+      "translation": "четырёхлетний",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "диплом",
+      "reading": "diplom",
+      "translation": "диплом",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "бесполе́зен",
+      "reading": "bespolézen",
+      "translation": "бесполезен",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ко́лледж",
+      "reading": "kólledzh",
+      "translation": "колледж",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "ме́сто",
+      "reading": "mésto",
+      "translation": "место",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "где",
+      "reading": "gde",
+      "translation": "где",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "можно",
+      "reading": "mozhno",
+      "translation": "можно",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "приобрести",
+      "reading": "priobresti",
+      "translation": "приобрести",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "на́выки",
+      "reading": "návyki",
+      "translation": "навыки",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "это́гкоторые́",
+      "reading": "etógkotoryé",
+      "translation": "этогкоторые",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "нанима́тели",
+      "reading": "nanimáteli",
+      "translation": "наниматели",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "це́нят",
+      "reading": "tsényat",
+      "translation": "ценят",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "Како́й",
+      "reading": "Kakóy",
+      "translation": "какой",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "вид",
+      "reading": "vid",
+      "translation": "вид",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "резюме́",
+      "reading": "rezyumé",
+      "translation": "резюме",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "лучше",
+      "reading": "luchshe",
+      "translation": "лучше",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "всего",
+      "reading": "vsego",
+      "translation": "всего",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "демонстриру́ет",
+      "reading": "demonstrirúet",
+      "translation": "демонстрирует",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "трудолюбие",
+      "reading": "trudolyubie",
+      "translation": "трудолюбие",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "или",
+      "reading": "ili",
+      "translation": "или",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "мотива́цию",
+      "reading": "motivátsiyu",
+      "translation": "мотивацию",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "аплика́нта",
+      "reading": "aplikánta",
+      "translation": "апликанта",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "человек",
+      "reading": "chelovek",
+      "translation": "человек",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "факти́чески",
+      "reading": "faktícheski",
+      "translation": "фактически",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "узнал",
+      "reading": "uznal",
+      "translation": "узнал",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "имеет",
+      "reading": "imeet",
+      "translation": "имеет",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "большее",
+      "reading": "bol'shee",
+      "translation": "большее",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "зна́чение",
+      "reading": "znáchenie",
+      "translation": "значение",
+      "torfl": "B1",
+      "hsk": "B1"
+    },
+    {
+      "word": "он",
+      "reading": "on",
+      "translation": "он",
+      "torfl": "B1",
+      "hsk": "B1"
+    }
+  ]
+}

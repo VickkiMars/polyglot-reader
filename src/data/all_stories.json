@@ -20,7 +20,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/23410_a-happy-day.mp3",
-      "japanese": "/audio/japanese/23410_a-happy-day.mp3"
+      "japanese": "/audio/japanese/23410_a-happy-day.mp3",
+      "russian": "/audio/russian/23410_a-happy-day.mp3"
     },
     "mandarin": {
       "character_preview": "我叫大伟，我是一个学生。现在我在中国学习汉语。我有一个好朋友，他叫马丁。我们都是",
@@ -33,6 +34,13 @@
       "character_preview": "私の名前はダーウェイで、私は学生です。今、中国で中国語を勉強しています。私にはマ",
       "reading_preview": "わたしの なまえは だーうぇいで、わたしは がくせいです。いま、ちゅうごくで ち",
       "vocab_count": 62,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Счастливый день",
+      "character_preview": "Меня зовут Давэ́й, и я студе́нт. Ныне я ",
+      "reading_preview": "Menya zovut Davéy, i ya studént. Nýnye y",
+      "vocab_count": 57,
       "para_count": 1
     }
   },
@@ -57,7 +65,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21141_my-bicycle.mp3",
-      "japanese": "/audio/japanese/21141_my-bicycle.mp3"
+      "japanese": "/audio/japanese/21141_my-bicycle.mp3",
+      "russian": "/audio/russian/21141_my-bicycle.mp3"
     },
     "mandarin": {
       "character_preview": "我最喜欢的车是自行车。 我六岁的时候， 妈妈就给我买了一辆小自行车。 那辆车非常",
@@ -70,6 +79,13 @@
       "character_preview": "私のお気に入りの車は自転車です。私が6歳のとき、母が私に小さな自転車を買ってくれ",
       "reading_preview": "わたしのおきにいりのくるまはいちじくしゃです。わたしがろくさいのとき、ははがわた",
       "vocab_count": 47,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Мой велоси́пед",
+      "character_preview": "Моя предпочита́емая маши́на — это велоси",
+      "reading_preview": "Moya predpochtáemaya mashiná — éto vélos",
+      "vocab_count": 43,
       "para_count": 2
     }
   },
@@ -94,7 +110,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21210_how-to-get-to-peoples-park.mp3",
-      "japanese": "/audio/japanese/21210_how-to-get-to-peoples-park.mp3"
+      "japanese": "/audio/japanese/21210_how-to-get-to-peoples-park.mp3",
+      "russian": "/audio/russian/21210_how-to-get-to-peoples-park.mp3"
     },
     "mandarin": {
       "character_preview": "A ： 请问人民公园怎么走？",
@@ -107,6 +124,13 @@
       "character_preview": "A: 人々の公園にどうやって行くのですか？",
       "reading_preview": "A: ひとびとのこうえんに どうやって いくのですか？",
       "vocab_count": 58,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Как добраться до народного парка?",
+      "character_preview": "А: Как добраться до народного парка?",
+      "reading_preview": "A: Kak dobrátsya do národnogo parka?",
+      "vocab_count": 41,
       "para_count": 3
     }
   },
@@ -131,7 +155,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21640_china-first-frozen-person.mp3",
-      "japanese": "/audio/japanese/21640_china-first-frozen-person.mp3"
+      "japanese": "/audio/japanese/21640_china-first-frozen-person.mp3",
+      "russian": "/audio/russian/21640_china-first-frozen-person.mp3"
     },
     "mandarin": {
       "character_preview": "八年前， 桂军民的妻子展文莲因为肺癌即将去世。 但在她去世前， 桂军民做了一个特",
@@ -144,6 +169,13 @@
       "character_preview": "8年前、桂俊民の妻、詹雯連は肺がんで死にかけていました。しかし、彼女の死の前に、",
       "reading_preview": "はちねんまえ、けいしゅんみんのつま、ざんうぇんりゃんははいがんでしにかけていまし",
       "vocab_count": 168,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Первая заморо́женная жени́ха в Кита́е",
+      "character_preview": "Восемь лет наза́д жена́ Гу́й Цзю́ньмина,",
+      "reading_preview": "Vosém' let nazád zhená Gúj Tszýun'm",
+      "vocab_count": 160,
       "para_count": 6
     }
   },
@@ -168,7 +200,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20906_which-one-should-i-buy.mp3",
-      "japanese": "/audio/japanese/20906_which-one-should-i-buy.mp3"
+      "japanese": "/audio/japanese/20906_which-one-should-i-buy.mp3",
+      "russian": "/audio/russian/20906_which-one-should-i-buy.mp3"
     },
     "mandarin": {
       "character_preview": "我在商场买衣服。 红色的衣服很好看， 但是很贵。 黑色的衣服便宜一点儿， 但是颜",
@@ -181,6 +214,13 @@
       "character_preview": "私はショッピングモールで衣服を買い物しています。赤い服はきれいに見えますが、とて",
       "reading_preview": "わたしはショッピングモールでいふくをかいものしています。あかいふくはきれいにみえ",
       "vocab_count": 39,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Како́й из ни́х мне ку́пить?",
+      "character_preview": "Я ку́плю оде́жду в молле. Ры́жий ми́лый,",
+      "reading_preview": "Ya kúplyu odézhdu v mollé. Rýzhiy míliy",
+      "vocab_count": 24,
       "para_count": 1
     }
   },
@@ -205,7 +245,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21751_punch-the-little-monkey.mp3",
-      "japanese": "/audio/japanese/21751_punch-the-little-monkey.mp3"
+      "japanese": "/audio/japanese/21751_punch-the-little-monkey.mp3",
+      "russian": "/audio/russian/21751_punch-the-little-monkey.mp3"
     },
     "mandarin": {
       "character_preview": "Punch 是一只日本的小猴子， 出生在2025 年7 月26 日。 它住在日本",
@@ -218,6 +259,13 @@
       "character_preview": "パンチは2025年7月26日に生まれた小さい日本のさるです。彼は日本の動物園に住",
       "reading_preview": "ぱんちは2025ねん7がつ26にちにうまれたちいさいにほんのさるです。かれはにほ",
       "vocab_count": 167,
+      "para_count": 8
+    },
+    "russian": {
+      "title": "Прока́зник По́нч — ма́ленькая япо́нская обезья́на",
+      "character_preview": "По́нч — это ма́ленькая япо́нская обезья́",
+      "reading_preview": "Pónch — eto málen'kaya yapónskaya obe",
+      "vocab_count": 134,
       "para_count": 8
     }
   },
@@ -242,7 +290,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20910_diary-my-day.mp3",
-      "japanese": "/audio/japanese/20910_diary-my-day.mp3"
+      "japanese": "/audio/japanese/20910_diary-my-day.mp3",
+      "russian": "/audio/russian/20910_diary-my-day.mp3"
     },
     "mandarin": {
       "character_preview": "2025 年5 月20 日| 星期二| 晴天",
@@ -255,6 +304,13 @@
       "character_preview": "2025年5月20日 | 火曜日 | 明るい",
       "reading_preview": "にせんにじゅうごねん ごがつ にじゅうににち | かようび | あかるい",
       "vocab_count": 104,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Дневник — Мой день",
+      "character_preview": "20 ма́я 2025 года | вто́рник | со́лнечны",
+      "reading_preview": "20 máya 2025 goda | vtórnik | sólnech",
+      "vocab_count": 59,
       "para_count": 6
     }
   },
@@ -279,7 +335,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21451_an-email-thank-you-for-helping-me-move.mp3",
-      "japanese": "/audio/japanese/21451_an-email-thank-you-for-helping-me-move.mp3"
+      "japanese": "/audio/japanese/21451_an-email-thank-you-for-helping-me-move.mp3",
+      "russian": "/audio/russian/21451_an-email-thank-you-for-helping-me-move.mp3"
     },
     "mandarin": {
       "character_preview": "寄件人： zhangyi@email.com",
@@ -292,6 +349,13 @@
       "character_preview": "発送人: zhangyi@email.com",
       "reading_preview": "はっそうにん: zhangyi@email.com",
       "vocab_count": 96,
+      "para_count": 11
+    },
+    "russian": {
+      "title": "Электро́нное письмо — Спаси́бо за по́мощь с перее́здом",
+      "character_preview": "Адреса́нт: чжанъи@email.com",
+      "reading_preview": "Adresánt: chzhangyi@email.com",
+      "vocab_count": 29,
       "para_count": 11
     }
   },
@@ -316,7 +380,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20651_my-bedroom.mp3",
-      "japanese": "/audio/japanese/20651_my-bedroom.mp3"
+      "japanese": "/audio/japanese/20651_my-bedroom.mp3",
+      "russian": "/audio/russian/20651_my-bedroom.mp3"
     },
     "mandarin": {
       "character_preview": "我的卧室很小， 但是我很喜欢。 卧室中间有一张大床， 床边有一张书桌， 书桌前放",
@@ -328,6 +393,13 @@
       "title": "私の寝室",
       "character_preview": "私の寝室は小さいですが、私はそれがとても好きです。寝室のまん中に大きなベッドがあ",
       "reading_preview": "わたしのしんしつはちいさいですが、わたしはそれがとてもすきです。しんしつのまんな",
+      "vocab_count": 55,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Моя спальня",
+      "character_preview": "Моя спа́льня ма́ленькая, но я её о́чень ",
+      "reading_preview": "Moya spályn' málen'kaya, no ya yeyo óche",
       "vocab_count": 55,
       "para_count": 1
     }
@@ -353,7 +425,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20770_mom-is-missing.mp3",
-      "japanese": "/audio/japanese/20770_mom-is-missing.mp3"
+      "japanese": "/audio/japanese/20770_mom-is-missing.mp3",
+      "russian": "/audio/russian/20770_mom-is-missing.mp3"
     },
     "mandarin": {
       "character_preview": "春节到了， 女儿和女婿开车带妈妈从广东回湖北过年。 路上， 他们在加油站停车加油",
@@ -366,6 +439,13 @@
       "character_preview": "春祭りがやってきました。娘と彼女の夫は、母親を広東から湖北に連れて行き、新年を祝",
       "reading_preview": "はるまつりがやってきました。むすめとかれの おっとは、ははおやを こうとうから ",
       "vocab_count": 98,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Ма́ма пропа́ла",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 70,
       "para_count": 4
     }
   },
@@ -390,7 +470,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/21029_a-letter-language-class.mp3",
-      "japanese": "/audio/japanese/21029_a-letter-language-class.mp3"
+      "japanese": "/audio/japanese/21029_a-letter-language-class.mp3",
+      "russian": "/audio/russian/21029_a-letter-language-class.mp3"
     },
     "mandarin": {
       "character_preview": "亲爱的王贝：",
@@ -403,6 +484,13 @@
       "character_preview": "親愛なるワン・ベイへ：",
       "reading_preview": "しんあいなるわん・べいへ：",
       "vocab_count": 114,
+      "para_count": 9
+    },
+    "russian": {
+      "title": "Письмо — Урок Языка",
+      "character_preview": "Дорого́й Ван Бэй:",
+      "reading_preview": "Dorogóy Ván Béy:",
+      "vocab_count": 79,
       "para_count": 9
     }
   },
@@ -427,7 +515,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20514_my-day.mp3",
-      "japanese": "/audio/japanese/20514_my-day.mp3"
+      "japanese": "/audio/japanese/20514_my-day.mp3",
+      "russian": "/audio/russian/20514_my-day.mp3"
     },
     "mandarin": {
       "character_preview": "明天要去深圳出差， 我计划今晚就准备好出差的东西。 明天早上七点一刻起床， 洗漱",
@@ -440,6 +529,13 @@
       "character_preview": "私明日深センに出張に行くので、今晩出張の準備をする予定です。明日の朝は7時15分",
       "reading_preview": "わたしあすしんせんにしゅっちょうにいくので、こんばんしゅっちょうのじゅんびをする",
       "vocab_count": 95,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой день",
+      "character_preview": "Завтра я еду в деловую поездку в Шэньчжэ",
+      "reading_preview": "Zavtra ya yed́u v delovuyu poezdku v She",
+      "vocab_count": 100,
       "para_count": 1
     }
   },
@@ -464,7 +560,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20647_my-friend.mp3",
-      "japanese": "/audio/japanese/20647_my-friend.mp3"
+      "japanese": "/audio/japanese/20647_my-friend.mp3",
+      "russian": "/audio/russian/20647_my-friend.mp3"
     },
     "mandarin": {
       "character_preview": "我有一个好朋友， 他叫李明。 他是我的大学同学， 现在二十二岁， 我们认识四年了",
@@ -477,6 +574,13 @@
       "character_preview": "私には良い友達が一人いて、彼の名前はリー・ミンです。彼は私の大学の同級生で、今は",
       "reading_preview": "わたしには よいともだちが いちにんいて、かれのなまえはリー・ミンです。かれは ",
       "vocab_count": 74,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Мо́й друг",
+      "character_preview": "У меня́ есть хоро́ший друг, его и́мя Ли ",
+      "reading_preview": "U menyá yest' khoróshiy drug, yego ím",
+      "vocab_count": 56,
       "para_count": 3
     }
   },
@@ -501,7 +605,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20760_my-daughter.mp3",
-      "japanese": "/audio/japanese/20760_my-daughter.mp3"
+      "japanese": "/audio/japanese/20760_my-daughter.mp3",
+      "russian": "/audio/russian/20760_my-daughter.mp3"
     },
     "mandarin": {
       "character_preview": "我有一个女儿， 她今年五岁。 她的名字叫小宝。 她很可爱， 也很聪明。",
@@ -513,6 +618,13 @@
       "title": "私の娘",
       "character_preview": "私には五歳の娘がいます。彼女の名前はシャオバオです。彼女はかわいくて、賢いです。",
       "reading_preview": "わたしにはごさいのむすめがいます。かのじょのなまえはしゃおばおです。かのじょはか",
+      "vocab_count": 44,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Моя до́чка",
+      "character_preview": "У ме́ня есть до́чка, кото́рой пять ле́т.",
+      "reading_preview": "U ménya yest' dóchka, kotoráy pýat' ",
       "vocab_count": 44,
       "para_count": 4
     }
@@ -538,7 +650,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20380_my-big-family.mp3",
-      "japanese": "/audio/japanese/20380_my-big-family.mp3"
+      "japanese": "/audio/japanese/20380_my-big-family.mp3",
+      "russian": "/audio/russian/20380_my-big-family.mp3"
     },
     "mandarin": {
       "character_preview": "我有一个大家庭。 我的爸爸是中学老师， 妈妈是护士， 现在他们都已经退休了。 我",
@@ -551,6 +664,13 @@
       "character_preview": "私には大きな家族がいます。私の父は中等学校の先生で、母は看護婦です。彼らは今、両",
       "reading_preview": "わたしにはおおきなかぞくがいます。わたしのちちわちゅうとうがっこうのせんせいで、",
       "vocab_count": 103,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Моя большо́й семя́",
+      "character_preview": "У меня́ большо́й семя́. Мой ба́тя — наст",
+      "reading_preview": "U menyá bol'shóy semíya. Moy bátya —",
+      "vocab_count": 36,
       "para_count": 1
     }
   },
@@ -575,7 +695,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20370_age-story.mp3",
-      "japanese": "/audio/japanese/20370_age-story.mp3"
+      "japanese": "/audio/japanese/20370_age-story.mp3",
+      "russian": "/audio/russian/20370_age-story.mp3"
     },
     "mandarin": {
       "character_preview": "商店的服务员阿姨觉得妈妈看起来很年轻， 爸爸也很高兴。 他们开始猜阿姨多大年纪。",
@@ -588,6 +709,13 @@
       "character_preview": "店の付き添いの人は私の母が非常に若く見えると思い、私の父もまたとても幸せでした。",
       "reading_preview": "みせ の つきそい の にん は わたし の はは が ひじょう に わかく み",
       "vocab_count": 63,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Во́зраст",
+      "character_preview": "Служа́щая в скла́де ду́мала, что ма́ма в",
+      "reading_preview": "Slúzhashchaya v skláde dúmala, chto mám",
+      "vocab_count": 48,
       "para_count": 1
     }
   },
@@ -612,7 +740,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20352_mothers-day-2.mp3",
-      "japanese": "/audio/japanese/20352_mothers-day-2.mp3"
+      "japanese": "/audio/japanese/20352_mothers-day-2.mp3",
+      "russian": "/audio/russian/20352_mothers-day-2.mp3"
     },
     "mandarin": {
       "character_preview": "今天是母亲节。 早上， 女儿和儿子对妈妈说： “ 妈妈， 母亲节快乐。 我们爱你",
@@ -625,6 +754,13 @@
       "character_preview": "きょうは母の日です。朝、娘と息子が母に言いました。「お母さん、母の日おめでとう。",
       "reading_preview": "きょう は はは の ひ です。あさ、むすめ と むすこ が はは に いまし ",
       "vocab_count": 39,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "День ма́тери",
+      "character_preview": "Сего́дня — День ма́тери. У́тром до́чка и",
+      "reading_preview": "Segódnya — Dén' máteri. Útrom dóchka i s",
+      "vocab_count": 28,
       "para_count": 1
     }
   },
@@ -649,7 +785,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19960_its-hot-today.mp3",
-      "japanese": "/audio/japanese/19960_its-hot-today.mp3"
+      "japanese": "/audio/japanese/19960_its-hot-today.mp3",
+      "russian": "/audio/russian/19960_its-hot-today.mp3"
     },
     "mandarin": {
       "character_preview": "今天天气很热， 早上中文老师上了三节课， 非常渴。 她去超市买了一瓶水， 又回办",
@@ -662,6 +799,13 @@
       "character_preview": "きょうの天気は非常に暑いです。中国の先生は朝に三つのクラスがあり、私はとてものど",
       "reading_preview": "きょうのてんきはひじょうにあついです。ちゅうごくのせんせいはあさにみっつのくらす",
       "vocab_count": 39,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Сего́дня жа́рко",
+      "character_preview": "Погода сего́дня са́мая жа́ркая. Кита́йск",
+      "reading_preview": "Pogoda segódnya sámaya zhárkaya. Kita",
+      "vocab_count": 29,
       "para_count": 1
     }
   },
@@ -686,7 +830,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20509_music.mp3",
-      "japanese": "/audio/japanese/20509_music.mp3"
+      "japanese": "/audio/japanese/20509_music.mp3",
+      "russian": "/audio/russian/20509_music.mp3"
     },
     "mandarin": {
       "character_preview": "我喜欢音乐， 每天我都听很多音乐。 早上， 我在车里听音乐； 晚上， 我在家听音",
@@ -699,6 +844,13 @@
       "character_preview": "私は音楽が好きで、毎日たくさんの音楽を聞きます。朝は車で音楽を聞き、夕方は家庭で",
       "reading_preview": "わたしはおんがくがすきで、まいにたくさんのおんがくをききます。あさはくるまでおん",
       "vocab_count": 47,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Му́зыка",
+      "character_preview": "Мне нра́вится му́зыка, я слу́шаю мно́го ",
+      "reading_preview": "Mne nrávitsya múzyka, ya slúshayum mn",
+      "vocab_count": 46,
       "para_count": 4
     }
   },
@@ -723,7 +875,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20133_have-meeting.mp3",
-      "japanese": "/audio/japanese/20133_have-meeting.mp3"
+      "japanese": "/audio/japanese/20133_have-meeting.mp3",
+      "russian": "/audio/russian/20133_have-meeting.mp3"
     },
     "mandarin": {
       "character_preview": "今天下午我要开会， 这个会很重要， 但是我没准备好。 中午， 我没时间吃东西， ",
@@ -736,6 +889,13 @@
       "character_preview": "私は今日の午後に会議があります。この会議は非常に重要ですが、準備ができていません",
       "reading_preview": "わたしは きょうの ごごに かいぎが あります。この かいぎは ひじょうに じゅ",
       "vocab_count": 39,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Встре́ча",
+      "character_preview": "У меня́ в втора́й полови́не дня встре́ча",
+      "reading_preview": "U meńya v vtoŕoy polovíne d́nya vstre",
+      "vocab_count": 30,
       "para_count": 1
     }
   },
@@ -760,7 +920,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20389_traditional-festival-march-3.mp3",
-      "japanese": "/audio/japanese/20389_traditional-festival-march-3.mp3"
+      "japanese": "/audio/japanese/20389_traditional-festival-march-3.mp3",
+      "russian": "/audio/russian/20389_traditional-festival-march-3.mp3"
     },
     "mandarin": {
       "character_preview": "农历三月初三是中国多个民族共同的传统节日， 最早起源于古代汉族的上巳节。 古人认",
@@ -773,6 +934,13 @@
       "character_preview": "太陰月の第3番目の日は、中国の多くの民族グループに共有される伝統的な祭りです。こ",
       "reading_preview": "たいいんづきのだい3ばんめのひは、ちゅうごくのたくさんのみんぞくグループにきょう",
       "vocab_count": 259,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Традицио́нный пра́здник 3 марта",
+      "character_preview": "Тре́тий день тре́тьего лу́нного ме́сяца ",
+      "reading_preview": "Trétiy den' trétyego lúnnogo mésyats",
+      "vocab_count": 272,
       "para_count": 3
     }
   },
@@ -797,7 +965,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/20142_my-hometown.mp3",
-      "japanese": "/audio/japanese/20142_my-hometown.mp3"
+      "japanese": "/audio/japanese/20142_my-hometown.mp3",
+      "russian": "/audio/russian/20142_my-hometown.mp3"
     },
     "mandarin": {
       "character_preview": "我的家乡在农村， 那里有很多动物和植物。 我家养了一群羊、 两匹马、 三头牛， ",
@@ -810,6 +979,13 @@
       "character_preview": "私の故郷は田舎にあり、たくさんの動物と植物があります。私の家族は、一群の羊、二頭",
       "reading_preview": "わたしのふるさとはいなかにあり、たくさんのどうぶつとしょくぶつがあります。わたし",
       "vocab_count": 85,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой родно́й го́род",
+      "character_preview": "Мой родно́й го́род на́ходитс́я в се́льск",
+      "reading_preview": "Mój rodnój górod nákhoditsya v sél'skoy",
+      "vocab_count": 88,
       "para_count": 1
     }
   },
@@ -834,7 +1010,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19180_do-you-know.mp3",
-      "japanese": "/audio/japanese/19180_do-you-know.mp3"
+      "japanese": "/audio/japanese/19180_do-you-know.mp3",
+      "russian": "/audio/russian/19180_do-you-know.mp3"
     },
     "mandarin": {
       "character_preview": "你知道吗？我家旁边有一所大学。这所大学有三万个学生，两千多名老师，是这个城市最好",
@@ -847,6 +1024,13 @@
       "character_preview": "あなたは知っていますか？私の家の隣に大学があります。この大学には3万人の学生と2",
       "reading_preview": "あなたはしっていますか？わたしのいえのとなりにだいがくがあります。このだいがくに",
       "vocab_count": 56,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Ты зна́ешь?",
+      "character_preview": "Ты зна́ешь? О́коло моего́ до́ма есть уни",
+      "reading_preview": "Ty znáesh? Ókolo moegó dóma yest' un",
+      "vocab_count": 74,
       "para_count": 1
     }
   },
@@ -871,7 +1055,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19954_who-i-am.mp3",
-      "japanese": "/audio/japanese/19954_who-i-am.mp3"
+      "japanese": "/audio/japanese/19954_who-i-am.mp3",
+      "russian": "/audio/russian/19954_who-i-am.mp3"
     },
     "mandarin": {
       "character_preview": "我的名字叫李大卫， 我是美国人， 但是在日本长大， 在英国上大学， 现在在中国工",
@@ -884,6 +1069,13 @@
       "character_preview": "私の名前はダビデ・リーです。私はアメリカ人ですが、日本で育ち、イングランドの大学",
       "reading_preview": "わたしのなまえはダビデ・リーです。わたしはアメリカじんですが、にほんでそだち、イ",
       "vocab_count": 38,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Кто я",
+      "character_preview": "Меня зову́т Дави́д Ли. Я америка́нец, но",
+      "reading_preview": "Menya zovút Davíd Li. Ya amerikánec, no ",
+      "vocab_count": 30,
       "para_count": 1
     }
   },
@@ -908,7 +1100,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19332_lily-learns-chinese.mp3",
-      "japanese": "/audio/japanese/19332_lily-learns-chinese.mp3"
+      "japanese": "/audio/japanese/19332_lily-learns-chinese.mp3",
+      "russian": "/audio/russian/19332_lily-learns-chinese.mp3"
     },
     "mandarin": {
       "character_preview": "Lily是一个法国人，李丽是她的中文名字。她在法国学习中文。她有两个来自中国的中",
@@ -921,6 +1114,13 @@
       "character_preview": "ユリはフランスの人で、リ・リは彼女の中国の名前です。彼女はフランスで中国語を勉強",
       "reading_preview": "ユリ は フランス の ひと で 、リ・リ は かのじょ の ちゅうごく の な",
       "vocab_count": 44,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Ли́лия учи́т кита́йский",
+      "character_preview": "Ли́лия — францу́зская ли́чность, а ли Ли",
+      "reading_preview": "Líliya — frantsúzskaya líchnost', a l",
+      "vocab_count": 35,
       "para_count": 1
     }
   },
@@ -945,7 +1145,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19529_today-is-my-birthday.mp3",
-      "japanese": "/audio/japanese/19529_today-is-my-birthday.mp3"
+      "japanese": "/audio/japanese/19529_today-is-my-birthday.mp3",
+      "russian": "/audio/russian/19529_today-is-my-birthday.mp3"
     },
     "mandarin": {
       "character_preview": "今天是我的生日。我送给自己的礼物是一双鞋，那双鞋有点儿贵，但是我喜欢很久了。朋友",
@@ -958,6 +1159,13 @@
       "character_preview": "今日は私の誕生日です。私自身に贈った贈り物は靴の組でした。それらの靴は少し高価で",
       "reading_preview": "きょうはわたしのたんじょうびです。わたしじしんにおくったおくりものはくつのくみで",
       "vocab_count": 55,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Сегодня мой день рождения",
+      "character_preview": "Сего́дня мой день рожде́ния. Пода́рок, к",
+      "reading_preview": "Segod́nya moy deń rozhdeniya. Podaŕok,",
+      "vocab_count": 25,
       "para_count": 1
     }
   },
@@ -982,7 +1190,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/19650_what-to-eat-today.mp3",
-      "japanese": "/audio/japanese/19650_what-to-eat-today.mp3"
+      "japanese": "/audio/japanese/19650_what-to-eat-today.mp3",
+      "russian": "/audio/russian/19650_what-to-eat-today.mp3"
     },
     "mandarin": {
       "character_preview": "今天早上我说：妈妈，早餐我想吃面包、汉堡和可乐。妈妈说：不行，你只能吃面包、鸡蛋",
@@ -995,6 +1204,13 @@
       "character_preview": "今朝、私は言いました：「お母さん、朝食にパンとハンバーガーとコークが食べたいです",
       "reading_preview": "いまさ、わたしはいいました：「おかあさん、ちょうしょくにぱんとはんばーがーとこー",
       "vocab_count": 38,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Что поедим сего́дня?",
+      "character_preview": "Сего́дня у́тром я ска́зал: Мама, я жела́",
+      "reading_preview": "Segodnya útrom ya skazál: Mama, ya zhe",
+      "vocab_count": 19,
       "para_count": 1
     }
   },
@@ -1019,7 +1235,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/17296_hometown.mp3",
-      "japanese": "/audio/japanese/17296_hometown.mp3"
+      "japanese": "/audio/japanese/17296_hometown.mp3",
+      "russian": "/audio/russian/17296_hometown.mp3"
     },
     "mandarin": {
       "character_preview": "我有一个朋友，他的家乡不是这个城市。他经常说，他的家乡和这个城市很不一样。我以为",
@@ -1032,6 +1249,13 @@
       "character_preview": "私にはこの都市ではない故郷を持つ友達がいます。彼はしばしば、彼の故郷はこの都市と",
       "reading_preview": "わたしにはこのとしではないこきょうをもつともだちがいます。かれはしばしば、かれの",
       "vocab_count": 58,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Родно́й го́род",
+      "character_preview": "У меня́ есть дру́г, чей родно́й го́род н",
+      "reading_preview": "U meńya yest́ drúg, chéy rodnóy gór",
+      "vocab_count": 50,
       "para_count": 1
     }
   },
@@ -1056,7 +1280,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/18951_this-is-my-boyfriend.mp3",
-      "japanese": "/audio/japanese/18951_this-is-my-boyfriend.mp3"
+      "japanese": "/audio/japanese/18951_this-is-my-boyfriend.mp3",
+      "russian": "/audio/russian/18951_this-is-my-boyfriend.mp3"
     },
     "mandarin": {
       "character_preview": "我有男朋友了，他的名字叫张阳。他不胖也不瘦，个子很高，喜欢运动。我们认识三年半了",
@@ -1069,6 +1294,13 @@
       "character_preview": "私にはボーイフレンドがいて、彼の名前はジャン・ヤンです。彼は脂肪も薄くもなく、非",
       "reading_preview": "わたしにはボーイフレンドがいて、かれのなまえはジャン・ヤンです。かれはしぼうもう",
       "vocab_count": 72,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Э́то мой бойфре́нд",
+      "character_preview": "У меня е́сть бойфре́нд, его и́мя Чжан Я́",
+      "reading_preview": "U menya yest' boyfrénd, yevo ímya Chzhan",
+      "vocab_count": 67,
       "para_count": 1
     }
   },
@@ -1093,7 +1325,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/17892_citizen-of-the-world.mp3",
-      "japanese": "/audio/japanese/17892_citizen-of-the-world.mp3"
+      "japanese": "/audio/japanese/17892_citizen-of-the-world.mp3",
+      "russian": "/audio/russian/17892_citizen-of-the-world.mp3"
     },
     "mandarin": {
       "character_preview": "我是哪里人？这个问题很难回答。我的爸爸是美国人，妈妈是韩国人。我在泰国出生，在中",
@@ -1106,6 +1339,13 @@
       "character_preview": "私はどこから来たのでしょうか。この質問は答えるのが難しいです。私の父はアメリカ人",
       "reading_preview": "わたしは どこから きたのでしょうか。この しつもんは こたえるのが むずかしい",
       "vocab_count": 60,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Граждани́н ми́ра",
+      "character_preview": "Отку́да я? Э́тот вопро́с тру́дный, чтобы",
+      "reading_preview": "Otkudá ya? Étot voprós trúdnyy, chtoby o",
+      "vocab_count": 43,
       "para_count": 1
     }
   },
@@ -1130,7 +1370,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/17100_i-have-been-in-china-for-three-years.mp3",
-      "japanese": "/audio/japanese/17100_i-have-been-in-china-for-three-years.mp3"
+      "japanese": "/audio/japanese/17100_i-have-been-in-china-for-three-years.mp3",
+      "russian": "/audio/russian/17100_i-have-been-in-china-for-three-years.mp3"
     },
     "mandarin": {
       "character_preview": "我来中国学习和工作三年了。五年前，我第一次来中国旅游，爱上了这里吃的东西。回国后",
@@ -1143,6 +1384,13 @@
       "character_preview": "私は中国で三年間勉強と仕事をしています。五年前、私は初めて中国を旅行し、ここでの",
       "reading_preview": "わたしはちゅうごくでさんねんかんべんきょうとしごとをしています。ごねんまえ、わた",
       "vocab_count": 74,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Я учусь и работаю в Китае три года",
+      "character_preview": "Я учу́сь и рабо́таю в Кита́е три го́да. ",
+      "reading_preview": "Ya uchú's' i rabotáyu v Kitáe tri góda. ",
+      "vocab_count": 15,
       "para_count": 1
     }
   },
@@ -1167,7 +1415,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/16943_do-you-know-them.mp3",
-      "japanese": "/audio/japanese/16943_do-you-know-them.mp3"
+      "japanese": "/audio/japanese/16943_do-you-know-them.mp3",
+      "russian": "/audio/russian/16943_do-you-know-them.mp3"
     },
     "mandarin": {
       "character_preview": "你认识这两个人吗？她是我的中文老师，姓王；他是我弟弟的英文老师，姓李。王老师很漂",
@@ -1180,6 +1429,13 @@
       "character_preview": "あなたはこの二人の人々を知っていますか？彼女は私の中国人の先生で、姓はワンです。",
       "reading_preview": "あなたはこのふたりのひとびとをしっていますか？かのじょはわたしのちゅうごくじんの",
       "vocab_count": 24,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Вы зна́ете их?",
+      "character_preview": "Вы зна́ете э́ти два́ человека? Она́ — мо",
+      "reading_preview": "Vy znáete éti dvá chelovéka? Oná — ",
+      "vocab_count": 57,
       "para_count": 1
     }
   },
@@ -1204,7 +1460,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/16948_dad-cried.mp3",
-      "japanese": "/audio/japanese/16948_dad-cried.mp3"
+      "japanese": "/audio/japanese/16948_dad-cried.mp3",
+      "russian": "/audio/russian/16948_dad-cried.mp3"
     },
     "mandarin": {
       "character_preview": "爸爸的工作很忙。每天我还没起床，他就走了；晚上我要睡觉了，他才回家。昨天我生日，",
@@ -1217,6 +1474,13 @@
       "character_preview": "おとうちゃんの仕事は非常に忙しいです。毎日、私が起きる前に、彼は出て行きます;夜",
       "reading_preview": "おとうちゃんの しごとは ひじょうに いそがしいです。まいにち、わたしが おきる",
       "vocab_count": 69,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Па́па плакал",
+      "character_preview": "Па́пина рабо́та очень за́нятая. Ка́ждый ",
+      "reading_preview": "Pápina rábota óchen' zányataya. Káz",
+      "vocab_count": 17,
       "para_count": 1
     }
   },
@@ -1241,7 +1505,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15576_favorite-food.mp3",
-      "japanese": "/audio/japanese/15576_favorite-food.mp3"
+      "japanese": "/audio/japanese/15576_favorite-food.mp3",
+      "russian": "/audio/russian/15576_favorite-food.mp3"
     },
     "mandarin": {
       "character_preview": "我们一家三口人，每个人都有自己喜欢的食物。我喜欢吃蔬菜，特别喜欢辣的东西，但是不",
@@ -1254,6 +1519,13 @@
       "character_preview": "私たちは3人家族で、すべての人が自分自身の気に入りの食べ物を持っています。私は野",
       "reading_preview": "わたしたちはさんにんかぞくで、すべてのひとがじぶんじしんのきにいりのたべものをも",
       "vocab_count": 77,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Любимая еда",
+      "character_preview": "Мы семья из троих человек, и у каждого е",
+      "reading_preview": "Mý smóý s'ém'ya iz tróikh chelóvek",
+      "vocab_count": 19,
       "para_count": 1
     }
   },
@@ -1278,7 +1550,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15381_changing-lifestyle.mp3",
-      "japanese": "/audio/japanese/15381_changing-lifestyle.mp3"
+      "japanese": "/audio/japanese/15381_changing-lifestyle.mp3",
+      "russian": "/audio/russian/15381_changing-lifestyle.mp3"
     },
     "mandarin": {
       "character_preview": "小张是一个年轻的白领，每天都要上班。他的工作很忙，经常要加班到深夜。由于长时间的",
@@ -1291,6 +1564,13 @@
       "character_preview": "シャオ・ジャンは毎日仕事に行かなければならない若いサラリーマンです。彼は仕事が非",
       "reading_preview": "しゃお・じゃん は まいにち しごとに いかなければならない わかい さらりーま",
       "vocab_count": 94,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Измене́ние о́браза жи́зни",
+      "character_preview": "Ся́о Чжан — молодо́й рабо́тник «бе́лого ",
+      "reading_preview": "Syáo Chzhan — molodóy rabótni(k) «bélo",
+      "vocab_count": 89,
       "para_count": 1
     }
   },
@@ -1315,7 +1595,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15589_the-tortoise-and-the-hare.mp3",
-      "japanese": "/audio/japanese/15589_the-tortoise-and-the-hare.mp3"
+      "japanese": "/audio/japanese/15589_the-tortoise-and-the-hare.mp3",
+      "russian": "/audio/russian/15589_the-tortoise-and-the-hare.mp3"
     },
     "mandarin": {
       "character_preview": "从前，一个美丽的村子里有一只乌龟和一只兔子，它们决定举行一场跑步比赛。",
@@ -1328,6 +1609,13 @@
       "character_preview": "かつて、美しい村にカメと野ウサギが住んでいて、彼らは走る競走をすることに決めまし",
       "reading_preview": "かつて、うつくしいむらにカメとやうさぎがすんでいて、かれらははしるきょうそうをす",
       "vocab_count": 111,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Черепа́ха и зая́ц",
+      "character_preview": "Оди́н раз, одна́жды, в краси́вой дере́вн",
+      "reading_preview": "Odín raz, odnázhdy, v krasívoj derévne ",
+      "vocab_count": 100,
       "para_count": 5
     }
   },
@@ -1352,7 +1640,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15953_renting-himself-out.mp3",
-      "japanese": "/audio/japanese/15953_renting-himself-out.mp3"
+      "japanese": "/audio/japanese/15953_renting-himself-out.mp3",
+      "russian": "/audio/russian/15953_renting-himself-out.mp3"
     },
     "mandarin": {
       "character_preview": "一个叫森本昌二的日本男人因为自己的工作而出名了。他目前的主要工作内容就是出租自己",
@@ -1365,6 +1654,13 @@
       "character_preview": "将司という名前の日本人男性が、彼の仕事で有名になりました。彼の現在の主な仕事は、",
       "reading_preview": "しょうじというなまえのにほんじんだんせいが、かれのしごとでゆうめいになりました。",
       "vocab_count": 102,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Аренда себя",
+      "character_preview": "Япо́нец по и́мени Сёдзи Мо́римото стал и",
+      "reading_preview": "Yapónets po ímeni Syodži Mórimoto sta",
+      "vocab_count": 100,
       "para_count": 4
     }
   },
@@ -1389,7 +1685,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/18973_miracle-principal-zhang-guimei.mp3",
-      "japanese": "/audio/japanese/18973_miracle-principal-zhang-guimei.mp3"
+      "japanese": "/audio/japanese/18973_miracle-principal-zhang-guimei.mp3",
+      "russian": "/audio/russian/18973_miracle-principal-zhang-guimei.mp3"
     },
     "mandarin": {
       "character_preview": "云南丽江的一个贫困县有一所特殊的学校。这所学校创办于2008年，专门招收周边贫困",
@@ -1402,6 +1699,13 @@
       "character_preview": "云南省の麗江に貧しい郡の特別な学校があります。この学校は2008年に設立され、周",
       "reading_preview": "ゆうなんしょうのれいこうに、まずしいぐんのとくべつなしょうががあります。このがっ",
       "vocab_count": 263,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Ча́стный дире́ктор Чжан Гуймэй",
+      "character_preview": "В не́счастном гра́фстве Лицзя́н, Юньна́н",
+      "reading_preview": "V néshchastnom gráfstve Litszían, Yun",
+      "vocab_count": 290,
       "para_count": 5
     }
   },
@@ -1426,7 +1730,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14754_girlfriend-and-boyfriend.mp3",
-      "japanese": "/audio/japanese/14754_girlfriend-and-boyfriend.mp3"
+      "japanese": "/audio/japanese/14754_girlfriend-and-boyfriend.mp3",
+      "russian": "/audio/russian/14754_girlfriend-and-boyfriend.mp3"
     },
     "mandarin": {
       "character_preview": "A：你手机上的那个女孩儿是你的女朋友吗？",
@@ -1439,6 +1744,13 @@
       "character_preview": "A: あの電話にいる女の子はあなたのガールフレンドですか？",
       "reading_preview": "A: あの でんわ に いる おんなのこ は あなたの ガールフレンド ですか？",
       "vocab_count": 86,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Де́вушка и па́пар",
+      "character_preview": "А: Эта де́вушка на твоём фо́не — твоя гё",
+      "reading_preview": "A: Èta dévushka na tvóyem fóne — tvoy",
+      "vocab_count": 78,
       "para_count": 6
     }
   },
@@ -1463,7 +1775,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15170_get-married.mp3",
-      "japanese": "/audio/japanese/15170_get-married.mp3"
+      "japanese": "/audio/japanese/15170_get-married.mp3",
+      "russian": "/audio/russian/15170_get-married.mp3"
     },
     "mandarin": {
       "character_preview": "A：下个月八号我结婚，你来南湖酒店参加我的婚礼吧。",
@@ -1476,6 +1789,13 @@
       "character_preview": "A: 私は来月の8日に結婚します。ナンフホテルに来て私の結婚式に出席してください",
       "reading_preview": "A: わたしは らいげつの 8にちに けっこんします。ナンフホテルに きて わた",
       "vocab_count": 91,
+      "para_count": 9
+    },
+    "russian": {
+      "title": "Жени́ться",
+      "character_preview": "А: Я жени́тся 8-го сле́дующего ме́сяца. ",
+      "reading_preview": "A: YA zhenítsa 8-go sléduyushchego mé",
+      "vocab_count": 88,
       "para_count": 9
     }
   },
@@ -1500,7 +1820,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15026_middle-aged-aunts-self-driving-life.mp3",
-      "japanese": "/audio/japanese/15026_middle-aged-aunts-self-driving-life.mp3"
+      "japanese": "/audio/japanese/15026_middle-aged-aunts-self-driving-life.mp3",
+      "russian": "/audio/russian/15026_middle-aged-aunts-self-driving-life.mp3"
     },
     "mandarin": {
       "character_preview": "1964年，苏敏出生于西藏，后来她跟随家人来到了河南学习和生活，成为了一名工人。",
@@ -1513,6 +1834,13 @@
       "character_preview": "スーミンは1964年にチベットで生まれました。それから彼女は家族に従って河南に移",
       "reading_preview": "すーミンは1964ねんにちべっとでうまれました。それからかのじょはかぞくにしたが",
       "vocab_count": 236,
+      "para_count": 7
+    },
+    "russian": {
+      "title": "Сама́ себе́ за́водчица в сре́днем во́зрасте",
+      "character_preview": "Су́ Мин ро́дилась в Тибе́те в 1964 году́",
+      "reading_preview": "Sú Min ródilas' v Tibéte v 1964 godú",
+      "vocab_count": 257,
       "para_count": 7
     }
   },
@@ -1537,7 +1865,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/15331_see-you-there.mp3",
-      "japanese": "/audio/japanese/15331_see-you-there.mp3"
+      "japanese": "/audio/japanese/15331_see-you-there.mp3",
+      "russian": "/audio/russian/15331_see-you-there.mp3"
     },
     "mandarin": {
       "character_preview": "A：现在几点？",
@@ -1550,6 +1879,13 @@
       "character_preview": "A: 今、何時ですか？",
       "reading_preview": "A: いま、なんじですか？",
       "vocab_count": 95,
+      "para_count": 11
+    },
+    "russian": {
+      "title": "Увидимся там",
+      "character_preview": "A: Ско́лько вре́мени сейча́с?",
+      "reading_preview": "A: Skol'ko vremeni seychas?",
+      "vocab_count": 85,
       "para_count": 11
     }
   },
@@ -1574,7 +1910,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14538_my-new-home.mp3",
-      "japanese": "/audio/japanese/14538_my-new-home.mp3"
+      "japanese": "/audio/japanese/14538_my-new-home.mp3",
+      "russian": "/audio/russian/14538_my-new-home.mp3"
     },
     "mandarin": {
       "character_preview": "去年我和家人买了一套新房子，今年我们搬进来了。新家西边有一条干净的河，南边有一个",
@@ -1587,6 +1924,13 @@
       "character_preview": "私の家族と私は昨年新しい家を買い、今年引っ越しました。新しい家の西にはきれいな川",
       "reading_preview": "わたしのかぞくとわたしはさくねんあたらしいいえをかった、そしてことしひっこしまし",
       "vocab_count": 80,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мо́й но́вый дом",
+      "character_preview": "Моя́ семья́ и я ку́пили но́вый дом в про",
+      "reading_preview": "Moя́ semyá i я kúpili nóvyy dom v pro",
+      "vocab_count": 79,
       "para_count": 1
     }
   },
@@ -1611,7 +1955,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14553_poet-yu-xiuhua.mp3",
-      "japanese": "/audio/japanese/14553_poet-yu-xiuhua.mp3"
+      "japanese": "/audio/japanese/14553_poet-yu-xiuhua.mp3",
+      "russian": "/audio/russian/14553_poet-yu-xiuhua.mp3"
     },
     "mandarin": {
       "character_preview": "余秀华四十多岁了。她出生在湖北农村，但是因为出生时的意外造成了脑瘫，从此以后行动",
@@ -1624,6 +1969,13 @@
       "character_preview": "ユ・シウフアは40代です。彼女は農村の湖北省で生まれましたが、誕生時の事故により",
       "reading_preview": "ユ・シウフアは40だいです。かのじょはのうそんのこほくしょうでうまれましたが、た",
       "vocab_count": 169,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Поэ́т Ю́ Сю́хуа",
+      "character_preview": "Ю́ Сю́хуа на́ходится в свои́х соро́ковых",
+      "reading_preview": "Yú Syúhua nákhoditsya v svóikh sorok",
+      "vocab_count": 183,
       "para_count": 4
     }
   },
@@ -1648,7 +2000,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14747_what-are-you-studying.mp3",
-      "japanese": "/audio/japanese/14747_what-are-you-studying.mp3"
+      "japanese": "/audio/japanese/14747_what-are-you-studying.mp3",
+      "russian": "/audio/russian/14747_what-are-you-studying.mp3"
     },
     "mandarin": {
       "character_preview": "A：你在学什么？",
@@ -1661,6 +2014,13 @@
       "character_preview": "A: あなたは何を勉強していますか？",
       "reading_preview": "A: あなたは なにを べんきょう していますか？",
       "vocab_count": 64,
+      "para_count": 12
+    },
+    "russian": {
+      "title": "Что ты изучаешь?",
+      "character_preview": "A: Что ты изучаешь?",
+      "reading_preview": "A: Chto ty izuchayesh'?",
+      "vocab_count": 59,
       "para_count": 12
     }
   },
@@ -1685,7 +2045,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14266_my-roommate.mp3",
-      "japanese": "/audio/japanese/14266_my-roommate.mp3"
+      "japanese": "/audio/japanese/14266_my-roommate.mp3",
+      "russian": "/audio/russian/14266_my-roommate.mp3"
     },
     "mandarin": {
       "character_preview": "我的室友是一个法国人，他今年25岁，因为喜欢中国文化，就想来中国工作和生活。但是",
@@ -1698,6 +2059,13 @@
       "character_preview": "私の同室者はフランス人です。彼は25歳です。彼は中国文化を好むので、中国で働いて",
       "reading_preview": "わたしの どうしつしゃは フランスじんです。かれは 25さいです。かれは ちゅう",
       "vocab_count": 98,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой сосе́д по кварти́ре",
+      "character_preview": "Мо́й сосе́д по кварти́ре фра́нцуз. Ему́ ",
+      "reading_preview": "Mój sosézd po kvartíre frant͡suz. Yemu",
+      "vocab_count": 87,
       "para_count": 1
     }
   },
@@ -1722,7 +2090,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14530_my-family-2.mp3",
-      "japanese": "/audio/japanese/14530_my-family-2.mp3"
+      "japanese": "/audio/japanese/14530_my-family-2.mp3",
+      "russian": "/audio/russian/14530_my-family-2.mp3"
     },
     "mandarin": {
       "character_preview": "A：王老师，好久不见！",
@@ -1735,6 +2104,13 @@
       "character_preview": "A: ウォン先生、長い間お会いしていませんね！",
       "reading_preview": "A: ウォンせんせい、ながいあいだおあいしていませんね！",
       "vocab_count": 86,
+      "para_count": 9
+    },
+    "russian": {
+      "title": "Моя семья́",
+      "character_preview": "А: На́ставник Ва́н, да́вно не ви́дели!",
+      "reading_preview": "A: Nastávnik Ván, dávno ne vídeli!",
+      "vocab_count": 70,
       "para_count": 9
     }
   },
@@ -1759,7 +2135,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14412_where-are-you-going.mp3",
-      "japanese": "/audio/japanese/14412_where-are-you-going.mp3"
+      "japanese": "/audio/japanese/14412_where-are-you-going.mp3",
+      "russian": "/audio/russian/14412_where-are-you-going.mp3"
     },
     "mandarin": {
       "character_preview": "A：早！吃早饭了吗？",
@@ -1772,6 +2149,13 @@
       "character_preview": "A: おはよう！朝食は食べましたか？",
       "reading_preview": "A: おはよう！あさしょくはたべましたか？",
       "vocab_count": 63,
+      "para_count": 10
+    },
+    "russian": {
+      "title": "Куда вы собираетесь?",
+      "character_preview": "А: У́тро! Вы за́втракали?",
+      "reading_preview": "A: Útro! Vy závtrakali?",
+      "vocab_count": 47,
       "para_count": 10
     }
   },
@@ -1796,7 +2180,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13702_ke-zhou-qiu-jian.mp3",
-      "japanese": "/audio/japanese/13702_ke-zhou-qiu-jian.mp3"
+      "japanese": "/audio/japanese/13702_ke-zhou-qiu-jian.mp3",
+      "russian": "/audio/russian/13702_ke-zhou-qiu-jian.mp3"
     },
     "mandarin": {
       "character_preview": "战国时，有一个楚国人坐船过江。船到江中间时，这个人不小心把身上的一把剑掉进了江里",
@@ -1809,6 +2194,13 @@
       "character_preview": "戦国時代に、楚の国の男が船で川を渡っていました。船が川のまん中に到達したとき、男",
       "reading_preview": "せんごくじだいに、そ のくに の おとこが ふねで かわを わたっていました。ふ",
       "vocab_count": 124,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "И́стория про меч и лодку",
+      "character_preview": "В тече́ние войны́ дя́дям из госуда́рства",
+      "reading_preview": "V tеchéniе vóyny dя́dy iz gоsudárstva",
+      "vocab_count": 112,
       "para_count": 4
     }
   },
@@ -1833,7 +2225,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14391_what-to-do-tomorrow.mp3",
-      "japanese": "/audio/japanese/14391_what-to-do-tomorrow.mp3"
+      "japanese": "/audio/japanese/14391_what-to-do-tomorrow.mp3",
+      "russian": "/audio/russian/14391_what-to-do-tomorrow.mp3"
     },
     "mandarin": {
       "character_preview": "A：明天你想做什么？",
@@ -1846,6 +2239,13 @@
       "character_preview": "A: あなたは明日何をしたいですか？",
       "reading_preview": "A: あなたはあしたなにをしたいですか？",
       "vocab_count": 76,
+      "para_count": 13
+    },
+    "russian": {
+      "title": "Что делать за́втра?",
+      "character_preview": "A: Что́ вы хочете сделать за́втра?",
+      "reading_preview": "A: Chtó vy khótite sdelát' závtra?",
+      "vocab_count": 71,
       "para_count": 13
     }
   },
@@ -1870,7 +2270,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14204_how-is-it-going-recently.mp3",
-      "japanese": "/audio/japanese/14204_how-is-it-going-recently.mp3"
+      "japanese": "/audio/japanese/14204_how-is-it-going-recently.mp3",
+      "russian": "/audio/russian/14204_how-is-it-going-recently.mp3"
     },
     "mandarin": {
       "character_preview": "A：李老师，好久不见！",
@@ -1883,6 +2284,13 @@
       "character_preview": "A: リ先生、お久しぶりです！",
       "reading_preview": "A: リせんせい、おひさしぶりです！",
       "vocab_count": 63,
+      "para_count": 9
+    },
+    "russian": {
+      "title": "Как дела́ в после́днее вре́мя?",
+      "character_preview": "А: Наста́вник Ли, давненько не ви́делися",
+      "reading_preview": "A: Nastávnik Li, davn'en'ko ne vid'elis'",
+      "vocab_count": 46,
       "para_count": 9
     }
   },
@@ -1907,7 +2315,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14250_shopping-story.mp3",
-      "japanese": "/audio/japanese/14250_shopping-story.mp3"
+      "japanese": "/audio/japanese/14250_shopping-story.mp3",
+      "russian": "/audio/russian/14250_shopping-story.mp3"
     },
     "mandarin": {
       "character_preview": "A：先生，你想买什么？",
@@ -1920,6 +2329,13 @@
       "character_preview": "A: 先生、何を買いたいですか？",
       "reading_preview": "A: せんせい、なにをかいたいですか？",
       "vocab_count": 61,
+      "para_count": 12
+    },
+    "russian": {
+      "title": "Покупки",
+      "character_preview": "А: Госпо́дин, что вы жела́ете купи́ть?",
+      "reading_preview": "A: Gospódin, chto vy zheláete kupít'?",
+      "vocab_count": 54,
       "para_count": 12
     }
   },
@@ -1944,7 +2360,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13535_yaner-dao-ling.mp3",
-      "japanese": "/audio/japanese/13535_yaner-dao-ling.mp3"
+      "japanese": "/audio/japanese/13535_yaner-dao-ling.mp3",
+      "russian": "/audio/russian/13535_yaner-dao-ling.mp3"
     },
     "mandarin": {
       "character_preview": "从前有一个人，看见别人家门口有一个大钟，就想把它偷走。可是钟又大又重，他就拿来一",
@@ -1957,6 +2374,13 @@
       "character_preview": "かつて、ある男が誰かの家の扉にある大きな時計を見て、それを盗もうとしたことがあり",
       "reading_preview": "かつて、あるおとこがだれかのいえのとびらにあるおおきなくろっくをみて、それをぬす",
       "vocab_count": 91,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Кра́жа ко́локола",
+      "character_preview": "Оди́н раз была́ история о муже, который ",
+      "reading_preview": "Odin raz byla istoriya o muzhe, kotoryy ",
+      "vocab_count": 31,
       "para_count": 1
     }
   },
@@ -1981,7 +2405,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13530_an-e-mail.mp3",
-      "japanese": "/audio/japanese/13530_an-e-mail.mp3"
+      "japanese": "/audio/japanese/13530_an-e-mail.mp3",
+      "russian": "/audio/russian/13530_an-e-mail.mp3"
     },
     "mandarin": {
       "character_preview": "昨天我收到了一封丹尼的邮件。丹尼是我大学时候的男朋友，大学毕业以后，我在中国工作",
@@ -1994,6 +2419,13 @@
       "character_preview": "きのう、ダニーからメールを受け取りました。ダニーは大学時代の私のボーイフレンドで",
       "reading_preview": "きのう、ダニーからメールをうけとりました。ダニーはだいがくじだいのわたしのボーイ",
       "vocab_count": 48,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Электро́нное письмо",
+      "character_preview": "Вчера́ я получи́ла име́йл от Дэ́нни. Дэ́",
+      "reading_preview": "Včера́ ja polučila iméjl ot Dếnni. Dế",
+      "vocab_count": 98,
       "para_count": 1
     }
   },
@@ -2018,7 +2450,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13540_sun-lings-struggle.mp3",
-      "japanese": "/audio/japanese/13540_sun-lings-struggle.mp3"
+      "japanese": "/audio/japanese/13540_sun-lings-struggle.mp3",
+      "russian": "/audio/russian/13540_sun-lings-struggle.mp3"
     },
     "mandarin": {
       "character_preview": "孙玲出生在湖南的国家级贫困县，家庭经济状态一直很困难。19岁时只有高中学历的她来",
@@ -2031,6 +2464,13 @@
       "character_preview": "太陽リンは、湖南省の貧しい郡に生まれました。彼女の家族はいつも経済的に苦しんでい",
       "reading_preview": "たいようリンは、ふんなんしょうのまずしいぐんにうまれました。かのじょのかぞくはい",
       "vocab_count": 209,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Борьба Су́н Ли́н",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 184,
       "para_count": 6
     }
   },
@@ -2055,7 +2495,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13440_deaf-lawyer.mp3",
-      "japanese": "/audio/japanese/13440_deaf-lawyer.mp3"
+      "japanese": "/audio/japanese/13440_deaf-lawyer.mp3",
+      "russian": "/audio/russian/13440_deaf-lawyer.mp3"
     },
     "mandarin": {
       "character_preview": "第二次全国残疾人抽样调查数据显示，中国的听力残疾人达到2780万。2020年底，",
@@ -2068,6 +2509,13 @@
       "character_preview": "身体障害者の第2回全国サンプル調査によると、中国の聴覚に障害のある人々の数は27",
       "reading_preview": "しんたい しょうがいしゃ の だい2かい ぜんこく サンプル ちょうさ によると",
       "vocab_count": 201,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Глухо́й адвока́т",
+      "character_preview": "Да́нные из Второ́го национа́льного обзо́",
+      "reading_preview": "Dánnyye iz Vtorógo natsionálnogo obzo",
+      "vocab_count": 219,
       "para_count": 4
     }
   },
@@ -2092,7 +2540,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13434_ye-gong-hao-long.mp3",
-      "japanese": "/audio/japanese/13434_ye-gong-hao-long.mp3"
+      "japanese": "/audio/japanese/13434_ye-gong-hao-long.mp3",
+      "russian": "/audio/russian/13434_ye-gong-hao-long.mp3"
     },
     "mandarin": {
       "character_preview": "春秋时期，有一个人叫叶公，他非常喜欢龙。叶公家的大门、窗户、花园、石头、墙、家具",
@@ -2105,6 +2554,13 @@
       "character_preview": "春秋時代に、リュウが非常に好きなマイヨという男がいました。マイヨの家の扉、窓、庭",
       "reading_preview": "しゅんちゅうじだいに、りゅうがひじょうにすきなまイよというおとこがいました。まイ",
       "vocab_count": 135,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Е Гонг и драконы",
+      "character_preview": "В вре́мя весны́ и о́сени, был му́ж и́мя ",
+      "reading_preview": "V vremeńa vesný i osení, byl múzh í",
+      "vocab_count": 122,
       "para_count": 3
     }
   },
@@ -2129,7 +2585,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13422_a-day-of-my-mother.mp3",
-      "japanese": "/audio/japanese/13422_a-day-of-my-mother.mp3"
+      "japanese": "/audio/japanese/13422_a-day-of-my-mother.mp3",
+      "russian": "/audio/russian/13422_a-day-of-my-mother.mp3"
     },
     "mandarin": {
       "character_preview": "妈妈在图书馆工作。她每天早上六点起床，起床后给我和爸爸做早饭，然后我们一起吃。七",
@@ -2142,6 +2599,13 @@
       "character_preview": "母は図書館で働いています。彼女は毎朝6時に起きて、私と父のために朝食を作り、その",
       "reading_preview": "ははは としょかんではたらいています。かのじょはまいあさ6じにおきて、わたしとち",
       "vocab_count": 55,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "День мо́ей ма́мы",
+      "character_preview": "Мо́я ма́ма рабо́тает в библиоте́ке. Она́",
+      "reading_preview": "Móya máma rábotayet v bibliotéke. On",
+      "vocab_count": 26,
       "para_count": 1
     }
   },
@@ -2166,7 +2630,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/12779_free-nursing-home.mp3",
-      "japanese": "/audio/japanese/12779_free-nursing-home.mp3"
+      "japanese": "/audio/japanese/12779_free-nursing-home.mp3",
+      "russian": "/audio/russian/12779_free-nursing-home.mp3"
     },
     "mandarin": {
       "character_preview": "河南的小伙子樊金林1997年出生，现在已经是四家养老院的院长了，也是国内粉丝最多",
@@ -2179,6 +2644,13 @@
       "character_preview": "ファン・ジンリンは、河南省出身の若い男性で、1997年に生まれました。現在、彼は",
       "reading_preview": "ふぁん・じんりんは、かなんしょうしゅっしんのわかいだんせいで、1997ねんにうま",
       "vocab_count": 47,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Беспла́тный дом престаре́лых",
+      "character_preview": "Фан Цзиньлинь, молодо́й челове́к из Хэна",
+      "reading_preview": "Fan Цзиньлинь, моло́дой челове́к из Хэна",
+      "vocab_count": 32,
       "para_count": 1
     }
   },
@@ -2203,7 +2675,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/12765_order-takeaway.mp3",
-      "japanese": "/audio/japanese/12765_order-takeaway.mp3"
+      "japanese": "/audio/japanese/12765_order-takeaway.mp3",
+      "russian": "/audio/russian/12765_order-takeaway.mp3"
     },
     "mandarin": {
       "character_preview": "我是一名医生，工作很忙。我不会做饭，一般也不在家里吃，下班以后经常去医院旁边的饭",
@@ -2216,6 +2689,13 @@
       "character_preview": "私は医者で、仕事が非常に忙しいです。料理の仕方がわからず、普段は家で食べません。",
       "reading_preview": "わたしは いしゃで、しごとが ひじょうに いそがしいです。りょうりのしかたが わ",
       "vocab_count": 73,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Заказ еды на вынос",
+      "character_preview": "Я до́ктор и то́нко за́нят на рабо́те. Я ",
+      "reading_preview": "Ya dóktor i tónko zányat na rábote. ",
+      "vocab_count": 66,
       "para_count": 1
     }
   },
@@ -2240,7 +2720,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13547_tui-qiao.mp3",
-      "japanese": "/audio/japanese/13547_tui-qiao.mp3"
+      "japanese": "/audio/japanese/13547_tui-qiao.mp3",
+      "russian": "/audio/russian/13547_tui-qiao.mp3"
     },
     "mandarin": {
       "character_preview": "中文里很多词都是有典故的。“推敲”这个词的典故就源于唐代诗人贾岛。",
@@ -2253,6 +2734,13 @@
       "character_preview": "多くの中国の言葉には、その背後に物語があります。「ついきょう」という言葉は「言葉",
       "reading_preview": "おおくのちゅうごくのことばには、そのはいごにものがたりがあります。「ついきょう」",
       "vocab_count": 198,
+      "para_count": 10
+    },
+    "russian": {
+      "title": "Поэ́ма о Джа́о",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 181,
       "para_count": 10
     }
   },
@@ -2277,7 +2765,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/12220_favorite-country.mp3",
-      "japanese": "/audio/japanese/12220_favorite-country.mp3"
+      "japanese": "/audio/japanese/12220_favorite-country.mp3",
+      "russian": "/audio/russian/12220_favorite-country.mp3"
     },
     "mandarin": {
       "character_preview": "我和家人们现在越来越喜欢出国旅游。我的哥哥喜欢去日本，因为他很喜欢日本文化。我的",
@@ -2290,6 +2779,13 @@
       "character_preview": "私の家族と私は今、ますます海外へ旅行することが好きです。私の兄は日本文化が好きだ",
       "reading_preview": "わたしのかぞくとわたしはいま、ますますおおがいへりょこうすることがすきです。わた",
       "vocab_count": 70,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Любимая страна́",
+      "character_preview": "Моя́ семья́ и я се́йчас люби́м пое́здки ",
+      "reading_preview": "Moyá sem'ya i ya séychas lyubím poezd",
+      "vocab_count": 72,
       "para_count": 1
     }
   },
@@ -2314,7 +2810,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/12234_special-winter-olympic-torchbearer.mp3",
-      "japanese": "/audio/japanese/12234_special-winter-olympic-torchbearer.mp3"
+      "japanese": "/audio/japanese/12234_special-winter-olympic-torchbearer.mp3",
+      "russian": "/audio/russian/12234_special-winter-olympic-torchbearer.mp3"
     },
     "mandarin": {
       "character_preview": "2022年北京冬奥会的火炬接力中有一位特别的火炬手，他叫栾玉帅，是一位快递小哥。",
@@ -2327,6 +2824,13 @@
       "character_preview": "2022年の北京冬季オリンピックのトーチリレーには、特別なたいまつを持つ人がいま",
       "reading_preview": "2022ねんのぺきんとうきオリンピックのトーチリレーには、とくべつなたいまつをも",
       "vocab_count": 117,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Осо́бый фа́кельщик на зи́мних олимпи́йских игра́х",
+      "character_preview": "На эстафе́те факелов Олимпи́ады в Пе́кин",
+      "reading_preview": "Na éstafete fakelov Olímpiady v Pekíne ",
+      "vocab_count": 28,
       "para_count": 1
     }
   },
@@ -2351,7 +2855,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/12215_me-and-li.mp3",
-      "japanese": "/audio/japanese/12215_me-and-li.mp3"
+      "japanese": "/audio/japanese/12215_me-and-li.mp3",
+      "russian": "/audio/russian/12215_me-and-li.mp3"
     },
     "mandarin": {
       "character_preview": "我和小李是好朋友，我们经常见面。有时候我们一起吃饭，有时候一起去商店买东西，有时",
@@ -2364,6 +2869,13 @@
       "character_preview": "シャオ・リと私は良い友達で、しばしば会います。時々、一緒に食事をしたり、時々、店",
       "reading_preview": "",
       "vocab_count": 54,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Я и Сяо Ли",
+      "character_preview": "Ся́о Ли́ и я хоро́шие дру́зья́, и мы ча́",
+      "reading_preview": "Syáo Lí i ya khoróshie drúz'ya, i my",
+      "vocab_count": 22,
       "para_count": 1
     }
   },
@@ -2388,7 +2900,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/13427_where-is-the-subway-station.mp3",
-      "japanese": "/audio/japanese/13427_where-is-the-subway-station.mp3"
+      "japanese": "/audio/japanese/13427_where-is-the-subway-station.mp3",
+      "russian": "/audio/russian/13427_where-is-the-subway-station%ef%bc%9f.mp3"
     },
     "mandarin": {
       "character_preview": "A：不好意思，请问附近有地铁站吗？",
@@ -2401,6 +2914,13 @@
       "character_preview": "A: すみません、近くに地下鉄の駅はありますか？",
       "reading_preview": "A: すみません、ちかくにちかてつのえきはありますか？",
       "vocab_count": 74,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Где нахо́дится ста́нция метро́?",
+      "character_preview": "А: Жа́ль, есть ли бли́зко ста́нция метро",
+      "reading_preview": "A: Zhál', yest' li blízko stántsija metr",
+      "vocab_count": 69,
       "para_count": 6
     }
   },
@@ -2425,7 +2945,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/14271_buy-milk-tea.mp3",
-      "japanese": "/audio/japanese/14271_buy-milk-tea.mp3"
+      "japanese": "/audio/japanese/14271_buy-milk-tea.mp3",
+      "russian": "/audio/russian/14271_buy-milk-tea.mp3"
     },
     "mandarin": {
       "character_preview": "服务员：你好，请问你想喝点什么？这是菜单。",
@@ -2438,6 +2959,13 @@
       "character_preview": "ウェイター：こんにちは、何を飲みたいですか？こちらがメニューです。",
       "reading_preview": "うぇいたー：こんにちは、なにを のみたいですか？こちらが めにゅーです。",
       "vocab_count": 116,
+      "para_count": 23
+    },
+    "russian": {
+      "title": "Купи́ чай с молоко́м",
+      "character_preview": "Официа́нт: До́брый день, что́ вы хоти́те",
+      "reading_preview": "Oficiánt: Dóbrij dèn', chtó vy khotíte ",
+      "vocab_count": 112,
       "para_count": 23
     }
   },
@@ -2462,7 +2990,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/11765_ask-for-sick-leave.mp3",
-      "japanese": "/audio/japanese/11765_ask-for-sick-leave.mp3"
+      "japanese": "/audio/japanese/11765_ask-for-sick-leave.mp3",
+      "russian": "/audio/russian/11765_ask-for-sick-leave.mp3"
     },
     "mandarin": {
       "character_preview": "最近，王先生因为牙齿痛，预约了两天的牙科检查和治疗，还跟公司请了带薪病假。后来，",
@@ -2475,6 +3004,13 @@
       "character_preview": "近ごろ、ワン氏は歯の痛みのために二日間の歯科検査と治療の約束をし、会社から有給の",
       "reading_preview": "ちかごろ、ワンしは は の いたみのために ににちかんの しかけんさと ちりょう",
       "vocab_count": 70,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Запрос на о́тпуск по боле́зни",
+      "character_preview": "В после́днее вре́мя господин Ван за́дал ",
+      "reading_preview": "V poslédnee vrémya gospodín Van záda",
+      "vocab_count": 23,
       "para_count": 1
     }
   },
@@ -2499,7 +3035,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/11751_the-family-of-teachers.mp3",
-      "japanese": "/audio/japanese/11751_the-family-of-teachers.mp3"
+      "japanese": "/audio/japanese/11751_the-family-of-teachers.mp3",
+      "russian": "/audio/russian/11751_the-family-of-teachers.mp3"
     },
     "mandarin": {
       "character_preview": "广州市有一个中学的数学老师叫吴晖晖，她已经当老师29年了。她的爷爷是中国著名的教",
@@ -2512,6 +3049,13 @@
       "character_preview": "広州にはウー・フイフイという名前の中等学校の数学の先生がいます。彼女は29年間先",
       "reading_preview": "こうしゅうにはウー・フイフイというなまえのちゅうとうがっこうのすうがくのせんせい",
       "vocab_count": 65,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Семья наста́вников",
+      "character_preview": "В Гуанчжо́у есть наста́вница матема́тики",
+      "reading_preview": "V Gуanchzhо́u yestʹ nastávnitsa matemat",
+      "vocab_count": 50,
       "para_count": 1
     }
   },
@@ -2536,7 +3080,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/9900_wait-for-the-rabbit-under-the-tree.mp3",
-      "japanese": "/audio/japanese/9900_wait-for-the-rabbit-under-the-tree.mp3"
+      "japanese": "/audio/japanese/9900_wait-for-the-rabbit-under-the-tree.mp3",
+      "russian": "/audio/russian/9900_wait-for-the-rabbit-under-the-tree.mp3"
     },
     "mandarin": {
       "character_preview": "古时候，有个农民正在田里劳动。突然，他看见一只兔子从旁边的草丛里慌慌张张地跑出来",
@@ -2549,6 +3094,13 @@
       "character_preview": "昔々、農場主が自分の田畑で働いていました。突然、近くの草の中からウサギがパニック",
       "reading_preview": "むかしむかし、のうじょうぬしがじぶんのたはたではたらいていました。とつぜん、ちか",
       "vocab_count": 127,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Жди кро́лика под де́ревом",
+      "character_preview": "Давным-давно, дехка́нин рабо́тал на своё",
+      "reading_preview": "Davnóm-davnó, dehkánin rabotál na sv",
+      "vocab_count": 109,
       "para_count": 1
     }
   },
@@ -2573,7 +3125,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/9889_unpredictable-life.mp3",
-      "japanese": "/audio/japanese/9889_unpredictable-life.mp3"
+      "japanese": "/audio/japanese/9889_unpredictable-life.mp3",
+      "russian": "/audio/russian/9889_unpredictable-life.mp3"
     },
     "mandarin": {
       "character_preview": "人的一生，就像乘坐一辆公交车。我们知道它有起点和终点，却无法预知沿途的经历。有的",
@@ -2586,6 +3139,13 @@
       "character_preview": "人生はバスの乗車のようです。私たちはそれがどこで始まり、どこで終わるかを知ってい",
       "reading_preview": "じんせい は バス の のりあい の よう です。わたしたち は それ が どこ",
       "vocab_count": 109,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Непредсказу́емая жи́знь",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 60,
       "para_count": 2
     }
   },
@@ -2610,7 +3170,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4726_one-of-my-afternoons.mp3",
-      "japanese": "/audio/japanese/4726_one-of-my-afternoons.mp3"
+      "japanese": "/audio/japanese/4726_one-of-my-afternoons.mp3",
+      "russian": "/audio/russian/4726_one-of-my-afternoons.mp3"
     },
     "mandarin": {
       "character_preview": "我想今天下午去看电影，但是没有好电影。我就打电话给我的好朋友，想和她一起去运动，",
@@ -2623,6 +3184,13 @@
       "character_preview": "私は今日の午後に映画を見に行きたかったのですが、良い映画がありませんでしたので、",
       "reading_preview": "わたしはきょうのごごにえいがをみにいきたかったのですが、よいえいががありませんで",
       "vocab_count": 45,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Одна из моих послеобе́денно́й вре́мени",
+      "character_preview": "Я жела́л посмотреть фильм пополудни, но ",
+      "reading_preview": "Ya zhelál posmotret' film popoludni, no",
+      "vocab_count": 51,
       "para_count": 1
     }
   },
@@ -2647,7 +3215,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/11134_live-and-learn.mp3",
-      "japanese": "/audio/japanese/11134_live-and-learn.mp3"
+      "japanese": "/audio/japanese/11134_live-and-learn.mp3",
+      "russian": "/audio/russian/11134_live-and-learn.mp3"
     },
     "mandarin": {
       "character_preview": "今年6月，家住上海的一位老人获得了中国美术学院的双学士学位，从中国画专业顺利毕业",
@@ -2660,6 +3229,13 @@
       "character_preview": "今年の6月、上海出身の年上の女性が中国芸術院から中国画で二つの学士号を取得して卒",
       "reading_preview": "ことしの 6がつ、 シャンハイしゅっしんの としうえの じょせいが ちゅうごくげ",
       "vocab_count": 138,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Учиться и жить",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 114,
       "para_count": 3
     }
   },
@@ -2684,7 +3260,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/11905_genius-girl-gu-ailing.mp3",
-      "japanese": "/audio/japanese/11905_genius-girl-gu-ailing.mp3"
+      "japanese": "/audio/japanese/11905_genius-girl-gu-ailing.mp3",
+      "russian": "/audio/russian/11905_genius-girl-gu-ailing.mp3"
     },
     "mandarin": {
       "character_preview": "谷爱凌是2022北京冬奥会的一颗明星。她是天才滑雪少女，中国人最关注的焦点之一。",
@@ -2697,6 +3274,13 @@
       "character_preview": "グ・アイリンは2022年の北京冬季オリンピックでのスターです。彼女は才能のあるス",
       "reading_preview": "ぐ・あいりんは2022ねんのぺきんとうきオリンピックでのスターです。かのじょはさ",
       "vocab_count": 191,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Таланти́вая де́вушка Гу Аи́лин",
+      "character_preview": "Гу Аи́лин — звезда на зимней олимпи́аде ",
+      "reading_preview": "Gu Ailing — zvezda na zimneje olimpijade",
+      "vocab_count": 148,
       "para_count": 4
     }
   },
@@ -2721,7 +3305,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/6368_my-marriage.mp3",
-      "japanese": "/audio/japanese/6368_my-marriage.mp3"
+      "japanese": "/audio/japanese/6368_my-marriage.mp3",
+      "russian": "/audio/russian/6368_my-marriage.mp3"
     },
     "mandarin": {
       "character_preview": "刚结婚的时候，我只是一个普通的医生，我丈夫还是个中学老师，每天生活都很规律，我们",
@@ -2734,6 +3319,13 @@
       "character_preview": "私たちが最初に結婚したとき、私は普通の医者で、夫は中等学校の教師でした。私たちの",
       "reading_preview": "わたしたちがさいしょにけっこんしたとき、わたしはふつうのいしゃで、 おっとはちゅ",
       "vocab_count": 43,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Моё заму́жество",
+      "character_preview": "Когда́ мы пе́рвый раз пожени́лись, я бы́",
+      "reading_preview": "Kogdá my pérrvyy raz pozhénilis', ya bý",
+      "vocab_count": 36,
       "para_count": 1
     }
   },
@@ -2758,7 +3350,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/10036_the-right-direction.mp3",
-      "japanese": "/audio/japanese/10036_the-right-direction.mp3"
+      "japanese": "/audio/japanese/10036_the-right-direction.mp3",
+      "russian": "/audio/russian/10036_the-right-direction.mp3"
     },
     "mandarin": {
       "character_preview": "从前，有一个人要从魏国到楚国去。他带了很多钱，雇了好车和快马，请了很优秀的车夫，",
@@ -2771,6 +3364,13 @@
       "character_preview": "昔々、ある男が魏の国から楚の国へ旅行したいと思いました。彼はたくさんの金を持ち、",
       "reading_preview": "むかしむかし、ある おとこが ぎの くにから そ の くにへ りょこうしたいと ",
       "vocab_count": 137,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Правильное направле́ние",
+      "character_preview": "",
+      "reading_preview": "",
+      "vocab_count": 125,
       "para_count": 3
     }
   },
@@ -2795,7 +3395,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4622_too-many-hobbies.mp3",
-      "japanese": "/audio/japanese/4622_too-many-hobbies.mp3"
+      "japanese": "/audio/japanese/4622_too-many-hobbies.mp3",
+      "russian": "/audio/russian/4622_too-many-hobbies.mp3"
     },
     "mandarin": {
       "character_preview": "小杨今年8岁，常常让爸爸妈妈不高兴。他说他想学画画，每个星期天妈妈都不休息，和他",
@@ -2808,6 +3409,13 @@
       "character_preview": "シャオ・ヤンは今年8歳で、しばしば両親を不幸にしています。彼は絵を描くことを習い",
       "reading_preview": "しゃお・やんは ことし 8さいで、しばしば りょうしんを ふこうに しています。",
       "vocab_count": 86,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Сли́шком мно́го хо́бби",
+      "character_preview": "Сяо́ Ян ́в э́том году́ 8 лет, и он ча́ст",
+      "reading_preview": "Syaó Yan v étom godú 8 let, i on chást",
+      "vocab_count": 36,
       "para_count": 1
     }
   },
@@ -2832,7 +3440,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/5430_colour.mp3",
-      "japanese": "/audio/japanese/5430_colour.mp3"
+      "japanese": "/audio/japanese/5430_colour.mp3",
+      "russian": "/audio/russian/5430_colour.mp3"
     },
     "mandarin": {
       "character_preview": "普通人可能很难理解颜色的重要性。十二岁的小男孩Jonathan有严重的色盲，他的",
@@ -2845,6 +3454,13 @@
       "character_preview": "普通の人々にとって、色の重要性を理解するのは難しいかもしれません。12歳の少年、",
       "reading_preview": "ふつう の ひとびと に とって、いろ の じゅうようせい を りかい する の",
       "vocab_count": 61,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Цвета́",
+      "character_preview": "Мо́жет быть, для обы́чных лю́дей тру́дно",
+      "reading_preview": "Mózhet byt', dlya obýchnykh lyúdey tr",
+      "vocab_count": 44,
       "para_count": 1
     }
   },
@@ -2869,7 +3485,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/5456_twenty-years-later.mp3",
-      "japanese": "/audio/japanese/5456_twenty-years-later.mp3"
+      "japanese": "/audio/japanese/5456_twenty-years-later.mp3",
+      "russian": "/audio/russian/5456_twenty-years-later.mp3"
     },
     "mandarin": {
       "character_preview": "最近上海的一位妈妈因为女儿不认真写作业生气到抓狂，但是妈妈的生气却让她的父亲母亲",
@@ -2882,6 +3499,13 @@
       "character_preview": "最近、シャンハイの母親は、娘が真剣に宿題をしなかったので非常に怒って、狂ったよう",
       "reading_preview": "最近（さいきん）、シャンハイの母親（ははおや）は、娘（むすめ）が真剣（しんけん）",
       "vocab_count": 68,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Двадцать лет спу́сдя",
+      "character_preview": "Неда́вно ма́ть в Шанха́е была́ так злá, ",
+      "reading_preview": "Nedávno mát' v Shankháe bylá tak zlá",
+      "vocab_count": 61,
       "para_count": 2
     }
   },
@@ -2906,7 +3530,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4551_my-good-friend.mp3",
-      "japanese": "/audio/japanese/4551_my-good-friend.mp3"
+      "japanese": "/audio/japanese/4551_my-good-friend.mp3",
+      "russian": "/audio/russian/4551_my-good-friend.mp3"
     },
     "mandarin": {
       "character_preview": "我的好朋友名字叫陈陈。他喜欢喝酒，我喜欢运动。小学和中学，我们都是一个班的同学。",
@@ -2919,6 +3544,13 @@
       "character_preview": "私の仲の良い友達の名前はチェンチェンです。彼は飲むのが好きで、私はスポーツをする",
       "reading_preview": "わたしのなかのよいたんじょうのなまえはちぇんちぇんです。かれはのむのがすきで、わ",
       "vocab_count": 42,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой до́брый друг",
+      "character_preview": "И́мя моего́ до́брого дру́га — Чэнь Чэнь.",
+      "reading_preview": "Ímya moyógo dóbrogo drúga — Chėn Chė",
+      "vocab_count": 11,
       "para_count": 1
     }
   },
@@ -2943,7 +3575,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4980_prepare-for-travel.mp3",
-      "japanese": "/audio/japanese/4980_prepare-for-travel.mp3"
+      "japanese": "/audio/japanese/4980_prepare-for-travel.mp3",
+      "russian": "/audio/russian/4980_prepare-for-travel.mp3"
     },
     "mandarin": {
       "character_preview": "下个月我想去旅游，但是还没想好去哪儿。朋友觉得北方好玩，但是下个月北方太冷了，南",
@@ -2956,6 +3589,13 @@
       "character_preview": "私は来月旅行したいですが、まだどこに行くか決めていません。私の友達は北の方が楽し",
       "reading_preview": "わたしはらいげつりょこうしたいですが、まだどこにいくかきめていません。わたしのと",
       "vocab_count": 76,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Подгото́вка к пое́здке",
+      "character_preview": "Я жела́ю пое́здить сле́дующий ме́сяц, но",
+      "reading_preview": "Ya zheláyu poézdity sléduyushchiy mésy",
+      "vocab_count": 38,
       "para_count": 1
     }
   },
@@ -2980,7 +3620,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1127_dad-and-mom-are-not-at-home.mp3",
-      "japanese": "/audio/japanese/1127_dad-and-mom-are-not-at-home.mp3"
+      "japanese": "/audio/japanese/1127_dad-and-mom-are-not-at-home.mp3",
+      "russian": "/audio/russian/1127_dad-and-mom-are-not-at-home.mp3"
     },
     "mandarin": {
       "character_preview": "今天爸爸妈妈不在家，我和弟弟妹妹在家。",
@@ -2993,6 +3634,13 @@
       "character_preview": "私の両親はきょう家にいません。私と兄弟、妹たちは家にいます。",
       "reading_preview": "わたしのりょうしんはきょういえにいません。わたしときょうだい、いもうとたちはいえ",
       "vocab_count": 45,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Па́па и ма́ма не до́ма",
+      "character_preview": "Ма́и́ родители не до́ма сего́дня, мои́ б",
+      "reading_preview": "Mái ródíteli ne dóma segódnya, moí br",
+      "vocab_count": 34,
       "para_count": 3
     }
   },
@@ -3017,7 +3665,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/5028_reading-story.mp3",
-      "japanese": "/audio/japanese/5028_reading-story.mp3"
+      "japanese": "/audio/japanese/5028_reading-story.mp3",
+      "russian": "/audio/russian/5028_reading-story.mp3"
     },
     "mandarin": {
       "character_preview": "很多人把学习当任务，他们没有什么热情学习书里的知识。他们喜欢出去玩或者在家看电视",
@@ -3030,6 +3679,13 @@
       "character_preview": "多くの人々は学ぶことを仕事だとみなし、書物の中の知識を学ぶことに熱意がありません",
       "reading_preview": "おおくの ひとびとは まなぶことを しごとだと みなし、しょもつの なかの ちし",
       "vocab_count": 59,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Чте́ние",
+      "character_preview": "Мно́гие лю́ди внима́ют обуче́нию как зад",
+      "reading_preview": "Mnógie líudi vnimáiut obuchéniu kak za",
+      "vocab_count": 28,
       "para_count": 1
     }
   },
@@ -3054,7 +3710,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/6494_fill-the-bottle.mp3",
-      "japanese": "/audio/japanese/6494_fill-the-bottle.mp3"
+      "japanese": "/audio/japanese/6494_fill-the-bottle.mp3",
+      "russian": "/audio/russian/6494_fill-the-bottle.mp3"
     },
     "mandarin": {
       "character_preview": "孩子们因为琐事打了起来。妈妈就把一个大玻璃瓶子拿出来，瓶子里装着满满的石头、玻璃",
@@ -3067,6 +3724,13 @@
       "character_preview": "子供たちはささいなことで喧嘩をしました。お母さんは岩、ガラスの破片、砂で満たされ",
       "reading_preview": "こどもたちはささいなことでけんかをしました。おかあさんはがん、ガラスのはへん、す",
       "vocab_count": 88,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Напо́лнение буты́лки",
+      "character_preview": "Де́ти у́частвовали в дра́ках из-за незна",
+      "reading_preview": "Détí úchastvovali v drákakh iz-za nezn",
+      "vocab_count": 96,
       "para_count": 4
     }
   },
@@ -3091,7 +3755,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4889_dancing.mp3",
-      "japanese": "/audio/japanese/4889_dancing.mp3"
+      "japanese": "/audio/japanese/4889_dancing.mp3",
+      "russian": "/audio/russian/4889_dancing.mp3"
     },
     "mandarin": {
       "character_preview": "张老师最近有了一个新学生，她是个八岁的小女孩，她的妈妈带着她来学跳舞。上课一个月",
@@ -3104,6 +3769,13 @@
       "character_preview": "張先生は最近、新しい生徒を持ちました。彼女は8歳の女の子です。彼女の母親は彼女を",
       "reading_preview": "ちょうせんせいはさいきん、あたらしいせいとをもちました。かのじょは8さいのおんな",
       "vocab_count": 86,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Танцы",
+      "character_preview": "На́ставник Чжан не́да́вно прине́с но́вог",
+      "reading_preview": "Nástavnik Chzhan nédavno prinés nóvo",
+      "vocab_count": 76,
       "para_count": 1
     }
   },
@@ -3128,7 +3800,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4702_change-of-life.mp3",
-      "japanese": "/audio/japanese/4702_change-of-life.mp3"
+      "japanese": "/audio/japanese/4702_change-of-life.mp3",
+      "russian": "/audio/russian/4702_change-of-life.mp3"
     },
     "mandarin": {
       "character_preview": "为了学习汉语，我来到了中国生活。到了新环境意味着我不得不放弃很多东西，比如我亲爱",
@@ -3141,6 +3814,13 @@
       "character_preview": "中国語を学ぶために、中国に住むことにしました。新しい環境に到着するということは、",
       "reading_preview": "ちゅうごくごをまなぶために、ちゅうごくにすむことにしました。あたらしいかんきょう",
       "vocab_count": 43,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Измене́ние жизни",
+      "character_preview": "Чтоб учи́ть кита́йский, я прие́хал жить ",
+      "reading_preview": "Chtób uchít kitáyskiy, ya prие́khal z",
+      "vocab_count": 80,
       "para_count": 1
     }
   },
@@ -3165,7 +3845,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4452_my-chinese-teacher.mp3",
-      "japanese": "/audio/japanese/4452_my-chinese-teacher.mp3"
+      "japanese": "/audio/japanese/4452_my-chinese-teacher.mp3",
+      "russian": "/audio/russian/4452_my-chinese-teacher.mp3"
     },
     "mandarin": {
       "character_preview": "因为工作需要，我必须学习汉语，但是学习了一段时间以后，我觉得汉语越来越难，有点儿",
@@ -3178,6 +3859,13 @@
       "character_preview": "私の仕事の必要があるので、中国語を学ばなければなりませんが、しばらく勉強した後、",
       "reading_preview": "わたしの しごとの ひつようが あるので、ちゅうごくごを まなばなければなりませ",
       "vocab_count": 66,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой кита́йский наста́вник",
+      "character_preview": "Из-за требова́ний моей рабо́ты я до́лжен",
+      "reading_preview": "Iz-za trebovániy moei ráboty ya dólzh",
+      "vocab_count": 55,
       "para_count": 1
     }
   },
@@ -3202,7 +3890,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4558_me-story.mp3",
-      "japanese": "/audio/japanese/4558_me-story.mp3"
+      "japanese": "/audio/japanese/4558_me-story.mp3",
+      "russian": "/audio/russian/4558_me-story.mp3"
     },
     "mandarin": {
       "character_preview": "我从大学毕业以后，第一份工作是在公司里当职员，后来我发现生活太无聊了，整天坐在办",
@@ -3215,6 +3904,13 @@
       "character_preview": "大学を卒業した後、私の最初の仕事は会社の事務員でした。その後、私は一日中事務所に",
       "reading_preview": "だいがくを そつぎょうした あと、 わたしの さいしょの しごとは かいしゃの ",
       "vocab_count": 58,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Я",
+      "character_preview": "По́сле того́ как я выпускни́лся из ко́лл",
+      "reading_preview": "Pósle tógo kak ya vypusknílsya iz kól",
+      "vocab_count": 55,
       "para_count": 1
     }
   },
@@ -3239,7 +3935,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4253_three-doctoral-brothers.mp3",
-      "japanese": "/audio/japanese/4253_three-doctoral-brothers.mp3"
+      "japanese": "/audio/japanese/4253_three-doctoral-brothers.mp3",
+      "russian": "/audio/russian/4253_three-doctoral-brothers.mp3"
     },
     "mandarin": {
       "character_preview": "兄弟三人都是博士，并且都从事太空研究工作。一天，三兄弟和自己的妻子去母亲家里吃饭",
@@ -3252,6 +3949,13 @@
       "character_preview": "三人の兄弟は全員博士号を持っており、宇宙研究に従事しています。ある日、三人の兄弟",
       "reading_preview": "さんにんのきょうだいはぜんいんはくしょこうをもっており、うちゅうけんきゅうにじゅ",
       "vocab_count": 97,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Тро́йка Доктора́льных Братьев",
+      "character_preview": "Все три бра́та имеют учёную сте́пень (Ph",
+      "reading_preview": "Vse tri bráta iméyut uchótnuyu stépen'",
+      "vocab_count": 73,
       "para_count": 2
     }
   },
@@ -3276,7 +3980,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4474_shoulder.mp3",
-      "japanese": "/audio/japanese/4474_shoulder.mp3"
+      "japanese": "/audio/japanese/4474_shoulder.mp3",
+      "russian": "/audio/russian/4474_shoulder.mp3"
     },
     "mandarin": {
       "character_preview": "我很小的时候认为身体最重要的部位是眼睛，因为眼睛可以看见蓝天、看见白云、看见我们",
@@ -3289,6 +3994,13 @@
       "character_preview": "私が非常に若い頃、身体で最も重要な部分は目だと思っていました。なぜなら、目は青い",
       "reading_preview": "わたしがひじょうにわかいころ、からだで最もじゅうようなぶぶんはめだとおもっていま",
       "vocab_count": 103,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Плечо́",
+      "character_preview": "Когда́ я был са́мый молодой, я ду́мал, ч",
+      "reading_preview": "Kogdá ya byl sámyy molodóy, ya dúmal, ch",
+      "vocab_count": 102,
       "para_count": 3
     }
   },
@@ -3313,7 +4025,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4296_philosophy-of-life-in-porcelain.mp3",
-      "japanese": "/audio/japanese/4296_philosophy-of-life-in-porcelain.mp3"
+      "japanese": "/audio/japanese/4296_philosophy-of-life-in-porcelain.mp3",
+      "russian": "/audio/russian/4296_philosophy-of-life-in-porcelain.mp3"
     },
     "mandarin": {
       "character_preview": "去旅游时,我买了一件珍贵的瓷器。瓷器用大箱子装着，大箱子里的间隙塞满了废纸，我考",
@@ -3326,6 +4039,13 @@
       "character_preview": "私が旅行していたとき、高価な磁器の一片を買いました。その磁器は大きな箱に詰められ",
       "reading_preview": "わたしがりょこうしていたとき、こうかなじきをいっぺんをかいました。そのじきはおお",
       "vocab_count": 93,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Фи́лософия жи́зни в фарфо́ре",
+      "character_preview": "Когда́ я пое́здил, я купи́л драгоце́нный",
+      "reading_preview": "Kogdá ya poézdil, ya kupíl dragocélnyy k",
+      "vocab_count": 82,
       "para_count": 3
     }
   },
@@ -3350,7 +4070,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4354_please-apologize-for-your-compliment.mp3",
-      "japanese": "/audio/japanese/4354_please-apologize-for-your-compliment.mp3"
+      "japanese": "/audio/japanese/4354_please-apologize-for-your-compliment.mp3",
+      "russian": "/audio/russian/4354_please-apologize-for-your-compliment.mp3"
     },
     "mandarin": {
       "character_preview": "有一次，朋友去一个教授家中做客。教授有个五岁的小女儿，长得非常漂亮。朋友对小女孩",
@@ -3363,6 +4084,13 @@
       "character_preview": "かつて、友人が教授の家に招待客として行きました。教授には非常に美しい五歳の娘がい",
       "reading_preview": "かつて、ゆうじんがきょうじゅのいえにしょうたいきゃくとしていきました。きょうじゅ",
       "vocab_count": 106,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Извините за ваш комплимент",
+      "character_preview": "Одна́жды друг пришёл в го́сть к профе́сс",
+      "reading_preview": "Odnázhdy drug prishyól v góst' k próf",
+      "vocab_count": 102,
       "para_count": 3
     }
   },
@@ -3387,7 +4115,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4312_a-beautiful-word.mp3",
-      "japanese": "/audio/japanese/4312_a-beautiful-word.mp3"
+      "japanese": "/audio/japanese/4312_a-beautiful-word.mp3",
+      "russian": "/audio/russian/4312_a-beautiful-word.mp3"
     },
     "mandarin": {
       "character_preview": "牛津大学有一个叫凯丽的女孩。上大学前，她一直都是好学生，但到牛津大学后，她却成为",
@@ -3400,6 +4129,13 @@
       "character_preview": "オクスフォード大学にはケリーという名前の女の子がいます。大学に行く前、彼女はいつ",
       "reading_preview": "オクスフォードだいがくにはケリーというなまえの女のこがいます。だいがくにいくまえ",
       "vocab_count": 84,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Краси́вое сло́во",
+      "character_preview": "Есть де́вушка по и́мени Келли в О́ксфорд",
+      "reading_preview": "Yest dévushka po ímeni Kellí v Óksfor",
+      "vocab_count": 76,
       "para_count": 3
     }
   },
@@ -3424,7 +4160,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4210_please-take-the-first-step.mp3",
-      "japanese": "/audio/japanese/4210_please-take-the-first-step.mp3"
+      "japanese": "/audio/japanese/4210_please-take-the-first-step.mp3",
+      "russian": "/audio/russian/4210_please-take-the-first-step.mp3"
     },
     "mandarin": {
       "character_preview": "有一个人要到另外一个美丽的城市去，那个城市很近，走路只要1个小时。正因为近，这个",
@@ -3437,6 +4174,13 @@
       "character_preview": "別の美しい都市に行きたい人がいます。その都市は非常に近く、歩いてたった1時間で行",
       "reading_preview": "べつの うつくしい としに いきたい ひとが います。その としは ひじょうに ",
       "vocab_count": 93,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Сделай пе́рвый ша́г",
+      "character_preview": "Е́сть ли́чность, кото́рая жела́ет пое́ха",
+      "reading_preview": "Yést líchnost', kotoráya zheláyet poék",
+      "vocab_count": 83,
       "para_count": 3
     }
   },
@@ -3461,7 +4205,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4153_ten-minutes-of-life.mp3",
-      "japanese": "/audio/japanese/4153_ten-minutes-of-life.mp3"
+      "japanese": "/audio/japanese/4153_ten-minutes-of-life.mp3",
+      "russian": "/audio/russian/4153_ten-minutes-of-life.mp3"
     },
     "mandarin": {
       "character_preview": "父亲与儿子做游戏：10分钟代表一个人的一生，在这10分钟里，每人从一本书里找\"黄",
@@ -3474,6 +4219,13 @@
       "character_preview": "父と息子はゲームをしました。10分は一人の人生を表します。この10分間で、各自が",
       "reading_preview": "ちち と むすこ は ゲーム を しました。 じゅっぷん は ひとり の じんせ",
       "vocab_count": 82,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Десять минут жиз́ни",
+      "character_preview": "Ба́тька и его́ сын игра́ли в игру́: 10 м",
+      "reading_preview": "Bát'ka i égo syn igráli v igrú: 10 m",
+      "vocab_count": 71,
       "para_count": 2
     }
   },
@@ -3498,7 +4250,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4137_grinding-axe.mp3",
-      "japanese": "/audio/japanese/4137_grinding-axe.mp3"
+      "japanese": "/audio/japanese/4137_grinding-axe.mp3",
+      "russian": "/audio/russian/4137_grinding-axe.mp3"
     },
     "mandarin": {
       "character_preview": "有个工人在一家木材厂找到了一份工作，报酬不错，工作条件也好，所以他很珍惜，下决心",
@@ -3511,6 +4264,13 @@
       "character_preview": "ある労働者が材木工場で仕事を見つけました。給料は良く、働く条件も良かったので、彼",
       "reading_preview": "ある ろうどうしゃ が ざいもくこうじょう で しごと を みつけました。きゅう",
       "vocab_count": 103,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Рабочий и секи́ра",
+      "character_preview": "Рабо́тник нашёл рабо́ту на фа́брике де́р",
+      "reading_preview": "Rabótnik na’shël rabótu na fábrike dére",
+      "vocab_count": 90,
       "para_count": 3
     }
   },
@@ -3535,7 +4295,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4237_attitude-determines-the-future.mp3",
-      "japanese": "/audio/japanese/4237_attitude-determines-the-future.mp3"
+      "japanese": "/audio/japanese/4237_attitude-determines-the-future.mp3",
+      "russian": "/audio/russian/4237_attitude-determines-the-future.mp3"
     },
     "mandarin": {
       "character_preview": "有三个工人正在砌墙。有人问他们：\"你们在干什么？”",
@@ -3548,6 +4309,13 @@
       "character_preview": "3人の労働者が壁を建てています。ある人が彼らに尋ねました。「何をしていますか？」",
       "reading_preview": "さんにんのろうどうしゃがかべをたてています。あるひとがかれらにたずねました。「な",
       "vocab_count": 95,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Пози́ция Определя́ет Буду́щее",
+      "character_preview": "Ес́ть тро́е рабо́тников, стро́ящих сте́н",
+      "reading_preview": "Yest́' tróe rabotnikov, stróyashchikh ",
+      "vocab_count": 84,
       "para_count": 4
     }
   },
@@ -3572,7 +4340,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4180_inertial-thinking.mp3",
-      "japanese": "/audio/japanese/4180_inertial-thinking.mp3"
+      "japanese": "/audio/japanese/4180_inertial-thinking.mp3",
+      "russian": "/audio/russian/4180_inertial-thinking.mp3"
     },
     "mandarin": {
       "character_preview": "一家酒店经营得很好，老板准备开展另外一项业务。由于没有太多的精力管理这家酒店，所",
@@ -3585,6 +4354,13 @@
       "character_preview": "ホテルは順調に運営されていて、持ち主はもう一つのビジネスを始める準備ができていま",
       "reading_preview": "ホテル は じゅんちょう に うんえい されていて、もちぬし は もう ひとつ ",
       "vocab_count": 90,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Инерцио́нное Мышле́ние",
+      "character_preview": "О́тель хоро́шо́ работает, и владелец гот",
+      "reading_preview": "Ótel khorósho rabotáet, i vladélets ",
+      "vocab_count": 80,
       "para_count": 3
     }
   },
@@ -3609,7 +4385,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4108_borrow-one-dollar.mp3",
-      "japanese": "/audio/japanese/4108_borrow-one-dollar.mp3"
+      "japanese": "/audio/japanese/4108_borrow-one-dollar.mp3",
+      "russian": "/audio/russian/4108_borrow-one-dollar.mp3"
     },
     "mandarin": {
       "character_preview": "一个人走进一家银行，对经理说：\"我可以借钱吗？”经理回答：\"当然，只要有担保，借",
@@ -3622,6 +4399,13 @@
       "character_preview": "ある男が銀行に入ってきて、支配人に言った。「お金を借りてもいいですか？」支配人は",
       "reading_preview": "ある おとこ が ぎんこう に はいってきて、しはいにん に いった。「おかね ",
       "vocab_count": 81,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "О́н взя́л до́ллар в долг",
+      "character_preview": "О́дин му́ж вошёл в банк и ска́зал дире́к",
+      "reading_preview": "Ódin múzh voshёл v bank i skázal dire",
+      "vocab_count": 76,
       "para_count": 3
     }
   },
@@ -3646,7 +4430,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4061_the-weather-i-like.mp3",
-      "japanese": "/audio/japanese/4061_the-weather-i-like.mp3"
+      "japanese": "/audio/japanese/4061_the-weather-i-like.mp3",
+      "russian": "/audio/russian/4061_the-weather-i-like.mp3"
     },
     "mandarin": {
       "character_preview": "在一家饭馆，有一位客人问服务员：\"请问，你知道明天的天气怎么样吗？”",
@@ -3659,6 +4444,13 @@
       "character_preview": "レストランで、お客がウエーターに尋ねました。「すみませんが、明日の天気はどうなる",
       "reading_preview": "れすとらんで、 おきゃくが うえーたーに たずねました。「すみませんが、 あした",
       "vocab_count": 70,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Погода, кото́рую я люблю́",
+      "character_preview": "В рестора́не зака́зчик спра́шивает офици",
+      "reading_preview": "V restáorane zákazchik spráshivaet of",
+      "vocab_count": 56,
       "para_count": 3
     }
   },
@@ -3683,7 +4475,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4043_different-answers.mp3",
-      "japanese": "/audio/japanese/4043_different-answers.mp3"
+      "japanese": "/audio/japanese/4043_different-answers.mp3",
+      "russian": "/audio/russian/4043_different-answers.mp3"
     },
     "mandarin": {
       "character_preview": "一个年轻人来到一个陌生的地方碰到一位老人，年轻人问：\"这里怎么样？”老人反问：\"",
@@ -3696,6 +4489,13 @@
       "character_preview": "若い男が奇妙な場所に来て、老いた男に会いました。若い男は「ここはどうですか？」と",
       "reading_preview": "わかい おとこ が きみょう な ばしょ に きて、 おいた おとこ に あいま",
       "vocab_count": 83,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Разные о́тветы",
+      "character_preview": "Молоды́й челове́к пришёл в стра́нное ме́",
+      "reading_preview": "Molodýj chelovék prishél v stránnoe m",
+      "vocab_count": 69,
       "para_count": 4
     }
   },
@@ -3720,7 +4520,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4013_six-steamed-bread.mp3",
-      "japanese": "/audio/japanese/4013_six-steamed-bread.mp3"
+      "japanese": "/audio/japanese/4013_six-steamed-bread.mp3",
+      "russian": "/audio/russian/4013_six-steamed-bread.mp3"
     },
     "mandarin": {
       "character_preview": "一天早上，小和尚发现师父和大师兄都得到了六个馒头，而他只得到了四个馒头。小和尚觉",
@@ -3733,6 +4534,13 @@
       "character_preview": "ある朝、若い修道僧は、彼の主人と年上の修道僧がそれぞれ六個の蒸しパンを与えられて",
       "reading_preview": "あるあさ、わかいしゅうどうそうは、かれのしゅじんととしうえのしゅうどうそうがそれ",
       "vocab_count": 100,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Ше́сть паровы́х бу́лочек",
+      "character_preview": "О́дним у́тром молодой мона́х заме́тил, ч",
+      "reading_preview": "Ódnim útrom molodój monóh zamétil, ",
+      "vocab_count": 84,
       "para_count": 3
     }
   },
@@ -3757,7 +4565,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3996_victory-of-the-antelope.mp3",
-      "japanese": "/audio/japanese/3996_victory-of-the-antelope.mp3"
+      "japanese": "/audio/japanese/3996_victory-of-the-antelope.mp3",
+      "russian": "/audio/russian/3996_victory-of-the-antelope.mp3"
     },
     "mandarin": {
       "character_preview": "两只羚羊正在草原上吃草，就在这时，一只猎豹突然向小羚羊跑了过来。大羚羊连忙喊：\"",
@@ -3770,6 +4579,13 @@
       "character_preview": "二頭のレイヨウが草原地帯で放牧していると、突然チーターが若いレイヨウの方へ突進し",
       "reading_preview": "にとうの れいようが そうげんちたいで ほうぼくしていると、 とつぜん ちーたー",
       "vocab_count": 110,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Побе́да антило́пы",
+      "character_preview": "Две антило́пы паслись на лугу, когда вдр",
+      "reading_preview": "Dve antilópy paslis' na lugu, kogda vdr",
+      "vocab_count": 93,
       "para_count": 3
     }
   },
@@ -3794,7 +4610,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3849_the-value-of-black-sheep.mp3",
-      "japanese": "/audio/japanese/3849_the-value-of-black-sheep.mp3"
+      "japanese": "/audio/japanese/3849_the-value-of-black-sheep.mp3",
+      "russian": "/audio/russian/3849_the-value-of-black-sheep.mp3"
     },
     "mandarin": {
       "character_preview": "农夫有三只小白羊和一只小黑羊。三只小白羊常常嘲笑小黑羊又黑又脏，农夫也不喜欢它。",
@@ -3807,6 +4624,13 @@
       "character_preview": "農場主は三匹の小さな白い羊と一匹の小さな黒い羊を飼っていました。白い羊はしばしば",
       "reading_preview": "のうじょうぬしはさんびきのちいさなしろいひつじといっぴきのちいさなくろいひつじを",
       "vocab_count": 121,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Ценность парши́вой овцы́",
+      "character_preview": "О́дин де́хка́нин имел три ма́ленькие бе́",
+      "reading_preview": "Ódin déhkanin imel tri málen'kie bél",
+      "vocab_count": 106,
       "para_count": 3
     }
   },
@@ -3831,7 +4655,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3760_happiness-2.mp3",
-      "japanese": "/audio/japanese/3760_happiness-2.mp3"
+      "japanese": "/audio/japanese/3760_happiness-2.mp3",
+      "russian": "/audio/russian/3760_happiness-2.mp3"
     },
     "mandarin": {
       "character_preview": "一对夫妻结婚一年了，妻子是一个很天真的人，在生活中她给丈夫带来了很多快乐的时光和",
@@ -3844,6 +4669,13 @@
       "character_preview": "夫婦は結婚して1年が経ちました。妻はやや無邪気で、夫に多くの幸せな瞬間と思い出を",
       "reading_preview": "ふうふはけっこんして1ねんがたちました。つまはややむじゃきで、あんたにおおくのし",
       "vocab_count": 98,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Сча́стье",
+      "character_preview": "О́дная па́ра была́ заму́жем уже год. Жен",
+      "reading_preview": "Ódnaya pára bylá zamúzhem uzhe god. ",
+      "vocab_count": 80,
       "para_count": 3
     }
   },
@@ -3868,7 +4700,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3824_doctor-and-fisherman.mp3",
-      "japanese": "/audio/japanese/3824_doctor-and-fisherman.mp3"
+      "japanese": "/audio/japanese/3824_doctor-and-fisherman.mp3",
+      "russian": "/audio/russian/3824_doctor-and-fisherman.mp3"
     },
     "mandarin": {
       "character_preview": "一天，一个博士坐船欣赏风景。在船上，博士问渔夫：”你会数学吗？”渔夫说不会，博士",
@@ -3881,6 +4714,13 @@
       "character_preview": "ある日、博士号を持つ男が風景を楽しむためにボートに乗っていました。ボートの中で、",
       "reading_preview": "あるにち、はくしごうをもつおとこがふうけいをたのしむためにぼーとにのっていました",
       "vocab_count": 71,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Докто́р и рыба́к",
+      "character_preview": "Одна́жды дя́дя с до́кторской сте́пенью к",
+      "reading_preview": "Odnázhdy dyádya s dóktorskoy stépen'",
+      "vocab_count": 55,
       "para_count": 4
     }
   },
@@ -3905,7 +4745,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3649_catching-thief-with-wisdom.mp3",
-      "japanese": "/audio/japanese/3649_catching-thief-with-wisdom.mp3"
+      "japanese": "/audio/japanese/3649_catching-thief-with-wisdom.mp3",
+      "russian": "/audio/russian/3649_catching-thief-with-wisdom.mp3"
     },
     "mandarin": {
       "character_preview": "一天晚上，一个农夫看见一个人拿着一大包东西向邻村跑去了。第二天，农夫发现原来是自",
@@ -3918,6 +4759,13 @@
       "character_preview": "ある夕方、農場主は近くの村に向かって大きな束を運んでいる誰かを見ました。次の日、",
       "reading_preview": "ある ゆうがた、のうじょうぬし は ちかく の むら に むかって おおきな た",
       "vocab_count": 91,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Пойма́ть вора с помо́щью у́ма",
+      "character_preview": "О́дним ве́чером дехка́нин у́видел, как к",
+      "reading_preview": "Ódnim vécherom deýkhanin uvídél, kak kt",
+      "vocab_count": 80,
       "para_count": 3
     }
   },
@@ -3942,7 +4790,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3780_encouragement.mp3",
-      "japanese": "/audio/japanese/3780_encouragement.mp3"
+      "japanese": "/audio/japanese/3780_encouragement.mp3",
+      "russian": "/audio/russian/3780_encouragement.mp3"
     },
     "mandarin": {
       "character_preview": "一个小女孩被老师排除在合唱团之外，所以一个人在公园里伤心流泪。过了一会儿，她开始",
@@ -3955,6 +4804,13 @@
       "character_preview": "小さい女の子は先生に合唱団から外されてしまったので、公園で一人で座って悲しそうに",
       "reading_preview": "ちいさいおんなのこはせんせいにがっしょうだんからはずされてしまったので、こうえん",
       "vocab_count": 85,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "По́ощь",
+      "character_preview": "Немно́го́е́ де́вочка остала́сь вне хора́",
+      "reading_preview": "Nemońogoé dévotchka ostalás' vne kho",
+      "vocab_count": 76,
       "para_count": 3
     }
   },
@@ -3979,7 +4835,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3805_15-minutes-late.mp3",
-      "japanese": "/audio/japanese/3805_15-minutes-late.mp3"
+      "japanese": "/audio/japanese/3805_15-minutes-late.mp3",
+      "russian": "/audio/russian/3805_15-minutes-late.mp3"
     },
     "mandarin": {
       "character_preview": "如果你和别人有一个约会，但是你大概要迟到15分钟，你会怎么办？打电话告诉对方你可",
@@ -3992,6 +4849,13 @@
       "character_preview": "誰かに会う予定があるけれど、15分遅れると思った場合、あなたはどうしますか？電話",
       "reading_preview": "だれかにあうよていがあるけれど、15ぶんおくれるとおもったばあい、あなたはどうし",
       "vocab_count": 84,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "15 мину́т запо́здния",
+      "character_preview": "Е́сли у вас есть пла́ны встре́титься с к",
+      "reading_preview": "Yésli u vás yest́ plány vstret́itsya s k",
+      "vocab_count": 79,
       "para_count": 2
     }
   },
@@ -4016,7 +4880,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3625_the-simplest-common-sense.mp3",
-      "japanese": "/audio/japanese/3625_the-simplest-common-sense.mp3"
+      "japanese": "/audio/japanese/3625_the-simplest-common-sense.mp3",
+      "russian": "/audio/russian/3625_the-simplest-common-sense.mp3"
     },
     "mandarin": {
       "character_preview": "大学生们在公园聊天，有一个人问：”一滴水如果从很高的地方落下来，会不会把人砸死？",
@@ -4029,6 +4894,13 @@
       "character_preview": "いくらかの大学の学生たちが公園で雑談していると、そのうちの一人が「もし水滴が大き",
       "reading_preview": "いくらかの だいがくの がくせいたちが こうえんで ざつだんしていると、そのうち",
       "vocab_count": 79,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Простейший здра́вый смысл",
+      "character_preview": "Не́сколько студе́нтов ко́лледжа разговар",
+      "reading_preview": "Néskol'ko studéntov kólledzha razgova",
+      "vocab_count": 62,
       "para_count": 4
     }
   },
@@ -4053,7 +4925,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3343_the-result-of-coveting-little-advantages.mp3",
-      "japanese": "/audio/japanese/3343_the-result-of-coveting-little-advantages.mp3"
+      "japanese": "/audio/japanese/3343_the-result-of-coveting-little-advantages.mp3",
+      "russian": "/audio/russian/3343_the-result-of-coveting-little-advantages.mp3"
     },
     "mandarin": {
       "character_preview": "小张是个爱贪小便宜的人。有一天，小张领了不少薪水，小李知道后想让小张请客吃饭。小",
@@ -4066,6 +4939,13 @@
       "character_preview": "シャオ・ジャンはいつも少しの何かを無料でもらう方法を探していました。ある日、彼は",
       "reading_preview": "シャオ・ジャンはいつもすこしのなにかをむりょうでもらうほうほうをさがしていました",
       "vocab_count": 88,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Ре́зультат жа́жды к не́большим преи́муществам",
+      "character_preview": "Сяо Чжан всегда́ искал пути, чтобы получ",
+      "reading_preview": "Síao Chzhan vsegdá iskál putí, chtoby p",
+      "vocab_count": 75,
       "para_count": 3
     }
   },
@@ -4090,7 +4970,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3431_one-chance.mp3",
-      "japanese": "/audio/japanese/3431_one-chance.mp3"
+      "japanese": "/audio/japanese/3431_one-chance.mp3",
+      "russian": "/audio/russian/3431_one-chance.mp3"
     },
     "mandarin": {
       "character_preview": "有一个人想学习射箭，于是找了一位射箭很厉害的师傅教他射箭。这个人拿起一张弓和两支",
@@ -4103,6 +4984,13 @@
       "character_preview": "ある男が弓術を習いたいと思って、熟練した弓術家を見つけて教えてもらうことにした。",
       "reading_preview": "ある おとこが きゅうじゅつを ならいたいと おもって、 じゅくれんした きゅう",
       "vocab_count": 80,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Один шанc",
+      "character_preview": "Мужча́рина жела́л учи́ться стрельбе́ из ",
+      "reading_preview": "Mužčína želáł učít'sja streľbé iz lú",
+      "vocab_count": 70,
       "para_count": 5
     }
   },
@@ -4127,7 +5015,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3892_the-essence-of-learning.mp3",
-      "japanese": "/audio/japanese/3892_the-essence-of-learning.mp3"
+      "japanese": "/audio/japanese/3892_the-essence-of-learning.mp3",
+      "russian": "/audio/russian/3892_the-essence-of-learning.mp3"
     },
     "mandarin": {
       "character_preview": "曾经，有一个学生对自己的老师说：\"老师！您可以把您智慧的精华都告诉我吗？这样我就",
@@ -4140,6 +5029,13 @@
       "character_preview": "かつて、ある学生が彼の先生に尋ねました。「先生、あなたの知恵の本質について教えて",
       "reading_preview": "かつて、あるがくせいがかれのせんせいにたずねました。「せんせい、あなたのちえのほ",
       "vocab_count": 103,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Су́щность уче́ния",
+      "character_preview": "Одна́жды студе́нт спра́шивал своего́ нас",
+      "reading_preview": "Odnázhdy studént spráshival svoegó n",
+      "vocab_count": 90,
       "para_count": 2
     }
   },
@@ -4164,7 +5060,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3633_we-are-rich.mp3",
-      "japanese": "/audio/japanese/3633_we-are-rich.mp3"
+      "japanese": "/audio/japanese/3633_we-are-rich.mp3",
+      "russian": "/audio/russian/3633_we-are-rich.mp3"
     },
     "mandarin": {
       "character_preview": "从前有一个年轻人，每天抱怨自己没钱。有一天，一个老人路过他的身边，看到他如此颓废",
@@ -4177,6 +5074,13 @@
       "character_preview": "かつて、毎日お金がないと不平を言う若い男がいました。ある日、通りかかった老人が彼",
       "reading_preview": "かつて、まいにちおかねがないとふへいをいうわかいおとこがいました。あるひ、とおり",
       "vocab_count": 107,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Мы бога́ты",
+      "character_preview": "Одна́жды был молодо́й челове́к, кото́рый",
+      "reading_preview": "Odnázhdy byl molodói chelovék, kotoryi k",
+      "vocab_count": 98,
       "para_count": 2
     }
   },
@@ -4201,7 +5105,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3222_fairness.mp3",
-      "japanese": "/audio/japanese/3222_fairness.mp3"
+      "japanese": "/audio/japanese/3222_fairness.mp3",
+      "russian": "/audio/russian/3222_fairness.mp3"
     },
     "mandarin": {
       "character_preview": "两只小狗在争一块饼干，争得很厉害。这时，大狗走了过来。两只小狗看到了希望，不再争",
@@ -4214,6 +5119,13 @@
       "character_preview": "二匹の小さな犬がクッキーを巡って激しく戦っていました。その時、大きな犬がやってき",
       "reading_preview": "にひきの ちいさな いぬが クッキーをめぐって はげしく たたかっていました。そ",
       "vocab_count": 74,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Справедли́вость",
+      "character_preview": "Два́ ма́леньких пса́ бью́щими́сь жесто́к",
+      "reading_preview": "Dvá málen'kikh psý byúshchimís' zhe",
+      "vocab_count": 66,
       "para_count": 3
     }
   },
@@ -4238,7 +5150,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3325_sowing-and-harvesting.mp3",
-      "japanese": "/audio/japanese/3325_sowing-and-harvesting.mp3"
+      "japanese": "/audio/japanese/3325_sowing-and-harvesting.mp3",
+      "russian": "/audio/russian/3325_sowing-and-harvesting.mp3"
     },
     "mandarin": {
       "character_preview": "有一个人经过绿洲，看到一位老人正在播种，就走过去问：\"你好呀，大爷。这么热的天，",
@@ -4251,6 +5164,13 @@
       "character_preview": "オアシスを通りかかった男は、老いた男が種を植えているのを見ました。彼は近づいて、",
       "reading_preview": "オアシスをとおりかかったおとこは、 おいたおとこがたねをうえているのをみました。",
       "vocab_count": 93,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Посе́в и Уро́жай",
+      "character_preview": "О́дну́жды, прохо́дящий сквозь оа́зис, дя",
+      "reading_preview": "Ódnújdy, próxodyaščij skvoz' oázis, d",
+      "vocab_count": 88,
       "para_count": 6
     }
   },
@@ -4275,7 +5195,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3246_stick-to-your-choice.mp3",
-      "japanese": "/audio/japanese/3246_stick-to-your-choice.mp3"
+      "japanese": "/audio/japanese/3246_stick-to-your-choice.mp3",
+      "russian": "/audio/russian/3246_stick-to-your-choice.mp3"
     },
     "mandarin": {
       "character_preview": "从前有三个兄弟想从农村到城市去创造自己的事业，他们克服许多困难后终于来到了一座热",
@@ -4288,6 +5209,13 @@
       "character_preview": "かつて、三人の兄弟が自分たちの商売を作るために田舎を離れて都市に向かいました。多",
       "reading_preview": "かつて、さんにんのきょうだいがじぶんたちのしょうばいをつくるためにいなかをはなれ",
       "vocab_count": 108,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Выбор на всю жизнь",
+      "character_preview": "Одина́жды три бра́та у́шли из се́льской ",
+      "reading_preview": "Odinázhdy tri bráta úshli iz sélskoj mé",
+      "vocab_count": 103,
       "para_count": 2
     }
   },
@@ -4312,7 +5240,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3203_know-and-achieve.mp3",
-      "japanese": "/audio/japanese/3203_know-and-achieve.mp3"
+      "japanese": "/audio/japanese/3203_know-and-achieve.mp3",
+      "russian": "/audio/russian/3203_know-and-achieve.mp3"
     },
     "mandarin": {
       "character_preview": "有一次，美国通用电气首席执行官杰克·韦尔奇应邀来中国给企业管理人员讲课。然而，听",
@@ -4325,6 +5254,13 @@
       "character_preview": "かつて、ジャック・ウェルチは、ゼネラル・エレクトリックのCEOとして、中国に招待",
       "reading_preview": "かつて、ジャック・ウェルチは、ゼネラル・エレクトリックのCEOとして、中国にしょ",
       "vocab_count": 117,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Знать и добираться",
+      "character_preview": "О́дин раз Джек Уэлч, генди́р компа́нии «",
+      "reading_preview": "Ódin raz Dzhek Uélch, gendír kompánii «",
+      "vocab_count": 105,
       "para_count": 3
     }
   },
@@ -4349,7 +5285,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3120_a-leaf-block-out-eyes.mp3",
-      "japanese": "/audio/japanese/3120_a-leaf-block-out-eyes.mp3"
+      "japanese": "/audio/japanese/3120_a-leaf-block-out-eyes.mp3",
+      "russian": "/audio/russian/3120_a-leaf-block-out-eyes.mp3"
     },
     "mandarin": {
       "character_preview": "很久以前有个读书人，因为家里很穷，所以很想找到发财的方法。他读到一本书，书上说：",
@@ -4362,6 +5299,13 @@
       "character_preview": "ずいぶん昔、非常に貧乏な学者がいて、金持ちになる方法を見つけたいと思っていました",
       "reading_preview": "ずいぶんむかし、ひじょうにびんぼうながくしゃがいて、かねもちになるほうほうをみつ",
       "vocab_count": 114,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Ли́ст, скрыва́ющий глаза",
+      "character_preview": "Да́вно́ вре́мя назад бы́л уче́ный, кото́",
+      "reading_preview": "Dav́no vreḿya nazad býl uchényy, kot́",
+      "vocab_count": 101,
       "para_count": 1
     }
   },
@@ -4386,7 +5330,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3367_nails.mp3",
-      "japanese": "/audio/japanese/3367_nails.mp3"
+      "japanese": "/audio/japanese/3367_nails.mp3",
+      "russian": "/audio/russian/3367_nails.mp3"
     },
     "mandarin": {
       "character_preview": "有一个男孩常常对别人乱发脾气。一天，他的父亲告诉他:\"你每次发脾气的时候，就在后",
@@ -4399,6 +5344,13 @@
       "character_preview": "かつて、他の人々に対してしばしば立腹していた少年がいました。ある日、彼の父は言い",
       "reading_preview": "かつて、ほかの ひとびとにたいして しばしば りっぱくしていた しょうねんが い",
       "vocab_count": 93,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Гвозди",
+      "character_preview": "Одна́жды был ма́льчик, который ча́сто те",
+      "reading_preview": "Odńazhdy byl málchik, kotorýy chásto ",
+      "vocab_count": 90,
       "para_count": 4
     }
   },
@@ -4423,7 +5375,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3147_the-weight-of-a-glass-of-water.mp3",
-      "japanese": "/audio/japanese/3147_the-weight-of-a-glass-of-water.mp3"
+      "japanese": "/audio/japanese/3147_the-weight-of-a-glass-of-water.mp3",
+      "russian": "/audio/russian/3147_the-weight-of-a-glass-of-water.mp3"
     },
     "mandarin": {
       "character_preview": "有一位老师正在给学生们上课，大家都认真地听着。\"大家认为这杯水有多重？”说着，老",
@@ -4436,6 +5389,13 @@
       "character_preview": "先生が授業をしていて、生徒たちは注意深く聞いていました。「このコップの水はどれく",
       "reading_preview": "せんせい が じゅぎょう を していて、せいとたち は ちゅういぶかく きいてい",
       "vocab_count": 105,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Вес стакана воды",
+      "character_preview": "На́ставник да́л уро́к, и студе́нты внима",
+      "reading_preview": "Nástavnik dál urók, i studénty vnima",
+      "vocab_count": 93,
       "para_count": 3
     }
   },
@@ -4460,7 +5420,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3163_a-cup.mp3",
-      "japanese": "/audio/japanese/3163_a-cup.mp3"
+      "japanese": "/audio/japanese/3163_a-cup.mp3",
+      "russian": "/audio/russian/3163_a-cup.mp3"
     },
     "mandarin": {
       "character_preview": "一个富人问禅师：\"我一生忙于赚钱，请问我应该赚多少才停止？”",
@@ -4473,6 +5434,13 @@
       "character_preview": "富裕な男が禅の主人に尋ねました。「私は生涯を通じてお金を稼いできました。いくら稼",
       "reading_preview": "ふゆう な おとこ が ぜん の しゅじん に たずねました。「わたし は しょ",
       "vocab_count": 79,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Ча́шка",
+      "character_preview": "Обе́зпече́нный муж спро́сил хозя́ина дзэ",
+      "reading_preview": "Obézpéchennyy múzh sprósil khoziáin",
+      "vocab_count": 70,
       "para_count": 5
     }
   },
@@ -4497,7 +5465,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3049_deceive-oneself.mp3",
-      "japanese": "/audio/japanese/3049_deceive-oneself.mp3"
+      "japanese": "/audio/japanese/3049_deceive-oneself.mp3",
+      "russian": "/audio/russian/3049_deceive-oneself.mp3"
     },
     "mandarin": {
       "character_preview": "从前，有一个小偷看到一口漂亮的大钟，想把它背回自己家去。可是钟又大又重，想要拿回",
@@ -4510,6 +5479,13 @@
       "character_preview": "かつて、泥棒が美しくて大きなベルを見つけ、それを家に持って帰りたいと思いました。",
       "reading_preview": "かつて、どろぼうがうつくしくておおきなベルをみつけ、それをいえにもってかえりたい",
       "vocab_count": 111,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Собственную обмáн",
+      "character_preview": "Одна́жды вор уви́дел краси́вый большо́й ",
+      "reading_preview": "Odnázhdy vor uvíděl krásivý bol'shóy ko",
+      "vocab_count": 86,
       "para_count": 3
     }
   },
@@ -4534,7 +5510,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3391_smart-child.mp3",
-      "japanese": "/audio/japanese/3391_smart-child.mp3"
+      "japanese": "/audio/japanese/3391_smart-child.mp3",
+      "russian": "/audio/russian/3391_smart-child.mp3"
     },
     "mandarin": {
       "character_preview": "有一天，王奶奶看见路边有人正在卖苹果，于是问卖苹果的师傅：\"苹果怎么卖？”师傅说",
@@ -4547,6 +5524,13 @@
       "character_preview": "ある日、ワンおばあちゃんは道ばたでリンゴを売っている人を見ました。彼女はその行商",
       "reading_preview": "あるひ、ワンおばあちゃんはみちばたでリンゴをうっているひとをみました。かのじょは",
       "vocab_count": 83,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Умный ребёнок",
+      "character_preview": "Одна́жды ба́бушка Ван увидела кого́-то, ",
+      "reading_preview": "Odnázhdy bábushka Van uvidela kogó-to",
+      "vocab_count": 73,
       "para_count": 3
     }
   },
@@ -4571,7 +5555,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2917_apply-mechanically.mp3",
-      "japanese": "/audio/japanese/2917_apply-mechanically.mp3"
+      "japanese": "/audio/japanese/2917_apply-mechanically.mp3",
+      "russian": "/audio/russian/2917_apply-mechanically.mp3"
     },
     "mandarin": {
       "character_preview": "一家饭馆的服务员请一位顾客猜谜语,他说：”我母亲和我父亲生了个孩子，既不是我兄弟",
@@ -4584,6 +5569,13 @@
       "character_preview": "レストランのウエーターが、お客にいなぞを尋ねました。「私の母と父には、私の兄でも",
       "reading_preview": "レストランのウエーターが、おきゃくにいなぞをたずねました。「わたしのははとちちは",
       "vocab_count": 63,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Загадка официанта",
+      "character_preview": "Официа́нт в рестора́не спра́шивает зака́",
+      "reading_preview": "Ofitsíant v restoráne spráshivaet zakáz",
+      "vocab_count": 57,
       "para_count": 3
     }
   },
@@ -4608,7 +5600,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2990_a-mouse-without-confidence.mp3",
-      "japanese": "/audio/japanese/2990_a-mouse-without-confidence.mp3"
+      "japanese": "/audio/japanese/2990_a-mouse-without-confidence.mp3",
+      "russian": "/audio/russian/2990_a-mouse-without-confidence.mp3"
     },
     "mandarin": {
       "character_preview": "森林中有一只小老鼠，它觉得自己形象不佳，本领又小，生活在社会的最底层。于是，它来",
@@ -4621,6 +5614,13 @@
       "character_preview": "森には、印象が薄く、能力が少ないと思っている小さなハツカネズミがいました。彼は動",
       "reading_preview": "もりには、いんしょうがうすく、のうりょくがすくないとおもっているちいさなはつかね",
       "vocab_count": 103,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Мышка без у́веренности",
+      "character_preview": "В ле́су жила́ не́большая мышка, кото́рая",
+      "reading_preview": "V lésu zhilá nébol'shaya mýshka, kot",
+      "vocab_count": 112,
       "para_count": 2
     }
   },
@@ -4645,7 +5645,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3025_wan-is-hard-to-write.mp3",
-      "japanese": "/audio/japanese/3025_wan-is-hard-to-write.mp3"
+      "japanese": "/audio/japanese/3025_wan-is-hard-to-write.mp3",
+      "russian": "/audio/russian/3025_wan-is-hard-to-write.mp3"
     },
     "mandarin": {
       "character_preview": "从前，有个商人聘请了一位老师教他儿子认字。第一天上学，老师用笔在纸上写了一笔，说",
@@ -4658,6 +5659,13 @@
       "character_preview": "かつて、ある商人が息子に中国の漢字を教えるために先生を雇いました。初めの日、先生",
       "reading_preview": "かつて、あるしょうにんがむすこにちゅうごくのかんじをおしえるためにせんせいをやと",
       "vocab_count": 110,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "„万“ пишется тяжело",
+      "character_preview": "Оди́н раз купе́ц наня́л наста́вника, что",
+      "reading_preview": "Odin raz kupéts nanyál nastávnika, cht",
+      "vocab_count": 88,
       "para_count": 2
     }
   },
@@ -4682,7 +5690,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2941_better-late-than-never.mp3",
-      "japanese": "/audio/japanese/2941_better-late-than-never.mp3"
+      "japanese": "/audio/japanese/2941_better-late-than-never.mp3",
+      "russian": "/audio/russian/2941_better-late-than-never.mp3"
     },
     "mandarin": {
       "character_preview": "从前，有个人养了很多羊。一天早上他准备出去放羊，发现少了一只。原来羊圈破了个洞，",
@@ -4695,6 +5704,13 @@
       "character_preview": "昔々、ある男がたくさんの羊を飼っていました。ある朝、彼が羊を外に出して草を食べさ",
       "reading_preview": "むかしむかし、あるおとこがたくさんのひつじをかっていました。あるあさ、かれがひつ",
       "vocab_count": 100,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Лучше поздно, чем никогда",
+      "character_preview": "Оди́н раз, дя́дя держал мно́гие овцы. О́",
+      "reading_preview": "Odín raz, diádya derzhal mnógie ovtsy",
+      "vocab_count": 98,
       "para_count": 3
     }
   },
@@ -4719,7 +5735,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3105_value-of-life.mp3",
-      "japanese": "/audio/japanese/3105_value-of-life.mp3"
+      "japanese": "/audio/japanese/3105_value-of-life.mp3",
+      "russian": "/audio/russian/3105_value-of-life.mp3"
     },
     "mandarin": {
       "character_preview": "在一个演讲上，一位著名的演说家手里拿着一张20美元的钞票，问：\"谁要这20美元？",
@@ -4732,6 +5749,13 @@
       "character_preview": "あるスピーチで、有名な演説者が二十ドル札を掲げて「誰がこの二十ドルがほしいですか",
       "reading_preview": "あるスピーチで、ゆうめいなえんぜつしゃがにじゅうドルさつをかかげて「だれがこのに",
       "vocab_count": 101,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Ценность жизни",
+      "character_preview": "На реч̧и изве́стный спи́кер поднёс ве́кс",
+      "reading_preview": "Na reč́i izvéstnyj spíker podnós véksel ",
+      "vocab_count": 86,
       "para_count": 2
     }
   },
@@ -4756,7 +5780,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2847_boxers-mistake.mp3",
-      "japanese": "/audio/japanese/2847_boxers-mistake.mp3"
+      "japanese": "/audio/japanese/2847_boxers-mistake.mp3",
+      "russian": "/audio/russian/2847_boxers-mistake.mp3"
     },
     "mandarin": {
       "character_preview": "身材高大的拳击手去饭馆吃饭，他脱下大衣挂在门上。因为害怕大衣被别人拿走，所以他在",
@@ -4769,6 +5794,13 @@
       "character_preview": "高いボクサーは食事をするためにレストランに行きました。彼はコートを脱いで、扉のそ",
       "reading_preview": "たかい ボクサー は しょくじ を する ために レストラン に いきました。か",
       "vocab_count": 90,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Ошиб́ка боксёра",
+      "character_preview": "Высо́кий боксёр пришёл в рестора́н поеда",
+      "reading_preview": "Vysoḱij boksýor prish́ël v restoŕan p",
+      "vocab_count": 76,
       "para_count": 2
     }
   },
@@ -4793,7 +5825,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2871_dont-forget-to-cheer-for-yourself.mp3",
-      "japanese": "/audio/japanese/2871_dont-forget-to-cheer-for-yourself.mp3"
+      "japanese": "/audio/japanese/2871_dont-forget-to-cheer-for-yourself.mp3",
+      "russian": "/audio/russian/2871_dont-forget-to-cheer-for-yourself.mp3"
     },
     "mandarin": {
       "character_preview": "生活中，我们经常为别人喝彩，那你是否想到过为自己喝彩？",
@@ -4806,6 +5839,13 @@
       "character_preview": "人生では、私たちはしばしば他の人を励まします。しかし、自分自身を励ますことを考え",
       "reading_preview": "じんせいでは、わたしたちはしばしばほかのひとをはげまします。しかし、じぶんじしん",
       "vocab_count": 105,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Не забу́дь поддержи́ть себя́",
+      "character_preview": "В жи́зни мы ча́сто аплоди́руем други́м. ",
+      "reading_preview": "V zhiźni my chástо aplodíruem drúgим. N",
+      "vocab_count": 110,
       "para_count": 3
     }
   },
@@ -4830,7 +5870,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2817_big-stone.mp3",
-      "japanese": "/audio/japanese/2817_big-stone.mp3"
+      "japanese": "/audio/japanese/2817_big-stone.mp3",
+      "russian": "/audio/russian/2817_big-stone.mp3"
     },
     "mandarin": {
       "character_preview": "从前，一户人家的门前有一块大石头。这块石头不但妨碍大家进出，而且还常常有人被它绊",
@@ -4843,6 +5884,13 @@
       "character_preview": "かつて、ある家族の家の前に大きな石がありました。それは人々が出入りする際に邪魔に",
       "reading_preview": "かつて、ある かぞく の いえ の まえ に おおきな いし が ありました。そ",
       "vocab_count": 116,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Большо́й ка́мень",
+      "character_preview": "Оди́н раз, когда́-то, пе́ред семьёй был ",
+      "reading_preview": "Odín raz, kadá-to, péred sémjoi byl b",
+      "vocab_count": 103,
       "para_count": 4
     }
   },
@@ -4867,7 +5915,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2709_dogs-enemy.mp3",
-      "japanese": "/audio/japanese/2709_dogs-enemy.mp3"
+      "japanese": "/audio/japanese/2709_dogs-enemy.mp3",
+      "russian": "/audio/russian/2709_dogs-enemy.mp3"
     },
     "mandarin": {
       "character_preview": "狗站在镜子前，发现了一个敌人。它想：这个家伙自己从来没有见过，不知道它厉害不厉害",
@@ -4879,6 +5928,13 @@
       "title": "犬の敵",
       "character_preview": "犬は鏡の前に立ち、敵を見つけました。犬は思いました。「このやつを前に見たことがな",
       "reading_preview": "いぬ は かがみ の まえ に たち、てき を みつけました。いぬ は おもいま",
+      "vocab_count": 82,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Во́раг соба́ки",
+      "character_preview": "Соба́ка ста́яла пе́ред зе́ркалом и за́ме",
+      "reading_preview": "Sobáka stáyala péred zérkalom i zamétil",
       "vocab_count": 82,
       "para_count": 3
     }
@@ -4904,7 +5960,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2734_happiness.mp3",
-      "japanese": "/audio/japanese/2734_happiness.mp3"
+      "japanese": "/audio/japanese/2734_happiness.mp3",
+      "russian": "/audio/russian/2734_happiness.mp3"
     },
     "mandarin": {
       "character_preview": "一群年轻人到处寻找快乐，但是，却遇到许多烦恼和痛苦。他们问老师苏格拉底：”快乐到",
@@ -4917,6 +5974,13 @@
       "character_preview": "若い人々の群れが幸福を求めて至る所を捜しましたが、その代りに多くの心配や苦難に遭",
       "reading_preview": "わかいひとびとのむれがこうふくをもとめていたるところをさがしましたが、そのかわり",
       "vocab_count": 80,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Сча́стье",
+      "character_preview": "Гру́ппа молодых лю́дей искала сча́стье в",
+      "reading_preview": "Grúppa molodýkh lyúdei iskala schást'",
+      "vocab_count": 75,
       "para_count": 3
     }
   },
@@ -4941,7 +6005,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2789_giving-is-happiness.mp3",
-      "japanese": "/audio/japanese/2789_giving-is-happiness.mp3"
+      "japanese": "/audio/japanese/2789_giving-is-happiness.mp3",
+      "russian": "/audio/russian/2789_giving-is-happiness.mp3"
     },
     "mandarin": {
       "character_preview": "从前有个国王，他非常宠爱自己的儿子。这位年轻的王子可以得到一切他想要的东西，然而",
@@ -4954,6 +6019,13 @@
       "character_preview": "かつて、王がいて、彼は心から息子を愛していました。若い王子は何でも欲しいものを持",
       "reading_preview": "かつて、 おうがいて、 かれはこころからむすこをあいしていました。 わかいおうじ",
       "vocab_count": 83,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Да́ть — значи́т быть сча́стливым",
+      "character_preview": "Одна́жды, давным-давно, был король, кото",
+      "reading_preview": "Odnázhdy, davnym-davno, byl korol', kot",
+      "vocab_count": 72,
       "para_count": 3
     }
   },
@@ -4978,7 +6050,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/3033_strength-and-weakness.mp3",
-      "japanese": "/audio/japanese/3033_strength-and-weakness.mp3"
+      "japanese": "/audio/japanese/3033_strength-and-weakness.mp3",
+      "russian": "/audio/russian/3033_strength-and-weakness.mp3"
     },
     "mandarin": {
       "character_preview": "两个老板一见面，便彼此交换经营心得。其中一个老板抱怨道：\"我不能容忍公司的三个员",
@@ -4991,6 +6064,13 @@
       "character_preview": "二人のビジネスオーナーが出会ったとき、彼らは自分たちの会社を運営している経験を共",
       "reading_preview": "ににんのびじねすおーなーがであったとき、かれらはじぶんたちのかいしゃをうんえいし",
       "vocab_count": 140,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Си́ла и сла́бость",
+      "character_preview": "Когда́ два владе́леца би́знеса встре́тил",
+      "reading_preview": "Kogdá dva vladélca bíznesa vstretílis'",
+      "vocab_count": 134,
       "para_count": 3
     }
   },
@@ -5015,7 +6095,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2629_lost-girl.mp3",
-      "japanese": "/audio/japanese/2629_lost-girl.mp3"
+      "japanese": "/audio/japanese/2629_lost-girl.mp3",
+      "russian": "/audio/russian/2629_lost-girl.mp3"
     },
     "mandarin": {
       "character_preview": "有一个小女孩在路边哭，警察过来问：”好孩子，怎么了？”",
@@ -5028,6 +6109,13 @@
       "character_preview": "小さい女の子が道路のそばで泣いていました。警官がやって来て、「どうしたの、小さな",
       "reading_preview": "ちいさい おんなのこが どうろのそばで なきました。けいかんが やってきて、「ど",
       "vocab_count": 50,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Потеря́вшаяся де́вочка",
+      "character_preview": "Малы́шка пла́кала у борта доро́ги. Полиц",
+      "reading_preview": "Malýshka plákala u borta dorógi. Polic",
+      "vocab_count": 27,
       "para_count": 6
     }
   },
@@ -5052,7 +6140,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2589_cup.mp3",
-      "japanese": "/audio/japanese/2589_cup.mp3"
+      "japanese": "/audio/japanese/2589_cup.mp3",
+      "russian": "/audio/russian/2589_cup.mp3"
     },
     "mandarin": {
       "character_preview": "有一个杯子，里面装了水，如果我问你：”这是什么？”",
@@ -5065,6 +6154,13 @@
       "character_preview": "水が入ったカップがあります。私があなたに「これは何ですか？」と尋ねたら、あなたは",
       "reading_preview": "みずがはいったかっぷがあります。わたしがあなたに「これはなんですか？」とたずねた",
       "vocab_count": 74,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Ча́шка",
+      "character_preview": "Есть ча́шка с во́дой внутри. Если я спро",
+      "reading_preview": "Yest' cháshka s vôdoy vnutri. Yesli ya s",
+      "vocab_count": 56,
       "para_count": 3
     }
   },
@@ -5089,7 +6185,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2541_please-dont-open-the-wrong-window.mp3",
-      "japanese": "/audio/japanese/2541_please-dont-open-the-wrong-window.mp3"
+      "japanese": "/audio/japanese/2541_please-dont-open-the-wrong-window.mp3",
+      "russian": "/audio/russian/2541_please-dont-open-the-wrong-window.mp3"
     },
     "mandarin": {
       "character_preview": "一个小女孩站在窗边，看窗外的人正埋葬他们可爱的小狗。小女孩看了难过得哭了起来。",
@@ -5102,6 +6199,13 @@
       "character_preview": "小さな女の子が窓のそばに立ち、人々が彼らの最愛の子犬を埋葬しているのを見つめてい",
       "reading_preview": "ちいさな おんなのこが まどの そばに たち、ひとびとが かれらの さいあいの ",
       "vocab_count": 90,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Пожа́луйста, не откры́вайте не то око́но",
+      "character_preview": "Де́вочка стаяла у окна́ и смотри́ла, как",
+      "reading_preview": "Dévochka stála u okná i smotríla, kak l",
+      "vocab_count": 75,
       "para_count": 3
     }
   },
@@ -5126,7 +6230,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2685_imagination-is-more-important.mp3",
-      "japanese": "/audio/japanese/2685_imagination-is-more-important.mp3"
+      "japanese": "/audio/japanese/2685_imagination-is-more-important.mp3",
+      "russian": "/audio/russian/2685_imagination-is-more-important.mp3"
     },
     "mandarin": {
       "character_preview": "如果你必须和别人打架，你会选择一位普通人，还是一位空手道冠军？相信大部分的人会选",
@@ -5139,6 +6244,13 @@
       "character_preview": "もし誰かと戦わなければならなかったら、あなたは普通の人を選びますか、それとも空手",
       "reading_preview": "もしだれかとたたかわなければならなかったら、あなたはふつうのひとをえらびますか、",
       "vocab_count": 82,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Воображе́ние более ва́жно",
+      "character_preview": "Если вы́ должны́ дра́ться с кем-то, вы́ ",
+      "reading_preview": "Eslí vý dolzhný drátsya s kem-to, vy",
+      "vocab_count": 76,
       "para_count": 3
     }
   },
@@ -5163,7 +6275,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2433_im-thirsty.mp3",
-      "japanese": "/audio/japanese/2433_im-thirsty.mp3"
+      "japanese": "/audio/japanese/2433_im-thirsty.mp3",
+      "russian": "/audio/russian/2433_im-thirsty.mp3"
     },
     "mandarin": {
       "character_preview": "妈妈：你怎么啦？",
@@ -5176,6 +6289,13 @@
       "character_preview": "ママ：どうしたの？",
       "reading_preview": "まま：どうしたの？",
       "vocab_count": 39,
+      "para_count": 9
+    },
+    "russian": {
+      "title": "Мне хо́чется пить",
+      "character_preview": "Ма́ма: Что ты́? ",
+      "reading_preview": "Máma: Chto tý?",
+      "vocab_count": 31,
       "para_count": 9
     }
   },
@@ -5200,7 +6320,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2764_spend-90-of-the-time-considering-failure.mp3",
-      "japanese": "/audio/japanese/2764_spend-90-of-the-time-considering-failure.mp3"
+      "japanese": "/audio/japanese/2764_spend-90-of-the-time-considering-failure.mp3",
+      "russian": "/audio/russian/2764_spend-90-of-the-time-considering-failure.mp3"
     },
     "mandarin": {
       "character_preview": "李嘉诚是著名的华人富豪，有记者采访李嘉诚：”大家都很好奇，您在半个多世纪的时间里",
@@ -5213,6 +6334,13 @@
       "character_preview": "李嘉誠（リー・ジャーチョン）は有名な中国のビジネスの大立者です。ある報道員が彼に",
       "reading_preview": "リー・ジャーチョンは ゆうめいな ちゅうごくの ビジネスの だいりったしゃです。",
       "vocab_count": 117,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Расси́мировать прова́л",
+      "character_preview": "Ли Ка-ши́н — изве́стный кита́йский магна",
+      "reading_preview": "Li Ka-shin — izvestnyy kitayskiy magnat ",
+      "vocab_count": 98,
       "para_count": 4
     }
   },
@@ -5237,7 +6365,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2637_two-hours-of-life-changing.mp3",
-      "japanese": "/audio/japanese/2637_two-hours-of-life-changing.mp3"
+      "japanese": "/audio/japanese/2637_two-hours-of-life-changing.mp3",
+      "russian": "/audio/russian/2637_two-hours-of-life-changing.mp3"
     },
     "mandarin": {
       "character_preview": "在一次同学聚会上，有一位同学引起了大家的注意，因为他的事业非常成功。但是，在大家",
@@ -5250,6 +6379,13 @@
       "character_preview": "同窓会で、ある元同級生が皆の注目を集めました。なぜなら、彼は非常に成功したキャリ",
       "reading_preview": "どうそうかいで、あるもとどうきゅうせいがみんなのちゅうもくをあつめました。なぜな",
       "vocab_count": 82,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Два часа изменя́ющей жи́зни",
+      "character_preview": "На воссоедине́нии класса о́дин бы́вший о",
+      "reading_preview": "Na vossoeidinenii klassa odin byvshij od",
+      "vocab_count": 77,
       "para_count": 3
     }
   },
@@ -5274,7 +6410,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2677_smart-hawker.mp3",
-      "japanese": "/audio/japanese/2677_smart-hawker.mp3"
+      "japanese": "/audio/japanese/2677_smart-hawker.mp3",
+      "russian": "/audio/russian/2677_smart-hawker.mp3"
     },
     "mandarin": {
       "character_preview": "有一个人去买牛奶，小贩说：”三元一杯，十元三杯。”",
@@ -5287,6 +6424,13 @@
       "character_preview": "ある男が牛乳を買いに行きました。行商人は言いました、「カップ一杯は3元、または3",
       "reading_preview": "あるおとこがぎゅうにゅうをかいにいきました。ぎょうしょうにんはいいます、「カップ",
       "vocab_count": 48,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Умный прода́вець",
+      "character_preview": "Дя́дя пошёл покупа́ть молоко́. Прода́вец",
+      "reading_preview": "Dyádya poshyól pokupát' molokó. Prod",
+      "vocab_count": 35,
       "para_count": 3
     }
   },
@@ -5311,7 +6455,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2508_fishing.mp3",
-      "japanese": "/audio/japanese/2508_fishing.mp3"
+      "japanese": "/audio/japanese/2508_fishing.mp3",
+      "russian": "/audio/russian/2508_fishing.mp3"
     },
     "mandarin": {
       "character_preview": "有个老人在钓鱼，一个小孩走过去看他。老人觉得小孩很可爱，要把所有的鱼都送给他，但",
@@ -5324,6 +6469,13 @@
       "character_preview": "おじいさんが釣りをしていると、子供がやって来て彼を見つめました。おじいさんはその",
       "reading_preview": "おじいさんがつりをしていると、こどもがやってきてかれをみつめました。おじいさんは",
       "vocab_count": 65,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Рыба́лка",
+      "character_preview": "Пожило́й челове́к рыба́чил, когда́ ребён",
+      "reading_preview": "Pozhilóy chelovék rybáchil, kogdá ré",
+      "vocab_count": 52,
       "para_count": 2
     }
   },
@@ -5348,7 +6500,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2361_make-the-loss-cute.mp3",
-      "japanese": "/audio/japanese/2361_make-the-loss-cute.mp3"
+      "japanese": "/audio/japanese/2361_make-the-loss-cute.mp3",
+      "russian": "/audio/russian/2361_make-the-loss-cute.mp3"
     },
     "mandarin": {
       "character_preview": "有个人买了一双新鞋子，他非常喜欢，所以他穿着新鞋子坐火车去见女朋友。但是在火车上",
@@ -5361,6 +6514,13 @@
       "character_preview": "ある男が非常に好みの新しい靴を一足買いました。だから、彼は彼女を訪ねるために列車",
       "reading_preview": "ある おとこが ひじょうに このみの あたらしい くつを いっそく かいました。",
       "vocab_count": 66,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Сделай поте́ря милой",
+      "character_preview": "О́дин дя́дя купи́л но́вую па́ру ту́фель,",
+      "reading_preview": "Ódin dyádya kupíl nóvuyu páru túfe",
+      "vocab_count": 49,
       "para_count": 1
     }
   },
@@ -5385,7 +6545,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2441_gold-egg.mp3",
-      "japanese": "/audio/japanese/2441_gold-egg.mp3"
+      "japanese": "/audio/japanese/2441_gold-egg.mp3",
+      "russian": "/audio/russian/2441_gold-egg.mp3"
     },
     "mandarin": {
       "character_preview": "一天早上，一个农民发现自己的鸡生了一个金蛋。他非常高兴地把蛋带回家。从那以后，他",
@@ -5398,6 +6559,13 @@
       "character_preview": "ある朝、農場主は彼のめんどりが金の卵を産んだことを発見しました。喜んで、彼はその",
       "reading_preview": "あるあさ、のうばしょはかれのめんどりがきんのたまごをさんだことをはっけんしました",
       "vocab_count": 64,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Золото́е яйцо́",
+      "character_preview": "О́дним у́тром дехка́нин откры́л, что его",
+      "reading_preview": "Ódnim útrom dekhkánin otkrýl, chto y",
+      "vocab_count": 50,
       "para_count": 1
     }
   },
@@ -5422,7 +6590,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2392_two-daughters.mp3",
-      "japanese": "/audio/japanese/2392_two-daughters.mp3"
+      "japanese": "/audio/japanese/2392_two-daughters.mp3",
+      "russian": "/audio/russian/2392_two-daughters.mp3"
     },
     "mandarin": {
       "character_preview": "一位老太太有两个女儿，大女儿卖草帽，二女儿卖雨伞，老太太每天愁眉苦脸的。",
@@ -5435,6 +6604,13 @@
       "character_preview": "かなり年配の女性が二人の娘を持っていました。彼女の年上の娘は麦わらの帽子を売って",
       "reading_preview": "かなりねんぱいの じょせいが ににんの むすめを もっていました。かのじょの と",
       "vocab_count": 80,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Две до́чки",
+      "character_preview": "Ста́рая же́нщина имела две до́чки. Её ст",
+      "reading_preview": "Stáraya zhénshchina imela dve dóchki. Y",
+      "vocab_count": 78,
       "para_count": 4
     }
   },
@@ -5459,7 +6635,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2313_puppy-and-kitten.mp3",
-      "japanese": "/audio/japanese/2313_puppy-and-kitten.mp3"
+      "japanese": "/audio/japanese/2313_puppy-and-kitten.mp3",
+      "russian": "/audio/russian/2313_puppy-and-kitten.mp3"
     },
     "mandarin": {
       "character_preview": "我的小狗第一次看见朋友的小猫，很害怕。",
@@ -5472,6 +6649,13 @@
       "character_preview": "私の子犬が友達の子猫を初めて見た時、とても怖がっていました。",
       "reading_preview": "わたしのこいぬがともだちのこねこをはじめてみたとき、とてもこわがっていました。",
       "vocab_count": 32,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Кутёнок и котёнок",
+      "character_preview": "Пе́рвый раз мой кутёнок у́видел котёнка ",
+      "reading_preview": "Pérvyy raz moy kutyónok úvidel kotyónka",
+      "vocab_count": 28,
       "para_count": 4
     }
   },
@@ -5496,7 +6680,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2287_forgot-to-bring-books.mp3",
-      "japanese": "/audio/japanese/2287_forgot-to-bring-books.mp3"
+      "japanese": "/audio/japanese/2287_forgot-to-bring-books.mp3",
+      "russian": "/audio/russian/2287_forgot-to-bring-books.mp3"
     },
     "mandarin": {
       "character_preview": "A：喂？你在哪？你没带你的书！",
@@ -5509,6 +6694,13 @@
       "character_preview": "A: もしもし？あんたはどこにいるの？君は本を持ってこなかった！",
       "reading_preview": "A: もしもし？あんたはどこにいるの？きみはほんをもってこなかった！",
       "vocab_count": 43,
+      "para_count": 8
+    },
+    "russian": {
+      "title": "Забыл привезти́ книги",
+      "character_preview": "А: Приве́т? Где ты? Ты не привез́ свои́ ",
+      "reading_preview": "A: Privét? Gde ty? Ty ne priveź svoí k",
+      "vocab_count": 32,
       "para_count": 8
     }
   },
@@ -5533,7 +6725,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2661_swift-horse.mp3",
-      "japanese": "/audio/japanese/2661_swift-horse.mp3"
+      "japanese": "/audio/japanese/2661_swift-horse.mp3",
+      "russian": "/audio/russian/2661_swift-horse.mp3"
     },
     "mandarin": {
       "character_preview": "有一白一黑两匹马，其中白色的是千里马，天生就有强壮的体魄，另外一匹黑色的马稍微差",
@@ -5546,6 +6739,13 @@
       "character_preview": "白い馬と黒い馬の二頭がいました。白い馬はスウィフトな馬で、生まれながらに強くてた",
       "reading_preview": "しろい うま と くろい うま の にとう が いました。 しろい うま は す",
       "vocab_count": 102,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Бы́стрый ко́нь",
+      "character_preview": "Там бы́ло две ло́шади, о́дна бе́лая и о́",
+      "reading_preview": "Tam býlo dve lóshadi, ódna bélaya i ",
+      "vocab_count": 108,
       "para_count": 4
     }
   },
@@ -5570,7 +6770,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2247_respect.mp3",
-      "japanese": "/audio/japanese/2247_respect.mp3"
+      "japanese": "/audio/japanese/2247_respect.mp3",
+      "russian": "/audio/russian/2247_respect.mp3"
     },
     "mandarin": {
       "character_preview": "有一个人经过热闹的火车站，看到一个残疾人在卖东西，他随手丢下了一百元。但是不久，",
@@ -5583,6 +6784,13 @@
       "character_preview": "ある男性がにぎやかな train 駅を通過していると、障害者が物を売っているのを",
       "reading_preview": "ある だんせい が にぎやかな train えき を つうか している と、しょ",
       "vocab_count": 87,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Уваже́ние",
+      "character_preview": "О́дин муж проходи́л чрез за́нятый вокза́",
+      "reading_preview": "Ódin muzh prokhodíl chrez zányaty vok",
+      "vocab_count": 79,
       "para_count": 3
     }
   },
@@ -5607,7 +6815,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2192_new-friend-2.mp3",
-      "japanese": "/audio/japanese/2192_new-friend-2.mp3"
+      "japanese": "/audio/japanese/2192_new-friend-2.mp3",
+      "russian": "/audio/russian/2192_new-friend-2.mp3"
     },
     "mandarin": {
       "character_preview": "今天在公司认识了一个新朋友，他是个中国人。晚上他带我去了一个中国饭馆，这是我第一",
@@ -5620,6 +6829,13 @@
       "character_preview": "きょう、私は職場で新しい友達に出会いました。彼は中国人です。夕方、彼は私を中国料",
       "reading_preview": "",
       "vocab_count": 57,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Нови́й друг",
+      "character_preview": "Сего́дня я встре́тил но́вого друга на ра",
+      "reading_preview": "Segodnya ya vstretíl novogo drúga na rab",
+      "vocab_count": 54,
       "para_count": 1
     }
   },
@@ -5644,7 +6860,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2214_i-was-pissed-off-today.mp3",
-      "japanese": "/audio/japanese/2214_i-was-pissed-off-today.mp3"
+      "japanese": "/audio/japanese/2214_i-was-pissed-off-today.mp3",
+      "russian": "/audio/russian/2214_i-was-pissed-off-today.mp3"
     },
     "mandarin": {
       "character_preview": "我的男朋友今天早上说，晚上我们一起吃饭，因为他想给我过生日。我有点儿生气，因为我",
@@ -5657,6 +6874,13 @@
       "character_preview": "今朝、私のボーイフレンドは今晩いっしょに夕食を食べるつもりだと言いました。彼は私",
       "reading_preview": "今朝、わたしのボーイフレンドはこんばんいっしょにゆうしょくをたべるつもりだといい",
       "vocab_count": 74,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Я разо́лился сего́дня",
+      "character_preview": "Сего́дня у́тром мой бойфре́нд ска́зал, ч",
+      "reading_preview": "Segodnya útrom moy boyfreńd skaźal, c",
+      "vocab_count": 63,
       "para_count": 1
     }
   },
@@ -5681,7 +6905,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2263_whiteboard.mp3",
-      "japanese": "/audio/japanese/2263_whiteboard.mp3"
+      "japanese": "/audio/japanese/2263_whiteboard.mp3",
+      "russian": "/audio/russian/2263_whiteboard.mp3"
     },
     "mandarin": {
       "character_preview": "有个老师进了教室，在白板上画了一个黑点。他问学生：“这是什么？”大家都回答：“一",
@@ -5694,6 +6919,13 @@
       "character_preview": "先生が教室に入って、白板に黒い点を描きました。彼は学生に「これは何ですか？」と尋",
       "reading_preview": "せんせい が きょうしつ に はいって、 はくばん に くろい てん を かきま",
       "vocab_count": 57,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Белая доска́",
+      "character_preview": "Наста́вник вошёл в кла́ссную ко́мнату и ",
+      "reading_preview": "Nastávnïk voshël v klássnuyu kómmatu i n",
+      "vocab_count": 45,
       "para_count": 2
     }
   },
@@ -5718,7 +6950,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2067_window-story.mp3",
-      "japanese": "/audio/japanese/2067_window-story.mp3"
+      "japanese": "/audio/japanese/2067_window-story.mp3",
+      "russian": "/audio/russian/2067_window-story.mp3"
     },
     "mandarin": {
       "character_preview": "有个人多年来一直觉得邻居很懒惰，“那个女人的衣服永远洗不干净，看，她晾在外面的衣",
@@ -5731,6 +6964,13 @@
       "character_preview": "数年間、ある女性は隣人が怠惰だと思っていました。「あの女性は衣服を清潔にすること",
       "reading_preview": "すうねんかん、あるじょせいはりんじんがおせいだと思っていました。「あのじょせいは",
       "vocab_count": 66,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Окно́",
+      "character_preview": "На́протя́жении многи́х ле́т одна же́нщин",
+      "reading_preview": "Náprotyazhenii mnógikh lét odna zhens",
+      "vocab_count": 52,
       "para_count": 2
     }
   },
@@ -5755,7 +6995,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1993_three-years-old.mp3",
-      "japanese": "/audio/japanese/1993_three-years-old.mp3"
+      "japanese": "/audio/japanese/1993_three-years-old.mp3",
+      "russian": "/audio/russian/1993_three-years-old.mp3"
     },
     "mandarin": {
       "character_preview": "妈妈问儿子：“你今年几岁了？”",
@@ -5768,6 +7009,13 @@
       "character_preview": "母は彼女の息子に「今年は何歳ですか？」と尋ねました。",
       "reading_preview": "はははかれのむすこに「ことしはなんさいですか？」とたずねました。",
       "vocab_count": 38,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Три года",
+      "character_preview": "Ма́ма спра́шивает своего́ сы́на: «Ско́ль",
+      "reading_preview": "Máma spráshivaet svoegó sýna: «Skól",
+      "vocab_count": 35,
       "para_count": 6
     }
   },
@@ -5792,7 +7040,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1981_many-companies-dont-care-anymore-if-you-went-to-college.mp3",
-      "japanese": "/audio/japanese/1981_many-companies-dont-care-anymore-if-you-went-to-college.mp3"
+      "japanese": "/audio/japanese/1981_many-companies-dont-care-anymore-if-you-went-to-college.mp3",
+      "russian": "/audio/russian/1981_many-companies-dont-care-anymore-if-you-went-to-college.mp3"
     },
     "mandarin": {
       "character_preview": "最近，求职网站Glassdoor罗列了15家招聘时不要求有大学文凭的公司，其中就",
@@ -5805,6 +7054,13 @@
       "character_preview": "近ごろ、求人情報ウェブサイトのグラスドアは、リンゴやグーグル、スターバックスを含",
       "reading_preview": "ちかごろ、きゅうじんじょうほうウエブサイトのグラスドアは、リンゴやグーグル、スタ",
       "vocab_count": 135,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Мно́гие компа́нии уже́ не волну́ются, если вы учи́лись в ко́лледже",
+      "character_preview": "Неда́вно веб-сайт по поиску рабо́ты Glas",
+      "reading_preview": "Nedávno veb-sajt po poisku rabóty Glassd",
+      "vocab_count": 134,
       "para_count": 4
     }
   },
@@ -5829,7 +7085,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1965_who-am-i.mp3",
-      "japanese": "/audio/japanese/1965_who-am-i.mp3"
+      "japanese": "/audio/japanese/1965_who-am-i.mp3",
+      "russian": "/audio/russian/1965_who-am-i.mp3"
     },
     "mandarin": {
       "character_preview": "妹妹从小得了一种很奇怪的病，最多只能记住四个人。看着妹妹一天天长大，哥哥对她说:",
@@ -5842,6 +7099,13 @@
       "character_preview": "彼女が幼い頃から、年下の妹は奇妙な病気を持っていました。彼女は四人以上の人々を思",
       "reading_preview": "かのじょが おさないころから、 とししたの いもうとは きみょうな びょうきを ",
       "vocab_count": 72,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Кто я?",
+      "character_preview": "С тех пор, как она была мла́дшей, сестрё",
+      "reading_preview": "S tékh por, kak ona byla mládshей, ses",
+      "vocab_count": 59,
       "para_count": 2
     }
   },
@@ -5866,7 +7130,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2345_different-perspectives.mp3",
-      "japanese": "/audio/japanese/2345_different-perspectives.mp3"
+      "japanese": "/audio/japanese/2345_different-perspectives.mp3",
+      "russian": "/audio/russian/2345_different-perspectives.mp3"
     },
     "mandarin": {
       "character_preview": "有两个妇人在聊天，其中一个问：“你儿子过得怎么样？”",
@@ -5879,6 +7144,13 @@
       "character_preview": "二人の女性が雑談をしていました。一人が尋ねました、「あなたの息子はどうしています",
       "reading_preview": "ににんのじょせいがざつだんをしていました。いちにんがたずねました、「あなたのむす",
       "vocab_count": 93,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Разные Точка Зрения",
+      "character_preview": "Две же́нщины болтали́. О́дна спра́шивает",
+      "reading_preview": "Dve zhenshchiny bol'tali. Odna sprashiva",
+      "vocab_count": 76,
       "para_count": 5
     }
   },
@@ -5903,7 +7175,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2051_kangaroo-and-cage.mp3",
-      "japanese": "/audio/japanese/2051_kangaroo-and-cage.mp3"
+      "japanese": "/audio/japanese/2051_kangaroo-and-cage.mp3",
+      "russian": "/audio/russian/2051_kangaroo-and-cage.mp3"
     },
     "mandarin": {
       "character_preview": "一天，有人发现袋鼠从笼子里跑出来了。大家经过讨论认为，是因为笼子太低了，所以他们",
@@ -5916,6 +7189,13 @@
       "character_preview": "ある日、誰かがカンガルーが彼らの囲いから出てしまったことを発見しました。それにつ",
       "reading_preview": "あるひ、だれかがカンガルーがかれらのいかいからでてしまったことをはっけんしました",
       "vocab_count": 91,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Кенгуру́ и За́бор",
+      "character_preview": "Одна́жды кто́-то открыл, что кенгуру́ вы",
+      "reading_preview": "Odnázhdy któ-to otkryl, chto kengurú ",
+      "vocab_count": 71,
       "para_count": 2
     }
   },
@@ -5940,7 +7220,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1973_zeng-shen-kills-pigs.mp3",
-      "japanese": "/audio/japanese/1973_zeng-shen-kills-pigs.mp3"
+      "japanese": "/audio/japanese/1973_zeng-shen-kills-pigs.mp3",
+      "russian": "/audio/russian/1973_zeng-shen-kills-pigs.mp3"
     },
     "mandarin": {
       "character_preview": "曾参是春秋时期道德修养很高的人。有一天早晨，曾参的妻子准备到集市上去买点儿东西。",
@@ -5953,6 +7234,13 @@
       "character_preview": "曾申は春秋時代に生きていた高い道徳心を持つ男でした。ある朝、彼の妻が市場へ行く準",
       "reading_preview": "そうしんはしゅんきゅうじだいにいきていたたかいどうとくしんをもつおとこでした。あ",
       "vocab_count": 114,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Цзэн Шэнь убивает свиней",
+      "character_preview": "Цзэ́н Шэ́нь был челове́ком с великоле́пн",
+      "reading_preview": "Tszén Shén byl chelovékom s velikolép",
+      "vocab_count": 105,
       "para_count": 4
     }
   },
@@ -5977,7 +7265,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1832_check-homework.mp3",
-      "japanese": "/audio/japanese/1832_check-homework.mp3"
+      "japanese": "/audio/japanese/1832_check-homework.mp3",
+      "russian": "/audio/russian/1832_check-homework.mp3"
     },
     "mandarin": {
       "character_preview": "有一天，妈妈陪着她六岁的女儿学习。",
@@ -5990,6 +7279,13 @@
       "character_preview": "ある日、母親は彼女の6歳の娘と一緒に座って、娘が勉強しているのを見ていました。",
       "reading_preview": "あるにち、ははおやはかのじょのろくさいのむすめといっしょにすわって、むすめがべん",
       "vocab_count": 57,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Прове́рка дома́шнего зада́ния",
+      "character_preview": "Одна́жды мать сиде́ла со своей шести́лет",
+      "reading_preview": "Odnázhdy mát' sidíla so svoéi shestilét",
+      "vocab_count": 43,
       "para_count": 3
     }
   },
@@ -6014,7 +7310,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/4399_learn-chinese-in-china-2.mp3",
-      "japanese": "/audio/japanese/4399_learn-chinese-in-china-2.mp3"
+      "japanese": "/audio/japanese/4399_learn-chinese-in-china-2.mp3",
+      "russian": "/audio/russian/4399_learn-chinese-in-china-2.mp3"
     },
     "mandarin": {
       "character_preview": "去年夏天，我来到中国。现在我在中国已经学习11个月了。我很快会结束在中国的学习，",
@@ -6027,6 +7324,13 @@
       "character_preview": "去年の夏、私は中国に来ました。今、私はここで11か月間勉強しています。中国での勉",
       "reading_preview": "きょねんの なつ、わたしは ちゅうごくに きました。いま、わたしは ここで 11",
       "vocab_count": 83,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Изуче́ние китая́нского в Кита́е",
+      "character_preview": "Про́шлым ле́том я при́ехал в Кита́й. Я с",
+      "reading_preview": "Próshlim létóm ya príyekhal v Kitáy. Y",
+      "vocab_count": 75,
       "para_count": 2
     }
   },
@@ -6051,7 +7355,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1805_who-knows-more.mp3",
-      "japanese": "/audio/japanese/1805_who-knows-more.mp3"
+      "japanese": "/audio/japanese/1805_who-knows-more.mp3",
+      "russian": "/audio/russian/1805_who-knows-more.mp3"
     },
     "mandarin": {
       "character_preview": "小男孩问爸爸：“是不是爸爸总比孩子知道得多？”",
@@ -6064,6 +7369,13 @@
       "character_preview": "小さい男の子が彼のおとうちゃんに「おとうちゃんはいつも子供よりも多くを知っている",
       "reading_preview": "ちいさい おとこのこ が かれの おとうちゃん に 「おとうちゃん は いつも ",
       "vocab_count": 68,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Кто зна́ет бо́льше?",
+      "character_preview": "Ма́льчик спра́шивает своего́ па́пу: «Па́",
+      "reading_preview": "Mál'chik spráshivaet svoegó pápu: «P",
+      "vocab_count": 45,
       "para_count": 6
     }
   },
@@ -6088,7 +7400,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1899_reverse-thinking.mp3",
-      "japanese": "/audio/japanese/1899_reverse-thinking.mp3"
+      "japanese": "/audio/japanese/1899_reverse-thinking.mp3",
+      "russian": "/audio/russian/1899_reverse-thinking.mp3"
     },
     "mandarin": {
       "character_preview": "有个人向哈桑借了2000元，并且写了借据。在还钱的期限快到的时候，哈桑突然发现借",
@@ -6101,6 +7414,13 @@
       "character_preview": "ある男がハッサンから2,000ユアンを借りて、彼に借用証を書きました。返済期日が",
       "reading_preview": "あるおとこがハッサンから2,000ユアンをかりて、かれにしゃくようしょうをかきま",
       "vocab_count": 101,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Обра́тное мышле́ние",
+      "character_preview": "О́дин муж взял в долг 2000 юа́нь у Хасса",
+      "reading_preview": "Ódin muzh vziál v dolg 2000 yuáñ u Khá",
+      "vocab_count": 84,
       "para_count": 4
     }
   },
@@ -6125,7 +7445,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1789_theres-a-kind-of-failure-called-short-sightedness.mp3",
-      "japanese": "/audio/japanese/1789_theres-a-kind-of-failure-called-short-sightedness.mp3"
+      "japanese": "/audio/japanese/1789_theres-a-kind-of-failure-called-short-sightedness.mp3",
+      "russian": "/audio/russian/1789_theres-a-kind-of-failure-called-short-sightedness.mp3"
     },
     "mandarin": {
       "character_preview": "公司来了两个实习生，我是他们的主管。有一天，吃完午饭后，我看见他们中的一个正在玩",
@@ -6138,6 +7459,13 @@
       "character_preview": "二人のインターンが会社に入社し、私は彼らの監督者でした。ある日、昼食の後に、私は",
       "reading_preview": "ににんのいんたーんがかいしゃにはいしゃし、わたしはかれらのかんとくしゃでした。あ",
       "vocab_count": 99,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Су́ществует вид неуда́чи, называ́емый близору́костью",
+      "character_preview": "Два́ стажёра пришли в компа́нию, и я был",
+      "reading_preview": "Dvá stazhëra prishli v kompániyu, i ya",
+      "vocab_count": 83,
       "para_count": 2
     }
   },
@@ -6162,7 +7490,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2151_lion-and-antelope.mp3",
-      "japanese": "/audio/japanese/2151_lion-and-antelope.mp3"
+      "japanese": "/audio/japanese/2151_lion-and-antelope.mp3",
+      "russian": "/audio/russian/2151_lion-and-antelope.mp3"
     },
     "mandarin": {
       "character_preview": "每天，当太阳升起来的时候，非洲大草原上的动物们就开始奔跑了。狮子妈妈在教育自己的",
@@ -6175,6 +7504,13 @@
       "character_preview": "毎日、太陽が昇ると、アフリカのサバンナにいる動物たちが走り始めます。母ライオンは",
       "reading_preview": "まいにち、たいようがのぼると、アフリカのサバンナにいるどうぶつたちがはしりはじめ",
       "vocab_count": 70,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Лев и антило́па",
+      "character_preview": "Каждый день, когда́ солнце встаёт, живот",
+      "reading_preview": "Kazhdýy dèn', kogdá sólnce vzstoyót, zhi",
+      "vocab_count": 56,
       "para_count": 2
     }
   },
@@ -6199,7 +7535,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/2025_buying-a-pair-of-shoes.mp3",
-      "japanese": "/audio/japanese/2025_buying-a-pair-of-shoes.mp3"
+      "japanese": "/audio/japanese/2025_buying-a-pair-of-shoes.mp3",
+      "russian": "/audio/russian/2025_buying-a-pair-of-shoes.mp3"
     },
     "mandarin": {
       "character_preview": "从前有个郑国人，他打算到集市上买双鞋子。于是，他先把自己脚的长短量了一下，然后来",
@@ -6212,6 +7549,13 @@
       "character_preview": "昔、鄭の国の男が市場で靴を買うことを計画しました。まず、彼は自分の足のサイズを測",
       "reading_preview": "むかし、ていのくにのおとこがしじょうでくつをかうことをけいかくしました。まず、か",
       "vocab_count": 86,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Покупка пары туфлей",
+      "character_preview": "Давнó, дя́дя из госуда́рства Чжэн плани́",
+      "reading_preview": "Davnó, dyádya iz gosudárstva Chzhén pl",
+      "vocab_count": 85,
       "para_count": 3
     }
   },
@@ -6236,7 +7580,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1642_teaching-cooking.mp3",
-      "japanese": "/audio/japanese/1642_teaching-cooking.mp3"
+      "japanese": "/audio/japanese/1642_teaching-cooking.mp3",
+      "russian": "/audio/russian/1642_teaching-cooking.mp3"
     },
     "mandarin": {
       "character_preview": "我会做很多东西，我最喜欢做菜。我的朋友、爸爸妈妈都喜欢我做的菜。他们也都很高兴能",
@@ -6249,6 +7594,13 @@
       "character_preview": "私はたくさんの物を作ることができますが、料理がいちばん好きです。私の友達と両親は",
       "reading_preview": "わたしはたくさんのものをつくることができますが、りょうりがいちばんすきです。わた",
       "vocab_count": 58,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Учи́ть гото́вить",
+      "character_preview": "Я мо́гу де́лать мно́го ве́щей, но мне на",
+      "reading_preview": "Ya mógu délat' mnógo véshchey, no mn",
+      "vocab_count": 57,
       "para_count": 1
     }
   },
@@ -6273,7 +7625,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1733_love-story.mp3",
-      "japanese": "/audio/japanese/1733_love-story.mp3"
+      "japanese": "/audio/japanese/1733_love-story.mp3",
+      "russian": "/audio/russian/1733_love-story.mp3"
     },
     "mandarin": {
       "character_preview": "女儿有两个苹果，妈妈问：“给我一个好不好？”",
@@ -6286,6 +7639,13 @@
       "character_preview": "小さい女の子が二つのリンゴを持っていました。彼女の母は「一つを私にくれますか？」",
       "reading_preview": "ちいさい おんなのこが ふたつの りんごを もっていました。かのじょの ははは「",
       "vocab_count": 43,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Любовь",
+      "character_preview": "Де́вочка имела дво́йку я́блок. Ма́ма спр",
+      "reading_preview": "Dévochka iméla dvoyúku yáblok. Máma",
+      "vocab_count": 27,
       "para_count": 3
     }
   },
@@ -6310,7 +7670,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1848_slow-down-your-steps.mp3",
-      "japanese": "/audio/japanese/1848_slow-down-your-steps.mp3"
+      "japanese": "/audio/japanese/1848_slow-down-your-steps.mp3",
+      "russian": "/audio/russian/1848_slow-down-your-steps.mp3"
     },
     "mandarin": {
       "character_preview": "一位年轻的总裁开着崭新的“捷豹”车，快速经过住宅区的街道。就在他开车经过时，一个",
@@ -6323,6 +7684,13 @@
       "character_preview": "若いCEOは、真新しいジャガーを住居の多い近所で速く運転していました。通り過ぎる",
       "reading_preview": "わかいCEOは、まったくあたらしいジャガーをじゅうきょの おおいきんじょで はや",
       "vocab_count": 117,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Уменьши́ шаги",
+      "character_preview": "Молода́я генди́р вожу́ свой совсе́м но́в",
+      "reading_preview": "Molodáya gen­dir vожу́ svóy sovsém no",
+      "vocab_count": 114,
       "para_count": 2
     }
   },
@@ -6347,7 +7715,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1856_nag.mp3",
-      "japanese": "/audio/japanese/1856_nag.mp3"
+      "japanese": "/audio/japanese/1856_nag.mp3",
+      "russian": "/audio/russian/1856_nag.mp3"
     },
     "mandarin": {
       "character_preview": "妻子正在做菜，丈夫在她旁边一直唠叨不停：“慢些，小心！火太大了……油太多了……水",
@@ -6360,6 +7729,13 @@
       "character_preview": "妻は料理をしていて、夫が彼女のそばでずっと文句を言っていました。「遅くして！注意",
       "reading_preview": "つまはりょうりをしていて、あんなたがかのじょのそばでずっともんくを言っていました",
       "vocab_count": 67,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Жена и её муж",
+      "character_preview": "Жена́ гото́вила, а её му́ж по́стоянно во",
+      "reading_preview": "Zhená gotóvila, a yéo múzh póstoyann",
+      "vocab_count": 54,
       "para_count": 3
     }
   },
@@ -6384,7 +7760,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1545_new-friend.mp3",
-      "japanese": "/audio/japanese/1545_new-friend.mp3"
+      "japanese": "/audio/japanese/1545_new-friend.mp3",
+      "russian": "/audio/russian/1545_new-friend.mp3"
     },
     "mandarin": {
       "character_preview": "李小姐是我今天认识的朋友。我今天在咖啡店吃东西，但是没钱。李小姐说可以借给我，我",
@@ -6397,6 +7774,13 @@
       "character_preview": "ミス・リーは、きょう私が出会った新しい友達です。私はカフェにいて、何かを食べたか",
       "reading_preview": "みす・りーは、きょう わたしが であった あたらしいともだちです。わたしは かふ",
       "vocab_count": 56,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Но́вая знако́мая",
+      "character_preview": "Неуда́ча Ли — это но́вая знако́мая, кото",
+      "reading_preview": "Neudácha Li — eto nóvaya znakómaya, k",
+      "vocab_count": 48,
       "para_count": 1
     }
   },
@@ -6421,7 +7805,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1757_ensure-safety.mp3",
-      "japanese": "/audio/japanese/1757_ensure-safety.mp3"
+      "japanese": "/audio/japanese/1757_ensure-safety.mp3",
+      "russian": "/audio/russian/1757_ensure-safety.mp3"
     },
     "mandarin": {
       "character_preview": "去年，弟弟告诉我，他正在种水果。我问他：“种西瓜了吗？”",
@@ -6434,6 +7819,13 @@
       "character_preview": "去年、私の弟が果物を育てていると言いました。私は彼に、「スイカを植えましたか？」",
       "reading_preview": "きょねん、わたしのいもうとがくだものをそだてているといいました。わたしはかれに、",
       "vocab_count": 48,
+      "para_count": 7
+    },
+    "russian": {
+      "title": "Обеспе́чение безопа́сности",
+      "character_preview": "В про́шлом году́ мой мла́дший брат ска́з",
+      "reading_preview": "V próshlom god́u moy mládshiy brat ska",
+      "vocab_count": 40,
       "para_count": 7
     }
   },
@@ -6458,7 +7850,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1708_the-story-of-fang-zhongyong.mp3",
-      "japanese": "/audio/japanese/1708_the-story-of-fang-zhongyong.mp3"
+      "japanese": "/audio/japanese/1708_the-story-of-fang-zhongyong.mp3",
+      "russian": "/audio/russian/1708_the-story-of-fang-zhongyong.mp3"
     },
     "mandarin": {
       "character_preview": "从前，中国有一个非常聪明的孩子，叫“方仲永”。他没有见过笔和纸，但是五岁的时候，",
@@ -6470,6 +7863,13 @@
       "title": "方仲永の物語",
       "character_preview": "昔、中国に非常に利口な子供がいました。その子供の名前はフォン・ジョンヨンです。彼",
       "reading_preview": "むかし、ちゅうごくにひじょうにりこうなこどもがいました。そのこどものなまえはふぉ",
+      "vocab_count": 70,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "История Фан Чжунъюнга",
+      "character_preview": "Давным-давно в Китае жил са́мый даровиты",
+      "reading_preview": "Davným-davno v Kitáe zhíl sámyi darovití",
       "vocab_count": 70,
       "para_count": 1
     }
@@ -6495,7 +7895,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1869_tiger.mp3",
-      "japanese": "/audio/japanese/1869_tiger.mp3"
+      "japanese": "/audio/japanese/1869_tiger.mp3",
+      "russian": "/audio/russian/1869_tiger.mp3"
     },
     "mandarin": {
       "character_preview": "有两只老虎，一只在笼子里，一只在森林里。在笼子里的老虎很安逸，在森林里的老虎很自",
@@ -6508,6 +7909,13 @@
       "character_preview": "トラが二匹いました：一匹は檻の中で生きていて、もう一匹は森に住んでいました。檻の",
       "reading_preview": "トラがにひきいました：いっぴきはおりのなかでいきていて、もういっぴきはもりにすん",
       "vocab_count": 91,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Ти́гр",
+      "character_preview": "Бы́ло два ти́гра: один живо́л в кле́тке,",
+      "reading_preview": "Býlo dva tígra: odin zhivół v klétke,",
+      "vocab_count": 80,
       "para_count": 3
     }
   },
@@ -6532,7 +7940,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1592_boyfriend.mp3",
-      "japanese": "/audio/japanese/1592_boyfriend.mp3"
+      "japanese": "/audio/japanese/1592_boyfriend.mp3",
+      "russian": "/audio/russian/1592_boyfriend.mp3"
     },
     "mandarin": {
       "character_preview": "一个朋友告诉我，昨天他看见我的男朋友和一个女人一起坐出租车吃饭。我说不会的，他说",
@@ -6545,6 +7954,13 @@
       "character_preview": "友人が昨日、彼が女性と一緒にタクシーに乗って食事に行くのを見たと言いました。私は",
       "reading_preview": "ゆうじんがきのう、かれがじょせいといっしょにたくしーにのってしょくじにいくのをみ",
       "vocab_count": 57,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Друзья и бойфре́нды",
+      "character_preview": "О́дин това́рищ ска́зал мне, что вчера́ о",
+      "reading_preview": "Ódin tavárisch skázal mne, chto včera",
+      "vocab_count": 50,
       "para_count": 1
     }
   },
@@ -6569,7 +7985,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1423_i-want-to-revenge.mp3",
-      "japanese": "/audio/japanese/1423_i-want-to-revenge.mp3"
+      "japanese": "/audio/japanese/1423_i-want-to-revenge.mp3",
+      "russian": "/audio/russian/1423_i-want-to-revenge.mp3"
     },
     "mandarin": {
       "character_preview": "一个人对他朋友说：“这家公司对我不好！我要离开，我要报复！”",
@@ -6582,6 +7999,13 @@
       "character_preview": "ある男が友達に言いました。「この会社は私を悪く扱います！私は辞めるつもりです。彼",
       "reading_preview": "あるおとこがともだちにいりました。「このかいしゃはわたしをあくくあつかいます！わ",
       "vocab_count": 91,
+      "para_count": 7
+    },
+    "russian": {
+      "title": "Я хочу отомсти́ть",
+      "character_preview": "О́дин му́ж ска́зал своéму друга́, «Э́та ",
+      "reading_preview": "Ódin múzh skazál svóemu drúga, «Ét",
+      "vocab_count": 72,
       "para_count": 7
     }
   },
@@ -6606,7 +8030,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1401_my-father.mp3",
-      "japanese": "/audio/japanese/1401_my-father.mp3"
+      "japanese": "/audio/japanese/1401_my-father.mp3",
+      "russian": "/audio/russian/1401_my-father.mp3"
     },
     "mandarin": {
       "character_preview": "这是我的爸爸，今年55岁。他是一个老师，在四川的大学工作，星期一到星期五都要上班",
@@ -6619,6 +8044,13 @@
       "character_preview": "これは私のおとうちゃんです。彼は55歳です。彼は四川の大学で先生をしています。彼",
       "reading_preview": "これは わたしの おとうちゃん です。かれは ごじゅうごさい です。かれは しせ",
       "vocab_count": 46,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой па́па",
+      "character_preview": "Э́то мой па́па. Е́му 55 лет. Он наста́вн",
+      "reading_preview": "Éto moy pápa. Yému 55 lét. On nástavnik ",
+      "vocab_count": 34,
       "para_count": 1
     }
   },
@@ -6643,7 +8075,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1782_plate-in-story.mp3",
-      "japanese": "/audio/japanese/1782_plate-in-story.mp3"
+      "japanese": "/audio/japanese/1782_plate-in-story.mp3",
+      "russian": "/audio/russian/1782_plate-in-story.mp3"
     },
     "mandarin": {
       "character_preview": "有一天，妈妈和女儿一起洗盘子，爸爸和儿子一起看电视。突然，他们听见打破盘子的声音",
@@ -6656,6 +8089,13 @@
       "character_preview": "ある日、母と娘は皿を洗っていましたが、父と息子はテレビを見ていました。突然、皿が",
       "reading_preview": "あるにち、ははとむすめはさらをあらっていましたが、ちちとむすこはてれびをみていま",
       "vocab_count": 49,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Таре́лка",
+      "character_preview": "Одна́жды ма́ма и её до́чка мы́ли посу́ду",
+      "reading_preview": "Odnázhdy máma i yéyo dóchka mýli pos",
+      "vocab_count": 39,
       "para_count": 1
     }
   },
@@ -6680,7 +8120,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1340_fashion-story.mp3",
-      "japanese": "/audio/japanese/1340_fashion-story.mp3"
+      "japanese": "/audio/japanese/1340_fashion-story.mp3",
+      "russian": "/audio/russian/1340_fashion-story.mp3"
     },
     "mandarin": {
       "character_preview": "A：我喜欢这个发型,我要把头发染成粉色，烫卷，或许可以再剪短一点。你觉得呢？但是",
@@ -6693,6 +8134,13 @@
       "character_preview": "A: 私はこの髪型が好きです。髪を桃色に染めて、カールにして、ちょっと短く切りた",
       "reading_preview": "A: わたしはこのかみがたがすきです。かみをももいろにそめて、かーるにして、ちょ",
       "vocab_count": 90,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Мо́да",
+      "character_preview": "А: Мне по́нравилась се́я причёска. Я хоч",
+      "reading_preview": "A: Mne pónravilas' séya prichyóska. Ya",
+      "vocab_count": 85,
       "para_count": 3
     }
   },
@@ -6717,7 +8165,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1326_pressure-story.mp3",
-      "japanese": "/audio/japanese/1326_pressure-story.mp3"
+      "japanese": "/audio/japanese/1326_pressure-story.mp3",
+      "russian": "/audio/russian/1326_pressure-story.mp3"
     },
     "mandarin": {
       "character_preview": "我今年来中国学习汉语，这是我第一次出国。陌生的环境让我很紧张，因为我哪儿都不熟悉",
@@ -6730,6 +8179,13 @@
       "character_preview": "私は今年、中国に中国語を勉強するために来ました。海外に行くのは初めてで、未知の環",
       "reading_preview": "わたしは　ことし、ちゅうごくに　ちゅうごくごを　べんきょうするために　きました。",
       "vocab_count": 49,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Давле́ние",
+      "character_preview": "Я при́ехал в Кита́й в э́том году́, чтобы",
+      "reading_preview": "Ya príekhal v Kitáy v étom godú, cht",
+      "vocab_count": 91,
       "para_count": 1
     }
   },
@@ -6754,7 +8210,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1281_help-each-other.mp3",
-      "japanese": "/audio/japanese/1281_help-each-other.mp3"
+      "japanese": "/audio/japanese/1281_help-each-other.mp3",
+      "russian": "/audio/russian/1281_help-each-other.mp3"
     },
     "mandarin": {
       "character_preview": "我是一个留学生，在北京学习汉语。现在我想找一份工作，不知道留学生可不可以打工。我",
@@ -6767,6 +8224,13 @@
       "character_preview": "私は北京で中国語を勉強しているインターナショナル学生です。今、仕事を探したいので",
       "reading_preview": "わたしはぺきんでちゅうごくごをべんきょうしているいんたーなしょなるがくせいです。",
       "vocab_count": 56,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Помощь друг другу",
+      "character_preview": "Я интернациона́льный студе́нт, изуча́ющи",
+      "reading_preview": "Ya internacíonal'nyy studént, izucháiu",
+      "vocab_count": 46,
       "para_count": 1
     }
   },
@@ -6791,7 +8255,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1497_my-birthday.mp3",
-      "japanese": "/audio/japanese/1497_my-birthday.mp3"
+      "japanese": "/audio/japanese/1497_my-birthday.mp3",
+      "russian": "/audio/russian/1497_my-birthday.mp3"
     },
     "mandarin": {
       "character_preview": "我在一九九二年二月二十九日出生，那一天是我的生日。我不喜欢这一天，因为这一天很不",
@@ -6804,6 +8269,13 @@
       "character_preview": "私は1992年2月29日に生まれました。だから、それが私の誕生日です。この日付は",
       "reading_preview": "わたしは1992ねん2がつ29にちにうまれました。だから、それがわたしのたんじょ",
       "vocab_count": 53,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Мой день рожде́ния",
+      "character_preview": "Я роди́лся 29 февраля́ 1992 года, так чт",
+      "reading_preview": "Ya rodílsya 29 fevralyá 1992 goda, tak",
+      "vocab_count": 20,
       "para_count": 1
     }
   },
@@ -6828,7 +8300,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1464_internet-and-cellphone.mp3",
-      "japanese": "/audio/japanese/1464_internet-and-cellphone.mp3"
+      "japanese": "/audio/japanese/1464_internet-and-cellphone.mp3",
+      "russian": "/audio/russian/1464_internet-and-cellphone.mp3"
     },
     "mandarin": {
       "character_preview": "我最近情绪不太好。女儿自从结婚以来，就很少回来看我们了。我们之间的距离越来越大。",
@@ -6841,6 +8314,13 @@
       "character_preview": "最近、私はあまり幸せを感じていません。娘が結婚して以来、彼女はめったに私たちの元",
       "reading_preview": "さいきん、わたしはあまりしあわせをかんじていません。むすめがけっこんしていらい、",
       "vocab_count": 79,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Интерне́т и Mobil'nýy Telefón",
+      "character_preview": "Я не́ давно чувст­вую себя не са́мы́м сч",
+      "reading_preview": "Ya né davno chuvstvuyu sebya ne sámým",
+      "vocab_count": 74,
       "para_count": 1
     }
   },
@@ -6865,7 +8345,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1569_what-to-do-on-weekend.mp3",
-      "japanese": "/audio/japanese/1569_what-to-do-on-weekend.mp3"
+      "japanese": "/audio/japanese/1569_what-to-do-on-weekend.mp3",
+      "russian": "/audio/russian/1569_what-to-do-on-weekend.mp3"
     },
     "mandarin": {
       "character_preview": "周末又到了，朋友问我要做什么，我说不知道。旅游不行，只有两天，时间太短。打球和跑",
@@ -6878,6 +8359,13 @@
       "character_preview": "週末が再びやってきました。友達が私に何をするつもりか尋ねましたが、私は知らないと",
       "reading_preview": "しゅうまつが ふたたびやってきました。ともだちが わたしに なにをするつもりか ",
       "vocab_count": 71,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Что дела́ть на вы́ходные",
+      "character_preview": "Выходны́е опять здесь. Друг спра́шивал м",
+      "reading_preview": "Vykhodnýe obyat' zdes'. Drug spráshiva",
+      "vocab_count": 54,
       "para_count": 1
     }
   },
@@ -6902,7 +8390,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1135_learn-chinese-in-china.mp3",
-      "japanese": "/audio/japanese/1135_learn-chinese-in-china.mp3"
+      "japanese": "/audio/japanese/1135_learn-chinese-in-china.mp3",
+      "russian": "/audio/russian/1135_learn-chinese-in-china.mp3"
     },
     "mandarin": {
       "character_preview": "现在，很多外国学生来中国学习。很多人学习汉语。美国人、英国人、泰国人……大家一起",
@@ -6915,6 +8404,13 @@
       "character_preview": "最近、多くのインターナショナルな学生が中国に来て勉強しています。そのうちの多くが",
       "reading_preview": "さいきん、 おおくの インターナショナルな がくせいが ちゅうごくに きて べん",
       "vocab_count": 54,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Учи́ть кита́йский в Кита́е",
+      "character_preview": "В после́днее вре́мя мно́гие междунаро́дн",
+      "reading_preview": "V poslédnee vrémya mnógie mezhdunaród",
+      "vocab_count": 21,
       "para_count": 1
     }
   },
@@ -6939,7 +8435,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1520_pick-up-friend.mp3",
-      "japanese": "/audio/japanese/1520_pick-up-friend.mp3"
+      "japanese": "/audio/japanese/1520_pick-up-friend.mp3",
+      "russian": "/audio/russian/1520_pick-up-friend.mp3"
     },
     "mandarin": {
       "character_preview": "我的好朋友明天在上海有一个工作面试，所以她今天会从北京飞到上海，晚上住在我家。她",
@@ -6952,6 +8449,13 @@
       "character_preview": "私の良い友達は明日シャンハイで仕事の面接があります。だから、彼女は今日北京からこ",
       "reading_preview": "わたしの よいともだちは あした シャンハイで しごとの めんせつが あります。",
       "vocab_count": 87,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Дру́г с ра́ботой",
+      "character_preview": "Моя́ хоро́шая знако́мая име́ет интерна́ц",
+      "reading_preview": "Moyá khoróshaya znakómaya iméet inte",
+      "vocab_count": 75,
       "para_count": 1
     }
   },
@@ -6976,7 +8480,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1373_why-learning-chinese.mp3",
-      "japanese": "/audio/japanese/1373_why-learning-chinese.mp3"
+      "japanese": "/audio/japanese/1373_why-learning-chinese.mp3",
+      "russian": "/audio/russian/1373_why-learning-chinese.mp3"
     },
     "mandarin": {
       "character_preview": "我的中国朋友喜欢问我：为什么要学汉语？因为我喜欢旅游，如果会说汉语，在中国旅行很",
@@ -6988,6 +8493,13 @@
       "title": "中国語を学ぶ理由",
       "character_preview": "私の中国人の友達はしばしば私に、「なぜ中国語を学んでいるのですか？」と尋ねます。",
       "reading_preview": "わたしのちゅうごくじんのともだちはしばしばわたしに、「なぜちゅうごくごをまなんで",
+      "vocab_count": 51,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Почему я учу китайский",
+      "character_preview": "Мои кита́йские дру́зья ча́сто спра́шиваю",
+      "reading_preview": "Moí kitáyskie drúz'ya chásto spráshi",
       "vocab_count": 51,
       "para_count": 1
     }
@@ -7013,7 +8525,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1052_the-birthdays-of-children.mp3",
-      "japanese": "/audio/japanese/1052_the-birthdays-of-children.mp3"
+      "japanese": "/audio/japanese/1052_the-birthdays-of-children.mp3",
+      "russian": "/audio/russian/1052_the-birthdays-of-children.mp3"
     },
     "mandarin": {
       "character_preview": "我和我的好朋友都有孩子，我有一个女儿，她有一个儿子。我的女儿在2017年2月16",
@@ -7026,6 +8539,13 @@
       "character_preview": "私の良い友達と私は両方とも子供がいます。私は娘がいて、彼女は息子がいます。私の娘",
       "reading_preview": "わたしの よい ともだち と わたし は りょうほうとも こども が います。 ",
       "vocab_count": 38,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Дни ро́ждения дете́й",
+      "character_preview": "Мо́й хоро́ший друг и я име́ем де́тей. У ",
+      "reading_preview": "Moy khoróshiy drug i ya iméyem détey.",
+      "vocab_count": 32,
       "para_count": 1
     }
   },
@@ -7050,7 +8570,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1021_birthday-story.mp3",
-      "japanese": "/audio/japanese/1021_birthday-story.mp3"
+      "japanese": "/audio/japanese/1021_birthday-story.mp3",
+      "russian": "/audio/russian/1021_birthday-story.mp3"
     },
     "mandarin": {
       "character_preview": "今天是5月20日，好朋友的生日就要到了，时间过得真快。我不知道她准备做什么。但是",
@@ -7063,6 +8584,13 @@
       "character_preview": "きょうは5月20日で、私の良い友達の誕生日が間もなく来ます。時間が飛ぶように過ぎ",
       "reading_preview": "きょうはごがつにじゅうにちで、わたしのよいともだちのたんじょうびがまもなくきます",
       "vocab_count": 64,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "День ро́ждения",
+      "character_preview": "Се́годня 20 ма́я, и дню́ха моего́ хоро́ш",
+      "reading_preview": "Segodnya 20 maya, i dnyukha moyego khoro",
+      "vocab_count": 44,
       "para_count": 1
     }
   },
@@ -7087,7 +8615,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/951_watch-movie.mp3",
-      "japanese": "/audio/japanese/951_watch-movie.mp3"
+      "japanese": "/audio/japanese/951_watch-movie.mp3",
+      "russian": "/audio/russian/951_watch-movie.mp3"
     },
     "mandarin": {
       "character_preview": "听说有个新电影，我没看过，但是他们说很有意思。我想和我的女朋友去看，但是我的朋友",
@@ -7100,6 +8629,13 @@
       "character_preview": "私は新しい映画が公開されたと聞きました。まだ見ていませんが、人々はそれが本当にお",
       "reading_preview": "わたしはあたらしいえいががこうかいされたとききました。まだみていませんが、ひとび",
       "vocab_count": 60,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Смотри́м фильм",
+      "character_preview": "Я слы́шал, что вы́шел но́вый фильм. Я ещ",
+      "reading_preview": "Ya slýshal, chto výshel nóvyy fílm. ",
+      "vocab_count": 48,
       "para_count": 1
     }
   },
@@ -7124,7 +8660,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/936_be-late-again.mp3",
-      "japanese": "/audio/japanese/936_be-late-again.mp3"
+      "japanese": "/audio/japanese/936_be-late-again.mp3",
+      "russian": "/audio/russian/936_be-late-again.mp3"
     },
     "mandarin": {
       "character_preview": "我和杨陈是2017年9月在学校认识的，他是我同学。他每天坐出租车去学校，我走去学",
@@ -7137,6 +8674,13 @@
       "character_preview": "2017年9月に学校で陽陳に会いました。彼は私の同級生です。彼は毎日学校にタクシ",
       "reading_preview": "にせんじゅうななねんくがつにがくこうでようちんにあいました。かれはわたしのどうき",
       "vocab_count": 38,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Опять опоздал",
+      "character_preview": "Я встре́тил Я́нга Че́на в шко́ле в сентя",
+      "reading_preview": "Ya vstrétil Yánga Chéna v shkóle v s",
+      "vocab_count": 43,
       "para_count": 1
     }
   },
@@ -7161,7 +8705,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/894_buy-clothes.mp3",
-      "japanese": "/audio/japanese/894_buy-clothes.mp3"
+      "japanese": "/audio/japanese/894_buy-clothes.mp3",
+      "russian": "/audio/russian/894_buy-clothes.mp3"
     },
     "mandarin": {
       "character_preview": "昨天上午，我和妹妹去商店买东西了，很晚回家。她买了一点儿水果，我买了不少衣服。我",
@@ -7174,6 +8719,13 @@
       "character_preview": "きのうの朝、私の妹と私は買物に行き、非常に遅く帰宅しました。彼女は果物をいくらか",
       "reading_preview": "きのうのあさ、わたしのいもうととわたしはかいものにいき、ひじょうにおそくかいたく",
       "vocab_count": 40,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Ку́пить оде́жду",
+      "character_preview": "Вчера́ у́тром я и моя́ мла́дшая сестра́ ",
+      "reading_preview": "Vcherá útrom ya i moyá mládshaya ses",
+      "vocab_count": 36,
       "para_count": 1
     }
   },
@@ -7198,7 +8750,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1075_congratulations-story.mp3",
-      "japanese": "/audio/japanese/1075_congratulations-story.mp3"
+      "japanese": "/audio/japanese/1075_congratulations-story.mp3",
+      "russian": "/audio/russian/1075_congratulations-story.mp3"
     },
     "mandarin": {
       "character_preview": "A：你太了不起了。又得了汉语比赛的冠军。",
@@ -7211,6 +8764,13 @@
       "character_preview": "A: あなたは驚くべきです！あなたは再び中国語の競争に勝ちました。",
       "reading_preview": "A: あなたはおどろくべきです！あなたはふたたびちゅうごくごのきょうそうにかちま",
       "vocab_count": 69,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Поздравле́ния",
+      "character_preview": "А: Ты восхити́тельный! Ты во́все опять в",
+      "reading_preview": "A: Ty vashitíteln'y! Ty vóvse ob'yat v",
+      "vocab_count": 51,
       "para_count": 5
     }
   },
@@ -7235,7 +8795,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1448_my-mother.mp3",
-      "japanese": "/audio/japanese/1448_my-mother.mp3"
+      "japanese": "/audio/japanese/1448_my-mother.mp3",
+      "russian": "/audio/russian/1448_my-mother.mp3"
     },
     "mandarin": {
       "character_preview": "明天是妈妈的生日，她今年55岁。她有一个姐姐和两个弟弟。她不喜欢喝咖啡，但是很喜",
@@ -7248,6 +8809,13 @@
       "character_preview": "明日は私の母の誕生日です。彼女は55歳になります。彼女には姉が一人と弟が二人いま",
       "reading_preview": "あしたはわたしのははのたんじょうびです。かのじょは55さいにまなります。かのじょ",
       "vocab_count": 50,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Моя́ mãé",
+      "character_preview": "За́втра день рожде́ния моей мáмы. Ей исп",
+      "reading_preview": "Závtra dénʹ rozhdéniya moey mámy. Éy",
+      "vocab_count": 40,
       "para_count": 1
     }
   },
@@ -7272,7 +8840,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1149_one-of-my-days.mp3",
-      "japanese": "/audio/japanese/1149_one-of-my-days.mp3"
+      "japanese": "/audio/japanese/1149_one-of-my-days.mp3",
+      "russian": "/audio/russian/1149_one-of-my-days.mp3"
     },
     "mandarin": {
       "character_preview": "我今天7点起床吃东西，9点去学校上课。我的汉语不好，下午汉语老师帮助我学习，我们",
@@ -7285,6 +8854,13 @@
       "character_preview": "私は今日は七時に起きて、何かを食べました。九時に、私はクラスのために学校に行きま",
       "reading_preview": "わたしはきょうはななじにおきて、なにかをたべました。くじに、わたしはクラスのため",
       "vocab_count": 64,
+      "para_count": 1
+    },
+    "russian": {
+      "title": "Один из моих дней",
+      "character_preview": "Се́годня я встал в се́мь часо́в и по́ел ",
+      "reading_preview": "Ségodnya ya vstal v sém' chasov i póy",
+      "vocab_count": 46,
       "para_count": 1
     }
   },
@@ -7309,7 +8885,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1099_after-sale-service.mp3",
-      "japanese": "/audio/japanese/1099_after-sale-service.mp3"
+      "japanese": "/audio/japanese/1099_after-sale-service.mp3",
+      "russian": "/audio/russian/1099_after-sale-service.mp3"
     },
     "mandarin": {
       "character_preview": "A：我的手机才用一个星期，就坏了。我要退货！",
@@ -7322,6 +8899,13 @@
       "character_preview": "A: 私はこの電話をたった一週間しか使っていないのに、もう壊れてしまいました。返",
       "reading_preview": "A: わたしはこのでんわをたったいっしゅうかんしかつかっていないのに、もうこわれ",
       "vocab_count": 79,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Обслу́живание после продажи",
+      "character_preview": "А: Я име́ю э́тот фо́н только до́лжай нед",
+      "reading_preview": "A: Ya iméyu étot fón tol'ko dólzhay n",
+      "vocab_count": 61,
       "para_count": 5
     }
   },
@@ -7346,7 +8930,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1238_fruits-story.mp3",
-      "japanese": "/audio/japanese/1238_fruits-story.mp3"
+      "japanese": "/audio/japanese/1238_fruits-story.mp3",
+      "russian": "/audio/russian/1238_fruits-story.mp3"
     },
     "mandarin": {
       "character_preview": "妹妹喜欢吃水果。她的生日快到了，哥哥和姐姐一起去山上找好吃的水果给妹妹。",
@@ -7359,6 +8944,13 @@
       "character_preview": "妹は果物を食べるのが大好きでした。彼女の誕生日が間もなくやって来るので、年上の兄",
       "reading_preview": "いもと は くだもの を たべる のが だいすき でした。かのじょ の たんじょ",
       "vocab_count": 88,
+      "para_count": 7
+    },
+    "russian": {
+      "title": "Фру́кты",
+      "character_preview": "Мла́дшая сестра́ люби́ла приня́тие пи́щи",
+      "reading_preview": "Mládshaya sestrá lyubíla prinýatie p",
+      "vocab_count": 73,
       "para_count": 7
     }
   },
@@ -7383,7 +8975,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/515_effort-matters.mp3",
-      "japanese": "/audio/japanese/515_effort-matters.mp3"
+      "japanese": "/audio/japanese/515_effort-matters.mp3",
+      "russian": "/audio/russian/515_effort-matters.mp3"
     },
     "mandarin": {
       "character_preview": "唐朝大诗人李白小时候不喜欢学习，常常不去上课，到街上玩。",
@@ -7396,6 +8989,13 @@
       "character_preview": "偉大な唐の詩人李白が若い頃、彼は勉強が好きではありませんでした。彼はしばしば授業",
       "reading_preview": "いだいなとうのしじんりはくがわかいころ、かれはべんきょうがすきではありませんでし",
       "vocab_count": 137,
+      "para_count": 7
+    },
+    "russian": {
+      "title": "Усилие имеет значение",
+      "character_preview": "Когда́ великоле́пный поэ́т дина́стии Тан",
+      "reading_preview": "Kogdá velikolépnyj poéty dinastii Tan ",
+      "vocab_count": 131,
       "para_count": 7
     }
   },
@@ -7420,7 +9020,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/1164_blind-and-lantern.mp3",
-      "japanese": "/audio/japanese/1164_blind-and-lantern.mp3"
+      "japanese": "/audio/japanese/1164_blind-and-lantern.mp3",
+      "russian": "/audio/russian/1164_blind-and-lantern.mp3"
     },
     "mandarin": {
       "character_preview": "在还没有灯的时候，人们晚上都会点灯笼照路。",
@@ -7433,6 +9034,13 @@
       "character_preview": "電気の光が存在する前に、人々は夜に道を照らすためにランタンを使っていました。",
       "reading_preview": "でんきのひかりがそんざいするまえに、ひとびとはよるにみちをてらすためにらんたんを",
       "vocab_count": 75,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Слепо́й и фонарь",
+      "character_preview": "Ра́нее, пока́ не существова́ли электри́ч",
+      "reading_preview": "Ránee, poká ne suscht͡hvováli elektri",
+      "vocab_count": 61,
       "para_count": 4
     }
   },
@@ -7457,7 +9065,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/499_the-unwise-choice.mp3",
-      "japanese": "/audio/japanese/499_the-unwise-choice.mp3"
+      "japanese": "/audio/japanese/499_the-unwise-choice.mp3",
+      "russian": "/audio/russian/499_the-unwise-choice.mp3"
     },
     "mandarin": {
       "character_preview": "春秋的时候，有一个卖珠宝的商人。",
@@ -7470,6 +9079,13 @@
       "character_preview": "春と秋の時代に、宝石を売る商人がいました。",
       "reading_preview": "はるとあきのじだいに、ほうせきを する しょうにんが いました。",
       "vocab_count": 82,
+      "para_count": 4
+    },
+    "russian": {
+      "title": "Неу́мный вы́бор",
+      "character_preview": "В весна́ и о́сень, был купе́ц, который п",
+      "reading_preview": "V vesná i ósen', byl kupéts, kotoryy pro",
+      "vocab_count": 79,
       "para_count": 4
     }
   },
@@ -7494,7 +9110,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/475_a-snake-in-the-drinking-cup.mp3",
-      "japanese": "/audio/japanese/475_a-snake-in-the-drinking-cup.mp3"
+      "japanese": "/audio/japanese/475_a-snake-in-the-drinking-cup.mp3",
+      "russian": "/audio/russian/475_a-snake-in-the-drinking-cup.mp3"
     },
     "mandarin": {
       "character_preview": "乐广有一个好朋友，很长时间不来看乐广。乐广问他为什么，朋友回答：“以前在你家，你",
@@ -7507,6 +9124,13 @@
       "character_preview": "レ・クアンには、長い間彼に会いに来ていない良い友達がいました。レ・クアンがその理",
       "reading_preview": "れ・くあんには、ながいあいだかれにあいにきていないよいともだちがいました。れ・く",
       "vocab_count": 93,
+      "para_count": 3
+    },
+    "russian": {
+      "title": "Змея в чаше",
+      "character_preview": "Лэ́ Гуан имел хоро́шего друга, кото́рый ",
+      "reading_preview": "Lé Guán imél khóroshógo drúga, kotór",
+      "vocab_count": 105,
       "para_count": 3
     }
   },
@@ -7531,7 +9155,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/491_learning-wisely.mp3",
-      "japanese": "/audio/japanese/491_learning-wisely.mp3"
+      "japanese": "/audio/japanese/491_learning-wisely.mp3",
+      "russian": "/audio/russian/491_learning-wisely.mp3"
     },
     "mandarin": {
       "character_preview": "在《论语》中，孔子对他的学生说，我教你们一个做事情的方法，你们应该聪明地想到别的",
@@ -7544,6 +9169,13 @@
       "character_preview": "論語で、孔子は彼の学生たちに言いました。「もし、私があなたに何かをするための一つ",
       "reading_preview": "ろんごで、こうしはかれのがくせいたちにいいました。「もし、わたしがあなたになにか",
       "vocab_count": 57,
+      "para_count": 2
+    },
+    "russian": {
+      "title": "Учи́ться мудро",
+      "character_preview": "В литерату́рном сбо́рнике Конфу́ция он с",
+      "reading_preview": "V literatúrnom sbórnike Konfútsiya on",
+      "vocab_count": 48,
       "para_count": 2
     }
   },
@@ -7568,7 +9200,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/337_waiting-for-the-hare.mp3",
-      "japanese": "/audio/japanese/337_waiting-for-the-hare.mp3"
+      "japanese": "/audio/japanese/337_waiting-for-the-hare.mp3",
+      "russian": "/audio/russian/337_waiting-for-the-hare.mp3"
     },
     "mandarin": {
       "character_preview": "战国时候的一个农民，他的田中有一棵树。",
@@ -7581,6 +9214,13 @@
       "character_preview": "戦国時代に、ある農場主が自分の田畑に木を持っていました。",
       "reading_preview": "せんごくじだいに、あるのうじょうぬしがじぶんのたはたにきおもっていました。",
       "vocab_count": 80,
+      "para_count": 5
+    },
+    "russian": {
+      "title": "Ожидание зайца",
+      "character_preview": "В вре́мя войн, в пери́од государств, у к",
+      "reading_preview": "V vре́мя voйн, v períod gosúdarstv, u ",
+      "vocab_count": 62,
       "para_count": 5
     }
   },
@@ -7605,7 +9245,8 @@
     "image": "",
     "audio": {
       "mandarin": "/audio/mandarin/541_forget-how-to-walk.mp3",
-      "japanese": "/audio/japanese/541_forget-how-to-walk.mp3"
+      "japanese": "/audio/japanese/541_forget-how-to-walk.mp3",
+      "russian": "/audio/russian/541_forget-how-to-walk.mp3"
     },
     "mandarin": {
       "character_preview": "两千年以前，有一个燕国人，他没有自信，常常觉得什么都比别人差——别人的衣服更好看",
@@ -7618,6 +9259,13 @@
       "character_preview": "二千年前、信頼が欠けていた燕の男がいました。彼はしばしば自分が他のすべての人より",
       "reading_preview": "にせんねんまえ、しんらいがかけていたえんのおとこがいました。かれはしばしばじぶん",
       "vocab_count": 135,
+      "para_count": 6
+    },
+    "russian": {
+      "title": "Забы́ть, как хо́дить",
+      "character_preview": "Две ты́сячи лет наза́д жи́л муж из госуд",
+      "reading_preview": "Dve týsyachi let nazád zhíl muzh iz g",
+      "vocab_count": 121,
       "para_count": 6
     }
   }

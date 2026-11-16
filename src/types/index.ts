@@ -1,3 +1,5 @@
+export type Language = "mandarin" | "japanese" | "russian";
+
 export interface StoryCatalogItem {
   id: number;
   title: string;
@@ -7,12 +9,14 @@ export interface StoryCatalogItem {
   hsk: string;
   hsk_tags: string[];
   jlpt: string;
+  torfl?: string;
   categories: string[];
   tags: string[];
   image: string;
   audio: {
     mandarin: string;
     japanese: string;
+    russian?: string;
   };
   mandarin: {
     character_preview: string;
@@ -21,6 +25,13 @@ export interface StoryCatalogItem {
     para_count: number;
   };
   japanese: {
+    title: string;
+    character_preview: string;
+    reading_preview: string;
+    vocab_count: number;
+    para_count: number;
+  };
+  russian?: {
     title: string;
     character_preview: string;
     reading_preview: string;
@@ -36,13 +47,18 @@ export interface VocabularyItem {
   translation: string;
   hsk?: string;
   jlpt?: string;
+  torfl?: string;
+  lemma?: string;
+  grammar?: string;
 }
 
 export interface StoryDetail {
   id: number;
   title: string;
   japanese_title?: string;
+  russian_title?: string;
   level: string;
+  torfl_level?: string;
   hsk_tags: string[];
   slug: string;
   audio_url: string;
@@ -53,6 +69,7 @@ export interface StoryDetail {
   pinyin_paragraphs?: string[];
   japanese_paragraphs?: string[];
   reading_paragraphs?: string[];
+  russian_paragraphs?: string[];
   ruby_paragraphs?: string[];
   vocabulary: VocabularyItem[];
 }
@@ -60,9 +77,10 @@ export interface StoryDetail {
 export interface FilterState {
   search: string;
   level: string;
-  language: "mandarin" | "japanese";
+  language: Language;
   selectedHsk: string[];
   selectedJlpt: string[];
+  selectedTorfl: string[];
   audioOnly: boolean;
 }
 

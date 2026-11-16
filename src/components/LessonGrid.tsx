@@ -13,12 +13,12 @@ import highwayData from "@/data/plays/highway.json";
 import lionData from "@/data/plays/lion.json";
 import hansuuData from "@/data/plays/hansuu.json";
 import nemurenaiData from "@/data/plays/nemurenai.json";
-import { StoryCatalogItem, FilterState, PlayMetadata, PlayCatalogItem } from "@/types";
+import { StoryCatalogItem, FilterState, PlayMetadata, PlayCatalogItem, Language } from "@/types";
 import { Theater, Users, Play as PlayIcon, Sparkles, BookOpen, Layers, Clock } from "lucide-react";
 
 interface LessonGridProps {
   initialStories: StoryCatalogItem[];
-  language: "mandarin" | "japanese";
+  language: Language;
 }
 
 const ITEMS_PER_PAGE = 9;
@@ -41,6 +41,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
     language: language,
     selectedHsk: [],
     selectedJlpt: [],
+    selectedTorfl: [],
     audioOnly: false,
   });
 
@@ -59,6 +60,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
       // Reset selected levels when switching language
       selectedHsk: [],
       selectedJlpt: [],
+      selectedTorfl: [],
     }));
     setCurrentPage(1);
   }, [language]);
@@ -80,12 +82,14 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
       if (filters.search) {
         const query = filters.search.toLowerCase();
         const matchesTitle = story.title.toLowerCase().includes(query);
-        const matchesJpTitle = story.japanese.title?.toLowerCase().includes(query);
-        const matchesCjk = story.mandarin.character_preview.toLowerCase().includes(query);
-        const matchesJpCjk = story.japanese.character_preview.toLowerCase().includes(query);
+        const matchesJpTitle = story.japanese?.title?.toLowerCase().includes(query);
+        const matchesRuTitle = story.russian?.title?.toLowerCase().includes(query);
+        const matchesCjk = story.mandarin?.character_preview?.toLowerCase().includes(query);
+        const matchesJpCjk = story.japanese?.character_preview?.toLowerCase().includes(query);
+        const matchesRuCjk = story.russian?.character_preview?.toLowerCase().includes(query);
         const matchesTags = story.tags.some((t) => t.toLowerCase().includes(query));
 
-        if (!matchesTitle && !matchesJpTitle && !matchesCjk && !matchesJpCjk && !matchesTags) {
+        if (!matchesTitle && !matchesJpTitle && !matchesRuTitle && !matchesCjk && !matchesJpCjk && !matchesRuCjk && !matchesTags) {
           return false;
         }
       }
@@ -113,10 +117,24 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
         if (!matchesJlpt) return false;
       }
 
-      // 5. Audio Only Filter
+      // 5. TORFL / TRKI Level Filter (for Russian)
+      if (language === "russian" && (filters.selectedTorfl || []).length > 0) {
+        const matchesTorfl = (filters.selectedTorfl || []).some(
+          (torfl) =>
+            story.hsk_tags?.some((t) => t.toLowerCase() === torfl.toLowerCase()) ||
+            story.torfl?.toLowerCase() === torfl.toLowerCase()
+        );
+        if (!matchesTorfl) return false;
+      }
+
+      // 6. Audio Only Filter
       if (filters.audioOnly) {
         const hasAudio =
-          language === "mandarin" ? Boolean(story.audio.mandarin) : Boolean(story.audio.japanese);
+          language === "mandarin"
+            ? Boolean(story.audio.mandarin)
+            : language === "japanese"
+            ? Boolean(story.audio.japanese)
+            : Boolean(story.audio.russian);
         if (!hasAudio) return false;
       }
 
@@ -136,6 +154,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
       language,
       selectedHsk: [],
       selectedJlpt: [],
+      selectedTorfl: [],
       audioOnly: false,
     });
     setCurrentPage(1);
@@ -279,7 +298,7 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
         <span className="text-xs sm:text-sm font-medium text-[var(--md-sys-color-on-surface-variant)]">
           Showing {paginatedStories.length} of {filteredStories.length} graded stories
           {filters.level !== "all" && ` • ${filters.level}`}
-          {language === "mandarin" ? " (Mandarin)" : " (Japanese)"}
+          {language === "mandarin" ? " (Mandarin)" : language === "japanese" ? " (Japanese)" : " (Russian)"}
         </span>
       </div>
 

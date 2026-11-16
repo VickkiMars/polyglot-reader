@@ -1,0 +1,160 @@
+{
+  "id": 15576,
+  "title": "Favorite food",
+  "russian_title": "Любимая еда",
+  "level": "Intermediate",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "favorite-food",
+  "audio_url": "/audio/russian/15576_favorite-food.mp3",
+  "english_paragraphs": [
+    "We are a family of three, and everyone has their own favorite food. I like to eat vegetables, especially spicy food, but I don't like rice. My husband not only likes to eat vegetables, but also likes to eat meat. But he can't eat spicy food and only likes to eat light food. Our child likes sweet things the most, including bread, cakes, and fruits. But we are also worried because he always doesn't like eating meat and vegetables and can only eat a little at a time. How can we get our children to eat more healthy food?"
+  ],
+  "english_full": "We are a family of three, and everyone has their own favorite food. I like to eat vegetables, especially spicy food, but I don't like rice. My husband not only likes to eat vegetables, but also likes to eat meat. But he can't eat spicy food and only likes to eat light food. Our child likes sweet things the most, including bread, cakes, and fruits. But we are also worried because he always doesn't like eating meat and vegetables and can only eat a little at a time. How can we get our children to eat more healthy food?",
+  "russian_paragraphs": [
+    "Мы семья из троих человек, и у каждого есть своя любимая еда. Я люблю кушать овощи, особенно острые блюда, но рис я не люблю."
+  ],
+  "reading_paragraphs": [
+    "Mý smóý s'ém'ya iz tróikh chelóvek, i u kázhdogo yest' svóya lýubimaya éda. Ya lúblyu kúshat' óvoshchi, osobónno óstryye blýda, no ris ya ne lúblyu."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"My\" data-defn=\"мы\" data-hsk=\"A2\"><span class=\"si\">Мы</span><rt>My</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sem&#x27;ya\" data-defn=\"семья\" data-hsk=\"A2\"><span class=\"si\">семья</span><rt>sem&#x27;ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"troikh\" data-defn=\"троих\" data-hsk=\"A2\"><span class=\"si\">троих</span><rt>troikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovek\" data-defn=\"человек\" data-hsk=\"A2\"><span class=\"si\">человек</span><rt>chelovek</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kazhdogo\" data-defn=\"каждого\" data-hsk=\"A2\"><span class=\"si\">каждого</span><rt>kazhdogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"est&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">есть</span><rt>est&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoya\" data-defn=\"своя\" data-hsk=\"A2\"><span class=\"si\">своя</span><rt>svoya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubimaya\" data-defn=\"любимая\" data-hsk=\"A2\"><span class=\"si\">любимая</span><rt>lyubimaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eda\" data-defn=\"еда\" data-hsk=\"A2\"><span class=\"si\">еда</span><rt>eda</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyublyu\" data-defn=\"люблю\" data-hsk=\"A2\"><span class=\"si\">люблю</span><rt>lyublyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kushat&#x27;\" data-defn=\"кушать\" data-hsk=\"A2\"><span class=\"si\">кушать</span><rt>kushat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ovoshchi\" data-defn=\"овощи\" data-hsk=\"A2\"><span class=\"si\">овощи</span><rt>ovoshchi</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"osobenno\" data-defn=\"особенно\" data-hsk=\"A2\"><span class=\"si\">особенно</span><rt>osobenno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ostrye\" data-defn=\"острые\" data-hsk=\"A2\"><span class=\"si\">острые</span><rt>ostrye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"blyuda\" data-defn=\"блюда\" data-hsk=\"A2\"><span class=\"si\">блюда</span><rt>blyuda</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ris\" data-defn=\"рис\" data-hsk=\"A2\"><span class=\"si\">рис</span><rt>ris</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyublyu\" data-defn=\"люблю\" data-hsk=\"A2\"><span class=\"si\">люблю</span><rt>lyublyu</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "Мы",
+      "reading": "My",
+      "translation": "мы",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "семья",
+      "reading": "sem'ya",
+      "translation": "семья",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "из",
+      "reading": "iz",
+      "translation": "из",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "троих",
+      "reading": "troikh",
+      "translation": "троих",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "человек",
+      "reading": "chelovek",
+      "translation": "человек",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "каждого",
+      "reading": "kazhdogo",
+      "translation": "каждого",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "есть",
+      "reading": "est'",
+      "translation": "есть",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "своя",
+      "reading": "svoya",
+      "translation": "своя",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "любимая",
+      "reading": "lyubimaya",
+      "translation": "любимая",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "еда",
+      "reading": "eda",
+      "translation": "еда",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "люблю",
+      "reading": "lyublyu",
+      "translation": "люблю",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "кушать",
+      "reading": "kushat'",
+      "translation": "кушать",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "овощи",
+      "reading": "ovoshchi",
+      "translation": "овощи",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "особенно",
+      "reading": "osobenno",
+      "translation": "особенно",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "острые",
+      "reading": "ostrye",
+      "translation": "острые",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "блюда",
+      "reading": "blyuda",
+      "translation": "блюда",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "но",
+      "reading": "no",
+      "translation": "но",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рис",
+      "reading": "ris",
+      "translation": "рис",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "не",
+      "reading": "ne",
+      "translation": "не",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": 17100,
+  "title": "I have been in China for three years",
+  "russian_title": "Я учусь и работаю в Китае три года",
+  "level": "Beginner",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "i-have-been-in-china-for-three-years",
+  "audio_url": "/audio/russian/17100_i-have-been-in-china-for-three-years.mp3",
+  "english_paragraphs": [
+    "I have been studying and working in China for three years. Five years ago, I traveled to China for the first time and fell in love with the food here. After returning to China, I started learning Chinese online. At first I studied by myself, and later I found a Chinese teacher online to help me. After I passed the HSK Level 4 exam, I wanted to come to China to continue my studies. After arriving in China, I first studied Chinese in Beijing, then found a job in Shanghai and came to live in Shanghai. Over the past three years, I have learned more about Chinese culture and made many Chinese friends. I want to work in Guangdong next year. Guangdong is a warm place with a lot of delicious food. I should be very happy."
+  ],
+  "english_full": "I have been studying and working in China for three years. Five years ago, I traveled to China for the first time and fell in love with the food here. After returning to China, I started learning Chinese online. At first I studied by myself, and later I found a Chinese teacher online to help me. After I passed the HSK Level 4 exam, I wanted to come to China to continue my studies. After arriving in China, I first studied Chinese in Beijing, then found a job in Shanghai and came to live in Shanghai. Over the past three years, I have learned more about Chinese culture and made many Chinese friends. I want to work in Guangdong next year. Guangdong is a warm place with a lot of delicious food. I should be very happy.",
+  "russian_paragraphs": [
+    "Я учу́сь и рабо́таю в Кита́е три го́да. Пя́ть лет наза́д я пое́хал в Кита́й пе́рвый раз и влюблённый в еду́ здесь."
+  ],
+  "reading_paragraphs": [
+    "Ya uchú's' i rabotáyu v Kitáe tri góda. Pyat' let nazád ya poéxal v Kitáy pérvyy raz i vlyublyónnyy v yedú zdes'."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchús&#x27;\" data-defn=\"учусь\" data-hsk=\"A2\"><span class=\"si\">учу́сь</span><rt>uchús&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótayu\" data-defn=\"работаю\" data-hsk=\"A2\"><span class=\"si\">рабо́таю</span><rt>rabótayu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Kitáe\" data-defn=\"китае\" data-hsk=\"A2\"><span class=\"si\">Кита́е</span><rt>Kitáe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tri\" data-defn=\"три\" data-hsk=\"A2\"><span class=\"si\">три</span><rt>tri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góda\" data-defn=\"года\" data-hsk=\"A2\"><span class=\"si\">го́да</span><rt>góda</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Pyát&#x27;\" data-defn=\"пять\" data-hsk=\"A2\"><span class=\"si\">Пя́ть</span><rt>Pyát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">лет</span><rt>let</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nazád\" data-defn=\"назад\" data-hsk=\"A2\"><span class=\"si\">наза́д</span><rt>nazád</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poékhal\" data-defn=\"поехал\" data-hsk=\"A2\"><span class=\"si\">пое́хал</span><rt>poékhal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Kitáy\" data-defn=\"китай\" data-hsk=\"A2\"><span class=\"si\">Кита́й</span><rt>Kitáy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvyy\" data-defn=\"первый\" data-hsk=\"A2\"><span class=\"si\">пе́рвый</span><rt>pérvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"A2\"><span class=\"si\">раз</span><rt>raz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vlyublyonnyy\" data-defn=\"влюблённый\" data-hsk=\"A2\"><span class=\"si\">влюблённый</span><rt>vlyublyonnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"edú\" data-defn=\"еду\" data-hsk=\"A2\"><span class=\"si\">еду́</span><rt>edú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zdes&#x27;\" data-defn=\"здесь\" data-hsk=\"A2\"><span class=\"si\">здесь</span><rt>zdes&#x27;</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "учу́сь",
+      "reading": "uchús'",
+      "translation": "учусь",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рабо́таю",
+      "reading": "rabótayu",
+      "translation": "работаю",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Кита́е",
+      "reading": "Kitáe",
+      "translation": "китае",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "три",
+      "reading": "tri",
+      "translation": "три",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "го́да",
+      "reading": "góda",
+      "translation": "года",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Пя́ть",
+      "reading": "Pyát'",
+      "translation": "пять",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "лет",
+      "reading": "let",
+      "translation": "лет",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "наза́д",
+      "reading": "nazád",
+      "translation": "назад",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пое́хал",
+      "reading": "poékhal",
+      "translation": "поехал",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Кита́й",
+      "reading": "Kitáy",
+      "translation": "китай",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "пе́рвый",
+      "reading": "pérvyy",
+      "translation": "первый",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "раз",
+      "reading": "raz",
+      "translation": "раз",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "влюблённый",
+      "reading": "vlyublyonnyy",
+      "translation": "влюблённый",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "еду́",
+      "reading": "edú",
+      "translation": "еду",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "здесь",
+      "reading": "zdes'",
+      "translation": "здесь",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

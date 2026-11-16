@@ -2,14 +2,16 @@
 
 import React from "react";
 import { BookOpen, Headphones, Languages, GraduationCap } from "lucide-react";
+import { Language } from "@/types";
 
 interface HeroProps {
-  currentLanguage: "mandarin" | "japanese";
+  currentLanguage: Language;
   totalStories: number;
 }
 
 export default function Hero({ currentLanguage, totalStories }: HeroProps) {
   const isMandarin = currentLanguage === "mandarin";
+  const isJapanese = currentLanguage === "japanese";
 
   return (
     <section className="bg-[var(--md-sys-color-surface-container-low)] border-b border-[var(--md-sys-color-outline-variant)]/60 pt-6 pb-8 sm:pt-10 sm:pb-12 transition-colors duration-200">
@@ -24,7 +26,11 @@ export default function Hero({ currentLanguage, totalStories }: HeroProps) {
           <p className="mt-3 sm:mt-4 text-sm sm:text-base text-[var(--md-sys-color-on-surface-variant)] leading-relaxed max-w-2xl font-roboto">
             Immerse yourself in {totalStories} graded stories in{" "}
             <span className="font-semibold text-[var(--md-sys-color-primary)]">
-              {isMandarin ? "Mandarin Chinese (HSK 1–6)" : "Japanese (JLPT N5–N1)"}
+              {isMandarin
+                ? "Mandarin Chinese (HSK 1–6)"
+                : isJapanese
+                ? "Japanese (JLPT N5–N1)"
+                : "Russian (ТРКИ A1–C2)"}
             </span>
             — built for natural language acquisition with interactive word-level annotations, instant hover glosses, and crystal-clear neural narration.
           </p>
@@ -43,12 +49,12 @@ export default function Hero({ currentLanguage, totalStories }: HeroProps) {
 
             <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
               <Languages className="w-3.5 h-3.5 text-[var(--md-sys-color-secondary)] shrink-0" />
-              <span>{isMandarin ? "Dual Scripts" : "Furigana Ruby"}</span>
+              <span>{isMandarin ? "Dual Scripts" : isJapanese ? "Furigana Ruby" : "Stress & Lemmas"}</span>
             </div>
 
             <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
               <GraduationCap className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
-              <span>17k <span className="hidden sm:inline">Lexical </span>Tokens</span>
+              <span>17k+ <span className="hidden sm:inline">Lexical </span>Tokens</span>
             </div>
           </div>
         </div>

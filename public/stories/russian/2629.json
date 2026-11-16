@@ -1,0 +1,236 @@
+{
+  "id": 2629,
+  "title": "Lost Girl",
+  "russian_title": "Потеря́вшаяся де́вочка",
+  "level": "Beginner",
+  "torfl_level": "A1",
+  "hsk_tags": [
+    "A1"
+  ],
+  "slug": "lost-girl",
+  "audio_url": "/audio/russian/2629_lost-girl.mp3",
+  "english_paragraphs": [
+    "A little girl was crying by the side of the road. A police officer came over and asked, “What’s wrong, little one?”",
+    "Through her tears, the little girl said, “I want to go home, but I don’t know the way.”",
+    "The officer asked, “What’s your daddy’s name?”",
+    "The little girl said, “Darling!”",
+    "The officer asked, “What’s your mommy’s name?”",
+    "The little girl said, “Baby!”"
+  ],
+  "english_full": "A little girl was crying by the side of the road. A police officer came over and asked, “What’s wrong, little one?”\n\nThrough her tears, the little girl said, “I want to go home, but I don’t know the way.”\n\nThe officer asked, “What’s your daddy’s name?”\n\nThe little girl said, “Darling!”\n\nThe officer asked, “What’s your mommy’s name?”\n\nThe little girl said, “Baby!”",
+  "russian_paragraphs": [
+    "Малы́шка пла́кала у борта доро́ги. Полице́йский подошёл и спра́шивает: «Что с тобо́й, малы́шка?»",
+    "Сквозь слёзы малы́шка ска́зала: «Я хо́чу верну́ться домой, но не зна́ю путь.»",
+    "Полице́йский спра́шивает: «Како́е у твоего́ па́пы и́мя?»",
+    "Малы́шка ска́зала: «Дорого́й!»",
+    "Полице́йский спра́шивает: «Како́е у твоей ма́мы и́мя?»",
+    "Малы́шка ска́зала: «Бе́би!»"
+  ],
+  "reading_paragraphs": [
+    "Malýshka plákala u borta dorógi. Policéyskiy podoshól i spráshivet: «Chto s tobóy, malýshka?»",
+    "Skvozʹ slyózy malýshka skázala: «Ya khóchu vernútʹsya domóy, no ne znáyu putʹ.»",
+    "Policéyskiy spráshivet: «Kakóye u tvoyegó pápy ímya?»",
+    "Malýshka skázala: «Dorogóy!»",
+    "Policéyskiy spráshivet: «Kakóye u tvoyey mámy ímya?»",
+    "Malýshka skázala: «Bébi!»"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"plákala\" data-defn=\"плакала\" data-hsk=\"A1\"><span class=\"si\">пла́кала</span><rt>plákala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"borta\" data-defn=\"борта\" data-hsk=\"A1\"><span class=\"si\">борта</span><rt>borta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dorógi\" data-defn=\"дороги\" data-hsk=\"A1\"><span class=\"si\">доро́ги</span><rt>dorógi</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podoshyol\" data-defn=\"подошёл\" data-hsk=\"A1\"><span class=\"si\">подошёл</span><rt>podoshyol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Chto\" data-defn=\"что\" data-hsk=\"A1\"><span class=\"si\">Что</span><rt>Chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tobóy\" data-defn=\"тобой\" data-hsk=\"A1\"><span class=\"si\">тобо́й</span><rt>tobóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">малы́шка</span><rt>malýshka</rt></ruby>?»",
+    "<ruby class=\"mb-tooltip\" data-py=\"Skvoz&#x27;\" data-defn=\"сквозь\" data-hsk=\"A1\"><span class=\"si\">Сквозь</span><rt>Skvoz&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"slyozy\" data-defn=\"слёзы\" data-hsk=\"A1\"><span class=\"si\">слёзы</span><rt>slyozy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">малы́шка</span><rt>malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khóchu\" data-defn=\"хочу\" data-hsk=\"A1\"><span class=\"si\">хо́чу</span><rt>khóchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vernút&#x27;sya\" data-defn=\"вернуться\" data-hsk=\"A1\"><span class=\"si\">верну́ться</span><rt>vernút&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"domoy\" data-defn=\"домой\" data-hsk=\"A1\"><span class=\"si\">домой</span><rt>domoy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A1\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáyu\" data-defn=\"знаю\" data-hsk=\"A1\"><span class=\"si\">зна́ю</span><rt>znáyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"put&#x27;\" data-defn=\"путь\" data-hsk=\"A1\"><span class=\"si\">путь</span><rt>put&#x27;</rt></ruby>.»",
+    "<ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Kakóe\" data-defn=\"какое\" data-hsk=\"A1\"><span class=\"si\">Како́е</span><rt>Kakóe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoegó\" data-defn=\"твоего\" data-hsk=\"A1\"><span class=\"si\">твоего́</span><rt>tvoegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápy\" data-defn=\"папы\" data-hsk=\"A1\"><span class=\"si\">па́пы</span><rt>pápy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby>?»",
+    "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dorogóy\" data-defn=\"дорогой\" data-hsk=\"A1\"><span class=\"si\">Дорого́й</span><rt>Dorogóy</rt></ruby>!»",
+    "<ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Kakóe\" data-defn=\"какое\" data-hsk=\"A1\"><span class=\"si\">Како́е</span><rt>Kakóe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoey\" data-defn=\"твоей\" data-hsk=\"A1\"><span class=\"si\">твоей</span><rt>tvoey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mámy\" data-defn=\"мамы\" data-hsk=\"A1\"><span class=\"si\">ма́мы</span><rt>mámy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby>?»",
+    "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Bébi\" data-defn=\"беби\" data-hsk=\"A1\"><span class=\"si\">Бе́би</span><rt>Bébi</rt></ruby>!»"
+  ],
+  "vocabulary": [
+    {
+      "word": "Малы́шка",
+      "reading": "Malýshka",
+      "translation": "малышка",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "пла́кала",
+      "reading": "plákala",
+      "translation": "плакала",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "борта",
+      "reading": "borta",
+      "translation": "борта",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "доро́ги",
+      "reading": "dorógi",
+      "translation": "дороги",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Полице́йский",
+      "reading": "Politséyskiy",
+      "translation": "полицейский",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "подошёл",
+      "reading": "podoshyol",
+      "translation": "подошёл",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "спра́шивает",
+      "reading": "spráshivaet",
+      "translation": "спрашивает",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Что",
+      "reading": "Chto",
+      "translation": "что",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "тобо́й",
+      "reading": "tobóy",
+      "translation": "тобой",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Сквозь",
+      "reading": "Skvoz'",
+      "translation": "сквозь",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "слёзы",
+      "reading": "slyozy",
+      "translation": "слёзы",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ска́зала",
+      "reading": "skázala",
+      "translation": "сказала",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "хо́чу",
+      "reading": "khóchu",
+      "translation": "хочу",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "верну́ться",
+      "reading": "vernút'sya",
+      "translation": "вернуться",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "домой",
+      "reading": "domoy",
+      "translation": "домой",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "но",
+      "reading": "no",
+      "translation": "но",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "не",
+      "reading": "ne",
+      "translation": "не",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "зна́ю",
+      "reading": "znáyu",
+      "translation": "знаю",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "путь",
+      "reading": "put'",
+      "translation": "путь",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Како́е",
+      "reading": "Kakóe",
+      "translation": "какое",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "твоего́",
+      "reading": "tvoegó",
+      "translation": "твоего",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "па́пы",
+      "reading": "pápy",
+      "translation": "папы",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "и́мя",
+      "reading": "ímya",
+      "translation": "имя",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Дорого́й",
+      "reading": "Dorogóy",
+      "translation": "дорогой",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "твоей",
+      "reading": "tvoey",
+      "translation": "твоей",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "ма́мы",
+      "reading": "mámy",
+      "translation": "мамы",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Бе́би",
+      "reading": "Bébi",
+      "translation": "беби",
+      "torfl": "A1",
+      "hsk": "A1"
+    }
+  ]
+}

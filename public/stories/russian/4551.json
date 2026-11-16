@@ -1,0 +1,104 @@
+{
+  "id": 4551,
+  "title": "My good friend",
+  "russian_title": "Мой до́брый друг",
+  "level": "Beginner",
+  "torfl_level": "A1",
+  "hsk_tags": [
+    "A1"
+  ],
+  "slug": "my-good-friend",
+  "audio_url": "/audio/russian/4551_my-good-friend.mp3",
+  "english_paragraphs": [
+    "My good friend's name is Chen Chen. He likes to drink and I like to play sports. In primary school and middle school, we were all classmates in the same class. We are not in the same university, but we still live in the same city. Later he went to Hangzhou to work and I went to Shanghai, but we still met often."
+  ],
+  "english_full": "My good friend's name is Chen Chen. He likes to drink and I like to play sports. In primary school and middle school, we were all classmates in the same class. We are not in the same university, but we still live in the same city. Later he went to Hangzhou to work and I went to Shanghai, but we still met often.",
+  "russian_paragraphs": [
+    "И́мя моего́ до́брого дру́га — Чэнь Чэнь. Он лю́бит пить, а я лю́блю занима́ться спо́ртом."
+  ],
+  "reading_paragraphs": [
+    "Ímya moyógo dóbrogo drúga — Chėn Chėn. On lýbit pitʹ, a ya lýblю zanímatʹsya spórtom."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">И́мя</span><rt>Ímya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moegó\" data-defn=\"моего\" data-hsk=\"A1\"><span class=\"si\">моего́</span><rt>moegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóbrogo\" data-defn=\"доброго\" data-hsk=\"A1\"><span class=\"si\">до́брого</span><rt>dóbrogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drúga\" data-defn=\"друга\" data-hsk=\"A1\"><span class=\"si\">дру́га</span><rt>drúga</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"Chen&#x27;\" data-defn=\"чэнь\" data-hsk=\"A1\"><span class=\"si\">Чэнь</span><rt>Chen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Chen&#x27;\" data-defn=\"чэнь\" data-hsk=\"A1\"><span class=\"si\">Чэнь</span><rt>Chen&#x27;</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúbit\" data-defn=\"любит\" data-hsk=\"A1\"><span class=\"si\">лю́бит</span><rt>lyúbit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pit&#x27;\" data-defn=\"пить\" data-hsk=\"A1\"><span class=\"si\">пить</span><rt>pit&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúblyu\" data-defn=\"люблю\" data-hsk=\"A1\"><span class=\"si\">лю́блю</span><rt>lyúblyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zanimát&#x27;sya\" data-defn=\"заниматься\" data-hsk=\"A1\"><span class=\"si\">занима́ться</span><rt>zanimát&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spórtom\" data-defn=\"спортом\" data-hsk=\"A1\"><span class=\"si\">спо́ртом</span><rt>spórtom</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "И́мя",
+      "reading": "Ímya",
+      "translation": "имя",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "моего́",
+      "reading": "moegó",
+      "translation": "моего",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "до́брого",
+      "reading": "dóbrogo",
+      "translation": "доброго",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "дру́га",
+      "reading": "drúga",
+      "translation": "друга",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Чэнь",
+      "reading": "Chen'",
+      "translation": "чэнь",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "Он",
+      "reading": "On",
+      "translation": "он",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "лю́бит",
+      "reading": "lyúbit",
+      "translation": "любит",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "пить",
+      "reading": "pit'",
+      "translation": "пить",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "лю́блю",
+      "reading": "lyúblyu",
+      "translation": "люблю",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "занима́ться",
+      "reading": "zanimát'sya",
+      "translation": "заниматься",
+      "torfl": "A1",
+      "hsk": "A1"
+    },
+    {
+      "word": "спо́ртом",
+      "reading": "spórtom",
+      "translation": "спортом",
+      "torfl": "A1",
+      "hsk": "A1"
+    }
+  ]
+}

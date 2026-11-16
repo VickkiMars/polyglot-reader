@@ -1,0 +1,167 @@
+{
+  "id": 1497,
+  "title": "My Birthday",
+  "russian_title": "Мой день рожде́ния",
+  "level": "Beginner",
+  "torfl_level": "A2",
+  "hsk_tags": [
+    "A2"
+  ],
+  "slug": "my-birthday",
+  "audio_url": "/audio/russian/1497_my-birthday.mp3",
+  "english_paragraphs": [
+    "I was born on February 29, 1992, so that’s my birthday. I don’t like this date because it’s so unusual. There were 366 days in 1992, not 365. The extra day was February 29. A year like that is called a “leap year.” Did you know that? You can celebrate your birthday every year, but I can only celebrate mine once every four years."
+  ],
+  "english_full": "I was born on February 29, 1992, so that’s my birthday. I don’t like this date because it’s so unusual. There were 366 days in 1992, not 365. The extra day was February 29. A year like that is called a “leap year.” Did you know that? You can celebrate your birthday every year, but I can only celebrate mine once every four years.",
+  "russian_paragraphs": [
+    "Я роди́лся 29 февраля́ 1992 года, так что это мой день рожде́ния. Мне не нра́витс эта́ да́та, потому что она́ о́чень необы́чная."
+  ],
+  "reading_paragraphs": [
+    "Ya rodílsya 29 fevralyá 1992 goda, tak chto éto moy den' rozhdéniya. Mne ne nrávits éta dáta, potomu chto oná óchen' neobýchnaya."
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rodílsya\" data-defn=\"родился\" data-hsk=\"A2\"><span class=\"si\">роди́лся</span><rt>rodílsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"29\" data-defn=\"29\" data-hsk=\"A2\"><span class=\"si\">29</span><rt>29</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"fevralyá\" data-defn=\"февраля\" data-hsk=\"A2\"><span class=\"si\">февраля́</span><rt>fevralyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"1992\" data-defn=\"1992 г., ты́сяча девятьсо́т девяно́сто второ́й год\" data-hsk=\"A2\"><span class=\"si\">1992</span><rt>1992</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"goda\" data-defn=\"года\" data-hsk=\"A2\"><span class=\"si\">года</span><rt>goda</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tak\" data-defn=\"так\" data-hsk=\"A2\"><span class=\"si\">так</span><rt>tak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eto\" data-defn=\"это\" data-hsk=\"A2\"><span class=\"si\">это</span><rt>eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A2\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rozhdéniya\" data-defn=\"рождения\" data-hsk=\"A2\"><span class=\"si\">рожде́ния</span><rt>rozhdéniya</rt></ruby>. <ruby class=\"mb-tooltip\" data-py=\"Mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">Мне</span><rt>Mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nrávits\" data-defn=\"нравитс\" data-hsk=\"A2\"><span class=\"si\">нра́витс</span><rt>nrávits</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"etá\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">эта́</span><rt>etá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dáta\" data-defn=\"дата\" data-hsk=\"A2\"><span class=\"si\">да́та</span><rt>dáta</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"potomu\" data-defn=\"потому\" data-hsk=\"A2\"><span class=\"si\">потому</span><rt>potomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"neobýchnaya\" data-defn=\"необычная\" data-hsk=\"A2\"><span class=\"si\">необы́чная</span><rt>neobýchnaya</rt></ruby>."
+  ],
+  "vocabulary": [
+    {
+      "word": "роди́лся",
+      "reading": "rodílsya",
+      "translation": "родился",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "29",
+      "reading": "29",
+      "translation": "29",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "февраля́",
+      "reading": "fevralyá",
+      "translation": "февраля",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "1992",
+      "reading": "1992",
+      "translation": "1992 г., ты́сяча девятьсо́т девяно́сто второ́й год",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "года",
+      "reading": "goda",
+      "translation": "года",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "так",
+      "reading": "tak",
+      "translation": "так",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "что",
+      "reading": "chto",
+      "translation": "что",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "это",
+      "reading": "eto",
+      "translation": "это",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "мой",
+      "reading": "moy",
+      "translation": "мой",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "день",
+      "reading": "den'",
+      "translation": "день",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "рожде́ния",
+      "reading": "rozhdéniya",
+      "translation": "рождения",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "Мне",
+      "reading": "Mne",
+      "translation": "мне",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "не",
+      "reading": "ne",
+      "translation": "не",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "нра́витс",
+      "reading": "nrávits",
+      "translation": "нравитс",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "эта́",
+      "reading": "etá",
+      "translation": "эта",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "да́та",
+      "reading": "dáta",
+      "translation": "дата",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "потому",
+      "reading": "potomu",
+      "translation": "потому",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "она́",
+      "reading": "oná",
+      "translation": "она",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "о́чень",
+      "reading": "óchen'",
+      "translation": "очень",
+      "torfl": "A2",
+      "hsk": "A2"
+    },
+    {
+      "word": "необы́чная",
+      "reading": "neobýchnaya",
+      "translation": "необычная",
+      "torfl": "A2",
+      "hsk": "A2"
+    }
+  ]
+}

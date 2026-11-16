@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import mandarinStoriesMap from "@/data/mandarin_details.json";
 import japaneseStoriesMap from "@/data/japanese_details.json";
+import russianStoriesMap from "@/data/russian_details.json";
 
 export async function GET(
   request: NextRequest,
@@ -10,7 +11,12 @@ export async function GET(
   const searchParams = request.nextUrl.searchParams;
   const lang = searchParams.get("lang") || "mandarin";
 
-  const map = lang === "japanese" ? (japaneseStoriesMap as Record<string, any>) : (mandarinStoriesMap as Record<string, any>);
+  const map =
+    lang === "japanese"
+      ? (japaneseStoriesMap as Record<string, any>)
+      : lang === "russian"
+      ? (russianStoriesMap as Record<string, any>)
+      : (mandarinStoriesMap as Record<string, any>);
   const story = map[id];
 
   if (!story) {

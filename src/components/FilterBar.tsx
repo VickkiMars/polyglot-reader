@@ -18,6 +18,7 @@ interface FilterBarProps {
 
 const HSK_LEVELS = ["HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6"];
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
+const TORFL_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
 export default function FilterBar({
   filters,
@@ -26,8 +27,13 @@ export default function FilterBar({
   counts,
 }: FilterBarProps) {
   const isMandarin = filters.language === "mandarin";
-  const levels = isMandarin ? HSK_LEVELS : JLPT_LEVELS;
-  const selectedLevels = isMandarin ? filters.selectedHsk : filters.selectedJlpt;
+  const isJapanese = filters.language === "japanese";
+  const levels = isMandarin ? HSK_LEVELS : isJapanese ? JLPT_LEVELS : TORFL_LEVELS;
+  const selectedLevels = isMandarin
+    ? filters.selectedHsk
+    : isJapanese
+    ? filters.selectedJlpt
+    : (filters.selectedTorfl || []);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onFilterChange({ ...filters, search: e.target.value });
@@ -48,12 +54,19 @@ export default function FilterBar({
         ? filters.selectedHsk.filter((item) => item !== lvl)
         : [...filters.selectedHsk, lvl];
       onFilterChange({ ...filters, selectedHsk: updated });
-    } else {
+    } else if (isJapanese) {
       const exists = filters.selectedJlpt.includes(lvl);
       const updated = exists
         ? filters.selectedJlpt.filter((item) => item !== lvl)
         : [...filters.selectedJlpt, lvl];
       onFilterChange({ ...filters, selectedJlpt: updated });
+    } else {
+      const current = filters.selectedTorfl || [];
+      const exists = current.includes(lvl);
+      const updated = exists
+        ? current.filter((item) => item !== lvl)
+        : [...current, lvl];
+      onFilterChange({ ...filters, selectedTorfl: updated });
     }
   };
 
@@ -81,7 +94,9 @@ export default function FilterBar({
             placeholder={
               isMandarin
                 ? "Search lessons by title, character, or topic..."
-                : "Search stories by Japanese title, reading, or English..."
+                : isJapanese
+                ? "Search stories by Japanese title, reading, or English..."
+                : "Search stories by Russian title, transliteration, or English..."
             }
             className="w-full pl-10 pr-10 py-2.5 bg-[var(--md-sys-color-surface-container-lowest)] border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs sm:text-sm text-[var(--md-sys-color-on-surface)] placeholder:text-[var(--md-sys-color-on-surface-variant)]/70 focus:outline-none focus:border-[var(--md-sys-color-primary)] focus:ring-1 focus:ring-[var(--md-sys-color-primary)] transition-all min-h-[44px]"
           />

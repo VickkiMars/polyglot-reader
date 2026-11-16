@@ -411,10 +411,10 @@ export default function PlayReaderModal({
             <button
               type="button"
               onClick={() => setShowEnglish(!showEnglish)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer border ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
                 showEnglish
-                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] border-[var(--md-sys-color-primary)] shadow-xs"
-                  : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                  : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
               }`}
               title="Toggle English translation on/off for all play turns (Shortcut: T)"
               aria-pressed={showEnglish}
@@ -427,15 +427,15 @@ export default function PlayReaderModal({
             <button
               type="button"
               onClick={() => setShowFurigana(!showFurigana)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer border ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
                 showFurigana
-                  ? "bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] border-[var(--md-sys-color-primary)]/40 shadow-xs"
-                  : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                  ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
+                  : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
               }`}
               title="Toggle Furigana ruby pronunciation on/off"
               aria-pressed={showFurigana}
             >
-              <Sparkles className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
+              <Sparkles className="w-3.5 h-3.5" />
               <span>{showFurigana ? "Furigana On" : "Furigana Off"}</span>
             </button>
 
@@ -499,14 +499,14 @@ export default function PlayReaderModal({
                 <button
                   key={c.name_ja}
                   onClick={() => setUserRole(c.name_ja)}
-                  className={`px-2 py-0.5 rounded text-xs font-medium transition-all border ${
+                  className={`px-2 py-0.5 rounded text-xs font-medium transition-all ${
                     userRole === c.name_ja
                       ? c.gender === "male"
-                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] border-[var(--md-sys-color-primary)] font-bold shadow-xs"
-                        : "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] border-[var(--md-sys-color-secondary)] font-bold shadow-xs"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-bold shadow-xs"
+                        : "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] font-bold shadow-xs"
                       : c.gender === "male"
-                      ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)]/30 hover:opacity-90"
-                      : "bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border-[var(--md-sys-color-secondary)]/30 hover:opacity-90"
+                      ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] hover:opacity-90"
+                      : "bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] hover:opacity-90"
                   }`}
                 >
                   {c.name_ja} ({c.name_en})

@@ -584,7 +584,7 @@ export default function InstallOfflineModal({
                 type="button"
                 onClick={handleDeletePack}
                 disabled={isDeleting}
-                className="px-2.5 py-1 rounded-lg border border-[var(--md-sys-color-outline-variant)] text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-highest)] hover:text-[var(--md-sys-color-on-surface)] text-[11px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
+                className="px-2.5 py-1 rounded-lg bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-error-container)] hover:text-[var(--md-sys-color-on-error-container)] text-[11px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
                 title="Remove saved offline files to free up device storage"
               >
                 <Trash2 className="w-3 h-3" />

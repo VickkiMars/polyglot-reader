@@ -145,10 +145,10 @@ export default function FilterBar({
               <button
                 key={lvl}
                 onClick={() => toggleLevelChip(lvl)}
-                className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold cursor-pointer border transition-all duration-150 min-h-[34px] sm:min-h-[36px] ${
+                className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold cursor-pointer transition-all duration-150 min-h-[34px] sm:min-h-[36px] ${
                   checked
-                    ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)] shadow-xs"
-                    : "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:border-[var(--md-sys-color-primary)]"
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                    : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                 }`}
                 aria-pressed={checked}
               >
@@ -160,10 +160,10 @@ export default function FilterBar({
           {/* Audio Only Chip */}
           <button
             onClick={toggleAudioOnly}
-            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer border transition-all duration-150 min-h-[34px] sm:min-h-[36px] sm:ml-1 ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer transition-all duration-150 min-h-[34px] sm:min-h-[36px] sm:ml-1 ${
               filters.audioOnly
-                ? "bg-[var(--md-sys-color-tertiary-container)] text-[var(--md-sys-color-on-tertiary-container)] border-[var(--md-sys-color-tertiary)] font-semibold shadow-xs"
-                : "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:border-[var(--md-sys-color-tertiary)]"
+                ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] font-semibold shadow-xs"
+                : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
             }`}
             aria-pressed={filters.audioOnly}
           >

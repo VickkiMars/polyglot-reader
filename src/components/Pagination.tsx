@@ -45,7 +45,7 @@ export default function Pagination({
         <button
           onClick={() => onPageChange(currentPage - 1)}
           disabled={currentPage === 1}
-          className="flex items-center gap-1.5 px-4 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
+          className="flex items-center gap-1.5 px-4 py-2 bg-[var(--md-sys-color-surface-container-high)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
           aria-label="Previous Page"
         >
           <ChevronLeft className="w-4 h-4" />
@@ -59,7 +59,7 @@ export default function Pagination({
         <button
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
-          className="flex items-center gap-1.5 px-4 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
+          className="flex items-center gap-1.5 px-4 py-2 bg-[var(--md-sys-color-surface-container-high)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[44px]"
           aria-label="Next Page"
         >
           <span>Next</span>
@@ -73,7 +73,7 @@ export default function Pagination({
         <button
           onClick={() => onPageChange(currentPage - 1)}
           disabled={currentPage === 1}
-          className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
+          className="flex items-center gap-1 px-3 py-2 bg-[var(--md-sys-color-surface-container-high)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
           aria-label="Previous Page"
         >
           <ChevronLeft className="w-4 h-4" />
@@ -102,7 +102,7 @@ export default function Pagination({
               className={`w-9 h-9 flex items-center justify-center rounded-full text-xs font-semibold transition-all cursor-pointer min-w-[36px] min-h-[36px] ${
                 isCurrent
                   ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
-                  : "border border-[var(--md-sys-color-outline-variant)]/60 text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)] hover:text-[var(--md-sys-color-on-surface)]"
+                  : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
               }`}
             >
               {p}
@@ -114,7 +114,7 @@ export default function Pagination({
         <button
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
-          className="flex items-center gap-1 px-3 py-2 border border-[var(--md-sys-color-outline-variant)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
+          className="flex items-center gap-1 px-3 py-2 bg-[var(--md-sys-color-surface-container-high)] rounded-full text-xs font-semibold text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)] disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer min-h-[40px]"
           aria-label="Next Page"
         >
           <span>Next</span>

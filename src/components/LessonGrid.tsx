@@ -241,10 +241,10 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
                       setActivePlayId(p.id);
                       setIsPlayModalOpen(true);
                     }}
-                    className={`p-2.5 rounded-xl text-left border transition-all cursor-pointer flex flex-col justify-between ${
+                    className={`p-2.5 rounded-xl text-left transition-all cursor-pointer flex flex-col justify-between ${
                       isSelected
-                        ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary-container)] shadow-xs"
-                        : "bg-[var(--md-sys-color-surface)] border-[var(--md-sys-color-outline-variant)]/50 hover:border-[var(--md-sys-color-primary)]/50 hover:bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]"
+                        ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shadow-sm scale-[1.02]"
+                        : "bg-[var(--md-sys-color-surface-container)] hover:bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]"
                     }`}
                   >
                     <div>

@@ -198,14 +198,10 @@ export default function Header({
             <button
               type="button"
               onClick={handleInstallClick}
-              className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-xs font-semibold tracking-tight transition-all duration-200 cursor-pointer min-h-[32px] sm:min-h-[36px] shadow-xs active:scale-95 border ${
-                isDownloading
-                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
-                  : isOfflineReady
-                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
-                  : isInstalled
-                  ? "bg-[var(--md-sys-color-primary-container)] border-[var(--md-sys-color-primary)]/40 text-[var(--md-sys-color-on-primary-container)]"
-                  : "bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-surface)] hover:text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-outline-variant)]/60"
+              className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-xs font-semibold tracking-tight transition-all duration-200 cursor-pointer min-h-[32px] sm:min-h-[36px] shadow-xs active:scale-95 ${
+                isDownloading || isOfflineReady || isInstalled
+                  ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]"
+                  : "bg-[var(--md-sys-color-surface-container-high)] hover:bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-surface)] hover:text-[var(--md-sys-color-on-primary-container)]"
               }`}
               aria-label="Install App and Offline Audio"
               title="Install App & Download Offline Audio"

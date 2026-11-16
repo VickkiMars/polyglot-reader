@@ -268,6 +268,9 @@ export default function PlayReaderModal({
       } else if (e.key.toLowerCase() === "r") {
         e.preventDefault();
         replayCurrentChunk();
+      } else if (e.key.toLowerCase() === "t") {
+        e.preventDefault();
+        setShowEnglish((prev) => !prev);
       }
     };
     window.addEventListener("keydown", handleKeyDown);
@@ -402,39 +405,75 @@ export default function PlayReaderModal({
             })}
           </div>
 
-          {/* Mode Switcher */}
-          <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-highest)] p-1 rounded-xl shrink-0">
+          {/* Mode Switcher & Global Display Toggles */}
+          <div className="flex items-center gap-2 shrink-0">
+            {/* Single Master English Translation Toggle */}
             <button
-              onClick={() => { setMode("chunk"); setIsWaitingForUserSpeech(false); }}
-              className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
-                mode === "chunk"
-                  ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-primary)] shadow-xs font-bold"
-                  : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+              type="button"
+              onClick={() => setShowEnglish(!showEnglish)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer border ${
+                showEnglish
+                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] border-[var(--md-sys-color-primary)] shadow-xs"
+                  : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:text-[var(--md-sys-color-on-surface)]"
               }`}
+              title="Toggle English translation on/off for all play turns (Shortcut: T)"
+              aria-pressed={showEnglish}
             >
-              Rehearse (Chunk)
+              <Languages className="w-3.5 h-3.5" />
+              <span>{showEnglish ? "English On" : "English Off"}</span>
             </button>
+
+            {/* Global Furigana Ruby Toggle */}
             <button
-              onClick={() => { setMode("roleplay"); }}
-              className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1 ${
-                mode === "roleplay"
-                  ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-secondary)] shadow-xs font-bold"
-                  : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+              type="button"
+              onClick={() => setShowFurigana(!showFurigana)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer border ${
+                showFurigana
+                  ? "bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] border-[var(--md-sys-color-primary)]/40 shadow-xs"
+                  : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)] border-[var(--md-sys-color-outline-variant)] hover:text-[var(--md-sys-color-on-surface)]"
               }`}
+              title="Toggle Furigana ruby pronunciation on/off"
+              aria-pressed={showFurigana}
             >
-              <Users className="w-3.5 h-3.5" />
-              Roleplay
+              <Sparkles className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)]" />
+              <span>{showFurigana ? "Furigana On" : "Furigana Off"}</span>
             </button>
-            <button
-              onClick={() => { setMode("continuous"); setIsWaitingForUserSpeech(false); }}
-              className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
-                mode === "continuous"
-                  ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-primary)] shadow-xs font-bold"
-                  : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
-              }`}
-            >
-              Full Audio
-            </button>
+
+            <div className="h-5 w-px bg-[var(--md-sys-color-outline-variant)]/60 mx-0.5 hidden sm:block" />
+
+            <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-highest)] p-1 rounded-xl">
+              <button
+                onClick={() => { setMode("chunk"); setIsWaitingForUserSpeech(false); }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+                  mode === "chunk"
+                    ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-primary)] shadow-xs font-bold"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                Rehearse (Chunk)
+              </button>
+              <button
+                onClick={() => { setMode("roleplay"); }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1 ${
+                  mode === "roleplay"
+                    ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-secondary)] shadow-xs font-bold"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                <Users className="w-3.5 h-3.5" />
+                Roleplay
+              </button>
+              <button
+                onClick={() => { setMode("continuous"); setIsWaitingForUserSpeech(false); }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+                  mode === "continuous"
+                    ? "bg-[var(--md-sys-color-surface)] text-[var(--md-sys-color-primary)] shadow-xs font-bold"
+                    : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                }`}
+              >
+                Full Audio
+              </button>
+            </div>
           </div>
         </div>
 
@@ -476,25 +515,10 @@ export default function PlayReaderModal({
             </div>
           )}
 
-          <div className="flex items-center gap-3">
-            <label className="flex items-center gap-1.5 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={showEnglish}
-                onChange={(e) => setShowEnglish(e.target.checked)}
-                className="accent-[var(--md-sys-color-primary)] rounded"
-              />
-              <span>English Translation</span>
-            </label>
-            <label className="flex items-center gap-1.5 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={showFurigana}
-                onChange={(e) => setShowFurigana(e.target.checked)}
-                className="accent-[var(--md-sys-color-primary)] rounded"
-              />
-              <span>Furigana Ruby</span>
-            </label>
+          <div className="flex items-center gap-2 text-[11px] text-[var(--md-sys-color-on-surface-variant)]">
+            <span>Translations: {showEnglish ? "Shown" : "Hidden"}</span>
+            <span>•</span>
+            <span>All {currentScene.chunks.length} turns controlled together</span>
           </div>
         </div>
 

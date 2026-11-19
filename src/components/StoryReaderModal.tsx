@@ -29,6 +29,10 @@ export default function StoryReaderModal({
   language,
   onClose,
 }: StoryReaderModalProps) {
+  const isMandarin = language === "mandarin";
+  const isJapanese = language === "japanese";
+  const isRussian = language === "russian";
+
   const [detail, setDetail] = useState<StoryDetail | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -224,6 +228,9 @@ export default function StoryReaderModal({
     let reading = wordText;
     let translation = defn;
     let level = hsk;
+    if (isRussian && level && !level.startsWith("ТРКИ")) {
+      level = `ТРКИ ${level}`;
+    }
 
     if (!pinyin && !translation) {
       // Search in vocab list fallback
@@ -236,7 +243,9 @@ export default function StoryReaderModal({
         pinyin = found.pinyin || found.reading || "";
         reading = found.word;
         translation = found.translation;
-        level = found.hsk || (found.jlpt ? `JLPT ${found.jlpt}` : "");
+        level = isRussian
+          ? (found.torfl ? `ТРКИ ${found.torfl}` : found.hsk ? `ТРКИ ${found.hsk}` : "")
+          : found.hsk || (found.jlpt ? `JLPT ${found.jlpt}` : "");
       }
     }
 
@@ -303,10 +312,6 @@ export default function StoryReaderModal({
 
   if (!story) return null;
 
-  const isMandarin = language === "mandarin";
-  const isJapanese = language === "japanese";
-  const isRussian = language === "russian";
-
   const rawAudioPath = isMandarin
     ? story.audio.mandarin
     : isJapanese
@@ -365,7 +370,11 @@ export default function StoryReaderModal({
                 ? story.hsk
                 : isJapanese
                 ? `JLPT ${story.jlpt}`
-                : story.torfl || (story.hsk_tags?.[0]) || "A1"}
+                : detail?.torfl_level
+                ? `ТРКИ ${detail.torfl_level}`
+                : story.torfl
+                ? `ТРКИ ${story.torfl}`
+                : story.level || "A1"}
             </span>
             <div className="min-w-0">
               <h2 className="font-montserrat font-bold text-base sm:text-lg text-[var(--md-sys-color-on-surface)] truncate">
@@ -505,7 +514,7 @@ export default function StoryReaderModal({
                       : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-high)]"
                   }`}
                 >
-                  Vocab ({detail?.vocabulary?.length || story.mandarin.vocab_count})
+                  Vocab ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : story.mandarin.vocab_count)})
                 </button>
               </div>
 
@@ -818,7 +827,7 @@ export default function StoryReaderModal({
                   >
                     <div className="flex items-center justify-between gap-2">
                       <div className="flex items-baseline gap-2">
-                        <span className="font-cjk font-bold text-lg text-[var(--md-sys-color-on-surface)]">
+                        <span className={`font-bold text-lg text-[var(--md-sys-color-on-surface)] ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
                           {item.word || (item as any).word_simplified || "—"}
                         </span>
                         {isMandarin && (item as any).word_traditional && (item as any).word_traditional !== item.word && (
@@ -833,7 +842,11 @@ export default function StoryReaderModal({
                         </span>
                       </div>
                       <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shrink-0">
-                        {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : item.torfl ? `${item.torfl}` : "—")}
+                        {isRussian
+                          ? (item.torfl ? `ТРКИ ${item.torfl}` : item.hsk ? `ТРКИ ${item.hsk}` : "—")
+                          : isJapanese
+                          ? (item.jlpt ? `JLPT ${item.jlpt}` : "—")
+                          : (item.hsk || "—")}
                       </span>
                     </div>
                     <p className="text-xs text-[var(--md-sys-color-on-surface-variant)] leading-relaxed">
@@ -879,7 +892,11 @@ export default function StoryReaderModal({
                         </td>
                         <td className="py-3 px-4">
                           <span className="inline-block px-2 py-0.5 rounded-full text-[11px] font-semibold bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]">
-                            {item.hsk || (item.jlpt ? `JLPT ${item.jlpt}` : item.torfl ? `${item.torfl}` : "—")}
+                            {isRussian
+                              ? (item.torfl ? `ТРКИ ${item.torfl}` : item.hsk ? `ТРКИ ${item.hsk}` : "—")
+                              : isJapanese
+                              ? (item.jlpt ? `JLPT ${item.jlpt}` : "—")
+                              : (item.hsk || "—")}
                           </span>
                         </td>
                       </tr>
@@ -922,7 +939,9 @@ export default function StoryReaderModal({
               <div className="flex items-center gap-1.5 shrink-0">
                 {tooltip.level && (
                   <span className="inline-block px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold text-[10px]">
-                    {tooltip.level}
+                    {isRussian && !tooltip.level.startsWith("ТРКИ")
+                      ? `ТРКИ ${tooltip.level}`
+                      : tooltip.level}
                   </span>
                 )}
                 <button
@@ -938,7 +957,7 @@ export default function StoryReaderModal({
 
             {/* Character / Word Reading */}
             {tooltip.reading && tooltip.reading !== tooltip.pinyin && (
-              <div className="font-cjk font-semibold text-xs text-[var(--md-sys-color-on-surface)] mt-0.5 relative z-10">
+              <div className={`font-semibold text-xs text-[var(--md-sys-color-on-surface)] mt-0.5 relative z-10 ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
                 {tooltip.reading}
               </div>
             )}

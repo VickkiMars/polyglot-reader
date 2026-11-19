@@ -43,7 +43,9 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
     ? story.hsk
     : isJapanese
     ? `JLPT ${story.jlpt}`
-    : story.torfl || (story.hsk_tags?.[0]) || story.level;
+    : story.torfl
+    ? `ТРКИ ${story.torfl}`
+    : story.level;
 
   return (
     <article
@@ -55,7 +57,7 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
         className="relative w-full aspect-video min-h-[145px] sm:min-h-[175px] overflow-hidden bg-gradient-to-br from-[var(--md-sys-color-surface-container-high)] to-[var(--md-sys-color-surface-container-lowest)] flex flex-col items-center justify-center p-4 sm:p-6 text-center select-none shrink-0"
       >
         {/* Subtle background seal watermarking */}
-        <span className="absolute -right-4 -bottom-4 text-6xl sm:text-7xl font-cjk font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none">
+        <span className={`absolute -right-4 -bottom-4 text-6xl sm:text-7xl font-bold text-[var(--md-sys-color-primary)]/5 pointer-events-none ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
           {isMandarin ? "汉语" : isJapanese ? "日本語" : "Русский"}
         </span>
         <span className={`text-lg sm:text-2xl font-bold text-[var(--md-sys-color-on-surface)] tracking-wide line-clamp-1 ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
@@ -91,8 +93,8 @@ export default function LessonCard({ story, language, onSelect }: LessonCardProp
             {displayTitle}
           </h3>
 
-          {/* CJK Character Preview */}
-          <p className="mt-1 text-sm font-cjk text-[var(--md-sys-color-primary)] line-clamp-1 font-medium">
+          {/* Secondary Title / Preview */}
+          <p className={`mt-1 text-sm text-[var(--md-sys-color-primary)] line-clamp-1 font-medium ${isRussian ? 'font-montserrat' : 'font-cjk'}`}>
             {secondaryTitle}
           </p>
 

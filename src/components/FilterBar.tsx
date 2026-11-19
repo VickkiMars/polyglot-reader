@@ -152,7 +152,7 @@ export default function FilterBar({
       <div className="mt-4 pt-4 border-t border-[var(--md-sys-color-outline-variant)]/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-sm min-w-0">
         <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 min-w-0">
           <span className="text-xs font-semibold text-[var(--md-sys-color-on-surface-variant)] uppercase tracking-wider mr-1">
-            {isMandarin ? "HSK Filter:" : "JLPT Filter:"}
+            {isMandarin ? "HSK Filter:" : isJapanese ? "JLPT Filter:" : "ТРКИ / TORFL Filter:"}
           </span>
           {levels.map((lvl) => {
             const checked = selectedLevels.includes(lvl);

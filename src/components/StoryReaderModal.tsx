@@ -73,9 +73,17 @@ export default function StoryReaderModal({
     targetWord: undefined,
   });
 
-  // Fetch full story details
+  // Fetch full story details & reset audio state on story/language change
   useEffect(() => {
     if (!story) return;
+
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setIsPlaying(false);
+    setCurrentTime(0);
+    setDuration(0);
 
     setLoading(true);
     fetch(`/api/stories/${story.id}?lang=${language}`)
@@ -99,6 +107,15 @@ export default function StoryReaderModal({
       });
   }, [story, language]);
 
+  // Pause audio when modal is closed / unmounted
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    };
+  }, []);
+
   // Keyboard shortcut: ESC to close, Space to toggle audio
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -120,7 +137,13 @@ export default function StoryReaderModal({
       audioRef.current.pause();
       setIsPlaying(false);
     } else {
-      audioRef.current.play().then(() => setIsPlaying(true)).catch(console.error);
+      audioRef.current
+        .play()
+        .then(() => setIsPlaying(true))
+        .catch((err) => {
+          console.error("Audio playback error:", err);
+          setIsPlaying(false);
+        });
     }
   };
 
@@ -334,8 +357,15 @@ export default function StoryReaderModal({
           <audio
             ref={audioRef}
             src={audioSrc}
+            onPlay={() => setIsPlaying(true)}
+            onPause={() => setIsPlaying(false)}
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
+            onCanPlay={() => {
+              if (audioRef.current && audioRef.current.duration) {
+                setDuration(audioRef.current.duration);
+              }
+            }}
             onEnded={() => setIsPlaying(false)}
             onError={() => {
               if (rawAudioPath && audioRef.current && audioRef.current.src !== window.location.origin + rawAudioPath) {

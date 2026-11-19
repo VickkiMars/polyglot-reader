@@ -99,14 +99,17 @@ function findAudioDir(lang) {
 
 async function collectFiles() {
   const queue = [];
+  const filterLang = process.argv[2]?.toLowerCase();
 
   const mandarinDir = findAudioDir("mandarin");
   const japaneseDir = findAudioDir("japanese");
+  const russianDir = findAudioDir("russian");
 
   console.log(`Mandarin audio directory: ${mandarinDir || "NOT FOUND"}`);
   console.log(`Japanese audio directory: ${japaneseDir || "NOT FOUND"}`);
+  console.log(`Russian audio directory: ${russianDir || "NOT FOUND"}`);
 
-  if (mandarinDir && fs.existsSync(mandarinDir)) {
+  if ((!filterLang || filterLang === "mandarin") && mandarinDir && fs.existsSync(mandarinDir)) {
     const files = fs.readdirSync(mandarinDir).filter((f) => f.endsWith(".mp3"));
     for (const file of files) {
       queue.push({
@@ -116,12 +119,22 @@ async function collectFiles() {
     }
   }
 
-  if (japaneseDir && fs.existsSync(japaneseDir)) {
+  if ((!filterLang || filterLang === "japanese") && japaneseDir && fs.existsSync(japaneseDir)) {
     const files = fs.readdirSync(japaneseDir).filter((f) => f.endsWith(".mp3"));
     for (const file of files) {
       queue.push({
         localPath: path.join(japaneseDir, file),
         key: `audio/japanese/${file}`,
+      });
+    }
+  }
+
+  if ((!filterLang || filterLang === "russian") && russianDir && fs.existsSync(russianDir)) {
+    const files = fs.readdirSync(russianDir).filter((f) => f.endsWith(".mp3"));
+    for (const file of files) {
+      queue.push({
+        localPath: path.join(russianDir, file),
+        key: `audio/russian/${file}`,
       });
     }
   }

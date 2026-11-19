@@ -295,7 +295,7 @@ export default function InstallOfflineModal({
                 </span>
               )}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-[var(--md-sys-color-surface-container-high)] p-1.5 rounded-2xl border border-[var(--md-sys-color-outline-variant)]/40">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-[var(--md-sys-color-surface-container-high)] p-1.5 rounded-2xl shadow-xs">
               <button
                 type="button"
                 onClick={() => {
@@ -304,7 +304,7 @@ export default function InstallOfflineModal({
                 }}
                 className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
                   selectedLang === "mandarin"
-                    ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
                 }`}
               >
@@ -320,7 +320,7 @@ export default function InstallOfflineModal({
                 }}
                 className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
                   selectedLang === "japanese"
-                    ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
                 }`}
               >
@@ -336,7 +336,7 @@ export default function InstallOfflineModal({
                 }}
                 className={`flex items-center justify-center gap-1.5 sm:gap-2 py-2 px-2 sm:px-3 rounded-xl font-medium text-xs transition-all cursor-pointer min-h-[40px] text-center ${
                   selectedLang === "russian"
-                    ? "bg-[var(--md-sys-color-surface-container-lowest)] text-[var(--md-sys-color-primary)] font-semibold shadow-xs"
+                    ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] font-semibold shadow-xs"
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
                 }`}
               >
@@ -349,9 +349,9 @@ export default function InstallOfflineModal({
 
           {/* Audio Update Alert for Existing Offline Users */}
           {packStatus?.hasAudioUpdate && (
-            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-secondary-container)]/70 border border-[var(--md-sys-color-secondary)]/30 flex flex-col gap-2.5 text-[var(--md-sys-color-on-surface)]">
+            <div className="p-3.5 rounded-2xl bg-[var(--md-sys-color-secondary-container)]/70 flex flex-col gap-2.5 text-[var(--md-sys-color-on-surface)] shadow-xs">
               <div className="flex items-start gap-2.5">
-                <div className="w-8 h-8 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] border border-[var(--md-sys-color-secondary)]/30 flex items-center justify-center shrink-0 mt-0.5 shadow-2xs">
+                <div className="w-8 h-8 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] flex items-center justify-center shrink-0 mt-0.5 shadow-2xs">
                   <Headphones className="w-4 h-4 text-[var(--md-sys-color-secondary)]" />
                 </div>
                 <div className="flex-1 min-w-0">
@@ -359,7 +359,7 @@ export default function InstallOfflineModal({
                     <span className="font-montserrat font-bold text-xs sm:text-sm text-[var(--md-sys-color-on-surface)]">
                       Neural Audio Upgrade Available
                     </span>
-                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border border-[var(--md-sys-color-secondary)]/30">
+                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)]">
                       v2.0
                     </span>
                   </div>

@@ -74,7 +74,7 @@ export default function AudioUpdateBanner({
       <div className="max-w-[1280px] mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         {/* Left: Icon & Description */}
         <div className="flex items-start sm:items-center gap-2.5 sm:gap-3.5 min-w-0">
-          <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] border border-[var(--md-sys-color-secondary)]/30 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0 shadow-2xs">
+          <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-secondary)] flex items-center justify-center shrink-0 mt-0.5 sm:mt-0 shadow-2xs">
             <Headphones className="w-4 h-4 sm:w-5 sm:h-5 text-[var(--md-sys-color-secondary)]" />
             <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-[var(--md-sys-color-secondary)] flex items-center justify-center">
               <Sparkles className="w-2 h-2 text-[var(--md-sys-color-on-secondary)]" />
@@ -86,7 +86,7 @@ export default function AudioUpdateBanner({
               <span className="font-montserrat font-bold text-xs sm:text-sm text-[var(--md-sys-color-on-surface)] tracking-tight">
                 New Japanese Neural Audio Available
               </span>
-              <span className="inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border border-[var(--md-sys-color-secondary)]/30">
+              <span className="inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded-md bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] shadow-2xs">
                 <RotateCcw className="w-2.5 h-2.5" />
                 Action Required
               </span>

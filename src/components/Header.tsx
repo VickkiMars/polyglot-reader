@@ -166,7 +166,7 @@ export default function Header({
           {/* Right Header Actions */}
           <div className="flex items-center gap-1 sm:gap-3 shrink-0">
             {/* MD3 Language Segmented Switcher */}
-            <div className="flex items-center bg-[var(--md-sys-color-surface-container-high)] p-0.5 sm:p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/40 shadow-xs">
+            <div className="flex items-center bg-[var(--md-sys-color-surface-container-high)] p-0.5 sm:p-1 rounded-full shadow-xs">
               <button
                 onClick={() => onLanguageChange("mandarin")}
                 className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer min-h-[32px] sm:min-h-[36px] ${

@@ -113,7 +113,7 @@ export default function FilterBar({
 
         {/* Level Tabs - Scrollable on mobile without wrapping */}
         <div className="w-full min-w-0 lg:w-auto overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1">
-          <div className="inline-flex items-center bg-[var(--md-sys-color-surface-container-lowest)] p-1 rounded-full border border-[var(--md-sys-color-outline-variant)]/60 min-w-max">
+          <div className="inline-flex items-center bg-[var(--md-sys-color-surface-container-lowest)] p-1 rounded-full shadow-2xs min-w-max">
             {[
               { id: "all", label: "All Levels", count: counts.all },
               { id: "Beginner", label: "Beginner", count: counts.beginner },
@@ -135,7 +135,7 @@ export default function FilterBar({
                   <span
                     className={`text-[10px] px-1.5 py-0.2 rounded-full ${
                       active
-                        ? "bg-black/20 text-white"
+                        ? "bg-[var(--md-sys-color-on-primary)]/20 text-[var(--md-sys-color-on-primary)]"
                         : "bg-[var(--md-sys-color-surface-container)] text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                   >

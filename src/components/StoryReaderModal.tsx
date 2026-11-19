@@ -470,7 +470,7 @@ export default function StoryReaderModal({
             {/* Speed Controls */}
             <div className="flex items-center justify-between sm:justify-start gap-1">
               <span className="sm:hidden text-[11px] text-[var(--md-sys-color-on-surface-variant)] font-medium">Speed:</span>
-              <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-lowest)] p-0.5 rounded-full border border-[var(--md-sys-color-outline-variant)]/60">
+              <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-lowest)] p-0.5 rounded-full shadow-2xs">
                 {[0.75, 1.0, 1.25, 1.5].map((speed) => (
                   <button
                     key={speed}
@@ -495,7 +495,7 @@ export default function StoryReaderModal({
           <div className="flex sm:hidden flex-col gap-2 text-xs">
             {/* Top Tier: Tabs and Font Size Selector */}
             <div className="flex items-center justify-between gap-2">
-              <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container)] p-0.5 rounded-full border border-[var(--md-sys-color-outline-variant)]/40">
+              <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container)] p-0.5 rounded-full shadow-2xs">
                 <button
                   onClick={() => setActiveTab("story")}
                   className={`px-3 py-1 rounded-full font-semibold transition-all cursor-pointer min-h-[32px] text-[11px] ${
@@ -525,7 +525,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("normal")}
                     className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
                       fontSize === "normal"
-                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Normal font size"
@@ -536,7 +536,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("large")}
                     className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
                       fontSize === "large"
-                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Large font size"
@@ -547,7 +547,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("xlarge")}
                     className={`w-7 h-7 rounded-full text-xs font-semibold flex items-center justify-center transition-colors cursor-pointer ${
                       fontSize === "xlarge"
-                        ? "bg-[var(--md-sys-color-primary)] text-white"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Extra large font size"
@@ -566,7 +566,7 @@ export default function StoryReaderModal({
                     onClick={() => setIsTraditional(!isTraditional)}
                     className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
                       isTraditional
-                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                         : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                     }`}
                   >
@@ -579,7 +579,7 @@ export default function StoryReaderModal({
                     onClick={() => setJapaneseReadingMode(japaneseReadingMode === "furigana" ? "romaji" : "furigana")}
                     className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
                       japaneseReadingMode === "romaji"
-                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                         : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                     }`}
                   >
@@ -591,14 +591,14 @@ export default function StoryReaderModal({
                   onClick={() => setShowReading(!showReading)}
                   className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
                     showReading
-                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                       : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                   }`}
                 >
                   {isMandarin
                     ? showReading
-                      ? "Pinyin On"
-                      : "Pinyin Off"
+                    ? "Pinyin On"
+                    : "Pinyin Off"
                     : isJapanese
                     ? showReading
                       ? `${japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"} On`
@@ -612,7 +612,7 @@ export default function StoryReaderModal({
                   onClick={() => setIsSpaceOn(!isSpaceOn)}
                   className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
                     isSpaceOn
-                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                       : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                   }`}
                 >
@@ -667,7 +667,7 @@ export default function StoryReaderModal({
                     onClick={() => setIsTraditional(!isTraditional)}
                     className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
                       isTraditional
-                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                         : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                     }`}
                   >
@@ -680,7 +680,7 @@ export default function StoryReaderModal({
                     onClick={() => setJapaneseReadingMode(japaneseReadingMode === "furigana" ? "romaji" : "furigana")}
                     className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
                       japaneseReadingMode === "romaji"
-                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                         : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                     }`}
                   >
@@ -692,7 +692,7 @@ export default function StoryReaderModal({
                   onClick={() => setShowReading(!showReading)}
                   className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
                     showReading
-                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                       : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                   }`}
                 >
@@ -713,7 +713,7 @@ export default function StoryReaderModal({
                   onClick={() => setIsSpaceOn(!isSpaceOn)}
                   className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
                     isSpaceOn
-                      ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                      ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                       : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
                   }`}
                 >
@@ -737,7 +737,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("normal")}
                     className={`px-2 py-0.5 text-xs font-semibold rounded-full transition-colors ${
                       fontSize === "normal"
-                        ? "bg-[var(--md-sys-color-primary)] text-white shadow-2xs"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Normal font size"
@@ -748,7 +748,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("large")}
                     className={`px-2 py-0.5 text-xs font-semibold rounded-full transition-colors ${
                       fontSize === "large"
-                        ? "bg-[var(--md-sys-color-primary)] text-white shadow-2xs"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Large font size"
@@ -759,7 +759,7 @@ export default function StoryReaderModal({
                     onClick={() => setFontSize("xlarge")}
                     className={`px-2 py-0.5 text-xs font-semibold rounded-full transition-colors ${
                       fontSize === "xlarge"
-                        ? "bg-[var(--md-sys-color-primary)] text-white shadow-2xs"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
                         : "text-[var(--md-sys-color-on-surface-variant)]"
                     }`}
                     title="Extra large font size"

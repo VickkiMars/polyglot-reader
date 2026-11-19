@@ -37,22 +37,22 @@ export default function Hero({ currentLanguage, totalStories }: HeroProps) {
 
           {/* Feature Metric Pills - Responsive 2x2 grid on mobile, flex-wrap on desktop */}
           <div className="mt-5 sm:mt-6 grid grid-cols-2 sm:flex sm:flex-wrap gap-2 sm:gap-2.5 items-center">
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-2xs">
               <BookOpen className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
               <span>{totalStories} <span className="hidden sm:inline">Parallel </span>Stories</span>
             </div>
 
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-2xs">
               <Headphones className="w-3.5 h-3.5 text-[var(--md-sys-color-tertiary)] shrink-0" />
               <span><span className="hidden sm:inline">100% </span>Neural Audio</span>
             </div>
 
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-2xs">
               <Languages className="w-3.5 h-3.5 text-[var(--md-sys-color-secondary)] shrink-0" />
               <span>{isMandarin ? "Dual Scripts" : isJapanese ? "Furigana Ruby" : "Stress & Lemmas"}</span>
             </div>
 
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] border border-[var(--md-sys-color-outline-variant)]/40 text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-xs">
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full bg-[var(--md-sys-color-surface-container-high)] text-[11px] sm:text-xs font-medium text-[var(--md-sys-color-on-surface)] shadow-2xs">
               <GraduationCap className="w-3.5 h-3.5 text-[var(--md-sys-color-primary)] shrink-0" />
               <span>17k+ <span className="hidden sm:inline">Lexical </span>Tokens</span>
             </div>

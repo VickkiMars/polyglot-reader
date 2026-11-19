@@ -314,7 +314,7 @@ export default function PlayReaderModal({
                 <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] font-medium">
                   {play.title_en}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold border border-[var(--md-sys-color-primary)]/30">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold">
                   JLPT {play.jlpt_level}
                 </span>
               </div>
@@ -364,7 +364,7 @@ export default function PlayReaderModal({
               <ul className="mt-1 space-y-1">
                 {play.characters.map((c) => (
                   <li key={c.name_ja} className="flex gap-2">
-                    <span className={`px-1.5 py-0.5 rounded font-bold border ${c.gender === 'male' ? 'bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)]/30' : 'bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border-[var(--md-sys-color-secondary)]/30'}`}>
+                    <span className={`px-1.5 py-0.5 rounded font-bold ${c.gender === 'male' ? 'bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]' : 'bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)]'}`}>
                       {c.name_ja} ({c.name_en})
                     </span>
                     <span className="text-[var(--md-sys-color-on-surface-variant)]">{c.role_description}</span>
@@ -488,7 +488,7 @@ export default function PlayReaderModal({
           </div>
 
           {mode === "roleplay" && (
-            <div className="flex items-center gap-1.5 bg-[var(--md-sys-color-secondary-container)] px-3 py-1 rounded-full border border-[var(--md-sys-color-secondary)]/30 flex-wrap">
+            <div className="flex items-center gap-1.5 bg-[var(--md-sys-color-secondary-container)] px-3 py-1 rounded-full shadow-2xs flex-wrap">
               <span className="font-semibold text-[var(--md-sys-color-on-secondary-container)]">My Role:</span>
               <button
                 onClick={() => setUserRole("all")}
@@ -538,7 +538,7 @@ export default function PlayReaderModal({
                   onClick={() => playChunk(index)}
                   className={`py-2 px-4 rounded-xl text-center cursor-pointer transition-all ${
                     isActive
-                      ? "bg-[var(--md-sys-color-primary-container)]/30 border border-[var(--md-sys-color-primary)]"
+                      ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shadow-2xs"
                       : "text-[var(--md-sys-color-on-surface-variant)]/80 hover:bg-[var(--md-sys-color-surface-container)]"
                   }`}
                 >
@@ -557,24 +557,24 @@ export default function PlayReaderModal({
             const charMeta = play.characters.find((c) => c.name_ja === chunk.speaker);
             const isMale = charMeta?.gender === "male";
             const speakerColor = isMale
-              ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] border-[var(--md-sys-color-primary)]/30"
-              : "bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)] border-[var(--md-sys-color-secondary)]/30";
+              ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)]"
+              : "bg-[var(--md-sys-color-secondary-container)] text-[var(--md-sys-color-on-secondary-container)]";
 
             return (
               <div
                 key={chunk.id}
                 ref={(el) => { cardRefs.current[index] = el; }}
                 onClick={() => playChunk(index)}
-                className={`p-4 rounded-2xl border transition-all cursor-pointer relative group ${
+                className={`p-4 rounded-2xl transition-all cursor-pointer relative group ${
                   isActive
-                    ? "bg-[var(--md-sys-color-surface-container-high)] border-l-4 border-l-[var(--md-sys-color-primary)] border-[var(--md-sys-color-outline-variant)] shadow-md scale-[1.005]"
-                    : "bg-[var(--md-sys-color-surface-container-lowest)] border-[var(--md-sys-color-outline-variant)]/40 hover:border-[var(--md-sys-color-outline-variant)] opacity-75 hover:opacity-100"
+                    ? "bg-[var(--md-sys-color-surface-container-high)] shadow-md scale-[1.005] ring-2 ring-[var(--md-sys-color-primary)]"
+                    : "bg-[var(--md-sys-color-surface-container-lowest)] opacity-75 hover:opacity-100 shadow-2xs"
                 } ${isUserTurn && isWaitingForUserSpeech && isActive ? "ring-2 ring-[var(--md-sys-color-secondary)] animate-pulse bg-[var(--md-sys-color-secondary-container)]/30" : ""}`}
               >
                 {/* Turn Header: Speaker & Action Direction */}
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-2">
-                    <span className={`px-2.5 py-0.5 rounded-md text-xs font-bold border ${speakerColor}`}>
+                    <span className={`px-2.5 py-0.5 rounded-md text-xs font-bold ${speakerColor}`}>
                       {chunk.speaker} ({chunk.speaker_en})
                     </span>
                     {chunk.direction_ja && (
@@ -632,9 +632,9 @@ export default function PlayReaderModal({
 
                 {/* Roleplay Active Speech Prompt */}
                 {isUserTurn && isWaitingForUserSpeech && isActive && (
-                  <div className="mt-3 p-3 rounded-xl bg-[var(--md-sys-color-secondary-container)] border border-[var(--md-sys-color-secondary)]/40 flex items-center justify-between gap-3 animate-in fade-in">
+                  <div className="mt-3 p-3 rounded-xl bg-[var(--md-sys-color-secondary-container)] flex items-center justify-between gap-3 animate-in fade-in shadow-xs">
                     <div className="flex items-center gap-2 text-xs text-[var(--md-sys-color-on-secondary-container)] font-semibold">
-                      <Mic className="w-4 h-4 text-[var(--md-sys-color-secondary)] animate-bounce" />
+                      <Mic className="w-4 h-4 text-[var(--md-sys-color-secondary)] animate-pulse" />
                       <span>Speak your line aloud! (Shadow or rehearse character)</span>
                     </div>
                     <button

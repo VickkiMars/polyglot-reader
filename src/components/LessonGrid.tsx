@@ -191,13 +191,13 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
                     <Theater className="w-3.5 h-3.5" />
                     Theatrical Play Rehearsal (戯曲の稽古)
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] text-xs font-semibold border border-[var(--md-sys-color-primary)]/30">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] text-xs font-semibold shadow-2xs">
                     JLPT {activePlay.jlpt_level}
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold border border-[var(--md-sys-color-outline-variant)]/60">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold shadow-2xs">
                     {activePlay.total_scenes} Scenes · {activePlay.total_lines} Chunks
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold border border-[var(--md-sys-color-outline-variant)]/60">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-on-surface)] text-xs font-semibold shadow-2xs">
                     {activePlay.characters.length} Roles Cast
                   </span>
                 </div>

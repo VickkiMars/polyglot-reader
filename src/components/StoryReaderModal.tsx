@@ -15,6 +15,7 @@ import {
   Check,
 } from "lucide-react";
 import { StoryCatalogItem, StoryDetail, VocabularyItem, Language } from "@/types";
+import { kanaToRomaji, convertRubyHtmlToRomaji } from "@/lib/japaneseRomaji";
 
 interface StoryReaderModalProps {
   story: StoryCatalogItem | null;
@@ -40,6 +41,7 @@ export default function StoryReaderModal({
 
   // Reader settings
   const [showReading, setShowReading] = useState(true); // Pinyin / Reading
+  const [japaneseReadingMode, setJapaneseReadingMode] = useState<"furigana" | "romaji">("furigana");
   const [isTraditional, setIsTraditional] = useState(false);
   const [isSpaceOn, setIsSpaceOn] = useState(true);
   const [showTranslation, setShowTranslation] = useState(true);
@@ -227,6 +229,10 @@ export default function StoryReaderModal({
       return;
     }
 
+    if (isJapanese && japaneseReadingMode === "romaji") {
+      pinyin = kanaToRomaji(py || wordText, defn, wordText);
+    }
+
     // Toggle off if tapping the already open word on mobile
     if (tooltip.visible && tooltip.targetWord === wordText && e.type === "click") {
       setTooltip((prev) => ({ ...prev, visible: false, targetWord: undefined }));
@@ -303,6 +309,23 @@ export default function StoryReaderModal({
       : fontSize === "large"
       ? "text-lg sm:text-2xl leading-[2.4]"
       : "text-xl sm:text-3xl leading-[2.6]";
+
+  // Memoize ruby paragraphs with on-the-fly Romaji transliteration for Japanese
+  const renderedParagraphs = React.useMemo(() => {
+    const raw =
+      detail?.ruby_paragraphs && detail.ruby_paragraphs.length > 0
+        ? detail.ruby_paragraphs
+        : isMandarin
+        ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
+        : isJapanese
+        ? detail?.japanese_paragraphs || []
+        : detail?.russian_paragraphs || [];
+
+    if (isJapanese && japaneseReadingMode === "romaji") {
+      return raw.map((p) => convertRubyHtmlToRomaji(p));
+    }
+    return raw;
+  }, [detail, isMandarin, isJapanese, isTraditional, japaneseReadingMode]);
 
   return (
     <div
@@ -514,6 +537,19 @@ export default function StoryReaderModal({
                   </button>
                 )}
 
+                {isJapanese && (
+                  <button
+                    onClick={() => setJapaneseReadingMode(japaneseReadingMode === "furigana" ? "romaji" : "furigana")}
+                    className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
+                      japaneseReadingMode === "romaji"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
+                    }`}
+                  >
+                    {japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"}
+                  </button>
+                )}
+
                 <button
                   onClick={() => setShowReading(!showReading)}
                   className={`px-2.5 py-1 rounded-full transition-all cursor-pointer font-medium text-[11px] whitespace-nowrap min-h-[32px] ${
@@ -528,7 +564,7 @@ export default function StoryReaderModal({
                       : "Pinyin Off"
                     : isJapanese
                     ? showReading
-                      ? "Reading On"
+                      ? `${japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"} On`
                       : "Reading Off"
                     : showReading
                     ? "Translit On"
@@ -602,6 +638,19 @@ export default function StoryReaderModal({
                   </button>
                 )}
 
+                {isJapanese && (
+                  <button
+                    onClick={() => setJapaneseReadingMode(japaneseReadingMode === "furigana" ? "romaji" : "furigana")}
+                    className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
+                      japaneseReadingMode === "romaji"
+                        ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
+                        : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
+                    }`}
+                  >
+                    {japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"}
+                  </button>
+                )}
+
                 <button
                   onClick={() => setShowReading(!showReading)}
                   className={`px-3 py-1 rounded-full transition-all cursor-pointer font-medium ${
@@ -616,7 +665,7 @@ export default function StoryReaderModal({
                       : "Pinyin Off"
                     : isJapanese
                     ? showReading
-                      ? "Reading On"
+                      ? `${japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"} On`
                       : "Reading Off"
                     : showReading
                     ? "Translit On"
@@ -715,14 +764,7 @@ export default function StoryReaderModal({
                 }
               }}
             >
-              {((detail?.ruby_paragraphs && detail.ruby_paragraphs.length > 0)
-                ? detail.ruby_paragraphs
-                : isMandarin
-                ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
-                : isJapanese
-                ? detail?.japanese_paragraphs || []
-                : detail?.russian_paragraphs || []
-              ).map((para, idx) => (
+              {renderedParagraphs.map((para, idx) => (
                 <div key={idx} className="space-y-3">
                   <div
                     className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer touch-manipulation"
@@ -757,7 +799,9 @@ export default function StoryReaderModal({
                           </span>
                         )}
                         <span className="font-mono text-xs font-semibold text-[var(--md-sys-color-primary)]">
-                          {item.pinyin || item.reading || "—"}
+                          {isJapanese && japaneseReadingMode === "romaji"
+                            ? kanaToRomaji(item.pinyin || item.reading || item.word, item.translation, item.word)
+                            : item.pinyin || item.reading || "—"}
                         </span>
                       </div>
                       <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] shrink-0">
@@ -798,7 +842,9 @@ export default function StoryReaderModal({
                           </td>
                         )}
                         <td className="py-3 px-4 font-mono text-xs text-[var(--md-sys-color-primary)] font-semibold">
-                          {item.pinyin || item.reading || "—"}
+                          {isJapanese && japaneseReadingMode === "romaji"
+                            ? kanaToRomaji(item.pinyin || item.reading || item.word, item.translation, item.word)
+                            : item.pinyin || item.reading || "—"}
                         </td>
                         <td className="py-3 px-4 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)]">
                           {item.translation}

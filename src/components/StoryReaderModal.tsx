@@ -13,6 +13,7 @@ import {
   ExternalLink,
   ChevronDown,
   Check,
+  Loader2,
 } from "lucide-react";
 import { StoryCatalogItem, StoryDetail, VocabularyItem, Language } from "@/types";
 import { kanaToRomaji, convertRubyHtmlToRomaji } from "@/lib/japaneseRomaji";
@@ -34,6 +35,7 @@ export default function StoryReaderModal({
   // Audio state
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isAudioBuffering, setIsAudioBuffering] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [playbackSpeed, setPlaybackSpeed] = useState(1.0);
@@ -82,8 +84,11 @@ export default function StoryReaderModal({
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      // Proactively trigger eager buffer load for the story under consideration
+      audioRef.current.load();
     }
     setIsPlaying(false);
+    setIsAudioBuffering(false);
     setCurrentTime(0);
     setDuration(0);
 
@@ -109,11 +114,13 @@ export default function StoryReaderModal({
       });
   }, [story, language]);
 
-  // Pause audio when modal is closed / unmounted
+  // Pause audio and cleanup when modal is closed / unmounted
   useEffect(() => {
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
+        audioRef.current.removeAttribute("src");
+        audioRef.current.load();
       }
     };
   }, []);
@@ -138,13 +145,21 @@ export default function StoryReaderModal({
     if (isPlaying) {
       audioRef.current.pause();
       setIsPlaying(false);
+      setIsAudioBuffering(false);
     } else {
+      if (audioRef.current.readyState < 3) {
+        setIsAudioBuffering(true);
+      }
       audioRef.current
         .play()
-        .then(() => setIsPlaying(true))
+        .then(() => {
+          setIsPlaying(true);
+          setIsAudioBuffering(false);
+        })
         .catch((err) => {
           console.error("Audio playback error:", err);
           setIsPlaying(false);
+          setIsAudioBuffering(false);
         });
     }
   };
@@ -380,24 +395,31 @@ export default function StoryReaderModal({
           <audio
             ref={audioRef}
             src={audioSrc}
+            preload="auto"
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
+            onWaiting={() => setIsAudioBuffering(true)}
+            onPlaying={() => setIsAudioBuffering(false)}
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
             onCanPlay={() => {
+              setIsAudioBuffering(false);
               if (audioRef.current && audioRef.current.duration) {
                 setDuration(audioRef.current.duration);
               }
             }}
-            onEnded={() => setIsPlaying(false)}
+            onEnded={() => {
+              setIsPlaying(false);
+              setIsAudioBuffering(false);
+            }}
             onError={() => {
+              setIsAudioBuffering(false);
               if (rawAudioPath && audioRef.current && audioRef.current.src !== window.location.origin + rawAudioPath) {
                 console.warn("Audio load error on primary src, falling back to local:", rawAudioPath);
                 audioRef.current.src = rawAudioPath;
                 audioRef.current.load();
               }
             }}
-            preload="metadata"
           />
 
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3">
@@ -405,9 +427,15 @@ export default function StoryReaderModal({
               <button
                 onClick={togglePlay}
                 className="w-10 h-10 rounded-full bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] flex items-center justify-center hover:opacity-90 shadow-xs cursor-pointer transition-transform active:scale-95 shrink-0"
-                aria-label={isPlaying ? "Pause audio" : "Play audio"}
+                aria-label={isAudioBuffering ? "Buffering audio" : isPlaying ? "Pause audio" : "Play audio"}
               >
-                {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-0.5" />}
+                {isAudioBuffering ? (
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                ) : isPlaying ? (
+                  <Pause className="w-4 h-4" />
+                ) : (
+                  <Play className="w-4 h-4 ml-0.5" />
+                )}
               </button>
 
               {/* Progress Slider */}

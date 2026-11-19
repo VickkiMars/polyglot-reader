@@ -294,6 +294,7 @@ export default function PlayReaderModal({
         <audio
           ref={audioRef}
           src={currentScene.audio_url}
+          preload="auto"
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={() => setDuration(audioRef.current?.duration || currentScene.duration)}
           onEnded={() => setIsPlaying(false)}

@@ -15,3 +15,7 @@
 - **Dual Data Synchronization**: Data residing in both `src/data/` (bundled) and `public/` (static runtime fetch) must always be synchronized in lockstep.
 - **Dictionary Grounding**: Theatrical dialogue and pedagogical translations must be verified against formal dictionary lexicons (JMdict / CC-CEDICT).
 - **Universal Copy Scope**: Core brand, hero, navigation, and metadata copy must refer to languages in general without regional scoping (e.g. avoid "East Asian" unless referring to a specific language track).
+
+## 4. Investigation & Verification Invariants
+- **Empirical Premise Verification**: When investigating bug reports, UX critiques, unexpected behavior, or questions about why something does or does not happen (e.g., "why doesn't X fetch?", "why is Y broken?"), always verify and confirm whether the premise or claim is empirically true in the codebase and runtime *first* before diagnosing, speculating, explaining, or proposing/making code changes. Never assume the premise of an inquiry or reported issue is accurate without checking the actual implementation.
+

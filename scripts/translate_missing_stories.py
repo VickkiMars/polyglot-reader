@@ -29,8 +29,24 @@ with open("/home/kami/Desktop/codebase/language/japanese/stories.json") as f:
 
 j_map = {s["id"]: s for s in japanese_stories}
 
-PROMPT = """You are an expert Japanese linguist and educator specializing in Japanese graded readers for language learners.
+PROMPT = """You are an expert Japanese linguist, educator, and native-level translator specializing in Japanese graded readers for language learners (JLPT aligned).
 Given a story's English paragraphs and English-to-Japanese dictionary translation grounding, produce natural, idiomatic Japanese paragraphs and hiragana reading paragraphs.
+
+CRITICAL REQUIREMENTS:
+1. PARAGRAPH ALIGNMENT: Translate paragraph-by-paragraph matching the exact input paragraph count.
+2. NATURAL COLLOCATIONS:
+   - Never say '食事を料理する'. Use '食事を作る' / '晩ご飯を作る' or '自炊する'.
+   - 'Cook our own meals' -> mark agency with '自分たちで' (or '自炊する'), never possessive '自分たちの食事'.
+3. CULTURAL FOOD TERMS:
+   - Steamed buns (包子) -> '中華まん' / '肉まん' (never 'ロールパン').
+   - Dumplings (饺子) -> '餃子' (never '蒸しだんご').
+   - Noodles (面条) -> '麺' / 'ラーメン' (never 'ヌードル').
+4. EMOTION NUANCE ('HAPPY'):
+   - Use '楽しい' (fun/enjoyable day/activities), '嬉しい' (event joy), and avoid '非常に幸せです' for casual fun days.
+5. TIME & PARTICLES:
+   - Relative time words ('今日', '午後', '朝', '夜') do NOT take 'に' ('午後は', not '午後に').
+   - Use '観る' for watching movies ('映画を観る').
+   - Omit redundant subject pronouns ('私たち') once established; avoid double-topic marker stacking.
 
 Output strictly valid JSON with this schema:
 {

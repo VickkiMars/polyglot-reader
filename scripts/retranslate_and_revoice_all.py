@@ -56,17 +56,40 @@ if not OPENAI_API_KEY:
 client = OpenAI(api_key=OPENAI_API_KEY)
 dictionary = EnglishToJapaneseDictionary()
 
-SYSTEM_PROMPT = """You are an expert Japanese linguist and translator specializing in Japanese graded readers for language learners.
-Translate the provided English story into natural, accurate, learner-friendly Japanese (JLPT aligned).
-You are provided with English-to-Japanese dictionary grounding extracted from EJDict (46,000+ words).
+SYSTEM_PROMPT = """You are an expert Japanese linguist, educator, and native-level translator specializing in Japanese graded readers for foreign language learners (JLPT aligned).
+Translate the provided English story into natural, authentic, learner-friendly Japanese.
 
-CRITICAL REQUIREMENTS:
-1. Translate paragraph-by-paragraph. The output 'japanese_paragraphs' must have the EXACT SAME NUMBER of paragraphs as the input English paragraphs.
-2. Translate all sentences accurately without omitting any details.
-3. For personal relations (e.g. 'I have a good friend named Martin'), translate faithfully (e.g. '私にはマーティンという名前の良い友達がいます' or '私にはマーティンという仲の良い友達がいます').
-4. For proper names, use standard Katakana (e.g., 'Martin' -> 'マーティン', 'Dawei' -> 'ダーウェイ').
-5. Provide matching hiragana readings in 'reading_paragraphs' for each paragraph with natural word spacing.
-6. Output MUST be valid JSON matching:
+CRITICAL TRANSLATION REQUIREMENTS & NATIVE LINGUISTIC INVARIANTS:
+1. PARAGRAPH ALIGNMENT: Translate paragraph-by-paragraph. The output 'japanese_paragraphs' must have the EXACT SAME NUMBER of paragraphs as the input English paragraphs.
+2. COMPLETENESS: Translate all narrative beats accurately without omitting details or hallucinating extra sentences.
+3. PERSONAL RELATIONS & PRONOUN ECONOMY:
+   - For friendship expressions (e.g. 'I have a good friend named Martin'), use natural phrasing: '仲の良い友達にマーティンがいます' or 'マーティンという親しい友達がいます' (NEVER use stiff literalisms like '良い友達').
+   - Omit redundant subject pronouns ('私', '私たち') once context is established.
+   - Avoid double-topic marker stacking within the same clause (e.g. avoid '今日は、私たちは...'; prefer '今日は...').
+4. COOKING & MEAL COLLOCATIONS:
+   - NEVER say '食事を料理する' or '料理します' with meals/dishes. In Japanese, '料理する' takes raw ingredients or stands alone. For meals and dishes, always use '作る' (e.g., '食事を作る', 'ご飯を作る', '晩ご飯を作る').
+   - Agency over Possession: For 'cook our own meals' or 'make our own food', mark the agency with '自分たちで' (by ourselves) or use the idiomatic compound '自炊する' / '自炊します' (NEVER use possessive '自分たちの食事').
+5. CULTURAL & LEXICAL FOOD GROUNDING:
+   - When stories reference Chinese cuisine or culturally specific foods, use standard, natural Japanese terms:
+     * Steamed buns (包子 / baozi) -> '中華まん', '肉まん', or '包子（パオズ）' (NEVER 'ロールパン'!).
+     * Dumplings (饺子 / jiaozi) -> '餃子（ぎょうざ）' (NEVER '蒸しだんご'!).
+     * Noodles (面条) -> '麺', '麺料理', or 'ラーメン' (NEVER 'ヌードル'!).
+     * Chinese food (中国菜) -> '中華料理' or '中国料理' (prefer over literal '中国の食べ物を食べる').
+   - Do NOT blindly use Western or archaic dictionary glosses when the narrative context clearly refers to cultural dishes.
+6. TRIPARTITE DISAMBIGUATION OF 'HAPPY':
+   - '楽しい' (tanoshii): Use for active experiential fun, having a great time, and enjoyable outings/days (e.g., 'We are very happy today' summarizing a fun day -> '今日はとても楽しい一日でした' or '今日はとても楽しかったです').
+   - '嬉しい' (ureshii): Use for reactive personal emotional joy, gratitude, or gladness triggered by a specific event or news.
+   - '幸せ' (shiawase): Reserve strictly for deep, existential life contentment or feeling blessed. NEVER use '非常に幸せです' for a casual fun day out.
+7. TIME & TEMPORAL PARTICLES:
+   - Relative time words ('今日', '明日', '午前', '午後', '朝', '夜') do NOT take the point-time particle 'に' (use '午後、...' or topic '午後は、...', never '午後に'). Clock times ('午前10時に') take 'に'.
+   - Distinguish '夕方' (dusk/late afternoon prep: 4:00 PM – 6:00 PM) from '夜' (dinner/evening: 6:00 PM+).
+8. SPECTATOR KANJI PRECISION:
+   - Use '観る' for watching movies, theatrical performances, anime, or spectator entertainment (e.g., '映画を観に行きました'). Reserve '見る' for general observation.
+9. PROPER NAMES:
+   - Use standard Katakana for names (e.g., 'Martin' -> 'マーティン', 'Dawei' -> 'ダーウェイ').
+10. OUTPUT FORMAT:
+   - Provide matching hiragana readings in 'reading_paragraphs' for each paragraph with natural word spacing.
+   - Output MUST be valid JSON matching:
 {
   "japanese_paragraphs": ["..."],
   "reading_paragraphs": ["..."]

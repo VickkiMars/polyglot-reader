@@ -81,6 +81,24 @@ export default function StoryReaderModal({
     targetWord: undefined,
   });
 
+  // Memoize ruby paragraphs with on-the-fly Romaji transliteration for Japanese
+  // Kept unconditionally at the top level to strictly adhere to React Rules of Hooks
+  const renderedParagraphs = React.useMemo(() => {
+    const raw =
+      detail?.ruby_paragraphs && detail.ruby_paragraphs.length > 0
+        ? detail.ruby_paragraphs
+        : isMandarin
+        ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
+        : isJapanese
+        ? detail?.japanese_paragraphs || []
+        : detail?.russian_paragraphs || [];
+
+    if (isJapanese && japaneseReadingMode === "romaji") {
+      return raw.map((p) => convertRubyHtmlToRomaji(p));
+    }
+    return raw;
+  }, [detail, isMandarin, isJapanese, isTraditional, japaneseReadingMode]);
+
   // Fetch full story details & reset audio state on story/language change
   useEffect(() => {
     if (!story) return;
@@ -313,10 +331,10 @@ export default function StoryReaderModal({
   if (!story) return null;
 
   const rawAudioPath = isMandarin
-    ? story.audio.mandarin
+    ? story.audio?.mandarin
     : isJapanese
-    ? story.audio.japanese
-    : story.audio.russian || `/audio/russian/${story.id}_${story.slug}.mp3`;
+    ? story.audio?.japanese
+    : story.audio?.russian || `/audio/russian/${story.id}_${story.slug}.mp3`;
 
   const rawAudioBase = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
   const audioBaseUrl = rawAudioBase.includes("r2.dev") ? "" : rawAudioBase;
@@ -329,23 +347,6 @@ export default function StoryReaderModal({
       : fontSize === "large"
       ? "text-lg sm:text-2xl leading-[2.4]"
       : "text-xl sm:text-3xl leading-[2.6]";
-
-  // Memoize ruby paragraphs with on-the-fly Romaji transliteration for Japanese
-  const renderedParagraphs = React.useMemo(() => {
-    const raw =
-      detail?.ruby_paragraphs && detail.ruby_paragraphs.length > 0
-        ? detail.ruby_paragraphs
-        : isMandarin
-        ? (isTraditional ? detail?.traditional_paragraphs : detail?.simplified_paragraphs) || []
-        : isJapanese
-        ? detail?.japanese_paragraphs || []
-        : detail?.russian_paragraphs || [];
-
-    if (isJapanese && japaneseReadingMode === "romaji") {
-      return raw.map((p) => convertRubyHtmlToRomaji(p));
-    }
-    return raw;
-  }, [detail, isMandarin, isJapanese, isTraditional, japaneseReadingMode]);
 
   return (
     <div
@@ -514,7 +515,7 @@ export default function StoryReaderModal({
                       : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container-high)]"
                   }`}
                 >
-                  Vocab ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : story.mandarin.vocab_count)})
+                  Vocab ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : (story.mandarin?.vocab_count || 0))})
                 </button>
               </div>
 
@@ -655,7 +656,7 @@ export default function StoryReaderModal({
                     : "text-[var(--md-sys-color-on-surface-variant)] hover:bg-[var(--md-sys-color-surface-container)]"
                 }`}
               >
-                Vocabulary ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : story.mandarin.vocab_count)})
+                Vocabulary ({detail?.vocabulary?.length || (isRussian ? (story.russian?.vocab_count || 0) : isJapanese ? (story.japanese?.vocab_count || 0) : (story.mandarin?.vocab_count || 0))})
               </button>
             </div>
 

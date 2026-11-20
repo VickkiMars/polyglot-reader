@@ -339,11 +339,13 @@ export default function LessonGrid({ initialStories, language }: LessonGridProps
       />
 
       {/* Interactive Story Reader Modal */}
-      <StoryReaderModal
-        story={selectedStory}
-        language={language}
-        onClose={() => setSelectedStory(null)}
-      />
+      {selectedStory && (
+        <StoryReaderModal
+          story={selectedStory}
+          language={language}
+          onClose={() => setSelectedStory(null)}
+        />
+      )}
 
       {/* Interactive Theatrical Play Reader Modal */}
       <PlayReaderModal

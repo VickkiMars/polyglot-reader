@@ -95,6 +95,8 @@ export interface PlayChunk {
   text_ja: string;
   text_en: string;
   ruby: string;
+  romaji?: string;
+  ruby_romaji?: string;
   start: number;
   end: number;
   duration: number;

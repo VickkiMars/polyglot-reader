@@ -23,6 +23,7 @@ import {
   Info
 } from "lucide-react";
 import { PlayMetadata, PlayScene, PlayChunk, PlayCatalogItem } from "@/types";
+import { convertRubyHtmlToRomaji } from "@/lib/japaneseRomaji";
 
 interface PlayReaderModalProps {
   play: PlayMetadata;
@@ -66,7 +67,8 @@ export default function PlayReaderModal({
 
   // Display Settings
   const [showEnglish, setShowEnglish] = useState(true);
-  const [showFurigana, setShowFurigana] = useState(true);
+  const [showReading, setShowReading] = useState(true);
+  const [japaneseReadingMode, setJapaneseReadingMode] = useState<"furigana" | "romaji">("furigana");
   const [showSettingInfo, setShowSettingInfo] = useState(false);
 
   // Card list ref for auto-scrolling
@@ -96,10 +98,14 @@ export default function PlayReaderModal({
     }
   }, [activeSceneIndex]);
 
-  // Sync audio source when scene changes
+  // Sync audio source when scene changes (supporting Cloudflare R2 CDN base URL)
   useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.src = currentScene.audio_url;
+    if (audioRef.current && currentScene) {
+      const rawAudioBase = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/$/, "") || "";
+      const src = currentScene.audio_url?.startsWith("http")
+        ? currentScene.audio_url
+        : `${rawAudioBase}${currentScene.audio_url}`;
+      audioRef.current.src = src;
       audioRef.current.load();
     }
   }, [currentScene]);
@@ -271,6 +277,9 @@ export default function PlayReaderModal({
       } else if (e.key.toLowerCase() === "t") {
         e.preventDefault();
         setShowEnglish((prev) => !prev);
+      } else if (e.key.toLowerCase() === "f") {
+        e.preventDefault();
+        setShowReading((prev) => !prev);
       }
     };
     window.addEventListener("keydown", handleKeyDown);
@@ -424,20 +433,36 @@ export default function PlayReaderModal({
               <span>{showEnglish ? "English On" : "English Off"}</span>
             </button>
 
-            {/* Global Furigana Ruby Toggle */}
+            {/* Romaji vs Furigana Alphabet Mode */}
             <button
               type="button"
-              onClick={() => setShowFurigana(!showFurigana)}
+              onClick={() => setJapaneseReadingMode(japaneseReadingMode === "furigana" ? "romaji" : "furigana")}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
-                showFurigana
+                japaneseReadingMode === "romaji"
                   ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
                   : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
               }`}
-              title="Toggle Furigana ruby pronunciation on/off"
-              aria-pressed={showFurigana}
+              title="Toggle reading alphabet between Furigana (Hiragana) and Romaji"
+              aria-pressed={japaneseReadingMode === "romaji"}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{showFurigana ? "Furigana On" : "Furigana Off"}</span>
+              <span>{japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"}</span>
+            </button>
+
+            {/* Reading On/Off Toggle (Reading Off = Pure Kanji Mode) */}
+            <button
+              type="button"
+              onClick={() => setShowReading(!showReading)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
+                showReading
+                  ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
+                  : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)] hover:bg-[var(--md-sys-color-surface-container-highest)]"
+              }`}
+              title="Toggle phonetic readings on/off (Shortcut: F). Off displays clean Kanji."
+              aria-pressed={showReading}
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>{showReading ? `${japaneseReadingMode === "romaji" ? "Romaji" : "Furigana"} On` : "Reading Off (Kanji)"}</span>
             </button>
 
             <div className="h-5 w-px bg-[var(--md-sys-color-outline-variant)]/60 mx-0.5 hidden sm:block" />
@@ -606,17 +631,29 @@ export default function PlayReaderModal({
                   </div>
                 </div>
 
-                {/* Original Japanese Text (with Ruby Furigana) */}
+                {/* Original Japanese Text (with Furigana, Romaji, or Pure Kanji) */}
                 <div className="text-base sm:text-lg leading-relaxed text-[var(--md-sys-color-on-surface)] font-medium">
-                  {showFurigana && chunk.ruby ? (
+                  {showReading && chunk.ruby ? (
                     <div
                       className="inline-reading-content"
-                      dangerouslySetInnerHTML={{ __html: chunk.ruby }}
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          japaneseReadingMode === "romaji"
+                            ? chunk.ruby_romaji || convertRubyHtmlToRomaji(chunk.ruby)
+                            : chunk.ruby,
+                      }}
                     />
                   ) : (
                     <span>{chunk.text_ja}</span>
                   )}
                 </div>
+
+                {/* Romaji Transcription Line (Visible in Romaji mode) */}
+                {showReading && japaneseReadingMode === "romaji" && chunk.romaji && (
+                  <div className="mt-1 text-xs text-[var(--md-sys-color-primary)] font-mono opacity-90">
+                    {chunk.romaji}
+                  </div>
+                )}
 
                 {/* English Theatrical Translation */}
                 {showEnglish && chunk.text_en && (

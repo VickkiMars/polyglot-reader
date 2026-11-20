@@ -623,5 +623,26 @@
     "951_watch-movie.mp3": 145440,
     "9889_unpredictable-life.mp3": 215136,
     "9900_wait-for-the-rabbit-under-the-tree.mp3": 420768
+  },
+  "plays": {
+    "hansuu_scene_1.mp3": 2245293,
+    "hansuu_scene_2.mp3": 2618157,
+    "hansuu_scene_3.mp3": 1625325,
+    "highway_scene_1.mp3": 1965933,
+    "highway_scene_2.mp3": 1508973,
+    "highway_scene_3.mp3": 1454253,
+    "itsutaka_scene_1.mp3": 1880301,
+    "itsutaka_scene_2.mp3": 1637805,
+    "itsutaka_scene_3.mp3": 1759917,
+    "kamifusen_scene_1.mp3": 1919325,
+    "kamifusen_scene_2.mp3": 2475957,
+    "kamifusen_scene_3.mp3": 2408949,
+    "kamifusen_scene_4.mp3": 1331853,
+    "lion_scene_1.mp3": 2520429,
+    "lion_scene_2.mp3": 2395053,
+    "lion_scene_3.mp3": 2512173,
+    "nemurenai_scene_1.mp3": 3170541,
+    "nemurenai_scene_2.mp3": 4788525,
+    "nemurenai_scene_3.mp3": 2099373
   }
 }

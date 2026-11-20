@@ -104,10 +104,12 @@ async function collectFiles() {
   const mandarinDir = findAudioDir("mandarin");
   const japaneseDir = findAudioDir("japanese");
   const russianDir = findAudioDir("russian");
+  const playsDir = findAudioDir("plays");
 
   console.log(`Mandarin audio directory: ${mandarinDir || "NOT FOUND"}`);
   console.log(`Japanese audio directory: ${japaneseDir || "NOT FOUND"}`);
   console.log(`Russian audio directory: ${russianDir || "NOT FOUND"}`);
+  console.log(`Plays audio directory: ${playsDir || "NOT FOUND"}`);
 
   if ((!filterLang || filterLang === "mandarin") && mandarinDir && fs.existsSync(mandarinDir)) {
     const files = fs.readdirSync(mandarinDir).filter((f) => f.endsWith(".mp3"));
@@ -139,6 +141,16 @@ async function collectFiles() {
     }
   }
 
+  if ((!filterLang || filterLang === "plays") && playsDir && fs.existsSync(playsDir)) {
+    const files = fs.readdirSync(playsDir).filter((f) => f.endsWith(".mp3"));
+    for (const file of files) {
+      queue.push({
+        localPath: path.join(playsDir, file),
+        key: `audio/plays/${file}`,
+      });
+    }
+  }
+
   return queue;
 }
 
@@ -151,8 +163,16 @@ async function uploadFile(item, index, total) {
     ContentType: "audio/mpeg",
   });
 
-  await s3.send(command);
-  console.log(`[${index + 1}/${total}] ✓ Uploaded: ${item.key}`);
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      await s3.send(command);
+      console.log(`[${index + 1}/${total}] ✓ Uploaded: ${item.key}`);
+      return;
+    } catch (err) {
+      if (attempt === 3) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * attempt));
+    }
+  }
 }
 
 async function main() {
@@ -165,7 +185,7 @@ async function main() {
     process.exit(1);
   }
 
-  const CONCURRENCY = 12;
+  const CONCURRENCY = 3;
   let cursor = 0;
   let completed = 0;
   let failed = 0;

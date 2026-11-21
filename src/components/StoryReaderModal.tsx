@@ -14,6 +14,8 @@ import {
   ChevronDown,
   Check,
   Loader2,
+  AlignLeft,
+  Layers,
 } from "lucide-react";
 import { StoryCatalogItem, StoryDetail, VocabularyItem, Language } from "@/types";
 import { kanaToRomaji, convertRubyHtmlToRomaji } from "@/lib/japaneseRomaji";
@@ -80,6 +82,39 @@ export default function StoryReaderModal({
     visible: false,
     targetWord: undefined,
   });
+
+  // Interactive Sentence Chunking State
+  const [playbackMode, setPlaybackMode] = useState<"continuous" | "chunk">("continuous");
+  const [activeChunkIndex, setActiveChunkIndex] = useState<number>(0);
+  const [layoutMode, setLayoutMode] = useState<"flow" | "cards">("flow");
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  const hasChunks = Boolean(detail?.chunks && detail.chunks.length > 0);
+  const activeChunk = hasChunks && detail?.chunks ? detail.chunks[activeChunkIndex] : null;
+
+  // Memoize rendered chunks with on-the-fly Romaji transliteration for Japanese
+  const renderedChunks = React.useMemo(() => {
+    if (!detail?.chunks) return [];
+    if (isJapanese && japaneseReadingMode === "romaji") {
+      return detail.chunks.map((c) => ({
+        ...c,
+        ruby: convertRubyHtmlToRomaji(c.ruby),
+      }));
+    }
+    return detail.chunks;
+  }, [detail?.chunks, isJapanese, japaneseReadingMode]);
+
+  // Group chunks by paragraph for natural reading flow
+  const groupedParagraphChunks = React.useMemo(() => {
+    if (!renderedChunks || renderedChunks.length === 0) return [];
+    const groups: (typeof renderedChunks)[] = [];
+    renderedChunks.forEach((chunk) => {
+      const pIdx = chunk.paragraph_index ?? 0;
+      if (!groups[pIdx]) groups[pIdx] = [];
+      groups[pIdx].push(chunk);
+    });
+    return groups;
+  }, [renderedChunks]);
 
   // Memoize ruby paragraphs with on-the-fly Romaji transliteration for Japanese
   // Kept unconditionally at the top level to strictly adhere to React Rules of Hooks
@@ -161,6 +196,16 @@ export default function StoryReaderModal({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isPlaying]);
 
+  // Auto-scroll active card into view in Cards mode
+  useEffect(() => {
+    if (layoutMode === "cards" && activeChunkIndex !== null && cardRefs.current[activeChunkIndex]) {
+      cardRefs.current[activeChunkIndex]?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  }, [activeChunkIndex, layoutMode]);
+
   // Audio event handlers
   const togglePlay = () => {
     if (!audioRef.current) return;
@@ -169,6 +214,11 @@ export default function StoryReaderModal({
       setIsPlaying(false);
       setIsAudioBuffering(false);
     } else {
+      if (hasChunks && playbackMode === "chunk" && activeChunk) {
+        if (currentTime < activeChunk.start || currentTime >= activeChunk.end) {
+          audioRef.current.currentTime = activeChunk.start;
+        }
+      }
       if (audioRef.current.readyState < 3) {
         setIsAudioBuffering(true);
       }
@@ -186,9 +236,43 @@ export default function StoryReaderModal({
     }
   };
 
+  const playChunk = (index: number, forceChunkMode: boolean = false) => {
+    if (!audioRef.current || !detail?.chunks) return;
+    const chunk = detail.chunks[index];
+    if (!chunk) return;
+
+    setActiveChunkIndex(index);
+    if (forceChunkMode) {
+      setPlaybackMode("chunk");
+    }
+
+    audioRef.current.currentTime = chunk.start;
+    audioRef.current
+      .play()
+      .then(() => setIsPlaying(true))
+      .catch(console.error);
+  };
+
   const handleTimeUpdate = () => {
-    if (audioRef.current) {
-      setCurrentTime(audioRef.current.currentTime);
+    if (!audioRef.current) return;
+    const curr = audioRef.current.currentTime;
+    setCurrentTime(curr);
+
+    if (hasChunks && detail?.chunks) {
+      if (playbackMode === "chunk") {
+        const chunk = detail.chunks[activeChunkIndex];
+        if (chunk && curr >= chunk.end) {
+          audioRef.current.pause();
+          setIsPlaying(false);
+        }
+      } else if (playbackMode === "continuous") {
+        const matchingIdx = detail.chunks.findIndex(
+          (c) => curr >= c.start && curr <= c.end + 0.15
+        );
+        if (matchingIdx !== -1 && matchingIdx !== activeChunkIndex) {
+          setActiveChunkIndex(matchingIdx);
+        }
+      }
     }
   };
 
@@ -468,15 +552,43 @@ export default function StoryReaderModal({
               </div>
             </div>
 
-            {/* Speed Controls */}
-            <div className="flex items-center justify-between sm:justify-start gap-1">
-              <span className="sm:hidden text-[11px] text-[var(--md-sys-color-on-surface-variant)] font-medium">Speed:</span>
+            {/* Speed & Playback Mode Controls */}
+            <div className="flex items-center justify-between sm:justify-start gap-2">
+              {hasChunks && (
+                <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-lowest)] p-0.5 rounded-full shadow-2xs">
+                  <button
+                    type="button"
+                    onClick={() => setPlaybackMode("continuous")}
+                    className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer border-none ${
+                      playbackMode === "continuous"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
+                        : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                    }`}
+                    title="Continuous playback across entire story"
+                  >
+                    Continuous
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setPlaybackMode("chunk")}
+                    className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer border-none ${
+                      playbackMode === "chunk"
+                        ? "bg-[var(--md-sys-color-secondary)] text-[var(--md-sys-color-on-secondary)] shadow-xs"
+                        : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                    }`}
+                    title="Pause after each sentence for shadowing rehearsal"
+                  >
+                    Sentence Focus
+                  </button>
+                </div>
+              )}
+
               <div className="flex items-center gap-1 bg-[var(--md-sys-color-surface-container-lowest)] p-0.5 rounded-full shadow-2xs">
                 {[0.75, 1.0, 1.25, 1.5].map((speed) => (
                   <button
                     key={speed}
                     onClick={() => handleSpeedChange(speed)}
-                    className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer ${
+                    className={`px-2.5 py-1 rounded-full text-[11px] font-semibold transition-all cursor-pointer border-none ${
                       playbackSpeed === speed
                         ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-xs"
                         : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
@@ -562,6 +674,36 @@ export default function StoryReaderModal({
             {/* Bottom Tier: Reading & Display Toggles on Mobile */}
             {activeTab === "story" && (
               <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1">
+                {hasChunks && (
+                  <div className="flex items-center rounded-full bg-[var(--md-sys-color-surface-container-high)] p-0.5 border-none shrink-0">
+                    <button
+                      type="button"
+                      onClick={() => setLayoutMode("flow")}
+                      className={`px-2 py-1 rounded-full text-[11px] font-semibold flex items-center gap-1 transition-all cursor-pointer border-none ${
+                        layoutMode === "flow"
+                          ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
+                          : "text-[var(--md-sys-color-on-surface-variant)]"
+                      }`}
+                      title="Flow Reading"
+                    >
+                      <AlignLeft className="w-3.5 h-3.5" />
+                      <span>Flow</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setLayoutMode("cards")}
+                      className={`px-2 py-1 rounded-full text-[11px] font-semibold flex items-center gap-1 transition-all cursor-pointer border-none ${
+                        layoutMode === "cards"
+                          ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
+                          : "text-[var(--md-sys-color-on-surface-variant)]"
+                      }`}
+                      title="Sentence Rehearsal Cards"
+                    >
+                      <Layers className="w-3.5 h-3.5" />
+                      <span>Cards</span>
+                    </button>
+                  </div>
+                )}
                 {isMandarin && (
                   <button
                     onClick={() => setIsTraditional(!isTraditional)}
@@ -663,6 +805,36 @@ export default function StoryReaderModal({
             {/* Reading Toggles */}
             {activeTab === "story" && (
               <div className="flex flex-wrap items-center gap-2">
+                {hasChunks && (
+                  <div className="flex items-center rounded-full bg-[var(--md-sys-color-surface-container-high)] p-0.5 border-none">
+                    <button
+                      type="button"
+                      onClick={() => setLayoutMode("flow")}
+                      className={`px-2.5 py-1 rounded-full text-[11px] font-semibold flex items-center gap-1 transition-all cursor-pointer border-none ${
+                        layoutMode === "flow"
+                          ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
+                          : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                      }`}
+                      title="Paragraph Flow View"
+                    >
+                      <AlignLeft className="w-3.5 h-3.5" />
+                      <span>Flow</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setLayoutMode("cards")}
+                      className={`px-2.5 py-1 rounded-full text-[11px] font-semibold flex items-center gap-1 transition-all cursor-pointer border-none ${
+                        layoutMode === "cards"
+                          ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] shadow-2xs"
+                          : "text-[var(--md-sys-color-on-surface-variant)] hover:text-[var(--md-sys-color-on-surface)]"
+                      }`}
+                      title="Sentence Rehearsal Cards"
+                    >
+                      <Layers className="w-3.5 h-3.5" />
+                      <span>Cards</span>
+                    </button>
+                  </div>
+                )}
                 {isMandarin && (
                   <button
                     onClick={() => setIsTraditional(!isTraditional)}
@@ -802,19 +974,148 @@ export default function StoryReaderModal({
                 }
               }}
             >
-              {renderedParagraphs.map((para, idx) => (
-                <div key={idx} className="space-y-3">
-                  <div
-                    className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer touch-manipulation"
-                    dangerouslySetInnerHTML={{ __html: para }}
-                  />
-                  {showTranslation && detail?.english_paragraphs?.[idx] && (
-                    <div className="p-3 sm:p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border border-[var(--md-sys-color-outline-variant)]/40 text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
-                      {detail.english_paragraphs[idx]}
-                    </div>
-                  )}
+              {hasChunks && layoutMode === "cards" ? (
+                /* Sentence Rehearsal Card View */
+                <div className="space-y-3.5">
+                  {renderedChunks.map((chunk, idx) => {
+                    const isActive = activeChunkIndex === idx;
+                    return (
+                      <div
+                        key={chunk.id}
+                        ref={(el) => {
+                          cardRefs.current[idx] = el;
+                        }}
+                        onClick={(e) => {
+                          if ((e.target as HTMLElement).closest("ruby")) return;
+                          playChunk(idx, playbackMode === "chunk");
+                        }}
+                        className={`p-3.5 sm:p-4 rounded-2xl transition-all cursor-pointer relative border-none ${
+                          isActive
+                            ? "bg-[var(--md-sys-color-surface-container-high)] shadow-md ring-2 ring-[var(--md-sys-color-primary)]"
+                            : "bg-[var(--md-sys-color-surface-container-low)] hover:bg-[var(--md-sys-color-surface-container)] shadow-2xs"
+                        }`}
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="flex-1 min-w-0 space-y-1.5">
+                            <div
+                              className="text-base sm:text-xl font-medium tracking-wide leading-relaxed text-[var(--md-sys-color-on-surface)]"
+                              dangerouslySetInnerHTML={{ __html: chunk.ruby }}
+                            />
+                            {showReading && (chunk.reading || chunk.transliteration || chunk.romaji) && (
+                              <div className="text-xs sm:text-sm font-mono text-[var(--md-sys-color-primary)] leading-normal">
+                                {isJapanese && japaneseReadingMode === "romaji"
+                                  ? chunk.romaji || kanaToRomaji(chunk.reading || chunk.text)
+                                  : isJapanese
+                                  ? chunk.reading
+                                  : chunk.transliteration}
+                              </div>
+                            )}
+                            {showTranslation && chunk.text_en && (
+                              <p className="text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed pt-0.5">
+                                {chunk.text_en}
+                              </p>
+                            )}
+                          </div>
+
+                          <div className="flex flex-col items-end gap-1.5 shrink-0">
+                            <span className="font-mono text-[10px] sm:text-[11px] text-[var(--md-sys-color-on-surface-variant)] px-2 py-0.5 rounded-full bg-[var(--md-sys-color-surface-container-highest)]">
+                              {formatTime(chunk.start)}
+                            </span>
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                playChunk(idx, true);
+                              }}
+                              className={`p-2 rounded-full transition-transform active:scale-95 border-none cursor-pointer ${
+                                isActive && isPlaying
+                                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)]"
+                                  : "bg-[var(--md-sys-color-surface-container-highest)] text-[var(--md-sys-color-primary)] hover:bg-[var(--md-sys-color-primary-container)]"
+                              }`}
+                              title="Play sentence audio"
+                              aria-label={`Play sentence ${idx + 1}`}
+                            >
+                              {isActive && isPlaying ? (
+                                <Pause className="w-3.5 h-3.5" />
+                              ) : (
+                                <Play className="w-3.5 h-3.5 ml-0.5" />
+                              )}
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
-              ))}
+              ) : hasChunks && layoutMode === "flow" ? (
+                /* Interactive Paragraph Flow View */
+                groupedParagraphChunks.map((paraChunks, pIdx) => (
+                  <div key={pIdx} className="space-y-3">
+                    <div className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose">
+                      {paraChunks.map((chunk) => {
+                        const isActive = activeChunkIndex === chunk.chunk_index;
+                        return (
+                          <span
+                            key={chunk.id}
+                            onClick={(e) => {
+                              if ((e.target as HTMLElement).closest("ruby")) return;
+                              playChunk(chunk.chunk_index, playbackMode === "chunk");
+                            }}
+                            className={`group/chunk inline rounded-lg transition-all duration-150 px-1.5 py-0.5 cursor-pointer relative ${
+                              isActive
+                                ? "bg-[var(--md-sys-color-primary-container)] text-[var(--md-sys-color-on-primary-container)] font-semibold shadow-2xs"
+                                : "hover:bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-on-surface)]"
+                            }`}
+                            title="Click sentence to listen"
+                          >
+                            <span dangerouslySetInnerHTML={{ __html: chunk.ruby }} />
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                playChunk(chunk.chunk_index, true);
+                              }}
+                              className={`inline-flex items-center justify-center w-5 h-5 mx-1 rounded-full border-none align-middle cursor-pointer transition-opacity ${
+                                isActive
+                                  ? "bg-[var(--md-sys-color-primary)] text-[var(--md-sys-color-on-primary)] opacity-100 shadow-2xs"
+                                  : "bg-[var(--md-sys-color-surface-container-high)] text-[var(--md-sys-color-primary)] opacity-0 group-hover/chunk:opacity-90"
+                              }`}
+                              title={isActive && isPlaying ? "Replay sentence" : "Play sentence"}
+                              aria-label={`Play sentence ${chunk.chunk_index + 1}`}
+                            >
+                              {isActive && isPlaying ? (
+                                <RotateCcw className="w-2.5 h-2.5" />
+                              ) : (
+                                <Play className="w-2.5 h-2.5 ml-0.5" />
+                              )}
+                            </button>
+                          </span>
+                        );
+                      })}
+                    </div>
+                    {showTranslation && detail?.english_paragraphs?.[pIdx] && (
+                      <div className="p-3 sm:p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border-none text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                        {detail.english_paragraphs[pIdx]}
+                      </div>
+                    )}
+                  </div>
+                ))
+              ) : (
+                /* Fallback Full Paragraph View (Mandarin / non-chunked stories) */
+                renderedParagraphs.map((para, idx) => (
+                  <div key={idx} className="space-y-3">
+                    <div
+                      className="text-[var(--md-sys-color-on-surface)] font-medium tracking-wide leading-loose cursor-pointer touch-manipulation"
+                      dangerouslySetInnerHTML={{ __html: para }}
+                    />
+                    {showTranslation && detail?.english_paragraphs?.[idx] && (
+                      <div className="p-3 sm:p-3.5 bg-[var(--md-sys-color-surface-container)] rounded-xl border-none text-xs sm:text-sm text-[var(--md-sys-color-on-surface-variant)] font-roboto leading-relaxed">
+                        {detail.english_paragraphs[idx]}
+                      </div>
+                    )}
+                  </div>
+                ))
+              )}
             </div>
           ) : (
             // Vocabulary View: Responsive Card List on Mobile, Table on Tablet/Desktop

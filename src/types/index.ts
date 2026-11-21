@@ -52,6 +52,23 @@ export interface VocabularyItem {
   grammar?: string;
 }
 
+export interface StoryChunk {
+  id: string;
+  chunk_index: number;
+  paragraph_index: number;
+  sentence_index: number;
+  text: string;
+  text_en: string;
+  ruby: string;
+  reading?: string;
+  romaji?: string;
+  transliteration?: string;
+  start: number;
+  end: number;
+  duration: number;
+  vocab_ids?: string[];
+}
+
 export interface StoryDetail {
   id: number;
   title: string;
@@ -71,6 +88,10 @@ export interface StoryDetail {
   reading_paragraphs?: string[];
   russian_paragraphs?: string[];
   ruby_paragraphs?: string[];
+  chunks?: StoryChunk[];
+  total_chunks?: number;
+  audio_duration?: number;
+  has_chunk_audio?: boolean;
   vocabulary: VocabularyItem[];
 }
 

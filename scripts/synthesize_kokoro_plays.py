@@ -51,6 +51,7 @@ VOICE_MAP = {
     "マエジマ": "jm_kumo",
     "ミツヨ": "jf_nezumi",
     "老婆": "jf_gongitsune",
+    "トキ": "jf_gongitsune",
     # lion
     "須藤": "jm_kumo",
     "森": "jf_alpha",
@@ -64,6 +65,7 @@ VOICE_MAP = {
     "虫眼鏡": "jf_tebukuro",
     "電話番": "jm_kumo",
     "水晶": "jf_nezumi",
+    "白蛇": "jf_nezumi",
     # nemurenai
     "健一": "jm_kumo",
     "郁子": "jf_alpha",
@@ -76,6 +78,12 @@ VOICE_MAP = {
     "保奈美": "jf_tebukuro",
     "三橋": "jm_kumo",
     "明": "jm_kumo",
+    "誠司": "jm_kumo",
+    "直枝": "jf_tebukuro",
+    "野間": "jf_nezumi",
+    "勇人": "jm_kumo",
+    "まゆみ": "jf_alpha",
+    "原口": "jm_kumo",
 }
 
 def load_voice_tensors():

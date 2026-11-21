@@ -358,5 +358,88 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1805_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Ма́льчик спра́шивает своего́ па́пу: «Па́пы всегда́ зна́ют бо́льше, чем их де́ти?»",
+      "text_en": "A little boy asked his dad, “Do dads always know more than their kids?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mál&#x27;chik\" data-defn=\"мальчик\" data-hsk=\"A2\"><span class=\"si\">Ма́льчик</span><rt>Mál&#x27;chik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A2\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoegó\" data-defn=\"своего\" data-hsk=\"A2\"><span class=\"si\">своего́</span><rt>svoegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápu\" data-defn=\"папу\" data-hsk=\"A2\"><span class=\"si\">па́пу</span><rt>pápu</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Pápy\" data-defn=\"папы\" data-hsk=\"A2\"><span class=\"si\">Па́пы</span><rt>Pápy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsegdá\" data-defn=\"всегда\" data-hsk=\"A2\"><span class=\"si\">всегда́</span><rt>vsegdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáyut\" data-defn=\"знают\" data-hsk=\"A2\"><span class=\"si\">зна́ют</span><rt>znáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ból&#x27;she\" data-defn=\"больше\" data-hsk=\"A2\"><span class=\"si\">бо́льше</span><rt>ból&#x27;she</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chem\" data-defn=\"чем\" data-hsk=\"A2\"><span class=\"si\">чем</span><rt>chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"déti\" data-defn=\"дети\" data-hsk=\"A2\"><span class=\"si\">де́ти</span><rt>déti</rt></ruby>?»",
+      "transliteration": "Mál'chik spráshivaet svoegó pápu: «Pápy vsegdá znáyut ból'she, chem ikh déti?»",
+      "start": 0.0,
+      "end": 4.28,
+      "duration": 4.28
+    },
+    {
+      "id": "story_1805_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "«Ещё бы!» — отве́чает его́ па́па.",
+      "text_en": "“Of course!” his dad replied.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Eshchyo\" data-defn=\"ещё\" data-hsk=\"A2\"><span class=\"si\">Ещё</span><rt>Eshchyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"by\" data-defn=\"бы\" data-hsk=\"A2\"><span class=\"si\">бы</span><rt>by</rt></ruby>!» — <ruby class=\"mb-tooltip\" data-py=\"otvéchaet\" data-defn=\"отвечает\" data-hsk=\"A2\"><span class=\"si\">отве́чает</span><rt>otvéchaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápa\" data-defn=\"папа\" data-hsk=\"A2\"><span class=\"si\">па́па</span><rt>pápa</rt></ruby>.",
+      "transliteration": "«Eshchyo by!» — otvéchaet egó pápa.",
+      "start": 4.88,
+      "end": 7.39,
+      "duration": 2.51
+    },
+    {
+      "id": "story_1805_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Ма́льчик спра́шивает: «Кто изобрёл ла́мпочку?»",
+      "text_en": "The little boy asked, “Who invented the light bulb?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mál&#x27;chik\" data-defn=\"мальчик\" data-hsk=\"A2\"><span class=\"si\">Ма́льчик</span><rt>Mál&#x27;chik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A2\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Kto\" data-defn=\"кто\" data-hsk=\"A2\"><span class=\"si\">Кто</span><rt>Kto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"izobryol\" data-defn=\"изобрёл\" data-hsk=\"A2\"><span class=\"si\">изобрёл</span><rt>izobryol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lámpochku\" data-defn=\"лампочку\" data-hsk=\"A2\"><span class=\"si\">ла́мпочку</span><rt>lámpochku</rt></ruby>?»",
+      "transliteration": "Mál'chik spráshivaet: «Kto izobryol lámpochku?»",
+      "start": 7.99,
+      "end": 10.93,
+      "duration": 2.94
+    },
+    {
+      "id": "story_1805_p3_c0",
+      "chunk_index": 3,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Его́ па́па улы́бается и отве́чает: «Эдисон.»",
+      "text_en": "His dad smiled and answered, “Edison.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">Его́</span><rt>Egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápa\" data-defn=\"папа\" data-hsk=\"A2\"><span class=\"si\">па́па</span><rt>pápa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ulýbaetsya\" data-defn=\"улыбается\" data-hsk=\"A2\"><span class=\"si\">улы́бается</span><rt>ulýbaetsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvéchaet\" data-defn=\"отвечает\" data-hsk=\"A2\"><span class=\"si\">отве́чает</span><rt>otvéchaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Edison\" data-defn=\"эдисон\" data-hsk=\"A2\"><span class=\"si\">Эдисон</span><rt>Edison</rt></ruby>.»",
+      "transliteration": "Egó pápa ulýbaetsya i otvéchaet: «Edison.»",
+      "start": 11.53,
+      "end": 14.52,
+      "duration": 2.99
+    },
+    {
+      "id": "story_1805_p4_c0",
+      "chunk_index": 4,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "Ма́льчик спра́шивает наза́д: «Тогда́ почему́ па́па Эдисона не изобрёл ла́мпочку?» Его́ па́па смотрит на него́, неуве́ренный, как дать отве́т.",
+      "text_en": "The little boy asked again, “Then why didn’t Edison’s dad invent the light bulb?” His dad looked at him, unsure how to answer.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mál&#x27;chik\" data-defn=\"мальчик\" data-hsk=\"A2\"><span class=\"si\">Ма́льчик</span><rt>Mál&#x27;chik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A2\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nazád\" data-defn=\"назад\" data-hsk=\"A2\"><span class=\"si\">наза́д</span><rt>nazád</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Togdá\" data-defn=\"тогда\" data-hsk=\"A2\"><span class=\"si\">Тогда́</span><rt>Togdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pochemú\" data-defn=\"почему\" data-hsk=\"A2\"><span class=\"si\">почему́</span><rt>pochemú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápa\" data-defn=\"папа\" data-hsk=\"A2\"><span class=\"si\">па́па</span><rt>pápa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Edisona\" data-defn=\"эдисона\" data-hsk=\"A2\"><span class=\"si\">Эдисона</span><rt>Edisona</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"izobryol\" data-defn=\"изобрёл\" data-hsk=\"A2\"><span class=\"si\">изобрёл</span><rt>izobryol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lámpochku\" data-defn=\"лампочку\" data-hsk=\"A2\"><span class=\"si\">ла́мпочку</span><rt>lámpochku</rt></ruby>?» <ruby class=\"mb-tooltip\" data-py=\"Egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">Его́</span><rt>Egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápa\" data-defn=\"папа\" data-hsk=\"A2\"><span class=\"si\">па́па</span><rt>pápa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrit\" data-defn=\"смотрит\" data-hsk=\"A2\"><span class=\"si\">смотрит</span><rt>smotrit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"negó\" data-defn=\"него\" data-hsk=\"A2\"><span class=\"si\">него́</span><rt>negó</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"neuvérennyy\" data-defn=\"неуверенный\" data-hsk=\"A2\"><span class=\"si\">неуве́ренный</span><rt>neuvérennyy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dat&#x27;\" data-defn=\"дать\" data-hsk=\"A2\"><span class=\"si\">дать</span><rt>dat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvét\" data-defn=\"ответ\" data-hsk=\"A2\"><span class=\"si\">отве́т</span><rt>otvét</rt></ruby>.",
+      "transliteration": "Mál'chik spráshivaet nazád: «Togdá pochemú pápa Edisona ne izobryol lámpochku?» Egó pápa smotrit na negó, neuvérennyy, kak dat' otvét.",
+      "start": 15.12,
+      "end": 22.54,
+      "duration": 7.42
+    },
+    {
+      "id": "story_1805_p5_c0",
+      "chunk_index": 5,
+      "paragraph_index": 5,
+      "sentence_index": 0,
+      "text": "Ча́сто то, что мы ду́маем, что зна́ем, не обяза́тельно пра́вильное, и де́ти могут дать нам све́жие инса́йты!",
+      "text_en": "Often, what we think we know isn’t necessarily right, and children can give us fresh insights!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Chásto\" data-defn=\"часто\" data-hsk=\"A2\"><span class=\"si\">Ча́сто</span><rt>Chásto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"to\" data-defn=\"то\" data-hsk=\"A2\"><span class=\"si\">то</span><rt>to</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"my\" data-defn=\"мы\" data-hsk=\"A2\"><span class=\"si\">мы</span><rt>my</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmaem\" data-defn=\"думаем\" data-hsk=\"A2\"><span class=\"si\">ду́маем</span><rt>dúmaem</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáem\" data-defn=\"знаем\" data-hsk=\"A2\"><span class=\"si\">зна́ем</span><rt>znáem</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyazátel&#x27;no\" data-defn=\"обязательно\" data-hsk=\"A2\"><span class=\"si\">обяза́тельно</span><rt>obyazátel&#x27;no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"právil&#x27;noe\" data-defn=\"правильное\" data-hsk=\"A2\"><span class=\"si\">пра́вильное</span><rt>právil&#x27;noe</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"déti\" data-defn=\"дети\" data-hsk=\"A2\"><span class=\"si\">де́ти</span><rt>déti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mogut\" data-defn=\"могут\" data-hsk=\"A2\"><span class=\"si\">могут</span><rt>mogut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dat&#x27;\" data-defn=\"дать\" data-hsk=\"A2\"><span class=\"si\">дать</span><rt>dat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nam\" data-defn=\"нам\" data-hsk=\"A2\"><span class=\"si\">нам</span><rt>nam</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svézhie\" data-defn=\"свежие\" data-hsk=\"A2\"><span class=\"si\">све́жие</span><rt>svézhie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"insáyty\" data-defn=\"инсайты\" data-hsk=\"A2\"><span class=\"si\">инса́йты</span><rt>insáyty</rt></ruby>!",
+      "transliteration": "Chásto to, chto my dúmaem, chto znáem, ne obyazátel'no právil'noe, i déti mogut dat' nam svézhie insáyty!",
+      "start": 23.14,
+      "end": 28.83,
+      "duration": 5.69
+    }
+  ],
+  "total_chunks": 6,
+  "audio_duration": 29.08,
+  "has_chunk_audio": true
 }

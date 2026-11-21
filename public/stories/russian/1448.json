@@ -303,5 +303,114 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1448_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "За́втра день рожде́ния моей мáмы.",
+      "text_en": "Tomorrow is my mother's birthday.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Závtra\" data-defn=\"завтра\" data-hsk=\"A2\"><span class=\"si\">За́втра</span><rt>Závtra</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rozhdéniya\" data-defn=\"рождения\" data-hsk=\"A2\"><span class=\"si\">рожде́ния</span><rt>rozhdéniya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moey\" data-defn=\"моей\" data-hsk=\"A2\"><span class=\"si\">моей</span><rt>moey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mámy\" data-defn=\"мáмы\" data-hsk=\"A2\"><span class=\"si\">мáмы</span><rt>mámy</rt></ruby>.",
+      "transliteration": "Závtra den' rozhdéniya moey mámy.",
+      "start": 0.0,
+      "end": 1.9,
+      "duration": 1.9
+    },
+    {
+      "id": "story_1448_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Ей исполня́ется 55 лет.",
+      "text_en": "She is turning 55.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ey\" data-defn=\"ей\" data-hsk=\"A2\"><span class=\"si\">Ей</span><rt>Ey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ispolnyáetsya\" data-defn=\"исполняется\" data-hsk=\"A2\"><span class=\"si\">исполня́ется</span><rt>ispolnyáetsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"55\" data-defn=\"55\" data-hsk=\"A2\"><span class=\"si\">55</span><rt>55</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">лет</span><rt>let</rt></ruby>.",
+      "transliteration": "Ey ispolnyáetsya 55 let.",
+      "start": 2.25,
+      "end": 3.71,
+      "duration": 1.46
+    },
+    {
+      "id": "story_1448_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "У неё ста́ршая сестра́ и два мла́дших брата́.",
+      "text_en": "She has an older sister and two younger brothers.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"neyo\" data-defn=\"неё\" data-hsk=\"A2\"><span class=\"si\">неё</span><rt>neyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stárshaya\" data-defn=\"старшая\" data-hsk=\"A2\"><span class=\"si\">ста́ршая</span><rt>stárshaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sestrá\" data-defn=\"сестра\" data-hsk=\"A2\"><span class=\"si\">сестра́</span><rt>sestrá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dva\" data-defn=\"два\" data-hsk=\"A2\"><span class=\"si\">два</span><rt>dva</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mládshikh\" data-defn=\"младших\" data-hsk=\"A2\"><span class=\"si\">мла́дших</span><rt>mládshikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bratá\" data-defn=\"брата\" data-hsk=\"A2\"><span class=\"si\">брата́</span><rt>bratá</rt></ruby>.",
+      "transliteration": "U neyo stárshaya sestrá i dva mládshikh bratá.",
+      "start": 4.06,
+      "end": 6.45,
+      "duration": 2.39
+    },
+    {
+      "id": "story_1448_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Она́ не любит ко́фе, но лю́бит фру́кты.",
+      "text_en": "She doesn't like coffee, but she loves fruit.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubit\" data-defn=\"любит\" data-hsk=\"A2\"><span class=\"si\">любит</span><rt>lyubit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kófe\" data-defn=\"кофе\" data-hsk=\"A2\"><span class=\"si\">ко́фе</span><rt>kófe</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúbit\" data-defn=\"любит\" data-hsk=\"A2\"><span class=\"si\">лю́бит</span><rt>lyúbit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"frúkty\" data-defn=\"фрукты\" data-hsk=\"A2\"><span class=\"si\">фру́кты</span><rt>frúkty</rt></ruby>.",
+      "transliteration": "Oná ne lyubit kófe, no lyúbit frúkty.",
+      "start": 6.8,
+      "end": 9.06,
+      "duration": 2.26
+    },
+    {
+      "id": "story_1448_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Она́ рабо́тает в больни́це до́ктором.",
+      "text_en": "She works at a hospital as a doctor.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótaet\" data-defn=\"работает\" data-hsk=\"A2\"><span class=\"si\">рабо́тает</span><rt>rabótaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;nítse\" data-defn=\"больнице\" data-hsk=\"A2\"><span class=\"si\">больни́це</span><rt>bol&#x27;nítse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóktorom\" data-defn=\"доктором\" data-hsk=\"A2\"><span class=\"si\">до́ктором</span><rt>dóktorom</rt></ruby>.",
+      "transliteration": "Oná rabótaet v bol'nítse dóktorom.",
+      "start": 9.41,
+      "end": 11.16,
+      "duration": 1.75
+    },
+    {
+      "id": "story_1448_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "Она́ за́нята́ ка́ждый день и рабо́тает дли́нные часы́.",
+      "text_en": "She is busy every day and works long hours.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zányatá\" data-defn=\"занята\" data-hsk=\"A2\"><span class=\"si\">за́нята́</span><rt>zányatá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdyy\" data-defn=\"каждый\" data-hsk=\"A2\"><span class=\"si\">ка́ждый</span><rt>kázhdyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótaet\" data-defn=\"работает\" data-hsk=\"A2\"><span class=\"si\">рабо́тает</span><rt>rabótaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlínnye\" data-defn=\"длинные\" data-hsk=\"A2\"><span class=\"si\">дли́нные</span><rt>dlínnye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasý\" data-defn=\"часы\" data-hsk=\"A2\"><span class=\"si\">часы́</span><rt>chasý</rt></ruby>.",
+      "transliteration": "Oná zányatá kázhdyy den' i rabótaet dlínnye chasý.",
+      "start": 11.51,
+      "end": 14.06,
+      "duration": 2.55
+    },
+    {
+      "id": "story_1448_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "Иногдá она́ вы́ходит с рабо́ты в 6 часо́в ве́чера, а иногдá не ра́ньше 10 часо́в.",
+      "text_en": "Sometimes she gets off work at 6 p.m., and sometimes not until 10 p.m.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Inogdá\" data-defn=\"иногдá\" data-hsk=\"A2\"><span class=\"si\">Иногдá</span><rt>Inogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"výkhodit\" data-defn=\"выходит\" data-hsk=\"A2\"><span class=\"si\">вы́ходит</span><rt>výkhodit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabóty\" data-defn=\"работы\" data-hsk=\"A2\"><span class=\"si\">рабо́ты</span><rt>rabóty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"6\" data-defn=\"6\" data-hsk=\"A2\"><span class=\"si\">6</span><rt>6</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasóv\" data-defn=\"часов\" data-hsk=\"A2\"><span class=\"si\">часо́в</span><rt>chasóv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"véchera\" data-defn=\"вечера\" data-hsk=\"A2\"><span class=\"si\">ве́чера</span><rt>véchera</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A2\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"inogdá\" data-defn=\"иногдá\" data-hsk=\"A2\"><span class=\"si\">иногдá</span><rt>inogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rán&#x27;she\" data-defn=\"раньше\" data-hsk=\"A2\"><span class=\"si\">ра́ньше</span><rt>rán&#x27;she</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"10\" data-defn=\"10\" data-hsk=\"A2\"><span class=\"si\">10</span><rt>10</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasóv\" data-defn=\"часов\" data-hsk=\"A2\"><span class=\"si\">часо́в</span><rt>chasóv</rt></ruby>.",
+      "transliteration": "Inogdá oná výkhodit s rabóty v 6 chasóv véchera, a inogdá ne rán'she 10 chasóv.",
+      "start": 14.41,
+      "end": 18.16,
+      "duration": 3.75
+    },
+    {
+      "id": "story_1448_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "Она́ та́кже лю́бит похо́д в магази́ны, поэ́тому она́ лю́бит шопи́нг.",
+      "text_en": "She also likes shopping, so she loves going to stores.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tákzhe\" data-defn=\"также\" data-hsk=\"A2\"><span class=\"si\">та́кже</span><rt>tákzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúbit\" data-defn=\"любит\" data-hsk=\"A2\"><span class=\"si\">лю́бит</span><rt>lyúbit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pokhód\" data-defn=\"поход\" data-hsk=\"A2\"><span class=\"si\">похо́д</span><rt>pokhód</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"magazíny\" data-defn=\"магазины\" data-hsk=\"A2\"><span class=\"si\">магази́ны</span><rt>magazíny</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poétomu\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">поэ́тому</span><rt>poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúbit\" data-defn=\"любит\" data-hsk=\"A2\"><span class=\"si\">лю́бит</span><rt>lyúbit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shopíng\" data-defn=\"шопинг\" data-hsk=\"A2\"><span class=\"si\">шопи́нг</span><rt>shopíng</rt></ruby>.",
+      "transliteration": "Oná tákzhe lyúbit pokhód v magazíny, poétomu oná lyúbit shopíng.",
+      "start": 18.51,
+      "end": 21.95,
+      "duration": 3.44
+    }
+  ],
+  "total_chunks": 8,
+  "audio_duration": 22.2,
+  "has_chunk_audio": true
 }

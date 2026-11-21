@@ -268,5 +268,62 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_19332_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Ли́лия — францу́зская ли́чность, а ли Ли — её кита́йское и́мя.",
+      "text_en": "Lily is a French person, and Li Li is her Chinese name.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Líliya\" data-defn=\"лилия\" data-hsk=\"A1\"><span class=\"si\">Ли́лия</span><rt>Líliya</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"frantsúzskaya\" data-defn=\"французская\" data-hsk=\"A1\"><span class=\"si\">францу́зская</span><rt>frantsúzskaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"líchnost&#x27;\" data-defn=\"личность\" data-hsk=\"A1\"><span class=\"si\">ли́чность</span><rt>líchnost&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"li\" data-defn=\"ли\" data-hsk=\"A1\"><span class=\"si\">ли</span><rt>li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Li\" data-defn=\"ли\" data-hsk=\"A1\"><span class=\"si\">Ли</span><rt>Li</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"eyo\" data-defn=\"её\" data-hsk=\"A1\"><span class=\"si\">её</span><rt>eyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskoe\" data-defn=\"китайское\" data-hsk=\"A1\"><span class=\"si\">кита́йское</span><rt>kitáyskoe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby>.",
+      "transliteration": "Líliya — frantsúzskaya líchnost', a li Li — eyo kitáyskoe ímya.",
+      "start": 0.0,
+      "end": 4.12,
+      "duration": 4.12
+    },
+    {
+      "id": "story_19332_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Она учи́ла кита́йский в Фра́нции.",
+      "text_en": "She studied Chinese in France.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ona\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">Она</span><rt>Ona</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchíla\" data-defn=\"учила\" data-hsk=\"A1\"><span class=\"si\">учи́ла</span><rt>uchíla</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A1\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Frántsii\" data-defn=\"франции\" data-hsk=\"A1\"><span class=\"si\">Фра́нции</span><rt>Frántsii</rt></ruby>.",
+      "transliteration": "Ona uchíla kitáyskiy v Frántsii.",
+      "start": 4.47,
+      "end": 6.33,
+      "duration": 1.86
+    },
+    {
+      "id": "story_19332_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "У неё две кита́йские наста́вницы из Кита́я, одна — мужско́й наста́вник, а дру́гая — же́нский наста́вник.",
+      "text_en": "She has two Chinese teachers from China, one is a male teacher and the other is a female teacher.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"neyo\" data-defn=\"неё\" data-hsk=\"A1\"><span class=\"si\">неё</span><rt>neyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dve\" data-defn=\"две\" data-hsk=\"A1\"><span class=\"si\">две</span><rt>dve</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskie\" data-defn=\"китайские\" data-hsk=\"A1\"><span class=\"si\">кита́йские</span><rt>kitáyskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnitsy\" data-defn=\"наставницы\" data-hsk=\"A1\"><span class=\"si\">наста́вницы</span><rt>nastávnitsy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Kitáya\" data-defn=\"китая\" data-hsk=\"A1\"><span class=\"si\">Кита́я</span><rt>Kitáya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"odna\" data-defn=\"одна\" data-hsk=\"A1\"><span class=\"si\">одна</span><rt>odna</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"muzhskóy\" data-defn=\"мужской\" data-hsk=\"A1\"><span class=\"si\">мужско́й</span><rt>muzhskóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A1\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drúgaya\" data-defn=\"другая\" data-hsk=\"A1\"><span class=\"si\">дру́гая</span><rt>drúgaya</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"zhénskiy\" data-defn=\"женский\" data-hsk=\"A1\"><span class=\"si\">же́нский</span><rt>zhénskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A1\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby>.",
+      "transliteration": "U neyo dve kitáyskie nastávnitsy iz Kitáya, odna — muzhskóy nastávnik, a drúgaya — zhénskiy nastávnik.",
+      "start": 6.68,
+      "end": 12.8,
+      "duration": 6.12
+    },
+    {
+      "id": "story_19332_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Они́ занимались вме́сте, гова́рили на кита́йском вме́сте, пили кофе и смотрели филь́мы вме́сте и ста́ли хо́рошими дру́зьями.",
+      "text_en": "They took classes together, spoke Chinese together, drank coffee and watched movies together, and became very good friends.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oní\" data-defn=\"они\" data-hsk=\"A1\"><span class=\"si\">Они́</span><rt>Oní</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zanimalis&#x27;\" data-defn=\"занимались\" data-hsk=\"A1\"><span class=\"si\">занимались</span><rt>zanimalis&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A1\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"govárili\" data-defn=\"говарили\" data-hsk=\"A1\"><span class=\"si\">гова́рили</span><rt>govárili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskom\" data-defn=\"китайском\" data-hsk=\"A1\"><span class=\"si\">кита́йском</span><rt>kitáyskom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A1\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"pili\" data-defn=\"пили\" data-hsk=\"A1\"><span class=\"si\">пили</span><rt>pili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kofe\" data-defn=\"кофе\" data-hsk=\"A1\"><span class=\"si\">кофе</span><rt>kofe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotreli\" data-defn=\"смотрели\" data-hsk=\"A1\"><span class=\"si\">смотрели</span><rt>smotreli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"fil&#x27;́my\" data-defn=\"фильмы\" data-hsk=\"A1\"><span class=\"si\">филь́мы</span><rt>fil&#x27;́my</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A1\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stáli\" data-defn=\"стали\" data-hsk=\"A1\"><span class=\"si\">ста́ли</span><rt>stáli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khóroshimi\" data-defn=\"хорошими\" data-hsk=\"A1\"><span class=\"si\">хо́рошими</span><rt>khóroshimi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drúz&#x27;yami\" data-defn=\"друзьями\" data-hsk=\"A1\"><span class=\"si\">дру́зьями</span><rt>drúz&#x27;yami</rt></ruby>.",
+      "transliteration": "Oní zanimalis' vméste, govárili na kitáyskom vméste, pili kofe i smotreli fil'́my vméste i stáli khóroshimi drúz'yami.",
+      "start": 13.15,
+      "end": 19.82,
+      "duration": 6.67
+    }
+  ],
+  "total_chunks": 4,
+  "audio_duration": 20.07,
+  "has_chunk_audio": true
 }

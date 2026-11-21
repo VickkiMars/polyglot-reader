@@ -529,5 +529,140 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_3431_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Мужча́рина жела́л учи́ться стрельбе́ из лу́ка, поэ́тому он осно́вал иску́сного лу́чника, чтобы на́учить его́.",
+      "text_en": "A man wanted to learn archery, so he found a skilled archer to teach him.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Muzhchárina\" data-defn=\"мужчарина\" data-hsk=\"A2\"><span class=\"si\">Мужча́рина</span><rt>Muzhchárina</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhelál\" data-defn=\"желал\" data-hsk=\"A2\"><span class=\"si\">жела́л</span><rt>zhelál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchít&#x27;sya\" data-defn=\"учиться\" data-hsk=\"A2\"><span class=\"si\">учи́ться</span><rt>uchít&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strel&#x27;bé\" data-defn=\"стрельбе\" data-hsk=\"A2\"><span class=\"si\">стрельбе́</span><rt>strel&#x27;bé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lúka\" data-defn=\"лука\" data-hsk=\"A2\"><span class=\"si\">лу́ка</span><rt>lúka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poétomu\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">поэ́тому</span><rt>poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"osnóval\" data-defn=\"основал\" data-hsk=\"A2\"><span class=\"si\">осно́вал</span><rt>osnóval</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iskúsnogo\" data-defn=\"искусного\" data-hsk=\"A2\"><span class=\"si\">иску́сного</span><rt>iskúsnogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lúchnika\" data-defn=\"лучника\" data-hsk=\"A2\"><span class=\"si\">лу́чника</span><rt>lúchnika</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"náuchit&#x27;\" data-defn=\"научить\" data-hsk=\"A2\"><span class=\"si\">на́учить</span><rt>náuchit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby>.",
+      "transliteration": "Muzhchárina zhelál uchít'sya strel'bé iz lúka, poétomu on osnóval iskúsnogo lúchnika, chtoby náuchit' egó.",
+      "start": 0.0,
+      "end": 5.61,
+      "duration": 5.61
+    },
+    {
+      "id": "story_3431_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Он взя́л лу́к и две стрелы́, гото́вый к пра́ктическому вы́стрелу.",
+      "text_en": "He picked up a bow and two arrows, ready to take a practice shot.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vzyál\" data-defn=\"взял\" data-hsk=\"A2\"><span class=\"si\">взя́л</span><rt>vzyál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lúk\" data-defn=\"лук\" data-hsk=\"A2\"><span class=\"si\">лу́к</span><rt>lúk</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dve\" data-defn=\"две\" data-hsk=\"A2\"><span class=\"si\">две</span><rt>dve</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strelý\" data-defn=\"стрелы\" data-hsk=\"A2\"><span class=\"si\">стрелы́</span><rt>strelý</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"gotóvyy\" data-defn=\"готовый\" data-hsk=\"A2\"><span class=\"si\">гото́вый</span><rt>gotóvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"k\" data-defn=\"к\" data-hsk=\"A2\"><span class=\"si\">к</span><rt>k</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prákticheskomu\" data-defn=\"практическому\" data-hsk=\"A2\"><span class=\"si\">пра́ктическому</span><rt>prákticheskomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"výstrelu\" data-defn=\"выстрелу\" data-hsk=\"A2\"><span class=\"si\">вы́стрелу</span><rt>výstrelu</rt></ruby>.",
+      "transliteration": "On vzyál lúk i dve strelý, gotóvyy k prákticheskomu výstrelu.",
+      "start": 5.96,
+      "end": 9.37,
+      "duration": 3.41
+    },
+    {
+      "id": "story_3431_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Тогда́ его́ наста́вник подошёл, взял одну́ из стрел и бро́сил её́ на землю́.",
+      "text_en": "Just then, his teacher came over, took one of the arrows, and threw it on the ground.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Togdá\" data-defn=\"тогда\" data-hsk=\"A2\"><span class=\"si\">Тогда́</span><rt>Togdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A2\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podoshyol\" data-defn=\"подошёл\" data-hsk=\"A2\"><span class=\"si\">подошёл</span><rt>podoshyol</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vzyal\" data-defn=\"взял\" data-hsk=\"A2\"><span class=\"si\">взял</span><rt>vzyal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"odnú\" data-defn=\"одну\" data-hsk=\"A2\"><span class=\"si\">одну́</span><rt>odnú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strel\" data-defn=\"стрел\" data-hsk=\"A2\"><span class=\"si\">стрел</span><rt>strel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"brósil\" data-defn=\"бросил\" data-hsk=\"A2\"><span class=\"si\">бро́сил</span><rt>brósil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eyó\" data-defn=\"её\" data-hsk=\"A2\"><span class=\"si\">её́</span><rt>eyó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zemlyú\" data-defn=\"землю\" data-hsk=\"A2\"><span class=\"si\">землю́</span><rt>zemlyú</rt></ruby>.",
+      "transliteration": "Togdá egó nastávnik podoshyol, vzyal odnú iz strel i brósil eyó na zemlyú.",
+      "start": 9.72,
+      "end": 13.77,
+      "duration": 4.05
+    },
+    {
+      "id": "story_3431_p1_c0",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "«Почему́ ты забра́л мою втору́ю стрелу́?» — спра́шивает сту́дент, озада́ченный.",
+      "text_en": "“Why did you take away my second arrow?” the student asked in surprise.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Pochemú\" data-defn=\"почему\" data-hsk=\"A2\"><span class=\"si\">Почему́</span><rt>Pochemú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zabrál\" data-defn=\"забрал\" data-hsk=\"A2\"><span class=\"si\">забра́л</span><rt>zabrál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moyu\" data-defn=\"мою\" data-hsk=\"A2\"><span class=\"si\">мою</span><rt>moyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vtorúyu\" data-defn=\"вторую\" data-hsk=\"A2\"><span class=\"si\">втору́ю</span><rt>vtorúyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strelú\" data-defn=\"стрелу\" data-hsk=\"A2\"><span class=\"si\">стрелу́</span><rt>strelú</rt></ruby>?» — <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A2\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stúdent\" data-defn=\"студент\" data-hsk=\"A2\"><span class=\"si\">сту́дент</span><rt>stúdent</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ozadáchennyy\" data-defn=\"озадаченный\" data-hsk=\"A2\"><span class=\"si\">озада́ченный</span><rt>ozadáchennyy</rt></ruby>.",
+      "transliteration": "«Pochemú ty zabrál moyu vtorúyu strelú?» — spráshivaet stúdent, ozadáchennyy.",
+      "start": 14.37,
+      "end": 18.61,
+      "duration": 4.24
+    },
+    {
+      "id": "story_3431_p2_c0",
+      "chunk_index": 4,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "«Я не забрал твою втору́ю стрелу́.",
+      "text_en": "“I didn’t take away your second arrow.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zabral\" data-defn=\"забрал\" data-hsk=\"A2\"><span class=\"si\">забрал</span><rt>zabral</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoyu\" data-defn=\"твою\" data-hsk=\"A2\"><span class=\"si\">твою</span><rt>tvoyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vtorúyu\" data-defn=\"вторую\" data-hsk=\"A2\"><span class=\"si\">втору́ю</span><rt>vtorúyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strelú\" data-defn=\"стрелу\" data-hsk=\"A2\"><span class=\"si\">стрелу́</span><rt>strelú</rt></ruby>.",
+      "transliteration": "«Ya ne zabral tvoyu vtorúyu strelú.",
+      "start": 19.21,
+      "end": 21.12,
+      "duration": 1.91
+    },
+    {
+      "id": "story_3431_p2_c1",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Я забрал твою пе́рвую.",
+      "text_en": "I took away your first.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zabral\" data-defn=\"забрал\" data-hsk=\"A2\"><span class=\"si\">забрал</span><rt>zabral</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoyu\" data-defn=\"твою\" data-hsk=\"A2\"><span class=\"si\">твою</span><rt>tvoyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvuyu\" data-defn=\"первую\" data-hsk=\"A2\"><span class=\"si\">пе́рвую</span><rt>pérvuyu</rt></ruby>.",
+      "transliteration": "Ya zabral tvoyu pérvuyu.",
+      "start": 21.47,
+      "end": 23.01,
+      "duration": 1.54
+    },
+    {
+      "id": "story_3431_p2_c2",
+      "chunk_index": 6,
+      "paragraph_index": 2,
+      "sentence_index": 2,
+      "text": "С ней ты всегдá не попа́дёшь в мише́нь», — объясни́л наста́вник.",
+      "text_en": "You wouldn’t have hit the target with it anyway,” the teacher explained.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"S\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">С</span><rt>S</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ney\" data-defn=\"ней\" data-hsk=\"A2\"><span class=\"si\">ней</span><rt>ney</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsegdá\" data-defn=\"всегдá\" data-hsk=\"A2\"><span class=\"si\">всегдá</span><rt>vsegdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"popádyosh&#x27;\" data-defn=\"попадёшь\" data-hsk=\"A2\"><span class=\"si\">попа́дёшь</span><rt>popádyosh&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mishén&#x27;\" data-defn=\"мишень\" data-hsk=\"A2\"><span class=\"si\">мише́нь</span><rt>mishén&#x27;</rt></ruby>», — <ruby class=\"mb-tooltip\" data-py=\"obyasníl\" data-defn=\"объяснил\" data-hsk=\"A2\"><span class=\"si\">объясни́л</span><rt>obyasníl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A2\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby>.",
+      "transliteration": "S ney ty vsegdá ne popádyosh' v mishén'», — obyasníl nastávnik.",
+      "start": 23.36,
+      "end": 26.55,
+      "duration": 3.19
+    },
+    {
+      "id": "story_3431_p3_c0",
+      "chunk_index": 7,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "«Почему́ бы и нет?» — спра́шивает сту́дент, озада́ченный.",
+      "text_en": "“Why not?” the student asked, puzzled.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Pochemú\" data-defn=\"почему\" data-hsk=\"A2\"><span class=\"si\">Почему́</span><rt>Pochemú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"by\" data-defn=\"бы\" data-hsk=\"A2\"><span class=\"si\">бы</span><rt>by</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">нет</span><rt>net</rt></ruby>?» — <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A2\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stúdent\" data-defn=\"студент\" data-hsk=\"A2\"><span class=\"si\">сту́дент</span><rt>stúdent</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ozadáchennyy\" data-defn=\"озадаченный\" data-hsk=\"A2\"><span class=\"si\">озада́ченный</span><rt>ozadáchennyy</rt></ruby>.",
+      "transliteration": "«Pochemú by i net?» — spráshivaet stúdent, ozadáchennyy.",
+      "start": 27.15,
+      "end": 30.45,
+      "duration": 3.3
+    },
+    {
+      "id": "story_3431_p4_c0",
+      "chunk_index": 8,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "«Если ты продо́лжишь дужи́ть, что у тебя ес́ть друго́й шанс, когда ты стреля́ешь, ты не использо́вaшь по́лностью свой пе́рвый шанс.",
+      "text_en": "“If you keep thinking you have another chance when you shoot, you won’t make the most of your first chance.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Esli\" data-defn=\"если\" data-hsk=\"A2\"><span class=\"si\">Если</span><rt>Esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prodólzhish&#x27;\" data-defn=\"продолжишь\" data-hsk=\"A2\"><span class=\"si\">продо́лжишь</span><rt>prodólzhish&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"duzhít&#x27;\" data-defn=\"дужить\" data-hsk=\"A2\"><span class=\"si\">дужи́ть</span><rt>duzhít&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebya\" data-defn=\"тебя\" data-hsk=\"A2\"><span class=\"si\">тебя</span><rt>tebya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eśt&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">ес́ть</span><rt>eśt&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugóy\" data-defn=\"другой\" data-hsk=\"A2\"><span class=\"si\">друго́й</span><rt>drugóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shans\" data-defn=\"шанс\" data-hsk=\"A2\"><span class=\"si\">шанс</span><rt>shans</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kogda\" data-defn=\"когда\" data-hsk=\"A2\"><span class=\"si\">когда</span><rt>kogda</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strelyáesh&#x27;\" data-defn=\"стреляешь\" data-hsk=\"A2\"><span class=\"si\">стреля́ешь</span><rt>strelyáesh&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ispol&#x27;zóvash&#x27;\" data-defn=\"использовaшь\" data-hsk=\"A2\"><span class=\"si\">использо́вaшь</span><rt>ispol&#x27;zóvash&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pólnost&#x27;yu\" data-defn=\"полностью\" data-hsk=\"A2\"><span class=\"si\">по́лностью</span><rt>pólnost&#x27;yu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoy\" data-defn=\"свой\" data-hsk=\"A2\"><span class=\"si\">свой</span><rt>svoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvyy\" data-defn=\"первый\" data-hsk=\"A2\"><span class=\"si\">пе́рвый</span><rt>pérvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shans\" data-defn=\"шанс\" data-hsk=\"A2\"><span class=\"si\">шанс</span><rt>shans</rt></ruby>.",
+      "transliteration": "«Esli ty prodólzhish' duzhít', chto u tebya eśt' drugóy shans, kogda ty strelyáesh', ty ne ispol'zóvash' pólnost'yu svoy pérvyy shans.",
+      "start": 31.05,
+      "end": 37.41,
+      "duration": 6.36
+    },
+    {
+      "id": "story_3431_p4_c1",
+      "chunk_index": 9,
+      "paragraph_index": 4,
+      "sentence_index": 1,
+      "text": "Поэтому́ не́т ни́кaкой ра́зницы, есть у тебя эта́ пе́рвая стрела́ или нет», — ответил наста́вник.",
+      "text_en": "So it makes no difference whether you have that first arrow,” the teacher replied.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Poetomú\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">Поэтому́</span><rt>Poetomú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nét\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">не́т</span><rt>nét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"níkakoy\" data-defn=\"никaкой\" data-hsk=\"A2\"><span class=\"si\">ни́кaкой</span><rt>níkakoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ráznitsy\" data-defn=\"разницы\" data-hsk=\"A2\"><span class=\"si\">ра́зницы</span><rt>ráznitsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"est&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">есть</span><rt>est&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebya\" data-defn=\"тебя\" data-hsk=\"A2\"><span class=\"si\">тебя</span><rt>tebya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"etá\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">эта́</span><rt>etá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvaya\" data-defn=\"первая\" data-hsk=\"A2\"><span class=\"si\">пе́рвая</span><rt>pérvaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"strelá\" data-defn=\"стрела\" data-hsk=\"A2\"><span class=\"si\">стрела́</span><rt>strelá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"A2\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">нет</span><rt>net</rt></ruby>», — <ruby class=\"mb-tooltip\" data-py=\"otvetil\" data-defn=\"ответил\" data-hsk=\"A2\"><span class=\"si\">ответил</span><rt>otvetil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A2\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby>.",
+      "transliteration": "Poetomú nét níkakoy ráznitsy, est' u tebya etá pérvaya strelá ili net», — otvetil nastávnik.",
+      "start": 37.76,
+      "end": 42.9,
+      "duration": 5.14
+    }
+  ],
+  "total_chunks": 10,
+  "audio_duration": 43.15,
+  "has_chunk_audio": true
 }

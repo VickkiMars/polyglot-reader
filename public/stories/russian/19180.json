@@ -541,5 +541,140 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_19180_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Ты зна́ешь?",
+      "text_en": "Did you know?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">Ты</span><rt>Ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáesh&#x27;\" data-defn=\"знаешь\" data-hsk=\"A2\"><span class=\"si\">зна́ешь</span><rt>znáesh&#x27;</rt></ruby>?",
+      "transliteration": "Ty znáesh'?",
+      "start": 0.0,
+      "end": 1.02,
+      "duration": 1.02
+    },
+    {
+      "id": "story_19180_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "О́коло моего́ до́ма есть университе́т.",
+      "text_en": "There is a university next to my home.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ókolo\" data-defn=\"около\" data-hsk=\"A2\"><span class=\"si\">О́коло</span><rt>Ókolo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moegó\" data-defn=\"моего\" data-hsk=\"A2\"><span class=\"si\">моего́</span><rt>moegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"est&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">есть</span><rt>est&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"universitét\" data-defn=\"университет\" data-hsk=\"A2\"><span class=\"si\">университе́т</span><rt>universitét</rt></ruby>.",
+      "transliteration": "Ókolo moegó dóma est' universitét.",
+      "start": 1.37,
+      "end": 3.41,
+      "duration": 2.04
+    },
+    {
+      "id": "story_19180_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "В э́том университе́те 30 000 студе́нтов и бо́льше 2 000 наста́вников.",
+      "text_en": "This university has 30,000 students and more than 2,000 teachers.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"étom\" data-defn=\"этом\" data-hsk=\"A2\"><span class=\"si\">э́том</span><rt>étom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"universitéte\" data-defn=\"университете\" data-hsk=\"A2\"><span class=\"si\">университе́те</span><rt>universitéte</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"30\" data-defn=\"30\" data-hsk=\"A2\"><span class=\"si\">30</span><rt>30</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"000\" data-defn=\"000\" data-hsk=\"A2\"><span class=\"si\">000</span><rt>000</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studéntov\" data-defn=\"студентов\" data-hsk=\"A2\"><span class=\"si\">студе́нтов</span><rt>studéntov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ból&#x27;she\" data-defn=\"больше\" data-hsk=\"A2\"><span class=\"si\">бо́льше</span><rt>ból&#x27;she</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"2\" data-defn=\"2\" data-hsk=\"A2\"><span class=\"si\">2</span><rt>2</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"000\" data-defn=\"000\" data-hsk=\"A2\"><span class=\"si\">000</span><rt>000</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnikov\" data-defn=\"наставников\" data-hsk=\"A2\"><span class=\"si\">наста́вников</span><rt>nastávnikov</rt></ruby>.",
+      "transliteration": "V étom universitéte 30 000 studéntov i ból'she 2 000 nastávnikov.",
+      "start": 3.76,
+      "end": 6.57,
+      "duration": 2.81
+    },
+    {
+      "id": "story_19180_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Э́та школа лу́чшая в го́роде.",
+      "text_en": "It is the best school in the city.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Éta\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">Э́та</span><rt>Éta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkola\" data-defn=\"школа\" data-hsk=\"A2\"><span class=\"si\">школа</span><rt>shkola</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lúchshaya\" data-defn=\"лучшая\" data-hsk=\"A2\"><span class=\"si\">лу́чшая</span><rt>lúchshaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"górode\" data-defn=\"городе\" data-hsk=\"A2\"><span class=\"si\">го́роде</span><rt>górode</rt></ruby>.",
+      "transliteration": "Éta shkola lúchshaya v górode.",
+      "start": 6.92,
+      "end": 8.66,
+      "duration": 1.74
+    },
+    {
+      "id": "story_19180_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "То́же, потому что мой дом ря́дом с университе́том, при́нятие пи́щи и поку́пки очень удо́бные.",
+      "text_en": "Also because my home is next to the university, eating and shopping are very convenient.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">То́же</span><rt>Tózhe</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"potomu\" data-defn=\"потому\" data-hsk=\"A2\"><span class=\"si\">потому</span><rt>potomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A2\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dom\" data-defn=\"дом\" data-hsk=\"A2\"><span class=\"si\">дом</span><rt>dom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ryádom\" data-defn=\"рядом\" data-hsk=\"A2\"><span class=\"si\">ря́дом</span><rt>ryádom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"universitétom\" data-defn=\"университетом\" data-hsk=\"A2\"><span class=\"si\">университе́том</span><rt>universitétom</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"prínyatie\" data-defn=\"принятие\" data-hsk=\"A2\"><span class=\"si\">при́нятие</span><rt>prínyatie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"píshchi\" data-defn=\"пищи\" data-hsk=\"A2\"><span class=\"si\">пи́щи</span><rt>píshchi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pokúpki\" data-defn=\"покупки\" data-hsk=\"A2\"><span class=\"si\">поку́пки</span><rt>pokúpki</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ochen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">очень</span><rt>ochen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"udóbnye\" data-defn=\"удобные\" data-hsk=\"A2\"><span class=\"si\">удо́бные</span><rt>udóbnye</rt></ruby>.",
+      "transliteration": "Tózhe, potomu chto moy dom ryádom s universitétom, prínyatie píshchi i pokúpki ochen' udóbnye.",
+      "start": 9.01,
+      "end": 14.2,
+      "duration": 5.19
+    },
+    {
+      "id": "story_19180_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "Вокру́г много магази́нов и рестора́нов, включая пи́щу Юньна́ня, пи́щу Сычуа́ня, канто́нскую пи́щу...",
+      "text_en": "There are many shops and restaurants around, including Yunnan food, Sichuan food, Cantonese food...you can have whatever you want.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Vokrúg\" data-defn=\"вокруг\" data-hsk=\"A2\"><span class=\"si\">Вокру́г</span><rt>Vokrúg</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnogo\" data-defn=\"много\" data-hsk=\"A2\"><span class=\"si\">много</span><rt>mnogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"magazínov\" data-defn=\"магазинов\" data-hsk=\"A2\"><span class=\"si\">магази́нов</span><rt>magazínov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"restoránov\" data-defn=\"ресторанов\" data-hsk=\"A2\"><span class=\"si\">рестора́нов</span><rt>restoránov</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vklyuchaya\" data-defn=\"включая\" data-hsk=\"A2\"><span class=\"si\">включая</span><rt>vklyuchaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"píshchu\" data-defn=\"пищу\" data-hsk=\"A2\"><span class=\"si\">пи́щу</span><rt>píshchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yun&#x27;nánya\" data-defn=\"юньнаня\" data-hsk=\"A2\"><span class=\"si\">Юньна́ня</span><rt>Yun&#x27;nánya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"píshchu\" data-defn=\"пищу\" data-hsk=\"A2\"><span class=\"si\">пи́щу</span><rt>píshchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Sychuánya\" data-defn=\"сычуаня\" data-hsk=\"A2\"><span class=\"si\">Сычуа́ня</span><rt>Sychuánya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kantónskuyu\" data-defn=\"кантонскую\" data-hsk=\"A2\"><span class=\"si\">канто́нскую</span><rt>kantónskuyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"píshchu\" data-defn=\"пищу\" data-hsk=\"A2\"><span class=\"si\">пи́щу</span><rt>píshchu</rt></ruby>...",
+      "transliteration": "Vokrúg mnogo magazínov i restoránov, vklyuchaya píshchu Yun'nánya, píshchu Sychuánya, kantónskuyu píshchu...",
+      "start": 14.55,
+      "end": 20.35,
+      "duration": 5.8
+    },
+    {
+      "id": "story_19180_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "ты можешь взять всё, что хо́чешь.",
+      "text_en": "There is a mountain behind this university, which is very famous.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhesh&#x27;\" data-defn=\"можешь\" data-hsk=\"A2\"><span class=\"si\">можешь</span><rt>mozhesh&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vzyat&#x27;\" data-defn=\"взять\" data-hsk=\"A2\"><span class=\"si\">взять</span><rt>vzyat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"A2\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khóchesh&#x27;\" data-defn=\"хочешь\" data-hsk=\"A2\"><span class=\"si\">хо́чешь</span><rt>khóchesh&#x27;</rt></ruby>.",
+      "transliteration": "ty mozhesh' vzyat' vsyo, chto khóchesh'.",
+      "start": 20.7,
+      "end": 22.5,
+      "duration": 1.8
+    },
+    {
+      "id": "story_19180_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "Сза́ди университе́та есть гора́, кото́рая очень изве́стная.",
+      "text_en": "Many people come here to travel, and both Chinese and foreigners like to come here to climb mountains.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Szádi\" data-defn=\"сзади\" data-hsk=\"A2\"><span class=\"si\">Сза́ди</span><rt>Szádi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"universitéta\" data-defn=\"университета\" data-hsk=\"A2\"><span class=\"si\">университе́та</span><rt>universitéta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"est&#x27;\" data-defn=\"есть\" data-hsk=\"A2\"><span class=\"si\">есть</span><rt>est&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gorá\" data-defn=\"гора\" data-hsk=\"A2\"><span class=\"si\">гора́</span><rt>gorá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotóraya\" data-defn=\"которая\" data-hsk=\"A2\"><span class=\"si\">кото́рая</span><rt>kotóraya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ochen&#x27;\" data-defn=\"очень\" data-hsk=\"A2\"><span class=\"si\">очень</span><rt>ochen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"izvéstnaya\" data-defn=\"известная\" data-hsk=\"A2\"><span class=\"si\">изве́стная</span><rt>izvéstnaya</rt></ruby>.",
+      "transliteration": "Szádi universitéta est' gorá, kotóraya ochen' izvéstnaya.",
+      "start": 22.85,
+      "end": 26.24,
+      "duration": 3.39
+    },
+    {
+      "id": "story_19180_p0_c8",
+      "chunk_index": 8,
+      "paragraph_index": 0,
+      "sentence_index": 8,
+      "text": "Многие лю́ди прихо́дят здесь, чтобы пое́здить, и и́ китайцы, и иноземцы любя́т при́ходить сюда́, чтобы воссо́йти на го́ры.",
+      "text_en": "Because I like climbing mountains and chatting with different people, I became a tour guide and was happy every day.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mnogie\" data-defn=\"многие\" data-hsk=\"A2\"><span class=\"si\">Многие</span><rt>Mnogie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdi\" data-defn=\"люди\" data-hsk=\"A2\"><span class=\"si\">лю́ди</span><rt>lyúdi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prikhódyat\" data-defn=\"приходят\" data-hsk=\"A2\"><span class=\"si\">прихо́дят</span><rt>prikhódyat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zdes&#x27;\" data-defn=\"здесь\" data-hsk=\"A2\"><span class=\"si\">здесь</span><rt>zdes&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poézdit&#x27;\" data-defn=\"поездить\" data-hsk=\"A2\"><span class=\"si\">пое́здить</span><rt>poézdit&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"í\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и́</span><rt>í</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitaytsy\" data-defn=\"китайцы\" data-hsk=\"A2\"><span class=\"si\">китайцы</span><rt>kitaytsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"inozemtsy\" data-defn=\"иноземцы\" data-hsk=\"A2\"><span class=\"si\">иноземцы</span><rt>inozemtsy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubyát\" data-defn=\"любят\" data-hsk=\"A2\"><span class=\"si\">любя́т</span><rt>lyubyát</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"príkhodit&#x27;\" data-defn=\"приходить\" data-hsk=\"A2\"><span class=\"si\">при́ходить</span><rt>príkhodit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"syudá\" data-defn=\"сюда\" data-hsk=\"A2\"><span class=\"si\">сюда́</span><rt>syudá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vossóyti\" data-defn=\"воссойти\" data-hsk=\"A2\"><span class=\"si\">воссо́йти</span><rt>vossóyti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góry\" data-defn=\"горы\" data-hsk=\"A2\"><span class=\"si\">го́ры</span><rt>góry</rt></ruby>.",
+      "transliteration": "Mnogie lyúdi prikhódyat zdes', chtoby poézdit', i í kitaytsy, i inozemtsy lyubyát príkhodit' syudá, chtoby vossóyti na góry.",
+      "start": 26.59,
+      "end": 33.03,
+      "duration": 6.44
+    },
+    {
+      "id": "story_19180_p0_c9",
+      "chunk_index": 9,
+      "paragraph_index": 0,
+      "sentence_index": 9,
+      "text": "Поскольку я люблю́ восходи́ть на го́ры и болтать с друго́ми людьми, я ста́л проводни́ком и был счастлив кажды́й день.",
+      "text_en": "Because I like climbing mountains and chatting with different people, I became a tour guide and was happy every day.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Poskol&#x27;ku\" data-defn=\"поскольку\" data-hsk=\"A2\"><span class=\"si\">Поскольку</span><rt>Poskol&#x27;ku</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyublyú\" data-defn=\"люблю\" data-hsk=\"A2\"><span class=\"si\">люблю́</span><rt>lyublyú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voskhodít&#x27;\" data-defn=\"восходить\" data-hsk=\"A2\"><span class=\"si\">восходи́ть</span><rt>voskhodít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góry\" data-defn=\"горы\" data-hsk=\"A2\"><span class=\"si\">го́ры</span><rt>góry</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"boltat&#x27;\" data-defn=\"болтать\" data-hsk=\"A2\"><span class=\"si\">болтать</span><rt>boltat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugómi\" data-defn=\"другоми\" data-hsk=\"A2\"><span class=\"si\">друго́ми</span><rt>drugómi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyud&#x27;mi\" data-defn=\"людьми\" data-hsk=\"A2\"><span class=\"si\">людьми</span><rt>lyud&#x27;mi</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stál\" data-defn=\"стал\" data-hsk=\"A2\"><span class=\"si\">ста́л</span><rt>stál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"provodníkom\" data-defn=\"проводником\" data-hsk=\"A2\"><span class=\"si\">проводни́ком</span><rt>provodníkom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"A2\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"schastliv\" data-defn=\"счастлив\" data-hsk=\"A2\"><span class=\"si\">счастлив</span><rt>schastliv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kazhdýy\" data-defn=\"каждый\" data-hsk=\"A2\"><span class=\"si\">кажды́й</span><rt>kazhdýy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby>.",
+      "transliteration": "Poskol'ku ya lyublyú voskhodít' na góry i boltat' s drugómi lyud'mi, ya stál provodníkom i byl schastliv kazhdýy den'.",
+      "start": 33.38,
+      "end": 38.74,
+      "duration": 5.36
+    }
+  ],
+  "total_chunks": 10,
+  "audio_duration": 38.99,
+  "has_chunk_audio": true
 }

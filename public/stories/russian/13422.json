@@ -205,5 +205,101 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_13422_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Мо́я ма́ма рабо́тает в библиоте́ке.",
+      "text_en": "Mom works in the library.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Móya\" data-defn=\"моя\" data-hsk=\"A1\"><span class=\"si\">Мо́я</span><rt>Móya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"máma\" data-defn=\"мама\" data-hsk=\"A1\"><span class=\"si\">ма́ма</span><rt>máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótaet\" data-defn=\"работает\" data-hsk=\"A1\"><span class=\"si\">рабо́тает</span><rt>rabótaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bibliotéke\" data-defn=\"библиотеке\" data-hsk=\"A1\"><span class=\"si\">библиоте́ке</span><rt>bibliotéke</rt></ruby>.",
+      "transliteration": "Móya máma rabótaet v bibliotéke.",
+      "start": 0.0,
+      "end": 1.89,
+      "duration": 1.89
+    },
+    {
+      "id": "story_13422_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Она́ встаёт в шесть часо́в ка́ждое у́тро, де́лает за́втрак для меня́ и моего́ ба́тю, а потом мы куша́ем вме́сте.",
+      "text_en": "She gets up at six o'clock every morning, makes breakfast for me and my father, and then we eat together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstayot\" data-defn=\"встаёт\" data-hsk=\"A1\"><span class=\"si\">встаёт</span><rt>vstayot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shest&#x27;\" data-defn=\"шесть\" data-hsk=\"A1\"><span class=\"si\">шесть</span><rt>shest&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasóv\" data-defn=\"часов\" data-hsk=\"A1\"><span class=\"si\">часо́в</span><rt>chasóv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdoe\" data-defn=\"каждое\" data-hsk=\"A1\"><span class=\"si\">ка́ждое</span><rt>kázhdoe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"útro\" data-defn=\"утро\" data-hsk=\"A1\"><span class=\"si\">у́тро</span><rt>útro</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"délaet\" data-defn=\"делает\" data-hsk=\"A1\"><span class=\"si\">де́лает</span><rt>délaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"závtrak\" data-defn=\"завтрак\" data-hsk=\"A1\"><span class=\"si\">за́втрак</span><rt>závtrak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A1\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moegó\" data-defn=\"моего\" data-hsk=\"A1\"><span class=\"si\">моего́</span><rt>moegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bátyu\" data-defn=\"батю\" data-hsk=\"A1\"><span class=\"si\">ба́тю</span><rt>bátyu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potom\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">потом</span><rt>potom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"my\" data-defn=\"мы\" data-hsk=\"A1\"><span class=\"si\">мы</span><rt>my</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kusháem\" data-defn=\"кушаем\" data-hsk=\"A1\"><span class=\"si\">куша́ем</span><rt>kusháem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A1\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "Oná vstayot v shest' chasóv kázhdoe útro, délaet závtrak dlya menyá i moegó bátyu, a potom my kusháem vméste.",
+      "start": 2.24,
+      "end": 7.93,
+      "duration": 5.69
+    },
+    {
+      "id": "story_13422_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "В полвторо́го она́ посыла́ет меня́ в шко́лу, а пото́м идёт на рабо́ту.",
+      "text_en": "At half past seven, she would send me to school first and then go to work.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polvtorógo\" data-defn=\"полвторого\" data-hsk=\"A1\"><span class=\"si\">полвторо́го</span><rt>polvtorógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posyláet\" data-defn=\"посылает\" data-hsk=\"A1\"><span class=\"si\">посыла́ет</span><rt>posyláet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potóm\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">пото́м</span><rt>potóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"idyot\" data-defn=\"идёт\" data-hsk=\"A1\"><span class=\"si\">идёт</span><rt>idyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A1\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>.",
+      "transliteration": "V polvtorógo oná posyláet menyá v shkólu, a potóm idyot na rabótu.",
+      "start": 8.28,
+      "end": 11.69,
+      "duration": 3.41
+    },
+    {
+      "id": "story_13422_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "В полвторо́го она́ посыла́ет меня́ в шко́лу, а пото́м идёт на рабо́ту.",
+      "text_en": "The library opened at nine o'clock, and she often arrived at the library door a quarter before nine o'clock.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polvtorógo\" data-defn=\"полвторого\" data-hsk=\"A1\"><span class=\"si\">полвторо́го</span><rt>polvtorógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posyláet\" data-defn=\"посылает\" data-hsk=\"A1\"><span class=\"si\">посыла́ет</span><rt>posyláet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potóm\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">пото́м</span><rt>potóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"idyot\" data-defn=\"идёт\" data-hsk=\"A1\"><span class=\"si\">идёт</span><rt>idyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A1\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>.",
+      "transliteration": "V polvtorógo oná posyláet menyá v shkólu, a potóm idyot na rabótu.",
+      "start": 12.04,
+      "end": 15.45,
+      "duration": 3.41
+    },
+    {
+      "id": "story_13422_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "В полвторо́го она́ посыла́ет меня́ в шко́лу, а пото́м идёт на рабо́ту.",
+      "text_en": "At noon, my mother will eat in the library cafeteria.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polvtorógo\" data-defn=\"полвторого\" data-hsk=\"A1\"><span class=\"si\">полвторо́го</span><rt>polvtorógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posyláet\" data-defn=\"посылает\" data-hsk=\"A1\"><span class=\"si\">посыла́ет</span><rt>posyláet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potóm\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">пото́м</span><rt>potóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"idyot\" data-defn=\"идёт\" data-hsk=\"A1\"><span class=\"si\">идёт</span><rt>idyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A1\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>.",
+      "transliteration": "V polvtorógo oná posyláet menyá v shkólu, a potóm idyot na rabótu.",
+      "start": 15.8,
+      "end": 19.21,
+      "duration": 3.41
+    },
+    {
+      "id": "story_13422_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "В полвторо́го она́ посыла́ет меня́ в шко́лу, а пото́м идёт на рабо́ту.",
+      "text_en": "In the evening we have dinner together at home and sometimes watch TV together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polvtorógo\" data-defn=\"полвторого\" data-hsk=\"A1\"><span class=\"si\">полвторо́го</span><rt>polvtorógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posyláet\" data-defn=\"посылает\" data-hsk=\"A1\"><span class=\"si\">посыла́ет</span><rt>posyláet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potóm\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">пото́м</span><rt>potóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"idyot\" data-defn=\"идёт\" data-hsk=\"A1\"><span class=\"si\">идёт</span><rt>idyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A1\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>.",
+      "transliteration": "V polvtorógo oná posyláet menyá v shkólu, a potóm idyot na rabótu.",
+      "start": 19.56,
+      "end": 22.97,
+      "duration": 3.41
+    },
+    {
+      "id": "story_13422_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "В полвторо́го она́ посыла́ет меня́ в шко́лу, а пото́м идёт на рабо́ту.",
+      "text_en": "This is my mom's day.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polvtorógo\" data-defn=\"полвторого\" data-hsk=\"A1\"><span class=\"si\">полвторо́го</span><rt>polvtorógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posyláet\" data-defn=\"посылает\" data-hsk=\"A1\"><span class=\"si\">посыла́ет</span><rt>posyláet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A1\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"potóm\" data-defn=\"потом\" data-hsk=\"A1\"><span class=\"si\">пото́м</span><rt>potóm</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"idyot\" data-defn=\"идёт\" data-hsk=\"A1\"><span class=\"si\">идёт</span><rt>idyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rabótu\" data-defn=\"работу\" data-hsk=\"A1\"><span class=\"si\">рабо́ту</span><rt>rabótu</rt></ruby>.",
+      "transliteration": "V polvtorógo oná posyláet menyá v shkólu, a potóm idyot na rabótu.",
+      "start": 23.32,
+      "end": 26.73,
+      "duration": 3.41
+    }
+  ],
+  "total_chunks": 7,
+  "audio_duration": 26.98,
+  "has_chunk_audio": true
 }

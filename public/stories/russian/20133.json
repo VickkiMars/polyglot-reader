@@ -233,5 +233,62 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_20133_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "У меня́ в втора́й полови́не дня встре́ча.",
+      "text_en": "I have a meeting this afternoon.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A2\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vtoráy\" data-defn=\"вторай\" data-hsk=\"A2\"><span class=\"si\">втора́й</span><rt>vtoráy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polovíne\" data-defn=\"половине\" data-hsk=\"A2\"><span class=\"si\">полови́не</span><rt>polovíne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dnya\" data-defn=\"дня\" data-hsk=\"A2\"><span class=\"si\">дня</span><rt>dnya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstrécha\" data-defn=\"встреча\" data-hsk=\"A2\"><span class=\"si\">встре́ча</span><rt>vstrécha</rt></ruby>.",
+      "transliteration": "U menyá v vtoráy polovíne dnya vstrécha.",
+      "start": 0.0,
+      "end": 1.96,
+      "duration": 1.96
+    },
+    {
+      "id": "story_20133_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Э́та встре́ча ва́жная, но я не гото́вый.",
+      "text_en": "This meeting is very important, but I am not ready.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Éta\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">Э́та</span><rt>Éta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstrécha\" data-defn=\"встреча\" data-hsk=\"A2\"><span class=\"si\">встре́ча</span><rt>vstrécha</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vázhnaya\" data-defn=\"важная\" data-hsk=\"A2\"><span class=\"si\">ва́жная</span><rt>vázhnaya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gotóvyy\" data-defn=\"готовый\" data-hsk=\"A2\"><span class=\"si\">гото́вый</span><rt>gotóvyy</rt></ruby>.",
+      "transliteration": "Éta vstrécha vázhnaya, no ya ne gotóvyy.",
+      "start": 2.31,
+      "end": 4.8,
+      "duration": 2.49
+    },
+    {
+      "id": "story_20133_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "В по́лдень у меня́ не было вре́мени ку́шать, поэ́тому я пил кофе́ и ел хлеб в офи́се, пока́ подгота́вливал вещи́ для встре́чи.",
+      "text_en": "At noon, I didn’t have time to eat, so I drank coffee and ate bread in the office while preparing things for the meeting.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pólden&#x27;\" data-defn=\"полдень\" data-hsk=\"A2\"><span class=\"si\">по́лдень</span><rt>pólden&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"menyá\" data-defn=\"меня\" data-hsk=\"A2\"><span class=\"si\">меня́</span><rt>menyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bylo\" data-defn=\"было\" data-hsk=\"A2\"><span class=\"si\">было</span><rt>bylo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémeni\" data-defn=\"времени\" data-hsk=\"A2\"><span class=\"si\">вре́мени</span><rt>vrémeni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kúshat&#x27;\" data-defn=\"кушать\" data-hsk=\"A2\"><span class=\"si\">ку́шать</span><rt>kúshat&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poétomu\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">поэ́тому</span><rt>poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pil\" data-defn=\"пил\" data-hsk=\"A2\"><span class=\"si\">пил</span><rt>pil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kofé\" data-defn=\"кофе\" data-hsk=\"A2\"><span class=\"si\">кофе́</span><rt>kofé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"el\" data-defn=\"ел\" data-hsk=\"A2\"><span class=\"si\">ел</span><rt>el</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khleb\" data-defn=\"хлеб\" data-hsk=\"A2\"><span class=\"si\">хлеб</span><rt>khleb</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ofíse\" data-defn=\"офисе\" data-hsk=\"A2\"><span class=\"si\">офи́се</span><rt>ofíse</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poká\" data-defn=\"пока\" data-hsk=\"A2\"><span class=\"si\">пока́</span><rt>poká</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podgotávlival\" data-defn=\"подготавливал\" data-hsk=\"A2\"><span class=\"si\">подгота́вливал</span><rt>podgotávlival</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"veshchí\" data-defn=\"вещи\" data-hsk=\"A2\"><span class=\"si\">вещи́</span><rt>veshchí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A2\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstréchi\" data-defn=\"встречи\" data-hsk=\"A2\"><span class=\"si\">встре́чи</span><rt>vstréchi</rt></ruby>.",
+      "transliteration": "V pólden' u menyá ne bylo vrémeni kúshat', poétomu ya pil kofé i el khleb v ofíse, poká podgotávlival veshchí dlya vstréchi.",
+      "start": 5.15,
+      "end": 11.62,
+      "duration": 6.47
+    },
+    {
+      "id": "story_20133_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "В конце́ концо́в, зара́нее я был гото́вый к встре́че.",
+      "text_en": "Finally, before the meeting, I was ready.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kontsé\" data-defn=\"конце\" data-hsk=\"A2\"><span class=\"si\">конце́</span><rt>kontsé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kontsóv\" data-defn=\"концов\" data-hsk=\"A2\"><span class=\"si\">концо́в</span><rt>kontsóv</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"zaránee\" data-defn=\"заранее\" data-hsk=\"A2\"><span class=\"si\">зара́нее</span><rt>zaránee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"A2\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gotóvyy\" data-defn=\"готовый\" data-hsk=\"A2\"><span class=\"si\">гото́вый</span><rt>gotóvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"k\" data-defn=\"к\" data-hsk=\"A2\"><span class=\"si\">к</span><rt>k</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstréche\" data-defn=\"встрече\" data-hsk=\"A2\"><span class=\"si\">встре́че</span><rt>vstréche</rt></ruby>.",
+      "transliteration": "V kontsé kontsóv, zaránee ya byl gotóvyy k vstréche.",
+      "start": 11.97,
+      "end": 14.86,
+      "duration": 2.89
+    }
+  ],
+  "total_chunks": 4,
+  "audio_duration": 15.11,
+  "has_chunk_audio": true
 }

@@ -563,5 +563,127 @@
       "torfl": "B1",
       "hsk": "B1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_2685_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Если вы́ должны́ дра́ться с кем-то, вы́ вы́берете обыкнове́нного челове́ка или чемпио́на по карате́?",
+      "text_en": "If you had to fight someone, would you choose an ordinary person or a karate champion?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Esli\" data-defn=\"если\" data-hsk=\"B1\"><span class=\"si\">Если</span><rt>Esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vý\" data-defn=\"вы\" data-hsk=\"B1\"><span class=\"si\">вы́</span><rt>vý</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dolzhný\" data-defn=\"должны\" data-hsk=\"B1\"><span class=\"si\">должны́</span><rt>dolzhný</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drát&#x27;sya\" data-defn=\"драться\" data-hsk=\"B1\"><span class=\"si\">дра́ться</span><rt>drát&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"B1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kem-to\" data-defn=\"кем-то\" data-hsk=\"B1\"><span class=\"si\">кем-то</span><rt>kem-to</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vý\" data-defn=\"вы\" data-hsk=\"B1\"><span class=\"si\">вы́</span><rt>vý</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"výberete\" data-defn=\"выберете\" data-hsk=\"B1\"><span class=\"si\">вы́берете</span><rt>výberete</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyknovénnogo\" data-defn=\"обыкновенного\" data-hsk=\"B1\"><span class=\"si\">обыкнове́нного</span><rt>obyknovénnogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovéka\" data-defn=\"человека\" data-hsk=\"B1\"><span class=\"si\">челове́ка</span><rt>chelovéka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"B1\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chempióna\" data-defn=\"чемпиона\" data-hsk=\"B1\"><span class=\"si\">чемпио́на</span><rt>chempióna</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"B1\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"karaté\" data-defn=\"карате\" data-hsk=\"B1\"><span class=\"si\">карате́</span><rt>karaté</rt></ruby>?",
+      "transliteration": "Esli vý dolzhný drát'sya s kem-to, vý výberete obyknovénnogo chelovéka ili chempióna po karaté?",
+      "start": 0.0,
+      "end": 5.1,
+      "duration": 5.1
+    },
+    {
+      "id": "story_2685_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Вероя́тно, бу́дут большинст́во людéй вы́бирать обыкнове́нного челове́ка, потому что все зна́ют, что чемпио́н по карате́ хоро́ший бо́рющийся.",
+      "text_en": "Most people would probably choose the ordinary person, because everyone knows a karate champion is good at fighting.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Veroyátno\" data-defn=\"вероятно\" data-hsk=\"B1\"><span class=\"si\">Вероя́тно</span><rt>Veroyátno</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"búdut\" data-defn=\"будут\" data-hsk=\"B1\"><span class=\"si\">бу́дут</span><rt>búdut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shinst́vo\" data-defn=\"большинство\" data-hsk=\"B1\"><span class=\"si\">большинст́во</span><rt>bol&#x27;shinst́vo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyudéy\" data-defn=\"людéй\" data-hsk=\"B1\"><span class=\"si\">людéй</span><rt>lyudéy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"výbirat&#x27;\" data-defn=\"выбирать\" data-hsk=\"B1\"><span class=\"si\">вы́бирать</span><rt>výbirat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyknovénnogo\" data-defn=\"обыкновенного\" data-hsk=\"B1\"><span class=\"si\">обыкнове́нного</span><rt>obyknovénnogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovéka\" data-defn=\"человека\" data-hsk=\"B1\"><span class=\"si\">челове́ка</span><rt>chelovéka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"potomu\" data-defn=\"потому\" data-hsk=\"B1\"><span class=\"si\">потому</span><rt>potomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vse\" data-defn=\"все\" data-hsk=\"B1\"><span class=\"si\">все</span><rt>vse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáyut\" data-defn=\"знают\" data-hsk=\"B1\"><span class=\"si\">зна́ют</span><rt>znáyut</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chempión\" data-defn=\"чемпион\" data-hsk=\"B1\"><span class=\"si\">чемпио́н</span><rt>chempión</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"B1\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"karaté\" data-defn=\"карате\" data-hsk=\"B1\"><span class=\"si\">карате́</span><rt>karaté</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khoróshiy\" data-defn=\"хороший\" data-hsk=\"B1\"><span class=\"si\">хоро́ший</span><rt>khoróshiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bóryushchiysya\" data-defn=\"борющийся\" data-hsk=\"B1\"><span class=\"si\">бо́рющийся</span><rt>bóryushchiysya</rt></ruby>.",
+      "transliteration": "Veroyátno, búdut bol'shinst́vo lyudéy výbirat' obyknovénnogo chelovéka, potomu chto vse znáyut, chto chempión po karaté khoróshiy bóryushchiysya.",
+      "start": 5.45,
+      "end": 12.17,
+      "duration": 6.72
+    },
+    {
+      "id": "story_2685_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Но есть исто́рия из Соединённых Шта́тов: двое людей попа́ли в дра́ку из-за чего́-то незначи́тельного.",
+      "text_en": "But there is a story from the United States: two people got into a fight over something trivial.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"No\" data-defn=\"но\" data-hsk=\"B1\"><span class=\"si\">Но</span><rt>No</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"est&#x27;\" data-defn=\"есть\" data-hsk=\"B1\"><span class=\"si\">есть</span><rt>est&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"istóriya\" data-defn=\"история\" data-hsk=\"B1\"><span class=\"si\">исто́рия</span><rt>istóriya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B1\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Soedinyonnykh\" data-defn=\"соединённых\" data-hsk=\"B1\"><span class=\"si\">Соединённых</span><rt>Soedinyonnykh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Shtátov\" data-defn=\"штатов\" data-hsk=\"B1\"><span class=\"si\">Шта́тов</span><rt>Shtátov</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"dvoe\" data-defn=\"двое\" data-hsk=\"B1\"><span class=\"si\">двое</span><rt>dvoe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyudey\" data-defn=\"людей\" data-hsk=\"B1\"><span class=\"si\">людей</span><rt>lyudey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"popáli\" data-defn=\"попали\" data-hsk=\"B1\"><span class=\"si\">попа́ли</span><rt>popáli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dráku\" data-defn=\"драку\" data-hsk=\"B1\"><span class=\"si\">дра́ку</span><rt>dráku</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz-za\" data-defn=\"из-за\" data-hsk=\"B1\"><span class=\"si\">из-за</span><rt>iz-za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chegó-to\" data-defn=\"чего-то\" data-hsk=\"B1\"><span class=\"si\">чего́-то</span><rt>chegó-to</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"neznachítel&#x27;nogo\" data-defn=\"незначительного\" data-hsk=\"B1\"><span class=\"si\">незначи́тельного</span><rt>neznachítel&#x27;nogo</rt></ruby>.",
+      "transliteration": "No est' istóriya iz Soedinyonnykh Shtátov: dvoe lyudey popáli v dráku iz-za chegó-to neznachítel'nogo.",
+      "start": 12.77,
+      "end": 18.03,
+      "duration": 5.26
+    },
+    {
+      "id": "story_2685_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Один был обыкнове́нным челове́ком, а друго́й — знамени́тым чемпио́ном по карате́.",
+      "text_en": "One was an ordinary person, and the other was a famous karate champion.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Odin\" data-defn=\"один\" data-hsk=\"B1\"><span class=\"si\">Один</span><rt>Odin</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"B1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyknovénnym\" data-defn=\"обыкновенным\" data-hsk=\"B1\"><span class=\"si\">обыкнове́нным</span><rt>obyknovénnym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovékom\" data-defn=\"человеком\" data-hsk=\"B1\"><span class=\"si\">челове́ком</span><rt>chelovékom</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"B1\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugóy\" data-defn=\"другой\" data-hsk=\"B1\"><span class=\"si\">друго́й</span><rt>drugóy</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"znamenítym\" data-defn=\"знаменитым\" data-hsk=\"B1\"><span class=\"si\">знамени́тым</span><rt>znamenítym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chempiónom\" data-defn=\"чемпионом\" data-hsk=\"B1\"><span class=\"si\">чемпио́ном</span><rt>chempiónom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"B1\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"karaté\" data-defn=\"карате\" data-hsk=\"B1\"><span class=\"si\">карате́</span><rt>karaté</rt></ruby>.",
+      "transliteration": "Odin byl obyknovénnym chelovékom, a drugóy — znamenítym chempiónom po karaté.",
+      "start": 18.38,
+      "end": 22.49,
+      "duration": 4.11
+    },
+    {
+      "id": "story_2685_p1_c2",
+      "chunk_index": 4,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "Нескóлько мину́т по́сле результат был я́сен — чемпио́н по карате́ потеря́л.",
+      "text_en": "A few minutes later, the result was clear—the karate champion had lost.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Neskól&#x27;ko\" data-defn=\"нескóлько\" data-hsk=\"B1\"><span class=\"si\">Нескóлько</span><rt>Neskól&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"minút\" data-defn=\"минут\" data-hsk=\"B1\"><span class=\"si\">мину́т</span><rt>minút</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pósle\" data-defn=\"после\" data-hsk=\"B1\"><span class=\"si\">по́сле</span><rt>pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rezul&#x27;tat\" data-defn=\"результат\" data-hsk=\"B1\"><span class=\"si\">результат</span><rt>rezul&#x27;tat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"B1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yásen\" data-defn=\"ясен\" data-hsk=\"B1\"><span class=\"si\">я́сен</span><rt>yásen</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"chempión\" data-defn=\"чемпион\" data-hsk=\"B1\"><span class=\"si\">чемпио́н</span><rt>chempión</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"B1\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"karaté\" data-defn=\"карате\" data-hsk=\"B1\"><span class=\"si\">карате́</span><rt>karaté</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poteryál\" data-defn=\"потерял\" data-hsk=\"B1\"><span class=\"si\">потеря́л</span><rt>poteryál</rt></ruby>.",
+      "transliteration": "Neskól'ko minút pósle rezul'tat byl yásen — chempión po karaté poteryál.",
+      "start": 22.84,
+      "end": 26.74,
+      "duration": 3.9
+    },
+    {
+      "id": "story_2685_p1_c3",
+      "chunk_index": 5,
+      "paragraph_index": 1,
+      "sentence_index": 3,
+      "text": "Чемпио́н был принужда́ем правилами и не мог уда́рить голову друго́го челове́ка.",
+      "text_en": "The champion was constrained by the rules and would not strike the other person's head.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Chempión\" data-defn=\"чемпион\" data-hsk=\"B1\"><span class=\"si\">Чемпио́н</span><rt>Chempión</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"B1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prinuzhdáem\" data-defn=\"принуждаем\" data-hsk=\"B1\"><span class=\"si\">принужда́ем</span><rt>prinuzhdáem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pravilami\" data-defn=\"правилами\" data-hsk=\"B1\"><span class=\"si\">правилами</span><rt>pravilami</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mog\" data-defn=\"мог\" data-hsk=\"B1\"><span class=\"si\">мог</span><rt>mog</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"udárit&#x27;\" data-defn=\"ударить\" data-hsk=\"B1\"><span class=\"si\">уда́рить</span><rt>udárit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"golovu\" data-defn=\"голову\" data-hsk=\"B1\"><span class=\"si\">голову</span><rt>golovu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugógo\" data-defn=\"другого\" data-hsk=\"B1\"><span class=\"si\">друго́го</span><rt>drugógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovéka\" data-defn=\"человека\" data-hsk=\"B1\"><span class=\"si\">челове́ка</span><rt>chelovéka</rt></ruby>.",
+      "transliteration": "Chempión byl prinuzhdáem pravilami i ne mog udárit' golovu drugógo chelovéka.",
+      "start": 27.09,
+      "end": 30.89,
+      "duration": 3.8
+    },
+    {
+      "id": "story_2685_p1_c4",
+      "chunk_index": 6,
+      "paragraph_index": 1,
+      "sentence_index": 4,
+      "text": "Но обыкнове́нный челове́к никогда́ не у́чил эти правила.",
+      "text_en": "But the ordinary person had never learned those rules.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"No\" data-defn=\"но\" data-hsk=\"B1\"><span class=\"si\">Но</span><rt>No</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyknovénnyy\" data-defn=\"обыкновенный\" data-hsk=\"B1\"><span class=\"si\">обыкнове́нный</span><rt>obyknovénnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chelovék\" data-defn=\"человек\" data-hsk=\"B1\"><span class=\"si\">челове́к</span><rt>chelovék</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nikogdá\" data-defn=\"никогда\" data-hsk=\"B1\"><span class=\"si\">никогда́</span><rt>nikogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"úchil\" data-defn=\"учил\" data-hsk=\"B1\"><span class=\"si\">у́чил</span><rt>úchil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eti\" data-defn=\"эти\" data-hsk=\"B1\"><span class=\"si\">эти</span><rt>eti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pravila\" data-defn=\"правила\" data-hsk=\"B1\"><span class=\"si\">правила</span><rt>pravila</rt></ruby>.",
+      "transliteration": "No obyknovénnyy chelovék nikogdá ne úchil eti pravila.",
+      "start": 31.24,
+      "end": 34.05,
+      "duration": 2.81
+    },
+    {
+      "id": "story_2685_p1_c5",
+      "chunk_index": 7,
+      "paragraph_index": 1,
+      "sentence_index": 5,
+      "text": "Он уда́рил чемпио́на кре́пко в нос, и чемпио́н не смог верну́ться назад.",
+      "text_en": "He punched the champion hard in the nose, and the champion could not get back up.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"B1\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"udáril\" data-defn=\"ударил\" data-hsk=\"B1\"><span class=\"si\">уда́рил</span><rt>udáril</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chempióna\" data-defn=\"чемпиона\" data-hsk=\"B1\"><span class=\"si\">чемпио́на</span><rt>chempióna</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krépko\" data-defn=\"крепко\" data-hsk=\"B1\"><span class=\"si\">кре́пко</span><rt>krépko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nos\" data-defn=\"нос\" data-hsk=\"B1\"><span class=\"si\">нос</span><rt>nos</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chempión\" data-defn=\"чемпион\" data-hsk=\"B1\"><span class=\"si\">чемпио́н</span><rt>chempión</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smog\" data-defn=\"смог\" data-hsk=\"B1\"><span class=\"si\">смог</span><rt>smog</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vernút&#x27;sya\" data-defn=\"вернуться\" data-hsk=\"B1\"><span class=\"si\">верну́ться</span><rt>vernút&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nazad\" data-defn=\"назад\" data-hsk=\"B1\"><span class=\"si\">назад</span><rt>nazad</rt></ruby>.",
+      "transliteration": "On udáril chempióna krépko v nos, i chempión ne smog vernút'sya nazad.",
+      "start": 34.4,
+      "end": 38.23,
+      "duration": 3.83
+    },
+    {
+      "id": "story_2685_p2_c0",
+      "chunk_index": 8,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Поэ́тому воображе́ние более ва́жно, чем зна́ние!",
+      "text_en": "So imagination is more important than knowledge!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Poétomu\" data-defn=\"поэтому\" data-hsk=\"B1\"><span class=\"si\">Поэ́тому</span><rt>Poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voobrazhénie\" data-defn=\"воображение\" data-hsk=\"B1\"><span class=\"si\">воображе́ние</span><rt>voobrazhénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bolee\" data-defn=\"более\" data-hsk=\"B1\"><span class=\"si\">более</span><rt>bolee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vázhno\" data-defn=\"важно\" data-hsk=\"B1\"><span class=\"si\">ва́жно</span><rt>vázhno</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chem\" data-defn=\"чем\" data-hsk=\"B1\"><span class=\"si\">чем</span><rt>chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znánie\" data-defn=\"знание\" data-hsk=\"B1\"><span class=\"si\">зна́ние</span><rt>znánie</rt></ruby>!",
+      "transliteration": "Poétomu voobrazhénie bolee vázhno, chem znánie!",
+      "start": 38.83,
+      "end": 41.89,
+      "duration": 3.06
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 42.14,
+  "has_chunk_audio": true
 }

@@ -1,1 +1,475 @@
-{"id": 1642, "title": "Teaching cooking", "japanese_title": "料理を教える", "level": "Beginner", "hsk_tags": ["HSK1"], "slug": "teaching-cooking", "audio_url": "/audio/japanese/1642_teaching-cooking.mp3", "english_paragraphs": ["I can make lots of things, but I like cooking best. My friends and parents all like the dishes I make. They’re always happy to eat my cooking because it tastes so good. One day, my best friend said he wanted to learn to cook and asked me to teach him. I agreed. I told him how to make the dishes, but he never seemed to get them right. I think being a teacher is too hard."], "english_full": "I can make lots of things, but I like cooking best. My friends and parents all like the dishes I make. They’re always happy to eat my cooking because it tastes so good. One day, my best friend said he wanted to learn to cook and asked me to teach him. I agreed. I told him how to make the dishes, but he never seemed to get them right. I think being a teacher is too hard.", "japanese_paragraphs": ["私はいろいろなものを作れますが、料理をするのが一番好きです。友達も両親も、私が作る料理を気に入っています。おいしいので、みんないつも喜んで食べてくれます。ある日、親友が料理を習いたいと言って、教えてほしいと頼んできました。私は「いいよ」と答えました。料理の作り方を教えましたが、彼はどうしてもうまく作れませんでした。人に教えるのは、私には難しすぎると思いました。"], "reading_paragraphs": ["わたし は いろいろな もの を つくれます が、りょうり を する の が いちばん すき です。ともだち も りょうしん も、わたし が つくる りょうり を きにいっています。おいしい ので、みんな いつも よろこんで たべて くれます。あるひ、しんゆう が りょうり を ならいたい と いって、おしえて ほしい と たのんで きました。わたし は「いいよ」と こたえました。りょうり の つくりかた を おしえました が、かれ は どうしても うまく つくれませんでした。ひと に おしえる の は、わたし には むずかしすぎる と おもいました。"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いろいろ\" data-defn=\"various/all sorts of/variety of; various colors (colours)\" data-hsk=\"\"><span class=\"si\">いろいろ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing / object / item\" data-hsk=\"JLPT N5\"><span class=\"si\">もの</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくれ\" data-defn=\"つくれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">作れ</span><rt>つくれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"cooking; a dish\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">一番</span><rt>いちばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"friend/companion\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"parents\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"cooking; a dish\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きにいっ\" data-defn=\"to like/to be pleased with/to be delighted with/to take a liking to/to suit one&#x27;s fan (気に入る)\" data-hsk=\"JLPT N5\"><span class=\"si\">気に入っ</span><rt>きにいっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おいしい\" data-defn=\"delicious/tasty/sweet; attractive/appealing/convenient/favorable/desirable/profitable\" data-hsk=\"JLPT N5\"><span class=\"si\">おいしい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"that being the case/because of .../the reason is .../given that ...\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"みんな\" data-defn=\"everyone/everybody/all; everything/all\" data-hsk=\"\"><span class=\"si\">みんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いつも\" data-defn=\"always/all the time/at all times; never\" data-hsk=\"\"><span class=\"si\">いつも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よろこん\" data-defn=\"to be delighted/to be glad/to be pleased; to congratulate (喜ぶ)\" data-hsk=\"JLPT N5\"><span class=\"si\">喜ん</span><rt>よろこん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべ\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)\" data-hsk=\"JLPT N5\"><span class=\"si\">食べ</span><rt>たべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれ\" data-defn=\"to give/to let (one) have; to give (くれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">くれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にち\" data-defn=\"day / date\" data-hsk=\"JLPT N5\"><span class=\"si\">日</span><rt>にち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しんゆう\" data-defn=\"best friend\" data-hsk=\"JLPT N3\"><span class=\"si\">親友</span><rt>しんゆう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"cooking; a dish\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ならい\" data-defn=\"to take lessons in/to be taught/to learn (from a teacher)/to study (under a teacher)/ (習う)\" data-hsk=\"JLPT N5\"><span class=\"si\">習い</span><rt>ならい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっっ\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言っ</span><rt>いっっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほしい\" data-defn=\"wanted/wished for/in need of/desired; I want (you) to\" data-hsk=\"JLPT N5\"><span class=\"si\">ほしい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たのん\" data-defn=\"to request/to beg/to ask; to call/to order/to reserve (頼む)\" data-hsk=\"JLPT N5\"><span class=\"si\">頼ん</span><rt>たのん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"き\" data-defn=\"to come (stem of くる)\" data-hsk=\"JLPT N5\"><span class=\"si\">き</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こたえ\" data-defn=\"to answer/to reply (答える)\" data-hsk=\"JLPT N5\"><span class=\"si\">答え</span><rt>こたえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"cooking; a dish\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくりかた\" data-defn=\"how to make something\" data-hsk=\"JLPT N4\"><span class=\"si\">作り方</span><rt>つくりかた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どうしても\" data-defn=\"by all means/at any cost/no matter what/at any rate/surely; whether (one is) willing or no\" data-hsk=\"\"><span class=\"si\">どうしても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うまく\" data-defn=\"skillful/skilful/clever/expert/wise/successful; delicious/appetizing/appetising/tasty (うまい)\" data-hsk=\"JLPT N5\"><span class=\"si\">うまく</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくれ\" data-defn=\"つくれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">作れ</span><rt>つくれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"にん\" data-defn=\"person / people (counter)\" data-hsk=\"JLPT N5\"><span class=\"si\">人</span><rt>にん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえる\" data-defn=\"to teach/to instruct; to tell/to inform\" data-hsk=\"JLPT N5\"><span class=\"si\">教える</span><rt>おしえる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むずかし\" data-defn=\"difficult/hard/troublesome/complicated/serious (disease, problem, etc.); impossible/u (難しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">難し</span><rt>むずかし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎる\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse\" data-hsk=\"JLPT N5\"><span class=\"si\">すぎる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。"], "vocabulary": [{"word": "私", "reading": "わたし", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "いろいろ", "reading": "いろいろ", "translation": "", "jlpt": "-"}, {"word": "な", "reading": "な", "translation": "", "jlpt": "N5"}, {"word": "もの", "reading": "もの", "translation": "", "jlpt": "N5"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "作れ", "reading": "つくれ", "translation": "", "jlpt": "N5"}, {"word": "ます", "reading": "ます", "translation": "", "jlpt": "N5"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "料理", "reading": "りょうり", "translation": "", "jlpt": "N5"}, {"word": "する", "reading": "する", "translation": "", "jlpt": "N5"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "一番", "reading": "いちばん", "translation": "", "jlpt": "-"}, {"word": "好き", "reading": "すき", "translation": "", "jlpt": "N5"}, {"word": "です", "reading": "です", "translation": "", "jlpt": "N5"}, {"word": "友達", "reading": "ともだち", "translation": "", "jlpt": "N5"}, {"word": "も", "reading": "も", "translation": "", "jlpt": "N5"}, {"word": "両親", "reading": "りょうしん", "translation": "", "jlpt": "N4"}, {"word": "作る", "reading": "つくる", "translation": "", "jlpt": "N5"}, {"word": "気に入っ", "reading": "きにいっ", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "い", "reading": "い", "translation": "", "jlpt": "N5"}, {"word": "おいしい", "reading": "おいしい", "translation": "", "jlpt": "N5"}, {"word": "ので", "reading": "ので", "translation": "", "jlpt": "-"}, {"word": "みんな", "reading": "みんな", "translation": "", "jlpt": "-"}, {"word": "いつも", "reading": "いつも", "translation": "", "jlpt": "-"}, {"word": "喜ん", "reading": "よろこん", "translation": "", "jlpt": "N5"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "食べ", "reading": "たべ", "translation": "", "jlpt": "N5"}, {"word": "くれ", "reading": "くれ", "translation": "", "jlpt": "N5"}, {"word": "ある", "reading": "ある", "translation": "", "jlpt": "N5"}, {"word": "日", "reading": "にち", "translation": "", "jlpt": "N5"}, {"word": "親友", "reading": "しんゆう", "translation": "", "jlpt": "N3"}, {"word": "習い", "reading": "ならい", "translation": "", "jlpt": "N5"}, {"word": "たい", "reading": "たい", "translation": "", "jlpt": "N5"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "言っ", "reading": "いっっ", "translation": "", "jlpt": "N5"}, {"word": "教え", "reading": "おしえ", "translation": "", "jlpt": "N5"}, {"word": "ほしい", "reading": "ほしい", "translation": "", "jlpt": "N5"}, {"word": "頼ん", "reading": "たのん", "translation": "", "jlpt": "N5"}, {"word": "き", "reading": "き", "translation": "", "jlpt": "N5"}, {"word": "ました", "reading": "ました", "translation": "", "jlpt": "N5"}, {"word": "「", "reading": "「", "translation": "", "jlpt": "-"}, {"word": "いい", "reading": "いい", "translation": "", "jlpt": "N5"}, {"word": "よ", "reading": "よ", "translation": "", "jlpt": "N5"}, {"word": "」", "reading": "」", "translation": "", "jlpt": "-"}, {"word": "答え", "reading": "こたえ", "translation": "", "jlpt": "N5"}, {"word": "作り方", "reading": "つくりかた", "translation": "", "jlpt": "N4"}, {"word": "彼", "reading": "かれ", "translation": "", "jlpt": "-"}, {"word": "どうしても", "reading": "どうしても", "translation": "", "jlpt": "-"}, {"word": "うまく", "reading": "うまく", "translation": "", "jlpt": "N5"}, {"word": "ません", "reading": "ません", "translation": "", "jlpt": "N5"}, {"word": "でした", "reading": "でした", "translation": "", "jlpt": "N5"}, {"word": "人", "reading": "にん", "translation": "", "jlpt": "N5"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "教える", "reading": "おしえる", "translation": "", "jlpt": "N5"}, {"word": "難し", "reading": "むずかし", "translation": "", "jlpt": "N5"}, {"word": "すぎる", "reading": "すぎる", "translation": "", "jlpt": "N5"}, {"word": "思い", "reading": "おもい", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 1642,
+  "title": "Teaching cooking",
+  "japanese_title": "料理を教える",
+  "level": "Beginner",
+  "hsk_tags": [
+    "HSK1"
+  ],
+  "slug": "teaching-cooking",
+  "audio_url": "/audio/japanese/1642_teaching-cooking.mp3",
+  "english_paragraphs": [
+    "I can make lots of things, but I like cooking best. My friends and parents all like the dishes I make. They’re always happy to eat my cooking because it tastes so good. One day, my best friend said he wanted to learn to cook and asked me to teach him. I agreed. I told him how to make the dishes, but he never seemed to get them right. I think being a teacher is too hard."
+  ],
+  "english_full": "I can make lots of things, but I like cooking best. My friends and parents all like the dishes I make. They’re always happy to eat my cooking because it tastes so good. One day, my best friend said he wanted to learn to cook and asked me to teach him. I agreed. I told him how to make the dishes, but he never seemed to get them right. I think being a teacher is too hard.",
+  "japanese_paragraphs": [
+    "私はたくさんの物を作ることができますが、料理がいちばん好きです。私の友達と両親は、私が作る料理が全て好きです。彼らはいつも私の料理を食べるのを幸せに思っています。なぜなら、それがとても良い味だからです。ある日、親友が料理を学びたいと言い、私に教えてほしいと頼みました。私は同意しました。私は彼に料理の作り方を教えましたが、彼はそれを正しく作ることができないようでした。私は、教師であることはあまりにも難しいと思います。"
+  ],
+  "reading_paragraphs": [
+    "わたしはたくさんのものをつくることができますが、りょうりがいちばんすきです。わたしのともだちとりょうしんは、わたしがつくるりょうりがぜんぶすきです。かれらはいつもわたしのりょうりをたべるのをしあわせにおもっています。なぜなら、それがとてもよいあじだからです。あるひ、しんゆうがりょうりをまなびたいといい、わたしにおしえてほしいとたのみました。わたしはどういしました。わたしはかれにりょうりのつくりかたをおしえましたが、かれはそれをただしくつくることができないようでした。わたしは、きょうしであることはあまりにもむずかしいとおもいます。"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficien\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing/object/article/stuff/substance; one&#x27;s things/possessions/property/belongings\" data-hsk=\"\"><span class=\"si\">物</span><rt>もの</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">いちばん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"ともだち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"りょうしん (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">全て</span><rt>すべて</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いつも\" data-defn=\"いつも (word)\" data-hsk=\"\"><span class=\"si\">いつも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべる\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on\" data-hsk=\"JLPT N5\"><span class=\"si\">食べる</span><rt>たべる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもっ\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思っ</span><rt>おもっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"なぜなら\" data-defn=\"because/the reason is/if you want to know why\" data-hsk=\"\"><span class=\"si\">なぜなら</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"that/it; then/that point (in time)/that time\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"very/awfully/exceedingly; (not) at all/by no means/simply (cannot)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あじ\" data-defn=\"flavor/flavour/taste; charm/appeal/uniqueness/attractiveness\" data-hsk=\"\"><span class=\"si\">味</span><rt>あじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にち\" data-defn=\"day / date\" data-hsk=\"JLPT N5\"><span class=\"si\">日</span><rt>にち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しんゆう\" data-defn=\"しんゆう (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">親友</span><rt>しんゆう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まなび\" data-defn=\"to study (in depth)/to learn/to take lessons in (学ぶ)\" data-hsk=\"JLPT N5\"><span class=\"si\">学び</span><rt>まなび</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言い</span><rt>いい</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほしい\" data-defn=\"wanted/wished for/in need of/desired; I want (you) to\" data-hsk=\"JLPT N5\"><span class=\"si\">ほしい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たのみ\" data-defn=\"to request/to beg/to ask; to call/to order/to reserve (頼む)\" data-hsk=\"JLPT N5\"><span class=\"si\">頼み</span><rt>たのみ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どうい\" data-defn=\"agreement/consent/approval/assent; same opinion/same view\" data-hsk=\"\"><span class=\"si\">同意</span><rt>どうい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"かれ (word)\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくりかた\" data-defn=\"つくりかた (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">作り方</span><rt>つくりかた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"かれ (word)\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"that/it; then/that point (in time)/that time\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ただしく\" data-defn=\"certainly/surely/undoubtedly/evidently/really/truly; just/precisely/exactly\" data-hsk=\"\"><span class=\"si\">正しく</span><rt>ただしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よう\" data-defn=\"like / in the manner of\" data-hsk=\"JLPT N4\"><span class=\"si\">よう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"きょうし\" data-defn=\"teacher (classroom)\" data-hsk=\"\"><span class=\"si\">教師</span><rt>きょうし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むずかしい\" data-defn=\"difficult/hard/troublesome/complicated/serious (disease, problem, etc.); impossible/u\" data-hsk=\"JLPT N5\"><span class=\"si\">難しい</span><rt>むずかしい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。"
+  ],
+  "vocabulary": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "わたし (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "たくさん",
+      "reading": "たくさん",
+      "definition": "a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficien",
+      "jlpt": "-"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "物",
+      "reading": "もの",
+      "definition": "thing/object/article/stuff/substance; one's things/possessions/property/belongings",
+      "jlpt": "-"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "作る",
+      "reading": "つくる",
+      "definition": "to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a",
+      "jlpt": "N5"
+    },
+    {
+      "word": "こと",
+      "reading": "こと",
+      "definition": "thing / matter / fact",
+      "jlpt": "N5"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "でき",
+      "reading": "でき",
+      "definition": "to be out of/to have no more at hand (できる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "definition": "りょうり (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "いちばん",
+      "reading": "いちばん",
+      "definition": "number one/first/first place; best/most",
+      "jlpt": "-"
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "definition": "すき (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "definition": "ともだち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "両親",
+      "reading": "りょうしん",
+      "definition": "りょうしん (word)",
+      "jlpt": "N4"
+    },
+    {
+      "word": "全て",
+      "reading": "すべて",
+      "definition": "everything/all/the whole; entirely/completely/wholly/all",
+      "jlpt": "-"
+    },
+    {
+      "word": "彼ら",
+      "reading": "かれら",
+      "definition": "they/them",
+      "jlpt": "-"
+    },
+    {
+      "word": "いつも",
+      "reading": "いつも",
+      "definition": "いつも (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "definition": "to eat; to live on (e.g. a salary)/to live off/to subsist on",
+      "jlpt": "N5"
+    },
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "definition": "happiness/good fortune/luck/blessing",
+      "jlpt": "-"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "思っ",
+      "reading": "おもっ",
+      "definition": "to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "い",
+      "reading": "い",
+      "definition": "to be / to exist (auxiliary verb)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "なぜなら",
+      "reading": "なぜなら",
+      "definition": "because/the reason is/if you want to know why",
+      "jlpt": "-"
+    },
+    {
+      "word": "それ",
+      "reading": "それ",
+      "definition": "that/it; then/that point (in time)/that time",
+      "jlpt": "-"
+    },
+    {
+      "word": "とても",
+      "reading": "とても",
+      "definition": "very/awfully/exceedingly; (not) at all/by no means/simply (cannot)",
+      "jlpt": "-"
+    },
+    {
+      "word": "良い",
+      "reading": "よい",
+      "definition": "good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared",
+      "jlpt": "N5"
+    },
+    {
+      "word": "味",
+      "reading": "あじ",
+      "definition": "flavor/flavour/taste; charm/appeal/uniqueness/attractiveness",
+      "jlpt": "-"
+    },
+    {
+      "word": "だ",
+      "reading": "だ",
+      "definition": "be / is (plain copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "から",
+      "reading": "から",
+      "definition": "from / because / since",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ある",
+      "reading": "ある",
+      "definition": "there is / to exist (inanimate)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "日",
+      "reading": "にち",
+      "definition": "day / date",
+      "jlpt": "N5"
+    },
+    {
+      "word": "親友",
+      "reading": "しんゆう",
+      "definition": "しんゆう (word)",
+      "jlpt": "N3"
+    },
+    {
+      "word": "学び",
+      "reading": "まなび",
+      "definition": "to study (in depth)/to learn/to take lessons in (学ぶ)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "たい",
+      "reading": "たい",
+      "definition": "want to (verbal suffix of desire)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "言い",
+      "reading": "いい",
+      "definition": "to say/to utter/to declare; to name/to call (言う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "教え",
+      "reading": "おしえ",
+      "definition": "to teach/to instruct; to tell/to inform (教える)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ほしい",
+      "reading": "ほしい",
+      "definition": "wanted/wished for/in need of/desired; I want (you) to",
+      "jlpt": "N5"
+    },
+    {
+      "word": "頼み",
+      "reading": "たのみ",
+      "definition": "to request/to beg/to ask; to call/to order/to reserve (頼む)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "同意",
+      "reading": "どうい",
+      "definition": "agreement/consent/approval/assent; same opinion/same view",
+      "jlpt": "-"
+    },
+    {
+      "word": "し",
+      "reading": "し",
+      "definition": "to do (stem of する)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "彼",
+      "reading": "かれ",
+      "definition": "かれ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "作り方",
+      "reading": "つくりかた",
+      "definition": "つくりかた (word)",
+      "jlpt": "N4"
+    },
+    {
+      "word": "正しく",
+      "reading": "ただしく",
+      "definition": "certainly/surely/undoubtedly/evidently/really/truly; just/precisely/exactly",
+      "jlpt": "-"
+    },
+    {
+      "word": "ない",
+      "reading": "ない",
+      "definition": "not / non-existent",
+      "jlpt": "N5"
+    },
+    {
+      "word": "よう",
+      "reading": "よう",
+      "definition": "like / in the manner of",
+      "jlpt": "N4"
+    },
+    {
+      "word": "でした",
+      "reading": "でした",
+      "definition": "was / were (past polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "教師",
+      "reading": "きょうし",
+      "definition": "teacher (classroom)",
+      "jlpt": "-"
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "definition": "location / means marker (at/in/by)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あまりに",
+      "reading": "あまりに",
+      "definition": "too much/excessively/too",
+      "jlpt": "-"
+    },
+    {
+      "word": "も",
+      "reading": "も",
+      "definition": "also / too",
+      "jlpt": "N5"
+    },
+    {
+      "word": "難しい",
+      "reading": "むずかしい",
+      "definition": "difficult/hard/troublesome/complicated/serious (disease, problem, etc.); impossible/u",
+      "jlpt": "N5"
+    },
+    {
+      "word": "思い",
+      "reading": "おもい",
+      "definition": "to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_1642_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "私はたくさんの物を作ることができますが、料理がいちばん好きです。",
+      "text_en": "I can make lots of things, but I like cooking best.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficien\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing/object/article/stuff/substance; one&#x27;s things/possessions/property/belongings\" data-hsk=\"\"><span class=\"si\">物</span><rt>もの</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">いちばん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 6.4,
+      "duration": 6.4
+    },
+    {
+      "id": "story_1642_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "私の友達と両親は、私が作る料理が全て好きです。",
+      "text_en": "My friends and parents all like the dishes I make.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"ともだち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"りょうしん (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">全て</span><rt>すべて</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 6.75,
+      "end": 12.7,
+      "duration": 5.95
+    },
+    {
+      "id": "story_1642_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "彼らはいつも私の料理を食べるのを幸せに思っています。",
+      "text_en": "They’re always happy to eat my cooking because it tastes so good.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いつも\" data-defn=\"いつも (word)\" data-hsk=\"\"><span class=\"si\">いつも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべる\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on\" data-hsk=\"JLPT N5\"><span class=\"si\">食べる</span><rt>たべる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもっ\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思っ</span><rt>おもっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 13.05,
+      "end": 18.38,
+      "duration": 5.33
+    },
+    {
+      "id": "story_1642_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "なぜなら、それがとても良い味だからです。",
+      "text_en": "One day, my best friend said he wanted to learn to cook and asked me to teach him.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"なぜなら\" data-defn=\"because/the reason is/if you want to know why\" data-hsk=\"\"><span class=\"si\">なぜなら</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"that/it; then/that point (in time)/that time\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"very/awfully/exceedingly; (not) at all/by no means/simply (cannot)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あじ\" data-defn=\"flavor/flavour/taste; charm/appeal/uniqueness/attractiveness\" data-hsk=\"\"><span class=\"si\">味</span><rt>あじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 18.73,
+      "end": 22.38,
+      "duration": 3.65
+    },
+    {
+      "id": "story_1642_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "ある日、親友が料理を学びたいと言い、私に教えてほしいと頼みました。",
+      "text_en": "I agreed.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にち\" data-defn=\"day / date\" data-hsk=\"JLPT N5\"><span class=\"si\">日</span><rt>にち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しんゆう\" data-defn=\"しんゆう (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">親友</span><rt>しんゆう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まなび\" data-defn=\"to study (in depth)/to learn/to take lessons in (学ぶ)\" data-hsk=\"JLPT N5\"><span class=\"si\">学び</span><rt>まなび</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言い</span><rt>いい</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほしい\" data-defn=\"wanted/wished for/in need of/desired; I want (you) to\" data-hsk=\"JLPT N5\"><span class=\"si\">ほしい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たのみ\" data-defn=\"to request/to beg/to ask; to call/to order/to reserve (頼む)\" data-hsk=\"JLPT N5\"><span class=\"si\">頼み</span><rt>たのみ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 22.73,
+      "end": 29.58,
+      "duration": 6.85
+    },
+    {
+      "id": "story_1642_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "私は同意しました。",
+      "text_en": "I told him how to make the dishes, but he never seemed to get them right.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どうい\" data-defn=\"agreement/consent/approval/assent; same opinion/same view\" data-hsk=\"\"><span class=\"si\">同意</span><rt>どうい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 29.93,
+      "end": 32.45,
+      "duration": 2.52
+    },
+    {
+      "id": "story_1642_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "私は彼に料理の作り方を教えましたが、彼はそれを正しく作ることができないようでした。",
+      "text_en": "I think being a teacher is too hard.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"かれ (word)\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうり\" data-defn=\"りょうり (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">料理</span><rt>りょうり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくりかた\" data-defn=\"つくりかた (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">作り方</span><rt>つくりかた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おしえ\" data-defn=\"to teach/to instruct; to tell/to inform (教える)\" data-hsk=\"JLPT N5\"><span class=\"si\">教え</span><rt>おしえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"かれ (word)\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"that/it; then/that point (in time)/that time\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ただしく\" data-defn=\"certainly/surely/undoubtedly/evidently/really/truly; just/precisely/exactly\" data-hsk=\"\"><span class=\"si\">正しく</span><rt>ただしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"つくる\" data-defn=\"to make/to produce/to manufacture/to build/to construct; to prepare (food)/to brew (a\" data-hsk=\"JLPT N5\"><span class=\"si\">作る</span><rt>つくる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よう\" data-defn=\"like / in the manner of\" data-hsk=\"JLPT N4\"><span class=\"si\">よう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby>。",
+      "start": 32.8,
+      "end": 41.02,
+      "duration": 8.22
+    },
+    {
+      "id": "story_1642_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "私は、教師であることはあまりにも難しいと思います。",
+      "text_en": "I think being a teacher is too hard.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"きょうし\" data-defn=\"teacher (classroom)\" data-hsk=\"\"><span class=\"si\">教師</span><rt>きょうし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むずかしい\" data-defn=\"difficult/hard/troublesome/complicated/serious (disease, problem, etc.); impossible/u\" data-hsk=\"JLPT N5\"><span class=\"si\">難しい</span><rt>むずかしい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 41.37,
+      "end": 46.65,
+      "duration": 5.28
+    }
+  ],
+  "total_chunks": 8,
+  "audio_duration": 46.9,
+  "has_chunk_audio": true
+}

@@ -266,5 +266,127 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_21451_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Адреса́нт: чжанъи@email.com",
+      "text_en": "Sender: zhangyi@email.com",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Adresánt\" data-defn=\"адресант\" data-hsk=\"A2\"><span class=\"si\">Адреса́нт</span><rt>Adresánt</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"chzhani\" data-defn=\"чжанъи\" data-hsk=\"A2\"><span class=\"si\">чжанъи</span><rt>chzhani</rt></ruby>@<ruby class=\"mb-tooltip\" data-py=\"email\" data-defn=\"мейл, име́йл, электро́нная по́чта\" data-hsk=\"A2\"><span class=\"si\">email</span><rt>email</rt></ruby>.<ruby class=\"mb-tooltip\" data-py=\"com\" data-defn=\"com\" data-hsk=\"A2\"><span class=\"si\">com</span><rt>com</rt></ruby>",
+      "transliteration": "Adresánt: chzhani@email.com",
+      "start": 0.0,
+      "end": 1.69,
+      "duration": 1.69
+    },
+    {
+      "id": "story_21451_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Получа́тель: янчэн@email.com",
+      "text_en": "Recipient: yangchen@email.com",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Poluchátel&#x27;\" data-defn=\"получатель\" data-hsk=\"A2\"><span class=\"si\">Получа́тель</span><rt>Poluchátel&#x27;</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"yanchen\" data-defn=\"янчэн\" data-hsk=\"A2\"><span class=\"si\">янчэн</span><rt>yanchen</rt></ruby>@<ruby class=\"mb-tooltip\" data-py=\"email\" data-defn=\"мейл, име́йл, электро́нная по́чта\" data-hsk=\"A2\"><span class=\"si\">email</span><rt>email</rt></ruby>.<ruby class=\"mb-tooltip\" data-py=\"com\" data-defn=\"com\" data-hsk=\"A2\"><span class=\"si\">com</span><rt>com</rt></ruby>",
+      "transliteration": "Poluchátel': yanchen@email.com",
+      "start": 2.29,
+      "end": 3.94,
+      "duration": 1.65
+    },
+    {
+      "id": "story_21451_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Да́та: вторник, авгус́т 12, 2025 11:00 дн.",
+      "text_en": "Date: Tuesday, August 12, 2025 11:00 AM",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Dáta\" data-defn=\"дата\" data-hsk=\"A2\"><span class=\"si\">Да́та</span><rt>Dáta</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"vtornik\" data-defn=\"вторник\" data-hsk=\"A2\"><span class=\"si\">вторник</span><rt>vtornik</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"avguśt\" data-defn=\"август\" data-hsk=\"A2\"><span class=\"si\">авгус́т</span><rt>avguśt</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"12\" data-defn=\"12\" data-hsk=\"A2\"><span class=\"si\">12</span><rt>12</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"2025\" data-defn=\"2025\" data-hsk=\"A2\"><span class=\"si\">2025</span><rt>2025</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"11\" data-defn=\"11\" data-hsk=\"A2\"><span class=\"si\">11</span><rt>11</rt></ruby>:<ruby class=\"mb-tooltip\" data-py=\"00\" data-defn=\"00\" data-hsk=\"A2\"><span class=\"si\">00</span><rt>00</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dn\" data-defn=\"дн\" data-hsk=\"A2\"><span class=\"si\">дн</span><rt>dn</rt></ruby>.",
+      "transliteration": "Dáta: vtornik, avguśt 12, 2025 11:00 dn.",
+      "start": 4.54,
+      "end": 6.98,
+      "duration": 2.44
+    },
+    {
+      "id": "story_21451_p3_c0",
+      "chunk_index": 3,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Тема: Спаси́бо за по́мощь с перее́здом",
+      "text_en": "Subject: Thank you for helping me move",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Tema\" data-defn=\"тема\" data-hsk=\"A2\"><span class=\"si\">Тема</span><rt>Tema</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"Spasíbo\" data-defn=\"спасибо\" data-hsk=\"A2\"><span class=\"si\">Спаси́бо</span><rt>Spasíbo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pómoshch&#x27;\" data-defn=\"помощь\" data-hsk=\"A2\"><span class=\"si\">по́мощь</span><rt>pómoshch&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pereézdom\" data-defn=\"переездом\" data-hsk=\"A2\"><span class=\"si\">перее́здом</span><rt>pereézdom</rt></ruby>",
+      "transliteration": "Tema: Spasíbo za pómoshch' s pereézdom",
+      "start": 7.58,
+      "end": 9.77,
+      "duration": 2.19
+    },
+    {
+      "id": "story_21451_p4_c0",
+      "chunk_index": 4,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "Сяо Ян,",
+      "text_en": "Xiao Yang,",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Syao\" data-defn=\"сяо\" data-hsk=\"A2\"><span class=\"si\">Сяо</span><rt>Syao</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Yan\" data-defn=\"ян\" data-hsk=\"A2\"><span class=\"si\">Ян</span><rt>Yan</rt></ruby>,",
+      "transliteration": "Syao Yan,",
+      "start": 10.37,
+      "end": 11.27,
+      "duration": 0.9
+    },
+    {
+      "id": "story_21451_p5_c0",
+      "chunk_index": 5,
+      "paragraph_index": 5,
+      "sentence_index": 0,
+      "text": "Приве́т!",
+      "text_en": "Hello!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Privét\" data-defn=\"привет\" data-hsk=\"A2\"><span class=\"si\">Приве́т</span><rt>Privét</rt></ruby>!",
+      "transliteration": "Privét!",
+      "start": 11.87,
+      "end": 12.83,
+      "duration": 0.96
+    },
+    {
+      "id": "story_21451_p8_c0",
+      "chunk_index": 6,
+      "paragraph_index": 8,
+      "sentence_index": 0,
+      "text": "Наде́юсь, ты смо́жешь прийти́.",
+      "text_en": "Hope you can come.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Nadéyus&#x27;\" data-defn=\"надеюсь\" data-hsk=\"A2\"><span class=\"si\">Наде́юсь</span><rt>Nadéyus&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smózhesh&#x27;\" data-defn=\"сможешь\" data-hsk=\"A2\"><span class=\"si\">смо́жешь</span><rt>smózhesh&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"priytí\" data-defn=\"прийти\" data-hsk=\"A2\"><span class=\"si\">прийти́</span><rt>priytí</rt></ruby>.",
+      "transliteration": "Nadéyus', ty smózhesh' priytí.",
+      "start": 13.43,
+      "end": 15.16,
+      "duration": 1.73
+    },
+    {
+      "id": "story_21451_p9_c0",
+      "chunk_index": 7,
+      "paragraph_index": 9,
+      "sentence_index": 0,
+      "text": "Жду́ возвра́та!",
+      "text_en": "Looking forward to recovery!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Zhdú\" data-defn=\"жду\" data-hsk=\"A2\"><span class=\"si\">Жду́</span><rt>Zhdú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vozvráta\" data-defn=\"возврата\" data-hsk=\"A2\"><span class=\"si\">возвра́та</span><rt>vozvráta</rt></ruby>!",
+      "transliteration": "Zhdú vozvráta!",
+      "start": 15.76,
+      "end": 17.08,
+      "duration": 1.32
+    },
+    {
+      "id": "story_21451_p10_c0",
+      "chunk_index": 8,
+      "paragraph_index": 10,
+      "sentence_index": 0,
+      "text": "Чжан И́",
+      "text_en": "Zhang Yi",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Chzhan\" data-defn=\"чжан\" data-hsk=\"A2\"><span class=\"si\">Чжан</span><rt>Chzhan</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Í\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">И́</span><rt>Í</rt></ruby>",
+      "transliteration": "Chzhan Í",
+      "start": 17.68,
+      "end": 18.27,
+      "duration": 0.59
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 18.52,
+  "has_chunk_audio": true
 }

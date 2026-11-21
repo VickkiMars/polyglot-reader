@@ -220,5 +220,88 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1733_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Де́вочка имела дво́йку я́блок.",
+      "text_en": "A little girl had two apples.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Dévochka\" data-defn=\"девочка\" data-hsk=\"A1\"><span class=\"si\">Де́вочка</span><rt>Dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"imela\" data-defn=\"имела\" data-hsk=\"A1\"><span class=\"si\">имела</span><rt>imela</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dvóyku\" data-defn=\"двойку\" data-hsk=\"A1\"><span class=\"si\">дво́йку</span><rt>dvóyku</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yáblok\" data-defn=\"яблок\" data-hsk=\"A1\"><span class=\"si\">я́блок</span><rt>yáblok</rt></ruby>.",
+      "transliteration": "Dévochka imela dvóyku yáblok.",
+      "start": 0.0,
+      "end": 1.88,
+      "duration": 1.88
+    },
+    {
+      "id": "story_1733_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Ма́ма спро́сила: «Да́й мне о́дно?»",
+      "text_en": "Her mother asked, “Can you give me one?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A1\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sprósila\" data-defn=\"спросила\" data-hsk=\"A1\"><span class=\"si\">спро́сила</span><rt>sprósila</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dáy\" data-defn=\"дай\" data-hsk=\"A1\"><span class=\"si\">Да́й</span><rt>Dáy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A1\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ódno\" data-defn=\"одно\" data-hsk=\"A1\"><span class=\"si\">о́дно</span><rt>ódno</rt></ruby>?»",
+      "transliteration": "Máma sprósila: «Dáy mne ódno?»",
+      "start": 2.23,
+      "end": 4.68,
+      "duration": 2.45
+    },
+    {
+      "id": "story_1733_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Де́вочка посмот́рела на ма́му и уку́сила ка́ждое я́блоко.",
+      "text_en": "The girl looked at her mother and took a bite out of each apple.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Dévochka\" data-defn=\"девочка\" data-hsk=\"A1\"><span class=\"si\">Де́вочка</span><rt>Dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"posmot́rela\" data-defn=\"посмотрела\" data-hsk=\"A1\"><span class=\"si\">посмот́рела</span><rt>posmot́rela</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mámu\" data-defn=\"маму\" data-hsk=\"A1\"><span class=\"si\">ма́му</span><rt>mámu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ukúsila\" data-defn=\"укусила\" data-hsk=\"A1\"><span class=\"si\">уку́сила</span><rt>ukúsila</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdoe\" data-defn=\"каждое\" data-hsk=\"A1\"><span class=\"si\">ка́ждое</span><rt>kázhdoe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yábloko\" data-defn=\"яблоко\" data-hsk=\"A1\"><span class=\"si\">я́блоко</span><rt>yábloko</rt></ruby>.",
+      "transliteration": "Dévochka posmot́rela na mámu i ukúsila kázhdoe yábloko.",
+      "start": 5.28,
+      "end": 8.44,
+      "duration": 3.16
+    },
+    {
+      "id": "story_1733_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Ма́ма почувствова́ла гру́сть.",
+      "text_en": "Her mother felt sad.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A1\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pochuvstvovála\" data-defn=\"почувствовала\" data-hsk=\"A1\"><span class=\"si\">почувствова́ла</span><rt>pochuvstvovála</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"grúst&#x27;\" data-defn=\"грусть\" data-hsk=\"A1\"><span class=\"si\">гру́сть</span><rt>grúst&#x27;</rt></ruby>.",
+      "transliteration": "Máma pochuvstvovála grúst'.",
+      "start": 8.79,
+      "end": 10.34,
+      "duration": 1.55
+    },
+    {
+      "id": "story_1733_p2_c0",
+      "chunk_index": 4,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Но по́сле дегуста́ции их де́вочка ска́зала: «Э́то сла́дкое.",
+      "text_en": "But after tasting them, the girl said, “This one is sweet.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"No\" data-defn=\"но\" data-hsk=\"A1\"><span class=\"si\">Но</span><rt>No</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pósle\" data-defn=\"после\" data-hsk=\"A1\"><span class=\"si\">по́сле</span><rt>pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"degustátsii\" data-defn=\"дегустации\" data-hsk=\"A1\"><span class=\"si\">дегуста́ции</span><rt>degustátsii</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A1\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dévochka\" data-defn=\"девочка\" data-hsk=\"A1\"><span class=\"si\">де́вочка</span><rt>dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Éto\" data-defn=\"это\" data-hsk=\"A1\"><span class=\"si\">Э́то</span><rt>Éto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sládkoe\" data-defn=\"сладкое\" data-hsk=\"A1\"><span class=\"si\">сла́дкое</span><rt>sládkoe</rt></ruby>.",
+      "transliteration": "No pósle degustátsii ikh dévochka skázala: «Éto sládkoe.",
+      "start": 10.94,
+      "end": 14.44,
+      "duration": 3.5
+    },
+    {
+      "id": "story_1733_p2_c1",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Оно́ для тебя́, Ма́ма!»",
+      "text_en": "It’s for you, Mom!”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Onó\" data-defn=\"оно\" data-hsk=\"A1\"><span class=\"si\">Оно́</span><rt>Onó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A1\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebyá\" data-defn=\"тебя\" data-hsk=\"A1\"><span class=\"si\">тебя́</span><rt>tebyá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A1\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby>!»",
+      "transliteration": "Onó dlya tebyá, Máma!»",
+      "start": 14.79,
+      "end": 16.45,
+      "duration": 1.66
+    }
+  ],
+  "total_chunks": 6,
+  "audio_duration": 16.7,
+  "has_chunk_audio": true
 }

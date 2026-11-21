@@ -219,5 +219,75 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_5028_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Мно́гие лю́ди внима́ют обуче́нию как зада́че, и у них нет воодушевле́ния учи́ть зна́ния из кни́г.",
+      "text_en": "Many people regard learning as a task, and they have no enthusiasm for learning the knowledge in books.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mnógie\" data-defn=\"многие\" data-hsk=\"A2\"><span class=\"si\">Мно́гие</span><rt>Mnógie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdi\" data-defn=\"люди\" data-hsk=\"A2\"><span class=\"si\">лю́ди</span><rt>lyúdi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vnimáyut\" data-defn=\"внимают\" data-hsk=\"A2\"><span class=\"si\">внима́ют</span><rt>vnimáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obuchéniyu\" data-defn=\"обучению\" data-hsk=\"A2\"><span class=\"si\">обуче́нию</span><rt>obuchéniyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zadáche\" data-defn=\"задаче\" data-hsk=\"A2\"><span class=\"si\">зада́че</span><rt>zadáche</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nikh\" data-defn=\"них\" data-hsk=\"A2\"><span class=\"si\">них</span><rt>nikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">нет</span><rt>net</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voodushevléniya\" data-defn=\"воодушевления\" data-hsk=\"A2\"><span class=\"si\">воодушевле́ния</span><rt>voodushevléniya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchít&#x27;\" data-defn=\"учить\" data-hsk=\"A2\"><span class=\"si\">учи́ть</span><rt>uchít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znániya\" data-defn=\"знания\" data-hsk=\"A2\"><span class=\"si\">зна́ния</span><rt>znániya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kníg\" data-defn=\"книг\" data-hsk=\"A2\"><span class=\"si\">кни́г</span><rt>kníg</rt></ruby>.",
+      "transliteration": "Mnógie lyúdi vnimáyut obuchéniyu kak zadáche, i u nikh net voodushevléniya uchít' znániya iz kníg.",
+      "start": 0.0,
+      "end": 4.95,
+      "duration": 4.95
+    },
+    {
+      "id": "story_5028_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Они предпочита́ют выходи́ть и игра́ть или смотре́ть ТВ до́ма, взаме́н того, чтобы сидеть за столом и чита́ть.",
+      "text_en": "They prefer to go out and play or watch TV at home instead of sitting at the table and reading.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"predpochitáyut\" data-defn=\"предпочитают\" data-hsk=\"A2\"><span class=\"si\">предпочита́ют</span><rt>predpochitáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vykhodít&#x27;\" data-defn=\"выходить\" data-hsk=\"A2\"><span class=\"si\">выходи́ть</span><rt>vykhodít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igrát&#x27;\" data-defn=\"играть\" data-hsk=\"A2\"><span class=\"si\">игра́ть</span><rt>igrát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"A2\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrét&#x27;\" data-defn=\"смотреть\" data-hsk=\"A2\"><span class=\"si\">смотре́ть</span><rt>smotrét&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"TV\" data-defn=\"тв\" data-hsk=\"A2\"><span class=\"si\">ТВ</span><rt>TV</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vzamén\" data-defn=\"взамен\" data-hsk=\"A2\"><span class=\"si\">взаме́н</span><rt>vzamén</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того</span><rt>togo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sidet&#x27;\" data-defn=\"сидеть\" data-hsk=\"A2\"><span class=\"si\">сидеть</span><rt>sidet&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stolom\" data-defn=\"столом\" data-hsk=\"A2\"><span class=\"si\">столом</span><rt>stolom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitát&#x27;\" data-defn=\"читать\" data-hsk=\"A2\"><span class=\"si\">чита́ть</span><rt>chitát&#x27;</rt></ruby>.",
+      "transliteration": "Oni predpochitáyut vykhodít' i igrát' ili smotrét' TV dóma, vzamén togo, chtoby sidet' za stolom i chitát'.",
+      "start": 5.3,
+      "end": 10.65,
+      "duration": 5.35
+    },
+    {
+      "id": "story_5028_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Они предпочита́ют выходи́ть и игра́ть или смотре́ть ТВ до́ма, взаме́н того, чтобы сидеть за столом и чита́ть.",
+      "text_en": "But I like reading.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"predpochitáyut\" data-defn=\"предпочитают\" data-hsk=\"A2\"><span class=\"si\">предпочита́ют</span><rt>predpochitáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vykhodít&#x27;\" data-defn=\"выходить\" data-hsk=\"A2\"><span class=\"si\">выходи́ть</span><rt>vykhodít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igrát&#x27;\" data-defn=\"играть\" data-hsk=\"A2\"><span class=\"si\">игра́ть</span><rt>igrát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"A2\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrét&#x27;\" data-defn=\"смотреть\" data-hsk=\"A2\"><span class=\"si\">смотре́ть</span><rt>smotrét&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"TV\" data-defn=\"тв\" data-hsk=\"A2\"><span class=\"si\">ТВ</span><rt>TV</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vzamén\" data-defn=\"взамен\" data-hsk=\"A2\"><span class=\"si\">взаме́н</span><rt>vzamén</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того</span><rt>togo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sidet&#x27;\" data-defn=\"сидеть\" data-hsk=\"A2\"><span class=\"si\">сидеть</span><rt>sidet&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stolom\" data-defn=\"столом\" data-hsk=\"A2\"><span class=\"si\">столом</span><rt>stolom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitát&#x27;\" data-defn=\"читать\" data-hsk=\"A2\"><span class=\"si\">чита́ть</span><rt>chitát&#x27;</rt></ruby>.",
+      "transliteration": "Oni predpochitáyut vykhodít' i igrát' ili smotrét' TV dóma, vzamén togo, chtoby sidet' za stolom i chitát'.",
+      "start": 11.0,
+      "end": 16.35,
+      "duration": 5.35
+    },
+    {
+      "id": "story_5028_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Они предпочита́ют выходи́ть и игра́ть или смотре́ть ТВ до́ма, взаме́н того, чтобы сидеть за столом и чита́ть.",
+      "text_en": "Books allow me to understand the world, different cultures, different people, and learn different knowledge.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"predpochitáyut\" data-defn=\"предпочитают\" data-hsk=\"A2\"><span class=\"si\">предпочита́ют</span><rt>predpochitáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vykhodít&#x27;\" data-defn=\"выходить\" data-hsk=\"A2\"><span class=\"si\">выходи́ть</span><rt>vykhodít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igrát&#x27;\" data-defn=\"играть\" data-hsk=\"A2\"><span class=\"si\">игра́ть</span><rt>igrát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"A2\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrét&#x27;\" data-defn=\"смотреть\" data-hsk=\"A2\"><span class=\"si\">смотре́ть</span><rt>smotrét&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"TV\" data-defn=\"тв\" data-hsk=\"A2\"><span class=\"si\">ТВ</span><rt>TV</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vzamén\" data-defn=\"взамен\" data-hsk=\"A2\"><span class=\"si\">взаме́н</span><rt>vzamén</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того</span><rt>togo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sidet&#x27;\" data-defn=\"сидеть\" data-hsk=\"A2\"><span class=\"si\">сидеть</span><rt>sidet&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stolom\" data-defn=\"столом\" data-hsk=\"A2\"><span class=\"si\">столом</span><rt>stolom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitát&#x27;\" data-defn=\"читать\" data-hsk=\"A2\"><span class=\"si\">чита́ть</span><rt>chitát&#x27;</rt></ruby>.",
+      "transliteration": "Oni predpochitáyut vykhodít' i igrát' ili smotrét' TV dóma, vzamén togo, chtoby sidet' za stolom i chitát'.",
+      "start": 16.7,
+      "end": 22.05,
+      "duration": 5.35
+    },
+    {
+      "id": "story_5028_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Они предпочита́ют выходи́ть и игра́ть или смотре́ть ТВ до́ма, взаме́н того, чтобы сидеть за столом и чита́ть.",
+      "text_en": "Reading brings me a lot of happiness.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"predpochitáyut\" data-defn=\"предпочитают\" data-hsk=\"A2\"><span class=\"si\">предпочита́ют</span><rt>predpochitáyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vykhodít&#x27;\" data-defn=\"выходить\" data-hsk=\"A2\"><span class=\"si\">выходи́ть</span><rt>vykhodít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igrát&#x27;\" data-defn=\"играть\" data-hsk=\"A2\"><span class=\"si\">игра́ть</span><rt>igrát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"A2\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrét&#x27;\" data-defn=\"смотреть\" data-hsk=\"A2\"><span class=\"si\">смотре́ть</span><rt>smotrét&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"TV\" data-defn=\"тв\" data-hsk=\"A2\"><span class=\"si\">ТВ</span><rt>TV</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vzamén\" data-defn=\"взамен\" data-hsk=\"A2\"><span class=\"si\">взаме́н</span><rt>vzamén</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того</span><rt>togo</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sidet&#x27;\" data-defn=\"сидеть\" data-hsk=\"A2\"><span class=\"si\">сидеть</span><rt>sidet&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stolom\" data-defn=\"столом\" data-hsk=\"A2\"><span class=\"si\">столом</span><rt>stolom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitát&#x27;\" data-defn=\"читать\" data-hsk=\"A2\"><span class=\"si\">чита́ть</span><rt>chitát&#x27;</rt></ruby>.",
+      "transliteration": "Oni predpochitáyut vykhodít' i igrát' ili smotrét' TV dóma, vzamén togo, chtoby sidet' za stolom i chitát'.",
+      "start": 22.4,
+      "end": 27.75,
+      "duration": 5.35
+    }
+  ],
+  "total_chunks": 5,
+  "audio_duration": 28.0,
+  "has_chunk_audio": true
 }

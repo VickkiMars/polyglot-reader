@@ -170,5 +170,75 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1135_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "В после́днее вре́мя мно́гие междунаро́дные студе́нты приходят в Кита́й, чтобы учи́ться, и мно́гие из ни́х уча́т кита́йский.",
+      "text_en": "These days, many international students come to China to study, and many of them learn Chinese.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poslédnee\" data-defn=\"последнее\" data-hsk=\"A2\"><span class=\"si\">после́днее</span><rt>poslédnee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"A2\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógie\" data-defn=\"многие\" data-hsk=\"A2\"><span class=\"si\">мно́гие</span><rt>mnógie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mezhdunaródnye\" data-defn=\"международные\" data-hsk=\"A2\"><span class=\"si\">междунаро́дные</span><rt>mezhdunaródnye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prikhodyat\" data-defn=\"приходят\" data-hsk=\"A2\"><span class=\"si\">приходят</span><rt>prikhodyat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Kitáy\" data-defn=\"китай\" data-hsk=\"A2\"><span class=\"si\">Кита́й</span><rt>Kitáy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchít&#x27;sya\" data-defn=\"учиться\" data-hsk=\"A2\"><span class=\"si\">учи́ться</span><rt>uchít&#x27;sya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnógie\" data-defn=\"многие\" data-hsk=\"A2\"><span class=\"si\">мно́гие</span><rt>mnógie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"níkh\" data-defn=\"них\" data-hsk=\"A2\"><span class=\"si\">ни́х</span><rt>níkh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchát\" data-defn=\"учат\" data-hsk=\"A2\"><span class=\"si\">уча́т</span><rt>uchát</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby>.",
+      "transliteration": "V poslédnee vrémya mnógie mezhdunaródnye studénty prikhodyat v Kitáy, chtoby uchít'sya, i mnógie iz níkh uchát kitáyskiy.",
+      "start": 0.0,
+      "end": 5.94,
+      "duration": 5.94
+    },
+    {
+      "id": "story_1135_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Америка́нцы, брита́нские студе́нты, та́йские студе́нты и други́е посеща́ют классы и говори́т кита́йский вме́сте.",
+      "text_en": "Americans, British students, Thai students, and others take classes and speak Chinese together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Amerikántsy\" data-defn=\"американцы\" data-hsk=\"A2\"><span class=\"si\">Америка́нцы</span><rt>Amerikántsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"británskie\" data-defn=\"британские\" data-hsk=\"A2\"><span class=\"si\">брита́нские</span><rt>británskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"táyskie\" data-defn=\"тайские\" data-hsk=\"A2\"><span class=\"si\">та́йские</span><rt>táyskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugíe\" data-defn=\"другие\" data-hsk=\"A2\"><span class=\"si\">други́е</span><rt>drugíe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poseshcháyut\" data-defn=\"посещают\" data-hsk=\"A2\"><span class=\"si\">посеща́ют</span><rt>poseshcháyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"klassy\" data-defn=\"классы\" data-hsk=\"A2\"><span class=\"si\">классы</span><rt>klassy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"govorít\" data-defn=\"говорит\" data-hsk=\"A2\"><span class=\"si\">говори́т</span><rt>govorít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A2\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "Amerikántsy, británskie studénty, táyskie studénty i drugíe poseshcháyut klassy i govorít kitáyskiy vméste.",
+      "start": 6.29,
+      "end": 12.5,
+      "duration": 6.21
+    },
+    {
+      "id": "story_1135_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Америка́нцы, брита́нские студе́нты, та́йские студе́нты и други́е посеща́ют классы и говори́т кита́йский вме́сте.",
+      "text_en": "They came because they like China, and they’ve met classmates and friends from many different countries.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Amerikántsy\" data-defn=\"американцы\" data-hsk=\"A2\"><span class=\"si\">Америка́нцы</span><rt>Amerikántsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"británskie\" data-defn=\"британские\" data-hsk=\"A2\"><span class=\"si\">брита́нские</span><rt>británskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"táyskie\" data-defn=\"тайские\" data-hsk=\"A2\"><span class=\"si\">та́йские</span><rt>táyskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugíe\" data-defn=\"другие\" data-hsk=\"A2\"><span class=\"si\">други́е</span><rt>drugíe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poseshcháyut\" data-defn=\"посещают\" data-hsk=\"A2\"><span class=\"si\">посеща́ют</span><rt>poseshcháyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"klassy\" data-defn=\"классы\" data-hsk=\"A2\"><span class=\"si\">классы</span><rt>klassy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"govorít\" data-defn=\"говорит\" data-hsk=\"A2\"><span class=\"si\">говори́т</span><rt>govorít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A2\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "Amerikántsy, británskie studénty, táyskie studénty i drugíe poseshcháyut klassy i govorít kitáyskiy vméste.",
+      "start": 12.85,
+      "end": 19.06,
+      "duration": 6.21
+    },
+    {
+      "id": "story_1135_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Америка́нцы, брита́нские студе́нты, та́йские студе́нты и други́е посеща́ют классы и говори́т кита́йский вме́сте.",
+      "text_en": "It’s a lot of fun.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Amerikántsy\" data-defn=\"американцы\" data-hsk=\"A2\"><span class=\"si\">Америка́нцы</span><rt>Amerikántsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"británskie\" data-defn=\"британские\" data-hsk=\"A2\"><span class=\"si\">брита́нские</span><rt>británskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"táyskie\" data-defn=\"тайские\" data-hsk=\"A2\"><span class=\"si\">та́йские</span><rt>táyskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugíe\" data-defn=\"другие\" data-hsk=\"A2\"><span class=\"si\">други́е</span><rt>drugíe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poseshcháyut\" data-defn=\"посещают\" data-hsk=\"A2\"><span class=\"si\">посеща́ют</span><rt>poseshcháyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"klassy\" data-defn=\"классы\" data-hsk=\"A2\"><span class=\"si\">классы</span><rt>klassy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"govorít\" data-defn=\"говорит\" data-hsk=\"A2\"><span class=\"si\">говори́т</span><rt>govorít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A2\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "Amerikántsy, británskie studénty, táyskie studénty i drugíe poseshcháyut klassy i govorít kitáyskiy vméste.",
+      "start": 19.41,
+      "end": 25.62,
+      "duration": 6.21
+    },
+    {
+      "id": "story_1135_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Америка́нцы, брита́нские студе́нты, та́йские студе́нты и други́е посеща́ют классы и говори́т кита́йский вме́сте.",
+      "text_en": "Many international students also hope to work in China someday.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Amerikántsy\" data-defn=\"американцы\" data-hsk=\"A2\"><span class=\"si\">Америка́нцы</span><rt>Amerikántsy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"británskie\" data-defn=\"британские\" data-hsk=\"A2\"><span class=\"si\">брита́нские</span><rt>británskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"táyskie\" data-defn=\"тайские\" data-hsk=\"A2\"><span class=\"si\">та́йские</span><rt>táyskie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugíe\" data-defn=\"другие\" data-hsk=\"A2\"><span class=\"si\">други́е</span><rt>drugíe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poseshcháyut\" data-defn=\"посещают\" data-hsk=\"A2\"><span class=\"si\">посеща́ют</span><rt>poseshcháyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"klassy\" data-defn=\"классы\" data-hsk=\"A2\"><span class=\"si\">классы</span><rt>klassy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"govorít\" data-defn=\"говорит\" data-hsk=\"A2\"><span class=\"si\">говори́т</span><rt>govorít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A2\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "Amerikántsy, británskie studénty, táyskie studénty i drugíe poseshcháyut klassy i govorít kitáyskiy vméste.",
+      "start": 25.97,
+      "end": 32.18,
+      "duration": 6.21
+    }
+  ],
+  "total_chunks": 5,
+  "audio_duration": 32.43,
+  "has_chunk_audio": true
 }

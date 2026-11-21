@@ -721,5 +721,127 @@
       "torfl": "B2",
       "hsk": "B2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_2764_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Ли Ка-ши́н — изве́стный кита́йский магнат би́знеса.",
+      "text_en": "Li Ka-shing is a famous Chinese business magnate.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Li\" data-defn=\"ли\" data-hsk=\"B2\"><span class=\"si\">Ли</span><rt>Li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Ka-shín\" data-defn=\"ка-шин\" data-hsk=\"B2\"><span class=\"si\">Ка-ши́н</span><rt>Ka-shín</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"izvéstnyy\" data-defn=\"известный\" data-hsk=\"B2\"><span class=\"si\">изве́стный</span><rt>izvéstnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"B2\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"magnat\" data-defn=\"магнат\" data-hsk=\"B2\"><span class=\"si\">магнат</span><rt>magnat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bíznesa\" data-defn=\"бизнеса\" data-hsk=\"B2\"><span class=\"si\">би́знеса</span><rt>bíznesa</rt></ruby>.",
+      "transliteration": "Li Ka-shín — izvéstnyy kitáyskiy magnat bíznesa.",
+      "start": 0.0,
+      "end": 3.01,
+      "duration": 3.01
+    },
+    {
+      "id": "story_2764_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Одна́жды репорте́р спра́шивал у него: «Лю́ди любопы́тны: за по́чти полове́ну века, как вам удалос́ь расширить свой би́знес во всех ча́стях ми́ра, избегая серьёзных препя́тствий?»",
+      "text_en": "A reporter once asked him, “People are curious: over more than half a century, how have you managed to expand your business around the world while avoiding major setbacks?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Odnázhdy\" data-defn=\"однажды\" data-hsk=\"B2\"><span class=\"si\">Одна́жды</span><rt>Odnázhdy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"reportér\" data-defn=\"репортер\" data-hsk=\"B2\"><span class=\"si\">репорте́р</span><rt>reportér</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshival\" data-defn=\"спрашивал\" data-hsk=\"B2\"><span class=\"si\">спра́шивал</span><rt>spráshival</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"B2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nego\" data-defn=\"него\" data-hsk=\"B2\"><span class=\"si\">него</span><rt>nego</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Lyúdi\" data-defn=\"люди\" data-hsk=\"B2\"><span class=\"si\">Лю́ди</span><rt>Lyúdi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubopýtny\" data-defn=\"любопытны\" data-hsk=\"B2\"><span class=\"si\">любопы́тны</span><rt>lyubopýtny</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"B2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"póchti\" data-defn=\"почти\" data-hsk=\"B2\"><span class=\"si\">по́чти</span><rt>póchti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polovénu\" data-defn=\"половену\" data-hsk=\"B2\"><span class=\"si\">полове́ну</span><rt>polovénu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"veka\" data-defn=\"века\" data-hsk=\"B2\"><span class=\"si\">века</span><rt>veka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"B2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vam\" data-defn=\"вам\" data-hsk=\"B2\"><span class=\"si\">вам</span><rt>vam</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"udaloś&#x27;\" data-defn=\"удалось\" data-hsk=\"B2\"><span class=\"si\">удалос́ь</span><rt>udaloś&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rasshirit&#x27;\" data-defn=\"расширить\" data-hsk=\"B2\"><span class=\"si\">расширить</span><rt>rasshirit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoy\" data-defn=\"свой\" data-hsk=\"B2\"><span class=\"si\">свой</span><rt>svoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bíznes\" data-defn=\"бизнес\" data-hsk=\"B2\"><span class=\"si\">би́знес</span><rt>bíznes</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vo\" data-defn=\"во\" data-hsk=\"B2\"><span class=\"si\">во</span><rt>vo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsekh\" data-defn=\"всех\" data-hsk=\"B2\"><span class=\"si\">всех</span><rt>vsekh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chástyakh\" data-defn=\"частях\" data-hsk=\"B2\"><span class=\"si\">ча́стях</span><rt>chástyakh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"míra\" data-defn=\"мира\" data-hsk=\"B2\"><span class=\"si\">ми́ра</span><rt>míra</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"izbegaya\" data-defn=\"избегая\" data-hsk=\"B2\"><span class=\"si\">избегая</span><rt>izbegaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ser&#x27;yoznykh\" data-defn=\"серьёзных\" data-hsk=\"B2\"><span class=\"si\">серьёзных</span><rt>ser&#x27;yoznykh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prepyátstviy\" data-defn=\"препятствий\" data-hsk=\"B2\"><span class=\"si\">препя́тствий</span><rt>prepyátstviy</rt></ruby>?»",
+      "transliteration": "Odnázhdy reportér spráshival u nego: «Lyúdi lyubopýtny: za póchti polovénu veka, kak vam udaloś' rasshirit' svoy bíznes vo vsekh chástyakh míra, izbegaya ser'yoznykh prepyátstviy?»",
+      "start": 3.36,
+      "end": 13.37,
+      "duration": 10.01
+    },
+    {
+      "id": "story_2764_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Ли отве́тил: «Я ча́сто тра́чу 90% своего вре́мени на мышле́ние о прова́ле.» Он продолжа́л объясня́ть: «Я постоя́нно осма́трю про́блемы, которые могут возни́кнуть в ка́ждом прое́кте.",
+      "text_en": "Li replied, “I often spend 90% of my time thinking about failure.” He went on to explain, “I constantly examine the problems that might arise in each project.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Li\" data-defn=\"ли\" data-hsk=\"B2\"><span class=\"si\">Ли</span><rt>Li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvétil\" data-defn=\"ответил\" data-hsk=\"B2\"><span class=\"si\">отве́тил</span><rt>otvétil</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"B2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chásto\" data-defn=\"часто\" data-hsk=\"B2\"><span class=\"si\">ча́сто</span><rt>chásto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tráchu\" data-defn=\"трачу\" data-hsk=\"B2\"><span class=\"si\">тра́чу</span><rt>tráchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"90\" data-defn=\"90\" data-hsk=\"B2\"><span class=\"si\">90</span><rt>90</rt></ruby>% <ruby class=\"mb-tooltip\" data-py=\"svoego\" data-defn=\"своего\" data-hsk=\"B2\"><span class=\"si\">своего</span><rt>svoego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémeni\" data-defn=\"времени\" data-hsk=\"B2\"><span class=\"si\">вре́мени</span><rt>vrémeni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"myshlénie\" data-defn=\"мышление\" data-hsk=\"B2\"><span class=\"si\">мышле́ние</span><rt>myshlénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"B2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"provále\" data-defn=\"провале\" data-hsk=\"B2\"><span class=\"si\">прова́ле</span><rt>provále</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"B2\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prodolzhál\" data-defn=\"продолжал\" data-hsk=\"B2\"><span class=\"si\">продолжа́л</span><rt>prodolzhál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyasnyát&#x27;\" data-defn=\"объяснять\" data-hsk=\"B2\"><span class=\"si\">объясня́ть</span><rt>obyasnyát&#x27;</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"B2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"postoyánno\" data-defn=\"постоянно\" data-hsk=\"B2\"><span class=\"si\">постоя́нно</span><rt>postoyánno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"osmátryu\" data-defn=\"осматрю\" data-hsk=\"B2\"><span class=\"si\">осма́трю</span><rt>osmátryu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"próblemy\" data-defn=\"проблемы\" data-hsk=\"B2\"><span class=\"si\">про́блемы</span><rt>próblemy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotorye\" data-defn=\"которые\" data-hsk=\"B2\"><span class=\"si\">которые</span><rt>kotorye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mogut\" data-defn=\"могут\" data-hsk=\"B2\"><span class=\"si\">могут</span><rt>mogut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vozníknut&#x27;\" data-defn=\"возникнуть\" data-hsk=\"B2\"><span class=\"si\">возни́кнуть</span><rt>vozníknut&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdom\" data-defn=\"каждом\" data-hsk=\"B2\"><span class=\"si\">ка́ждом</span><rt>kázhdom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"proékte\" data-defn=\"проекте\" data-hsk=\"B2\"><span class=\"si\">прое́кте</span><rt>proékte</rt></ruby>.",
+      "transliteration": "Li otvétil: «Ya chásto tráchu 90% svoego vrémeni na myshlénie o provále.» On prodolzhál obyasnyát': «Ya postoyánno osmátryu próblemy, kotorye mogut vozníknut' v kázhdom proékte.",
+      "start": 13.97,
+      "end": 22.86,
+      "duration": 8.89
+    },
+    {
+      "id": "story_2764_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Это похо́жий на су́дно, гото́вящееся к отплы́тию из порта: оно должно́ плани́ровать, как справи́ться, если его застанет тайфу́н.»",
+      "text_en": "It’s like a ship preparing to leave port: it must plan how to cope if it encounters a typhoon.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Eto\" data-defn=\"это\" data-hsk=\"B2\"><span class=\"si\">Это</span><rt>Eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pokhózhiy\" data-defn=\"похожий\" data-hsk=\"B2\"><span class=\"si\">похо́жий</span><rt>pokhózhiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"súdno\" data-defn=\"судно\" data-hsk=\"B2\"><span class=\"si\">су́дно</span><rt>súdno</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"gotóvyashcheesya\" data-defn=\"готовящееся\" data-hsk=\"B2\"><span class=\"si\">гото́вящееся</span><rt>gotóvyashcheesya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"k\" data-defn=\"к\" data-hsk=\"B2\"><span class=\"si\">к</span><rt>k</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otplýtiyu\" data-defn=\"отплытию\" data-hsk=\"B2\"><span class=\"si\">отплы́тию</span><rt>otplýtiyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"B2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"porta\" data-defn=\"порта\" data-hsk=\"B2\"><span class=\"si\">порта</span><rt>porta</rt></ruby>: <ruby class=\"mb-tooltip\" data-py=\"ono\" data-defn=\"оно\" data-hsk=\"B2\"><span class=\"si\">оно</span><rt>ono</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dolzhnó\" data-defn=\"должно\" data-hsk=\"B2\"><span class=\"si\">должно́</span><rt>dolzhnó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"planírovat&#x27;\" data-defn=\"планировать\" data-hsk=\"B2\"><span class=\"si\">плани́ровать</span><rt>planírovat&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"B2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spravít&#x27;sya\" data-defn=\"справиться\" data-hsk=\"B2\"><span class=\"si\">справи́ться</span><rt>spravít&#x27;sya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"esli\" data-defn=\"если\" data-hsk=\"B2\"><span class=\"si\">если</span><rt>esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ego\" data-defn=\"его\" data-hsk=\"B2\"><span class=\"si\">его</span><rt>ego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zastanet\" data-defn=\"застанет\" data-hsk=\"B2\"><span class=\"si\">застанет</span><rt>zastanet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tayfún\" data-defn=\"тайфун\" data-hsk=\"B2\"><span class=\"si\">тайфу́н</span><rt>tayfún</rt></ruby>.»",
+      "transliteration": "Eto pokhózhiy na súdno, gotóvyashcheesya k otplýtiyu iz porta: ono dolzhnó planírovat', kak spravít'sya, esli ego zastanet tayfún.»",
+      "start": 23.21,
+      "end": 30.47,
+      "duration": 7.26
+    },
+    {
+      "id": "story_2764_p2_c0",
+      "chunk_index": 4,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Репорте́р спра́шивал: «Наи́большее количество люде́й сосредоточься на том, как преуспе́ть.",
+      "text_en": "The reporter asked, “Most people are focused on how to succeed.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Reportér\" data-defn=\"репортер\" data-hsk=\"B2\"><span class=\"si\">Репорте́р</span><rt>Reportér</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshival\" data-defn=\"спрашивал\" data-hsk=\"B2\"><span class=\"si\">спра́шивал</span><rt>spráshival</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Naíbol&#x27;shee\" data-defn=\"наибольшее\" data-hsk=\"B2\"><span class=\"si\">Наи́большее</span><rt>Naíbol&#x27;shee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kolichestvo\" data-defn=\"количество\" data-hsk=\"B2\"><span class=\"si\">количество</span><rt>kolichestvo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyudéy\" data-defn=\"людей\" data-hsk=\"B2\"><span class=\"si\">люде́й</span><rt>lyudéy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sosredotoch&#x27;sya\" data-defn=\"сосредоточься\" data-hsk=\"B2\"><span class=\"si\">сосредоточься</span><rt>sosredotoch&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tom\" data-defn=\"том\" data-hsk=\"B2\"><span class=\"si\">том</span><rt>tom</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"B2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"preuspét&#x27;\" data-defn=\"преуспеть\" data-hsk=\"B2\"><span class=\"si\">преуспе́ть</span><rt>preuspét&#x27;</rt></ruby>.",
+      "transliteration": "Reportér spráshival: «Naíbol'shee kolichestvo lyudéy sosredotoch'sya na tom, kak preuspét'.",
+      "start": 31.07,
+      "end": 35.96,
+      "duration": 4.89
+    },
+    {
+      "id": "story_2764_p2_c1",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Почему́ вы тра́тите 90% своего вре́мени на мышле́ние о прова́ле?»",
+      "text_en": "Why do you spend 90% of your time thinking about failure?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Pochemú\" data-defn=\"почему\" data-hsk=\"B2\"><span class=\"si\">Почему́</span><rt>Pochemú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"B2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"trátite\" data-defn=\"тратите\" data-hsk=\"B2\"><span class=\"si\">тра́тите</span><rt>trátite</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"90\" data-defn=\"90\" data-hsk=\"B2\"><span class=\"si\">90</span><rt>90</rt></ruby>% <ruby class=\"mb-tooltip\" data-py=\"svoego\" data-defn=\"своего\" data-hsk=\"B2\"><span class=\"si\">своего</span><rt>svoego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémeni\" data-defn=\"времени\" data-hsk=\"B2\"><span class=\"si\">вре́мени</span><rt>vrémeni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"myshlénie\" data-defn=\"мышление\" data-hsk=\"B2\"><span class=\"si\">мышле́ние</span><rt>myshlénie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"B2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"provále\" data-defn=\"провале\" data-hsk=\"B2\"><span class=\"si\">прова́ле</span><rt>provále</rt></ruby>?»",
+      "transliteration": "Pochemú vy trátite 90% svoego vrémeni na myshlénie o provále?»",
+      "start": 36.31,
+      "end": 39.33,
+      "duration": 3.02
+    },
+    {
+      "id": "story_2764_p3_c0",
+      "chunk_index": 6,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Ли споко́йно отве́тил: «Вы должны́ в пер́вую о́чередь обду́мывать прова́л.",
+      "text_en": "Li answered calmly, “You must think about failure first.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Li\" data-defn=\"ли\" data-hsk=\"B2\"><span class=\"si\">Ли</span><rt>Li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spokóyno\" data-defn=\"спокойно\" data-hsk=\"B2\"><span class=\"si\">споко́йно</span><rt>spokóyno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvétil\" data-defn=\"ответил\" data-hsk=\"B2\"><span class=\"si\">отве́тил</span><rt>otvétil</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Vy\" data-defn=\"вы\" data-hsk=\"B2\"><span class=\"si\">Вы</span><rt>Vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dolzhný\" data-defn=\"должны\" data-hsk=\"B2\"><span class=\"si\">должны́</span><rt>dolzhný</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"peŕvuyu\" data-defn=\"первую\" data-hsk=\"B2\"><span class=\"si\">пер́вую</span><rt>peŕvuyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchered&#x27;\" data-defn=\"очередь\" data-hsk=\"B2\"><span class=\"si\">о́чередь</span><rt>óchered&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obdúmyvat&#x27;\" data-defn=\"обдумывать\" data-hsk=\"B2\"><span class=\"si\">обду́мывать</span><rt>obdúmyvat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"provál\" data-defn=\"провал\" data-hsk=\"B2\"><span class=\"si\">прова́л</span><rt>provál</rt></ruby>.",
+      "transliteration": "Li spokóyno otvétil: «Vy dolzhný v peŕvuyu óchered' obdúmyvat' provál.",
+      "start": 39.93,
+      "end": 43.73,
+      "duration": 3.8
+    },
+    {
+      "id": "story_2764_p3_c1",
+      "chunk_index": 7,
+      "paragraph_index": 3,
+      "sentence_index": 1,
+      "text": "Если да́же одна́ часть компа́нии разовьёт про́блему, вся́ компа́ния может колла́псировать...",
+      "text_en": "If even one part of a company develops a problem, the whole company could collapse...",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Esli\" data-defn=\"если\" data-hsk=\"B2\"><span class=\"si\">Если</span><rt>Esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dázhe\" data-defn=\"даже\" data-hsk=\"B2\"><span class=\"si\">да́же</span><rt>dázhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"odná\" data-defn=\"одна\" data-hsk=\"B2\"><span class=\"si\">одна́</span><rt>odná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chast&#x27;\" data-defn=\"часть\" data-hsk=\"B2\"><span class=\"si\">часть</span><rt>chast&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompánii\" data-defn=\"компании\" data-hsk=\"B2\"><span class=\"si\">компа́нии</span><rt>kompánii</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"razov&#x27;yot\" data-defn=\"разовьёт\" data-hsk=\"B2\"><span class=\"si\">разовьёт</span><rt>razov&#x27;yot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"próblemu\" data-defn=\"проблему\" data-hsk=\"B2\"><span class=\"si\">про́блему</span><rt>próblemu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vsyá\" data-defn=\"вся\" data-hsk=\"B2\"><span class=\"si\">вся́</span><rt>vsyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kompániya\" data-defn=\"компания\" data-hsk=\"B2\"><span class=\"si\">компа́ния</span><rt>kompániya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhet\" data-defn=\"может\" data-hsk=\"B2\"><span class=\"si\">может</span><rt>mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kollápsirovat&#x27;\" data-defn=\"коллапсировать\" data-hsk=\"B2\"><span class=\"si\">колла́псировать</span><rt>kollápsirovat&#x27;</rt></ruby>...",
+      "transliteration": "Esli dázhe odná chast' kompánii razov'yot próblemu, vsyá kompániya mozhet kollápsirovat'...",
+      "start": 44.08,
+      "end": 48.68,
+      "duration": 4.6
+    },
+    {
+      "id": "story_2764_p3_c2",
+      "chunk_index": 8,
+      "paragraph_index": 3,
+      "sentence_index": 2,
+      "text": "Чем осно́вательнее вы рассматри́ваете ка́ждый возмо́жный прова́л, тем бо́льше шансов на уда́чу.»",
+      "text_en": "The more thoroughly you consider every possible failure, the greater your chances of success.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Chem\" data-defn=\"чем\" data-hsk=\"B2\"><span class=\"si\">Чем</span><rt>Chem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"osnóvatel&#x27;nee\" data-defn=\"основательнее\" data-hsk=\"B2\"><span class=\"si\">осно́вательнее</span><rt>osnóvatel&#x27;nee</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"B2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rassmatrívaete\" data-defn=\"рассматриваете\" data-hsk=\"B2\"><span class=\"si\">рассматри́ваете</span><rt>rassmatrívaete</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdyy\" data-defn=\"каждый\" data-hsk=\"B2\"><span class=\"si\">ка́ждый</span><rt>kázhdyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vozmózhnyy\" data-defn=\"возможный\" data-hsk=\"B2\"><span class=\"si\">возмо́жный</span><rt>vozmózhnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"provál\" data-defn=\"провал\" data-hsk=\"B2\"><span class=\"si\">прова́л</span><rt>provál</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tem\" data-defn=\"тем\" data-hsk=\"B2\"><span class=\"si\">тем</span><rt>tem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ból&#x27;she\" data-defn=\"больше\" data-hsk=\"B2\"><span class=\"si\">бо́льше</span><rt>ból&#x27;she</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shansov\" data-defn=\"шансов\" data-hsk=\"B2\"><span class=\"si\">шансов</span><rt>shansov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"udáchu\" data-defn=\"удачу\" data-hsk=\"B2\"><span class=\"si\">уда́чу</span><rt>udáchu</rt></ruby>.»",
+      "transliteration": "Chem osnóvatel'nee vy rassmatrívaete kázhdyy vozmózhnyy provál, tem ból'she shansov na udáchu.»",
+      "start": 49.03,
+      "end": 53.69,
+      "duration": 4.66
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 53.94,
+  "has_chunk_audio": true
 }

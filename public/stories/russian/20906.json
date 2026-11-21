@@ -191,5 +191,75 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_20906_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Я ку́плю оде́жду в молле.",
+      "text_en": "I'm shopping for clothes at the mall.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kúplyu\" data-defn=\"куплю\" data-hsk=\"A2\"><span class=\"si\">ку́плю</span><rt>kúplyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"odézhdu\" data-defn=\"одежду\" data-hsk=\"A2\"><span class=\"si\">оде́жду</span><rt>odézhdu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"molle\" data-defn=\"молле\" data-hsk=\"A2\"><span class=\"si\">молле</span><rt>molle</rt></ruby>.",
+      "transliteration": "Ya kúplyu odézhdu v molle.",
+      "start": 0.0,
+      "end": 1.56,
+      "duration": 1.56
+    },
+    {
+      "id": "story_20906_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Ры́жий ми́лый, но он са́мый дорого́й.",
+      "text_en": "The red one looks nice, but it's very expensive.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Rýzhiy\" data-defn=\"рыжий\" data-hsk=\"A2\"><span class=\"si\">Ры́жий</span><rt>Rýzhiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mílyy\" data-defn=\"милый\" data-hsk=\"A2\"><span class=\"si\">ми́лый</span><rt>mílyy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámyy\" data-defn=\"самый\" data-hsk=\"A2\"><span class=\"si\">са́мый</span><rt>sámyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dorogóy\" data-defn=\"дорогой\" data-hsk=\"A2\"><span class=\"si\">дорого́й</span><rt>dorogóy</rt></ruby>.",
+      "transliteration": "Rýzhiy mílyy, no on sámyy dorogóy.",
+      "start": 1.91,
+      "end": 4.02,
+      "duration": 2.11
+    },
+    {
+      "id": "story_20906_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Чёрный недорого́й, но мне не по́нравился его́ цвет.",
+      "text_en": "The black one is a little cheaper, but I don't like the color.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Chyornyy\" data-defn=\"чёрный\" data-hsk=\"A2\"><span class=\"si\">Чёрный</span><rt>Chyornyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nedorogóy\" data-defn=\"недорогой\" data-hsk=\"A2\"><span class=\"si\">недорого́й</span><rt>nedorogóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pónravilsya\" data-defn=\"понравился\" data-hsk=\"A2\"><span class=\"si\">по́нравился</span><rt>pónravilsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvet\" data-defn=\"цвет\" data-hsk=\"A2\"><span class=\"si\">цвет</span><rt>tsvet</rt></ruby>.",
+      "transliteration": "Chyornyy nedorogóy, no mne ne pónravilsya egó tsvet.",
+      "start": 4.37,
+      "end": 7.1,
+      "duration": 2.73
+    },
+    {
+      "id": "story_20906_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Оба подхо́дят по разме́ру.",
+      "text_en": "Both are the right size.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oba\" data-defn=\"оба\" data-hsk=\"A2\"><span class=\"si\">Оба</span><rt>Oba</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podkhódyat\" data-defn=\"подходят\" data-hsk=\"A2\"><span class=\"si\">подхо́дят</span><rt>podkhódyat</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"A2\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"razméru\" data-defn=\"размеру\" data-hsk=\"A2\"><span class=\"si\">разме́ру</span><rt>razméru</rt></ruby>.",
+      "transliteration": "Oba podkhódyat po razméru.",
+      "start": 7.45,
+      "end": 8.91,
+      "duration": 1.46
+    },
+    {
+      "id": "story_20906_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Како́й из ни́х мне ку́пить?",
+      "text_en": "Which one should I buy?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Kakóy\" data-defn=\"какой\" data-hsk=\"A2\"><span class=\"si\">Како́й</span><rt>Kakóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"níkh\" data-defn=\"них\" data-hsk=\"A2\"><span class=\"si\">ни́х</span><rt>níkh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kúpit&#x27;\" data-defn=\"купить\" data-hsk=\"A2\"><span class=\"si\">ку́пить</span><rt>kúpit&#x27;</rt></ruby>?",
+      "transliteration": "Kakóy iz níkh mne kúpit'?",
+      "start": 9.26,
+      "end": 10.91,
+      "duration": 1.65
+    }
+  ],
+  "total_chunks": 5,
+  "audio_duration": 11.16,
+  "has_chunk_audio": true
 }

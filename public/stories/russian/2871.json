@@ -801,5 +801,127 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_2871_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "В жи́зни мы ча́сто аплоди́руем други́м.",
+      "text_en": "In life, we often cheer for others.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhízni\" data-defn=\"жизни\" data-hsk=\"A2\"><span class=\"si\">жи́зни</span><rt>zhízni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"my\" data-defn=\"мы\" data-hsk=\"A2\"><span class=\"si\">мы</span><rt>my</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chásto\" data-defn=\"часто\" data-hsk=\"A2\"><span class=\"si\">ча́сто</span><rt>chásto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"aplodíruem\" data-defn=\"аплодируем\" data-hsk=\"A2\"><span class=\"si\">аплоди́руем</span><rt>aplodíruem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugím\" data-defn=\"другим\" data-hsk=\"A2\"><span class=\"si\">други́м</span><rt>drugím</rt></ruby>.",
+      "transliteration": "V zhízni my chásto aplodíruem drugím.",
+      "start": 0.0,
+      "end": 1.96,
+      "duration": 1.96
+    },
+    {
+      "id": "story_2871_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Но вы когда́-либо ду́мали о том, чтобы поддержи́ть себя́?",
+      "text_en": "But have you ever thought of cheering for yourself?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"No\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">Но</span><rt>No</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kogdá-libo\" data-defn=\"когда-либо\" data-hsk=\"A2\"><span class=\"si\">когда́-либо</span><rt>kogdá-libo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmali\" data-defn=\"думали\" data-hsk=\"A2\"><span class=\"si\">ду́мали</span><rt>dúmali</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tom\" data-defn=\"том\" data-hsk=\"A2\"><span class=\"si\">том</span><rt>tom</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chtoby\" data-defn=\"чтобы\" data-hsk=\"A2\"><span class=\"si\">чтобы</span><rt>chtoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podderzhít&#x27;\" data-defn=\"поддержить\" data-hsk=\"A2\"><span class=\"si\">поддержи́ть</span><rt>podderzhít&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sebyá\" data-defn=\"себя\" data-hsk=\"A2\"><span class=\"si\">себя́</span><rt>sebyá</rt></ruby>?",
+      "transliteration": "No vy kogdá-libo dúmali o tom, chtoby podderzhít' sebyá?",
+      "start": 2.31,
+      "end": 5.2,
+      "duration": 2.89
+    },
+    {
+      "id": "story_2871_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Бы́ла де́вочка четырёх ле́т, кото́рая люби́ла рисова́ть.",
+      "text_en": "There was a four-year-old girl who loved drawing.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Býla\" data-defn=\"была\" data-hsk=\"A2\"><span class=\"si\">Бы́ла</span><rt>Býla</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dévochka\" data-defn=\"девочка\" data-hsk=\"A2\"><span class=\"si\">де́вочка</span><rt>dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chetyryokh\" data-defn=\"четырёх\" data-hsk=\"A2\"><span class=\"si\">четырёх</span><rt>chetyryokh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kotóraya\" data-defn=\"которая\" data-hsk=\"A2\"><span class=\"si\">кото́рая</span><rt>kotóraya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyubíla\" data-defn=\"любила\" data-hsk=\"A2\"><span class=\"si\">люби́ла</span><rt>lyubíla</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"risovát&#x27;\" data-defn=\"рисовать\" data-hsk=\"A2\"><span class=\"si\">рисова́ть</span><rt>risovát&#x27;</rt></ruby>.",
+      "transliteration": "Býla dévochka chetyryokh lét, kotóraya lyubíla risovát'.",
+      "start": 5.8,
+      "end": 8.95,
+      "duration": 3.15
+    },
+    {
+      "id": "story_2871_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Она́ нацара́пала всевозмо́жные рисунки на стенах до́ма, оста́вив их в барда́ке.",
+      "text_en": "She had scribbled all over the walls at home, leaving them a mess.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"natsarápala\" data-defn=\"нацарапала\" data-hsk=\"A2\"><span class=\"si\">нацара́пала</span><rt>natsarápala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsevozmózhnye\" data-defn=\"всевозможные\" data-hsk=\"A2\"><span class=\"si\">всевозмо́жные</span><rt>vsevozmózhnye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"risunki\" data-defn=\"рисунки\" data-hsk=\"A2\"><span class=\"si\">рисунки</span><rt>risunki</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stenakh\" data-defn=\"стенах\" data-hsk=\"A2\"><span class=\"si\">стенах</span><rt>stenakh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dóma\" data-defn=\"дома\" data-hsk=\"A2\"><span class=\"si\">до́ма</span><rt>dóma</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ostáviv\" data-defn=\"оставив\" data-hsk=\"A2\"><span class=\"si\">оста́вив</span><rt>ostáviv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bardáke\" data-defn=\"бардаке\" data-hsk=\"A2\"><span class=\"si\">барда́ке</span><rt>bardáke</rt></ruby>.",
+      "transliteration": "Oná natsarápala vsevozmózhnye risunki na stenakh dóma, ostáviv ikh v bardáke.",
+      "start": 9.3,
+      "end": 13.49,
+      "duration": 4.19
+    },
+    {
+      "id": "story_2871_p1_c2",
+      "chunk_index": 4,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "У её ма́тери не было вы́бора, кроме как отвести осо́бое место для рисова́ния, но де́вочка все́ равно ча́сто рисова́ла за гра́ницами этой площа́ди.",
+      "text_en": "Her mother had no choice but to set aside a special place for her to draw, but the girl still often drew outside that area.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"U\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">У</span><rt>U</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eyo\" data-defn=\"её\" data-hsk=\"A2\"><span class=\"si\">её</span><rt>eyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"máteri\" data-defn=\"матери\" data-hsk=\"A2\"><span class=\"si\">ма́тери</span><rt>máteri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bylo\" data-defn=\"было\" data-hsk=\"A2\"><span class=\"si\">было</span><rt>bylo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"výbora\" data-defn=\"выбора\" data-hsk=\"A2\"><span class=\"si\">вы́бора</span><rt>výbora</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"krome\" data-defn=\"кроме\" data-hsk=\"A2\"><span class=\"si\">кроме</span><rt>krome</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvesti\" data-defn=\"отвести\" data-hsk=\"A2\"><span class=\"si\">отвести</span><rt>otvesti</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"osóboe\" data-defn=\"особое\" data-hsk=\"A2\"><span class=\"si\">осо́бое</span><rt>osóboe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mesto\" data-defn=\"место\" data-hsk=\"A2\"><span class=\"si\">место</span><rt>mesto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A2\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"risovániya\" data-defn=\"рисования\" data-hsk=\"A2\"><span class=\"si\">рисова́ния</span><rt>risovániya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dévochka\" data-defn=\"девочка\" data-hsk=\"A2\"><span class=\"si\">де́вочка</span><rt>dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsé\" data-defn=\"все\" data-hsk=\"A2\"><span class=\"si\">все́</span><rt>vsé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ravno\" data-defn=\"равно\" data-hsk=\"A2\"><span class=\"si\">равно</span><rt>ravno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chásto\" data-defn=\"часто\" data-hsk=\"A2\"><span class=\"si\">ча́сто</span><rt>chásto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"risovála\" data-defn=\"рисовала\" data-hsk=\"A2\"><span class=\"si\">рисова́ла</span><rt>risovála</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"za\" data-defn=\"за\" data-hsk=\"A2\"><span class=\"si\">за</span><rt>za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gránitsami\" data-defn=\"границами\" data-hsk=\"A2\"><span class=\"si\">гра́ницами</span><rt>gránitsami</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"etoy\" data-defn=\"этой\" data-hsk=\"A2\"><span class=\"si\">этой</span><rt>etoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ploshchádi\" data-defn=\"площади\" data-hsk=\"A2\"><span class=\"si\">площа́ди</span><rt>ploshchádi</rt></ruby>.",
+      "transliteration": "U eyo máteri ne bylo výbora, krome kak otvesti osóboe mesto dlya risovániya, no dévochka vsé ravno chásto risovála za gránitsami etoy ploshchádi.",
+      "start": 13.84,
+      "end": 21.46,
+      "duration": 7.62
+    },
+    {
+      "id": "story_2871_p1_c3",
+      "chunk_index": 5,
+      "paragraph_index": 1,
+      "sentence_index": 3,
+      "text": "Её ма́ть ска́зала гне́вно: «Де́лай, как тебе ска́жут, иначе, нева́жно, наско́лько хорошо́ ты рису́ешь, мы с твоим па́пой больше не будем тебя́ хвали́ть!» Де́вочка выгляде́ла вполне беззабо́тно и ска́зала: «Я сама́ могу себя́ хвали́ть!»",
+      "text_en": "Her mother said angrily, “Do as you’re told, or no matter how well you draw, your dad and I won’t praise you anymore!” The little girl looked completely unconcerned and said, “I can praise myself!”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Eyo\" data-defn=\"её\" data-hsk=\"A2\"><span class=\"si\">Её</span><rt>Eyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mát&#x27;\" data-defn=\"мать\" data-hsk=\"A2\"><span class=\"si\">ма́ть</span><rt>mát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gnévno\" data-defn=\"гневно\" data-hsk=\"A2\"><span class=\"si\">гне́вно</span><rt>gnévno</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Délay\" data-defn=\"делай\" data-hsk=\"A2\"><span class=\"si\">Де́лай</span><rt>Délay</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebe\" data-defn=\"тебе\" data-hsk=\"A2\"><span class=\"si\">тебе</span><rt>tebe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázhut\" data-defn=\"скажут\" data-hsk=\"A2\"><span class=\"si\">ска́жут</span><rt>skázhut</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"inache\" data-defn=\"иначе\" data-hsk=\"A2\"><span class=\"si\">иначе</span><rt>inache</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"nevázhno\" data-defn=\"неважно\" data-hsk=\"A2\"><span class=\"si\">нева́жно</span><rt>nevázhno</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"naskól&#x27;ko\" data-defn=\"насколько\" data-hsk=\"A2\"><span class=\"si\">наско́лько</span><rt>naskól&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khoroshó\" data-defn=\"хорошо\" data-hsk=\"A2\"><span class=\"si\">хорошо́</span><rt>khoroshó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ty\" data-defn=\"ты\" data-hsk=\"A2\"><span class=\"si\">ты</span><rt>ty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"risúesh&#x27;\" data-defn=\"рисуешь\" data-hsk=\"A2\"><span class=\"si\">рису́ешь</span><rt>risúesh&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"my\" data-defn=\"мы\" data-hsk=\"A2\"><span class=\"si\">мы</span><rt>my</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoim\" data-defn=\"твоим\" data-hsk=\"A2\"><span class=\"si\">твоим</span><rt>tvoim</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápoy\" data-defn=\"папой\" data-hsk=\"A2\"><span class=\"si\">па́пой</span><rt>pápoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;she\" data-defn=\"больше\" data-hsk=\"A2\"><span class=\"si\">больше</span><rt>bol&#x27;she</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budem\" data-defn=\"будем\" data-hsk=\"A2\"><span class=\"si\">будем</span><rt>budem</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebyá\" data-defn=\"тебя\" data-hsk=\"A2\"><span class=\"si\">тебя́</span><rt>tebyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khvalít&#x27;\" data-defn=\"хвалить\" data-hsk=\"A2\"><span class=\"si\">хвали́ть</span><rt>khvalít&#x27;</rt></ruby>!» <ruby class=\"mb-tooltip\" data-py=\"Dévochka\" data-defn=\"девочка\" data-hsk=\"A2\"><span class=\"si\">Де́вочка</span><rt>Dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vyglyadéla\" data-defn=\"выглядела\" data-hsk=\"A2\"><span class=\"si\">выгляде́ла</span><rt>vyglyadéla</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vpolne\" data-defn=\"вполне\" data-hsk=\"A2\"><span class=\"si\">вполне</span><rt>vpolne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bezzabótno\" data-defn=\"беззаботно\" data-hsk=\"A2\"><span class=\"si\">беззабо́тно</span><rt>bezzabótno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A2\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"samá\" data-defn=\"сама\" data-hsk=\"A2\"><span class=\"si\">сама́</span><rt>samá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mogu\" data-defn=\"могу\" data-hsk=\"A2\"><span class=\"si\">могу</span><rt>mogu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sebyá\" data-defn=\"себя\" data-hsk=\"A2\"><span class=\"si\">себя́</span><rt>sebyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khvalít&#x27;\" data-defn=\"хвалить\" data-hsk=\"A2\"><span class=\"si\">хвали́ть</span><rt>khvalít&#x27;</rt></ruby>!»",
+      "transliteration": "Eyo mát' skázala gnévno: «Délay, kak tebe skázhut, inache, nevázhno, naskól'ko khoroshó ty risúesh', my s tvoim pápoy bol'she ne budem tebyá khvalít'!» Dévochka vyglyadéla vpolne bezzabótno i skázala: «Ya samá mogu sebyá khvalít'!»",
+      "start": 21.81,
+      "end": 34.61,
+      "duration": 12.8
+    },
+    {
+      "id": "story_2871_p2_c0",
+      "chunk_index": 6,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Хотя де́вочка была́ молода́, то, что она́ ска́зала, имело много смысла.",
+      "text_en": "Though the girl was young, what she said made a lot of sense.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Khotya\" data-defn=\"хотя\" data-hsk=\"A2\"><span class=\"si\">Хотя</span><rt>Khotya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dévochka\" data-defn=\"девочка\" data-hsk=\"A2\"><span class=\"si\">де́вочка</span><rt>dévochka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bylá\" data-defn=\"была\" data-hsk=\"A2\"><span class=\"si\">была́</span><rt>bylá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"molodá\" data-defn=\"молода\" data-hsk=\"A2\"><span class=\"si\">молода́</span><rt>molodá</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"to\" data-defn=\"то\" data-hsk=\"A2\"><span class=\"si\">то</span><rt>to</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"imelo\" data-defn=\"имело\" data-hsk=\"A2\"><span class=\"si\">имело</span><rt>imelo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mnogo\" data-defn=\"много\" data-hsk=\"A2\"><span class=\"si\">много</span><rt>mnogo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smysla\" data-defn=\"смысла\" data-hsk=\"A2\"><span class=\"si\">смысла</span><rt>smysla</rt></ruby>.",
+      "transliteration": "Khotya dévochka bylá molodá, to, chto oná skázala, imelo mnogo smysla.",
+      "start": 35.21,
+      "end": 39.36,
+      "duration": 4.15
+    },
+    {
+      "id": "story_2871_p2_c1",
+      "chunk_index": 7,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Каждому из нас предстоя́т сво́й главны́й персона́ж на сцене́ своёй собстве́нной жи́зни.",
+      "text_en": "Each of us is the main character on the stage of our own life.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Kazhdomu\" data-defn=\"каждому\" data-hsk=\"A2\"><span class=\"si\">Каждому</span><rt>Kazhdomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nas\" data-defn=\"нас\" data-hsk=\"A2\"><span class=\"si\">нас</span><rt>nas</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"predstoyát\" data-defn=\"предстоят\" data-hsk=\"A2\"><span class=\"si\">предстоя́т</span><rt>predstoyát</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svóy\" data-defn=\"свой\" data-hsk=\"A2\"><span class=\"si\">сво́й</span><rt>svóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"glavnýy\" data-defn=\"главный\" data-hsk=\"A2\"><span class=\"si\">главны́й</span><rt>glavnýy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"personázh\" data-defn=\"персонаж\" data-hsk=\"A2\"><span class=\"si\">персона́ж</span><rt>personázh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stsené\" data-defn=\"сцене\" data-hsk=\"A2\"><span class=\"si\">сцене́</span><rt>stsené</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoyoy\" data-defn=\"своёй\" data-hsk=\"A2\"><span class=\"si\">своёй</span><rt>svoyoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sobstvénnoy\" data-defn=\"собственной\" data-hsk=\"A2\"><span class=\"si\">собстве́нной</span><rt>sobstvénnoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhízni\" data-defn=\"жизни\" data-hsk=\"A2\"><span class=\"si\">жи́зни</span><rt>zhízni</rt></ruby>.",
+      "transliteration": "Kazhdomu iz nas predstoyát svóy glavnýy personázh na stsené svoyoy sobstvénnoy zhízni.",
+      "start": 39.71,
+      "end": 43.83,
+      "duration": 4.12
+    },
+    {
+      "id": "story_2871_p2_c2",
+      "chunk_index": 8,
+      "paragraph_index": 2,
+      "sentence_index": 2,
+      "text": "В реа́льном мире вы всё еще́ может быть неве́сты́, но если вы сохрани́те уравнове́женную точку зре́ния, чаще будете поддержи́вать себя́ и будете добива́ться своих це́лей, вы однажды обя́зательно преуспе́ете.",
+      "text_en": "In the real world, you may still be unknown, but if you keep a balanced outlook, cheer yourself on more often, and persevere, you will succeed one day.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"reál&#x27;nom\" data-defn=\"реальном\" data-hsk=\"A2\"><span class=\"si\">реа́льном</span><rt>reál&#x27;nom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mire\" data-defn=\"мире\" data-hsk=\"A2\"><span class=\"si\">мире</span><rt>mire</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"A2\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eshché\" data-defn=\"еще\" data-hsk=\"A2\"><span class=\"si\">еще́</span><rt>eshché</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhet\" data-defn=\"может\" data-hsk=\"A2\"><span class=\"si\">может</span><rt>mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byt&#x27;\" data-defn=\"быть\" data-hsk=\"A2\"><span class=\"si\">быть</span><rt>byt&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nevéstý\" data-defn=\"невесты\" data-hsk=\"A2\"><span class=\"si\">неве́сты́</span><rt>nevéstý</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"esli\" data-defn=\"если\" data-hsk=\"A2\"><span class=\"si\">если</span><rt>esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sokhraníte\" data-defn=\"сохраните\" data-hsk=\"A2\"><span class=\"si\">сохрани́те</span><rt>sokhraníte</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uravnovézhennuyu\" data-defn=\"уравновеженную\" data-hsk=\"A2\"><span class=\"si\">уравнове́женную</span><rt>uravnovézhennuyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tochku\" data-defn=\"точку\" data-hsk=\"A2\"><span class=\"si\">точку</span><rt>tochku</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zréniya\" data-defn=\"зрения\" data-hsk=\"A2\"><span class=\"si\">зре́ния</span><rt>zréniya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chashche\" data-defn=\"чаще\" data-hsk=\"A2\"><span class=\"si\">чаще</span><rt>chashche</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budete\" data-defn=\"будете\" data-hsk=\"A2\"><span class=\"si\">будете</span><rt>budete</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podderzhívat&#x27;\" data-defn=\"поддерживать\" data-hsk=\"A2\"><span class=\"si\">поддержи́вать</span><rt>podderzhívat&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sebyá\" data-defn=\"себя\" data-hsk=\"A2\"><span class=\"si\">себя́</span><rt>sebyá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"budete\" data-defn=\"будете\" data-hsk=\"A2\"><span class=\"si\">будете</span><rt>budete</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dobivát&#x27;sya\" data-defn=\"добиваться\" data-hsk=\"A2\"><span class=\"si\">добива́ться</span><rt>dobivát&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoikh\" data-defn=\"своих\" data-hsk=\"A2\"><span class=\"si\">своих</span><rt>svoikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tséley\" data-defn=\"целей\" data-hsk=\"A2\"><span class=\"si\">це́лей</span><rt>tséley</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"odnazhdy\" data-defn=\"однажды\" data-hsk=\"A2\"><span class=\"si\">однажды</span><rt>odnazhdy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obyázatel&#x27;no\" data-defn=\"обязательно\" data-hsk=\"A2\"><span class=\"si\">обя́зательно</span><rt>obyázatel&#x27;no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"preuspéete\" data-defn=\"преуспеете\" data-hsk=\"A2\"><span class=\"si\">преуспе́ете</span><rt>preuspéete</rt></ruby>.",
+      "transliteration": "V reál'nom mire vy vsyo eshché mozhet byt' nevéstý, no esli vy sokhraníte uravnovézhennuyu tochku zréniya, chashche budete podderzhívat' sebyá i budete dobivát'sya svoikh tséley, vy odnazhdy obyázatel'no preuspéete.",
+      "start": 44.18,
+      "end": 54.36,
+      "duration": 10.18
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 54.61,
+  "has_chunk_audio": true
 }

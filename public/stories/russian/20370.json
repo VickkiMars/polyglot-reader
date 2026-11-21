@@ -359,5 +359,62 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_20370_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Служа́щая в скла́де ду́мала, что ма́ма выгляд́ит са́мой молодо́й, а ба́тя то́же был са́мым счастли́вым.",
+      "text_en": "The store attendant thought my mother looked very young, and my father was also very happy.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Sluzháshchaya\" data-defn=\"служащая\" data-hsk=\"A2\"><span class=\"si\">Служа́щая</span><rt>Sluzháshchaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skláde\" data-defn=\"складе\" data-hsk=\"A2\"><span class=\"si\">скла́де</span><rt>skláde</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmala\" data-defn=\"думала\" data-hsk=\"A2\"><span class=\"si\">ду́мала</span><rt>dúmala</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"máma\" data-defn=\"мама\" data-hsk=\"A2\"><span class=\"si\">ма́ма</span><rt>máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vyglyad́it\" data-defn=\"выглядит\" data-hsk=\"A2\"><span class=\"si\">выгляд́ит</span><rt>vyglyad́it</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámoy\" data-defn=\"самой\" data-hsk=\"A2\"><span class=\"si\">са́мой</span><rt>sámoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"molodóy\" data-defn=\"молодой\" data-hsk=\"A2\"><span class=\"si\">молодо́й</span><rt>molodóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"a\" data-defn=\"а\" data-hsk=\"A2\"><span class=\"si\">а</span><rt>a</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bátya\" data-defn=\"батя\" data-hsk=\"A2\"><span class=\"si\">ба́тя</span><rt>bátya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"A2\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámym\" data-defn=\"самым\" data-hsk=\"A2\"><span class=\"si\">са́мым</span><rt>sámym</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"schastlívym\" data-defn=\"счастливым\" data-hsk=\"A2\"><span class=\"si\">счастли́вым</span><rt>schastlívym</rt></ruby>.",
+      "transliteration": "Sluzháshchaya v skláde dúmala, chto máma vyglyad́it sámoy molodóy, a bátya tózhe byl sámym schastlívym.",
+      "start": 0.0,
+      "end": 5.1,
+      "duration": 5.1
+    },
+    {
+      "id": "story_20370_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Они́ нача́ли дога́дываться, сколь́ко ле́т их тётя.",
+      "text_en": "They started guessing how old their aunt was.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oní\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они́</span><rt>Oní</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nacháli\" data-defn=\"начали\" data-hsk=\"A2\"><span class=\"si\">нача́ли</span><rt>nacháli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dogádyvat&#x27;sya\" data-defn=\"догадываться\" data-hsk=\"A2\"><span class=\"si\">дога́дываться</span><rt>dogádyvat&#x27;sya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"skol&#x27;́ko\" data-defn=\"сколько\" data-hsk=\"A2\"><span class=\"si\">сколь́ко</span><rt>skol&#x27;́ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">тётя</span><rt>tyotya</rt></ruby>.",
+      "transliteration": "Oní nacháli dogádyvat'sya, skol'́ko lét ikh tyotya.",
+      "start": 5.45,
+      "end": 8.07,
+      "duration": 2.62
+    },
+    {
+      "id": "story_20370_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Тётя ска́зала: «Дога́дайся, сколь́ко мне ле́т?» Ма́ма по́думала неко́торое вре́мя и ска́зала: «Дума́ю, тебе о́коло сорока́ лет.» Тётя улы́бнулась и ска́зала: «Нет, мне пятьдеся́т ле́т в э́том году́.» Все были изумлённые.",
+      "text_en": "The aunt said, \"Guess how old I am?\" Mom thought for a while and said, \"I think you are about forty years old.\" The aunt smiled and said, \"No, I am fifty years old this year.\" Everyone was surprised.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">Тётя</span><rt>Tyotya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dogádaysya\" data-defn=\"догадайся\" data-hsk=\"A2\"><span class=\"si\">Дога́дайся</span><rt>Dogádaysya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"skol&#x27;́ko\" data-defn=\"сколько\" data-hsk=\"A2\"><span class=\"si\">сколь́ко</span><rt>skol&#x27;́ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby>?» <ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A2\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pódumala\" data-defn=\"подумала\" data-hsk=\"A2\"><span class=\"si\">по́думала</span><rt>pódumala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nekótoroe\" data-defn=\"некоторое\" data-hsk=\"A2\"><span class=\"si\">неко́торое</span><rt>nekótoroe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"A2\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dumáyu\" data-defn=\"думаю\" data-hsk=\"A2\"><span class=\"si\">Дума́ю</span><rt>Dumáyu</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tebe\" data-defn=\"тебе\" data-hsk=\"A2\"><span class=\"si\">тебе</span><rt>tebe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ókolo\" data-defn=\"около\" data-hsk=\"A2\"><span class=\"si\">о́коло</span><rt>ókolo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"soroká\" data-defn=\"сорока\" data-hsk=\"A2\"><span class=\"si\">сорока́</span><rt>soroká</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">лет</span><rt>let</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"Tyotya\" data-defn=\"тётя\" data-hsk=\"A2\"><span class=\"si\">Тётя</span><rt>Tyotya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ulýbnulas&#x27;\" data-defn=\"улыбнулась\" data-hsk=\"A2\"><span class=\"si\">улы́бнулась</span><rt>ulýbnulas&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A2\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Net\" data-defn=\"нет\" data-hsk=\"A2\"><span class=\"si\">Нет</span><rt>Net</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A2\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pyat&#x27;desyát\" data-defn=\"пятьдесят\" data-hsk=\"A2\"><span class=\"si\">пятьдеся́т</span><rt>pyat&#x27;desyát</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lét\" data-defn=\"лет\" data-hsk=\"A2\"><span class=\"si\">ле́т</span><rt>lét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"étom\" data-defn=\"этом\" data-hsk=\"A2\"><span class=\"si\">э́том</span><rt>étom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"godú\" data-defn=\"году\" data-hsk=\"A2\"><span class=\"si\">году́</span><rt>godú</rt></ruby>.» <ruby class=\"mb-tooltip\" data-py=\"Vse\" data-defn=\"все\" data-hsk=\"A2\"><span class=\"si\">Все</span><rt>Vse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byli\" data-defn=\"были\" data-hsk=\"A2\"><span class=\"si\">были</span><rt>byli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"izumlyonnye\" data-defn=\"изумлённые\" data-hsk=\"A2\"><span class=\"si\">изумлённые</span><rt>izumlyonnye</rt></ruby>.",
+      "transliteration": "Tyotya skázala: «Dogádaysya, skol'́ko mne lét?» Máma pódumala nekótoroe vrémya i skázala: «Dumáyu, tebe ókolo soroká let.» Tyotya ulýbnulas' i skázala: «Net, mne pyat'desyát lét v étom godú.» Vse byli izumlyonnye.",
+      "start": 8.42,
+      "end": 21.77,
+      "duration": 13.35
+    },
+    {
+      "id": "story_20370_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Тогда́ они го́ворили о своём знаке зодиа́ка, и вопро́с о году́, в кото́ром они́ роди́лись, то́же ста́л интере́сным.",
+      "text_en": "Then, they talked about their zodiac sign, and the question of the year they were born also became interesting.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Togdá\" data-defn=\"тогда\" data-hsk=\"A2\"><span class=\"si\">Тогда́</span><rt>Togdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">они</span><rt>oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góvorili\" data-defn=\"говорили\" data-hsk=\"A2\"><span class=\"si\">го́ворили</span><rt>góvorili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoyom\" data-defn=\"своём\" data-hsk=\"A2\"><span class=\"si\">своём</span><rt>svoyom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znake\" data-defn=\"знаке\" data-hsk=\"A2\"><span class=\"si\">знаке</span><rt>znake</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zodiáka\" data-defn=\"зодиака\" data-hsk=\"A2\"><span class=\"si\">зодиа́ка</span><rt>zodiáka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voprós\" data-defn=\"вопрос\" data-hsk=\"A2\"><span class=\"si\">вопро́с</span><rt>voprós</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"godú\" data-defn=\"году\" data-hsk=\"A2\"><span class=\"si\">году́</span><rt>godú</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotórom\" data-defn=\"котором\" data-hsk=\"A2\"><span class=\"si\">кото́ром</span><rt>kotórom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oní\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">они́</span><rt>oní</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rodílis&#x27;\" data-defn=\"родились\" data-hsk=\"A2\"><span class=\"si\">роди́лись</span><rt>rodílis&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stál\" data-defn=\"стал\" data-hsk=\"A2\"><span class=\"si\">ста́л</span><rt>stál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"interésnym\" data-defn=\"интересным\" data-hsk=\"A2\"><span class=\"si\">интере́сным</span><rt>interésnym</rt></ruby>.",
+      "transliteration": "Togdá oni góvorili o svoyom znake zodiáka, i voprós o godú, v kotórom oní rodílis', tózhe stál interésnym.",
+      "start": 22.12,
+      "end": 28.15,
+      "duration": 6.03
+    }
+  ],
+  "total_chunks": 4,
+  "audio_duration": 28.4,
+  "has_chunk_audio": true
 }

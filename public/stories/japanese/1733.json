@@ -1,1 +1,369 @@
-{"id": 1733, "title": "Love", "japanese_title": "愛", "level": "Beginner", "hsk_tags": ["HSK1"], "slug": "love-story", "audio_url": "/audio/japanese/1733_love-story.mp3", "english_paragraphs": ["A little girl had two apples. Her mother asked, “Can you give me one?”", "The girl looked at her mother and took a bite out of each apple. Her mother felt sad.", "But after tasting them, the girl said, “This one is sweet. It’s for you, Mom!”"], "english_full": "A little girl had two apples. Her mother asked, “Can you give me one?”\n\nThe girl looked at her mother and took a bite out of each apple. Her mother felt sad.\n\nBut after tasting them, the girl said, “This one is sweet. It’s for you, Mom!”", "japanese_paragraphs": ["小さな女の子がリンゴを二つ持っていました。お母さんが「一つくれる？」と聞きました。", "女の子はお母さんを見て、二つのリンゴを一口ずつかじりました。お母さんは悲しくなりました。", "でも、味を確かめると、女の子は言いました。「こっちのほうが甘いよ。お母さんにあげる！」"], "reading_paragraphs": ["ちいさな おんなのこ が りんご を ふたつ もっていました。おかあさん が「ひとつ くれる？」と ききました。", "おんなのこ は おかあさん を みて、ふたつ の りんご を ひとくち ずつ かじりました。おかあさん は かなしく なりました。", "でも、あじ を たしかめる と、おんなのこ は いいました。「こっち の ほう が あまい よ。おかあさん に あげる！」"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"ちいさ\" data-defn=\"small/little/tiny\" data-hsk=\"\"><span class=\"si\">小さな</span><rt>ちいさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"girl\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"apple\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もっ\" data-defn=\"to hold (in one&#x27;s hand)/to take/to carry; to possess/to have/to own (持つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">持っ</span><rt>もっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"mother/mom/mum/ma; wife\" data-hsk=\"\"><span class=\"si\">お母さん</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとつ\" data-defn=\"one; for one thing\" data-hsk=\"\"><span class=\"si\">一つ</span><rt>ひとつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれる\" data-defn=\"to give/to let (one) have; to give\" data-hsk=\"JLPT N5\"><span class=\"si\">くれる</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"girl\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"mother/mom/mum/ma; wife\" data-hsk=\"\"><span class=\"si\">お母さん</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"み\" data-defn=\"to see/to look/to watch/to view/to observe; to examine/to look over/to assess/to chec (見る)\" data-hsk=\"JLPT N5\"><span class=\"si\">見</span><rt>み</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"apple\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いち\" data-defn=\"one; best\" data-hsk=\"\"><span class=\"si\">一</span><rt>いち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くち\" data-defn=\"mouth; opening/hole/gap/orifice\" data-hsk=\"JLPT N5\"><span class=\"si\">口</span><rt>くち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ずつ\" data-defn=\"apiece/each; at a time/piecemeal\" data-hsk=\"\"><span class=\"si\">ずつ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かじり\" data-defn=\"to gnaw/to nibble/to bite/to munch/to crunch; to dabble in/to have a smattering of (かじる)\" data-hsk=\"JLPT N5\"><span class=\"si\">かじり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"mother/mom/mum/ma; wife\" data-hsk=\"\"><span class=\"si\">お母さん</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かなしく\" data-defn=\"sad/miserable/unhappy/sorrowful; sad/lamentable/deplorable/grievous (悲しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">悲しく</span><rt>かなしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"あじ\" data-defn=\"flavor/flavour/taste; charm/appeal/uniqueness/attractiveness\" data-hsk=\"\"><span class=\"si\">味</span><rt>あじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たしかめる\" data-defn=\"to ascertain/to check/to make sure\" data-hsk=\"JLPT N5\"><span class=\"si\">確かめる</span><rt>たしかめる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"girl\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言い</span><rt>いい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こっち\" data-defn=\"this way/this direction; here\" data-hsk=\"\"><span class=\"si\">こっち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほう\" data-defn=\"salary\" data-hsk=\"\"><span class=\"si\">ほう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまい\" data-defn=\"sweet-tasting/sweet/sugary/sugared; fragrant (smelling)/sweet (music)\" data-hsk=\"JLPT N5\"><span class=\"si\">甘い</span><rt>あまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"mother/mom/mum/ma; wife\" data-hsk=\"\"><span class=\"si\">お母さん</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あげる\" data-defn=\"to raise/to elevate; to do up (one&#x27;s hair)\" data-hsk=\"JLPT N5\"><span class=\"si\">あげる</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby>"], "vocabulary": [{"word": "小さな", "reading": "ちいさ", "translation": "", "jlpt": "-"}, {"word": "女の子", "reading": "おんなのこ", "translation": "", "jlpt": "N5"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "リンゴ", "reading": "りんご", "translation": "", "jlpt": "N5"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "二つ", "reading": "ふたつ", "translation": "", "jlpt": "-"}, {"word": "持っ", "reading": "もっ", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "い", "reading": "い", "translation": "", "jlpt": "N5"}, {"word": "ました", "reading": "ました", "translation": "", "jlpt": "N5"}, {"word": "お母さん", "reading": "お", "translation": "", "jlpt": "-"}, {"word": "「", "reading": "「", "translation": "", "jlpt": "-"}, {"word": "一つ", "reading": "ひとつ", "translation": "", "jlpt": "-"}, {"word": "くれる", "reading": "くれる", "translation": "", "jlpt": "N5"}, {"word": "」", "reading": "」", "translation": "", "jlpt": "-"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "聞き", "reading": "きき", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "見", "reading": "み", "translation": "", "jlpt": "N5"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "一", "reading": "いち", "translation": "", "jlpt": "-"}, {"word": "口", "reading": "くち", "translation": "", "jlpt": "N5"}, {"word": "ずつ", "reading": "ずつ", "translation": "", "jlpt": "-"}, {"word": "かじり", "reading": "かじり", "translation": "", "jlpt": "N5"}, {"word": "悲しく", "reading": "かなしく", "translation": "", "jlpt": "N5"}, {"word": "なり", "reading": "なり", "translation": "", "jlpt": "N5"}, {"word": "でも", "reading": "でも", "translation": "", "jlpt": "N5"}, {"word": "味", "reading": "あじ", "translation": "", "jlpt": "-"}, {"word": "確かめる", "reading": "たしかめる", "translation": "", "jlpt": "N5"}, {"word": "言い", "reading": "いい", "translation": "", "jlpt": "N5"}, {"word": "こっち", "reading": "こっち", "translation": "", "jlpt": "-"}, {"word": "ほう", "reading": "ほう", "translation": "", "jlpt": "-"}, {"word": "甘い", "reading": "あまい", "translation": "", "jlpt": "N5"}, {"word": "よ", "reading": "よ", "translation": "", "jlpt": "N5"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "あげる", "reading": "あげる", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 1733,
+  "title": "Love",
+  "japanese_title": "愛",
+  "level": "Beginner",
+  "hsk_tags": [
+    "HSK1"
+  ],
+  "slug": "love-story",
+  "audio_url": "/audio/japanese/1733_love-story.mp3",
+  "english_paragraphs": [
+    "A little girl had two apples. Her mother asked, “Can you give me one?”",
+    "The girl looked at her mother and took a bite out of each apple. Her mother felt sad.",
+    "But after tasting them, the girl said, “This one is sweet. It’s for you, Mom!”"
+  ],
+  "english_full": "A little girl had two apples. Her mother asked, “Can you give me one?”\n\nThe girl looked at her mother and took a bite out of each apple. Her mother felt sad.\n\nBut after tasting them, the girl said, “This one is sweet. It’s for you, Mom!”",
+  "japanese_paragraphs": [
+    "小さい女の子が二つのリンゴを持っていました。彼女の母は「一つを私にくれますか？」と尋ねました。",
+    "女の子は母を見て、各リンゴを一口かじりました。彼女の母は悲しく感じました。",
+    "しかし、それらを味わった後、女の子は「こっちは甘いです。これはあなたに、ママ！」と言いました。"
+  ],
+  "reading_paragraphs": [
+    "ちいさい おんなのこが ふたつの りんごを もっていました。かのじょの ははは「ひとつを わたしに くれますか？」と たずねました。",
+    "おんなのこは ははを みて、かく りんごを いっこ かじりました。かのじょの ははは かなしく かんじました。",
+    "しかし、それらを あじわった あと、おんなのこは「こっちは あまいです。これは あなたに、まま！」と いいました。"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"ちーさい\" data-defn=\"small/little/tiny; slight/below average (in degree, amount, etc.)/minor/small\" data-hsk=\"JLPT N5\"><span class=\"si\">小さい</span><rt>ちーさい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"ふたつ (word)\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"リンゴ (loanword / name)\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もっ\" data-defn=\"to hold (in one&#x27;s hand)/to take/to carry; to possess/to have/to own (持つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">持っ</span><rt>もっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとつ\" data-defn=\"ひとつ (word)\" data-hsk=\"\"><span class=\"si\">一つ</span><rt>ひとつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれ\" data-defn=\"to give/to let (one) have; to give (くれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">くれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たずね\" data-defn=\"to ask/to enquire/to inquire; to search/to look for/to look into/to investigate (尋ねる)\" data-hsk=\"JLPT N5\"><span class=\"si\">尋ね</span><rt>たずね</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"み\" data-defn=\"to see/to look/to watch/to view/to observe; to examine/to look over/to assess/to chec (見る)\" data-hsk=\"JLPT N5\"><span class=\"si\">見</span><rt>み</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かく\" data-defn=\"each/every/all\" data-hsk=\"\"><span class=\"si\">各</span><rt>かく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"リンゴ (loanword / name)\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いち\" data-defn=\"いち (word)\" data-hsk=\"\"><span class=\"si\">一</span><rt>いち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くち\" data-defn=\"くち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">口</span><rt>くち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かじり\" data-defn=\"to gnaw/to nibble/to bite/to munch/to crunch; to dabble in/to have a smattering of (かじる)\" data-hsk=\"JLPT N5\"><span class=\"si\">かじり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かなしく\" data-defn=\"sad/miserable/unhappy/sorrowful; sad/lamentable/deplorable/grievous (悲しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">悲しく</span><rt>かなしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんじ\" data-defn=\"to feel/to sense/to experience (感じる)\" data-hsk=\"JLPT N5\"><span class=\"si\">感じ</span><rt>かんじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"しかし\" data-defn=\"however/but\" data-hsk=\"\"><span class=\"si\">しかし</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"それら\" data-defn=\"those (near the second person)\" data-hsk=\"\"><span class=\"si\">それら</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あじわっ\" data-defn=\"to taste/to savor/to savour/to relish; to appreciate/to enjoy/to relish/to digest (味わう)\" data-hsk=\"JLPT N5\"><span class=\"si\">味わっ</span><rt>あじわっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のち\" data-defn=\"behind/rear; after/later\" data-hsk=\"\"><span class=\"si\">後</span><rt>のち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こっち\" data-defn=\"こっち (word)\" data-hsk=\"\"><span class=\"si\">こっち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまい\" data-defn=\"sweet-tasting/sweet/sugary/sugared; fragrant (smelling)/sweet (music)\" data-hsk=\"JLPT N5\"><span class=\"si\">甘い</span><rt>あまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"これ\" data-defn=\"this/this one; this person\" data-hsk=\"\"><span class=\"si\">これ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まま\" data-defn=\"mama/mamma/mom/mommy/mum/mummy/mother; female proprietress (of a bar, etc.)\" data-hsk=\"\"><span class=\"si\">ママ</span><rt>まま</rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言い</span><rt>いい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。"
+  ],
+  "vocabulary": [
+    {
+      "word": "小さい",
+      "reading": "ちーさい",
+      "definition": "small/little/tiny; slight/below average (in degree, amount, etc.)/minor/small",
+      "jlpt": "N5"
+    },
+    {
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "definition": "おんなのこ (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "二つ",
+      "reading": "ふたつ",
+      "definition": "ふたつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "リンゴ",
+      "reading": "りんご",
+      "definition": "リンゴ (loanword / name)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "持っ",
+      "reading": "もっ",
+      "definition": "to hold (in one's hand)/to take/to carry; to possess/to have/to own (持つ)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "い",
+      "reading": "い",
+      "definition": "to be / to exist (auxiliary verb)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "彼女",
+      "reading": "かのじょ",
+      "definition": "she/her; girlfriend",
+      "jlpt": "-"
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "definition": "mother",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "「",
+      "reading": "「",
+      "definition": "「 (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "definition": "ひとつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "I/me",
+      "jlpt": "N5"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "くれ",
+      "reading": "くれ",
+      "definition": "to give/to let (one) have; to give (くれる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "か",
+      "reading": "か",
+      "definition": "question particle (?)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "」",
+      "reading": "」",
+      "definition": "」 (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "尋ね",
+      "reading": "たずね",
+      "definition": "to ask/to enquire/to inquire; to search/to look for/to look into/to investigate (尋ねる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "見",
+      "reading": "み",
+      "definition": "to see/to look/to watch/to view/to observe; to examine/to look over/to assess/to chec (見る)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "各",
+      "reading": "かく",
+      "definition": "each/every/all",
+      "jlpt": "-"
+    },
+    {
+      "word": "一",
+      "reading": "いち",
+      "definition": "いち (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "definition": "くち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "かじり",
+      "reading": "かじり",
+      "definition": "to gnaw/to nibble/to bite/to munch/to crunch; to dabble in/to have a smattering of (かじる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "悲しく",
+      "reading": "かなしく",
+      "definition": "sad/miserable/unhappy/sorrowful; sad/lamentable/deplorable/grievous (悲しい)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "感じ",
+      "reading": "かんじ",
+      "definition": "to feel/to sense/to experience (感じる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "しかし",
+      "reading": "しかし",
+      "definition": "however/but",
+      "jlpt": "-"
+    },
+    {
+      "word": "それら",
+      "reading": "それら",
+      "definition": "those (near the second person)",
+      "jlpt": "-"
+    },
+    {
+      "word": "味わっ",
+      "reading": "あじわっ",
+      "definition": "to taste/to savor/to savour/to relish; to appreciate/to enjoy/to relish/to digest (味わう)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "た",
+      "reading": "た",
+      "definition": "past tense auxiliary (-ed / completed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "後",
+      "reading": "のち",
+      "definition": "behind/rear; after/later",
+      "jlpt": "-"
+    },
+    {
+      "word": "こっち",
+      "reading": "こっち",
+      "definition": "こっち (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "甘い",
+      "reading": "あまい",
+      "definition": "sweet-tasting/sweet/sugary/sugared; fragrant (smelling)/sweet (music)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "これ",
+      "reading": "これ",
+      "definition": "this/this one; this person",
+      "jlpt": "-"
+    },
+    {
+      "word": "あなた",
+      "reading": "あなた",
+      "definition": "you; dear/honey",
+      "jlpt": "-"
+    },
+    {
+      "word": "ママ",
+      "reading": "まま",
+      "definition": "mama/mamma/mom/mommy/mum/mummy/mother; female proprietress (of a bar, etc.)",
+      "jlpt": "-"
+    },
+    {
+      "word": "言い",
+      "reading": "いい",
+      "definition": "to say/to utter/to declare; to name/to call (言う)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_1733_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "小さい女の子が二つのリンゴを持っていました。",
+      "text_en": "A little girl had two apples.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"ちーさい\" data-defn=\"small/little/tiny; slight/below average (in degree, amount, etc.)/minor/small\" data-hsk=\"JLPT N5\"><span class=\"si\">小さい</span><rt>ちーさい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"ふたつ (word)\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"リンゴ (loanword / name)\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もっ\" data-defn=\"to hold (in one&#x27;s hand)/to take/to carry; to possess/to have/to own (持つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">持っ</span><rt>もっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 4.15,
+      "duration": 4.15
+    },
+    {
+      "id": "story_1733_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "彼女の母は「一つを私にくれますか？」と尋ねました。",
+      "text_en": "Her mother asked, “Can you give me one?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとつ\" data-defn=\"ひとつ (word)\" data-hsk=\"\"><span class=\"si\">一つ</span><rt>ひとつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれ\" data-defn=\"to give/to let (one) have; to give (くれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">くれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たずね\" data-defn=\"to ask/to enquire/to inquire; to search/to look for/to look into/to investigate (尋ねる)\" data-hsk=\"JLPT N5\"><span class=\"si\">尋ね</span><rt>たずね</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 4.5,
+      "end": 10.0,
+      "duration": 5.5
+    },
+    {
+      "id": "story_1733_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "女の子は母を見て、各リンゴを一口かじりました。",
+      "text_en": "The girl looked at her mother and took a bite out of each apple.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"み\" data-defn=\"to see/to look/to watch/to view/to observe; to examine/to look over/to assess/to chec (見る)\" data-hsk=\"JLPT N5\"><span class=\"si\">見</span><rt>み</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かく\" data-defn=\"each/every/all\" data-hsk=\"\"><span class=\"si\">各</span><rt>かく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りんご\" data-defn=\"リンゴ (loanword / name)\" data-hsk=\"JLPT N5\"><span class=\"si\">リンゴ</span><rt>りんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いち\" data-defn=\"いち (word)\" data-hsk=\"\"><span class=\"si\">一</span><rt>いち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くち\" data-defn=\"くち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">口</span><rt>くち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かじり\" data-defn=\"to gnaw/to nibble/to bite/to munch/to crunch; to dabble in/to have a smattering of (かじる)\" data-hsk=\"JLPT N5\"><span class=\"si\">かじり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 10.6,
+      "end": 15.77,
+      "duration": 5.17
+    },
+    {
+      "id": "story_1733_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "彼女の母は悲しく感じました。",
+      "text_en": "Her mother felt sad.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かなしく\" data-defn=\"sad/miserable/unhappy/sorrowful; sad/lamentable/deplorable/grievous (悲しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">悲しく</span><rt>かなしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんじ\" data-defn=\"to feel/to sense/to experience (感じる)\" data-hsk=\"JLPT N5\"><span class=\"si\">感じ</span><rt>かんじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 16.12,
+      "end": 19.5,
+      "duration": 3.38
+    },
+    {
+      "id": "story_1733_p2_c0",
+      "chunk_index": 4,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "しかし、それらを味わった後、女の子は「こっちは甘いです。",
+      "text_en": "But after tasting them, the girl said, “This one is sweet.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"しかし\" data-defn=\"however/but\" data-hsk=\"\"><span class=\"si\">しかし</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"それら\" data-defn=\"those (near the second person)\" data-hsk=\"\"><span class=\"si\">それら</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あじわっ\" data-defn=\"to taste/to savor/to savour/to relish; to appreciate/to enjoy/to relish/to digest (味わう)\" data-hsk=\"JLPT N5\"><span class=\"si\">味わっ</span><rt>あじわっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のち\" data-defn=\"behind/rear; after/later\" data-hsk=\"\"><span class=\"si\">後</span><rt>のち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おんなのこ\" data-defn=\"おんなのこ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">女の子</span><rt>おんなのこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"「\" data-defn=\"「 (word)\" data-hsk=\"\"><span class=\"si\">「</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こっち\" data-defn=\"こっち (word)\" data-hsk=\"\"><span class=\"si\">こっち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまい\" data-defn=\"sweet-tasting/sweet/sugary/sugared; fragrant (smelling)/sweet (music)\" data-hsk=\"JLPT N5\"><span class=\"si\">甘い</span><rt>あまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 20.1,
+      "end": 25.38,
+      "duration": 5.28
+    },
+    {
+      "id": "story_1733_p2_c1",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "これはあなたに、ママ！」と言いました。",
+      "text_en": "It’s for you, Mom!”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"これ\" data-defn=\"this/this one; this person\" data-hsk=\"\"><span class=\"si\">これ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まま\" data-defn=\"mama/mamma/mom/mommy/mum/mummy/mother; female proprietress (of a bar, etc.)\" data-hsk=\"\"><span class=\"si\">ママ</span><rt>まま</rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"」\" data-defn=\"」 (word)\" data-hsk=\"\"><span class=\"si\">」</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言い</span><rt>いい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 25.73,
+      "end": 29.03,
+      "duration": 3.3
+    }
+  ],
+  "total_chunks": 6,
+  "audio_duration": 29.28,
+  "has_chunk_audio": true
+}

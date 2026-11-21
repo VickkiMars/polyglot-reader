@@ -232,5 +232,101 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_2629_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Малы́шка пла́кала у борта доро́ги.",
+      "text_en": "A little girl was crying by the side of the road.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"plákala\" data-defn=\"плакала\" data-hsk=\"A1\"><span class=\"si\">пла́кала</span><rt>plákala</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"borta\" data-defn=\"борта\" data-hsk=\"A1\"><span class=\"si\">борта</span><rt>borta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dorógi\" data-defn=\"дороги\" data-hsk=\"A1\"><span class=\"si\">доро́ги</span><rt>dorógi</rt></ruby>.",
+      "transliteration": "Malýshka plákala u borta dorógi.",
+      "start": 0.0,
+      "end": 1.93,
+      "duration": 1.93
+    },
+    {
+      "id": "story_2629_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Полице́йский подошёл и спра́шивает: «Что с тобо́й, малы́шка?»",
+      "text_en": "A police officer came over and asked, “What’s wrong, little one?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podoshyol\" data-defn=\"подошёл\" data-hsk=\"A1\"><span class=\"si\">подошёл</span><rt>podoshyol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Chto\" data-defn=\"что\" data-hsk=\"A1\"><span class=\"si\">Что</span><rt>Chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tobóy\" data-defn=\"тобой\" data-hsk=\"A1\"><span class=\"si\">тобо́й</span><rt>tobóy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">малы́шка</span><rt>malýshka</rt></ruby>?»",
+      "transliteration": "Politséyskiy podoshyol i spráshivaet: «Chto s tobóy, malýshka?»",
+      "start": 2.28,
+      "end": 5.97,
+      "duration": 3.69
+    },
+    {
+      "id": "story_2629_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Сквозь слёзы малы́шка ска́зала: «Я хо́чу верну́ться домой, но не зна́ю путь.»",
+      "text_en": "Through her tears, the little girl said, “I want to go home, but I don’t know the way.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Skvoz&#x27;\" data-defn=\"сквозь\" data-hsk=\"A1\"><span class=\"si\">Сквозь</span><rt>Skvoz&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"slyozy\" data-defn=\"слёзы\" data-hsk=\"A1\"><span class=\"si\">слёзы</span><rt>slyozy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">малы́шка</span><rt>malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khóchu\" data-defn=\"хочу\" data-hsk=\"A1\"><span class=\"si\">хо́чу</span><rt>khóchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vernút&#x27;sya\" data-defn=\"вернуться\" data-hsk=\"A1\"><span class=\"si\">верну́ться</span><rt>vernút&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"domoy\" data-defn=\"домой\" data-hsk=\"A1\"><span class=\"si\">домой</span><rt>domoy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A1\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znáyu\" data-defn=\"знаю\" data-hsk=\"A1\"><span class=\"si\">зна́ю</span><rt>znáyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"put&#x27;\" data-defn=\"путь\" data-hsk=\"A1\"><span class=\"si\">путь</span><rt>put&#x27;</rt></ruby>.»",
+      "transliteration": "Skvoz' slyozy malýshka skázala: «Ya khóchu vernút'sya domoy, no ne znáyu put'.»",
+      "start": 6.57,
+      "end": 10.65,
+      "duration": 4.08
+    },
+    {
+      "id": "story_2629_p2_c0",
+      "chunk_index": 3,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Полице́йский спра́шивает: «Како́е у твоего́ па́пы и́мя?»",
+      "text_en": "The officer asked, “What’s your daddy’s name?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Kakóe\" data-defn=\"какое\" data-hsk=\"A1\"><span class=\"si\">Како́е</span><rt>Kakóe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoegó\" data-defn=\"твоего\" data-hsk=\"A1\"><span class=\"si\">твоего́</span><rt>tvoegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápy\" data-defn=\"папы\" data-hsk=\"A1\"><span class=\"si\">па́пы</span><rt>pápy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby>?»",
+      "transliteration": "Politséyskiy spráshivaet: «Kakóe u tvoegó pápy ímya?»",
+      "start": 11.25,
+      "end": 14.45,
+      "duration": 3.2
+    },
+    {
+      "id": "story_2629_p3_c0",
+      "chunk_index": 4,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Малы́шка ска́зала: «Дорого́й!»",
+      "text_en": "The little girl said, “Darling!”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Dorogóy\" data-defn=\"дорогой\" data-hsk=\"A1\"><span class=\"si\">Дорого́й</span><rt>Dorogóy</rt></ruby>!»",
+      "transliteration": "Malýshka skázala: «Dorogóy!»",
+      "start": 15.05,
+      "end": 17.32,
+      "duration": 2.27
+    },
+    {
+      "id": "story_2629_p4_c0",
+      "chunk_index": 5,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "Полице́йский спра́шивает: «Како́е у твоей ма́мы и́мя?»",
+      "text_en": "The officer asked, “What’s your mommy’s name?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Politséyskiy\" data-defn=\"полицейский\" data-hsk=\"A1\"><span class=\"si\">Полице́йский</span><rt>Politséyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Kakóe\" data-defn=\"какое\" data-hsk=\"A1\"><span class=\"si\">Како́е</span><rt>Kakóe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A1\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tvoey\" data-defn=\"твоей\" data-hsk=\"A1\"><span class=\"si\">твоей</span><rt>tvoey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mámy\" data-defn=\"мамы\" data-hsk=\"A1\"><span class=\"si\">ма́мы</span><rt>mámy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ímya\" data-defn=\"имя\" data-hsk=\"A1\"><span class=\"si\">и́мя</span><rt>ímya</rt></ruby>?»",
+      "transliteration": "Politséyskiy spráshivaet: «Kakóe u tvoey mámy ímya?»",
+      "start": 17.92,
+      "end": 21.09,
+      "duration": 3.17
+    },
+    {
+      "id": "story_2629_p5_c0",
+      "chunk_index": 6,
+      "paragraph_index": 5,
+      "sentence_index": 0,
+      "text": "Малы́шка ска́зала: «Бе́би!»",
+      "text_en": "The little girl said, “Baby!”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Malýshka\" data-defn=\"малышка\" data-hsk=\"A1\"><span class=\"si\">Малы́шка</span><rt>Malýshka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázala\" data-defn=\"сказала\" data-hsk=\"A1\"><span class=\"si\">ска́зала</span><rt>skázala</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Bébi\" data-defn=\"беби\" data-hsk=\"A1\"><span class=\"si\">Бе́би</span><rt>Bébi</rt></ruby>!»",
+      "transliteration": "Malýshka skázala: «Bébi!»",
+      "start": 21.69,
+      "end": 23.92,
+      "duration": 2.23
+    }
+  ],
+  "total_chunks": 7,
+  "audio_duration": 24.17,
+  "has_chunk_audio": true
 }

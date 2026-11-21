@@ -469,5 +469,75 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_3625_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Не́сколько студе́нтов ко́лледжа разговаривали в парке, когда один из них спро́сил: «Если ка́пля воды́ упадёт с великоле́пной высоты́, сможет ли она убить кого́-то?»",
+      "text_en": "Some college students were chatting in a park when one of them asked, “If a drop of water fell from a great height, could it kill someone?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Néskol&#x27;ko\" data-defn=\"несколько\" data-hsk=\"A2\"><span class=\"si\">Не́сколько</span><rt>Néskol&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studéntov\" data-defn=\"студентов\" data-hsk=\"A2\"><span class=\"si\">студе́нтов</span><rt>studéntov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kólledzha\" data-defn=\"колледжа\" data-hsk=\"A2\"><span class=\"si\">ко́лледжа</span><rt>kólledzha</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"razgovarivali\" data-defn=\"разговаривали\" data-hsk=\"A2\"><span class=\"si\">разговаривали</span><rt>razgovarivali</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"parke\" data-defn=\"парке\" data-hsk=\"A2\"><span class=\"si\">парке</span><rt>parke</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kogda\" data-defn=\"когда\" data-hsk=\"A2\"><span class=\"si\">когда</span><rt>kogda</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"odin\" data-defn=\"один\" data-hsk=\"A2\"><span class=\"si\">один</span><rt>odin</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nikh\" data-defn=\"них\" data-hsk=\"A2\"><span class=\"si\">них</span><rt>nikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sprósil\" data-defn=\"спросил\" data-hsk=\"A2\"><span class=\"si\">спро́сил</span><rt>sprósil</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Esli\" data-defn=\"если\" data-hsk=\"A2\"><span class=\"si\">Если</span><rt>Esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"káplya\" data-defn=\"капля\" data-hsk=\"A2\"><span class=\"si\">ка́пля</span><rt>káplya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vodý\" data-defn=\"воды\" data-hsk=\"A2\"><span class=\"si\">воды́</span><rt>vodý</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"upadyot\" data-defn=\"упадёт\" data-hsk=\"A2\"><span class=\"si\">упадёт</span><rt>upadyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"velikolépnoy\" data-defn=\"великолепной\" data-hsk=\"A2\"><span class=\"si\">великоле́пной</span><rt>velikolépnoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vysotý\" data-defn=\"высоты\" data-hsk=\"A2\"><span class=\"si\">высоты́</span><rt>vysotý</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"smozhet\" data-defn=\"сможет\" data-hsk=\"A2\"><span class=\"si\">сможет</span><rt>smozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"li\" data-defn=\"ли\" data-hsk=\"A2\"><span class=\"si\">ли</span><rt>li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ona\" data-defn=\"она\" data-hsk=\"A2\"><span class=\"si\">она</span><rt>ona</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ubit&#x27;\" data-defn=\"убить\" data-hsk=\"A2\"><span class=\"si\">убить</span><rt>ubit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kogó-to\" data-defn=\"кого-то\" data-hsk=\"A2\"><span class=\"si\">кого́-то</span><rt>kogó-to</rt></ruby>?»",
+      "transliteration": "Néskol'ko studéntov kólledzha razgovarivali v parke, kogda odin iz nikh sprósil: «Esli káplya vodý upadyot s velikolépnoy vysotý, smozhet li ona ubit' kogó-to?»",
+      "start": 0.0,
+      "end": 8.41,
+      "duration": 8.41
+    },
+    {
+      "id": "story_3625_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Они пробо́вали все возмо́жные спо́собы вычислить отве́т, но по́сле о́коло часа они всё ещё не смогли это сделать.",
+      "text_en": "They tried all sorts of ways to calculate the answer, but after nearly an hour, they still hadn't worked it out.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">Они</span><rt>Oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"probóvali\" data-defn=\"пробовали\" data-hsk=\"A2\"><span class=\"si\">пробо́вали</span><rt>probóvali</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vse\" data-defn=\"все\" data-hsk=\"A2\"><span class=\"si\">все</span><rt>vse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vozmózhnye\" data-defn=\"возможные\" data-hsk=\"A2\"><span class=\"si\">возмо́жные</span><rt>vozmózhnye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spósoby\" data-defn=\"способы\" data-hsk=\"A2\"><span class=\"si\">спо́собы</span><rt>spósoby</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vychislit&#x27;\" data-defn=\"вычислить\" data-hsk=\"A2\"><span class=\"si\">вычислить</span><rt>vychislit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvét\" data-defn=\"ответ\" data-hsk=\"A2\"><span class=\"si\">отве́т</span><rt>otvét</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"no\" data-defn=\"но\" data-hsk=\"A2\"><span class=\"si\">но</span><rt>no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pósle\" data-defn=\"после\" data-hsk=\"A2\"><span class=\"si\">по́сле</span><rt>pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ókolo\" data-defn=\"около\" data-hsk=\"A2\"><span class=\"si\">о́коло</span><rt>ókolo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasa\" data-defn=\"часа\" data-hsk=\"A2\"><span class=\"si\">часа</span><rt>chasa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oni\" data-defn=\"они\" data-hsk=\"A2\"><span class=\"si\">они</span><rt>oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"A2\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eshchyo\" data-defn=\"ещё\" data-hsk=\"A2\"><span class=\"si\">ещё</span><rt>eshchyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smogli\" data-defn=\"смогли\" data-hsk=\"A2\"><span class=\"si\">смогли</span><rt>smogli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"eto\" data-defn=\"это\" data-hsk=\"A2\"><span class=\"si\">это</span><rt>eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sdelat&#x27;\" data-defn=\"сделать\" data-hsk=\"A2\"><span class=\"si\">сделать</span><rt>sdelat&#x27;</rt></ruby>.",
+      "transliteration": "Oni probóvali vse vozmózhnye spósoby vychislit' otvét, no pósle ókolo chasa oni vsyo eshchyo ne smogli eto sdelat'.",
+      "start": 9.01,
+      "end": 14.79,
+      "duration": 5.78
+    },
+    {
+      "id": "story_3625_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Прохожий подслу́шал их разговор и спро́сил: «Разве вы когда́-либо не ви́дели дождь?",
+      "text_en": "A passerby overheard their conversation and asked, “Haven't you ever seen rain?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Prokhozhiy\" data-defn=\"прохожий\" data-hsk=\"A2\"><span class=\"si\">Прохожий</span><rt>Prokhozhiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podslúshal\" data-defn=\"подслушал\" data-hsk=\"A2\"><span class=\"si\">подслу́шал</span><rt>podslúshal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ikh\" data-defn=\"их\" data-hsk=\"A2\"><span class=\"si\">их</span><rt>ikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"razgovor\" data-defn=\"разговор\" data-hsk=\"A2\"><span class=\"si\">разговор</span><rt>razgovor</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sprósil\" data-defn=\"спросил\" data-hsk=\"A2\"><span class=\"si\">спро́сил</span><rt>sprósil</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Razve\" data-defn=\"разве\" data-hsk=\"A2\"><span class=\"si\">Разве</span><rt>Razve</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vy\" data-defn=\"вы\" data-hsk=\"A2\"><span class=\"si\">вы</span><rt>vy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kogdá-libo\" data-defn=\"когда-либо\" data-hsk=\"A2\"><span class=\"si\">когда́-либо</span><rt>kogdá-libo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vídeli\" data-defn=\"видели\" data-hsk=\"A2\"><span class=\"si\">ви́дели</span><rt>vídeli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dozhd&#x27;\" data-defn=\"дождь\" data-hsk=\"A2\"><span class=\"si\">дождь</span><rt>dozhd&#x27;</rt></ruby>?",
+      "transliteration": "Prokhozhiy podslúshal ikh razgovor i sprósil: «Razve vy kogdá-libo ne vídeli dozhd'?",
+      "start": 15.39,
+      "end": 20.11,
+      "duration": 4.72
+    },
+    {
+      "id": "story_3625_p2_c1",
+      "chunk_index": 3,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Может ли дождь убить кого́-то, если он попа́дёт по нему?»",
+      "text_en": "Can rain kill someone by hitting them?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mozhet\" data-defn=\"может\" data-hsk=\"A2\"><span class=\"si\">Может</span><rt>Mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"li\" data-defn=\"ли\" data-hsk=\"A2\"><span class=\"si\">ли</span><rt>li</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dozhd&#x27;\" data-defn=\"дождь\" data-hsk=\"A2\"><span class=\"si\">дождь</span><rt>dozhd&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ubit&#x27;\" data-defn=\"убить\" data-hsk=\"A2\"><span class=\"si\">убить</span><rt>ubit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kogó-to\" data-defn=\"кого-то\" data-hsk=\"A2\"><span class=\"si\">кого́-то</span><rt>kogó-to</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"esli\" data-defn=\"если\" data-hsk=\"A2\"><span class=\"si\">если</span><rt>esli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"popádyot\" data-defn=\"попадёт\" data-hsk=\"A2\"><span class=\"si\">попа́дёт</span><rt>popádyot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"po\" data-defn=\"по\" data-hsk=\"A2\"><span class=\"si\">по</span><rt>po</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nemu\" data-defn=\"нему\" data-hsk=\"A2\"><span class=\"si\">нему</span><rt>nemu</rt></ruby>?»",
+      "transliteration": "Mozhet li dozhd' ubit' kogó-to, esli on popádyot po nemu?»",
+      "start": 20.46,
+      "end": 23.72,
+      "duration": 3.26
+    },
+    {
+      "id": "story_3625_p3_c0",
+      "chunk_index": 4,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "В тот моме́нт студе́нты осозна́ли, что забы́ли про простейший здра́вый смысл.",
+      "text_en": "At that moment, the students realized they had forgotten the simplest common sense.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tot\" data-defn=\"тот\" data-hsk=\"A2\"><span class=\"si\">тот</span><rt>tot</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"momént\" data-defn=\"момент\" data-hsk=\"A2\"><span class=\"si\">моме́нт</span><rt>momént</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"studénty\" data-defn=\"студенты\" data-hsk=\"A2\"><span class=\"si\">студе́нты</span><rt>studénty</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"osoználi\" data-defn=\"осознали\" data-hsk=\"A2\"><span class=\"si\">осозна́ли</span><rt>osoználi</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zabýli\" data-defn=\"забыли\" data-hsk=\"A2\"><span class=\"si\">забы́ли</span><rt>zabýli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pro\" data-defn=\"про\" data-hsk=\"A2\"><span class=\"si\">про</span><rt>pro</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prosteyshiy\" data-defn=\"простейший\" data-hsk=\"A2\"><span class=\"si\">простейший</span><rt>prosteyshiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zdrávyy\" data-defn=\"здравый\" data-hsk=\"A2\"><span class=\"si\">здра́вый</span><rt>zdrávyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smysl\" data-defn=\"смысл\" data-hsk=\"A2\"><span class=\"si\">смысл</span><rt>smysl</rt></ruby>.",
+      "transliteration": "V tot momént studénty osoználi, chto zabýli pro prosteyshiy zdrávyy smysl.",
+      "start": 24.32,
+      "end": 28.16,
+      "duration": 3.84
+    }
+  ],
+  "total_chunks": 5,
+  "audio_duration": 28.41,
+  "has_chunk_audio": true
 }

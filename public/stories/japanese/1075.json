@@ -1,1 +1,641 @@
-{"id": 1075, "title": "Congratulations", "japanese_title": "おめでとう！", "level": "Intermediate", "hsk_tags": ["HSK4"], "slug": "congratulations-story", "audio_url": "/audio/japanese/1075_congratulations-story.mp3", "english_paragraphs": ["A: You’re amazing! You won the Chinese language competition again.", "B: Oh, not at all. You’re too kind. I was just lucky, really.", "A: You’re too modest. You won because you’re good at it. Let’s go out for a meal this weekend to celebrate!", "B: Sounds good. Order whatever you like—it’s my treat. I’d also like to introduce you all to my girlfriend.", "A: Girlfriend? You have a girlfriend? Wow, no wonder you’re so happy. You have two things to celebrate!"], "english_full": "A: You’re amazing! You won the Chinese language competition again.\n\nB: Oh, not at all. You’re too kind. I was just lucky, really.\n\nA: You’re too modest. You won because you’re good at it. Let’s go out for a meal this weekend to celebrate!\n\nB: Sounds good. Order whatever you like—it’s my treat. I’d also like to introduce you all to my girlfriend.\n\nA: Girlfriend? You have a girlfriend? Wow, no wonder you’re so happy. You have two things to celebrate!", "japanese_paragraphs": ["すごいね！また中国語のコンテストで優勝したんだね。", "いやいや、そんなことないよ。褒めすぎだって。たまたま運がよかっただけだよ。", "謙遜しすぎだよ。実力があるから優勝できたんだよ。今週末、食事に行ってお祝いしよう！", "いいね。好きなものを何でも頼んで。僕がおごるよ。それに、みんなに彼女を紹介したいんだ。", "彼女？彼女ができたの？どうりでうれしそうなわけだ。お祝いが二つもあるね！"], "reading_paragraphs": ["すごいね！ また ちゅうごくご の コンテスト で ゆうしょう したんだね。", "いやいや、 そんなこと ないよ。 ほめすぎ だって。 たまたま うん が よかった だけだよ。", "けんそん しすぎだよ。 じつりょく が あるから ゆうしょう できたんだよ。 こんしゅうまつ、 しょくじ に いって おいわい しよう！", "いいね。 すきなもの を なんでも たのんで。 ぼく が おごるよ。 それに、 みんな に かのじょ を しょうかい したいんだ。", "かのじょ？ かのじょ が できたの？ どうりで うれしそうな わけだ。 おいわい が ふたつ も あるね！"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"すごい\" data-defn=\"terrible/dreadful; amazing (e.g. of strength)/great (e.g. of skills)/wonderful/terrif\" data-hsk=\"JLPT N5\"><span class=\"si\">すごい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"また\" data-defn=\"crotch/crutch/groin/thigh; fork (in a tree, road, river, etc.)/tines (of a fork)\" data-hsk=\"\"><span class=\"si\">また</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"China; Chūgoku region of western Honshu (incl. Okayama, Hiroshima, Shimane, Tottori and Ya\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"language; word\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"コンテスト\" data-defn=\"contest\" data-hsk=\"\"><span class=\"si\">コンテスト</span><rt>コンテスト</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆうしょう\" data-defn=\"overall victory/championship\" data-hsk=\"\"><span class=\"si\">優勝</span><rt>ゆうしょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ん\" data-defn=\"negative suffix (not) / explanatory\" data-hsk=\"JLPT N5\"><span class=\"si\">ん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"いやいや\" data-defn=\"no!/no no!/no, not at all\" data-hsk=\"\"><span class=\"si\">いやいや</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"そんな\" data-defn=\"such/that sort of/that kind of/like that; no way!/never!\" data-hsk=\"\"><span class=\"si\">そんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ほめ\" data-defn=\"to praise/to commend/to compliment/to speak well of/to speak highly of (褒める)\" data-hsk=\"JLPT N5\"><span class=\"si\">褒め</span><rt>ほめ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎ\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse (すぎる)\" data-hsk=\"JLPT N5\"><span class=\"si\">すぎ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だって\" data-defn=\"after all/because; but\" data-hsk=\"\"><span class=\"si\">だって</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"たまたま\" data-defn=\"occasionally/once in a while/seldom; casually/unexpectedly/accidentally/by chance\" data-hsk=\"\"><span class=\"si\">たまたま</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うん\" data-defn=\"luck\" data-hsk=\"JLPT N3\"><span class=\"si\">運</span><rt>うん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よかっ\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">よかっ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だけ\" data-defn=\"only/just/merely/simply/no more than/nothing but/alone; as much as/to the extent of/enough\" data-hsk=\"\"><span class=\"si\">だけ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"けんそん\" data-defn=\"modesty/humility/being humble\" data-hsk=\"\"><span class=\"si\">謙遜</span><rt>けんそん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎ\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse (すぎる)\" data-hsk=\"JLPT N5\"><span class=\"si\">すぎ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"じつりょく\" data-defn=\"real ability; skill\" data-hsk=\"JLPT N2\"><span class=\"si\">実力</span><rt>じつりょく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆうしょう\" data-defn=\"overall victory/championship\" data-hsk=\"\"><span class=\"si\">優勝</span><rt>ゆうしょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ん\" data-defn=\"negative suffix (not) / explanatory\" data-hsk=\"JLPT N5\"><span class=\"si\">ん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"こんしゅう\" data-defn=\"this week\" data-hsk=\"\"><span class=\"si\">今週</span><rt>こんしゅう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まつ\" data-defn=\"top end/tip\" data-hsk=\"\"><span class=\"si\">末</span><rt>まつ</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しょくじ\" data-defn=\"meal/dinner; diet\" data-hsk=\"\"><span class=\"si\">食事</span><rt>しょくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっ\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行っ</span><rt>いっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"congratulation/congratulations/celebration/festival; congratulatory gift/present\" data-hsk=\"\"><span class=\"si\">お祝い</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しよ\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">しよ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"う\" data-defn=\"cormorant (Phalacrocoracidae spp.)\" data-hsk=\"\"><span class=\"si\">う</span><rt></rt></ruby>！", "<ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing / object / item\" data-hsk=\"JLPT N5\"><span class=\"si\">もの</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なに\" data-defn=\"what; you-know-what/that thing\" data-hsk=\"\"><span class=\"si\">何</span><rt>なに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たのん\" data-defn=\"to request/to beg/to ask; to call/to order/to reserve (頼む)\" data-hsk=\"JLPT N5\"><span class=\"si\">頼ん</span><rt>たのん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"しもべ\" data-defn=\"servant/manservant/menial\" data-hsk=\"\"><span class=\"si\">僕</span><rt>しもべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おごる\" data-defn=\"to give (someone) a treat; to be extravagant/to live luxuriously\" data-hsk=\"JLPT N5\"><span class=\"si\">おごる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"that/it; then/that point (in time)/that time\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"みんな\" data-defn=\"everyone/everybody/all; everything/all\" data-hsk=\"\"><span class=\"si\">みんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょうかい\" data-defn=\"introduction/presentation/referral/listing\" data-hsk=\"\"><span class=\"si\">紹介</span><rt>しょうかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ん\" data-defn=\"negative suffix (not) / explanatory\" data-hsk=\"JLPT N5\"><span class=\"si\">ん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"かのじょ\" data-defn=\"she/her; girlfriend\" data-hsk=\"\"><span class=\"si\">彼女</span><rt>かのじょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"ど\" data-defn=\"degree (angle, temperature, scale, etc.); counter for occurrences\" data-hsk=\"\"><span class=\"si\">ど</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うり\" data-defn=\"melon/gourd\" data-hsk=\"\"><span class=\"si\">うり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うれし\" data-defn=\"happy/glad/pleased/delighted/overjoyed; joyful/delightful/gratifying/pleasant (うれしい)\" data-hsk=\"JLPT N5\"><span class=\"si\">うれし</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そう\" data-defn=\"appearing that/seeming that/looking like/having the appearance of\" data-hsk=\"\"><span class=\"si\">そう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わけ\" data-defn=\"sharing/division; draw/tie\" data-hsk=\"\"><span class=\"si\">わけ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"congratulation/congratulations/celebration/festival; congratulatory gift/present\" data-hsk=\"\"><span class=\"si\">お祝い</span><rt>お</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！"], "vocabulary": [{"word": "すごい", "reading": "すごい", "translation": "", "jlpt": "N5"}, {"word": "ね", "reading": "ね", "translation": "", "jlpt": "N5"}, {"word": "また", "reading": "また", "translation": "", "jlpt": "-"}, {"word": "中国", "reading": "ちゅうごく", "translation": "", "jlpt": "N5"}, {"word": "語", "reading": "ご", "translation": "", "jlpt": "-"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "コンテスト", "reading": "コンテスト", "translation": "", "jlpt": "-"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "優勝", "reading": "ゆうしょう", "translation": "", "jlpt": "-"}, {"word": "し", "reading": "し", "translation": "", "jlpt": "N5"}, {"word": "た", "reading": "た", "translation": "", "jlpt": "N5"}, {"word": "ん", "reading": "ん", "translation": "", "jlpt": "N5"}, {"word": "だ", "reading": "だ", "translation": "", "jlpt": "N5"}, {"word": "いやいや", "reading": "いやいや", "translation": "", "jlpt": "-"}, {"word": "そんな", "reading": "そんな", "translation": "", "jlpt": "-"}, {"word": "こと", "reading": "こと", "translation": "", "jlpt": "N5"}, {"word": "ない", "reading": "ない", "translation": "", "jlpt": "N5"}, {"word": "よ", "reading": "よ", "translation": "", "jlpt": "N5"}, {"word": "褒め", "reading": "ほめ", "translation": "", "jlpt": "N5"}, {"word": "すぎ", "reading": "すぎ", "translation": "", "jlpt": "N5"}, {"word": "だって", "reading": "だって", "translation": "", "jlpt": "-"}, {"word": "たまたま", "reading": "たまたま", "translation": "", "jlpt": "-"}, {"word": "運", "reading": "うん", "translation": "", "jlpt": "N3"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "よかっ", "reading": "よかっ", "translation": "", "jlpt": "N5"}, {"word": "だけ", "reading": "だけ", "translation": "", "jlpt": "-"}, {"word": "謙遜", "reading": "けんそん", "translation": "", "jlpt": "-"}, {"word": "実力", "reading": "じつりょく", "translation": "", "jlpt": "N2"}, {"word": "ある", "reading": "ある", "translation": "", "jlpt": "N5"}, {"word": "から", "reading": "から", "translation": "", "jlpt": "N5"}, {"word": "でき", "reading": "でき", "translation": "", "jlpt": "N5"}, {"word": "今週", "reading": "こんしゅう", "translation": "", "jlpt": "-"}, {"word": "末", "reading": "まつ", "translation": "", "jlpt": "-"}, {"word": "食事", "reading": "しょくじ", "translation": "", "jlpt": "-"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "行っ", "reading": "いっ", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "お祝い", "reading": "お", "translation": "", "jlpt": "-"}, {"word": "しよ", "reading": "しよ", "translation": "", "jlpt": "N5"}, {"word": "う", "reading": "う", "translation": "", "jlpt": "-"}, {"word": "いい", "reading": "いい", "translation": "", "jlpt": "N5"}, {"word": "好き", "reading": "すき", "translation": "", "jlpt": "N5"}, {"word": "な", "reading": "な", "translation": "", "jlpt": "N5"}, {"word": "もの", "reading": "もの", "translation": "", "jlpt": "N5"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "何", "reading": "なに", "translation": "", "jlpt": "-"}, {"word": "でも", "reading": "でも", "translation": "", "jlpt": "N5"}, {"word": "頼ん", "reading": "たのん", "translation": "", "jlpt": "N5"}, {"word": "僕", "reading": "しもべ", "translation": "", "jlpt": "-"}, {"word": "おごる", "reading": "おごる", "translation": "", "jlpt": "N5"}, {"word": "それ", "reading": "それ", "translation": "", "jlpt": "-"}, {"word": "みんな", "reading": "みんな", "translation": "", "jlpt": "-"}, {"word": "彼女", "reading": "かのじょ", "translation": "", "jlpt": "-"}, {"word": "紹介", "reading": "しょうかい", "translation": "", "jlpt": "-"}, {"word": "たい", "reading": "たい", "translation": "", "jlpt": "N5"}, {"word": "ど", "reading": "ど", "translation": "", "jlpt": "-"}, {"word": "うり", "reading": "うり", "translation": "", "jlpt": "-"}, {"word": "うれし", "reading": "うれし", "translation": "", "jlpt": "N5"}, {"word": "そう", "reading": "そう", "translation": "", "jlpt": "-"}, {"word": "わけ", "reading": "わけ", "translation": "", "jlpt": "-"}, {"word": "二つ", "reading": "ふたつ", "translation": "", "jlpt": "-"}, {"word": "も", "reading": "も", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 1075,
+  "title": "Congratulations",
+  "japanese_title": "おめでとう！",
+  "level": "Intermediate",
+  "hsk_tags": [
+    "HSK4"
+  ],
+  "slug": "congratulations-story",
+  "audio_url": "/audio/japanese/1075_congratulations-story.mp3",
+  "english_paragraphs": [
+    "A: You’re amazing! You won the Chinese language competition again.",
+    "B: Oh, not at all. You’re too kind. I was just lucky, really.",
+    "A: You’re too modest. You won because you’re good at it. Let’s go out for a meal this weekend to celebrate!",
+    "B: Sounds good. Order whatever you like—it’s my treat. I’d also like to introduce you all to my girlfriend.",
+    "A: Girlfriend? You have a girlfriend? Wow, no wonder you’re so happy. You have two things to celebrate!"
+  ],
+  "english_full": "A: You’re amazing! You won the Chinese language competition again.\n\nB: Oh, not at all. You’re too kind. I was just lucky, really.\n\nA: You’re too modest. You won because you’re good at it. Let’s go out for a meal this weekend to celebrate!\n\nB: Sounds good. Order whatever you like—it’s my treat. I’d also like to introduce you all to my girlfriend.\n\nA: Girlfriend? You have a girlfriend? Wow, no wonder you’re so happy. You have two things to celebrate!",
+  "japanese_paragraphs": [
+    "A: あなたは驚くべきです！あなたは再び中国語の競争に勝ちました。",
+    "B: まあ、全然そんなことはありません。あなたはあまりにも親切です。私はただ運がよかっただけです、本当に。",
+    "A: あなたはあまりにも謙虚です。あなたはそれが得意だから勝ちました。今週末に食事に出かけて祝おう！",
+    "B: いいですね。好きなものを注文して—私のおごりです。皆さんに私のガールフレンドを紹介したいと思います。",
+    "A: ガールフレンド？あなたにガールフレンドがいるの？わあ、だからあなたがそんなに幸せなんですね。祝うべきことが二つありますね！"
+  ],
+  "reading_paragraphs": [
+    "A: あなたはおどろくべきです！あなたはふたたびちゅうごくごのきょうそうにかちました。",
+    "B: まあ、ぜんぜんそんなことはありません。あなたはあまりにもきんせつです。わたしはただうんがよかっただけです、ほんとうに。",
+    "A: あなたはあまりにもけんきょです。あなたはそれがとくいだからかちました。こんしゅうまつにしょくじにでかけていわおう！",
+    "B: いいですね。すきなものをちゅうもんして—わたしのおごりです。みなさんにわたしのガールフレンドをしょうかいしたいとおもいます。",
+    "A: ガールフレンド？あなたにガールフレンドがいるの？わあ、だからあなたがそんなにしあわせなんですね。いわうべきことがふたつありますね！"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどろく\" data-defn=\"to be surprised/to be astonished\" data-hsk=\"JLPT N5\"><span class=\"si\">驚く</span><rt>おどろく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたたび\" data-defn=\"again/once more/a second time\" data-hsk=\"\"><span class=\"si\">再び</span><rt>ふたたび</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうそう\" data-defn=\"competition/contest/rivalry/race; competition (between organisms or species)\" data-hsk=\"\"><span class=\"si\">競争</span><rt>きょうそう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かち\" data-defn=\"to win/to gain victory (勝つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">勝ち</span><rt>かち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"まあ\" data-defn=\"just (e.g. &quot;just wait here&quot;)/come now/now, now; tolerably/passably/moderately/reasona\" data-hsk=\"\"><span class=\"si\">まあ</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぜんぜん\" data-defn=\"(not) at all/(not) in the slightest; wholly/entirely/completely/totally\" data-hsk=\"\"><span class=\"si\">全然</span><rt>ぜんぜん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そんな\" data-defn=\"そんな (word)\" data-hsk=\"\"><span class=\"si\">そんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しんせつ\" data-defn=\"kind/gentle/considerate/generous/friendly/nice\" data-hsk=\"\"><span class=\"si\">親切</span><rt>しんせつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ただ\" data-defn=\"ordinary/common/usual; free of charge\" data-hsk=\"\"><span class=\"si\">ただ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うん\" data-defn=\"うん (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">運</span><rt>うん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よかっ\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">よかっ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だけ\" data-defn=\"だけ (word)\" data-hsk=\"\"><span class=\"si\">だけ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ほんとうに\" data-defn=\"really/truly\" data-hsk=\"\"><span class=\"si\">本当に</span><rt>ほんとうに</rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"けんきょ\" data-defn=\"modest/humble\" data-hsk=\"\"><span class=\"si\">謙虚</span><rt>けんきょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"それ (word)\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とくい\" data-defn=\"triumph/prosperity; pride\" data-hsk=\"\"><span class=\"si\">得意</span><rt>とくい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かち\" data-defn=\"to win/to gain victory (勝つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">勝ち</span><rt>かち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"こんしゅう\" data-defn=\"こんしゅう (word)\" data-hsk=\"\"><span class=\"si\">今週</span><rt>こんしゅう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まつ\" data-defn=\"まつ (word)\" data-hsk=\"\"><span class=\"si\">末</span><rt>まつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょくじ\" data-defn=\"しょくじ (word)\" data-hsk=\"\"><span class=\"si\">食事</span><rt>しょくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でかけ\" data-defn=\"to go out (e.g. on an excursion or outing)/to leave/to depart/to start/to set out; to (出かける)\" data-hsk=\"JLPT N5\"><span class=\"si\">出かけ</span><rt>でかけ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しゅくお\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat (祝う)\" data-hsk=\"JLPT N5\"><span class=\"si\">祝お</span><rt>しゅくお</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"う\" data-defn=\"う (word)\" data-hsk=\"\"><span class=\"si\">う</span><rt></rt></ruby>！",
+    "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing / object / item\" data-hsk=\"JLPT N5\"><span class=\"si\">もの</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうもん\" data-defn=\"order (for an item); request/demand/condition\" data-hsk=\"\"><span class=\"si\">注文</span><rt>ちゅうもん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>—<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おごり\" data-defn=\"luxury/extravagance; treat (i.e. at somebody&#x27;s expense)\" data-hsk=\"\"><span class=\"si\">おごり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"みなさん\" data-defn=\"all/everyone/everybody\" data-hsk=\"\"><span class=\"si\">皆さん</span><rt>みなさん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょうかい\" data-defn=\"しょうかい (word)\" data-hsk=\"\"><span class=\"si\">紹介</span><rt>しょうかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いる\" data-defn=\"to be / to exist (progressive state / animate)\" data-hsk=\"JLPT N5\"><span class=\"si\">いる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"わあ\" data-defn=\"wow!/oh!/eek!/gee!; yeah!/alright!/hurray!\" data-hsk=\"\"><span class=\"si\">わあ</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"だから\" data-defn=\"so/therefore/accordingly/consequently/on those grounds/that is why/for that reason; l\" data-hsk=\"\"><span class=\"si\">だから</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そんなに\" data-defn=\"so much/so/like that\" data-hsk=\"\"><span class=\"si\">そんなに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ん\" data-defn=\"negative suffix (not) / explanatory\" data-hsk=\"JLPT N5\"><span class=\"si\">ん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"いわう\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat\" data-hsk=\"JLPT N5\"><span class=\"si\">祝う</span><rt>いわう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"ふたつ (word)\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！"
+  ],
+  "vocabulary": [
+    {
+      "word": "A",
+      "reading": "A",
+      "definition": "Excellent (grade)/A; superiority/excellence",
+      "jlpt": "-"
+    },
+    {
+      "word": ":",
+      "reading": ":",
+      "definition": ": (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "あなた",
+      "reading": "あなた",
+      "definition": "you; dear/honey",
+      "jlpt": "-"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "definition": "to be surprised/to be astonished",
+      "jlpt": "N5"
+    },
+    {
+      "word": "べき",
+      "reading": "べき",
+      "definition": "should/must/that one ought to/to be done; -able",
+      "jlpt": "-"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "再び",
+      "reading": "ふたたび",
+      "definition": "again/once more/a second time",
+      "jlpt": "-"
+    },
+    {
+      "word": "中国",
+      "reading": "ちゅうごく",
+      "definition": "ちゅうごく (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "語",
+      "reading": "ご",
+      "definition": "ご (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "競争",
+      "reading": "きょうそう",
+      "definition": "competition/contest/rivalry/race; competition (between organisms or species)",
+      "jlpt": "-"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "勝ち",
+      "reading": "かち",
+      "definition": "to win/to gain victory (勝つ)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "B",
+      "reading": "B",
+      "definition": "bell; bel/B",
+      "jlpt": "-"
+    },
+    {
+      "word": "まあ",
+      "reading": "まあ",
+      "definition": "just (e.g. \"just wait here\")/come now/now, now; tolerably/passably/moderately/reasona",
+      "jlpt": "-"
+    },
+    {
+      "word": "全然",
+      "reading": "ぜんぜん",
+      "definition": "(not) at all/(not) in the slightest; wholly/entirely/completely/totally",
+      "jlpt": "-"
+    },
+    {
+      "word": "そんな",
+      "reading": "そんな",
+      "definition": "そんな (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "こと",
+      "reading": "こと",
+      "definition": "thing / matter / fact",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あり",
+      "reading": "あり",
+      "definition": "there is / to exist (stem)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ません",
+      "reading": "ません",
+      "definition": "verb polite suffix (negative: do not)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あまりに",
+      "reading": "あまりに",
+      "definition": "too much/excessively/too",
+      "jlpt": "-"
+    },
+    {
+      "word": "も",
+      "reading": "も",
+      "definition": "also / too",
+      "jlpt": "N5"
+    },
+    {
+      "word": "親切",
+      "reading": "しんせつ",
+      "definition": "kind/gentle/considerate/generous/friendly/nice",
+      "jlpt": "-"
+    },
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "I/me",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ただ",
+      "reading": "ただ",
+      "definition": "ordinary/common/usual; free of charge",
+      "jlpt": "-"
+    },
+    {
+      "word": "運",
+      "reading": "うん",
+      "definition": "うん (word)",
+      "jlpt": "N3"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "よかっ",
+      "reading": "よかっ",
+      "definition": "good / nice / pleasant",
+      "jlpt": "N5"
+    },
+    {
+      "word": "た",
+      "reading": "た",
+      "definition": "past tense auxiliary (-ed / completed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "だけ",
+      "reading": "だけ",
+      "definition": "だけ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "本当に",
+      "reading": "ほんとうに",
+      "definition": "really/truly",
+      "jlpt": "-"
+    },
+    {
+      "word": "謙虚",
+      "reading": "けんきょ",
+      "definition": "modest/humble",
+      "jlpt": "-"
+    },
+    {
+      "word": "それ",
+      "reading": "それ",
+      "definition": "それ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "得意",
+      "reading": "とくい",
+      "definition": "triumph/prosperity; pride",
+      "jlpt": "-"
+    },
+    {
+      "word": "だ",
+      "reading": "だ",
+      "definition": "be / is (plain copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "から",
+      "reading": "から",
+      "definition": "from / because / since",
+      "jlpt": "N5"
+    },
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "definition": "こんしゅう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "末",
+      "reading": "まつ",
+      "definition": "まつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "食事",
+      "reading": "しょくじ",
+      "definition": "しょくじ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "出かけ",
+      "reading": "でかけ",
+      "definition": "to go out (e.g. on an excursion or outing)/to leave/to depart/to start/to set out; to (出かける)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "祝お",
+      "reading": "しゅくお",
+      "definition": "to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat (祝う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "う",
+      "reading": "う",
+      "definition": "う (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "いい",
+      "reading": "いい",
+      "definition": "good / nice / pleasant",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ね",
+      "reading": "ね",
+      "definition": "sentence-ending particle (isn't it? / right?)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "definition": "すき (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "な",
+      "reading": "な",
+      "definition": "be / is (plain copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "もの",
+      "reading": "もの",
+      "definition": "thing / object / item",
+      "jlpt": "N5"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "definition": "order (for an item); request/demand/condition",
+      "jlpt": "-"
+    },
+    {
+      "word": "し",
+      "reading": "し",
+      "definition": "to do (stem of する)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "おごり",
+      "reading": "おごり",
+      "definition": "luxury/extravagance; treat (i.e. at somebody's expense)",
+      "jlpt": "-"
+    },
+    {
+      "word": "皆さん",
+      "reading": "みなさん",
+      "definition": "all/everyone/everybody",
+      "jlpt": "-"
+    },
+    {
+      "word": "ガールフレンド",
+      "reading": "がーるふれんど",
+      "definition": "girl friend/girlfriend",
+      "jlpt": "-"
+    },
+    {
+      "word": "紹介",
+      "reading": "しょうかい",
+      "definition": "しょうかい (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "たい",
+      "reading": "たい",
+      "definition": "want to (verbal suffix of desire)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "思い",
+      "reading": "おもい",
+      "definition": "to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "definition": "to be / to exist (progressive state / animate)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "わあ",
+      "reading": "わあ",
+      "definition": "wow!/oh!/eek!/gee!; yeah!/alright!/hurray!",
+      "jlpt": "-"
+    },
+    {
+      "word": "だから",
+      "reading": "だから",
+      "definition": "so/therefore/accordingly/consequently/on those grounds/that is why/for that reason; l",
+      "jlpt": "-"
+    },
+    {
+      "word": "そんなに",
+      "reading": "そんなに",
+      "definition": "so much/so/like that",
+      "jlpt": "-"
+    },
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "definition": "happiness/good fortune/luck/blessing",
+      "jlpt": "-"
+    },
+    {
+      "word": "ん",
+      "reading": "ん",
+      "definition": "negative suffix (not) / explanatory",
+      "jlpt": "N5"
+    },
+    {
+      "word": "祝う",
+      "reading": "いわう",
+      "definition": "to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat",
+      "jlpt": "N5"
+    },
+    {
+      "word": "二つ",
+      "reading": "ふたつ",
+      "definition": "ふたつ (word)",
+      "jlpt": "-"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_1075_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "A: あなたは驚くべきです！あなたは再び中国語の競争に勝ちました。",
+      "text_en": "A: You’re amazing!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどろく\" data-defn=\"to be surprised/to be astonished\" data-hsk=\"JLPT N5\"><span class=\"si\">驚く</span><rt>おどろく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたたび\" data-defn=\"again/once more/a second time\" data-hsk=\"\"><span class=\"si\">再び</span><rt>ふたたび</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうそう\" data-defn=\"competition/contest/rivalry/race; competition (between organisms or species)\" data-hsk=\"\"><span class=\"si\">競争</span><rt>きょうそう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かち\" data-defn=\"to win/to gain victory (勝つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">勝ち</span><rt>かち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 6.65,
+      "duration": 6.65
+    },
+    {
+      "id": "story_1075_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "A: あなたは驚くべきです！あなたは再び中国語の競争に勝ちました。",
+      "text_en": "You won the Chinese language competition again.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどろく\" data-defn=\"to be surprised/to be astonished\" data-hsk=\"JLPT N5\"><span class=\"si\">驚く</span><rt>おどろく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたたび\" data-defn=\"again/once more/a second time\" data-hsk=\"\"><span class=\"si\">再び</span><rt>ふたたび</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"China; Chūgoku region of western Honshu (incl. Okayama, Hiroshima, Shimane, Tottori a\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"language; word\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうそう\" data-defn=\"competition/contest/rivalry/race; competition (between organisms or species)\" data-hsk=\"\"><span class=\"si\">競争</span><rt>きょうそう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かち\" data-defn=\"to win/to gain victory (勝つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">勝ち</span><rt>かち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 7.0,
+      "end": 13.65,
+      "duration": 6.65
+    },
+    {
+      "id": "story_1075_p1_c0",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "B: まあ、全然そんなことはありません。",
+      "text_en": "B: Oh, not at all.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"まあ\" data-defn=\"just (e.g. &quot;just wait here&quot;)/come now/now, now; tolerably/passably/moderately/reasona\" data-hsk=\"\"><span class=\"si\">まあ</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぜんぜん\" data-defn=\"(not) at all/(not) in the slightest; wholly/entirely/completely/totally\" data-hsk=\"\"><span class=\"si\">全然</span><rt>ぜんぜん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そんな\" data-defn=\"そんな (word)\" data-hsk=\"\"><span class=\"si\">そんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。",
+      "start": 14.25,
+      "end": 17.6,
+      "duration": 3.35
+    },
+    {
+      "id": "story_1075_p1_c1",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "あなたはあまりにも親切です。",
+      "text_en": "You’re too kind.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しんせつ\" data-defn=\"kind/gentle/considerate/generous/friendly/nice\" data-hsk=\"\"><span class=\"si\">親切</span><rt>しんせつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 17.95,
+      "end": 20.97,
+      "duration": 3.02
+    },
+    {
+      "id": "story_1075_p1_c2",
+      "chunk_index": 4,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "私はただ運がよかっただけです、本当に。",
+      "text_en": "I was just lucky, really.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ただ\" data-defn=\"ordinary/common/usual; free of charge\" data-hsk=\"\"><span class=\"si\">ただ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うん\" data-defn=\"うん (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">運</span><rt>うん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よかっ\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">よかっ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だけ\" data-defn=\"だけ (word)\" data-hsk=\"\"><span class=\"si\">だけ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ほんとうに\" data-defn=\"really/truly\" data-hsk=\"\"><span class=\"si\">本当に</span><rt>ほんとうに</rt></ruby>。",
+      "start": 21.32,
+      "end": 25.54,
+      "duration": 4.22
+    },
+    {
+      "id": "story_1075_p2_c0",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "A: あなたはあまりにも謙虚です。",
+      "text_en": "A: You’re too modest.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"けんきょ\" data-defn=\"modest/humble\" data-hsk=\"\"><span class=\"si\">謙虚</span><rt>けんきょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 26.14,
+      "end": 29.16,
+      "duration": 3.02
+    },
+    {
+      "id": "story_1075_p2_c1",
+      "chunk_index": 6,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "あなたはそれが得意だから勝ちました。",
+      "text_en": "You won because you’re good at it.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"それ\" data-defn=\"それ (word)\" data-hsk=\"\"><span class=\"si\">それ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とくい\" data-defn=\"triumph/prosperity; pride\" data-hsk=\"\"><span class=\"si\">得意</span><rt>とくい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かち\" data-defn=\"to win/to gain victory (勝つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">勝ち</span><rt>かち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 29.51,
+      "end": 32.86,
+      "duration": 3.35
+    },
+    {
+      "id": "story_1075_p2_c2",
+      "chunk_index": 7,
+      "paragraph_index": 2,
+      "sentence_index": 2,
+      "text": "今週末に食事に出かけて祝おう！",
+      "text_en": "Let’s go out for a meal this weekend to celebrate!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"こんしゅう\" data-defn=\"こんしゅう (word)\" data-hsk=\"\"><span class=\"si\">今週</span><rt>こんしゅう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まつ\" data-defn=\"まつ (word)\" data-hsk=\"\"><span class=\"si\">末</span><rt>まつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょくじ\" data-defn=\"しょくじ (word)\" data-hsk=\"\"><span class=\"si\">食事</span><rt>しょくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でかけ\" data-defn=\"to go out (e.g. on an excursion or outing)/to leave/to depart/to start/to set out; to (出かける)\" data-hsk=\"JLPT N5\"><span class=\"si\">出かけ</span><rt>でかけ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しゅくお\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat (祝う)\" data-hsk=\"JLPT N5\"><span class=\"si\">祝お</span><rt>しゅくお</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"う\" data-defn=\"う (word)\" data-hsk=\"\"><span class=\"si\">う</span><rt></rt></ruby>！",
+      "start": 33.21,
+      "end": 36.76,
+      "duration": 3.55
+    },
+    {
+      "id": "story_1075_p3_c0",
+      "chunk_index": 8,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "B: いいですね。",
+      "text_en": "B: Sounds good.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。",
+      "start": 37.36,
+      "end": 39.24,
+      "duration": 1.88
+    },
+    {
+      "id": "story_1075_p3_c1",
+      "chunk_index": 9,
+      "paragraph_index": 3,
+      "sentence_index": 1,
+      "text": "好きなものを注文して—私のおごりです。",
+      "text_en": "Order whatever you like—it’s my treat.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"thing / object / item\" data-hsk=\"JLPT N5\"><span class=\"si\">もの</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうもん\" data-defn=\"order (for an item); request/demand/condition\" data-hsk=\"\"><span class=\"si\">注文</span><rt>ちゅうもん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>—<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おごり\" data-defn=\"luxury/extravagance; treat (i.e. at somebody&#x27;s expense)\" data-hsk=\"\"><span class=\"si\">おごり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 39.59,
+      "end": 43.34,
+      "duration": 3.75
+    },
+    {
+      "id": "story_1075_p3_c2",
+      "chunk_index": 10,
+      "paragraph_index": 3,
+      "sentence_index": 2,
+      "text": "皆さんに私のガールフレンドを紹介したいと思います。",
+      "text_en": "I’d also like to introduce you all to my girlfriend.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"みなさん\" data-defn=\"all/everyone/everybody\" data-hsk=\"\"><span class=\"si\">皆さん</span><rt>みなさん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょうかい\" data-defn=\"しょうかい (word)\" data-hsk=\"\"><span class=\"si\">紹介</span><rt>しょうかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たい\" data-defn=\"want to (verbal suffix of desire)\" data-hsk=\"JLPT N5\"><span class=\"si\">たい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 43.69,
+      "end": 48.66,
+      "duration": 4.97
+    },
+    {
+      "id": "story_1075_p4_c0",
+      "chunk_index": 11,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "A: ガールフレンド？あなたにガールフレンドがいるの？わあ、だからあなたがそんなに幸せなんですね。",
+      "text_en": "A: Girlfriend?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がーるふれんど\" data-defn=\"girl friend/girlfriend\" data-hsk=\"\"><span class=\"si\">ガールフレンド</span><rt>がーるふれんど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いる\" data-defn=\"to be / to exist (progressive state / animate)\" data-hsk=\"JLPT N5\"><span class=\"si\">いる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby>？<ruby class=\"mb-tooltip\" data-py=\"わあ\" data-defn=\"wow!/oh!/eek!/gee!; yeah!/alright!/hurray!\" data-hsk=\"\"><span class=\"si\">わあ</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"だから\" data-defn=\"so/therefore/accordingly/consequently/on those grounds/that is why/for that reason; l\" data-hsk=\"\"><span class=\"si\">だから</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そんなに\" data-defn=\"so much/so/like that\" data-hsk=\"\"><span class=\"si\">そんなに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ん\" data-defn=\"negative suffix (not) / explanatory\" data-hsk=\"JLPT N5\"><span class=\"si\">ん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>。",
+      "start": 49.26,
+      "end": 57.18,
+      "duration": 7.92
+    },
+    {
+      "id": "story_1075_p4_c1",
+      "chunk_index": 12,
+      "paragraph_index": 4,
+      "sentence_index": 1,
+      "text": "祝うべきことが二つありますね！",
+      "text_en": "You have a girlfriend?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"いわう\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat\" data-hsk=\"JLPT N5\"><span class=\"si\">祝う</span><rt>いわう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"ふたつ (word)\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！",
+      "start": 57.53,
+      "end": 60.63,
+      "duration": 3.1
+    },
+    {
+      "id": "story_1075_p4_c2",
+      "chunk_index": 13,
+      "paragraph_index": 4,
+      "sentence_index": 2,
+      "text": "祝うべきことが二つありますね！",
+      "text_en": "Wow, no wonder you’re so happy.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"いわう\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat\" data-hsk=\"JLPT N5\"><span class=\"si\">祝う</span><rt>いわう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！",
+      "start": 60.98,
+      "end": 64.08,
+      "duration": 3.1
+    },
+    {
+      "id": "story_1075_p4_c3",
+      "chunk_index": 14,
+      "paragraph_index": 4,
+      "sentence_index": 3,
+      "text": "祝うべきことが二つありますね！",
+      "text_en": "You have two things to celebrate!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"いわう\" data-defn=\"to celebrate/to congratulate/to observe (a festival); to present (a gift) in celebrat\" data-hsk=\"JLPT N5\"><span class=\"si\">祝う</span><rt>いわう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べき\" data-defn=\"should/must/that one ought to/to be done; -able\" data-hsk=\"\"><span class=\"si\">べき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ね\" data-defn=\"sentence-ending particle (isn&#x27;t it? / right?)\" data-hsk=\"JLPT N5\"><span class=\"si\">ね</span><rt></rt></ruby>！",
+      "start": 64.43,
+      "end": 67.53,
+      "duration": 3.1
+    }
+  ],
+  "total_chunks": 15,
+  "audio_duration": 67.78,
+  "has_chunk_audio": true
+}

@@ -1,1 +1,511 @@
-{"id": 1149, "title": "One of my days", "japanese_title": "私の一日", "level": "Beginner", "hsk_tags": ["HSK1"], "slug": "one-of-my-days", "audio_url": "/audio/japanese/1149_one-of-my-days.mp3", "english_paragraphs": ["I got up at seven today and had something to eat. At nine, I went to school for class. My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study. We drank coffee and studied Chinese together. I’m very grateful to my teacher—now I understand it all. At six in the evening, I went home and had dinner with my parents. I don’t feel like reading tonight. Time for bed!"], "english_full": "I got up at seven today and had something to eat. At nine, I went to school for class. My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study. We drank coffee and studied Chinese together. I’m very grateful to my teacher—now I understand it all. At six in the evening, I went home and had dinner with my parents. I don’t feel like reading tonight. Time for bed!", "japanese_paragraphs": ["今日は七時に起きて、朝ご飯を食べました。九時に学校へ行って、授業を受けました。私は中国語があまり得意ではないので、午後は中国語の先生に勉強を手伝ってもらいました。先生と一緒にコーヒーを飲みながら、中国語を勉強しました。先生には本当に感謝しています。おかげで、教わったことが全部分かるようになりました。夕方六時に家に帰り、両親と晩ご飯を食べました。今夜は本を読む気になれません。もう寝る時間です！"], "reading_paragraphs": ["きょう は しちじ に おきて、 あさごはん を たべました。 くじ に がっこう へ いって、 じゅぎょう を うけました。 わたし は ちゅうごくご が あまり とくい では ない ので、 ごご は ちゅうごくご の せんせい に べんきょう を てつだって もらいました。 せんせい と いっしょ に こーひー を のみながら、 ちゅうごくご を べんきょう しました。 せんせい には ほんとう に かんしゃ しています。 おかげで、 おそわった こと が ぜんぶ わかる ように なりました。 ゆうがた ろくじ に いえ に かえり、 りょうしん と ばんごはん を たべました。 こんや は ほん を よむ き に なれません。 もう ねる じかん です！"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"きょう\" data-defn=\"today/this day; these days/recently/nowadays\" data-hsk=\"JLPT N5\"><span class=\"si\">今日</span><rt>きょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しちじ\" data-defn=\"seven o&#x27;clock\" data-hsk=\"\"><span class=\"si\">七時</span><rt>しちじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おき\" data-defn=\"to get up/to rise/to blaze up (fire); to wake up/to be awake/to stay awake (起きる)\" data-hsk=\"JLPT N5\"><span class=\"si\">起き</span><rt>おき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"あさ\" data-defn=\"morning; breakfast\" data-hsk=\"JLPT N5\"><span class=\"si\">朝</span><rt>あさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"cooked rice; meal\" data-hsk=\"JLPT N5\"><span class=\"si\">ご飯</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべ\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)\" data-hsk=\"JLPT N5\"><span class=\"si\">食べ</span><rt>たべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"くじ\" data-defn=\"9 o&#x27;clock\" data-hsk=\"JLPT N5\"><span class=\"si\">九時</span><rt>くじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がっこう\" data-defn=\"school\" data-hsk=\"JLPT N5\"><span class=\"si\">学校</span><rt>がっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"へ\" data-defn=\"direction marker (towards/to)\" data-hsk=\"JLPT N5\"><span class=\"si\">へ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっ\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行っ</span><rt>いっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"じゅぎょう\" data-defn=\"class; lesson\" data-hsk=\"JLPT N4\"><span class=\"si\">授業</span><rt>じゅぎょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うけ\" data-defn=\"to receive/to get; to catch (e.g. a ball) (受ける)\" data-hsk=\"JLPT N5\"><span class=\"si\">受け</span><rt>うけ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごくご\" data-defn=\"Chinese language\" data-hsk=\"JLPT N5\"><span class=\"si\">中国語</span><rt>ちゅうごくご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまり\" data-defn=\"remainder/remnant/rest/balance/surplus/remains (of a meal)/leftovers; (not) very/(not) muc\" data-hsk=\"\"><span class=\"si\">あまり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とくい\" data-defn=\"good at; skilled in\" data-hsk=\"JLPT N3\"><span class=\"si\">得意</span><rt>とくい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"that being the case/because of .../the reason is .../given that ...\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ごご\" data-defn=\"afternoon/p.m.\" data-hsk=\"JLPT N5\"><span class=\"si\">午後</span><rt>ごご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごくご\" data-defn=\"Chinese language\" data-hsk=\"JLPT N5\"><span class=\"si\">中国語</span><rt>ちゅうごくご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"teacher/instructor/master; sensei/title or form of address for a teacher, master, doctor, lawyer, et\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"study; diligence\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てつだっ\" data-defn=\"to help/to assist/to aid; to contribute to/to be a factor in (手伝う)\" data-hsk=\"JLPT N5\"><span class=\"si\">手伝っ</span><rt>てつだっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もらい\" data-defn=\"to receive/to take/to accept; to get somebody to do something (もらう)\" data-hsk=\"JLPT N5\"><span class=\"si\">もらい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"teacher/instructor/master; sensei/title or form of address for a teacher, master, doctor, lawyer, et\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"together; at the same time\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"コーヒー\" data-defn=\"coffee\" data-hsk=\"\"><span class=\"si\">コーヒー</span><rt>コーヒー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のみ\" data-defn=\"to drink/to gulp/to swallow/to take (medicine); to smoke (tobacco) (飲む)\" data-hsk=\"JLPT N5\"><span class=\"si\">飲み</span><rt>のみ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ながら\" data-defn=\"while/during/as; while/although/though/despite/in spite of/notwithstanding\" data-hsk=\"\"><span class=\"si\">ながら</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"China; Chūgoku region of western Honshu (incl. Okayama, Hiroshima, Shimane, Tottori and Ya\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"language; word\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"study; diligence\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"teacher/instructor/master; sensei/title or form of address for a teacher, master, doctor, lawyer, et\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほんとう\" data-defn=\"really/truly\" data-hsk=\"\"><span class=\"si\">本当に</span><rt>ほんとう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんしゃ\" data-defn=\"thanks/gratitude\" data-hsk=\"\"><span class=\"si\">感謝</span><rt>かんしゃ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おかげ\" data-defn=\"grace (of God)/benevolence (of Buddha)/blessing; assistance/help/aid\" data-hsk=\"\"><span class=\"si\">おかげ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おそわっ\" data-defn=\"to be taught/to learn/to take lessons in (教わる)\" data-hsk=\"JLPT N5\"><span class=\"si\">教わっ</span><rt>おそわっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぜんぶ\" data-defn=\"all/entire/whole/altogether\" data-hsk=\"\"><span class=\"si\">全部</span><rt>ぜんぶ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わかる\" data-defn=\"to understand/to comprehend/to grasp/to see/to get/to follow; to become clear/to be k\" data-hsk=\"JLPT N5\"><span class=\"si\">分かる</span><rt>わかる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よう\" data-defn=\"like / in the manner of\" data-hsk=\"JLPT N4\"><span class=\"si\">よう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ゆうがた\" data-defn=\"evening/dusk\" data-hsk=\"\"><span class=\"si\">夕方</span><rt>ゆうがた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ろくじ\" data-defn=\"six o&#x27;clock; six periods of a day (morning, midday, afternoon, evening, midnight, lat\" data-hsk=\"\"><span class=\"si\">六時</span><rt>ろくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"house/residence/dwelling; family/household\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かえり\" data-defn=\"to return/to come home/to go home/to go back; to leave (帰る)\" data-hsk=\"JLPT N5\"><span class=\"si\">帰り</span><rt>かえり</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"parents\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ばん\" data-defn=\"evening/night; dinner/evening meal\" data-hsk=\"JLPT N5\"><span class=\"si\">晩</span><rt>ばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"cooked rice; meal\" data-hsk=\"JLPT N5\"><span class=\"si\">ご飯</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべ\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)\" data-hsk=\"JLPT N5\"><span class=\"si\">食べ</span><rt>たべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"こんや\" data-defn=\"tonight\" data-hsk=\"JLPT N3\"><span class=\"si\">今夜</span><rt>こんや</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほん\" data-defn=\"counter for long cylindrical items\" data-hsk=\"JLPT N5\"><span class=\"si\">本</span><rt>ほん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よむ\" data-defn=\"to read; to count\" data-hsk=\"JLPT N5\"><span class=\"si\">読む</span><rt>よむ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"き\" data-defn=\"spirit/mind/heart; nature/disposition\" data-hsk=\"\"><span class=\"si\">気</span><rt>き</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なれ\" data-defn=\"to get used to/to grow accustomed to/to become familiar with; to become skilled in/to (なれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"もう\" data-defn=\"now/soon/shortly/before long/presently; already/yet/by now/(not) anymore\" data-hsk=\"\"><span class=\"si\">もう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ねる\" data-defn=\"to sleep (lying down); to go to bed/to lie in bed\" data-hsk=\"JLPT N5\"><span class=\"si\">寝る</span><rt>ねる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じかん\" data-defn=\"time; hour\" data-hsk=\"JLPT N5\"><span class=\"si\">時間</span><rt>じかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！"], "vocabulary": [{"word": "今日", "reading": "きょう", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "七時", "reading": "しちじ", "translation": "", "jlpt": "-"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "起き", "reading": "おき", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "朝", "reading": "あさ", "translation": "", "jlpt": "N5"}, {"word": "ご飯", "reading": "ご", "translation": "", "jlpt": "N5"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "食べ", "reading": "たべ", "translation": "", "jlpt": "N5"}, {"word": "ました", "reading": "ました", "translation": "", "jlpt": "N5"}, {"word": "九時", "reading": "くじ", "translation": "", "jlpt": "N5"}, {"word": "学校", "reading": "がっこう", "translation": "", "jlpt": "N5"}, {"word": "へ", "reading": "へ", "translation": "", "jlpt": "N5"}, {"word": "行っ", "reading": "いっ", "translation": "", "jlpt": "N5"}, {"word": "授業", "reading": "じゅぎょう", "translation": "", "jlpt": "N4"}, {"word": "受け", "reading": "うけ", "translation": "", "jlpt": "N5"}, {"word": "私", "reading": "わたし", "translation": "", "jlpt": "N5"}, {"word": "中国語", "reading": "ちゅうごくご", "translation": "", "jlpt": "N5"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "あまり", "reading": "あまり", "translation": "", "jlpt": "-"}, {"word": "得意", "reading": "とくい", "translation": "", "jlpt": "N3"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "ない", "reading": "ない", "translation": "", "jlpt": "N5"}, {"word": "ので", "reading": "ので", "translation": "", "jlpt": "-"}, {"word": "午後", "reading": "ごご", "translation": "", "jlpt": "N5"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "先生", "reading": "せんせい", "translation": "", "jlpt": "N5"}, {"word": "勉強", "reading": "べんきょう", "translation": "", "jlpt": "N5"}, {"word": "手伝っ", "reading": "てつだっ", "translation": "", "jlpt": "N5"}, {"word": "もらい", "reading": "もらい", "translation": "", "jlpt": "N5"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "一緒", "reading": "いっしょ", "translation": "", "jlpt": "-"}, {"word": "コーヒー", "reading": "コーヒー", "translation": "", "jlpt": "-"}, {"word": "飲み", "reading": "のみ", "translation": "", "jlpt": "N5"}, {"word": "ながら", "reading": "ながら", "translation": "", "jlpt": "-"}, {"word": "中国", "reading": "ちゅうごく", "translation": "", "jlpt": "N5"}, {"word": "語", "reading": "ご", "translation": "", "jlpt": "-"}, {"word": "し", "reading": "し", "translation": "", "jlpt": "N5"}, {"word": "本当に", "reading": "ほんとう", "translation": "", "jlpt": "-"}, {"word": "感謝", "reading": "かんしゃ", "translation": "", "jlpt": "-"}, {"word": "い", "reading": "い", "translation": "", "jlpt": "N5"}, {"word": "ます", "reading": "ます", "translation": "", "jlpt": "N5"}, {"word": "おかげ", "reading": "おかげ", "translation": "", "jlpt": "-"}, {"word": "教わっ", "reading": "おそわっ", "translation": "", "jlpt": "N5"}, {"word": "た", "reading": "た", "translation": "", "jlpt": "N5"}, {"word": "こと", "reading": "こと", "translation": "", "jlpt": "N5"}, {"word": "全部", "reading": "ぜんぶ", "translation": "", "jlpt": "-"}, {"word": "分かる", "reading": "わかる", "translation": "", "jlpt": "N5"}, {"word": "よう", "reading": "よう", "translation": "", "jlpt": "N4"}, {"word": "なり", "reading": "なり", "translation": "", "jlpt": "N5"}, {"word": "夕方", "reading": "ゆうがた", "translation": "", "jlpt": "-"}, {"word": "六時", "reading": "ろくじ", "translation": "", "jlpt": "-"}, {"word": "家", "reading": "いえ", "translation": "", "jlpt": "N5"}, {"word": "帰り", "reading": "かえり", "translation": "", "jlpt": "N5"}, {"word": "両親", "reading": "りょうしん", "translation": "", "jlpt": "N4"}, {"word": "晩", "reading": "ばん", "translation": "", "jlpt": "N5"}, {"word": "今夜", "reading": "こんや", "translation": "", "jlpt": "N3"}, {"word": "本", "reading": "ほん", "translation": "", "jlpt": "N5"}, {"word": "読む", "reading": "よむ", "translation": "", "jlpt": "N5"}, {"word": "気", "reading": "き", "translation": "", "jlpt": "-"}, {"word": "なれ", "reading": "なれ", "translation": "", "jlpt": "N5"}, {"word": "ません", "reading": "ません", "translation": "", "jlpt": "N5"}, {"word": "もう", "reading": "もう", "translation": "", "jlpt": "-"}, {"word": "寝る", "reading": "ねる", "translation": "", "jlpt": "N5"}, {"word": "時間", "reading": "じかん", "translation": "", "jlpt": "N5"}, {"word": "です", "reading": "です", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 1149,
+  "title": "One of my days",
+  "japanese_title": "私の一日",
+  "level": "Beginner",
+  "hsk_tags": [
+    "HSK1"
+  ],
+  "slug": "one-of-my-days",
+  "audio_url": "/audio/japanese/1149_one-of-my-days.mp3",
+  "english_paragraphs": [
+    "I got up at seven today and had something to eat. At nine, I went to school for class. My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study. We drank coffee and studied Chinese together. I’m very grateful to my teacher—now I understand it all. At six in the evening, I went home and had dinner with my parents. I don’t feel like reading tonight. Time for bed!"
+  ],
+  "english_full": "I got up at seven today and had something to eat. At nine, I went to school for class. My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study. We drank coffee and studied Chinese together. I’m very grateful to my teacher—now I understand it all. At six in the evening, I went home and had dinner with my parents. I don’t feel like reading tonight. Time for bed!",
+  "japanese_paragraphs": [
+    "私は今日は七時に起きて、何かを食べました。九時に、私はクラスのために学校に行きました。私の中国語はあまり上手ではないので、午後に中国語の先生が私に勉強を手伝ってくれました。私たちは一緒にコーヒーを飲んで、中国語を勉強しました。私は先生に非常に感謝しています—今ではすべてを理解できるようになりました。夕方の六時に、私は家に帰って両親と一緒に夕食を取りました。今晩は読書をする気になれません。寝る時間です！"
+  ],
+  "reading_paragraphs": [
+    "わたしはきょうはななじにおきて、なにかをたべました。くじに、わたしはクラスのためにがっこうにいきました。わたしのちゅうごくごはあまりじょうずではないので、ごごにちゅうごくごのせんせいがわたしにべんきょうをてつだってくれました。わたしたちはいっしょにコーヒーをのんで、ちゅうごくごをべんきょうしました。わたしはせんせいにひじょうにかんしゃしています—いまではすべてをりかいできるようになりました。ゆうがたのろくじに、わたしはいえにかえってりょうしんといっしょにゆうしょくをとりました。こんばんはこちらくしょをするきになれません。ねるじかんです！"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょう\" data-defn=\"きょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">今日</span><rt>きょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しちじ\" data-defn=\"しちじ (word)\" data-hsk=\"\"><span class=\"si\">七時</span><rt>しちじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おき\" data-defn=\"to get up/to rise/to blaze up (fire); to wake up/to be awake/to stay awake (起きる)\" data-hsk=\"JLPT N5\"><span class=\"si\">起き</span><rt>おき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"なに\" data-defn=\"what; you-know-what/that thing\" data-hsk=\"\"><span class=\"si\">何</span><rt>なに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべ\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)\" data-hsk=\"JLPT N5\"><span class=\"si\">食べ</span><rt>たべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"くじ\" data-defn=\"9 o&#x27;clock\" data-hsk=\"JLPT N5\"><span class=\"si\">九時</span><rt>くじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くらす\" data-defn=\"class\" data-hsk=\"\"><span class=\"si\">クラス</span><rt>くらす</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ため\" data-defn=\"good/advantage/benefit/welfare; sake/purpose/objective/aim\" data-hsk=\"\"><span class=\"si\">ため</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がっこう\" data-defn=\"がっこう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">学校</span><rt>がっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いき\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行き</span><rt>いき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごくご\" data-defn=\"ちゅうごくご (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国語</span><rt>ちゅうごくご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまり\" data-defn=\"あまり (word)\" data-hsk=\"\"><span class=\"si\">あまり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じょうず\" data-defn=\"skillful/skilled/proficient/good (at)/adept/clever; flattery\" data-hsk=\"\"><span class=\"si\">上手</span><rt>じょうず</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"ので (word)\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ごご\" data-defn=\"ごご (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">午後</span><rt>ごご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"せんせい (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"べんきょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てつだっ\" data-defn=\"to help/to assist/to aid; to contribute to/to be a factor in (手伝う)\" data-hsk=\"JLPT N5\"><span class=\"si\">手伝っ</span><rt>てつだっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれ\" data-defn=\"to give/to let (one) have; to give (くれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">くれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たち\" data-defn=\"plural suffix (group, e.g. 私たち: we)\" data-hsk=\"JLPT N5\"><span class=\"si\">たち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"いっしょ (word)\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"コーヒー\" data-defn=\"コーヒー (loanword / name)\" data-hsk=\"\"><span class=\"si\">コーヒー</span><rt>コーヒー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のん\" data-defn=\"to drink/to gulp/to swallow/to take (medicine); to smoke (tobacco) (飲む)\" data-hsk=\"JLPT N5\"><span class=\"si\">飲ん</span><rt>のん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"べんきょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"せんせい (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひじょう\" data-defn=\"emergency; extraordinary/unusual\" data-hsk=\"\"><span class=\"si\">非常</span><rt>ひじょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんしゃ\" data-defn=\"かんしゃ (word)\" data-hsk=\"\"><span class=\"si\">感謝</span><rt>かんしゃ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>—<ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">すべて</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りかい\" data-defn=\"understanding/comprehension/appreciation/sympathy\" data-hsk=\"\"><span class=\"si\">理解</span><rt>りかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"できる\" data-defn=\"to be out of/to have no more at hand\" data-hsk=\"JLPT N5\"><span class=\"si\">できる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よう\" data-defn=\"like / in the manner of\" data-hsk=\"JLPT N4\"><span class=\"si\">よう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ゆうがた\" data-defn=\"ゆうがた (word)\" data-hsk=\"\"><span class=\"si\">夕方</span><rt>ゆうがた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ろくじ\" data-defn=\"ろくじ (word)\" data-hsk=\"\"><span class=\"si\">六時</span><rt>ろくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"いえ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かえっ\" data-defn=\"to return/to come home/to go home/to go back; to leave (帰る)\" data-hsk=\"JLPT N5\"><span class=\"si\">帰っ</span><rt>かえっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"りょうしん (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"いっしょ (word)\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆうしょく\" data-defn=\"evening meal/dinner\" data-hsk=\"JLPT N4\"><span class=\"si\">夕食</span><rt>ゆうしょく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とり\" data-defn=\"to take/to pick up/to grab/to catch; to pass/to hand/to give (取る)\" data-hsk=\"JLPT N5\"><span class=\"si\">取り</span><rt>とり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"こんばん\" data-defn=\"tonight/this evening\" data-hsk=\"\"><span class=\"si\">今晩</span><rt>こんばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どくしょ\" data-defn=\"reading (books)\" data-hsk=\"\"><span class=\"si\">読書</span><rt>どくしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"き\" data-defn=\"き (word)\" data-hsk=\"\"><span class=\"si\">気</span><rt>き</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なれ\" data-defn=\"to get used to/to grow accustomed to/to become familiar with; to become skilled in/to (なれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ねる\" data-defn=\"to sleep (lying down); to go to bed/to lie in bed\" data-hsk=\"JLPT N5\"><span class=\"si\">寝る</span><rt>ねる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じかん\" data-defn=\"じかん (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">時間</span><rt>じかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！"
+  ],
+  "vocabulary": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "わたし (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "definition": "きょう (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "七時",
+      "reading": "しちじ",
+      "definition": "しちじ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "起き",
+      "reading": "おき",
+      "definition": "to get up/to rise/to blaze up (fire); to wake up/to be awake/to stay awake (起きる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "何",
+      "reading": "なに",
+      "definition": "what; you-know-what/that thing",
+      "jlpt": "-"
+    },
+    {
+      "word": "か",
+      "reading": "か",
+      "definition": "question particle (?)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "食べ",
+      "reading": "たべ",
+      "definition": "to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "九時",
+      "reading": "くじ",
+      "definition": "9 o'clock",
+      "jlpt": "N5"
+    },
+    {
+      "word": "クラス",
+      "reading": "くらす",
+      "definition": "class",
+      "jlpt": "-"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ため",
+      "reading": "ため",
+      "definition": "good/advantage/benefit/welfare; sake/purpose/objective/aim",
+      "jlpt": "-"
+    },
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "definition": "がっこう (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "行き",
+      "reading": "いき",
+      "definition": "to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "中国語",
+      "reading": "ちゅうごくご",
+      "definition": "ちゅうごくご (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あまり",
+      "reading": "あまり",
+      "definition": "あまり (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "definition": "skillful/skilled/proficient/good (at)/adept/clever; flattery",
+      "jlpt": "-"
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "definition": "location / means marker (at/in/by)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ない",
+      "reading": "ない",
+      "definition": "not / non-existent",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ので",
+      "reading": "ので",
+      "definition": "ので (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "definition": "ごご (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "中国",
+      "reading": "ちゅうごく",
+      "definition": "ちゅうごく (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "語",
+      "reading": "ご",
+      "definition": "ご (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "definition": "せんせい (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "勉強",
+      "reading": "べんきょう",
+      "definition": "べんきょう (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "手伝っ",
+      "reading": "てつだっ",
+      "definition": "to help/to assist/to aid; to contribute to/to be a factor in (手伝う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "くれ",
+      "reading": "くれ",
+      "definition": "to give/to let (one) have; to give (くれる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "たち",
+      "reading": "たち",
+      "definition": "plural suffix (group, e.g. 私たち: we)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "definition": "いっしょ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "definition": "コーヒー (loanword / name)",
+      "jlpt": "-"
+    },
+    {
+      "word": "飲ん",
+      "reading": "のん",
+      "definition": "to drink/to gulp/to swallow/to take (medicine); to smoke (tobacco) (飲む)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "し",
+      "reading": "し",
+      "definition": "to do (stem of する)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "非常",
+      "reading": "ひじょう",
+      "definition": "emergency; extraordinary/unusual",
+      "jlpt": "-"
+    },
+    {
+      "word": "感謝",
+      "reading": "かんしゃ",
+      "definition": "かんしゃ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "い",
+      "reading": "い",
+      "definition": "to be / to exist (auxiliary verb)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "definition": "now / at present",
+      "jlpt": "N5"
+    },
+    {
+      "word": "すべて",
+      "reading": "すべて",
+      "definition": "everything/all/the whole; entirely/completely/wholly/all",
+      "jlpt": "-"
+    },
+    {
+      "word": "理解",
+      "reading": "りかい",
+      "definition": "understanding/comprehension/appreciation/sympathy",
+      "jlpt": "-"
+    },
+    {
+      "word": "できる",
+      "reading": "できる",
+      "definition": "to be out of/to have no more at hand",
+      "jlpt": "N5"
+    },
+    {
+      "word": "よう",
+      "reading": "よう",
+      "definition": "like / in the manner of",
+      "jlpt": "N4"
+    },
+    {
+      "word": "なり",
+      "reading": "なり",
+      "definition": "to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "definition": "ゆうがた (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "六時",
+      "reading": "ろくじ",
+      "definition": "ろくじ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "definition": "いえ (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "帰っ",
+      "reading": "かえっ",
+      "definition": "to return/to come home/to go home/to go back; to leave (帰る)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "両親",
+      "reading": "りょうしん",
+      "definition": "りょうしん (word)",
+      "jlpt": "N4"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "夕食",
+      "reading": "ゆうしょく",
+      "definition": "evening meal/dinner",
+      "jlpt": "N4"
+    },
+    {
+      "word": "取り",
+      "reading": "とり",
+      "definition": "to take/to pick up/to grab/to catch; to pass/to hand/to give (取る)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "今晩",
+      "reading": "こんばん",
+      "definition": "tonight/this evening",
+      "jlpt": "-"
+    },
+    {
+      "word": "読書",
+      "reading": "どくしょ",
+      "definition": "reading (books)",
+      "jlpt": "-"
+    },
+    {
+      "word": "する",
+      "reading": "する",
+      "definition": "to do",
+      "jlpt": "N5"
+    },
+    {
+      "word": "気",
+      "reading": "き",
+      "definition": "き (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "なれ",
+      "reading": "なれ",
+      "definition": "to get used to/to grow accustomed to/to become familiar with; to become skilled in/to (なれる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ません",
+      "reading": "ません",
+      "definition": "verb polite suffix (negative: do not)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "definition": "to sleep (lying down); to go to bed/to lie in bed",
+      "jlpt": "N5"
+    },
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "definition": "じかん (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_1149_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "私は今日は七時に起きて、何かを食べました。",
+      "text_en": "I got up at seven today and had something to eat.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょう\" data-defn=\"きょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">今日</span><rt>きょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しちじ\" data-defn=\"しちじ (word)\" data-hsk=\"\"><span class=\"si\">七時</span><rt>しちじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おき\" data-defn=\"to get up/to rise/to blaze up (fire); to wake up/to be awake/to stay awake (起きる)\" data-hsk=\"JLPT N5\"><span class=\"si\">起き</span><rt>おき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"なに\" data-defn=\"what; you-know-what/that thing\" data-hsk=\"\"><span class=\"si\">何</span><rt>なに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たべ\" data-defn=\"to eat; to live on (e.g. a salary)/to live off/to subsist on (食べる)\" data-hsk=\"JLPT N5\"><span class=\"si\">食べ</span><rt>たべ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 4.45,
+      "duration": 4.45
+    },
+    {
+      "id": "story_1149_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "九時に、私はクラスのために学校に行きました。",
+      "text_en": "At nine, I went to school for class.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"くじ\" data-defn=\"9 o&#x27;clock\" data-hsk=\"JLPT N5\"><span class=\"si\">九時</span><rt>くじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くらす\" data-defn=\"class\" data-hsk=\"\"><span class=\"si\">クラス</span><rt>くらす</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ため\" data-defn=\"good/advantage/benefit/welfare; sake/purpose/objective/aim\" data-hsk=\"\"><span class=\"si\">ため</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がっこう\" data-defn=\"がっこう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">学校</span><rt>がっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いき\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行き</span><rt>いき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 4.8,
+      "end": 9.3,
+      "duration": 4.5
+    },
+    {
+      "id": "story_1149_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "私の中国語はあまり上手ではないので、午後に中国語の先生が私に勉強を手伝ってくれました。",
+      "text_en": "My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごくご\" data-defn=\"ちゅうごくご (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国語</span><rt>ちゅうごくご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまり\" data-defn=\"あまり (word)\" data-hsk=\"\"><span class=\"si\">あまり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じょうず\" data-defn=\"skillful/skilled/proficient/good (at)/adept/clever; flattery\" data-hsk=\"\"><span class=\"si\">上手</span><rt>じょうず</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"ので (word)\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ごご\" data-defn=\"ごご (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">午後</span><rt>ごご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"せんせい (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"べんきょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てつだっ\" data-defn=\"to help/to assist/to aid; to contribute to/to be a factor in (手伝う)\" data-hsk=\"JLPT N5\"><span class=\"si\">手伝っ</span><rt>てつだっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くれ\" data-defn=\"to give/to let (one) have; to give (くれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">くれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 9.65,
+      "end": 19.18,
+      "duration": 9.53
+    },
+    {
+      "id": "story_1149_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "私たちは一緒にコーヒーを飲んで、中国語を勉強しました。",
+      "text_en": "We drank coffee and studied Chinese together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たち\" data-defn=\"plural suffix (group, e.g. 私たち: we)\" data-hsk=\"JLPT N5\"><span class=\"si\">たち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"いっしょ (word)\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"コーヒー\" data-defn=\"コーヒー (loanword / name)\" data-hsk=\"\"><span class=\"si\">コーヒー</span><rt>コーヒー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のん\" data-defn=\"to drink/to gulp/to swallow/to take (medicine); to smoke (tobacco) (飲む)\" data-hsk=\"JLPT N5\"><span class=\"si\">飲ん</span><rt>のん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちゅうごく\" data-defn=\"ちゅうごく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">中国</span><rt>ちゅうごく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"ご (word)\" data-hsk=\"\"><span class=\"si\">語</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"べんきょう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 19.53,
+      "end": 25.25,
+      "duration": 5.72
+    },
+    {
+      "id": "story_1149_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "私は先生に非常に感謝しています—今ではすべてを理解できるようになりました。",
+      "text_en": "I’m very grateful to my teacher—now I understand it all.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"せんせい (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひじょう\" data-defn=\"emergency; extraordinary/unusual\" data-hsk=\"\"><span class=\"si\">非常</span><rt>ひじょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんしゃ\" data-defn=\"かんしゃ (word)\" data-hsk=\"\"><span class=\"si\">感謝</span><rt>かんしゃ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>—<ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">すべて</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りかい\" data-defn=\"understanding/comprehension/appreciation/sympathy\" data-hsk=\"\"><span class=\"si\">理解</span><rt>りかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"できる\" data-defn=\"to be out of/to have no more at hand\" data-hsk=\"JLPT N5\"><span class=\"si\">できる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よう\" data-defn=\"like / in the manner of\" data-hsk=\"JLPT N4\"><span class=\"si\">よう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 25.6,
+      "end": 32.98,
+      "duration": 7.38
+    },
+    {
+      "id": "story_1149_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "夕方の六時に、私は家に帰って両親と一緒に夕食を取りました。",
+      "text_en": "At six in the evening, I went home and had dinner with my parents.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"ゆうがた\" data-defn=\"ゆうがた (word)\" data-hsk=\"\"><span class=\"si\">夕方</span><rt>ゆうがた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ろくじ\" data-defn=\"ろくじ (word)\" data-hsk=\"\"><span class=\"si\">六時</span><rt>ろくじ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"いえ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かえっ\" data-defn=\"to return/to come home/to go home/to go back; to leave (帰る)\" data-hsk=\"JLPT N5\"><span class=\"si\">帰っ</span><rt>かえっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りょうしん\" data-defn=\"りょうしん (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">両親</span><rt>りょうしん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"いっしょ (word)\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆうしょく\" data-defn=\"evening meal/dinner\" data-hsk=\"JLPT N4\"><span class=\"si\">夕食</span><rt>ゆうしょく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とり\" data-defn=\"to take/to pick up/to grab/to catch; to pass/to hand/to give (取る)\" data-hsk=\"JLPT N5\"><span class=\"si\">取り</span><rt>とり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 33.33,
+      "end": 40.23,
+      "duration": 6.9
+    },
+    {
+      "id": "story_1149_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "今晩は読書をする気になれません。",
+      "text_en": "I don’t feel like reading tonight.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"こんばん\" data-defn=\"tonight/this evening\" data-hsk=\"\"><span class=\"si\">今晩</span><rt>こんばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どくしょ\" data-defn=\"reading (books)\" data-hsk=\"\"><span class=\"si\">読書</span><rt>どくしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"き\" data-defn=\"き (word)\" data-hsk=\"\"><span class=\"si\">気</span><rt>き</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なれ\" data-defn=\"to get used to/to grow accustomed to/to become familiar with; to become skilled in/to (なれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。",
+      "start": 40.58,
+      "end": 43.96,
+      "duration": 3.38
+    },
+    {
+      "id": "story_1149_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "寝る時間です！",
+      "text_en": "Time for bed!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"ねる\" data-defn=\"to sleep (lying down); to go to bed/to lie in bed\" data-hsk=\"JLPT N5\"><span class=\"si\">寝る</span><rt>ねる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じかん\" data-defn=\"じかん (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">時間</span><rt>じかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>！",
+      "start": 44.31,
+      "end": 46.36,
+      "duration": 2.05
+    }
+  ],
+  "total_chunks": 8,
+  "audio_duration": 46.61,
+  "has_chunk_audio": true
+}

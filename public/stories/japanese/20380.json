@@ -1,1 +1,841 @@
-{"id": 20380, "title": "My big family", "japanese_title": "私の大家族", "level": "Intermediate", "hsk_tags": ["HSK4"], "slug": "my-big-family", "audio_url": "/audio/japanese/20380_my-big-family.mp3", "english_paragraphs": ["I have a big family. My father is a middle school teacher and my mother is a nurse. They are both retired now. I have no biological brothers or sisters, I am an only child. But I'm not alone, because I have two cousins ​​and three cousins, and we grew up together very happily. I used to be a civil servant, but after I had children, I became a housewife. My spouse is a foreigner, works in an IT company, and is a programmer. He has three brothers. His eldest brother is very smart and is a university professor. His second brother is very tall and an athlete. His younger brother is still a student and is currently studying at university while working part-time. My father-in-law is a bank clerk, and my mother-in-law is a supermarket salesperson. They are both in their seventies now and are still working. How is your family?"], "english_full": "I have a big family. My father is a middle school teacher and my mother is a nurse. They are both retired now. I have no biological brothers or sisters, I am an only child. But I'm not alone, because I have two cousins ​​and three cousins, and we grew up together very happily. I used to be a civil servant, but after I had children, I became a housewife. My spouse is a foreigner, works in an IT company, and is a programmer. He has three brothers. His eldest brother is very smart and is a university professor. His second brother is very tall and an athlete. His younger brother is still a student and is currently studying at university while working part-time. My father-in-law is a bank clerk, and my mother-in-law is a supermarket salesperson. They are both in their seventies now and are still working. How is your family?", "japanese_paragraphs": ["私の家族は大家族です。父は中学校の教師、母は看護師でしたが、二人とも今は退職しています。私には実の兄弟姉妹がいないので、一人っ子です。でも、寂しくはありません。男のいとこが二人、女のいとこが三人いて、みんなで楽しく育ったからです。私は以前、公務員でしたが、子どもが生まれてからは専業主婦になりました。夫は外国人で、IT企業のプログラマーです。夫には兄が二人と弟が一人います。一番上のお兄さんはとても頭がよく、大学教授です。二番目のお兄さんは背が高く、スポーツ選手です。弟さんはまだ学生で、アルバイトをしながら大学に通っています。義理の父は銀行員で、義理の母はスーパーの店員です。二人とも今は七十代ですが、まだ働いています。あなたの家族はどんな家族ですか。"], "reading_paragraphs": ["わたし の かぞく は だいかぞく です。ちち は ちゅうがっこう の きょうし、はは は かんごし でした が、ふたり とも いま は たいしょく しています。わたし には じつ の きょうだいしまい が いない ので、ひとりっこ です。でも、さびしく は ありません。おとこ の いとこ が ふたり、おんな の いとこ が さんにん いて、みんな で たのしく そだった から です。わたし は いぜん、こうむいん でした が、こども が うまれて から は せんぎょうしゅふ に なりました。おっと は がいこくじん で、あいてぃーきぎょう の プログラマー です。おっと には あに が ふたり と おとうと が ひとり います。いちばん うえ の おにいさん は とても あたま が よく、だいがくきょうじゅ です。にばんめ の おにいさん は せ が たかく、スポーツせんしゅ です。おとうとさん は まだ がくせい で、アルバイト を しながら だいがく に かよっています。ぎり の ちち は ぎんこういん で、ぎり の はは は スーパー の てんいん です。ふたり とも いま は ななじゅうだい です が、まだ はたらいています。あなた の かぞく は どんな かぞく です か。"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だい\" data-defn=\"large/big/great/major/important/serious/heavy/loud; older/senior\" data-hsk=\"\"><span class=\"si\">大</span><rt>だい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうがっこう\" data-defn=\"junior high school/middle school/lower secondary school\" data-hsk=\"\"><span class=\"si\">中学校</span><rt>ちゅうがっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうし\" data-defn=\"teacher (classroom)\" data-hsk=\"\"><span class=\"si\">教師</span><rt>きょうし</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんご\" data-defn=\"nursing/(army) nurse\" data-hsk=\"\"><span class=\"si\">看護</span><rt>かんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"teacher/master/one&#x27;s mentor; religious leader\" data-hsk=\"\"><span class=\"si\">師</span><rt>し</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たいしょく\" data-defn=\"retirement/resignation\" data-hsk=\"\"><span class=\"si\">退職</span><rt>たいしょく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じつ\" data-defn=\"truth/reality; sincerity/honesty/fidelity\" data-hsk=\"\"><span class=\"si\">実</span><rt>じつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうだい\" data-defn=\"siblings/brothers and sisters; brothers\" data-hsk=\"\"><span class=\"si\">兄弟</span><rt>きょうだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しまい\" data-defn=\"sisters\" data-hsk=\"\"><span class=\"si\">姉妹</span><rt>しまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"that being the case/because of .../the reason is .../given that ...\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ひとりっこ\" data-defn=\"only child\" data-hsk=\"JLPT N3\"><span class=\"si\">一人っ子</span><rt>ひとりっこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"さびしく\" data-defn=\"lonely/lonesome/solitary/desolate (寂しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">寂しく</span><rt>さびしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おとこ\" data-defn=\"man/male; fellow/guy/chap/bloke\" data-hsk=\"JLPT N5\"><span class=\"si\">男</span><rt>おとこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"cousin (elder male)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おんな\" data-defn=\"female/woman/female sex; female lover/girlfriend/mistress/(someone&#x27;s) woman\" data-hsk=\"JLPT N5\"><span class=\"si\">女</span><rt>おんな</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"cousin (elder male)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さんにん\" data-defn=\"three people\" data-hsk=\"\"><span class=\"si\">三人</span><rt>さんにん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"みんな\" data-defn=\"everyone/everybody/all; everything/all\" data-hsk=\"\"><span class=\"si\">みんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たのしく\" data-defn=\"enjoyable/fun/pleasant/happy/delightful (楽しい)\" data-hsk=\"JLPT N5\"><span class=\"si\">楽しく</span><rt>たのしく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そだっ\" data-defn=\"to be raised (e.g. child)/to be brought up/to grow (up) (育つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">育っ</span><rt>そだっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いぜん\" data-defn=\"ago/since/before/previous\" data-hsk=\"\"><span class=\"si\">以前</span><rt>いぜん</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こうむいん\" data-defn=\"civil servant\" data-hsk=\"JLPT N3\"><span class=\"si\">公務員</span><rt>こうむいん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こども\" data-defn=\"child\" data-hsk=\"\"><span class=\"si\">子ども</span><rt>こども</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うまれ\" data-defn=\"to be born (生まれる)\" data-hsk=\"JLPT N5\"><span class=\"si\">生まれ</span><rt>うまれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんぎょう\" data-defn=\"special occupation/principal occupation/specialty/monopoly\" data-hsk=\"\"><span class=\"si\">専業</span><rt>せんぎょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しゅふ\" data-defn=\"housewife/mistress (of the house)/homemaker\" data-hsk=\"\"><span class=\"si\">主婦</span><rt>しゅふ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"つま\" data-defn=\"wife; my dear/dear/honey\" data-hsk=\"\"><span class=\"si\">夫</span><rt>つま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がいこく\" data-defn=\"foreign country\" data-hsk=\"\"><span class=\"si\">外国</span><rt>がいこく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にん\" data-defn=\"person / people (counter)\" data-hsk=\"JLPT N5\"><span class=\"si\">人</span><rt>にん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"じょうほうぎじゅつ\" data-defn=\"information technology/IT\" data-hsk=\"\"><span class=\"si\">IT</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きぎょう\" data-defn=\"enterprise/business/company/corporation\" data-hsk=\"\"><span class=\"si\">企業</span><rt>きぎょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"プログラマー\" data-defn=\"programmer\" data-hsk=\"\"><span class=\"si\">プログラマー</span><rt>プログラマー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"つま\" data-defn=\"wife; my dear/dear/honey\" data-hsk=\"\"><span class=\"si\">夫</span><rt>つま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"older brother/elder brother\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おとうと\" data-defn=\"younger brother/little brother/kid brother; brother-in-law (spouse&#x27;s younger brother or younger sist\" data-hsk=\"JLPT N5\"><span class=\"si\">弟</span><rt>おとうと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとり\" data-defn=\"one person / alone\" data-hsk=\"JLPT N5\"><span class=\"si\">一人</span><rt>ひとり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">一番</span><rt>いちばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うえ\" data-defn=\"above/up/over/elder (e.g. daughter); top/summit/head (e.g. of a staircase)\" data-hsk=\"\"><span class=\"si\">上</span><rt>うえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"cord/strap/thong; string (of a musical instrument, bow, etc.)\" data-hsk=\"\"><span class=\"si\">お</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にいさん\" data-defn=\"older brother/elder brother; brother (as older-brother figure in friendly and or work relationship)\" data-hsk=\"\"><span class=\"si\">兄さん</span><rt>にいさん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"very/awfully/exceedingly; (not) at all/by no means/simply (cannot)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とう\" data-defn=\"counter for large animals (e.g. head of cattle)/counter for insects in a collection/counter for helm\" data-hsk=\"JLPT N5\"><span class=\"si\">頭</span><rt>とう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よく\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">よく</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"university/college; former central university of Kyoto (established under the ritsuryo system for th\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうじゅ\" data-defn=\"professor; teaching/instruction\" data-hsk=\"\"><span class=\"si\">教授</span><rt>きょうじゅ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二</span><rt>に</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ばんめ\" data-defn=\"indicates position in a sequence; divisions of a kabuki performance\" data-hsk=\"\"><span class=\"si\">番目</span><rt>ばんめ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"お\" data-defn=\"cord/strap/thong; string (of a musical instrument, bow, etc.)\" data-hsk=\"\"><span class=\"si\">お</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にいさん\" data-defn=\"older brother/elder brother; brother (as older-brother figure in friendly and or work relationship)\" data-hsk=\"\"><span class=\"si\">兄さん</span><rt>にいさん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せ\" data-defn=\"height/stature\" data-hsk=\"\"><span class=\"si\">背</span><rt>せ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たかく\" data-defn=\"high/tall; expensive/high-priced (高い)\" data-hsk=\"JLPT N5\"><span class=\"si\">高く</span><rt>たかく</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"スポーツ\" data-defn=\"sport/sports\" data-hsk=\"\"><span class=\"si\">スポーツ</span><rt>スポーツ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんしゅ\" data-defn=\"player (sports)/athlete/team member\" data-hsk=\"\"><span class=\"si\">選手</span><rt>せんしゅ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おとうと\" data-defn=\"younger brother/little brother/kid brother; brother-in-law (spouse&#x27;s younger brother or younger sist\" data-hsk=\"JLPT N5\"><span class=\"si\">弟</span><rt>おとうと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さん\" data-defn=\"Mr./Mrs./Miss/Ms./-san; politeness marker\" data-hsk=\"\"><span class=\"si\">さん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"still/as yet/only; (not) yet\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がくせい\" data-defn=\"student (esp. a university student)\" data-hsk=\"JLPT N5\"><span class=\"si\">学生</span><rt>がくせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"アルバイト\" data-defn=\"part-time job/side job; part-time worker\" data-hsk=\"\"><span class=\"si\">アルバイト</span><rt>アルバイト</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ながら\" data-defn=\"while/during/as; while/although/though/despite/in spite of/notwithstanding\" data-hsk=\"\"><span class=\"si\">ながら</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"university/college; former central university of Kyoto (established under the ritsuryo system for th\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かよっ\" data-defn=\"to go to and from (a place)/to go back and forth between/to run between (e.g. bus, tr (通う)\" data-hsk=\"JLPT N5\"><span class=\"si\">通っ</span><rt>かよっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"duty/sense of duty/honor/honour/decency/courtesy/debt of gratitude/social obligation; in-law/relatio\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぎんこう\" data-defn=\"bank/banking institution\" data-hsk=\"\"><span class=\"si\">銀行</span><rt>ぎんこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いん\" data-defn=\"member\" data-hsk=\"\"><span class=\"si\">員</span><rt>いん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"duty/sense of duty/honor/honour/decency/courtesy/debt of gratitude/social obligation; in-law/relatio\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"スーパー\" data-defn=\"supermarket; subtitles/telop\" data-hsk=\"\"><span class=\"si\">スーパー</span><rt>スーパー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てんいん\" data-defn=\"employee (of a store)/shop assistant/clerk/salesperson\" data-hsk=\"\"><span class=\"si\">店員</span><rt>てんいん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しち\" data-defn=\"seven; hepta-\" data-hsk=\"\"><span class=\"si\">七</span><rt>しち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じゅう\" data-defn=\"ten; ten years of age\" data-hsk=\"\"><span class=\"si\">十</span><rt>じゅう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しろ\" data-defn=\"substitution; material\" data-hsk=\"\"><span class=\"si\">代</span><rt>しろ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"still/as yet/only; (not) yet\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どんな\" data-defn=\"what kind of/what sort of/what; no matter what (kind of)/whatever/any/all\" data-hsk=\"\"><span class=\"si\">どんな</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>。"], "vocabulary": [{"word": "私", "reading": "わたし", "translation": "", "jlpt": "N5"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "家族", "reading": "かぞく", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "大", "reading": "だい", "translation": "", "jlpt": "-"}, {"word": "です", "reading": "です", "translation": "", "jlpt": "N5"}, {"word": "父", "reading": "ちち", "translation": "", "jlpt": "N5"}, {"word": "中学校", "reading": "ちゅうがっこう", "translation": "", "jlpt": "-"}, {"word": "教師", "reading": "きょうし", "translation": "", "jlpt": "-"}, {"word": "母", "reading": "はは", "translation": "", "jlpt": "N5"}, {"word": "看護", "reading": "かんご", "translation": "", "jlpt": "-"}, {"word": "師", "reading": "し", "translation": "", "jlpt": "-"}, {"word": "でした", "reading": "でした", "translation": "", "jlpt": "N5"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "二人", "reading": "ふたり", "translation": "", "jlpt": "N5"}, {"word": "とも", "reading": "とも", "translation": "", "jlpt": "N5"}, {"word": "今", "reading": "いま", "translation": "", "jlpt": "N5"}, {"word": "退職", "reading": "たいしょく", "translation": "", "jlpt": "-"}, {"word": "し", "reading": "し", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "い", "reading": "い", "translation": "", "jlpt": "N5"}, {"word": "ます", "reading": "ます", "translation": "", "jlpt": "N5"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "実", "reading": "じつ", "translation": "", "jlpt": "-"}, {"word": "兄弟", "reading": "きょうだい", "translation": "", "jlpt": "-"}, {"word": "姉妹", "reading": "しまい", "translation": "", "jlpt": "-"}, {"word": "ない", "reading": "ない", "translation": "", "jlpt": "N5"}, {"word": "ので", "reading": "ので", "translation": "", "jlpt": "-"}, {"word": "一人っ子", "reading": "ひとりっこ", "translation": "", "jlpt": "N3"}, {"word": "でも", "reading": "でも", "translation": "", "jlpt": "N5"}, {"word": "寂しく", "reading": "さびしく", "translation": "", "jlpt": "N5"}, {"word": "あり", "reading": "あり", "translation": "", "jlpt": "N5"}, {"word": "ません", "reading": "ません", "translation": "", "jlpt": "N5"}, {"word": "男", "reading": "おとこ", "translation": "", "jlpt": "N5"}, {"word": "いとこ", "reading": "いとこ", "translation": "", "jlpt": "-"}, {"word": "女", "reading": "おんな", "translation": "", "jlpt": "N5"}, {"word": "三人", "reading": "さんにん", "translation": "", "jlpt": "-"}, {"word": "みんな", "reading": "みんな", "translation": "", "jlpt": "-"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "楽しく", "reading": "たのしく", "translation": "", "jlpt": "N5"}, {"word": "育っ", "reading": "そだっ", "translation": "", "jlpt": "N5"}, {"word": "た", "reading": "た", "translation": "", "jlpt": "N5"}, {"word": "から", "reading": "から", "translation": "", "jlpt": "N5"}, {"word": "以前", "reading": "いぜん", "translation": "", "jlpt": "-"}, {"word": "公務員", "reading": "こうむいん", "translation": "", "jlpt": "N3"}, {"word": "子ども", "reading": "こども", "translation": "", "jlpt": "-"}, {"word": "生まれ", "reading": "うまれ", "translation": "", "jlpt": "N5"}, {"word": "専業", "reading": "せんぎょう", "translation": "", "jlpt": "-"}, {"word": "主婦", "reading": "しゅふ", "translation": "", "jlpt": "-"}, {"word": "なり", "reading": "なり", "translation": "", "jlpt": "N5"}, {"word": "ました", "reading": "ました", "translation": "", "jlpt": "N5"}, {"word": "夫", "reading": "つま", "translation": "", "jlpt": "-"}, {"word": "外国", "reading": "がいこく", "translation": "", "jlpt": "-"}, {"word": "人", "reading": "にん", "translation": "", "jlpt": "N5"}, {"word": "IT", "reading": "じょうほうぎじゅつ", "translation": "", "jlpt": "-"}, {"word": "企業", "reading": "きぎょう", "translation": "", "jlpt": "-"}, {"word": "プログラマー", "reading": "プログラマー", "translation": "", "jlpt": "-"}, {"word": "兄", "reading": "あに", "translation": "", "jlpt": "N5"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "弟", "reading": "おとうと", "translation": "", "jlpt": "N5"}, {"word": "一人", "reading": "ひとり", "translation": "", "jlpt": "N5"}, {"word": "一番", "reading": "いちばん", "translation": "", "jlpt": "-"}, {"word": "上", "reading": "うえ", "translation": "", "jlpt": "-"}, {"word": "お", "reading": "お", "translation": "", "jlpt": "-"}, {"word": "兄さん", "reading": "にいさん", "translation": "", "jlpt": "-"}, {"word": "とても", "reading": "とても", "translation": "", "jlpt": "-"}, {"word": "頭", "reading": "とう", "translation": "", "jlpt": "N5"}, {"word": "よく", "reading": "よく", "translation": "", "jlpt": "N5"}, {"word": "大学", "reading": "だいがく", "translation": "", "jlpt": "-"}, {"word": "教授", "reading": "きょうじゅ", "translation": "", "jlpt": "-"}, {"word": "二", "reading": "に", "translation": "", "jlpt": "-"}, {"word": "番目", "reading": "ばんめ", "translation": "", "jlpt": "-"}, {"word": "背", "reading": "せ", "translation": "", "jlpt": "-"}, {"word": "高く", "reading": "たかく", "translation": "", "jlpt": "N5"}, {"word": "スポーツ", "reading": "スポーツ", "translation": "", "jlpt": "-"}, {"word": "選手", "reading": "せんしゅ", "translation": "", "jlpt": "-"}, {"word": "さん", "reading": "さん", "translation": "", "jlpt": "-"}, {"word": "まだ", "reading": "まだ", "translation": "", "jlpt": "-"}, {"word": "学生", "reading": "がくせい", "translation": "", "jlpt": "N5"}, {"word": "アルバイト", "reading": "アルバイト", "translation": "", "jlpt": "-"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "ながら", "reading": "ながら", "translation": "", "jlpt": "-"}, {"word": "通っ", "reading": "かよっ", "translation": "", "jlpt": "N5"}, {"word": "義理", "reading": "ぎり", "translation": "", "jlpt": "-"}, {"word": "銀行", "reading": "ぎんこう", "translation": "", "jlpt": "-"}, {"word": "員", "reading": "いん", "translation": "", "jlpt": "-"}, {"word": "スーパー", "reading": "スーパー", "translation": "", "jlpt": "-"}, {"word": "店員", "reading": "てんいん", "translation": "", "jlpt": "-"}, {"word": "七", "reading": "しち", "translation": "", "jlpt": "-"}, {"word": "十", "reading": "じゅう", "translation": "", "jlpt": "-"}, {"word": "代", "reading": "しろ", "translation": "", "jlpt": "-"}, {"word": "働い", "reading": "はたらい", "translation": "", "jlpt": "N5"}, {"word": "あなた", "reading": "あなた", "translation": "", "jlpt": "-"}, {"word": "どんな", "reading": "どんな", "translation": "", "jlpt": "-"}, {"word": "か", "reading": "か", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 20380,
+  "title": "My big family",
+  "japanese_title": "私の大家族",
+  "level": "Intermediate",
+  "hsk_tags": [
+    "HSK4"
+  ],
+  "slug": "my-big-family",
+  "audio_url": "/audio/japanese/20380_my-big-family.mp3",
+  "english_paragraphs": [
+    "I have a big family. My father is a middle school teacher and my mother is a nurse. They are both retired now. I have no biological brothers or sisters, I am an only child. But I'm not alone, because I have two cousins ​​and three cousins, and we grew up together very happily. I used to be a civil servant, but after I had children, I became a housewife. My spouse is a foreigner, works in an IT company, and is a programmer. He has three brothers. His eldest brother is very smart and is a university professor. His second brother is very tall and an athlete. His younger brother is still a student and is currently studying at university while working part-time. My father-in-law is a bank clerk, and my mother-in-law is a supermarket salesperson. They are both in their seventies now and are still working. How is your family?"
+  ],
+  "english_full": "I have a big family. My father is a middle school teacher and my mother is a nurse. They are both retired now. I have no biological brothers or sisters, I am an only child. But I'm not alone, because I have two cousins ​​and three cousins, and we grew up together very happily. I used to be a civil servant, but after I had children, I became a housewife. My spouse is a foreigner, works in an IT company, and is a programmer. He has three brothers. His eldest brother is very smart and is a university professor. His second brother is very tall and an athlete. His younger brother is still a student and is currently studying at university while working part-time. My father-in-law is a bank clerk, and my mother-in-law is a supermarket salesperson. They are both in their seventies now and are still working. How is your family?",
+  "japanese_paragraphs": [
+    "私には大きな家族がいます。私の父は中等学校の先生で、母は看護婦です。彼らは今、両方とも引退しています。私には生物学的な兄弟や姉妹はいません、私は唯一の子供です。しかし、私はひとりではありません。なぜなら、いとこが二人と、いとこが三人いるからです。そして、私たちはとても幸せに一緒に育ちました。以前は公務員でしたが、子供ができた後、家庭の主婦になりました。私の配偶者は外国人で、IT会社で働いていて、プログラマーです。彼には三人の兄弟がいます。彼の最も年上の兄はとても頭が良く、大学の教授です。彼の二番目の兄は非常に背が高く、運動家です。彼の年下の兄はまだ学生で、現在は大学で勉強しながらパートタイムで働いています。私の義理の父は銀行窓口係で、義理の母はスーパーマーケットの販売員です。彼らは今、両方とも70代で、まだ働いています。あなたの家族はどうですか？"
+  ],
+  "reading_paragraphs": [
+    "わたしにはおおきなかぞくがいます。わたしのちちわちゅうとうがっこうのせんせいで、ははわかんごふです。かれらはいま、りょうほうともいんたいしています。わたしにはせいぶつがくてきなきょうだいやしまいはいません、わたしはゆいいつのこどもです。しかし、わたしはひとりではありません。なぜなら、いとこがふたりと、いとこがさんにんいるからです。そして、わたしたちはとてもはっぴにいっしょにそだちました。いぜんはこうむいんでしたが、こどもができたあと、かていのしゅふになりました。わたしのはいぐうしゃはがいこくじんで、IT かいしゃではたいていて、プログラマーです。かれにはさんにんのきょうだいがいます。かれのもっともとしいのあにはとてもあたまがよく、だいがくのきょうじゅです。かれのにばんめのあにはひじょうにせがたかく、うんどうかです。かれのとししたのあにはまだがくせいで、げんざいはだいがくでべんきょうしながらぱーとたいむではたいています。わたしのぎりのちちはぎんこうまどぐちかかりで、ぎりのはははすーぱーまーけっとのはんばいにんです。かれらはいま、りょうほうとも70だいで、まだはたらいています。あなたのかぞくはどうですか？"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おおきな\" data-defn=\"big/large/great\" data-hsk=\"\"><span class=\"si\">大きな</span><rt>おおきな</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"かぞく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"ちち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうとう\" data-defn=\"second grade/medium quality/average/middle class/secondary grade\" data-hsk=\"\"><span class=\"si\">中等</span><rt>ちゅうとう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がっこう\" data-defn=\"school\" data-hsk=\"JLPT N5\"><span class=\"si\">学校</span><rt>がっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"teacher/instructor/master; sensei/title or form of address for a teacher, master, doc\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"はは (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんご\" data-defn=\"かんご (word)\" data-hsk=\"\"><span class=\"si\">看護</span><rt>かんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふ\" data-defn=\"wife/bride; (one&#x27;s) daughter-in-law\" data-hsk=\"\"><span class=\"si\">婦</span><rt>ふ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうほう\" data-defn=\"both/both sides/both parties\" data-hsk=\"\"><span class=\"si\">両方</span><rt>りょうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いんたい\" data-defn=\"retirement\" data-hsk=\"\"><span class=\"si\">引退</span><rt>いんたい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せいぶつ\" data-defn=\"living thing/organism/creature/life; biology\" data-hsk=\"\"><span class=\"si\">生物</span><rt>せいぶつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がく\" data-defn=\"learning/scholarship/study/erudition/knowledge/education; study of .../-ology/-ics\" data-hsk=\"\"><span class=\"si\">学</span><rt>がく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てき\" data-defn=\"-ical/-ive/-al/-ic/-y; -like/-ish/-sort of/-kind of\" data-hsk=\"\"><span class=\"si\">的</span><rt>てき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうだい\" data-defn=\"きょうだい (word)\" data-hsk=\"\"><span class=\"si\">兄弟</span><rt>きょうだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"や\" data-defn=\"melting\" data-hsk=\"\"><span class=\"si\">や</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しまい\" data-defn=\"しまい (word)\" data-hsk=\"\"><span class=\"si\">姉妹</span><rt>しまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆいいつ\" data-defn=\"only/sole/unique\" data-hsk=\"\"><span class=\"si\">唯一</span><rt>ゆいいつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こども\" data-defn=\"child\" data-hsk=\"JLPT N5\"><span class=\"si\">子供</span><rt>こども</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"しかし\" data-defn=\"however/but\" data-hsk=\"\"><span class=\"si\">しかし</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとり\" data-defn=\"one person; being alone/being by oneself\" data-hsk=\"\"><span class=\"si\">ひとり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"なぜなら\" data-defn=\"because/the reason is/if you want to know why\" data-hsk=\"\"><span class=\"si\">なぜなら</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"いとこ (word)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"いとこ (word)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さんにん\" data-defn=\"さんにん (word)\" data-hsk=\"\"><span class=\"si\">三人</span><rt>さんにん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いる\" data-defn=\"to be / to exist (progressive state / animate)\" data-hsk=\"JLPT N5\"><span class=\"si\">いる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"そして\" data-defn=\"and/and then/thus/and now/and finally\" data-hsk=\"\"><span class=\"si\">そして</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たち\" data-defn=\"plural suffix (group, e.g. 私たち: we)\" data-hsk=\"JLPT N5\"><span class=\"si\">たち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"とても (word)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"together; at the same time\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そだち\" data-defn=\"to be raised (e.g. child)/to be brought up/to grow (up) (育つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">育ち</span><rt>そだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"いぜん\" data-defn=\"いぜん (word)\" data-hsk=\"\"><span class=\"si\">以前</span><rt>いぜん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうむいん\" data-defn=\"こうむいん (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">公務員</span><rt>こうむいん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こども\" data-defn=\"child\" data-hsk=\"JLPT N5\"><span class=\"si\">子供</span><rt>こども</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のち\" data-defn=\"behind/rear; after/later\" data-hsk=\"\"><span class=\"si\">後</span><rt>のち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かてい\" data-defn=\"home/family/household\" data-hsk=\"\"><span class=\"si\">家庭</span><rt>かてい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しゅふ\" data-defn=\"しゅふ (word)\" data-hsk=\"\"><span class=\"si\">主婦</span><rt>しゅふ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はいぐう\" data-defn=\"combination; spouse/husband or wife/partner\" data-hsk=\"\"><span class=\"si\">配偶</span><rt>はいぐう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"person\" data-hsk=\"\"><span class=\"si\">者</span><rt>もの</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がいこく\" data-defn=\"がいこく (word)\" data-hsk=\"\"><span class=\"si\">外国</span><rt>がいこく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にん\" data-defn=\"person / people (counter)\" data-hsk=\"JLPT N5\"><span class=\"si\">人</span><rt>にん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"じょうほうぎじゅつ\" data-defn=\"じょうほうぎじゅつ (word)\" data-hsk=\"\"><span class=\"si\">IT</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かいしゃ\" data-defn=\"company/corporation; workplace\" data-hsk=\"JLPT N5\"><span class=\"si\">会社</span><rt>かいしゃ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"プログラマー\" data-defn=\"プログラマー (loanword / name)\" data-hsk=\"\"><span class=\"si\">プログラマー</span><rt>プログラマー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さんにん\" data-defn=\"さんにん (word)\" data-hsk=\"\"><span class=\"si\">三人</span><rt>さんにん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうだい\" data-defn=\"きょうだい (word)\" data-hsk=\"\"><span class=\"si\">兄弟</span><rt>きょうだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もっとも\" data-defn=\"most/extremely\" data-hsk=\"\"><span class=\"si\">最も</span><rt>もっとも</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としうえ\" data-defn=\"older/senior\" data-hsk=\"\"><span class=\"si\">年上</span><rt>としうえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"あに (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"とても (word)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とう\" data-defn=\"とう (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">頭</span><rt>とう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よく\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared (良い)\" data-hsk=\"JLPT N5\"><span class=\"si\">良く</span><rt>よく</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"だいがく (word)\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうじゅ\" data-defn=\"きょうじゅ (word)\" data-hsk=\"\"><span class=\"si\">教授</span><rt>きょうじゅ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"に (word)\" data-hsk=\"\"><span class=\"si\">二</span><rt>に</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ばんめ\" data-defn=\"ばんめ (word)\" data-hsk=\"\"><span class=\"si\">番目</span><rt>ばんめ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"あに (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひじょう\" data-defn=\"emergency; extraordinary/unusual\" data-hsk=\"\"><span class=\"si\">非常</span><rt>ひじょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せ\" data-defn=\"せ (word)\" data-hsk=\"\"><span class=\"si\">背</span><rt>せ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たかく\" data-defn=\"high/tall; expensive/high-priced (高い)\" data-hsk=\"JLPT N5\"><span class=\"si\">高く</span><rt>たかく</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"うんどう\" data-defn=\"exercise/physical training/work-out; appeal/campaign/drive/crusade/movement/lobbying\" data-hsk=\"\"><span class=\"si\">運動</span><rt>うんどう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"house/residence/dwelling; family/household\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としした\" data-defn=\"younger/junior\" data-hsk=\"\"><span class=\"si\">年下</span><rt>としした</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"あに (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"まだ (word)\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がくせい\" data-defn=\"がくせい (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">学生</span><rt>がくせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"げんざい\" data-defn=\"now/current/present/present time/as of\" data-hsk=\"\"><span class=\"si\">現在</span><rt>げんざい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"だいがく (word)\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"study; diligence\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ながら\" data-defn=\"ながら (word)\" data-hsk=\"\"><span class=\"si\">ながら</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーとたいむ\" data-defn=\"part time (esp. female part time employees)\" data-hsk=\"\"><span class=\"si\">パートタイム</span><rt>ぱーとたいむ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"ぎり (word)\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"ちち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぎんこう\" data-defn=\"ぎんこう (word)\" data-hsk=\"\"><span class=\"si\">銀行</span><rt>ぎんこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まどぐち\" data-defn=\"counter/window/teller window/ticket window; contact person/point of contact\" data-hsk=\"\"><span class=\"si\">窓口</span><rt>まどぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かかり\" data-defn=\"charge/duty/person in charge/official/clerk; connection/linking\" data-hsk=\"\"><span class=\"si\">係</span><rt>かかり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"ぎり (word)\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"はは (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すーぱーまーけっと\" data-defn=\"supermarket\" data-hsk=\"\"><span class=\"si\">スーパーマーケット</span><rt>すーぱーまーけっと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はんばい\" data-defn=\"sales/selling/marketing\" data-hsk=\"\"><span class=\"si\">販売</span><rt>はんばい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いん\" data-defn=\"いん (word)\" data-hsk=\"\"><span class=\"si\">員</span><rt>いん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうほう\" data-defn=\"both/both sides/both parties\" data-hsk=\"\"><span class=\"si\">両方</span><rt>りょうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"70\" data-defn=\"seventy/70\" data-hsk=\"\"><span class=\"si\">70</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しろ\" data-defn=\"しろ (word)\" data-hsk=\"\"><span class=\"si\">代</span><rt>しろ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"まだ (word)\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"あなた (word)\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"かぞく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どう\" data-defn=\"how/in what way/how about\" data-hsk=\"\"><span class=\"si\">どう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？"
+  ],
+  "vocabulary": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "わたし (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "大きな",
+      "reading": "おおきな",
+      "definition": "big/large/great",
+      "jlpt": "-"
+    },
+    {
+      "word": "家族",
+      "reading": "かぞく",
+      "definition": "かぞく (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "い",
+      "reading": "い",
+      "definition": "to be / to exist (auxiliary verb)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "父",
+      "reading": "ちち",
+      "definition": "ちち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "中等",
+      "reading": "ちゅうとう",
+      "definition": "second grade/medium quality/average/middle class/secondary grade",
+      "jlpt": "-"
+    },
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "definition": "school",
+      "jlpt": "N5"
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "definition": "teacher/instructor/master; sensei/title or form of address for a teacher, master, doc",
+      "jlpt": "N5"
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "definition": "location / means marker (at/in/by)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "definition": "はは (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "看護",
+      "reading": "かんご",
+      "definition": "かんご (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "婦",
+      "reading": "ふ",
+      "definition": "wife/bride; (one's) daughter-in-law",
+      "jlpt": "-"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "彼ら",
+      "reading": "かれら",
+      "definition": "they/them",
+      "jlpt": "-"
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "definition": "now / at present",
+      "jlpt": "N5"
+    },
+    {
+      "word": "両方",
+      "reading": "りょうほう",
+      "definition": "both/both sides/both parties",
+      "jlpt": "-"
+    },
+    {
+      "word": "とも",
+      "reading": "とも",
+      "definition": "both / all (together)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "引退",
+      "reading": "いんたい",
+      "definition": "retirement",
+      "jlpt": "-"
+    },
+    {
+      "word": "し",
+      "reading": "し",
+      "definition": "to do (stem of する)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "生物",
+      "reading": "せいぶつ",
+      "definition": "living thing/organism/creature/life; biology",
+      "jlpt": "-"
+    },
+    {
+      "word": "学",
+      "reading": "がく",
+      "definition": "learning/scholarship/study/erudition/knowledge/education; study of .../-ology/-ics",
+      "jlpt": "-"
+    },
+    {
+      "word": "的",
+      "reading": "てき",
+      "definition": "-ical/-ive/-al/-ic/-y; -like/-ish/-sort of/-kind of",
+      "jlpt": "-"
+    },
+    {
+      "word": "な",
+      "reading": "な",
+      "definition": "be / is (plain copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "兄弟",
+      "reading": "きょうだい",
+      "definition": "きょうだい (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "や",
+      "reading": "や",
+      "definition": "melting",
+      "jlpt": "-"
+    },
+    {
+      "word": "姉妹",
+      "reading": "しまい",
+      "definition": "しまい (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "ません",
+      "reading": "ません",
+      "definition": "verb polite suffix (negative: do not)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "唯一",
+      "reading": "ゆいいつ",
+      "definition": "only/sole/unique",
+      "jlpt": "-"
+    },
+    {
+      "word": "子供",
+      "reading": "こども",
+      "definition": "child",
+      "jlpt": "N5"
+    },
+    {
+      "word": "しかし",
+      "reading": "しかし",
+      "definition": "however/but",
+      "jlpt": "-"
+    },
+    {
+      "word": "ひとり",
+      "reading": "ひとり",
+      "definition": "one person; being alone/being by oneself",
+      "jlpt": "-"
+    },
+    {
+      "word": "あり",
+      "reading": "あり",
+      "definition": "there is / to exist (stem)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "なぜなら",
+      "reading": "なぜなら",
+      "definition": "because/the reason is/if you want to know why",
+      "jlpt": "-"
+    },
+    {
+      "word": "いとこ",
+      "reading": "いとこ",
+      "definition": "いとこ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "definition": "two people / pair / both",
+      "jlpt": "N5"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "三人",
+      "reading": "さんにん",
+      "definition": "さんにん (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "definition": "to be / to exist (progressive state / animate)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "から",
+      "reading": "から",
+      "definition": "from / because / since",
+      "jlpt": "N5"
+    },
+    {
+      "word": "そして",
+      "reading": "そして",
+      "definition": "and/and then/thus/and now/and finally",
+      "jlpt": "-"
+    },
+    {
+      "word": "たち",
+      "reading": "たち",
+      "definition": "plural suffix (group, e.g. 私たち: we)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "とても",
+      "reading": "とても",
+      "definition": "とても (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "definition": "happiness/good fortune/luck/blessing",
+      "jlpt": "-"
+    },
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "definition": "together; at the same time",
+      "jlpt": "-"
+    },
+    {
+      "word": "育ち",
+      "reading": "そだち",
+      "definition": "to be raised (e.g. child)/to be brought up/to grow (up) (育つ)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "以前",
+      "reading": "いぜん",
+      "definition": "いぜん (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "公務員",
+      "reading": "こうむいん",
+      "definition": "こうむいん (word)",
+      "jlpt": "N3"
+    },
+    {
+      "word": "でした",
+      "reading": "でした",
+      "definition": "was / were (past polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "でき",
+      "reading": "でき",
+      "definition": "to be out of/to have no more at hand (できる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "た",
+      "reading": "た",
+      "definition": "past tense auxiliary (-ed / completed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "後",
+      "reading": "のち",
+      "definition": "behind/rear; after/later",
+      "jlpt": "-"
+    },
+    {
+      "word": "家庭",
+      "reading": "かてい",
+      "definition": "home/family/household",
+      "jlpt": "-"
+    },
+    {
+      "word": "主婦",
+      "reading": "しゅふ",
+      "definition": "しゅふ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "なり",
+      "reading": "なり",
+      "definition": "to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "配偶",
+      "reading": "はいぐう",
+      "definition": "combination; spouse/husband or wife/partner",
+      "jlpt": "-"
+    },
+    {
+      "word": "者",
+      "reading": "もの",
+      "definition": "person",
+      "jlpt": "-"
+    },
+    {
+      "word": "外国",
+      "reading": "がいこく",
+      "definition": "がいこく (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "人",
+      "reading": "にん",
+      "definition": "person / people (counter)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "IT",
+      "reading": "じょうほうぎじゅつ",
+      "definition": "じょうほうぎじゅつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "definition": "company/corporation; workplace",
+      "jlpt": "N5"
+    },
+    {
+      "word": "働い",
+      "reading": "はたらい",
+      "definition": "to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "プログラマー",
+      "reading": "プログラマー",
+      "definition": "プログラマー (loanword / name)",
+      "jlpt": "-"
+    },
+    {
+      "word": "彼",
+      "reading": "かれ",
+      "definition": "that/that thing; that person",
+      "jlpt": "-"
+    },
+    {
+      "word": "最も",
+      "reading": "もっとも",
+      "definition": "most/extremely",
+      "jlpt": "-"
+    },
+    {
+      "word": "年上",
+      "reading": "としうえ",
+      "definition": "older/senior",
+      "jlpt": "-"
+    },
+    {
+      "word": "兄",
+      "reading": "あに",
+      "definition": "あに (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "頭",
+      "reading": "とう",
+      "definition": "とう (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "良く",
+      "reading": "よく",
+      "definition": "good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared (良い)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "大学",
+      "reading": "だいがく",
+      "definition": "だいがく (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "教授",
+      "reading": "きょうじゅ",
+      "definition": "きょうじゅ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "二",
+      "reading": "に",
+      "definition": "に (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "番目",
+      "reading": "ばんめ",
+      "definition": "ばんめ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "非常",
+      "reading": "ひじょう",
+      "definition": "emergency; extraordinary/unusual",
+      "jlpt": "-"
+    },
+    {
+      "word": "背",
+      "reading": "せ",
+      "definition": "せ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "高く",
+      "reading": "たかく",
+      "definition": "high/tall; expensive/high-priced (高い)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "運動",
+      "reading": "うんどう",
+      "definition": "exercise/physical training/work-out; appeal/campaign/drive/crusade/movement/lobbying",
+      "jlpt": "-"
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "definition": "house/residence/dwelling; family/household",
+      "jlpt": "N5"
+    },
+    {
+      "word": "年下",
+      "reading": "としした",
+      "definition": "younger/junior",
+      "jlpt": "-"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "definition": "まだ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "definition": "がくせい (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "現在",
+      "reading": "げんざい",
+      "definition": "now/current/present/present time/as of",
+      "jlpt": "-"
+    },
+    {
+      "word": "勉強",
+      "reading": "べんきょう",
+      "definition": "study; diligence",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ながら",
+      "reading": "ながら",
+      "definition": "ながら (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "パートタイム",
+      "reading": "ぱーとたいむ",
+      "definition": "part time (esp. female part time employees)",
+      "jlpt": "-"
+    },
+    {
+      "word": "義理",
+      "reading": "ぎり",
+      "definition": "ぎり (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "definition": "ぎんこう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "窓口",
+      "reading": "まどぐち",
+      "definition": "counter/window/teller window/ticket window; contact person/point of contact",
+      "jlpt": "-"
+    },
+    {
+      "word": "係",
+      "reading": "かかり",
+      "definition": "charge/duty/person in charge/official/clerk; connection/linking",
+      "jlpt": "-"
+    },
+    {
+      "word": "スーパーマーケット",
+      "reading": "すーぱーまーけっと",
+      "definition": "supermarket",
+      "jlpt": "-"
+    },
+    {
+      "word": "販売",
+      "reading": "はんばい",
+      "definition": "sales/selling/marketing",
+      "jlpt": "-"
+    },
+    {
+      "word": "員",
+      "reading": "いん",
+      "definition": "いん (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "70",
+      "reading": "70",
+      "definition": "seventy/70",
+      "jlpt": "-"
+    },
+    {
+      "word": "代",
+      "reading": "しろ",
+      "definition": "しろ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "あなた",
+      "reading": "あなた",
+      "definition": "あなた (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "どう",
+      "reading": "どう",
+      "definition": "how/in what way/how about",
+      "jlpt": "-"
+    },
+    {
+      "word": "か",
+      "reading": "か",
+      "definition": "question particle (?)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_20380_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "私には大きな家族がいます。",
+      "text_en": "I have a big family.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おおきな\" data-defn=\"big/large/great\" data-hsk=\"\"><span class=\"si\">大きな</span><rt>おおきな</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 3.35,
+      "duration": 3.35
+    },
+    {
+      "id": "story_20380_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "私の父は中等学校の先生で、母は看護婦です。",
+      "text_en": "My father is a middle school teacher and my mother is a nurse.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちゅうとう\" data-defn=\"second grade/medium quality/average/middle class/secondary grade\" data-hsk=\"\"><span class=\"si\">中等</span><rt>ちゅうとう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がっこう\" data-defn=\"school\" data-hsk=\"JLPT N5\"><span class=\"si\">学校</span><rt>がっこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんせい\" data-defn=\"teacher/instructor/master; sensei/title or form of address for a teacher, master, doc\" data-hsk=\"JLPT N5\"><span class=\"si\">先生</span><rt>せんせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かんご\" data-defn=\"nursing/(army) nurse\" data-hsk=\"\"><span class=\"si\">看護</span><rt>かんご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふ\" data-defn=\"wife/bride; (one&#x27;s) daughter-in-law\" data-hsk=\"\"><span class=\"si\">婦</span><rt>ふ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 3.7,
+      "end": 9.28,
+      "duration": 5.58
+    },
+    {
+      "id": "story_20380_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "彼らは今、両方とも引退しています。",
+      "text_en": "They are both retired now.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうほう\" data-defn=\"both/both sides/both parties\" data-hsk=\"\"><span class=\"si\">両方</span><rt>りょうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いんたい\" data-defn=\"retirement\" data-hsk=\"\"><span class=\"si\">引退</span><rt>いんたい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 9.63,
+      "end": 13.33,
+      "duration": 3.7
+    },
+    {
+      "id": "story_20380_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "私には生物学的な兄弟や姉妹はいません、私は唯一の子供です。",
+      "text_en": "I have no biological brothers or sisters, I am an only child.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せいぶつ\" data-defn=\"living thing/organism/creature/life; biology\" data-hsk=\"\"><span class=\"si\">生物</span><rt>せいぶつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がく\" data-defn=\"learning/scholarship/study/erudition/knowledge/education; study of .../-ology/-ics\" data-hsk=\"\"><span class=\"si\">学</span><rt>がく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"てき\" data-defn=\"-ical/-ive/-al/-ic/-y; -like/-ish/-sort of/-kind of\" data-hsk=\"\"><span class=\"si\">的</span><rt>てき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうだい\" data-defn=\"siblings/brothers and sisters; brothers\" data-hsk=\"\"><span class=\"si\">兄弟</span><rt>きょうだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"や\" data-defn=\"melting\" data-hsk=\"\"><span class=\"si\">や</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しまい\" data-defn=\"sisters\" data-hsk=\"\"><span class=\"si\">姉妹</span><rt>しまい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆいいつ\" data-defn=\"only/sole/unique\" data-hsk=\"\"><span class=\"si\">唯一</span><rt>ゆいいつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こども\" data-defn=\"child\" data-hsk=\"JLPT N5\"><span class=\"si\">子供</span><rt>こども</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 13.68,
+      "end": 21.13,
+      "duration": 7.45
+    },
+    {
+      "id": "story_20380_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "しかし、私はひとりではありません。",
+      "text_en": "But I'm not alone, because I have two cousins ​​and three cousins, and we grew up together very happily.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"しかし\" data-defn=\"however/but\" data-hsk=\"\"><span class=\"si\">しかし</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひとり\" data-defn=\"one person; being alone/being by oneself\" data-hsk=\"\"><span class=\"si\">ひとり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby>。",
+      "start": 21.48,
+      "end": 24.93,
+      "duration": 3.45
+    },
+    {
+      "id": "story_20380_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "なぜなら、いとこが二人と、いとこが三人いるからです。",
+      "text_en": "I used to be a civil servant, but after I had children, I became a housewife.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"なぜなら\" data-defn=\"because/the reason is/if you want to know why\" data-hsk=\"\"><span class=\"si\">なぜなら</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"cousin (elder male)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたり\" data-defn=\"two people / pair / both\" data-hsk=\"JLPT N5\"><span class=\"si\">二人</span><rt>ふたり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"いとこ\" data-defn=\"cousin (elder male)\" data-hsk=\"\"><span class=\"si\">いとこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さんにん\" data-defn=\"three people\" data-hsk=\"\"><span class=\"si\">三人</span><rt>さんにん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いる\" data-defn=\"to be / to exist (progressive state / animate)\" data-hsk=\"JLPT N5\"><span class=\"si\">いる</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"から\" data-defn=\"from / because / since\" data-hsk=\"JLPT N5\"><span class=\"si\">から</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 25.28,
+      "end": 30.08,
+      "duration": 4.8
+    },
+    {
+      "id": "story_20380_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "そして、私たちはとても幸せに一緒に育ちました。",
+      "text_en": "My spouse is a foreigner, works in an IT company, and is a programmer.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"そして\" data-defn=\"and/and then/thus/and now/and finally\" data-hsk=\"\"><span class=\"si\">そして</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たち\" data-defn=\"plural suffix (group, e.g. 私たち: we)\" data-hsk=\"JLPT N5\"><span class=\"si\">たち</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"very/awfully/exceedingly; (not) at all/by no means/simply (cannot)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しあわせ\" data-defn=\"happiness/good fortune/luck/blessing\" data-hsk=\"\"><span class=\"si\">幸せ</span><rt>しあわせ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"together; at the same time\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そだち\" data-defn=\"to be raised (e.g. child)/to be brought up/to grow (up) (育つ)\" data-hsk=\"JLPT N5\"><span class=\"si\">育ち</span><rt>そだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 30.43,
+      "end": 35.35,
+      "duration": 4.92
+    },
+    {
+      "id": "story_20380_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "以前は公務員でしたが、子供ができた後、家庭の主婦になりました。",
+      "text_en": "He has three brothers.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"いぜん\" data-defn=\"ago/since/before/previous\" data-hsk=\"\"><span class=\"si\">以前</span><rt>いぜん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうむいん\" data-defn=\"government worker/public servant/civil servant\" data-hsk=\"\"><span class=\"si\">公務員</span><rt>こうむいん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でした\" data-defn=\"was / were (past polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">でした</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こども\" data-defn=\"child\" data-hsk=\"JLPT N5\"><span class=\"si\">子供</span><rt>こども</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"のち\" data-defn=\"behind/rear; after/later\" data-hsk=\"\"><span class=\"si\">後</span><rt>のち</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"かてい\" data-defn=\"home/family/household\" data-hsk=\"\"><span class=\"si\">家庭</span><rt>かてい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しゅふ\" data-defn=\"housewife/mistress (of the house)/homemaker\" data-hsk=\"\"><span class=\"si\">主婦</span><rt>しゅふ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なり\" data-defn=\"to become/to get/to grow/to be/to reach/to attain; to result in/to prove to be (なる)\" data-hsk=\"JLPT N5\"><span class=\"si\">なり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 35.7,
+      "end": 42.08,
+      "duration": 6.38
+    },
+    {
+      "id": "story_20380_p0_c8",
+      "chunk_index": 8,
+      "paragraph_index": 0,
+      "sentence_index": 8,
+      "text": "私の配偶者は外国人で、IT会社で働いていて、プログラマーです。",
+      "text_en": "His eldest brother is very smart and is a university professor.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はいぐう\" data-defn=\"combination; spouse/husband or wife/partner\" data-hsk=\"\"><span class=\"si\">配偶</span><rt>はいぐう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もの\" data-defn=\"person\" data-hsk=\"\"><span class=\"si\">者</span><rt>もの</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がいこく\" data-defn=\"foreign country\" data-hsk=\"\"><span class=\"si\">外国</span><rt>がいこく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にん\" data-defn=\"person / people (counter)\" data-hsk=\"JLPT N5\"><span class=\"si\">人</span><rt>にん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"IT\" data-defn=\"information technology/IT\" data-hsk=\"\"><span class=\"si\">IT</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かいしゃ\" data-defn=\"company/corporation; workplace\" data-hsk=\"JLPT N5\"><span class=\"si\">会社</span><rt>かいしゃ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぷろぐらまー\" data-defn=\"programmer\" data-hsk=\"\"><span class=\"si\">プログラマー</span><rt>ぷろぐらまー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 42.43,
+      "end": 48.85,
+      "duration": 6.42
+    },
+    {
+      "id": "story_20380_p0_c9",
+      "chunk_index": 9,
+      "paragraph_index": 0,
+      "sentence_index": 9,
+      "text": "彼には三人の兄弟がいます。",
+      "text_en": "His second brother is very tall and an athlete.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"さんにん\" data-defn=\"three people\" data-hsk=\"\"><span class=\"si\">三人</span><rt>さんにん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうだい\" data-defn=\"siblings/brothers and sisters; brothers\" data-hsk=\"\"><span class=\"si\">兄弟</span><rt>きょうだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 49.2,
+      "end": 52.5,
+      "duration": 3.3
+    },
+    {
+      "id": "story_20380_p0_c10",
+      "chunk_index": 10,
+      "paragraph_index": 0,
+      "sentence_index": 10,
+      "text": "彼の最も年上の兄はとても頭が良く、大学の教授です。",
+      "text_en": "His younger brother is still a student and is currently studying at university while working part-time.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もっとも\" data-defn=\"most/extremely\" data-hsk=\"\"><span class=\"si\">最も</span><rt>もっとも</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としうえ\" data-defn=\"older/senior\" data-hsk=\"\"><span class=\"si\">年上</span><rt>としうえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"older brother/elder brother\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とても\" data-defn=\"very/awfully/exceedingly; (not) at all/by no means/simply (cannot)\" data-hsk=\"\"><span class=\"si\">とても</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あたま\" data-defn=\"counter for large animals (e.g. head of cattle)/counter for insects in a collection/c\" data-hsk=\"JLPT N5\"><span class=\"si\">頭</span><rt>あたま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よく\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared (良い)\" data-hsk=\"JLPT N5\"><span class=\"si\">良く</span><rt>よく</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"university/college; former central university of Kyoto (established under the ritsury\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きょうじゅ\" data-defn=\"professor; teaching/instruction\" data-hsk=\"\"><span class=\"si\">教授</span><rt>きょうじゅ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 52.85,
+      "end": 58.77,
+      "duration": 5.92
+    },
+    {
+      "id": "story_20380_p0_c11",
+      "chunk_index": 11,
+      "paragraph_index": 0,
+      "sentence_index": 11,
+      "text": "彼の二番目の兄は非常に背が高く、運動家です。",
+      "text_en": "My father-in-law is a bank clerk, and my mother-in-law is a supermarket salesperson.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二</span><rt>に</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ばんめ\" data-defn=\"indicates position in a sequence; divisions of a kabuki performance\" data-hsk=\"\"><span class=\"si\">番目</span><rt>ばんめ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"older brother/elder brother\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひじょう\" data-defn=\"emergency; extraordinary/unusual\" data-hsk=\"\"><span class=\"si\">非常</span><rt>ひじょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せ\" data-defn=\"height/stature\" data-hsk=\"\"><span class=\"si\">背</span><rt>せ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たかく\" data-defn=\"high/tall; expensive/high-priced (高い)\" data-hsk=\"JLPT N5\"><span class=\"si\">高く</span><rt>たかく</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"うんどう\" data-defn=\"exercise/physical training/work-out; appeal/campaign/drive/crusade/movement/lobbying\" data-hsk=\"\"><span class=\"si\">運動</span><rt>うんどう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"house/residence/dwelling; family/household\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 59.12,
+      "end": 63.95,
+      "duration": 4.83
+    },
+    {
+      "id": "story_20380_p0_c12",
+      "chunk_index": 12,
+      "paragraph_index": 0,
+      "sentence_index": 12,
+      "text": "彼の年下の兄はまだ学生で、現在は大学で勉強しながらパートタイムで働いています。",
+      "text_en": "They are both in their seventies now and are still working.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれ\" data-defn=\"that/that thing; that person\" data-hsk=\"\"><span class=\"si\">彼</span><rt>かれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としした\" data-defn=\"younger/junior\" data-hsk=\"\"><span class=\"si\">年下</span><rt>としした</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あに\" data-defn=\"older brother/elder brother\" data-hsk=\"JLPT N5\"><span class=\"si\">兄</span><rt>あに</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"still/as yet/only; (not) yet\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"がくせい\" data-defn=\"student (esp. a university student)\" data-hsk=\"JLPT N5\"><span class=\"si\">学生</span><rt>がくせい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"げんざい\" data-defn=\"now/current/present/present time/as of\" data-hsk=\"\"><span class=\"si\">現在</span><rt>げんざい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だいがく\" data-defn=\"university/college; former central university of Kyoto (established under the ritsury\" data-hsk=\"\"><span class=\"si\">大学</span><rt>だいがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べんきょう\" data-defn=\"study; diligence\" data-hsk=\"JLPT N5\"><span class=\"si\">勉強</span><rt>べんきょう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ながら\" data-defn=\"while/during/as; while/although/though/despite/in spite of/notwithstanding\" data-hsk=\"\"><span class=\"si\">ながら</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーとたいむ\" data-defn=\"part time (esp. female part time employees)\" data-hsk=\"\"><span class=\"si\">パートタイム</span><rt>ぱーとたいむ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 64.3,
+      "end": 72.62,
+      "duration": 8.32
+    },
+    {
+      "id": "story_20380_p0_c13",
+      "chunk_index": 13,
+      "paragraph_index": 0,
+      "sentence_index": 13,
+      "text": "私の義理の父は銀行窓口係で、義理の母はスーパーマーケットの販売員です。",
+      "text_en": "How is your family?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"duty/sense of duty/honor/honour/decency/courtesy/debt of gratitude/social obligation;\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぎんこう\" data-defn=\"bank/banking institution\" data-hsk=\"\"><span class=\"si\">銀行</span><rt>ぎんこう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まどぐち\" data-defn=\"counter/window/teller window/ticket window; contact person/point of contact\" data-hsk=\"\"><span class=\"si\">窓口</span><rt>まどぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かかり\" data-defn=\"charge/duty/person in charge/official/clerk; connection/linking\" data-hsk=\"\"><span class=\"si\">係</span><rt>かかり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ぎり\" data-defn=\"duty/sense of duty/honor/honour/decency/courtesy/debt of gratitude/social obligation;\" data-hsk=\"\"><span class=\"si\">義理</span><rt>ぎり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すーぱーまーけっと\" data-defn=\"supermarket\" data-hsk=\"\"><span class=\"si\">スーパーマーケット</span><rt>すーぱーまーけっと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はんばい\" data-defn=\"sales/selling/marketing\" data-hsk=\"\"><span class=\"si\">販売</span><rt>はんばい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いん\" data-defn=\"member\" data-hsk=\"\"><span class=\"si\">員</span><rt>いん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 72.97,
+      "end": 80.87,
+      "duration": 7.9
+    },
+    {
+      "id": "story_20380_p0_c14",
+      "chunk_index": 14,
+      "paragraph_index": 0,
+      "sentence_index": 14,
+      "text": "彼らは今、両方とも70代で、まだ働いています。",
+      "text_en": "How is your family?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いま\" data-defn=\"now / at present\" data-hsk=\"JLPT N5\"><span class=\"si\">今</span><rt>いま</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"りょうほう\" data-defn=\"both/both sides/both parties\" data-hsk=\"\"><span class=\"si\">両方</span><rt>りょうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とも\" data-defn=\"both / all (together)\" data-hsk=\"JLPT N5\"><span class=\"si\">とも</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"70\" data-defn=\"seventy/70\" data-hsk=\"\"><span class=\"si\">70</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だい\" data-defn=\"substitution; material\" data-hsk=\"\"><span class=\"si\">代</span><rt>だい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まだ\" data-defn=\"still/as yet/only; (not) yet\" data-hsk=\"\"><span class=\"si\">まだ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はたらい\" data-defn=\"to work/to labor/to labour; to function/to operate/to be effective/to work (i.e. ...  (働く)\" data-hsk=\"JLPT N5\"><span class=\"si\">働い</span><rt>はたらい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 81.22,
+      "end": 86.37,
+      "duration": 5.15
+    },
+    {
+      "id": "story_20380_p0_c15",
+      "chunk_index": 15,
+      "paragraph_index": 0,
+      "sentence_index": 15,
+      "text": "あなたの家族はどうですか？",
+      "text_en": "How is your family?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かぞく\" data-defn=\"family/members of a family\" data-hsk=\"JLPT N5\"><span class=\"si\">家族</span><rt>かぞく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どう\" data-defn=\"how/in what way/how about\" data-hsk=\"\"><span class=\"si\">どう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+      "start": 86.72,
+      "end": 89.57,
+      "duration": 2.85
+    }
+  ],
+  "total_chunks": 16,
+  "audio_duration": 89.82,
+  "has_chunk_audio": true
+}

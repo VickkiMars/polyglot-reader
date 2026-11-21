@@ -1,1 +1,627 @@
-{"id": 13427, "title": "Where is the subway station？", "japanese_title": "地下鉄の駅はどこですか？", "level": "Intermediate", "hsk_tags": ["HSK3"], "slug": "where-is-the-subway-station", "audio_url": "/audio/japanese/13427_where-is-the-subway-station.mp3", "english_paragraphs": ["A: Sorry, is there a subway station nearby?", "B: The nearest subway station should be Century Park Station, next to the shopping mall.", "A: Do you know how to get there?", "B: Go straight ahead from this road, pass through a small garden, turn left at the back door of the garden, and after two more intersections, you will see the National Library. Opposite the library is the shopping mall in Century Park. There should be three or four subway station entrances near the mall.", "A: Thank you! But you spoke too quickly. Can you say it again?", "B: Okay... Actually, you can also take a taxi to the subway station."], "english_full": "A: Sorry, is there a subway station nearby?\n\nB: The nearest subway station should be Century Park Station, next to the shopping mall.\n\nA: Do you know how to get there?\n\nB: Go straight ahead from this road, pass through a small garden, turn left at the back door of the garden, and after two more intersections, you will see the National Library. Opposite the library is the shopping mall in Century Park. There should be three or four subway station entrances near the mall.\n\nA: Thank you! But you spoke too quickly. Can you say it again?\n\nB: Okay... Actually, you can also take a taxi to the subway station.", "japanese_paragraphs": ["A：すみません、この近くに地下鉄の駅はありますか？", "B：最寄りの駅は、ショッピングモールの隣にある世紀公園駅だと思います。", "A：そこへの行き方をご存じですか？", "B：この道をまっすぐ進んで、小さな庭を通り抜けてください。庭の裏門で左に曲がり、さらに交差点を二つ過ぎると、国立図書館が見えます。図書館の向かいに、世紀公園のショッピングモールがあります。モールの近くに地下鉄の出入り口が三つか四つあるはずです。", "A：ありがとうございます！でも、少し話すのが速すぎました。もう一度言っていただけますか？", "B：はい……実は、地下鉄の駅までタクシーで行くこともできますよ。"], "reading_paragraphs": ["えー：すみません、この ちかく に ちかてつ の えき は ありますか？", "びー：もより の えき は、ショッピングモール の となり に ある せいきこうえんえき だと おもいます。", "えー：そこ への いきかた を ごぞんじ ですか？", "びー：この みち を まっすぐ すすんで、ちいさな にわ を とおりぬけて ください。にわ の うらもん で ひだり に まがり、さらに こうさてん を ふたつ すぎると、こくりつとしょかん が みえます。としょかん の むかい に、せいきこうえん の ショッピングモール が あります。モール の ちかく に ちかてつ の でいりぐち が みっつ か よっつ ある はず です。", "えー：ありがとうございます！でも、すこし はなす の が はやすぎました。もう いちど いって いただけますか？", "びー：はい……じつは、ちかてつ の えき まで タクシー で いく こと も できますよ。"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すみません\" data-defn=\"excuse me/pardon me/I&#x27;m sorry/I beg your pardon; thank you\" data-hsk=\"\"><span class=\"si\">すみません</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"きゅう\" data-defn=\"nine\" data-hsk=\"\"><span class=\"si\">この</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"near/neighbourhood/neighborhood/vicinity; nearly (e.g. &quot;it took nearly one year&quot;)/close to\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？", "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もより\" data-defn=\"nearest\" data-hsk=\"JLPT N2\"><span class=\"si\">最寄り</span><rt>もより</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"となり\" data-defn=\"next to\" data-hsk=\"JLPT N5\"><span class=\"si\">隣</span><rt>となり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せいき\" data-defn=\"century; era\" data-hsk=\"\"><span class=\"si\">世紀</span><rt>せいき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうえん\" data-defn=\"(public) park\" data-hsk=\"JLPT N5\"><span class=\"si\">公園</span><rt>こうえん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"だ\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">だ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そこ\" data-defn=\"there (place relatively near listener); there (place just mentioned)/that place\" data-hsk=\"\"><span class=\"si\">そこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"へ\" data-defn=\"direction marker (towards/to)\" data-hsk=\"JLPT N5\"><span class=\"si\">へ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いき\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行き</span><rt>いき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほう\" data-defn=\"direction/way; person/lady/gentleman\" data-hsk=\"\"><span class=\"si\">方</span><rt>ほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ご\" data-defn=\"knowing; (an) acquaintance\" data-hsk=\"\"><span class=\"si\">ご存じ</span><rt>ご</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？", "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きゅう\" data-defn=\"nine\" data-hsk=\"\"><span class=\"si\">この</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みち\" data-defn=\"road/path/street/lane/passage; route/way\" data-hsk=\"JLPT N5\"><span class=\"si\">道</span><rt>みち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まっすぐ\" data-defn=\"straight (ahead)/direct/upright/erect; straightforward/honest/frank\" data-hsk=\"\"><span class=\"si\">まっすぐ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すすん\" data-defn=\"to advance/to go forward; to precede/to go ahead (of) (進む)\" data-hsk=\"JLPT N5\"><span class=\"si\">進ん</span><rt>すすん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちいさ\" data-defn=\"small/little/tiny\" data-hsk=\"\"><span class=\"si\">小さな</span><rt>ちいさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"garden/yard/courtyard; field (of action)/area\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とうりぬけ\" data-defn=\"to go through/to pass through/to get through/to cut across (通り抜ける)\" data-hsk=\"JLPT N5\"><span class=\"si\">通り抜け</span><rt>とうりぬけ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ください\" data-defn=\"to give/to confer/to bestow; to kindly do for one/to oblige/to favour/to favor (くださる)\" data-hsk=\"JLPT N5\"><span class=\"si\">ください</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"garden/yard/courtyard; field (of action)/area\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うらもん\" data-defn=\"back gate\" data-hsk=\"\"><span class=\"si\">裏門</span><rt>うらもん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひだり\" data-defn=\"left/left hand side\" data-hsk=\"\"><span class=\"si\">左</span><rt>ひだり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まがり\" data-defn=\"to bend/to curve/to warp/to wind/to twist; to turn (曲がる)\" data-hsk=\"JLPT N5\"><span class=\"si\">曲がり</span><rt>まがり</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"さらに\" data-defn=\"furthermore/again/after all/more and more/moreover/even more\" data-hsk=\"\"><span class=\"si\">さらに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうさてん\" data-defn=\"intersection\" data-hsk=\"JLPT N3\"><span class=\"si\">交差点</span><rt>こうさてん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎる\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse\" data-hsk=\"JLPT N5\"><span class=\"si\">過ぎる</span><rt>すぎる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こくりつ\" data-defn=\"national\" data-hsk=\"\"><span class=\"si\">国立</span><rt>こくりつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"library\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みえ\" data-defn=\"to be seen/to be in sight; to look/to seem/to appear (見える)\" data-hsk=\"JLPT N5\"><span class=\"si\">見え</span><rt>みえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"library\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むかい\" data-defn=\"opposite; across from\" data-hsk=\"JLPT N4\"><span class=\"si\">向かい</span><rt>むかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"せいき\" data-defn=\"century; era\" data-hsk=\"\"><span class=\"si\">世紀</span><rt>せいき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうえん\" data-defn=\"(public) park\" data-hsk=\"JLPT N5\"><span class=\"si\">公園</span><rt>こうえん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"モール\" data-defn=\"mall; maul (in rugby)\" data-hsk=\"\"><span class=\"si\">モール</span><rt>モール</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"near/neighbourhood/neighborhood/vicinity; nearly (e.g. &quot;it took nearly one year&quot;)/close to\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でいり\" data-defn=\"exit and entrance\" data-hsk=\"\"><span class=\"si\">出入り口</span><rt>でいり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みっつ\" data-defn=\"three; three years of age\" data-hsk=\"\"><span class=\"si\">三つ</span><rt>みっつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よっつ\" data-defn=\"four; four years of age\" data-hsk=\"\"><span class=\"si\">四つ</span><rt>よっつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はず\" data-defn=\"should (be)/bound (to be)/expected (to be)/must (be); nock (of a bow)\" data-hsk=\"\"><span class=\"si\">はず</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ありがとう\" data-defn=\"thank you/thanks\" data-hsk=\"\"><span class=\"si\">ありがとう</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ござい\" data-defn=\"five punishments (of the ritsuryo system: light caning, severe caning, imprisonment, exile\" data-hsk=\"\"><span class=\"si\">ござい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"すこし\" data-defn=\"small quantity/little/few/something; little while\" data-hsk=\"\"><span class=\"si\">少し</span><rt>すこし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はなす\" data-defn=\"to talk/to speak/to converse/to chat; to tell/to explain/to narrate/to mention/to des\" data-hsk=\"JLPT N5\"><span class=\"si\">話す</span><rt>はなす</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"そく\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature (速い)\" data-hsk=\"JLPT N5\"><span class=\"si\">速</span><rt>そく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎ\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse (すぎる)\" data-hsk=\"JLPT N5\"><span class=\"si\">すぎ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"もう\" data-defn=\"once more/again\" data-hsk=\"\"><span class=\"si\">もう一度</span><rt>もう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっっ\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言っ</span><rt>いっっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いただけ\" data-defn=\"to be able to receive/to be able to take/to be able to accept; to be able to eat/to b (いただける)\" data-hsk=\"JLPT N5\"><span class=\"si\">いただけ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？", "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"：\" data-defn=\"： (word)\" data-hsk=\"\"><span class=\"si\">：</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はい\" data-defn=\"yes/that is correct; understood/I see/OK/okay\" data-hsk=\"\"><span class=\"si\">はい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"…\" data-defn=\"… (word)\" data-hsk=\"\"><span class=\"si\">…</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"…\" data-defn=\"… (word)\" data-hsk=\"\"><span class=\"si\">…</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じつは\" data-defn=\"as a matter of fact/by the way/to tell you the truth/to be honest/frankly\" data-hsk=\"\"><span class=\"si\">実は</span><rt>じつは</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まで\" data-defn=\"until / as far as\" data-hsk=\"JLPT N5\"><span class=\"si\">まで</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"タクシー\" data-defn=\"taxi\" data-hsk=\"\"><span class=\"si\">タクシー</span><rt>タクシー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いく\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be\" data-hsk=\"JLPT N5\"><span class=\"si\">行く</span><rt>いく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よ\" data-defn=\"sentence-ending particle (emphasis / you know)\" data-hsk=\"JLPT N5\"><span class=\"si\">よ</span><rt></rt></ruby>。"], "vocabulary": [{"word": "A", "reading": "ゆう", "translation": "", "jlpt": "-"}, {"word": "：", "reading": "：", "translation": "", "jlpt": "-"}, {"word": "すみません", "reading": "すみません", "translation": "", "jlpt": "-"}, {"word": "この", "reading": "きゅう", "translation": "", "jlpt": "-"}, {"word": "近く", "reading": "ちかく", "translation": "", "jlpt": "-"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "地下鉄", "reading": "ちかてつ", "translation": "", "jlpt": "N4"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "駅", "reading": "えき", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "あり", "reading": "あり", "translation": "", "jlpt": "N5"}, {"word": "ます", "reading": "ます", "translation": "", "jlpt": "N5"}, {"word": "か", "reading": "か", "translation": "", "jlpt": "N5"}, {"word": "B", "reading": "ベル", "translation": "", "jlpt": "-"}, {"word": "最寄り", "reading": "もより", "translation": "", "jlpt": "N2"}, {"word": "ショッピングモール", "reading": "しょっぴんぐもーる", "translation": "", "jlpt": "N4"}, {"word": "隣", "reading": "となり", "translation": "", "jlpt": "N5"}, {"word": "ある", "reading": "ある", "translation": "", "jlpt": "N5"}, {"word": "世紀", "reading": "せいき", "translation": "", "jlpt": "-"}, {"word": "公園", "reading": "こうえん", "translation": "", "jlpt": "N5"}, {"word": "だ", "reading": "だ", "translation": "", "jlpt": "N5"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "思い", "reading": "おもい", "translation": "", "jlpt": "N5"}, {"word": "そこ", "reading": "そこ", "translation": "", "jlpt": "-"}, {"word": "へ", "reading": "へ", "translation": "", "jlpt": "N5"}, {"word": "行き", "reading": "いき", "translation": "", "jlpt": "N5"}, {"word": "方", "reading": "ほう", "translation": "", "jlpt": "-"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "ご存じ", "reading": "ご", "translation": "", "jlpt": "-"}, {"word": "です", "reading": "です", "translation": "", "jlpt": "N5"}, {"word": "道", "reading": "みち", "translation": "", "jlpt": "N5"}, {"word": "まっすぐ", "reading": "まっすぐ", "translation": "", "jlpt": "-"}, {"word": "進ん", "reading": "すすん", "translation": "", "jlpt": "N5"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "小さな", "reading": "ちいさ", "translation": "", "jlpt": "-"}, {"word": "庭", "reading": "にわ", "translation": "", "jlpt": "-"}, {"word": "通り抜け", "reading": "とうりぬけ", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "ください", "reading": "ください", "translation": "", "jlpt": "N5"}, {"word": "裏門", "reading": "うらもん", "translation": "", "jlpt": "-"}, {"word": "左", "reading": "ひだり", "translation": "", "jlpt": "-"}, {"word": "曲がり", "reading": "まがり", "translation": "", "jlpt": "N5"}, {"word": "さらに", "reading": "さらに", "translation": "", "jlpt": "-"}, {"word": "交差点", "reading": "こうさてん", "translation": "", "jlpt": "N3"}, {"word": "二つ", "reading": "ふたつ", "translation": "", "jlpt": "-"}, {"word": "過ぎる", "reading": "すぎる", "translation": "", "jlpt": "N5"}, {"word": "国立", "reading": "こくりつ", "translation": "", "jlpt": "-"}, {"word": "図書館", "reading": "としょかん", "translation": "", "jlpt": "-"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "見え", "reading": "みえ", "translation": "", "jlpt": "N5"}, {"word": "向かい", "reading": "むかい", "translation": "", "jlpt": "N4"}, {"word": "モール", "reading": "モール", "translation": "", "jlpt": "-"}, {"word": "出入り口", "reading": "でいり", "translation": "", "jlpt": "-"}, {"word": "三つ", "reading": "みっつ", "translation": "", "jlpt": "-"}, {"word": "四つ", "reading": "よっつ", "translation": "", "jlpt": "-"}, {"word": "はず", "reading": "はず", "translation": "", "jlpt": "-"}, {"word": "ありがとう", "reading": "ありがとう", "translation": "", "jlpt": "-"}, {"word": "ござい", "reading": "ござい", "translation": "", "jlpt": "-"}, {"word": "でも", "reading": "でも", "translation": "", "jlpt": "N5"}, {"word": "少し", "reading": "すこし", "translation": "", "jlpt": "-"}, {"word": "話す", "reading": "はなす", "translation": "", "jlpt": "N5"}, {"word": "速", "reading": "そく", "translation": "", "jlpt": "N5"}, {"word": "すぎ", "reading": "すぎ", "translation": "", "jlpt": "N5"}, {"word": "ました", "reading": "ました", "translation": "", "jlpt": "N5"}, {"word": "もう一度", "reading": "もう", "translation": "", "jlpt": "-"}, {"word": "言っ", "reading": "いっっ", "translation": "", "jlpt": "N5"}, {"word": "いただけ", "reading": "いただけ", "translation": "", "jlpt": "N5"}, {"word": "はい", "reading": "はい", "translation": "", "jlpt": "-"}, {"word": "…", "reading": "…", "translation": "", "jlpt": "-"}, {"word": "実は", "reading": "じつは", "translation": "", "jlpt": "-"}, {"word": "まで", "reading": "まで", "translation": "", "jlpt": "N5"}, {"word": "タクシー", "reading": "タクシー", "translation": "", "jlpt": "-"}, {"word": "行く", "reading": "いく", "translation": "", "jlpt": "N5"}, {"word": "こと", "reading": "こと", "translation": "", "jlpt": "N5"}, {"word": "も", "reading": "も", "translation": "", "jlpt": "N5"}, {"word": "でき", "reading": "でき", "translation": "", "jlpt": "N5"}, {"word": "よ", "reading": "よ", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 13427,
+  "title": "Where is the subway station？",
+  "japanese_title": "地下鉄の駅はどこですか？",
+  "level": "Intermediate",
+  "hsk_tags": [
+    "HSK3"
+  ],
+  "slug": "where-is-the-subway-station",
+  "audio_url": "/audio/japanese/13427_where-is-the-subway-station%ef%bc%9f.mp3",
+  "english_paragraphs": [
+    "A: Sorry, is there a subway station nearby?",
+    "B: The nearest subway station should be Century Park Station, next to the shopping mall.",
+    "A: Do you know how to get there?",
+    "B: Go straight ahead from this road, pass through a small garden, turn left at the back door of the garden, and after two more intersections, you will see the National Library. Opposite the library is the shopping mall in Century Park. There should be three or four subway station entrances near the mall.",
+    "A: Thank you! But you spoke too quickly. Can you say it again?",
+    "B: Okay... Actually, you can also take a taxi to the subway station."
+  ],
+  "english_full": "A: Sorry, is there a subway station nearby?\n\nB: The nearest subway station should be Century Park Station, next to the shopping mall.\n\nA: Do you know how to get there?\n\nB: Go straight ahead from this road, pass through a small garden, turn left at the back door of the garden, and after two more intersections, you will see the National Library. Opposite the library is the shopping mall in Century Park. There should be three or four subway station entrances near the mall.\n\nA: Thank you! But you spoke too quickly. Can you say it again?\n\nB: Okay... Actually, you can also take a taxi to the subway station.",
+  "japanese_paragraphs": [
+    "A: すみません、近くに地下鉄の駅はありますか？",
+    "B: 一番近い地下鉄の駅はセンチュリーパーク駅で、ショッピングモールの横にあります。",
+    "A: そこに行く方法を知っていますか？",
+    "B: この道をまっすぐ行って、小さな庭を通り過ぎ、庭の裏口で左に曲がって、さらに二つの交差点を過ぎると、国立図書館が見えます。図書館の向かい側にはセンチュリーパークのショッピングモールがあります。モールの近くには、地下鉄の入り口が三つか四つあるはずです。",
+    "A: ありがとう！でも、あなたはあまりにも速く話しました。もう一度言ってもらえますか？",
+    "B: はい…実際には、地下鉄の駅までタクシーを利用することもできます。"
+  ],
+  "reading_paragraphs": [
+    "A: すみません、ちかくにちかてつのえきはありますか？",
+    "B: いちばんちかいちかてつのえきはセンチュリーパークえきで、ショッピングモールのよこにあります。",
+    "A: そこにいくほうほうをしっていますか？",
+    "B: このみちをまっすぐいって、ちいさなにわをとおりすぎ、にわのうらぐちでひだりにまがって、さらにふたつのこうさてんをすぎると、こくりつとしょかんがみえます。としょかんのむかいがわにはセンチュリーパークのショッピングモールがあります。モールのちかくには、ちかてつのいりぐちがみっつかよっつあるはずです。",
+    "A: ありがとう！でも、あなたはあまりにもはやくはなしました。もういちどいってもらえますか？",
+    "B: はい…じっさいには、ちかてつのえきまでタクシーをりようすることもできます。"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"ゆう (word)\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"すみません\" data-defn=\"すみません (word)\" data-hsk=\"\"><span class=\"si\">すみません</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"ちかく (word)\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"ちかてつ (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"えき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+    "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"ベル (word)\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">一番</span><rt>いちばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかい\" data-defn=\"near/close/short (distance); close (in time)/soon\" data-hsk=\"JLPT N5\"><span class=\"si\">近い</span><rt>ちかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"ちかてつ (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"えき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんちゅりー\" data-defn=\"century; Centuri\" data-hsk=\"\"><span class=\"si\">センチュリー</span><rt>せんちゅりー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーく\" data-defn=\"park (public, amusement, etc.); parking\" data-hsk=\"\"><span class=\"si\">パーク</span><rt>ぱーく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"えき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よこ\" data-defn=\"horizontal (as opposed to vertical)/lying down; side-to-side (as opposed to front-to-\" data-hsk=\"\"><span class=\"si\">横</span><rt>よこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"ゆう (word)\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"そこ\" data-defn=\"そこ (word)\" data-hsk=\"\"><span class=\"si\">そこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いく\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be\" data-hsk=\"JLPT N5\"><span class=\"si\">行く</span><rt>いく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほうほう\" data-defn=\"method/process/manner/way/means/technique\" data-hsk=\"\"><span class=\"si\">方法</span><rt>ほうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しっ\" data-defn=\"to be aware of/to know/to be conscious of/to cognize/to cognise; to notice/to feel (知る)\" data-hsk=\"JLPT N5\"><span class=\"si\">知っ</span><rt>しっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+    "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"ベル (word)\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"きゅう\" data-defn=\"きゅう (word)\" data-hsk=\"\"><span class=\"si\">この</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みち\" data-defn=\"みち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">道</span><rt>みち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まっすぐ\" data-defn=\"まっすぐ (word)\" data-hsk=\"\"><span class=\"si\">まっすぐ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっ\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行っ</span><rt>いっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちいさ\" data-defn=\"ちいさ (word)\" data-hsk=\"\"><span class=\"si\">小さな</span><rt>ちいさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"にわ (word)\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とうりすぎ\" data-defn=\"to go past/to pass/to pass by (通り過ぎる)\" data-hsk=\"JLPT N5\"><span class=\"si\">通り過ぎ</span><rt>とうりすぎ</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"にわ (word)\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うらぐち\" data-defn=\"backdoor/rear entrance; unauthorized/illicit/illegal\" data-hsk=\"\"><span class=\"si\">裏口</span><rt>うらぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひだり\" data-defn=\"ひだり (word)\" data-hsk=\"\"><span class=\"si\">左</span><rt>ひだり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まがっ\" data-defn=\"to bend/to curve/to warp/to wind/to twist; to turn (曲がる)\" data-hsk=\"JLPT N5\"><span class=\"si\">曲がっ</span><rt>まがっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"さらに\" data-defn=\"さらに (word)\" data-hsk=\"\"><span class=\"si\">さらに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"ふたつ (word)\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうさてん\" data-defn=\"こうさてん (word)\" data-hsk=\"JLPT N3\"><span class=\"si\">交差点</span><rt>こうさてん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎる\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse\" data-hsk=\"JLPT N5\"><span class=\"si\">過ぎる</span><rt>すぎる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こくりつ\" data-defn=\"こくりつ (word)\" data-hsk=\"\"><span class=\"si\">国立</span><rt>こくりつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"としょかん (word)\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みえ\" data-defn=\"to be seen/to be in sight; to look/to seem/to appear (見える)\" data-hsk=\"JLPT N5\"><span class=\"si\">見え</span><rt>みえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"としょかん (word)\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むかいがわ\" data-defn=\"opposite side/other side/other party\" data-hsk=\"\"><span class=\"si\">向かい側</span><rt>むかいがわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんちゅりー\" data-defn=\"century; Centuri\" data-hsk=\"\"><span class=\"si\">センチュリー</span><rt>せんちゅりー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーく\" data-defn=\"park (public, amusement, etc.); parking\" data-hsk=\"\"><span class=\"si\">パーク</span><rt>ぱーく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"モール\" data-defn=\"モール (loanword / name)\" data-hsk=\"\"><span class=\"si\">モール</span><rt>モール</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"ちかく (word)\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"ちかてつ (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いりぐち\" data-defn=\"entrance/entry/gate/approach/mouth\" data-hsk=\"\"><span class=\"si\">入り口</span><rt>いりぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みっつ\" data-defn=\"みっつ (word)\" data-hsk=\"\"><span class=\"si\">三つ</span><rt>みっつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よっつ\" data-defn=\"よっつ (word)\" data-hsk=\"\"><span class=\"si\">四つ</span><rt>よっつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はず\" data-defn=\"はず (word)\" data-hsk=\"\"><span class=\"si\">はず</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"ゆう\" data-defn=\"ゆう (word)\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ありがとう\" data-defn=\"ありがとう (word)\" data-hsk=\"\"><span class=\"si\">ありがとう</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はやく\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature (速い)\" data-hsk=\"JLPT N5\"><span class=\"si\">速く</span><rt>はやく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はなし\" data-defn=\"to talk/to speak/to converse/to chat; to tell/to explain/to narrate/to mention/to des (話す)\" data-hsk=\"JLPT N5\"><span class=\"si\">話し</span><rt>はなし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"もう\" data-defn=\"もう (word)\" data-hsk=\"\"><span class=\"si\">もう一度</span><rt>もう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっっ\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言っ</span><rt>いっっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もらえ\" data-defn=\"to be able to receive/to be able to take/to be able to accept; could you (give me)/wo (もらえる)\" data-hsk=\"JLPT N5\"><span class=\"si\">もらえ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+    "<ruby class=\"mb-tooltip\" data-py=\"ベル\" data-defn=\"ベル (word)\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"はい\" data-defn=\"はい (word)\" data-hsk=\"\"><span class=\"si\">はい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"…\" data-defn=\"… (word)\" data-hsk=\"\"><span class=\"si\">…</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じっさい\" data-defn=\"reality/actuality/truth/fact/actual conditions; practice (as opposed to theory)\" data-hsk=\"\"><span class=\"si\">実際</span><rt>じっさい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"ちかてつ (word)\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"えき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まで\" data-defn=\"until / as far as\" data-hsk=\"JLPT N5\"><span class=\"si\">まで</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"タクシー\" data-defn=\"タクシー (loanword / name)\" data-hsk=\"\"><span class=\"si\">タクシー</span><rt>タクシー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りよう\" data-defn=\"use/utilization/utilisation/application\" data-hsk=\"\"><span class=\"si\">利用</span><rt>りよう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。"
+  ],
+  "vocabulary": [
+    {
+      "word": "A",
+      "reading": "ゆう",
+      "definition": "ゆう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": ":",
+      "reading": ":",
+      "definition": ": (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "definition": "すみません (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "近く",
+      "reading": "ちかく",
+      "definition": "ちかく (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "definition": "ちかてつ (word)",
+      "jlpt": "N4"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "definition": "えき (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あり",
+      "reading": "あり",
+      "definition": "there is / to exist (stem)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "か",
+      "reading": "か",
+      "definition": "question particle (?)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "B",
+      "reading": "ベル",
+      "definition": "ベル (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "一番",
+      "reading": "いちばん",
+      "definition": "number one/first/first place; best/most",
+      "jlpt": "-"
+    },
+    {
+      "word": "近い",
+      "reading": "ちかい",
+      "definition": "near/close/short (distance); close (in time)/soon",
+      "jlpt": "N5"
+    },
+    {
+      "word": "センチュリー",
+      "reading": "せんちゅりー",
+      "definition": "century; Centuri",
+      "jlpt": "-"
+    },
+    {
+      "word": "パーク",
+      "reading": "ぱーく",
+      "definition": "park (public, amusement, etc.); parking",
+      "jlpt": "-"
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "definition": "location / means marker (at/in/by)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ショッピングモール",
+      "reading": "しょっぴんぐもーる",
+      "definition": "shopping mall",
+      "jlpt": "N4"
+    },
+    {
+      "word": "横",
+      "reading": "よこ",
+      "definition": "horizontal (as opposed to vertical)/lying down; side-to-side (as opposed to front-to-",
+      "jlpt": "-"
+    },
+    {
+      "word": "そこ",
+      "reading": "そこ",
+      "definition": "そこ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "definition": "to go/to move (in a direction or towards a specific location)/to head (towards)/to be",
+      "jlpt": "N5"
+    },
+    {
+      "word": "方法",
+      "reading": "ほうほう",
+      "definition": "method/process/manner/way/means/technique",
+      "jlpt": "-"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "知っ",
+      "reading": "しっ",
+      "definition": "to be aware of/to know/to be conscious of/to cognize/to cognise; to notice/to feel (知る)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "い",
+      "reading": "い",
+      "definition": "to be / to exist (auxiliary verb)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "この",
+      "reading": "きゅう",
+      "definition": "きゅう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "道",
+      "reading": "みち",
+      "definition": "みち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "まっすぐ",
+      "reading": "まっすぐ",
+      "definition": "まっすぐ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "行っ",
+      "reading": "いっ",
+      "definition": "to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "小さな",
+      "reading": "ちいさ",
+      "definition": "ちいさ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "庭",
+      "reading": "にわ",
+      "definition": "にわ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "通り過ぎ",
+      "reading": "とうりすぎ",
+      "definition": "to go past/to pass/to pass by (通り過ぎる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "裏口",
+      "reading": "うらぐち",
+      "definition": "backdoor/rear entrance; unauthorized/illicit/illegal",
+      "jlpt": "-"
+    },
+    {
+      "word": "左",
+      "reading": "ひだり",
+      "definition": "ひだり (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "曲がっ",
+      "reading": "まがっ",
+      "definition": "to bend/to curve/to warp/to wind/to twist; to turn (曲がる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "さらに",
+      "reading": "さらに",
+      "definition": "さらに (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "二つ",
+      "reading": "ふたつ",
+      "definition": "ふたつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "交差点",
+      "reading": "こうさてん",
+      "definition": "こうさてん (word)",
+      "jlpt": "N3"
+    },
+    {
+      "word": "過ぎる",
+      "reading": "すぎる",
+      "definition": "to pass through/to pass by/to go beyond; to pass (of time)/to elapse",
+      "jlpt": "N5"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "国立",
+      "reading": "こくりつ",
+      "definition": "こくりつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "definition": "としょかん (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "見え",
+      "reading": "みえ",
+      "definition": "to be seen/to be in sight; to look/to seem/to appear (見える)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "向かい側",
+      "reading": "むかいがわ",
+      "definition": "opposite side/other side/other party",
+      "jlpt": "-"
+    },
+    {
+      "word": "モール",
+      "reading": "モール",
+      "definition": "モール (loanword / name)",
+      "jlpt": "-"
+    },
+    {
+      "word": "入り口",
+      "reading": "いりぐち",
+      "definition": "entrance/entry/gate/approach/mouth",
+      "jlpt": "-"
+    },
+    {
+      "word": "三つ",
+      "reading": "みっつ",
+      "definition": "みっつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "四つ",
+      "reading": "よっつ",
+      "definition": "よっつ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "ある",
+      "reading": "ある",
+      "definition": "there is / to exist (inanimate)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "はず",
+      "reading": "はず",
+      "definition": "はず (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ありがとう",
+      "reading": "ありがとう",
+      "definition": "ありがとう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "でも",
+      "reading": "でも",
+      "definition": "even / or something / but",
+      "jlpt": "N5"
+    },
+    {
+      "word": "あなた",
+      "reading": "あなた",
+      "definition": "you; dear/honey",
+      "jlpt": "-"
+    },
+    {
+      "word": "あまりに",
+      "reading": "あまりに",
+      "definition": "too much/excessively/too",
+      "jlpt": "-"
+    },
+    {
+      "word": "も",
+      "reading": "も",
+      "definition": "also / too",
+      "jlpt": "N5"
+    },
+    {
+      "word": "速く",
+      "reading": "はやく",
+      "definition": "fast/quick/hasty/brisk; early (in the day, etc.)/premature (速い)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "話し",
+      "reading": "はなし",
+      "definition": "to talk/to speak/to converse/to chat; to tell/to explain/to narrate/to mention/to des (話す)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ました",
+      "reading": "ました",
+      "definition": "verb polite suffix (past: did / -ed)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "もう一度",
+      "reading": "もう",
+      "definition": "もう (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "言っ",
+      "reading": "いっっ",
+      "definition": "to say/to utter/to declare; to name/to call (言う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "もらえ",
+      "reading": "もらえ",
+      "definition": "to be able to receive/to be able to take/to be able to accept; could you (give me)/wo (もらえる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "はい",
+      "reading": "はい",
+      "definition": "はい (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "…",
+      "reading": "…",
+      "definition": "… (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "definition": "reality/actuality/truth/fact/actual conditions; practice (as opposed to theory)",
+      "jlpt": "-"
+    },
+    {
+      "word": "まで",
+      "reading": "まで",
+      "definition": "until / as far as",
+      "jlpt": "N5"
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "definition": "タクシー (loanword / name)",
+      "jlpt": "-"
+    },
+    {
+      "word": "利用",
+      "reading": "りよう",
+      "definition": "use/utilization/utilisation/application",
+      "jlpt": "-"
+    },
+    {
+      "word": "する",
+      "reading": "する",
+      "definition": "to do",
+      "jlpt": "N5"
+    },
+    {
+      "word": "こと",
+      "reading": "こと",
+      "definition": "thing / matter / fact",
+      "jlpt": "N5"
+    },
+    {
+      "word": "でき",
+      "reading": "でき",
+      "definition": "to be out of/to have no more at hand (できる)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_13427_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "A: すみません、近くに地下鉄の駅はありますか？",
+      "text_en": "A: Sorry, is there a subway station nearby?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"すみません\" data-defn=\"excuse me/pardon me/I&#x27;m sorry/I beg your pardon; thank you\" data-hsk=\"\"><span class=\"si\">すみません</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"near/neighbourhood/neighborhood/vicinity; nearly (e.g. &quot;it took nearly one year&quot;)/clo\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"underground train/subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+      "start": 0.0,
+      "end": 4.25,
+      "duration": 4.25
+    },
+    {
+      "id": "story_13427_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "B: 一番近い地下鉄の駅はセンチュリーパーク駅で、ショッピングモールの横にあります。",
+      "text_en": "B: The nearest subway station should be Century Park Station, next to the shopping mall.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"いちばん\" data-defn=\"number one/first/first place; best/most\" data-hsk=\"\"><span class=\"si\">一番</span><rt>いちばん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかい\" data-defn=\"near/close/short (distance); close (in time)/soon\" data-hsk=\"JLPT N5\"><span class=\"si\">近い</span><rt>ちかい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"underground train/subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんちゅりー\" data-defn=\"century; Centuri\" data-hsk=\"\"><span class=\"si\">センチュリー</span><rt>せんちゅりー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーく\" data-defn=\"park (public, amusement, etc.); parking\" data-hsk=\"\"><span class=\"si\">パーク</span><rt>ぱーく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よこ\" data-defn=\"horizontal (as opposed to vertical)/lying down; side-to-side (as opposed to front-to-\" data-hsk=\"\"><span class=\"si\">横</span><rt>よこ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 4.85,
+      "end": 11.93,
+      "duration": 7.08
+    },
+    {
+      "id": "story_13427_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "A: そこに行く方法を知っていますか？",
+      "text_en": "A: Do you know how to get there?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"そこ\" data-defn=\"there (place relatively near listener); there (place just mentioned)/that place\" data-hsk=\"\"><span class=\"si\">そこ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いく\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be\" data-hsk=\"JLPT N5\"><span class=\"si\">行く</span><rt>いく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ほうほう\" data-defn=\"method/process/manner/way/means/technique\" data-hsk=\"\"><span class=\"si\">方法</span><rt>ほうほう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しっ\" data-defn=\"to be aware of/to know/to be conscious of/to cognize/to cognise; to notice/to feel (知る)\" data-hsk=\"JLPT N5\"><span class=\"si\">知っ</span><rt>しっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"い\" data-defn=\"to be / to exist (auxiliary verb)\" data-hsk=\"JLPT N5\"><span class=\"si\">い</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+      "start": 12.53,
+      "end": 15.95,
+      "duration": 3.42
+    },
+    {
+      "id": "story_13427_p3_c0",
+      "chunk_index": 3,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "B: この道をまっすぐ行って、小さな庭を通り過ぎ、庭の裏口で左に曲がって、さらに二つの交差点を過ぎると、国立図書館が見えます。",
+      "text_en": "B: Go straight ahead from this road, pass through a small garden, turn left at the back door of the garden, and after two more intersections, you will see the National Library.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"この\" data-defn=\"nine\" data-hsk=\"\"><span class=\"si\">この</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みち\" data-defn=\"road/path/street/lane/passage; route/way\" data-hsk=\"JLPT N5\"><span class=\"si\">道</span><rt>みち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まっすぐ\" data-defn=\"straight (ahead)/direct/upright/erect; straightforward/honest/frank\" data-hsk=\"\"><span class=\"si\">まっすぐ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっ\" data-defn=\"to go/to move (in a direction or towards a specific location)/to head (towards)/to be (行く)\" data-hsk=\"JLPT N5\"><span class=\"si\">行っ</span><rt>いっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちいさな\" data-defn=\"small/little/tiny\" data-hsk=\"\"><span class=\"si\">小さな</span><rt>ちいさな</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"garden/yard/courtyard; field (of action)/area\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"とうりすぎ\" data-defn=\"to go past/to pass/to pass by (通り過ぎる)\" data-hsk=\"JLPT N5\"><span class=\"si\">通り過ぎ</span><rt>とうりすぎ</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"にわ\" data-defn=\"garden/yard/courtyard; field (of action)/area\" data-hsk=\"\"><span class=\"si\">庭</span><rt>にわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うらぐち\" data-defn=\"backdoor/rear entrance; unauthorized/illicit/illegal\" data-hsk=\"\"><span class=\"si\">裏口</span><rt>うらぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ひだり\" data-defn=\"left/left hand side\" data-hsk=\"\"><span class=\"si\">左</span><rt>ひだり</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まがっ\" data-defn=\"to bend/to curve/to warp/to wind/to twist; to turn (曲がる)\" data-hsk=\"JLPT N5\"><span class=\"si\">曲がっ</span><rt>まがっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"さらに\" data-defn=\"furthermore/again/after all/more and more/moreover/even more\" data-hsk=\"\"><span class=\"si\">さらに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふたつ\" data-defn=\"two\" data-hsk=\"\"><span class=\"si\">二つ</span><rt>ふたつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こうさてん\" data-defn=\"crossing/intersection\" data-hsk=\"\"><span class=\"si\">交差点</span><rt>こうさてん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すぎる\" data-defn=\"to pass through/to pass by/to go beyond; to pass (of time)/to elapse\" data-hsk=\"JLPT N5\"><span class=\"si\">過ぎる</span><rt>すぎる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"こくりつ\" data-defn=\"national\" data-hsk=\"\"><span class=\"si\">国立</span><rt>こくりつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"library\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みえ\" data-defn=\"to be seen/to be in sight; to look/to seem/to appear (見える)\" data-hsk=\"JLPT N5\"><span class=\"si\">見え</span><rt>みえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 16.55,
+      "end": 28.93,
+      "duration": 12.38
+    },
+    {
+      "id": "story_13427_p3_c1",
+      "chunk_index": 4,
+      "paragraph_index": 3,
+      "sentence_index": 1,
+      "text": "図書館の向かい側にはセンチュリーパークのショッピングモールがあります。",
+      "text_en": "Opposite the library is the shopping mall in Century Park.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"としょかん\" data-defn=\"library\" data-hsk=\"\"><span class=\"si\">図書館</span><rt>としょかん</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むかいがわ\" data-defn=\"opposite side/other side/other party\" data-hsk=\"\"><span class=\"si\">向かい側</span><rt>むかいがわ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"せんちゅりー\" data-defn=\"century; Centuri\" data-hsk=\"\"><span class=\"si\">センチュリー</span><rt>せんちゅりー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ぱーく\" data-defn=\"park (public, amusement, etc.); parking\" data-hsk=\"\"><span class=\"si\">パーク</span><rt>ぱーく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しょっぴんぐもーる\" data-defn=\"shopping mall\" data-hsk=\"JLPT N4\"><span class=\"si\">ショッピングモール</span><rt>しょっぴんぐもーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あり\" data-defn=\"there is / to exist (stem)\" data-hsk=\"JLPT N5\"><span class=\"si\">あり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 29.28,
+      "end": 35.13,
+      "duration": 5.85
+    },
+    {
+      "id": "story_13427_p3_c2",
+      "chunk_index": 5,
+      "paragraph_index": 3,
+      "sentence_index": 2,
+      "text": "モールの近くには、地下鉄の入り口が三つか四つあるはずです。",
+      "text_en": "There should be three or four subway station entrances near the mall.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"もーる\" data-defn=\"mall; maul (in rugby)\" data-hsk=\"\"><span class=\"si\">モール</span><rt>もーる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちかく\" data-defn=\"near/neighbourhood/neighborhood/vicinity; nearly (e.g. &quot;it took nearly one year&quot;)/clo\" data-hsk=\"\"><span class=\"si\">近く</span><rt>ちかく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"underground train/subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いりぐち\" data-defn=\"entrance/entry/gate/approach/mouth\" data-hsk=\"\"><span class=\"si\">入り口</span><rt>いりぐち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"みっつ\" data-defn=\"three; three years of age\" data-hsk=\"\"><span class=\"si\">三つ</span><rt>みっつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よつ\" data-defn=\"four; four years of age\" data-hsk=\"\"><span class=\"si\">四つ</span><rt>よつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ある\" data-defn=\"there is / to exist (inanimate)\" data-hsk=\"JLPT N5\"><span class=\"si\">ある</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はず\" data-defn=\"should (be)/bound (to be)/expected (to be)/must (be); nock (of a bow)\" data-hsk=\"\"><span class=\"si\">はず</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 35.48,
+      "end": 41.01,
+      "duration": 5.53
+    },
+    {
+      "id": "story_13427_p4_c0",
+      "chunk_index": 6,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "A: ありがとう！でも、あなたはあまりにも速く話しました。",
+      "text_en": "A: Thank you!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"A\" data-defn=\"Excellent (grade)/A; superiority/excellence\" data-hsk=\"\"><span class=\"si\">A</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ありがとう\" data-defn=\"thank you/thanks\" data-hsk=\"\"><span class=\"si\">ありがとう</span><rt></rt></ruby>！<ruby class=\"mb-tooltip\" data-py=\"でも\" data-defn=\"even / or something / but\" data-hsk=\"JLPT N5\"><span class=\"si\">でも</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"あなた\" data-defn=\"you; dear/honey\" data-hsk=\"\"><span class=\"si\">あなた</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"あまりに\" data-defn=\"too much/excessively/too\" data-hsk=\"\"><span class=\"si\">あまりに</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はやく\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature (速い)\" data-hsk=\"JLPT N5\"><span class=\"si\">速く</span><rt>はやく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はなし\" data-defn=\"to talk/to speak/to converse/to chat; to tell/to explain/to narrate/to mention/to des (話す)\" data-hsk=\"JLPT N5\"><span class=\"si\">話し</span><rt>はなし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ました\" data-defn=\"verb polite suffix (past: did / -ed)\" data-hsk=\"JLPT N5\"><span class=\"si\">ました</span><rt></rt></ruby>。",
+      "start": 41.61,
+      "end": 46.71,
+      "duration": 5.1
+    },
+    {
+      "id": "story_13427_p4_c1",
+      "chunk_index": 7,
+      "paragraph_index": 4,
+      "sentence_index": 1,
+      "text": "もう一度言ってもらえますか？",
+      "text_en": "But you spoke too quickly.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"もういちど\" data-defn=\"once more/again\" data-hsk=\"\"><span class=\"si\">もう一度</span><rt>もういちど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっっ\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言っ</span><rt>いっっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もらえ\" data-defn=\"to be able to receive/to be able to take/to be able to accept; could you (give me)/wo (もらえる)\" data-hsk=\"JLPT N5\"><span class=\"si\">もらえ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+      "start": 47.06,
+      "end": 49.76,
+      "duration": 2.7
+    },
+    {
+      "id": "story_13427_p4_c2",
+      "chunk_index": 8,
+      "paragraph_index": 4,
+      "sentence_index": 2,
+      "text": "もう一度言ってもらえますか？",
+      "text_en": "Can you say it again?",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"もういちど\" data-defn=\"once more/again\" data-hsk=\"\"><span class=\"si\">もう一度</span><rt>もういちど</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっっ\" data-defn=\"to say/to utter/to declare; to name/to call (言う)\" data-hsk=\"JLPT N5\"><span class=\"si\">言っ</span><rt>いっっ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もらえ\" data-defn=\"to be able to receive/to be able to take/to be able to accept; could you (give me)/wo (もらえる)\" data-hsk=\"JLPT N5\"><span class=\"si\">もらえ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"か\" data-defn=\"question particle (?)\" data-hsk=\"JLPT N5\"><span class=\"si\">か</span><rt></rt></ruby>？",
+      "start": 50.11,
+      "end": 52.81,
+      "duration": 2.7
+    },
+    {
+      "id": "story_13427_p5_c0",
+      "chunk_index": 9,
+      "paragraph_index": 5,
+      "sentence_index": 0,
+      "text": "B: はい…実際には、地下鉄の駅までタクシーを利用することもできます。",
+      "text_en": "B: Okay...",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"はい\" data-defn=\"yes/that is correct; understood/I see/OK/okay\" data-hsk=\"\"><span class=\"si\">はい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"…\" data-defn=\"… (word)\" data-hsk=\"\"><span class=\"si\">…</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じっさい\" data-defn=\"reality/actuality/truth/fact/actual conditions; practice (as opposed to theory)\" data-hsk=\"\"><span class=\"si\">実際</span><rt>じっさい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"underground train/subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まで\" data-defn=\"until / as far as\" data-hsk=\"JLPT N5\"><span class=\"si\">まで</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくしー\" data-defn=\"taxi\" data-hsk=\"\"><span class=\"si\">タクシー</span><rt>たくしー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りよう\" data-defn=\"use/utilization/utilisation/application\" data-hsk=\"\"><span class=\"si\">利用</span><rt>りよう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 53.41,
+      "end": 59.41,
+      "duration": 6.0
+    },
+    {
+      "id": "story_13427_p5_c1",
+      "chunk_index": 10,
+      "paragraph_index": 5,
+      "sentence_index": 1,
+      "text": "B: はい…実際には、地下鉄の駅までタクシーを利用することもできます。",
+      "text_en": "Actually, you can also take a taxi to the subway station.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"B\" data-defn=\"bell; bel/B\" data-hsk=\"\"><span class=\"si\">B</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\":\" data-defn=\": (word)\" data-hsk=\"\"><span class=\"si\">:</span><rt></rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"はい\" data-defn=\"yes/that is correct; understood/I see/OK/okay\" data-hsk=\"\"><span class=\"si\">はい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"…\" data-defn=\"… (word)\" data-hsk=\"\"><span class=\"si\">…</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"じっさい\" data-defn=\"reality/actuality/truth/fact/actual conditions; practice (as opposed to theory)\" data-hsk=\"\"><span class=\"si\">実際</span><rt>じっさい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちかてつ\" data-defn=\"underground train/subway\" data-hsk=\"JLPT N4\"><span class=\"si\">地下鉄</span><rt>ちかてつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"えき\" data-defn=\"railway station/train station; staging post on a highway (in pre-modern Japan)\" data-hsk=\"JLPT N5\"><span class=\"si\">駅</span><rt>えき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"まで\" data-defn=\"until / as far as\" data-hsk=\"JLPT N5\"><span class=\"si\">まで</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくしー\" data-defn=\"taxi\" data-hsk=\"\"><span class=\"si\">タクシー</span><rt>たくしー</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"りよう\" data-defn=\"use/utilization/utilisation/application\" data-hsk=\"\"><span class=\"si\">利用</span><rt>りよう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"する\" data-defn=\"to do\" data-hsk=\"JLPT N5\"><span class=\"si\">する</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 59.76,
+      "end": 65.76,
+      "duration": 6.0
+    }
+  ],
+  "total_chunks": 11,
+  "audio_duration": 66.01,
+  "has_chunk_audio": true
+}

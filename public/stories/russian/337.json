@@ -473,5 +473,127 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_337_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "В вре́мя войн, в пери́од государств, у крестья́нина было де́рево на его́ по́ле.",
+      "text_en": "During the Warring States period, a farmer had a tree in his field.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrémya\" data-defn=\"время\" data-hsk=\"A2\"><span class=\"si\">вре́мя</span><rt>vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"voyn\" data-defn=\"войн\" data-hsk=\"A2\"><span class=\"si\">войн</span><rt>voyn</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"períod\" data-defn=\"период\" data-hsk=\"A2\"><span class=\"si\">пери́од</span><rt>períod</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"gosudarstv\" data-defn=\"государств\" data-hsk=\"A2\"><span class=\"si\">государств</span><rt>gosudarstv</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krest&#x27;yánina\" data-defn=\"крестьянина\" data-hsk=\"A2\"><span class=\"si\">крестья́нина</span><rt>krest&#x27;yánina</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bylo\" data-defn=\"было\" data-hsk=\"A2\"><span class=\"si\">было</span><rt>bylo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dérevo\" data-defn=\"дерево\" data-hsk=\"A2\"><span class=\"si\">де́рево</span><rt>dérevo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"póle\" data-defn=\"поле\" data-hsk=\"A2\"><span class=\"si\">по́ле</span><rt>póle</rt></ruby>.",
+      "transliteration": "V vrémya voyn, v períod gosudarstv, u krest'yánina bylo dérevo na egó póle.",
+      "start": 0.0,
+      "end": 4.2,
+      "duration": 4.2
+    },
+    {
+      "id": "story_337_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Одна́жды он у́видел кроли́ка, бега́щего са́мо́ быстро.",
+      "text_en": "One day, he saw a rabbit running very fast.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Odnázhdy\" data-defn=\"однажды\" data-hsk=\"A2\"><span class=\"si\">Одна́жды</span><rt>Odnázhdy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"úvidel\" data-defn=\"увидел\" data-hsk=\"A2\"><span class=\"si\">у́видел</span><rt>úvidel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krolíka\" data-defn=\"кролика\" data-hsk=\"A2\"><span class=\"si\">кроли́ка</span><rt>krolíka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"begáshchego\" data-defn=\"бегащего\" data-hsk=\"A2\"><span class=\"si\">бега́щего</span><rt>begáshchego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sámó\" data-defn=\"само\" data-hsk=\"A2\"><span class=\"si\">са́мо́</span><rt>sámó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bystro\" data-defn=\"быстро\" data-hsk=\"A2\"><span class=\"si\">быстро</span><rt>bystro</rt></ruby>.",
+      "transliteration": "Odnázhdy on úvidel krolíka, begáshchego sámó bystro.",
+      "start": 4.8,
+      "end": 7.66,
+      "duration": 2.86
+    },
+    {
+      "id": "story_337_p1_c1",
+      "chunk_index": 2,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Он вреза́лся в де́рево и у́мер.",
+      "text_en": "It crashed into the tree and died.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"On\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">Он</span><rt>On</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vrezálsya\" data-defn=\"врезался\" data-hsk=\"A2\"><span class=\"si\">вреза́лся</span><rt>vrezálsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A2\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dérevo\" data-defn=\"дерево\" data-hsk=\"A2\"><span class=\"si\">де́рево</span><rt>dérevo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"úmer\" data-defn=\"умер\" data-hsk=\"A2\"><span class=\"si\">у́мер</span><rt>úmer</rt></ruby>.",
+      "transliteration": "On vrezálsya v dérevo i úmer.",
+      "start": 8.01,
+      "end": 9.66,
+      "duration": 1.65
+    },
+    {
+      "id": "story_337_p1_c2",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "Поэ́тому крестья́нин ждал у де́рева ка́ждый день, ожида́я и ожида́я, наде́ясь нахо́дить друго́го кроли́ка.",
+      "text_en": "So the farmer waited by the tree every day, waiting and waiting, hoping to find another rabbit.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Poétomu\" data-defn=\"поэтому\" data-hsk=\"A2\"><span class=\"si\">Поэ́тому</span><rt>Poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krest&#x27;yánin\" data-defn=\"крестьянин\" data-hsk=\"A2\"><span class=\"si\">крестья́нин</span><rt>krest&#x27;yánin</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhdal\" data-defn=\"ждал\" data-hsk=\"A2\"><span class=\"si\">ждал</span><rt>zhdal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"déreva\" data-defn=\"дерева\" data-hsk=\"A2\"><span class=\"si\">де́рева</span><rt>déreva</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kázhdyy\" data-defn=\"каждый\" data-hsk=\"A2\"><span class=\"si\">ка́ждый</span><rt>kázhdyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"den&#x27;\" data-defn=\"день\" data-hsk=\"A2\"><span class=\"si\">день</span><rt>den&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ozhidáya\" data-defn=\"ожидая\" data-hsk=\"A2\"><span class=\"si\">ожида́я</span><rt>ozhidáya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A2\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ozhidáya\" data-defn=\"ожидая\" data-hsk=\"A2\"><span class=\"si\">ожида́я</span><rt>ozhidáya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"nadéyas&#x27;\" data-defn=\"надеясь\" data-hsk=\"A2\"><span class=\"si\">наде́ясь</span><rt>nadéyas&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nakhódit&#x27;\" data-defn=\"находить\" data-hsk=\"A2\"><span class=\"si\">нахо́дить</span><rt>nakhódit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugógo\" data-defn=\"другого\" data-hsk=\"A2\"><span class=\"si\">друго́го</span><rt>drugógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krolíka\" data-defn=\"кролика\" data-hsk=\"A2\"><span class=\"si\">кроли́ка</span><rt>krolíka</rt></ruby>.",
+      "transliteration": "Poétomu krest'yánin zhdal u déreva kázhdyy den', ozhidáya i ozhidáya, nadéyas' nakhódit' drugógo krolíka.",
+      "start": 10.01,
+      "end": 15.57,
+      "duration": 5.56
+    },
+    {
+      "id": "story_337_p2_c0",
+      "chunk_index": 4,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Есте́ственно, второ́й кроли́к никогдá не пришёл!",
+      "text_en": "Of course, no second rabbit ever came!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Estéstvenno\" data-defn=\"естественно\" data-hsk=\"A2\"><span class=\"si\">Есте́ственно</span><rt>Estéstvenno</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"vtoróy\" data-defn=\"второй\" data-hsk=\"A2\"><span class=\"si\">второ́й</span><rt>vtoróy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"krolík\" data-defn=\"кролик\" data-hsk=\"A2\"><span class=\"si\">кроли́к</span><rt>krolík</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nikogdá\" data-defn=\"никогдá\" data-hsk=\"A2\"><span class=\"si\">никогдá</span><rt>nikogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prishyol\" data-defn=\"пришёл\" data-hsk=\"A2\"><span class=\"si\">пришёл</span><rt>prishyol</rt></ruby>!",
+      "transliteration": "Estéstvenno, vtoróy krolík nikogdá ne prishyol!",
+      "start": 16.17,
+      "end": 18.82,
+      "duration": 2.65
+    },
+    {
+      "id": "story_337_p2_c1",
+      "chunk_index": 5,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Все сме́ялись над ним.",
+      "text_en": "Everyone laughed at him.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Vse\" data-defn=\"все\" data-hsk=\"A2\"><span class=\"si\">Все</span><rt>Vse</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sméyalis&#x27;\" data-defn=\"смеялись\" data-hsk=\"A2\"><span class=\"si\">сме́ялись</span><rt>sméyalis&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nad\" data-defn=\"над\" data-hsk=\"A2\"><span class=\"si\">над</span><rt>nad</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nim\" data-defn=\"ним\" data-hsk=\"A2\"><span class=\"si\">ним</span><rt>nim</rt></ruby>.",
+      "transliteration": "Vse sméyalis' nad nim.",
+      "start": 19.17,
+      "end": 20.46,
+      "duration": 1.29
+    },
+    {
+      "id": "story_337_p3_c0",
+      "chunk_index": 6,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "«Ожидание у де́рева зайца» значит наде́яться на успех без уси́лий.",
+      "text_en": "“Waiting by a tree for a rabbit” means hoping to succeed without making an effort.",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Ozhidanie\" data-defn=\"ожидание\" data-hsk=\"A2\"><span class=\"si\">Ожидание</span><rt>Ozhidanie</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"u\" data-defn=\"у\" data-hsk=\"A2\"><span class=\"si\">у</span><rt>u</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"déreva\" data-defn=\"дерева\" data-hsk=\"A2\"><span class=\"si\">де́рева</span><rt>déreva</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zaytsa\" data-defn=\"зайца\" data-hsk=\"A2\"><span class=\"si\">зайца</span><rt>zaytsa</rt></ruby>» <ruby class=\"mb-tooltip\" data-py=\"znachit\" data-defn=\"значит\" data-hsk=\"A2\"><span class=\"si\">значит</span><rt>znachit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nadéyat&#x27;sya\" data-defn=\"надеяться\" data-hsk=\"A2\"><span class=\"si\">наде́яться</span><rt>nadéyat&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A2\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uspekh\" data-defn=\"успех\" data-hsk=\"A2\"><span class=\"si\">успех</span><rt>uspekh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bez\" data-defn=\"без\" data-hsk=\"A2\"><span class=\"si\">без</span><rt>bez</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"usíliy\" data-defn=\"усилий\" data-hsk=\"A2\"><span class=\"si\">уси́лий</span><rt>usíliy</rt></ruby>.",
+      "transliteration": "«Ozhidanie u déreva zaytsa» znachit nadéyat'sya na uspekh bez usíliy.",
+      "start": 21.06,
+      "end": 24.5,
+      "duration": 3.44
+    },
+    {
+      "id": "story_337_p3_c1",
+      "chunk_index": 7,
+      "paragraph_index": 3,
+      "sentence_index": 1,
+      "text": "Это также может значить придержи́ваться то́го же ме́тода, не ду́мая о но́вом.",
+      "text_en": "It can also mean sticking to the same method without thinking of a new one.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Eto\" data-defn=\"это\" data-hsk=\"A2\"><span class=\"si\">Это</span><rt>Eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"takzhe\" data-defn=\"также\" data-hsk=\"A2\"><span class=\"si\">также</span><rt>takzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhet\" data-defn=\"может\" data-hsk=\"A2\"><span class=\"si\">может</span><rt>mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"znachit&#x27;\" data-defn=\"значить\" data-hsk=\"A2\"><span class=\"si\">значить</span><rt>znachit&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"priderzhívat&#x27;sya\" data-defn=\"придерживаться\" data-hsk=\"A2\"><span class=\"si\">придержи́ваться</span><rt>priderzhívat&#x27;sya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tógo\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">то́го</span><rt>tógo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zhe\" data-defn=\"же\" data-hsk=\"A2\"><span class=\"si\">же</span><rt>zhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"métoda\" data-defn=\"метода\" data-hsk=\"A2\"><span class=\"si\">ме́тода</span><rt>métoda</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A2\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dúmaya\" data-defn=\"думая\" data-hsk=\"A2\"><span class=\"si\">ду́мая</span><rt>dúmaya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"A2\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nóvom\" data-defn=\"новом\" data-hsk=\"A2\"><span class=\"si\">но́вом</span><rt>nóvom</rt></ruby>.",
+      "transliteration": "Eto takzhe mozhet znachit' priderzhívat'sya tógo zhe métoda, ne dúmaya o nóvom.",
+      "start": 24.85,
+      "end": 28.52,
+      "duration": 3.67
+    },
+    {
+      "id": "story_337_p4_c0",
+      "chunk_index": 8,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "Эта исто́рия приходит из Ха́н Фэйцзы.",
+      "text_en": "This story comes from the Han Feizi.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Eta\" data-defn=\"эта\" data-hsk=\"A2\"><span class=\"si\">Эта</span><rt>Eta</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"istóriya\" data-defn=\"история\" data-hsk=\"A2\"><span class=\"si\">исто́рия</span><rt>istóriya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prikhodit\" data-defn=\"приходит\" data-hsk=\"A2\"><span class=\"si\">приходит</span><rt>prikhodit</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz\" data-defn=\"из\" data-hsk=\"A2\"><span class=\"si\">из</span><rt>iz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Khán\" data-defn=\"хан\" data-hsk=\"A2\"><span class=\"si\">Ха́н</span><rt>Khán</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Feytszy\" data-defn=\"фэйцзы\" data-hsk=\"A2\"><span class=\"si\">Фэйцзы</span><rt>Feytszy</rt></ruby>.",
+      "transliteration": "Eta istóriya prikhodit iz Khán Feytszy.",
+      "start": 29.12,
+      "end": 31.26,
+      "duration": 2.14
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 31.51,
+  "has_chunk_audio": true
 }

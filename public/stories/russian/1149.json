@@ -345,5 +345,114 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1149_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Се́годня я встал в се́мь часо́в и по́ел кое-что́.",
+      "text_en": "I got up at seven today and had something to eat.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ségodnya\" data-defn=\"сегодня\" data-hsk=\"A1\"><span class=\"si\">Се́годня</span><rt>Ségodnya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vstal\" data-defn=\"встал\" data-hsk=\"A1\"><span class=\"si\">встал</span><rt>vstal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sém&#x27;\" data-defn=\"семь\" data-hsk=\"A1\"><span class=\"si\">се́мь</span><rt>sém&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasóv\" data-defn=\"часов\" data-hsk=\"A1\"><span class=\"si\">часо́в</span><rt>chasóv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"póel\" data-defn=\"поел\" data-hsk=\"A1\"><span class=\"si\">по́ел</span><rt>póel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"koe-chtó\" data-defn=\"кое-что\" data-hsk=\"A1\"><span class=\"si\">кое-что́</span><rt>koe-chtó</rt></ruby>.",
+      "transliteration": "Ségodnya ya vstal v sém' chasóv i póel koe-chtó.",
+      "start": 0.0,
+      "end": 2.88,
+      "duration": 2.88
+    },
+    {
+      "id": "story_1149_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "В девя́ть я пошёл в шко́лу на кла́сс.",
+      "text_en": "At nine, I went to school for class.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"devyát&#x27;\" data-defn=\"девять\" data-hsk=\"A1\"><span class=\"si\">девя́ть</span><rt>devyát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poshyol\" data-defn=\"пошёл\" data-hsk=\"A1\"><span class=\"si\">пошёл</span><rt>poshyol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shkólu\" data-defn=\"школу\" data-hsk=\"A1\"><span class=\"si\">шко́лу</span><rt>shkólu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kláss\" data-defn=\"класс\" data-hsk=\"A1\"><span class=\"si\">кла́сс</span><rt>kláss</rt></ruby>.",
+      "transliteration": "V devyát' ya poshyol v shkólu na kláss.",
+      "start": 3.23,
+      "end": 5.11,
+      "duration": 1.88
+    },
+    {
+      "id": "story_1149_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Мой кита́йский я́зык не́т о́чень хоро́ший, поэ́тому в пополу́дни мой кита́йский наста́вник помо́г мне учи́ться.",
+      "text_en": "My Chinese isn’t very good, so in the afternoon, my Chinese teacher helped me study.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Moy\" data-defn=\"мой\" data-hsk=\"A1\"><span class=\"si\">Мой</span><rt>Moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A1\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yázyk\" data-defn=\"язык\" data-hsk=\"A1\"><span class=\"si\">я́зык</span><rt>yázyk</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nét\" data-defn=\"нет\" data-hsk=\"A1\"><span class=\"si\">не́т</span><rt>nét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A1\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khoróshiy\" data-defn=\"хороший\" data-hsk=\"A1\"><span class=\"si\">хоро́ший</span><rt>khoróshiy</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poétomu\" data-defn=\"поэтому\" data-hsk=\"A1\"><span class=\"si\">поэ́тому</span><rt>poétomu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"popolúdni\" data-defn=\"пополудни\" data-hsk=\"A1\"><span class=\"si\">пополу́дни</span><rt>popolúdni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A1\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A1\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávnik\" data-defn=\"наставник\" data-hsk=\"A1\"><span class=\"si\">наста́вник</span><rt>nastávnik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pomóg\" data-defn=\"помог\" data-hsk=\"A1\"><span class=\"si\">помо́г</span><rt>pomóg</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mne\" data-defn=\"мне\" data-hsk=\"A1\"><span class=\"si\">мне</span><rt>mne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchít&#x27;sya\" data-defn=\"учиться\" data-hsk=\"A1\"><span class=\"si\">учи́ться</span><rt>uchít&#x27;sya</rt></ruby>.",
+      "transliteration": "Moy kitáyskiy yázyk nét óchen' khoróshiy, poétomu v popolúdni moy kitáyskiy nastávnik pomóg mne uchít'sya.",
+      "start": 5.46,
+      "end": 10.81,
+      "duration": 5.35
+    },
+    {
+      "id": "story_1149_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Мы пили ко́фе и учи́ли кита́йский вме́сте.",
+      "text_en": "We drank coffee and studied Chinese together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"My\" data-defn=\"мы\" data-hsk=\"A1\"><span class=\"si\">Мы</span><rt>My</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pili\" data-defn=\"пили\" data-hsk=\"A1\"><span class=\"si\">пили</span><rt>pili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kófe\" data-defn=\"кофе\" data-hsk=\"A1\"><span class=\"si\">ко́фе</span><rt>kófe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uchíli\" data-defn=\"учили\" data-hsk=\"A1\"><span class=\"si\">учи́ли</span><rt>uchíli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kitáyskiy\" data-defn=\"китайский\" data-hsk=\"A1\"><span class=\"si\">кита́йский</span><rt>kitáyskiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vméste\" data-defn=\"вместе\" data-hsk=\"A1\"><span class=\"si\">вме́сте</span><rt>vméste</rt></ruby>.",
+      "transliteration": "My pili kófe i uchíli kitáyskiy vméste.",
+      "start": 11.16,
+      "end": 13.64,
+      "duration": 2.48
+    },
+    {
+      "id": "story_1149_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Я о́чень благода́рен сво́ему наста́внику — тепе́рь я всё понима́ю.",
+      "text_en": "I’m very grateful to my teacher—now I understand it all.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"óchen&#x27;\" data-defn=\"очень\" data-hsk=\"A1\"><span class=\"si\">о́чень</span><rt>óchen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"blagodáren\" data-defn=\"благодарен\" data-hsk=\"A1\"><span class=\"si\">благода́рен</span><rt>blagodáren</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svóemu\" data-defn=\"своему\" data-hsk=\"A1\"><span class=\"si\">сво́ему</span><rt>svóemu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nastávniku\" data-defn=\"наставнику\" data-hsk=\"A1\"><span class=\"si\">наста́внику</span><rt>nastávniku</rt></ruby> — <ruby class=\"mb-tooltip\" data-py=\"tepér&#x27;\" data-defn=\"теперь\" data-hsk=\"A1\"><span class=\"si\">тепе́рь</span><rt>tepér&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"A1\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ponimáyu\" data-defn=\"понимаю\" data-hsk=\"A1\"><span class=\"si\">понима́ю</span><rt>ponimáyu</rt></ruby>.",
+      "transliteration": "Ya óchen' blagodáren svóemu nastávniku — tepér' ya vsyo ponimáyu.",
+      "start": 13.99,
+      "end": 17.49,
+      "duration": 3.5
+    },
+    {
+      "id": "story_1149_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "В шесть часо́в ве́ером я пришёл домо́й и по́ел у́жин с моими роди́телями.",
+      "text_en": "At six in the evening, I went home and had dinner with my parents.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"shest&#x27;\" data-defn=\"шесть\" data-hsk=\"A1\"><span class=\"si\">шесть</span><rt>shest&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chasóv\" data-defn=\"часов\" data-hsk=\"A1\"><span class=\"si\">часо́в</span><rt>chasóv</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"véerom\" data-defn=\"веером\" data-hsk=\"A1\"><span class=\"si\">ве́ером</span><rt>véerom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"prishyol\" data-defn=\"пришёл\" data-hsk=\"A1\"><span class=\"si\">пришёл</span><rt>prishyol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"domóy\" data-defn=\"домой\" data-hsk=\"A1\"><span class=\"si\">домо́й</span><rt>domóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"póel\" data-defn=\"поел\" data-hsk=\"A1\"><span class=\"si\">по́ел</span><rt>póel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"úzhin\" data-defn=\"ужин\" data-hsk=\"A1\"><span class=\"si\">у́жин</span><rt>úzhin</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moimi\" data-defn=\"моими\" data-hsk=\"A1\"><span class=\"si\">моими</span><rt>moimi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rodítelyami\" data-defn=\"родителями\" data-hsk=\"A1\"><span class=\"si\">роди́телями</span><rt>rodítelyami</rt></ruby>.",
+      "transliteration": "V shest' chasóv véerom ya prishyol domóy i póel úzhin s moimi rodítelyami.",
+      "start": 17.84,
+      "end": 21.55,
+      "duration": 3.71
+    },
+    {
+      "id": "story_1149_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "Я не́т хо́чу чита́ть се́годня ве́чером.",
+      "text_en": "I don’t feel like reading tonight.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">Я</span><rt>Ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nét\" data-defn=\"нет\" data-hsk=\"A1\"><span class=\"si\">не́т</span><rt>nét</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khóchu\" data-defn=\"хочу\" data-hsk=\"A1\"><span class=\"si\">хо́чу</span><rt>khóchu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chitát&#x27;\" data-defn=\"читать\" data-hsk=\"A1\"><span class=\"si\">чита́ть</span><rt>chitát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ségodnya\" data-defn=\"сегодня\" data-hsk=\"A1\"><span class=\"si\">се́годня</span><rt>ségodnya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vécherom\" data-defn=\"вечером\" data-hsk=\"A1\"><span class=\"si\">ве́чером</span><rt>vécherom</rt></ruby>.",
+      "transliteration": "Ya nét khóchu chitát' ségodnya vécherom.",
+      "start": 21.9,
+      "end": 23.94,
+      "duration": 2.04
+    },
+    {
+      "id": "story_1149_p0_c7",
+      "chunk_index": 7,
+      "paragraph_index": 0,
+      "sentence_index": 7,
+      "text": "Вре́мя спа́ть!",
+      "text_en": "Time for bed!",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Vrémya\" data-defn=\"время\" data-hsk=\"A1\"><span class=\"si\">Вре́мя</span><rt>Vrémya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spát&#x27;\" data-defn=\"спать\" data-hsk=\"A1\"><span class=\"si\">спа́ть</span><rt>spát&#x27;</rt></ruby>!",
+      "transliteration": "Vrémya spát'!",
+      "start": 24.29,
+      "end": 25.63,
+      "duration": 1.34
+    }
+  ],
+  "total_chunks": 8,
+  "audio_duration": 25.88,
+  "has_chunk_audio": true
 }

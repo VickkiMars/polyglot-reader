@@ -20,6 +20,7 @@ import json
 import re
 import html
 import time
+import hashlib
 import argparse
 import subprocess
 import torch
@@ -43,6 +44,10 @@ AUDIO_SIZES_JSON = os.path.join(BASE_DIR, "src", "data", "audio_sizes.json")
 CACHE_DIR = os.path.join(BASE_DIR, "data")
 JP_CHUNK_CACHE = os.path.join(CACHE_DIR, "chunk_cache_japanese.json")
 RU_CHUNK_CACHE = os.path.join(CACHE_DIR, "chunk_cache_russian.json")
+KOKORO_CACHE_DIR = os.path.join(CACHE_DIR, "kokoro_cache")
+SILERO_CACHE_DIR = os.path.join(CACHE_DIR, "silero_cache")
+os.makedirs(KOKORO_CACHE_DIR, exist_ok=True)
+os.makedirs(SILERO_CACHE_DIR, exist_ok=True)
 
 PUB_JP_DIR = os.path.join(BASE_DIR, "public", "stories", "japanese")
 PUB_RU_DIR = os.path.join(BASE_DIR, "public", "stories", "russian")
@@ -124,6 +129,7 @@ def annotate_russian(text: str, torfl_level: str = "A1", r_dict = None) -> str:
 def process_story_japanese(sid, story, pipeline, voice_tensor, skip_audio=False):
     en_paras = story.get("english_paragraphs", [])
     ja_paras = story.get("japanese_paragraphs", [])
+    ruby_paras = story.get("ruby_paragraphs", [])
     slug = story.get("slug", str(sid))
     out_mp3 = os.path.join(PUB_JP_AUDIO, f"{sid}_{slug}.mp3")
 
@@ -135,6 +141,8 @@ def process_story_japanese(sid, story, pipeline, voice_tensor, skip_audio=False)
     for p_idx, (en_p, ja_p) in enumerate(zip(en_paras, ja_paras)):
         en_sents = segment_text(en_p, is_japanese=False)
         ja_sents = segment_text(ja_p, is_japanese=True)
+        ruby_p = ruby_paras[p_idx] if p_idx < len(ruby_paras) else ""
+        ruby_sents = [p.strip() for p in re.sub(r'(。)', r'\1§SPLIT§', ruby_p.strip()).split('§SPLIT§') if p.strip()]
 
         # Fallback if sentence counts diverge: map evenly
         count = max(len(en_sents), len(ja_sents))
@@ -142,12 +150,25 @@ def process_story_japanese(sid, story, pipeline, voice_tensor, skip_audio=False)
             en_text = en_sents[s_idx] if s_idx < len(en_sents) else (en_sents[-1] if en_sents else "")
             ja_text = ja_sents[s_idx] if s_idx < len(ja_sents) else (ja_sents[-1] if ja_sents else "")
 
-            if not skip_audio and pipeline and voice_tensor:
-                pieces = []
-                with torch.inference_mode():
-                    for gs, ps, audio in pipeline(ja_text, voice=voice_tensor, speed=0.95):
-                        pieces.append(audio.cpu().numpy() if isinstance(audio, torch.Tensor) else audio)
-                chunk_tensor = np.concatenate(pieces, axis=0) if pieces else np.zeros(int(SAMPLE_RATE * 1.0))
+            if not skip_audio and pipeline is not None and voice_tensor is not None:
+                cache_key = hashlib.sha256(f"ja_kokoro::{ja_text}".encode("utf-8")).hexdigest()
+                cache_file = os.path.join(KOKORO_CACHE_DIR, f"{cache_key}.npy")
+                if os.path.exists(cache_file):
+                    try:
+                        chunk_tensor = np.load(cache_file)
+                    except Exception:
+                        chunk_tensor = None
+                else:
+                    chunk_tensor = None
+
+                if chunk_tensor is None:
+                    pieces = []
+                    with torch.inference_mode():
+                        for gs, ps, audio in pipeline(ja_text, voice=voice_tensor, speed=0.95):
+                            pieces.append(audio.cpu().numpy() if isinstance(audio, torch.Tensor) else audio)
+                    chunk_tensor = np.concatenate(pieces, axis=0) if pieces else np.zeros(int(SAMPLE_RATE * 1.0))
+                    np.save(cache_file, chunk_tensor)
+
                 dur = round(len(chunk_tensor) / SAMPLE_RATE, 2)
             else:
                 dur = round(max(1.5, len(ja_text) * 0.2), 2)
@@ -156,7 +177,7 @@ def process_story_japanese(sid, story, pipeline, voice_tensor, skip_audio=False)
             start_t = round(current_time, 2)
             end_t = round(current_time + dur, 2)
 
-            ruby_html = annotate_japanese(ja_text)
+            ruby_html = ruby_sents[s_idx] if s_idx < len(ruby_sents) else annotate_japanese(ja_text)
 
             chunk = {
                 "id": f"story_{sid}_p{p_idx}_c{s_idx}",
@@ -220,14 +241,40 @@ def process_story_russian(sid, story, silero_model, r_dict=None, skip_audio=Fals
             en_text = en_sents[s_idx] if s_idx < len(en_sents) else (en_sents[-1] if en_sents else "")
             ru_text = ru_sents[s_idx] if s_idx < len(ru_sents) else (ru_sents[-1] if ru_sents else "")
 
-            if not skip_audio and silero_model:
-                with torch.no_grad():
+            if not skip_audio and silero_model is not None:
+                cache_key = hashlib.sha256(f"ru_silero::{ru_text}".encode("utf-8")).hexdigest()
+                cache_file = os.path.join(SILERO_CACHE_DIR, f"{cache_key}.npy")
+                if os.path.exists(cache_file):
                     try:
-                        audio_tensor = silero_model.apply_tts(text=ru_text, speaker="xenia", sample_rate=SAMPLE_RATE)
+                        chunk_audio = np.load(cache_file)
                     except Exception:
-                        clean_ru = ru_text.replace("\u0301", "")
-                        audio_tensor = silero_model.apply_tts(text=clean_ru, speaker="xenia", sample_rate=SAMPLE_RATE)
-                    chunk_audio = audio_tensor.cpu().numpy()
+                        chunk_audio = None
+                else:
+                    chunk_audio = None
+
+                if chunk_audio is None:
+                    with torch.no_grad():
+                        audio_tensor = None
+                        try:
+                            audio_tensor = silero_model.apply_tts(text=ru_text, speaker="xenia", sample_rate=SAMPLE_RATE)
+                        except Exception:
+                            pass
+
+                        if audio_tensor is None:
+                            try:
+                                clean_ru = re.sub(r"[^а-яА-ЯёЁ\s.,!?-]", "", ru_text)
+                                if clean_ru.strip():
+                                    audio_tensor = silero_model.apply_tts(text=clean_ru, speaker="xenia", sample_rate=SAMPLE_RATE)
+                            except Exception:
+                                pass
+
+                        if audio_tensor is None:
+                            dur_fallback = max(1.5, len(ru_text) * 0.15)
+                            audio_tensor = torch.zeros(int(SAMPLE_RATE * dur_fallback), dtype=torch.float32)
+
+                        chunk_audio = audio_tensor.cpu().numpy()
+                    np.save(cache_file, chunk_audio)
+
                 dur = round(len(chunk_audio) / SAMPLE_RATE, 2)
             else:
                 dur = round(max(1.5, len(ru_text) * 0.15), 2)
@@ -320,6 +367,11 @@ def main():
     parser.add_argument("--stories", default="", help="Comma-separated story IDs (e.g. 23410,21141)")
     parser.add_argument("--limit", type=int, default=0, help="Max stories to process (0 = all)")
     parser.add_argument("--skip-audio", action="store_true", help="Skip neural audio generation")
+    parser.add_argument("--force", action="store_true", help="Force reprocessing even if chunks and audio exist")
+    parser.add_argument("--worker-id", type=int, default=0, help="Worker ID for parallel execution (0-indexed)")
+    parser.add_argument("--num-workers", type=int, default=1, help="Total number of parallel workers")
+    parser.add_argument("--threads", type=int, default=2, help="PyTorch CPU threads per worker")
+    parser.add_argument("--upload-r2", action="store_true", help="Automatically upload synthesized audio to Cloudflare R2")
     parser.add_argument("--verify-only", action="store_true", help="Run validation checks on existing datasets")
     args = parser.parse_args()
 
@@ -331,7 +383,10 @@ def main():
     langs = [l.strip().lower() for l in args.lang.split(",")]
     target_ids = [s.strip() for s in args.stories.split(",") if s.strip()]
 
-    print(f"=== Starting Story Chunk Batch Scaler (langs: {langs}) ===")
+    if args.threads > 0:
+        torch.set_num_threads(args.threads)
+
+    print(f"=== Starting Story Chunk Batch Scaler (langs: {langs}, worker {args.worker_id + 1}/{args.num_workers}) ===")
     t0 = time.time()
 
     # Load Audio Sizes
@@ -347,8 +402,11 @@ def main():
             jp_details = json.load(f)
 
         sids = target_ids if target_ids else list(jp_details.keys())
+        if args.num_workers > 1:
+            sids = [sid for i, sid in enumerate(sids) if i % args.num_workers == args.worker_id]
         if args.limit > 0:
             sids = sids[:args.limit]
+        print(f"[*] Japanese Worker {args.worker_id + 1}/{args.num_workers}: assigned {len(sids)} stories")
 
         pipeline, voice_tensor = None, None
         if not args.skip_audio:
@@ -361,6 +419,26 @@ def main():
             story = jp_details.get(sid)
             if not story:
                 continue
+            
+            slug = story.get("slug", str(sid))
+            out_mp3 = os.path.join(PUB_JP_AUDIO, f"{sid}_{slug}.mp3")
+            pub_path = os.path.join(PUB_JP_DIR, f"{sid}.json")
+            already_chunked = False
+            if not args.force and os.path.exists(out_mp3):
+                if story.get("chunks") and len(story.get("chunks", [])) > 0:
+                    already_chunked = True
+                elif os.path.exists(pub_path):
+                    try:
+                        with open(pub_path, "r", encoding="utf-8") as pf:
+                            st_data = json.load(pf)
+                            if st_data.get("chunks") and len(st_data.get("chunks", [])) > 0:
+                                already_chunked = True
+                    except Exception:
+                        pass
+            if already_chunked:
+                print(f"[{idx+1}/{len(sids)}] [skip] Story {sid} ({story.get('title')}) already chunked and voiced.")
+                continue
+
             print(f"[{idx+1}/{len(sids)}] Processing Japanese Story {sid} ({story.get('title')})...")
             chunks, duration, fsize = process_story_japanese(sid, story, pipeline, voice_tensor, args.skip_audio)
             story["chunks"] = chunks
@@ -369,18 +447,24 @@ def main():
             story["has_chunk_audio"] = True
 
             # Save public JSON in lockstep
-            pub_path = os.path.join(PUB_JP_DIR, f"{sid}.json")
             os.makedirs(os.path.dirname(pub_path), exist_ok=True)
             with open(pub_path, "w", encoding="utf-8") as pf:
                 json.dump(story, pf, ensure_ascii=False, indent=2)
 
             if fsize > 0:
-                slug = story.get("slug", str(sid))
                 audio_sizes.setdefault("japanese", {})[f"{sid}_{slug}.mp3"] = fsize
 
-        with open(JAPANESE_DETAILS_JSON, "w", encoding="utf-8") as f:
-            json.dump(jp_details, f, ensure_ascii=False, indent=2)
-        print(f"[+] Saved updated {JAPANESE_DETAILS_JSON}")
+            # Incremental save every 5 stories (only when running single worker)
+            if args.num_workers == 1 and (idx + 1) % 5 == 0:
+                with open(JAPANESE_DETAILS_JSON, "w", encoding="utf-8") as f:
+                    json.dump(jp_details, f, ensure_ascii=False, indent=2)
+                with open(AUDIO_SIZES_JSON, "w", encoding="utf-8") as f:
+                    json.dump(audio_sizes, f, ensure_ascii=False, indent=2)
+
+        if args.num_workers == 1:
+            with open(JAPANESE_DETAILS_JSON, "w", encoding="utf-8") as f:
+                json.dump(jp_details, f, ensure_ascii=False, indent=2)
+            print(f"[+] Saved updated {JAPANESE_DETAILS_JSON}")
 
     # 2. Process Russian
     if "russian" in langs:
@@ -389,8 +473,11 @@ def main():
             ru_details = json.load(f)
 
         sids = target_ids if target_ids else list(ru_details.keys())
+        if args.num_workers > 1:
+            sids = [sid for i, sid in enumerate(sids) if i % args.num_workers == args.worker_id]
         if args.limit > 0:
             sids = sids[:args.limit]
+        print(f"[*] Russian Worker {args.worker_id + 1}/{args.num_workers}: assigned {len(sids)} stories")
 
         silero_model = None
         r_dict = EnglishToRussianDictionary()
@@ -403,6 +490,26 @@ def main():
             story = ru_details.get(sid)
             if not story:
                 continue
+            
+            slug = story.get("slug", str(sid))
+            out_mp3 = os.path.join(PUB_RU_AUDIO, f"{sid}_{slug}.mp3")
+            pub_path = os.path.join(PUB_RU_DIR, f"{sid}.json")
+            already_chunked = False
+            if not args.force and os.path.exists(out_mp3):
+                if story.get("chunks") and len(story.get("chunks", [])) > 0:
+                    already_chunked = True
+                elif os.path.exists(pub_path):
+                    try:
+                        with open(pub_path, "r", encoding="utf-8") as pf:
+                            st_data = json.load(pf)
+                            if st_data.get("chunks") and len(st_data.get("chunks", [])) > 0:
+                                already_chunked = True
+                    except Exception:
+                        pass
+            if already_chunked:
+                print(f"[{idx+1}/{len(sids)}] [skip] Russian Story {sid} ({story.get('title')}) already chunked and voiced.")
+                continue
+
             print(f"[{idx+1}/{len(sids)}] Processing Russian Story {sid} ({story.get('title')})...")
             chunks, duration, fsize = process_story_russian(sid, story, silero_model, r_dict, args.skip_audio)
             story["chunks"] = chunks
@@ -410,27 +517,41 @@ def main():
             story["audio_duration"] = duration
             story["has_chunk_audio"] = True
 
-            pub_path = os.path.join(PUB_RU_DIR, f"{sid}.json")
             os.makedirs(os.path.dirname(pub_path), exist_ok=True)
             with open(pub_path, "w", encoding="utf-8") as pf:
                 json.dump(story, pf, ensure_ascii=False, indent=2)
 
             if fsize > 0:
-                slug = story.get("slug", str(sid))
                 audio_sizes.setdefault("russian", {})[f"{sid}_{slug}.mp3"] = fsize
 
-        with open(RUSSIAN_DETAILS_JSON, "w", encoding="utf-8") as f:
-            json.dump(ru_details, f, ensure_ascii=False, indent=2)
-        print(f"[+] Saved updated {RUSSIAN_DETAILS_JSON}")
+            # Incremental save every 5 stories (only when running single worker)
+            if args.num_workers == 1 and (idx + 1) % 5 == 0:
+                with open(RUSSIAN_DETAILS_JSON, "w", encoding="utf-8") as f:
+                    json.dump(ru_details, f, ensure_ascii=False, indent=2)
+                with open(AUDIO_SIZES_JSON, "w", encoding="utf-8") as f:
+                    json.dump(audio_sizes, f, ensure_ascii=False, indent=2)
+
+        if args.num_workers == 1:
+            with open(RUSSIAN_DETAILS_JSON, "w", encoding="utf-8") as f:
+                json.dump(ru_details, f, ensure_ascii=False, indent=2)
+            print(f"[+] Saved updated {RUSSIAN_DETAILS_JSON}")
 
     # Update Audio Sizes
-    with open(AUDIO_SIZES_JSON, "w", encoding="utf-8") as f:
-        json.dump(audio_sizes, f, ensure_ascii=False, indent=2)
-    print(f"[+] Synchronized {AUDIO_SIZES_JSON}")
+    if args.num_workers == 1:
+        with open(AUDIO_SIZES_JSON, "w", encoding="utf-8") as f:
+            json.dump(audio_sizes, f, ensure_ascii=False, indent=2)
+        print(f"[+] Synchronized {AUDIO_SIZES_JSON}")
 
     print(f"\n[✓] Batch operations completed in {time.time() - t0:.1f}s.")
-    verify_story_chunks(JAPANESE_DETAILS_JSON, "Japanese Stories")
-    verify_story_chunks(RUSSIAN_DETAILS_JSON, "Russian Stories")
+    if args.num_workers == 1:
+        verify_story_chunks(JAPANESE_DETAILS_JSON, "Japanese Stories")
+        verify_story_chunks(RUSSIAN_DETAILS_JSON, "Russian Stories")
+
+    if args.upload_r2:
+        print("\n=== Uploading Generated Audio to Cloudflare R2 ===")
+        for l in langs:
+            cmd = ["node", "scripts/upload-to-r2.mjs", l]
+            subprocess.run(cmd, check=True)
 
 if __name__ == "__main__":
     main()

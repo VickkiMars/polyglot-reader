@@ -605,5 +605,140 @@
       "torfl": "B1",
       "hsk": "B1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_4296_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Когда́ я пое́здил, я купи́л драгоце́нный ку́сок фарфо́ра.",
+      "text_en": "When I was traveling, I bought a precious piece of porcelain.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Kogdá\" data-defn=\"когда\" data-hsk=\"B1\"><span class=\"si\">Когда́</span><rt>Kogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"poézdil\" data-defn=\"поездил\" data-hsk=\"B1\"><span class=\"si\">пое́здил</span><rt>poézdil</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kupíl\" data-defn=\"купил\" data-hsk=\"B1\"><span class=\"si\">купи́л</span><rt>kupíl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dragotsénnyy\" data-defn=\"драгоценный\" data-hsk=\"B1\"><span class=\"si\">драгоце́нный</span><rt>dragotsénnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kúsok\" data-defn=\"кусок\" data-hsk=\"B1\"><span class=\"si\">ку́сок</span><rt>kúsok</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"farfóra\" data-defn=\"фарфора\" data-hsk=\"B1\"><span class=\"si\">фарфо́ра</span><rt>farfóra</rt></ruby>.",
+      "transliteration": "Kogdá ya poézdil, ya kupíl dragotsénnyy kúsok farfóra.",
+      "start": 0.0,
+      "end": 3.1,
+      "duration": 3.1
+    },
+    {
+      "id": "story_4296_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Фарфо́р был заби́т в большо́й коро́бке, и зазо́ры в большо́й коро́бке были запо́лнены отхо́дами.",
+      "text_en": "The porcelain was packed in a big box, and the gaps in the big box were filled with waste paper.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Farfór\" data-defn=\"фарфор\" data-hsk=\"B1\"><span class=\"si\">Фарфо́р</span><rt>Farfór</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"B1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zabít\" data-defn=\"забит\" data-hsk=\"B1\"><span class=\"si\">заби́т</span><rt>zabít</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shóy\" data-defn=\"большой\" data-hsk=\"B1\"><span class=\"si\">большо́й</span><rt>bol&#x27;shóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"koróbke\" data-defn=\"коробке\" data-hsk=\"B1\"><span class=\"si\">коро́бке</span><rt>koróbke</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zazóry\" data-defn=\"зазоры\" data-hsk=\"B1\"><span class=\"si\">зазо́ры</span><rt>zazóry</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shóy\" data-defn=\"большой\" data-hsk=\"B1\"><span class=\"si\">большо́й</span><rt>bol&#x27;shóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"koróbke\" data-defn=\"коробке\" data-hsk=\"B1\"><span class=\"si\">коро́бке</span><rt>koróbke</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byli\" data-defn=\"были\" data-hsk=\"B1\"><span class=\"si\">были</span><rt>byli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"zapólneny\" data-defn=\"заполнены\" data-hsk=\"B1\"><span class=\"si\">запо́лнены</span><rt>zapólneny</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otkhódami\" data-defn=\"отходами\" data-hsk=\"B1\"><span class=\"si\">отхо́дами</span><rt>otkhódami</rt></ruby>.",
+      "transliteration": "Farfór byl zabít v bol'shóy koróbke, i zazóry v bol'shóy koróbke byli zapólneny otkhódami.",
+      "start": 3.45,
+      "end": 8.23,
+      "duration": 4.78
+    },
+    {
+      "id": "story_4296_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "Рассма́тривая, что большо́й коро́бке не́удобно нести́, я выбро́сил большо́й коро́бке и отхо́ды внутри́, и положи́л фарфо́р напря́му́ю в свой чемода́н.",
+      "text_en": "Considering that the big box was inconvenient to carry, I threw away the big box and the waste paper inside, and put the porcelain directly into my suitcase.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Rassmátrivaya\" data-defn=\"рассматривая\" data-hsk=\"B1\"><span class=\"si\">Рассма́тривая</span><rt>Rassmátrivaya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shóy\" data-defn=\"большой\" data-hsk=\"B1\"><span class=\"si\">большо́й</span><rt>bol&#x27;shóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"koróbke\" data-defn=\"коробке\" data-hsk=\"B1\"><span class=\"si\">коро́бке</span><rt>koróbke</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"néudobno\" data-defn=\"неудобно\" data-hsk=\"B1\"><span class=\"si\">не́удобно</span><rt>néudobno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nestí\" data-defn=\"нести\" data-hsk=\"B1\"><span class=\"si\">нести́</span><rt>nestí</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vybrósil\" data-defn=\"выбросил\" data-hsk=\"B1\"><span class=\"si\">выбро́сил</span><rt>vybrósil</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bol&#x27;shóy\" data-defn=\"большой\" data-hsk=\"B1\"><span class=\"si\">большо́й</span><rt>bol&#x27;shóy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"koróbke\" data-defn=\"коробке\" data-hsk=\"B1\"><span class=\"si\">коро́бке</span><rt>koróbke</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otkhódy\" data-defn=\"отходы\" data-hsk=\"B1\"><span class=\"si\">отхо́ды</span><rt>otkhódy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vnutrí\" data-defn=\"внутри\" data-hsk=\"B1\"><span class=\"si\">внутри́</span><rt>vnutrí</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"B1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"polozhíl\" data-defn=\"положил\" data-hsk=\"B1\"><span class=\"si\">положи́л</span><rt>polozhíl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"farfór\" data-defn=\"фарфор\" data-hsk=\"B1\"><span class=\"si\">фарфо́р</span><rt>farfór</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"napryámúyu\" data-defn=\"напрямую\" data-hsk=\"B1\"><span class=\"si\">напря́му́ю</span><rt>napryámúyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoy\" data-defn=\"свой\" data-hsk=\"B1\"><span class=\"si\">свой</span><rt>svoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chemodán\" data-defn=\"чемодан\" data-hsk=\"B1\"><span class=\"si\">чемода́н</span><rt>chemodán</rt></ruby>.",
+      "transliteration": "Rassmátrivaya, chto bol'shóy koróbke néudobno nestí, ya vybrósil bol'shóy koróbke i otkhódy vnutrí, i polozhíl farfór napryámúyu v svoy chemodán.",
+      "start": 8.58,
+      "end": 16.03,
+      "duration": 7.45
+    },
+    {
+      "id": "story_4296_p1_c0",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Когда́ я сел в авто́, мой чемода́н си́льно упа́л на мо́лоты́й грунт из-за ава́рии.",
+      "text_en": "When I got in the car, my suitcase fell heavily to the ground due to accident.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Kogdá\" data-defn=\"когда\" data-hsk=\"B1\"><span class=\"si\">Когда́</span><rt>Kogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sel\" data-defn=\"сел\" data-hsk=\"B1\"><span class=\"si\">сел</span><rt>sel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"avtó\" data-defn=\"авто\" data-hsk=\"B1\"><span class=\"si\">авто́</span><rt>avtó</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"B1\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chemodán\" data-defn=\"чемодан\" data-hsk=\"B1\"><span class=\"si\">чемода́н</span><rt>chemodán</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"síl&#x27;no\" data-defn=\"сильно\" data-hsk=\"B1\"><span class=\"si\">си́льно</span><rt>síl&#x27;no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"upál\" data-defn=\"упал\" data-hsk=\"B1\"><span class=\"si\">упа́л</span><rt>upál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"B1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mólotýy\" data-defn=\"молотый\" data-hsk=\"B1\"><span class=\"si\">мо́лоты́й</span><rt>mólotýy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"grunt\" data-defn=\"грунт\" data-hsk=\"B1\"><span class=\"si\">грунт</span><rt>grunt</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iz-za\" data-defn=\"из-за\" data-hsk=\"B1\"><span class=\"si\">из-за</span><rt>iz-za</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"avárii\" data-defn=\"аварии\" data-hsk=\"B1\"><span class=\"si\">ава́рии</span><rt>avárii</rt></ruby>.",
+      "transliteration": "Kogdá ya sel v avtó, moy chemodán síl'no upál na mólotýy grunt iz-za avárii.",
+      "start": 16.63,
+      "end": 21.02,
+      "duration": 4.39
+    },
+    {
+      "id": "story_4296_p1_c1",
+      "chunk_index": 4,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "Когда́ я открыл чемо́дан, я уви́дел, что драгоце́нный фарфо́р был сло́манный.",
+      "text_en": "When I opened the suitcase, I saw that the precious porcelain was broken.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Kogdá\" data-defn=\"когда\" data-hsk=\"B1\"><span class=\"si\">Когда́</span><rt>Kogdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otkryl\" data-defn=\"открыл\" data-hsk=\"B1\"><span class=\"si\">открыл</span><rt>otkryl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chemódan\" data-defn=\"чемодан\" data-hsk=\"B1\"><span class=\"si\">чемо́дан</span><rt>chemódan</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uvídel\" data-defn=\"увидел\" data-hsk=\"B1\"><span class=\"si\">уви́дел</span><rt>uvídel</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dragotsénnyy\" data-defn=\"драгоценный\" data-hsk=\"B1\"><span class=\"si\">драгоце́нный</span><rt>dragotsénnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"farfór\" data-defn=\"фарфор\" data-hsk=\"B1\"><span class=\"si\">фарфо́р</span><rt>farfór</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"B1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"slómannyy\" data-defn=\"сломанный\" data-hsk=\"B1\"><span class=\"si\">сло́манный</span><rt>slómannyy</rt></ruby>.",
+      "transliteration": "Kogdá ya otkryl chemódan, ya uvídel, chto dragotsénnyy farfór byl slómannyy.",
+      "start": 21.37,
+      "end": 25.52,
+      "duration": 4.15
+    },
+    {
+      "id": "story_4296_p1_c2",
+      "chunk_index": 5,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "Еди́нственный раз я сожале́л о броске тех кажу́щихся бесполе́зных ку́сочков бумаги́.",
+      "text_en": "Only then did I regret throwing away those seemingly useless pieces of paper.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Edínstvennyy\" data-defn=\"единственный\" data-hsk=\"B1\"><span class=\"si\">Еди́нственный</span><rt>Edínstvennyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"B1\"><span class=\"si\">раз</span><rt>raz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"B1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sozhalél\" data-defn=\"сожалел\" data-hsk=\"B1\"><span class=\"si\">сожале́л</span><rt>sozhalél</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"o\" data-defn=\"о\" data-hsk=\"B1\"><span class=\"si\">о</span><rt>o</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"broske\" data-defn=\"броске\" data-hsk=\"B1\"><span class=\"si\">броске</span><rt>broske</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tekh\" data-defn=\"тех\" data-hsk=\"B1\"><span class=\"si\">тех</span><rt>tekh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kazhúshchikhsya\" data-defn=\"кажущихся\" data-hsk=\"B1\"><span class=\"si\">кажу́щихся</span><rt>kazhúshchikhsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bespoléznykh\" data-defn=\"бесполезных\" data-hsk=\"B1\"><span class=\"si\">бесполе́зных</span><rt>bespoléznykh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kúsochkov\" data-defn=\"кусочков\" data-hsk=\"B1\"><span class=\"si\">ку́сочков</span><rt>kúsochkov</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bumagí\" data-defn=\"бумаги\" data-hsk=\"B1\"><span class=\"si\">бумаги́</span><rt>bumagí</rt></ruby>.",
+      "transliteration": "Edínstvennyy raz ya sozhalél o broske tekh kazhúshchikhsya bespoléznykh kúsochkov bumagí.",
+      "start": 25.87,
+      "end": 30.37,
+      "duration": 4.5
+    },
+    {
+      "id": "story_4296_p2_c0",
+      "chunk_index": 6,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "В действи́тельности, ничто́ не является соверше́нно бесполе́зным.",
+      "text_en": "In fact, nothing is completely useless.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"V\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">В</span><rt>V</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"deystvítel&#x27;nosti\" data-defn=\"действительности\" data-hsk=\"B1\"><span class=\"si\">действи́тельности</span><rt>deystvítel&#x27;nosti</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"nichtó\" data-defn=\"ничто\" data-hsk=\"B1\"><span class=\"si\">ничто́</span><rt>nichtó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yavlyaetsya\" data-defn=\"является\" data-hsk=\"B1\"><span class=\"si\">является</span><rt>yavlyaetsya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sovershénno\" data-defn=\"совершенно\" data-hsk=\"B1\"><span class=\"si\">соверше́нно</span><rt>sovershénno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bespoléznym\" data-defn=\"бесполезным\" data-hsk=\"B1\"><span class=\"si\">бесполе́зным</span><rt>bespoléznym</rt></ruby>.",
+      "transliteration": "V deystvítel'nosti, nichtó ne yavlyaetsya sovershénno bespoléznym.",
+      "start": 30.97,
+      "end": 34.31,
+      "duration": 3.34
+    },
+    {
+      "id": "story_4296_p2_c1",
+      "chunk_index": 7,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "Даже те́ отхо́ды бумаги́ имеют свои́ уникальныя фу́нкции в некоторых аспе́ктах.",
+      "text_en": "Even those waste papers have their own unique functions in some aspects.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Dazhe\" data-defn=\"даже\" data-hsk=\"B1\"><span class=\"si\">Даже</span><rt>Dazhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"té\" data-defn=\"те\" data-hsk=\"B1\"><span class=\"si\">те́</span><rt>té</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otkhódy\" data-defn=\"отходы\" data-hsk=\"B1\"><span class=\"si\">отхо́ды</span><rt>otkhódy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bumagí\" data-defn=\"бумаги\" data-hsk=\"B1\"><span class=\"si\">бумаги́</span><rt>bumagí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"imeyut\" data-defn=\"имеют\" data-hsk=\"B1\"><span class=\"si\">имеют</span><rt>imeyut</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoí\" data-defn=\"свои\" data-hsk=\"B1\"><span class=\"si\">свои́</span><rt>svoí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"unikal&#x27;nyya\" data-defn=\"уникальныя\" data-hsk=\"B1\"><span class=\"si\">уникальныя</span><rt>unikal&#x27;nyya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"fúnktsii\" data-defn=\"функции\" data-hsk=\"B1\"><span class=\"si\">фу́нкции</span><rt>fúnktsii</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nekotorykh\" data-defn=\"некоторых\" data-hsk=\"B1\"><span class=\"si\">некоторых</span><rt>nekotorykh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"aspéktakh\" data-defn=\"аспектах\" data-hsk=\"B1\"><span class=\"si\">аспе́ктах</span><rt>aspéktakh</rt></ruby>.",
+      "transliteration": "Dazhe té otkhódy bumagí imeyut svoí unikal'nyya fúnktsii v nekotorykh aspéktakh.",
+      "start": 34.66,
+      "end": 38.77,
+      "duration": 4.11
+    },
+    {
+      "id": "story_4296_p2_c2",
+      "chunk_index": 8,
+      "paragraph_index": 2,
+      "sentence_index": 2,
+      "text": "Е́сли оно́ испо́льзуемо в пра́вильном ме́сте, отхо́д бумаги́ может таќже игра́ть ва́жную роль.",
+      "text_en": "As long as it is used in the right place, waste paper can also play an important role.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ésli\" data-defn=\"если\" data-hsk=\"B1\"><span class=\"si\">Е́сли</span><rt>Ésli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"onó\" data-defn=\"оно\" data-hsk=\"B1\"><span class=\"si\">оно́</span><rt>onó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ispól&#x27;zuemo\" data-defn=\"используемо\" data-hsk=\"B1\"><span class=\"si\">испо́льзуемо</span><rt>ispól&#x27;zuemo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"B1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"právil&#x27;nom\" data-defn=\"правильном\" data-hsk=\"B1\"><span class=\"si\">пра́вильном</span><rt>právil&#x27;nom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"méste\" data-defn=\"месте\" data-hsk=\"B1\"><span class=\"si\">ме́сте</span><rt>méste</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"otkhód\" data-defn=\"отход\" data-hsk=\"B1\"><span class=\"si\">отхо́д</span><rt>otkhód</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bumagí\" data-defn=\"бумаги\" data-hsk=\"B1\"><span class=\"si\">бумаги́</span><rt>bumagí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhet\" data-defn=\"может\" data-hsk=\"B1\"><span class=\"si\">может</span><rt>mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"taḱzhe\" data-defn=\"также\" data-hsk=\"B1\"><span class=\"si\">таќже</span><rt>taḱzhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igrát&#x27;\" data-defn=\"играть\" data-hsk=\"B1\"><span class=\"si\">игра́ть</span><rt>igrát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vázhnuyu\" data-defn=\"важную\" data-hsk=\"B1\"><span class=\"si\">ва́жную</span><rt>vázhnuyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rol&#x27;\" data-defn=\"роль\" data-hsk=\"B1\"><span class=\"si\">роль</span><rt>rol&#x27;</rt></ruby>.",
+      "transliteration": "Ésli onó ispól'zuemo v právil'nom méste, otkhód bumagí mozhet taḱzhe igrát' vázhnuyu rol'.",
+      "start": 39.12,
+      "end": 43.91,
+      "duration": 4.79
+    },
+    {
+      "id": "story_4296_p2_c3",
+      "chunk_index": 9,
+      "paragraph_index": 2,
+      "sentence_index": 3,
+      "text": "Так что не презира́йте других или те \"отхо́ды бумаги́\", ведь всё имеет свою це́нность.",
+      "text_en": "So, don't look down on others or those \"waste papers\", because everything has its own value.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Tak\" data-defn=\"так\" data-hsk=\"B1\"><span class=\"si\">Так</span><rt>Tak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"B1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"B1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"preziráyte\" data-defn=\"презирайте\" data-hsk=\"B1\"><span class=\"si\">презира́йте</span><rt>preziráyte</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"drugikh\" data-defn=\"других\" data-hsk=\"B1\"><span class=\"si\">других</span><rt>drugikh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ili\" data-defn=\"или\" data-hsk=\"B1\"><span class=\"si\">или</span><rt>ili</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"te\" data-defn=\"те\" data-hsk=\"B1\"><span class=\"si\">те</span><rt>te</rt></ruby> \"<ruby class=\"mb-tooltip\" data-py=\"otkhódy\" data-defn=\"отходы\" data-hsk=\"B1\"><span class=\"si\">отхо́ды</span><rt>otkhódy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"bumagí\" data-defn=\"бумаги\" data-hsk=\"B1\"><span class=\"si\">бумаги́</span><rt>bumagí</rt></ruby>\", <ruby class=\"mb-tooltip\" data-py=\"ved&#x27;\" data-defn=\"ведь\" data-hsk=\"B1\"><span class=\"si\">ведь</span><rt>ved&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vsyo\" data-defn=\"всё\" data-hsk=\"B1\"><span class=\"si\">всё</span><rt>vsyo</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"imeet\" data-defn=\"имеет\" data-hsk=\"B1\"><span class=\"si\">имеет</span><rt>imeet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoyu\" data-defn=\"свою\" data-hsk=\"B1\"><span class=\"si\">свою</span><rt>svoyu</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsénnost&#x27;\" data-defn=\"ценность\" data-hsk=\"B1\"><span class=\"si\">це́нность</span><rt>tsénnost&#x27;</rt></ruby>.",
+      "transliteration": "Tak chto ne preziráyte drugikh ili te \"otkhódy bumagí\", ved' vsyo imeet svoyu tsénnost'.",
+      "start": 44.26,
+      "end": 48.61,
+      "duration": 4.35
+    }
+  ],
+  "total_chunks": 10,
+  "audio_duration": 48.86,
+  "has_chunk_audio": true
 }

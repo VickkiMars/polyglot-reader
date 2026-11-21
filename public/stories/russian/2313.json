@@ -231,5 +231,62 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_2313_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Пе́рвый раз мой кутёнок у́видел котёнка моего друга, он был очень испу́ганный.",
+      "text_en": "The first time my puppy saw my friend's kitten, it was very scared.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Pérvyy\" data-defn=\"первый\" data-hsk=\"A1\"><span class=\"si\">Пе́рвый</span><rt>Pérvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"A1\"><span class=\"si\">раз</span><rt>raz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moy\" data-defn=\"мой\" data-hsk=\"A1\"><span class=\"si\">мой</span><rt>moy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kutyonok\" data-defn=\"кутёнок\" data-hsk=\"A1\"><span class=\"si\">кутёнок</span><rt>kutyonok</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"úvidel\" data-defn=\"увидел\" data-hsk=\"A1\"><span class=\"si\">у́видел</span><rt>úvidel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotyonka\" data-defn=\"котёнка\" data-hsk=\"A1\"><span class=\"si\">котёнка</span><rt>kotyonka</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"moego\" data-defn=\"моего\" data-hsk=\"A1\"><span class=\"si\">моего</span><rt>moego</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"druga\" data-defn=\"друга\" data-hsk=\"A1\"><span class=\"si\">друга</span><rt>druga</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byl\" data-defn=\"был\" data-hsk=\"A1\"><span class=\"si\">был</span><rt>byl</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ochen&#x27;\" data-defn=\"очень\" data-hsk=\"A1\"><span class=\"si\">очень</span><rt>ochen&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ispúgannyy\" data-defn=\"испуганный\" data-hsk=\"A1\"><span class=\"si\">испу́ганный</span><rt>ispúgannyy</rt></ruby>.",
+      "transliteration": "Pérvyy raz moy kutyonok úvidel kotyonka moego druga, on byl ochen' ispúgannyy.",
+      "start": 0.0,
+      "end": 4.12,
+      "duration": 4.12
+    },
+    {
+      "id": "story_2313_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Второ́й раз кутёнок уви́дел котёнка, он стал рядом с котёнком и смотрел на него.",
+      "text_en": "The second time the puppy saw the kitten, it stood beside the kitten and watched it.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Vtoróy\" data-defn=\"второй\" data-hsk=\"A1\"><span class=\"si\">Второ́й</span><rt>Vtoróy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"A1\"><span class=\"si\">раз</span><rt>raz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kutyonok\" data-defn=\"кутёнок\" data-hsk=\"A1\"><span class=\"si\">кутёнок</span><rt>kutyonok</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uvídel\" data-defn=\"увидел\" data-hsk=\"A1\"><span class=\"si\">уви́дел</span><rt>uvídel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotyonka\" data-defn=\"котёнка\" data-hsk=\"A1\"><span class=\"si\">котёнка</span><rt>kotyonka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stal\" data-defn=\"стал\" data-hsk=\"A1\"><span class=\"si\">стал</span><rt>stal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ryadom\" data-defn=\"рядом\" data-hsk=\"A1\"><span class=\"si\">рядом</span><rt>ryadom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotyonkom\" data-defn=\"котёнком\" data-hsk=\"A1\"><span class=\"si\">котёнком</span><rt>kotyonkom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"smotrel\" data-defn=\"смотрел\" data-hsk=\"A1\"><span class=\"si\">смотрел</span><rt>smotrel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"na\" data-defn=\"на\" data-hsk=\"A1\"><span class=\"si\">на</span><rt>na</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nego\" data-defn=\"него\" data-hsk=\"A1\"><span class=\"si\">него</span><rt>nego</rt></ruby>.",
+      "transliteration": "Vtoróy raz kutyonok uvídel kotyonka, on stal ryadom s kotyonkom i smotrel na nego.",
+      "start": 4.72,
+      "end": 9.23,
+      "duration": 4.51
+    },
+    {
+      "id": "story_2313_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Тре́тий раз он уви́дел котёнка, он подошёл и играл с ним.",
+      "text_en": "The third time it saw the kitten, it went over and played with it.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Trétiy\" data-defn=\"третий\" data-hsk=\"A1\"><span class=\"si\">Тре́тий</span><rt>Trétiy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"A1\"><span class=\"si\">раз</span><rt>raz</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"uvídel\" data-defn=\"увидел\" data-hsk=\"A1\"><span class=\"si\">уви́дел</span><rt>uvídel</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kotyonka\" data-defn=\"котёнка\" data-hsk=\"A1\"><span class=\"si\">котёнка</span><rt>kotyonka</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"podoshyol\" data-defn=\"подошёл\" data-hsk=\"A1\"><span class=\"si\">подошёл</span><rt>podoshyol</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"i\" data-defn=\"и\" data-hsk=\"A1\"><span class=\"si\">и</span><rt>i</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"igral\" data-defn=\"играл\" data-hsk=\"A1\"><span class=\"si\">играл</span><rt>igral</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A1\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"nim\" data-defn=\"ним\" data-hsk=\"A1\"><span class=\"si\">ним</span><rt>nim</rt></ruby>.",
+      "transliteration": "Trétiy raz on uvídel kotyonka, on podoshyol i igral s nim.",
+      "start": 9.83,
+      "end": 13.17,
+      "duration": 3.34
+    },
+    {
+      "id": "story_2313_p3_c0",
+      "chunk_index": 3,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Ско́ро они ста́ли хоро́шими друзья́ми.",
+      "text_en": "Soon, they became good friends.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Skóro\" data-defn=\"скоро\" data-hsk=\"A1\"><span class=\"si\">Ско́ро</span><rt>Skóro</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"oni\" data-defn=\"они\" data-hsk=\"A1\"><span class=\"si\">они</span><rt>oni</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stáli\" data-defn=\"стали\" data-hsk=\"A1\"><span class=\"si\">ста́ли</span><rt>stáli</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"khoróshimi\" data-defn=\"хорошими\" data-hsk=\"A1\"><span class=\"si\">хоро́шими</span><rt>khoróshimi</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"druz&#x27;yámi\" data-defn=\"друзьями\" data-hsk=\"A1\"><span class=\"si\">друзья́ми</span><rt>druz&#x27;yámi</rt></ruby>.",
+      "transliteration": "Skóro oni stáli khoróshimi druz'yámi.",
+      "start": 13.77,
+      "end": 15.89,
+      "duration": 2.12
+    }
+  ],
+  "total_chunks": 4,
+  "audio_duration": 16.14,
+  "has_chunk_audio": true
 }

@@ -288,5 +288,88 @@
       "torfl": "A1",
       "hsk": "A1"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_1993_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Ма́ма спра́шивает своего́ сы́на: «Ско́лько тебе́ лет в э́том году́?»",
+      "text_en": "A mother asked her son, “How old are you this year?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Máma\" data-defn=\"мама\" data-hsk=\"A1\"><span class=\"si\">Ма́ма</span><rt>Máma</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoegó\" data-defn=\"своего\" data-hsk=\"A1\"><span class=\"si\">своего́</span><rt>svoegó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sýna\" data-defn=\"сына\" data-hsk=\"A1\"><span class=\"si\">сы́на</span><rt>sýna</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Skól&#x27;ko\" data-defn=\"сколько\" data-hsk=\"A1\"><span class=\"si\">Ско́лько</span><rt>Skól&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tebé\" data-defn=\"тебе\" data-hsk=\"A1\"><span class=\"si\">тебе́</span><rt>tebé</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A1\"><span class=\"si\">лет</span><rt>let</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"v\" data-defn=\"в\" data-hsk=\"A1\"><span class=\"si\">в</span><rt>v</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"étom\" data-defn=\"этом\" data-hsk=\"A1\"><span class=\"si\">э́том</span><rt>étom</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"godú\" data-defn=\"году\" data-hsk=\"A1\"><span class=\"si\">году́</span><rt>godú</rt></ruby>?»",
+      "transliteration": "Máma spráshivaet svoegó sýna: «Skól'ko tebé let v étom godú?»",
+      "start": 0.0,
+      "end": 3.6,
+      "duration": 3.6
+    },
+    {
+      "id": "story_1993_p1_c0",
+      "chunk_index": 1,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "Его́ сы́н отве́ча́ет: «Мне́ три го́да.»",
+      "text_en": "Her son answered, “I’m three years old.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Egó\" data-defn=\"его\" data-hsk=\"A1\"><span class=\"si\">Его́</span><rt>Egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sýn\" data-defn=\"сын\" data-hsk=\"A1\"><span class=\"si\">сы́н</span><rt>sýn</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"otvécháet\" data-defn=\"отвечает\" data-hsk=\"A1\"><span class=\"si\">отве́ча́ет</span><rt>otvécháet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Mné\" data-defn=\"мне\" data-hsk=\"A1\"><span class=\"si\">Мне́</span><rt>Mné</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tri\" data-defn=\"три\" data-hsk=\"A1\"><span class=\"si\">три</span><rt>tri</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"góda\" data-defn=\"года\" data-hsk=\"A1\"><span class=\"si\">го́да</span><rt>góda</rt></ruby>.»",
+      "transliteration": "Egó sýn otvécháet: «Mné tri góda.»",
+      "start": 4.2,
+      "end": 6.62,
+      "duration": 2.42
+    },
+    {
+      "id": "story_1993_p2_c0",
+      "chunk_index": 2,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "Она́ спра́шивает: «Тогда́ ско́лько лет па́пе?»",
+      "text_en": "She asked, “Then how old is Dad?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">Она́</span><rt>Oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Togdá\" data-defn=\"тогда\" data-hsk=\"A1\"><span class=\"si\">Тогда́</span><rt>Togdá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skól&#x27;ko\" data-defn=\"сколько\" data-hsk=\"A1\"><span class=\"si\">ско́лько</span><rt>skól&#x27;ko</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"let\" data-defn=\"лет\" data-hsk=\"A1\"><span class=\"si\">лет</span><rt>let</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápe\" data-defn=\"папе\" data-hsk=\"A1\"><span class=\"si\">па́пе</span><rt>pápe</rt></ruby>?»",
+      "transliteration": "Oná spráshivaet: «Togdá skól'ko let pápe?»",
+      "start": 7.22,
+      "end": 10.01,
+      "duration": 2.79
+    },
+    {
+      "id": "story_1993_p3_c0",
+      "chunk_index": 3,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "Его́ сы́н ска́зывает: «Па́па то́же три.»",
+      "text_en": "Her son said, “Dad is three, too.”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Egó\" data-defn=\"его\" data-hsk=\"A1\"><span class=\"si\">Его́</span><rt>Egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sýn\" data-defn=\"сын\" data-hsk=\"A1\"><span class=\"si\">сы́н</span><rt>sýn</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"skázyvaet\" data-defn=\"сказывает\" data-hsk=\"A1\"><span class=\"si\">ска́зывает</span><rt>skázyvaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Pápa\" data-defn=\"папа\" data-hsk=\"A1\"><span class=\"si\">Па́па</span><rt>Pápa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A1\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tri\" data-defn=\"три\" data-hsk=\"A1\"><span class=\"si\">три</span><rt>tri</rt></ruby>.»",
+      "transliteration": "Egó sýn skázyvaet: «Pápa tózhe tri.»",
+      "start": 10.61,
+      "end": 13.06,
+      "duration": 2.45
+    },
+    {
+      "id": "story_1993_p4_c0",
+      "chunk_index": 4,
+      "paragraph_index": 4,
+      "sentence_index": 0,
+      "text": "Озада́ченная, она́ спра́шивает: «Почему́ па́па лишь три?»",
+      "text_en": "Puzzled, she asked, “Why is Dad only three?”",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Ozadáchennaya\" data-defn=\"озадаченная\" data-hsk=\"A1\"><span class=\"si\">Озада́ченная</span><rt>Ozadáchennaya</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"oná\" data-defn=\"она\" data-hsk=\"A1\"><span class=\"si\">она́</span><rt>oná</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spráshivaet\" data-defn=\"спрашивает\" data-hsk=\"A1\"><span class=\"si\">спра́шивает</span><rt>spráshivaet</rt></ruby>: «<ruby class=\"mb-tooltip\" data-py=\"Pochemú\" data-defn=\"почему\" data-hsk=\"A1\"><span class=\"si\">Почему́</span><rt>Pochemú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápa\" data-defn=\"папа\" data-hsk=\"A1\"><span class=\"si\">па́па</span><rt>pápa</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lish&#x27;\" data-defn=\"лишь\" data-hsk=\"A1\"><span class=\"si\">лишь</span><rt>lish&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tri\" data-defn=\"три\" data-hsk=\"A1\"><span class=\"si\">три</span><rt>tri</rt></ruby>?»",
+      "transliteration": "Ozadáchennaya, oná spráshivaet: «Pochemú pápa lish' tri?»",
+      "start": 13.66,
+      "end": 16.96,
+      "duration": 3.3
+    },
+    {
+      "id": "story_1993_p5_c0",
+      "chunk_index": 5,
+      "paragraph_index": 5,
+      "sentence_index": 0,
+      "text": "«Потому́ что он не ста́л па́пой до те́х пор, пока́ я не роди́лся!»",
+      "text_en": "“Because he didn’t become a dad until the day I was born!”",
+      "ruby": "«<ruby class=\"mb-tooltip\" data-py=\"Potomú\" data-defn=\"потому\" data-hsk=\"A1\"><span class=\"si\">Потому́</span><rt>Potomú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A1\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A1\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stál\" data-defn=\"стал\" data-hsk=\"A1\"><span class=\"si\">ста́л</span><rt>stál</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pápoy\" data-defn=\"папой\" data-hsk=\"A1\"><span class=\"si\">па́пой</span><rt>pápoy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"do\" data-defn=\"до\" data-hsk=\"A1\"><span class=\"si\">до</span><rt>do</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tékh\" data-defn=\"тех\" data-hsk=\"A1\"><span class=\"si\">те́х</span><rt>tékh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"por\" data-defn=\"пор\" data-hsk=\"A1\"><span class=\"si\">пор</span><rt>por</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"poká\" data-defn=\"пока\" data-hsk=\"A1\"><span class=\"si\">пока́</span><rt>poká</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ya\" data-defn=\"я\" data-hsk=\"A1\"><span class=\"si\">я</span><rt>ya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ne\" data-defn=\"не\" data-hsk=\"A1\"><span class=\"si\">не</span><rt>ne</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"rodílsya\" data-defn=\"родился\" data-hsk=\"A1\"><span class=\"si\">роди́лся</span><rt>rodílsya</rt></ruby>!»",
+      "transliteration": "«Potomú chto on ne stál pápoy do tékh por, poká ya ne rodílsya!»",
+      "start": 17.56,
+      "end": 21.04,
+      "duration": 3.48
+    }
+  ],
+  "total_chunks": 6,
+  "audio_duration": 21.29,
+  "has_chunk_audio": true
 }

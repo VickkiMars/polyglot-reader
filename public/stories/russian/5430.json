@@ -331,5 +331,101 @@
       "torfl": "A2",
       "hsk": "A2"
     }
-  ]
+  ],
+  "chunks": [
+    {
+      "id": "story_5430_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "Мо́жет быть, для обы́чных лю́дей тру́дно понима́ть ва́жность цвета́.",
+      "text_en": "It may be difficult for ordinary people to understand the importance of color.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Mózhet\" data-defn=\"может\" data-hsk=\"A2\"><span class=\"si\">Мо́жет</span><rt>Mózhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"byt&#x27;\" data-defn=\"быть\" data-hsk=\"A2\"><span class=\"si\">быть</span><rt>byt&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A2\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"obýchnykh\" data-defn=\"обычных\" data-hsk=\"A2\"><span class=\"si\">обы́чных</span><rt>obýchnykh</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"lyúdey\" data-defn=\"людей\" data-hsk=\"A2\"><span class=\"si\">лю́дей</span><rt>lyúdey</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"trúdno\" data-defn=\"трудно\" data-hsk=\"A2\"><span class=\"si\">тру́дно</span><rt>trúdno</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"ponimát&#x27;\" data-defn=\"понимать\" data-hsk=\"A2\"><span class=\"si\">понима́ть</span><rt>ponimát&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vázhnost&#x27;\" data-defn=\"важность\" data-hsk=\"A2\"><span class=\"si\">ва́жность</span><rt>vázhnost&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvetá\" data-defn=\"цвета\" data-hsk=\"A2\"><span class=\"si\">цвета́</span><rt>tsvetá</rt></ruby>.",
+      "transliteration": "Mózhet byt', dlya obýchnykh lyúdey trúdno ponimát' vázhnost' tsvetá.",
+      "start": 0.0,
+      "end": 3.25,
+      "duration": 3.25
+    },
+    {
+      "id": "story_5430_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "Двенадца́ти́летний ма́льчик Ионафа́н име́ет тяжёлый дальтони́зм.",
+      "text_en": "A twelve-year-old boy, Jonathan, has severe color blindness.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Dvenadtsátíletniy\" data-defn=\"двенадцатилетний\" data-hsk=\"A2\"><span class=\"si\">Двенадца́ти́летний</span><rt>Dvenadtsátíletniy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mál&#x27;chik\" data-defn=\"мальчик\" data-hsk=\"A2\"><span class=\"si\">ма́льчик</span><rt>mál&#x27;chik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"Ionafán\" data-defn=\"ионафан\" data-hsk=\"A2\"><span class=\"si\">Ионафа́н</span><rt>Ionafán</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iméet\" data-defn=\"имеет\" data-hsk=\"A2\"><span class=\"si\">име́ет</span><rt>iméet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tyazhyolyy\" data-defn=\"тяжёлый\" data-hsk=\"A2\"><span class=\"si\">тяжёлый</span><rt>tyazhyolyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dal&#x27;tonízm\" data-defn=\"дальтонизм\" data-hsk=\"A2\"><span class=\"si\">дальтони́зм</span><rt>dal&#x27;tonízm</rt></ruby>.",
+      "transliteration": "Dvenadtsátíletniy mál'chik Ionafán iméet tyazhyolyy dal'tonízm.",
+      "start": 3.6,
+      "end": 6.58,
+      "duration": 2.98
+    },
+    {
+      "id": "story_5430_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "По́сле того́ как гла́вный дал ему́ свои́ стекло́, он на́чал плакать.",
+      "text_en": "After his principal lent the boy his glasses, he started crying.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Pósle\" data-defn=\"после\" data-hsk=\"A2\"><span class=\"si\">По́сле</span><rt>Pósle</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"togó\" data-defn=\"того\" data-hsk=\"A2\"><span class=\"si\">того́</span><rt>togó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"kak\" data-defn=\"как\" data-hsk=\"A2\"><span class=\"si\">как</span><rt>kak</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"glávnyy\" data-defn=\"главный\" data-hsk=\"A2\"><span class=\"si\">гла́вный</span><rt>glávnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dal\" data-defn=\"дал\" data-hsk=\"A2\"><span class=\"si\">дал</span><rt>dal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"emú\" data-defn=\"ему\" data-hsk=\"A2\"><span class=\"si\">ему́</span><rt>emú</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"svoí\" data-defn=\"свои\" data-hsk=\"A2\"><span class=\"si\">свои́</span><rt>svoí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stekló\" data-defn=\"стекло\" data-hsk=\"A2\"><span class=\"si\">стекло́</span><rt>stekló</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"on\" data-defn=\"он\" data-hsk=\"A2\"><span class=\"si\">он</span><rt>on</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"náchal\" data-defn=\"начал\" data-hsk=\"A2\"><span class=\"si\">на́чал</span><rt>náchal</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"plakat&#x27;\" data-defn=\"плакать\" data-hsk=\"A2\"><span class=\"si\">плакать</span><rt>plakat&#x27;</rt></ruby>.",
+      "transliteration": "Pósle togó kak glávnyy dal emú svoí stekló, on náchal plakat'.",
+      "start": 6.93,
+      "end": 10.73,
+      "duration": 3.8
+    },
+    {
+      "id": "story_5430_p0_c3",
+      "chunk_index": 3,
+      "paragraph_index": 0,
+      "sentence_index": 3,
+      "text": "Ока́залось, что его́ гла́вный то́же име́ет дальтони́зм.",
+      "text_en": "It turns out that his principal also has color blindness.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Okázalos&#x27;\" data-defn=\"оказалось\" data-hsk=\"A2\"><span class=\"si\">Ока́залось</span><rt>Okázalos&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"egó\" data-defn=\"его\" data-hsk=\"A2\"><span class=\"si\">его́</span><rt>egó</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"glávnyy\" data-defn=\"главный\" data-hsk=\"A2\"><span class=\"si\">гла́вный</span><rt>glávnyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tózhe\" data-defn=\"тоже\" data-hsk=\"A2\"><span class=\"si\">то́же</span><rt>tózhe</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"iméet\" data-defn=\"имеет\" data-hsk=\"A2\"><span class=\"si\">име́ет</span><rt>iméet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dal&#x27;tonízm\" data-defn=\"дальтонизм\" data-hsk=\"A2\"><span class=\"si\">дальтони́зм</span><rt>dal&#x27;tonízm</rt></ruby>.",
+      "transliteration": "Okázalos', chto egó glávnyy tózhe iméet dal'tonízm.",
+      "start": 11.08,
+      "end": 13.81,
+      "duration": 2.73
+    },
+    {
+      "id": "story_5430_p0_c4",
+      "chunk_index": 4,
+      "paragraph_index": 0,
+      "sentence_index": 4,
+      "text": "Эти́ стекло́ специаль́но сде́ланы для дальтони́зма.",
+      "text_en": "These glasses are specially made for color blindness.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Etí\" data-defn=\"эти\" data-hsk=\"A2\"><span class=\"si\">Эти́</span><rt>Etí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"stekló\" data-defn=\"стекло\" data-hsk=\"A2\"><span class=\"si\">стекло́</span><rt>stekló</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"spetsial&#x27;́no\" data-defn=\"специально\" data-hsk=\"A2\"><span class=\"si\">специаль́но</span><rt>spetsial&#x27;́no</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"sdélany\" data-defn=\"сделаны\" data-hsk=\"A2\"><span class=\"si\">сде́ланы</span><rt>sdélany</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dlya\" data-defn=\"для\" data-hsk=\"A2\"><span class=\"si\">для</span><rt>dlya</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"dal&#x27;tonízma\" data-defn=\"дальтонизма\" data-hsk=\"A2\"><span class=\"si\">дальтони́зма</span><rt>dal&#x27;tonízma</rt></ruby>.",
+      "transliteration": "Etí stekló spetsial'́no sdélany dlya dal'tonízma.",
+      "start": 14.16,
+      "end": 16.68,
+      "duration": 2.52
+    },
+    {
+      "id": "story_5430_p0_c5",
+      "chunk_index": 5,
+      "paragraph_index": 0,
+      "sentence_index": 5,
+      "text": "Это пе́рвый раз, когда ма́льчик может видéть рaзные цвета́ я́сно.",
+      "text_en": "This is the first time the little boy can see different colors clearly.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Eto\" data-defn=\"это\" data-hsk=\"A2\"><span class=\"si\">Это</span><rt>Eto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"pérvyy\" data-defn=\"первый\" data-hsk=\"A2\"><span class=\"si\">пе́рвый</span><rt>pérvyy</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raz\" data-defn=\"раз\" data-hsk=\"A2\"><span class=\"si\">раз</span><rt>raz</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"kogda\" data-defn=\"когда\" data-hsk=\"A2\"><span class=\"si\">когда</span><rt>kogda</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mál&#x27;chik\" data-defn=\"мальчик\" data-hsk=\"A2\"><span class=\"si\">ма́льчик</span><rt>mál&#x27;chik</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mozhet\" data-defn=\"может\" data-hsk=\"A2\"><span class=\"si\">может</span><rt>mozhet</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"vidét&#x27;\" data-defn=\"видéть\" data-hsk=\"A2\"><span class=\"si\">видéть</span><rt>vidét&#x27;</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"raznye\" data-defn=\"рaзные\" data-hsk=\"A2\"><span class=\"si\">рaзные</span><rt>raznye</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvetá\" data-defn=\"цвета\" data-hsk=\"A2\"><span class=\"si\">цвета́</span><rt>tsvetá</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"yásno\" data-defn=\"ясно\" data-hsk=\"A2\"><span class=\"si\">я́сно</span><rt>yásno</rt></ruby>.",
+      "transliteration": "Eto pérvyy raz, kogda mál'chik mozhet vidét' raznye tsvetá yásno.",
+      "start": 17.03,
+      "end": 20.51,
+      "duration": 3.48
+    },
+    {
+      "id": "story_5430_p0_c6",
+      "chunk_index": 6,
+      "paragraph_index": 0,
+      "sentence_index": 6,
+      "text": "Ока́залось, что мир с цветами́ такой.",
+      "text_en": "It turns out that the world with colors is like this.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"Okázalos&#x27;\" data-defn=\"оказалось\" data-hsk=\"A2\"><span class=\"si\">Ока́залось</span><rt>Okázalos&#x27;</rt></ruby>, <ruby class=\"mb-tooltip\" data-py=\"chto\" data-defn=\"что\" data-hsk=\"A2\"><span class=\"si\">что</span><rt>chto</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"mir\" data-defn=\"мир\" data-hsk=\"A2\"><span class=\"si\">мир</span><rt>mir</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"s\" data-defn=\"с\" data-hsk=\"A2\"><span class=\"si\">с</span><rt>s</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"tsvetamí\" data-defn=\"цветами\" data-hsk=\"A2\"><span class=\"si\">цветами́</span><rt>tsvetamí</rt></ruby> <ruby class=\"mb-tooltip\" data-py=\"takoy\" data-defn=\"такой\" data-hsk=\"A2\"><span class=\"si\">такой</span><rt>takoy</rt></ruby>.",
+      "transliteration": "Okázalos', chto mir s tsvetamí takoy.",
+      "start": 20.86,
+      "end": 23.15,
+      "duration": 2.29
+    }
+  ],
+  "total_chunks": 7,
+  "audio_duration": 23.4,
+  "has_chunk_audio": true
 }

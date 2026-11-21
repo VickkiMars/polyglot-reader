@@ -1,1 +1,433 @@
-{"id": 20509, "title": "Music", "japanese_title": "音楽", "level": "Beginner", "hsk_tags": ["HSK2"], "slug": "music", "audio_url": "/audio/japanese/20509_music.mp3", "english_paragraphs": ["I like music, I listen to a lot of music every day. In the morning, I listen to music in the car; in the evening, I listen to music at home. Music is my good friend.", "My mother likes to listen to slow music, my father likes to listen to old music, and my sister likes to listen to fast music. I like them all.", "Because I like listening to music, I also like singing. I can sing a lot of songs, and my good friends and I often sing together.", "I can't dance, but I think it doesn't matter if I can't dance."], "english_full": "I like music, I listen to a lot of music every day. In the morning, I listen to music in the car; in the evening, I listen to music at home. Music is my good friend.\n\nMy mother likes to listen to slow music, my father likes to listen to old music, and my sister likes to listen to fast music. I like them all.\n\nBecause I like listening to music, I also like singing. I can sing a lot of songs, and my good friends and I often sing together.\n\nI can't dance, but I think it doesn't matter if I can't dance.", "japanese_paragraphs": ["私は音楽が好きで、毎日たくさん聴きます。朝は車の中で、夜は家で音楽を聴きます。音楽は私の大切な友達です。", "母はゆっくりした音楽が好きで、父は昔の音楽が好きです。姉はテンポの速い音楽が好きです。私はどれも好きです。", "音楽を聴くのが好きなので、歌うのも好きです。たくさんの歌を歌えますし、仲のいい友達とよく一緒に歌います。", "私は踊れませんが、踊れなくても別にいいと思います。"], "reading_paragraphs": ["わたし は おんがく が すき で、 まいにち たくさん ききます。 あさ は くるま の なか で、 よる は いえ で おんがく を ききます。 おんがく は わたし の たいせつ な ともだち です。", "はは は ゆっくり した おんがく が すき で、 ちち は むかし の おんがく が すき です。 あね は てんぽ の はやい おんがく が すき です。 わたし は どれ も すき です。", "おんがく を きく の が すき なので、 うたう の も すき です。 たくさん の うた を うたえます し、 なか の いい ともだち と よく いっしょ に うたいます。", "わたし は おどれません が、 おどれなくても べつに いい と おもいます。"], "ruby_paragraphs": ["<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まいにち\" data-defn=\"every day\" data-hsk=\"JLPT N5\"><span class=\"si\">毎日</span><rt>まいにち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficient\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聴く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聴き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あさ\" data-defn=\"morning; breakfast\" data-hsk=\"JLPT N5\"><span class=\"si\">朝</span><rt>あさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くるま\" data-defn=\"car/automobile/vehicle; wheel\" data-hsk=\"JLPT N5\"><span class=\"si\">車</span><rt>くるま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なか\" data-defn=\"inside/interior/in; among/within\" data-hsk=\"\"><span class=\"si\">中</span><rt>なか</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"よる\" data-defn=\"evening/night; dinner\" data-hsk=\"JLPT N5\"><span class=\"si\">夜</span><rt>よる</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いえ\" data-defn=\"house/residence/dwelling; family/household\" data-hsk=\"JLPT N5\"><span class=\"si\">家</span><rt>いえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聴く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聴き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たいせつ\" data-defn=\"precious; important\" data-hsk=\"JLPT N4\"><span class=\"si\">大切</span><rt>たいせつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"friend/companion\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ゆっくり\" data-defn=\"slowly/unhurriedly/without haste/leisurely/at one&#x27;s leisure; easily (e.g. in time)/well/su\" data-hsk=\"\"><span class=\"si\">ゆっくり</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"た\" data-defn=\"past tense auxiliary (-ed / completed)\" data-hsk=\"JLPT N5\"><span class=\"si\">た</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"むかし\" data-defn=\"the past; long ago\" data-hsk=\"JLPT N4\"><span class=\"si\">昔</span><rt>むかし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あね\" data-defn=\"older sister/elder sister\" data-hsk=\"JLPT N5\"><span class=\"si\">姉</span><rt>あね</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"テンポ\" data-defn=\"tempo\" data-hsk=\"\"><span class=\"si\">テンポ</span><rt>テンポ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はやい\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature\" data-hsk=\"JLPT N5\"><span class=\"si\">速い</span><rt>はやい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"どれ\" data-defn=\"which (of three or more); well/now/c&#x27;mon\" data-hsk=\"\"><span class=\"si\">どれ</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聴く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"that being the case/because of .../the reason is .../given that ...\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"うたう\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem\" data-hsk=\"JLPT N5\"><span class=\"si\">歌う</span><rt>うたう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficient\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うた\" data-defn=\"song; classical Japanese poetry (esp. tanka)\" data-hsk=\"\"><span class=\"si\">歌</span><rt>うた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたえ\" data-defn=\"うたえ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">歌え</span><rt>うたえ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"し\" data-defn=\"to do (stem of する)\" data-hsk=\"JLPT N5\"><span class=\"si\">し</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"なか\" data-defn=\"relation/relationship\" data-hsk=\"JLPT N3\"><span class=\"si\">仲</span><rt>なか</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"friend/companion\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よく\" data-defn=\"greed/craving/desire/appetite/hunger/avarice/wants\" data-hsk=\"\"><span class=\"si\">よく</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"together; at the same time\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたい\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem (歌う)\" data-hsk=\"JLPT N5\"><span class=\"si\">歌い</span><rt>うたい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。", "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"なく\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">なく</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"べつ\" data-defn=\"distinction/difference/discrimination; separate/different/another/extra\" data-hsk=\"\"><span class=\"si\">別</span><rt>べつ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いい\" data-defn=\"good / nice / pleasant\" data-hsk=\"JLPT N5\"><span class=\"si\">いい</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。"], "vocabulary": [{"word": "私", "reading": "わたし", "translation": "", "jlpt": "N5"}, {"word": "は", "reading": "は", "translation": "", "jlpt": "N5"}, {"word": "音楽", "reading": "おんがく", "translation": "", "jlpt": "N5"}, {"word": "が", "reading": "が", "translation": "", "jlpt": "N5"}, {"word": "好き", "reading": "すき", "translation": "", "jlpt": "N5"}, {"word": "で", "reading": "で", "translation": "", "jlpt": "N5"}, {"word": "毎日", "reading": "まいにち", "translation": "", "jlpt": "N5"}, {"word": "たくさん", "reading": "たくさん", "translation": "", "jlpt": "-"}, {"word": "聴き", "reading": "きき", "translation": "", "jlpt": "N5"}, {"word": "ます", "reading": "ます", "translation": "", "jlpt": "N5"}, {"word": "朝", "reading": "あさ", "translation": "", "jlpt": "N5"}, {"word": "車", "reading": "くるま", "translation": "", "jlpt": "N5"}, {"word": "の", "reading": "の", "translation": "", "jlpt": "N5"}, {"word": "中", "reading": "なか", "translation": "", "jlpt": "-"}, {"word": "夜", "reading": "よる", "translation": "", "jlpt": "N5"}, {"word": "家", "reading": "いえ", "translation": "", "jlpt": "N5"}, {"word": "を", "reading": "を", "translation": "", "jlpt": "N5"}, {"word": "大切", "reading": "たいせつ", "translation": "", "jlpt": "N4"}, {"word": "な", "reading": "な", "translation": "", "jlpt": "N5"}, {"word": "友達", "reading": "ともだち", "translation": "", "jlpt": "N5"}, {"word": "です", "reading": "です", "translation": "", "jlpt": "N5"}, {"word": "母", "reading": "はは", "translation": "", "jlpt": "N5"}, {"word": "ゆっくり", "reading": "ゆっくり", "translation": "", "jlpt": "-"}, {"word": "し", "reading": "し", "translation": "", "jlpt": "N5"}, {"word": "た", "reading": "た", "translation": "", "jlpt": "N5"}, {"word": "父", "reading": "ちち", "translation": "", "jlpt": "N5"}, {"word": "昔", "reading": "むかし", "translation": "", "jlpt": "N4"}, {"word": "姉", "reading": "あね", "translation": "", "jlpt": "N5"}, {"word": "テンポ", "reading": "テンポ", "translation": "", "jlpt": "-"}, {"word": "速い", "reading": "はやい", "translation": "", "jlpt": "N5"}, {"word": "どれ", "reading": "どれ", "translation": "", "jlpt": "-"}, {"word": "も", "reading": "も", "translation": "", "jlpt": "N5"}, {"word": "聴く", "reading": "きく", "translation": "", "jlpt": "N5"}, {"word": "ので", "reading": "ので", "translation": "", "jlpt": "-"}, {"word": "歌う", "reading": "うたう", "translation": "", "jlpt": "N5"}, {"word": "歌", "reading": "うた", "translation": "", "jlpt": "-"}, {"word": "歌え", "reading": "うたえ", "translation": "", "jlpt": "N5"}, {"word": "仲", "reading": "なか", "translation": "", "jlpt": "N3"}, {"word": "いい", "reading": "いい", "translation": "", "jlpt": "N5"}, {"word": "と", "reading": "と", "translation": "", "jlpt": "N5"}, {"word": "よく", "reading": "よく", "translation": "", "jlpt": "-"}, {"word": "一緒", "reading": "いっしょ", "translation": "", "jlpt": "-"}, {"word": "に", "reading": "に", "translation": "", "jlpt": "N5"}, {"word": "歌い", "reading": "うたい", "translation": "", "jlpt": "N5"}, {"word": "踊れ", "reading": "おどれ", "translation": "", "jlpt": "N5"}, {"word": "ません", "reading": "ません", "translation": "", "jlpt": "N5"}, {"word": "なく", "reading": "なく", "translation": "", "jlpt": "N5"}, {"word": "て", "reading": "て", "translation": "", "jlpt": "N5"}, {"word": "別", "reading": "べつ", "translation": "", "jlpt": "-"}, {"word": "思い", "reading": "おもい", "translation": "", "jlpt": "N5"}]}
+{
+  "id": 20509,
+  "title": "Music",
+  "japanese_title": "音楽",
+  "level": "Beginner",
+  "hsk_tags": [
+    "HSK2"
+  ],
+  "slug": "music",
+  "audio_url": "/audio/japanese/20509_music.mp3",
+  "english_paragraphs": [
+    "I like music, I listen to a lot of music every day. In the morning, I listen to music in the car; in the evening, I listen to music at home. Music is my good friend.",
+    "My mother likes to listen to slow music, my father likes to listen to old music, and my sister likes to listen to fast music. I like them all.",
+    "Because I like listening to music, I also like singing. I can sing a lot of songs, and my good friends and I often sing together.",
+    "I can't dance, but I think it doesn't matter if I can't dance."
+  ],
+  "english_full": "I like music, I listen to a lot of music every day. In the morning, I listen to music in the car; in the evening, I listen to music at home. Music is my good friend.\n\nMy mother likes to listen to slow music, my father likes to listen to old music, and my sister likes to listen to fast music. I like them all.\n\nBecause I like listening to music, I also like singing. I can sing a lot of songs, and my good friends and I often sing together.\n\nI can't dance, but I think it doesn't matter if I can't dance.",
+  "japanese_paragraphs": [
+    "私は音楽が好きで、毎日たくさんの音楽を聞きます。朝は車で音楽を聞き、夕方は家庭で音楽を聞きます。音楽は私の良い友達です。",
+    "私の母は遅い音楽を聞くのが好きで、私の父は古い音楽を聞くのが好きです。そして、私の妹は速い音楽を聞くのが好きです。私は彼らのすべてが好きです。",
+    "私は音楽を聞くのが好きなので、歌うのも好きです。私はたくさんの歌を歌うことができて、私の良い友達と私はしばしば一緒に歌います。",
+    "私は踊れませんが、踊れないことは問題ではないと思います。"
+  ],
+  "reading_paragraphs": [
+    "わたしはおんがくがすきで、まいにたくさんのおんがくをききます。あさはくるまでおんがくをきき、ゆうがたはかていでおんがくをききます。おんがくはわたしのよいともだちです。",
+    "わたしのはははおそいおんがくをきくのがすきで、わたしのちちはふるいおんがくをきくのがすきです。そして、わたしのいもうとははやいおんがくをきくのがすきです。わたしはかれらのすべてがすきです。",
+    "わたしはおんがくをきくのがすきなので、うたうのもすきです。わたしはたくさんのうたをうたうことができて、わたしのよいともだちとわたしはしばしばいっしょにうたいます。",
+    "わたしはおどれませんが、おどれないことはもんだいではないとおもいます。"
+  ],
+  "ruby_paragraphs": [
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まいにち\" data-defn=\"まいにち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">毎日</span><rt>まいにち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"たくさん (word)\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"あさ\" data-defn=\"あさ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">朝</span><rt>あさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くるま\" data-defn=\"くるま (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">車</span><rt>くるま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ゆうがた\" data-defn=\"evening/dusk\" data-hsk=\"\"><span class=\"si\">夕方</span><rt>ゆうがた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かてい\" data-defn=\"home/family/household\" data-hsk=\"\"><span class=\"si\">家庭</span><rt>かてい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"ともだち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"はは (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おそい\" data-defn=\"slow/time-consuming/sluggish; late (in the day)/towards the end (of the day or night)\" data-hsk=\"JLPT N5\"><span class=\"si\">遅い</span><rt>おそい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"ちち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふるい\" data-defn=\"old/aged/ancient/antiquated/antique/timeworn; long/since long ago/time-honored\" data-hsk=\"JLPT N5\"><span class=\"si\">古い</span><rt>ふるい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"そして\" data-defn=\"and/and then/thus/and now/and finally\" data-hsk=\"\"><span class=\"si\">そして</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いもうと\" data-defn=\"younger sister\" data-hsk=\"JLPT N5\"><span class=\"si\">妹</span><rt>いもうと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はやい\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature\" data-hsk=\"JLPT N5\"><span class=\"si\">速い</span><rt>はやい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">すべて</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"おんがく (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"ので (word)\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"うたう\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem\" data-hsk=\"JLPT N5\"><span class=\"si\">歌う</span><rt>うたう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"すき (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"たくさん (word)\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うた\" data-defn=\"うた (word)\" data-hsk=\"\"><span class=\"si\">歌</span><rt>うた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたう\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem\" data-hsk=\"JLPT N5\"><span class=\"si\">歌う</span><rt>うたう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"ともだち (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しばしば\" data-defn=\"often/again and again/frequently/repeatedly\" data-hsk=\"\"><span class=\"si\">しばしば</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"いっしょ (word)\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたい\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem (歌う)\" data-hsk=\"JLPT N5\"><span class=\"si\">歌い</span><rt>うたい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+    "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"わたし (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もんだい\" data-defn=\"question (e.g. on a test)/problem; problem (e.g. societal, political)/question/issue/\" data-hsk=\"\"><span class=\"si\">問題</span><rt>もんだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。"
+  ],
+  "vocabulary": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "definition": "わたし (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "definition": "topic marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "音楽",
+      "reading": "おんがく",
+      "definition": "おんがく (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "definition": "subject marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "definition": "すき (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "definition": "location / means marker (at/in/by)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "definition": "まいにち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "たくさん",
+      "reading": "たくさん",
+      "definition": "たくさん (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "の",
+      "reading": "の",
+      "definition": "possessive particle ('s / of)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "definition": "direct object marker",
+      "jlpt": "N5"
+    },
+    {
+      "word": "聞き",
+      "reading": "きき",
+      "definition": "to hear; to listen (e.g. to music) (聞く)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ます",
+      "reading": "ます",
+      "definition": "verb polite suffix (present/future)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "definition": "あさ (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "definition": "くるま (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "definition": "evening/dusk",
+      "jlpt": "-"
+    },
+    {
+      "word": "家庭",
+      "reading": "かてい",
+      "definition": "home/family/household",
+      "jlpt": "-"
+    },
+    {
+      "word": "良い",
+      "reading": "よい",
+      "definition": "good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared",
+      "jlpt": "N5"
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "definition": "ともだち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "です",
+      "reading": "です",
+      "definition": "be / is / are (polite copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "definition": "はは (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "definition": "slow/time-consuming/sluggish; late (in the day)/towards the end (of the day or night)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "definition": "to hear; to listen (e.g. to music)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "父",
+      "reading": "ちち",
+      "definition": "ちち (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "古い",
+      "reading": "ふるい",
+      "definition": "old/aged/ancient/antiquated/antique/timeworn; long/since long ago/time-honored",
+      "jlpt": "N5"
+    },
+    {
+      "word": "そして",
+      "reading": "そして",
+      "definition": "and/and then/thus/and now/and finally",
+      "jlpt": "-"
+    },
+    {
+      "word": "妹",
+      "reading": "いもうと",
+      "definition": "younger sister",
+      "jlpt": "N5"
+    },
+    {
+      "word": "速い",
+      "reading": "はやい",
+      "definition": "fast/quick/hasty/brisk; early (in the day, etc.)/premature",
+      "jlpt": "N5"
+    },
+    {
+      "word": "彼ら",
+      "reading": "かれら",
+      "definition": "they/them",
+      "jlpt": "-"
+    },
+    {
+      "word": "すべて",
+      "reading": "すべて",
+      "definition": "everything/all/the whole; entirely/completely/wholly/all",
+      "jlpt": "-"
+    },
+    {
+      "word": "な",
+      "reading": "な",
+      "definition": "be / is (plain copula)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ので",
+      "reading": "ので",
+      "definition": "ので (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "歌う",
+      "reading": "うたう",
+      "definition": "to sing; to sing (one's praises in a poem, etc.)/to compose a poem/to recite a poem",
+      "jlpt": "N5"
+    },
+    {
+      "word": "も",
+      "reading": "も",
+      "definition": "also / too",
+      "jlpt": "N5"
+    },
+    {
+      "word": "歌",
+      "reading": "うた",
+      "definition": "うた (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "こと",
+      "reading": "こと",
+      "definition": "thing / matter / fact",
+      "jlpt": "N5"
+    },
+    {
+      "word": "でき",
+      "reading": "でき",
+      "definition": "to be out of/to have no more at hand (できる)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "て",
+      "reading": "て",
+      "definition": "conjunctive particle (and / -ing)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "と",
+      "reading": "と",
+      "definition": "and / with",
+      "jlpt": "N5"
+    },
+    {
+      "word": "しばしば",
+      "reading": "しばしば",
+      "definition": "often/again and again/frequently/repeatedly",
+      "jlpt": "-"
+    },
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "definition": "いっしょ (word)",
+      "jlpt": "-"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "definition": "target / time / direction marker (to/at/in)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "歌い",
+      "reading": "うたい",
+      "definition": "to sing; to sing (one's praises in a poem, etc.)/to compose a poem/to recite a poem (歌う)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "踊れ",
+      "reading": "おどれ",
+      "definition": "おどれ (word)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ません",
+      "reading": "ません",
+      "definition": "verb polite suffix (negative: do not)",
+      "jlpt": "N5"
+    },
+    {
+      "word": "ない",
+      "reading": "ない",
+      "definition": "not / non-existent",
+      "jlpt": "N5"
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "definition": "question (e.g. on a test)/problem; problem (e.g. societal, political)/question/issue/",
+      "jlpt": "-"
+    },
+    {
+      "word": "思い",
+      "reading": "おもい",
+      "definition": "to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)",
+      "jlpt": "N5"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "story_20509_p0_c0",
+      "chunk_index": 0,
+      "paragraph_index": 0,
+      "sentence_index": 0,
+      "text": "私は音楽が好きで、毎日たくさんの音楽を聞きます。",
+      "text_en": "I like music, I listen to a lot of music every day.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"まいにち\" data-defn=\"every day\" data-hsk=\"\"><span class=\"si\">毎日</span><rt>まいにち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficien\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 0.0,
+      "end": 5.6,
+      "duration": 5.6
+    },
+    {
+      "id": "story_20509_p0_c1",
+      "chunk_index": 1,
+      "paragraph_index": 0,
+      "sentence_index": 1,
+      "text": "朝は車で音楽を聞き、夕方は家庭で音楽を聞きます。",
+      "text_en": "In the morning, I listen to music in the car; in the evening, I listen to music at home.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"あさ\" data-defn=\"morning; breakfast\" data-hsk=\"JLPT N5\"><span class=\"si\">朝</span><rt>あさ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"くるま\" data-defn=\"car/automobile/vehicle; wheel\" data-hsk=\"JLPT N5\"><span class=\"si\">車</span><rt>くるま</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"ゆうがた\" data-defn=\"evening/dusk\" data-hsk=\"\"><span class=\"si\">夕方</span><rt>ゆうがた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かてい\" data-defn=\"home/family/household\" data-hsk=\"\"><span class=\"si\">家庭</span><rt>かてい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きき\" data-defn=\"to hear; to listen (e.g. to music) (聞く)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞き</span><rt>きき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 5.95,
+      "end": 11.85,
+      "duration": 5.9
+    },
+    {
+      "id": "story_20509_p0_c2",
+      "chunk_index": 2,
+      "paragraph_index": 0,
+      "sentence_index": 2,
+      "text": "音楽は私の良い友達です。",
+      "text_en": "Music is my good friend.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"friend/companion\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 12.2,
+      "end": 15.58,
+      "duration": 3.38
+    },
+    {
+      "id": "story_20509_p1_c0",
+      "chunk_index": 3,
+      "paragraph_index": 1,
+      "sentence_index": 0,
+      "text": "私の母は遅い音楽を聞くのが好きで、私の父は古い音楽を聞くのが好きです。",
+      "text_en": "My mother likes to listen to slow music, my father likes to listen to old music, and my sister likes to listen to fast music.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はは\" data-defn=\"mother\" data-hsk=\"JLPT N5\"><span class=\"si\">母</span><rt>はは</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おそい\" data-defn=\"slow/time-consuming/sluggish; late (in the day)/towards the end (of the day or night)\" data-hsk=\"JLPT N5\"><span class=\"si\">遅い</span><rt>おそい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ちち\" data-defn=\"father\" data-hsk=\"JLPT N5\"><span class=\"si\">父</span><rt>ちち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ふるい\" data-defn=\"old/aged/ancient/antiquated/antique/timeworn; long/since long ago/time-honored\" data-hsk=\"JLPT N5\"><span class=\"si\">古い</span><rt>ふるい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 16.18,
+      "end": 24.06,
+      "duration": 7.88
+    },
+    {
+      "id": "story_20509_p1_c1",
+      "chunk_index": 4,
+      "paragraph_index": 1,
+      "sentence_index": 1,
+      "text": "そして、私の妹は速い音楽を聞くのが好きです。",
+      "text_en": "I like them all.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"そして\" data-defn=\"and/and then/thus/and now/and finally\" data-hsk=\"\"><span class=\"si\">そして</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いもうと\" data-defn=\"younger sister\" data-hsk=\"JLPT N5\"><span class=\"si\">妹</span><rt>いもうと</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"はやい\" data-defn=\"fast/quick/hasty/brisk; early (in the day, etc.)/premature\" data-hsk=\"JLPT N5\"><span class=\"si\">速い</span><rt>はやい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 24.41,
+      "end": 29.38,
+      "duration": 4.97
+    },
+    {
+      "id": "story_20509_p1_c2",
+      "chunk_index": 5,
+      "paragraph_index": 1,
+      "sentence_index": 2,
+      "text": "私は彼らのすべてが好きです。",
+      "text_en": "I like them all.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"かれら\" data-defn=\"they/them\" data-hsk=\"\"><span class=\"si\">彼ら</span><rt>かれら</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すべて\" data-defn=\"everything/all/the whole; entirely/completely/wholly/all\" data-hsk=\"\"><span class=\"si\">すべて</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 29.73,
+      "end": 32.9,
+      "duration": 3.17
+    },
+    {
+      "id": "story_20509_p2_c0",
+      "chunk_index": 6,
+      "paragraph_index": 2,
+      "sentence_index": 0,
+      "text": "私は音楽を聞くのが好きなので、歌うのも好きです。",
+      "text_en": "Because I like listening to music, I also like singing.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おんがく\" data-defn=\"music\" data-hsk=\"\"><span class=\"si\">音楽</span><rt>おんがく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"きく\" data-defn=\"to hear; to listen (e.g. to music)\" data-hsk=\"JLPT N5\"><span class=\"si\">聞く</span><rt>きく</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"な\" data-defn=\"be / is (plain copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">な</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ので\" data-defn=\"that being the case/because of .../the reason is .../given that ...\" data-hsk=\"\"><span class=\"si\">ので</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"うたう\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem\" data-hsk=\"JLPT N5\"><span class=\"si\">歌う</span><rt>うたう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"も\" data-defn=\"also / too\" data-hsk=\"JLPT N5\"><span class=\"si\">も</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"すき\" data-defn=\"liked/well-liked/favourite/favorite; in love (with)/loved/romantically interested (in\" data-hsk=\"JLPT N5\"><span class=\"si\">好き</span><rt>すき</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"です\" data-defn=\"be / is / are (polite copula)\" data-hsk=\"JLPT N5\"><span class=\"si\">です</span><rt></rt></ruby>。",
+      "start": 33.5,
+      "end": 38.7,
+      "duration": 5.2
+    },
+    {
+      "id": "story_20509_p2_c1",
+      "chunk_index": 7,
+      "paragraph_index": 2,
+      "sentence_index": 1,
+      "text": "私はたくさんの歌を歌うことができて、私の良い友達と私はしばしば一緒に歌います。",
+      "text_en": "I can sing a lot of songs, and my good friends and I often sing together.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"たくさん\" data-defn=\"a lot/lots/plenty/many/a large number/much/a great deal/a good deal; enough/sufficien\" data-hsk=\"\"><span class=\"si\">たくさん</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うた\" data-defn=\"song; classical Japanese poetry (esp. tanka)\" data-hsk=\"\"><span class=\"si\">歌</span><rt>うた</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"を\" data-defn=\"direct object marker\" data-hsk=\"JLPT N5\"><span class=\"si\">を</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたう\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem\" data-hsk=\"JLPT N5\"><span class=\"si\">歌う</span><rt>うたう</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"でき\" data-defn=\"to be out of/to have no more at hand (できる)\" data-hsk=\"JLPT N5\"><span class=\"si\">でき</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"て\" data-defn=\"conjunctive particle (and / -ing)\" data-hsk=\"JLPT N5\"><span class=\"si\">て</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"の\" data-defn=\"possessive particle (&#x27;s / of)\" data-hsk=\"JLPT N5\"><span class=\"si\">の</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"よい\" data-defn=\"good/excellent/fine/nice/pleasant/agreeable; sufficient/enough/ready/prepared\" data-hsk=\"JLPT N5\"><span class=\"si\">良い</span><rt>よい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ともだち\" data-defn=\"friend/companion\" data-hsk=\"JLPT N5\"><span class=\"si\">友達</span><rt>ともだち</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"しばしば\" data-defn=\"often/again and again/frequently/repeatedly\" data-hsk=\"\"><span class=\"si\">しばしば</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"いっしょ\" data-defn=\"together; at the same time\" data-hsk=\"\"><span class=\"si\">一緒</span><rt>いっしょ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"に\" data-defn=\"target / time / direction marker (to/at/in)\" data-hsk=\"JLPT N5\"><span class=\"si\">に</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"うたい\" data-defn=\"to sing; to sing (one&#x27;s praises in a poem, etc.)/to compose a poem/to recite a poem (歌う)\" data-hsk=\"JLPT N5\"><span class=\"si\">歌い</span><rt>うたい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 39.05,
+      "end": 47.6,
+      "duration": 8.55
+    },
+    {
+      "id": "story_20509_p3_c0",
+      "chunk_index": 8,
+      "paragraph_index": 3,
+      "sentence_index": 0,
+      "text": "私は踊れませんが、踊れないことは問題ではないと思います。",
+      "text_en": "I can't dance, but I think it doesn't matter if I can't dance.",
+      "ruby": "<ruby class=\"mb-tooltip\" data-py=\"わたし\" data-defn=\"I/me\" data-hsk=\"JLPT N5\"><span class=\"si\">私</span><rt>わたし</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ません\" data-defn=\"verb polite suffix (negative: do not)\" data-hsk=\"JLPT N5\"><span class=\"si\">ません</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"が\" data-defn=\"subject marker\" data-hsk=\"JLPT N5\"><span class=\"si\">が</span><rt></rt></ruby>、<ruby class=\"mb-tooltip\" data-py=\"おどれ\" data-defn=\"おどれ (word)\" data-hsk=\"JLPT N5\"><span class=\"si\">踊れ</span><rt>おどれ</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"こと\" data-defn=\"thing / matter / fact\" data-hsk=\"JLPT N5\"><span class=\"si\">こと</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"もんだい\" data-defn=\"question (e.g. on a test)/problem; problem (e.g. societal, political)/question/issue/\" data-hsk=\"\"><span class=\"si\">問題</span><rt>もんだい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"で\" data-defn=\"location / means marker (at/in/by)\" data-hsk=\"JLPT N5\"><span class=\"si\">で</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"は\" data-defn=\"topic marker\" data-hsk=\"JLPT N5\"><span class=\"si\">は</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ない\" data-defn=\"not / non-existent\" data-hsk=\"JLPT N5\"><span class=\"si\">ない</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"と\" data-defn=\"and / with\" data-hsk=\"JLPT N5\"><span class=\"si\">と</span><rt></rt></ruby><ruby class=\"mb-tooltip\" data-py=\"おもい\" data-defn=\"to think/to consider/to believe/to reckon; to think (of doing)/to plan (to do) (思う)\" data-hsk=\"JLPT N5\"><span class=\"si\">思い</span><rt>おもい</rt></ruby><ruby class=\"mb-tooltip\" data-py=\"ます\" data-defn=\"verb polite suffix (present/future)\" data-hsk=\"JLPT N5\"><span class=\"si\">ます</span><rt></rt></ruby>。",
+      "start": 48.2,
+      "end": 54.28,
+      "duration": 6.08
+    }
+  ],
+  "total_chunks": 9,
+  "audio_duration": 54.53,
+  "has_chunk_audio": true
+}
